@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6770 力積電 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 晶圓代工</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">6770 力積電</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-29</span>
+        <span class="meta-pill">有效至 2026-07-13</span>
+        <span class="meta-pill">評級 減碼/賣出</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-29.html">2026-06-29</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>力積電 6770 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-29。</li>
+<li>最新股價日期：2026-06-26，TWSE 個股日成交資訊顯示 6770 力積電收盤價 78.30 元、成交股數 332,913,359 股。</li>
+<li>最新財報期間：2026Q1，TWSE/MOPS open data 出表日 2026-06-28；最新月營收為 2026 年 5 月，出表日 2026-06-17。</li>
+<li>使用的主要資料來源：TWSE 公司基本資料、TWSE 個股日成交資訊、TWSE 個股日本益比/股價淨值比、MOPS 月營收、MOPS 2026Q1 綜合損益表與資產負債表、力積電官方製造服務頁、WSTS/SIA 半導體市場預測、SEMI 矽晶圓產業資料，以及 workorder 指定來源 <code>reports/news/2026-06-26_kol_news_decision_report.md</code>。</li>
+<li>主要來源連結：
+<ul>
+<li>TWSE 公司基本資料：https://openapi.twse.com.tw/v1/opendata/t187ap03_L</li>
+<li>TWSE 6770 日成交資訊：https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?date=20260601&amp;stockNo=6770&amp;response=json</li>
+<li>TWSE 本益比/殖利率/股價淨值比：https://www.twse.com.tw/rwd/zh/afterTrading/BWIBBU_d?date=20260626&amp;stockNo=6770&amp;response=json</li>
+<li>MOPS 月營收 open data：https://openapi.twse.com.tw/v1/opendata/t187ap05_L</li>
+<li>MOPS 綜合損益表 open data：https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci</li>
+<li>MOPS 資產負債表 open data：https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci</li>
+<li>力積電官方製造服務：https://www.powerchip.com/en-global/services/manufacturing-services-en</li>
+<li>WSTS/SIA 2026 半導體市場預測：https://www.semiconductors.org/global-semiconductor-sales-projected-to-soar-in-2026-following-double-digit-growth-in-2025/</li>
+<li>SEMI 矽晶圓產業資料：https://www.semi.org/en/news-media-press-releases/semi-press-releases</li>
+</ul>
+</li>
+<li>是否有資料缺口：有。官方 open data 未提供 Forward P/E、EV/EBITDA、P/S、FCF Yield、完整現金流量表、各製程產能利用率與客戶結構；同業 3-5 年 P/E 區間也未能由官方單一資料源完整驗證。</li>
+<li>需要再次查證的數據：自由現金流、資本支出明細、各產品線營收占比、一次性收益來源與可重複性、成熟製程報價、客戶集中度、2026Q2 以後產能利用率。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：力積電是台灣成熟製程晶圓代工與記憶體相關製造服務公司，提供 12 吋與 8 吋晶圓製造能力。</li>
+<li>所屬主要產業：半導體晶圓代工，偏成熟製程、特殊製程與記憶體製程。</li>
+<li>產業鏈位置：半導體中游製造端，上游依賴設備、矽晶圓與化學材料，下游服務 IC 設計、IDM、車用/工控/消費電子晶片客戶。</li>
+<li>核心投資邏輯：2026 年前 5 月營收年增 31.4%，顯示成熟製程需求、價格或出貨有改善；但 2026Q1 毛利率僅約 10.2%，扣除重大其他收益後核心營業仍偏弱，股價已反映高度復甦預期。</li>
+<li>目前投資評級：減碼/賣出。</li>
+<li>主要理由：2026-06-26 官方 P/E 44.24 倍、P/B 3.44 倍，對一家核心獲利仍受折舊、利用率與成熟製程價格壓力影響的代工廠而言，安全邊際不足；2026Q1 EPS 3.36 元明顯受其他收益拉高，不能直接視為常態獲利。</li>
+<li>主要風險：成熟製程供過於求、價格回落、折舊壓力、資本支出回收不確定、一次性利益不可持續、籌碼高波動。</li>
+<li>最重要的 3-5 個追蹤指標：月營收年增率、毛利率、扣除一次性損益後營業利益率、產能利用率、成熟製程報價與庫存週轉。</li>
+<li>代表性美股與台股同業：台積電、聯電、世界先進、GlobalFoundries、Intel Foundry；上游可觀察環球晶、合晶， downstream 可觀察日月光投控與主要 IC 設計客戶。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：晶圓代工製造、記憶體與邏輯製程製造服務、特殊製程與車用規格製造服務。力積電官方製造服務頁指出公司有 12 吋與 8 吋廠，並提供一般消費、工業規格與車用零缺陷需求的晶圓代工服務。</li>
+<li>營收來源：客戶委託力積電生產晶圓，收入主要來自晶圓出貨量乘以平均售價；成熟製程的價格、產品組合與產能利用率是關鍵。</li>
+<li>主要客戶：官方 open data 未揭露客戶名單；依產業定位推論，客戶多為成熟製程 IC 設計、IDM、記憶體相關與特殊應用晶片公司。客戶集中度需查證。</li>
+<li>毛利率與營益率特性：晶圓代工具有高固定成本與高折舊特性，產能利用率上升時毛利率彈性大，利用率下降時毛利率會快速受壓。2026Q1 毛利率約 10.2%；表面營業利益率約 104.8%，但被 153.68 億元其他收益及費損淨額拉高，扣除後核心營業約為虧損。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：2026 年 5 月月營收備註指出主因為客戶需求上升、銷售量增加、銷售價格調漲；因此近期成長同時來自量與價。</li>
+<li>是否有景氣循環性：高度循環。成熟製程與記憶體相關需求容易受到終端庫存、產業擴產、價格循環與資本支出週期影響。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：成熟製程晶圓代工、特殊製程代工與記憶體相關製造。</li>
+<li>產業解決什麼問題：把 IC 設計公司的設計圖轉成可量產的晶片，提供不想自建晶圓廠的客戶製造能力。</li>
+<li>需求來自哪裡：消費電子、工業控制、車用、通訊、顯示驅動、電源管理、感測器、記憶體與部分 AI 邊緣裝置需求。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：先進製程處於結構成長期，但力積電主要曝險的成熟製程更接近成熟產業加景氣循環期。</li>
+<li>長期成長驅動力：車用與工控電子化、電源管理 IC 增加、成熟節點在物聯網與邊緣裝置中的長尾需求、半導體供應鏈在地化。</li>
+<li>短期波動因素：庫存去化、成熟製程報價、競爭者產能、匯率、電力與折舊成本、客戶急單能否延續。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游設備</td>
+<td>提供晶圓製造設備</td>
+<td>沉積、蝕刻、曝光、量測</td>
+<td>AMAT、LRCX、KLAC</td>
+<td>需查證</td>
+<td>高，技術集中</td>
+<td>高毛利</td>
+<td>出口管制、資本支出循環</td>
+</tr>
+<tr>
+<td>上游材料</td>
+<td>提供矽晶圓與化學材料</td>
+<td>矽晶圓、氣體、光阻、化學品</td>
+<td>Entegris、SUMCO、Shin-Etsu</td>
+<td>環球晶、合晶、中美晶</td>
+<td>中高，品質認證長</td>
+<td>循環但規格提高可擴毛利</td>
+<td>半導體稼動率下降</td>
+</tr>
+<tr>
+<td>中游製造</td>
+<td>晶圓代工</td>
+<td>成熟/特殊/先進製程晶圓</td>
+<td>GFS、Intel Foundry</td>
+<td>台積電、聯電、世界、力積電</td>
+<td>差異大；先進製程最高，成熟製程較弱</td>
+<td>高固定成本、利用率敏感</td>
+<td>產能過剩、價格競爭</td>
+</tr>
+<tr>
+<td>封測</td>
+<td>後段封裝測試</td>
+<td>封裝、測試、先進封裝</td>
+<td>Amkor</td>
+<td>日月光投控、京元電、南茂</td>
+<td>中</td>
+<td>隨高階封裝提高</td>
+<td>客戶拉貨波動</td>
+</tr>
+<tr>
+<td>下游客戶</td>
+<td>設計與品牌</td>
+<td>MCU、PMIC、Display Driver、記憶體、車用 IC</td>
+<td>QCOM、ADI、TXN、NVDA</td>
+<td>聯發科、瑞昱、矽力-KY</td>
+<td>視產品而定</td>
+<td>Fabless 通常較高</td>
+<td>終端需求與庫存循環</td>
+</tr>
+<tr>
+<td>終端需求</td>
+<td>應用市場</td>
+<td>車用、工控、消費電子、通訊</td>
+<td>Apple、Tesla、Ford</td>
+<td>鴻海、和碩、車電供應鏈</td>
+<td>大型品牌高</td>
+<td>終端品牌差異大</td>
+<td>消費景氣、價格競爭</td>
+</tr>
+</tbody>
+</table></div>
+<p>力積電位於中游晶圓製造段。它掌握製造能力與車用規格認證，但相較台積電的先進製程，成熟製程代工的議價能力較弱，關鍵在產能利用率、成本控制與客戶組合。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：成熟製程技術不是最前沿，但良率、製程穩定性、特殊製程配方與車用品質系統仍需要長期累積。</li>
+<li>規模經濟：晶圓廠固定成本高，滿載時單位成本下降；反之，低利用率會迅速侵蝕毛利。</li>
+<li>客戶黏著度：晶片導入晶圓廠需要驗證與量產爬坡，切換成本存在，但成熟製程供應商較多，價格壓力也較高。</li>
+<li>轉換成本：車用、工控與特殊應用切換成本較高；消費電子與標準化產品較容易被替代。</li>
+<li>品牌或通路優勢：品牌力低於台積電與聯電，主要靠製造彈性、成本與成熟節點經驗競爭。</li>
+<li>成本優勢：需要靠折舊結構、產能利用率與良率維持；目前核心毛利率仍顯示成本壓力不小。</li>
+<li>專利、法規或資本門檻：晶圓廠資本門檻高，且車用品質認證需要時間。</li>
+<li>是否容易被替代：在標準成熟製程上替代性中高；在通過客戶認證的車用/特殊製程上替代性較低。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：2026 年 5 月單月營收 57.70 億元，年增 58.86%；前 5 月累計營收 243.89 億元，年增 31.42%。若延續，代表客戶需求與報價改善；若回落，表示急單或價格動能消退。</li>
+<li>毛利率：2026Q1 毛利率約 10.2%。上升代表利用率、價格或產品組合改善；低於同業則表示成本/折舊壓力仍重。</li>
+<li>營益率：2026Q1 表面營業利益率約 104.8%，但包含 153.68 億元其他收益及費損；扣除此項後核心營業約為負，應追蹤可重複營業利益。</li>
+<li>EPS 成長率：2026Q1 EPS 3.36 元，但受一次性收益扭曲；需要以後續季度確認常態 EPS。</li>
+<li>自由現金流：官方 open data 未提供，需查證。晶圓代工若 FCF 轉正，代表資本支出壓力下降與營運現金流改善。</li>
+<li>資本支出：需查證。若景氣未穩而大幅擴產，會提高折舊與供給壓力。</li>
+<li>存貨週轉：需查證。存貨週轉改善代表客戶拉貨與庫存健康；惡化代表需求回落。</li>
+<li>訂單能見度：需查證。成熟製程通常能見度低於先進製程長約。</li>
+<li>客戶集中度：需查證。若單一客戶或單一應用占比高，營收波動會放大。</li>
+<li>市占率：需查證。成熟製程市占率變化需要對照 UMC、VIS、GFS、SMIC 等資料。</li>
+<li>產能利用率：需查證，是判斷毛利率能否回升的核心指標。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6770</td>
+<td>力積電</td>
+<td>台股 TWSE</td>
+<td>成熟製程晶圓代工</td>
+<td>12 吋/8 吋晶圓製造</td>
+<td>台灣製造基地、成熟製程經驗</td>
+<td>核心獲利弱、一次性收益扭曲</td>
+<td>中，受復甦循環影響</td>
+<td>低到中</td>
+<td>P/E 44.24、P/B 3.44，偏貴</td>
+</tr>
+<tr>
+<td>2330</td>
+<td>台積電</td>
+<td>台股 TWSE</td>
+<td>先進與特殊製程代工</td>
+<td>先進製程、CoWoS、成熟特殊製程</td>
+<td>技術與規模領先</td>
+<td>地緣政治、資本支出</td>
+<td>高</td>
+<td>高</td>
+<td>P/E 31.46、P/B 10.30，溢價有基本面支撐</td>
+</tr>
+<tr>
+<td>2303</td>
+<td>聯電</td>
+<td>台股 TWSE</td>
+<td>成熟製程代工</td>
+<td>12/8 吋成熟製程</td>
+<td>客戶基礎廣、財務穩健</td>
+<td>成熟製程價格競爭</td>
+<td>中</td>
+<td>中高</td>
+<td>P/E 41.21、P/B 5.07，復甦預期已高</td>
+</tr>
+<tr>
+<td>5347</td>
+<td>世界先進</td>
+<td>台股 TPEx</td>
+<td>8 吋成熟製程</td>
+<td>電源、車用、驅動 IC</td>
+<td>8 吋利基製程</td>
+<td>終端循環、產能限制</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 48.67、P/B 5.51，偏高</td>
+</tr>
+<tr>
+<td>GFS</td>
+<td>GlobalFoundries</td>
+<td>美股</td>
+<td>成熟/特殊製程代工</td>
+<td>RF、車用、IoT、特殊製程</td>
+<td>美國/歐洲製造與長約</td>
+<td>成長低於先進製程</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>INTC</td>
+<td>Intel</td>
+<td>美股</td>
+<td>IDM 與代工</td>
+<td>CPU、晶圓代工轉型</td>
+<td>技術與資本規模</td>
+<td>代工轉型執行風險</td>
+<td>中高但波動大</td>
+<td>低到中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>6488</td>
+<td>環球晶</td>
+<td>台股 TPEx</td>
+<td>上游矽晶圓</td>
+<td>半導體矽晶圓</td>
+<td>全球客戶與長約</td>
+<td>晶圓需求循環</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 57.74、P/B 4.79</td>
+</tr>
+<tr>
+<td>6182</td>
+<td>合晶</td>
+<td>台股 TPEx</td>
+<td>上游矽晶圓</td>
+<td>矽晶圓材料</td>
+<td>台灣材料供應鏈</td>
+<td>利潤低、估值高</td>
+<td>中</td>
+<td>低</td>
+<td>P/E 2987.50、P/B 4.49</td>
+</tr>
+<tr>
+<td>3711</td>
+<td>日月光投控</td>
+<td>台股 TWSE</td>
+<td>下游封測</td>
+<td>封裝測試、EMS</td>
+<td>全球封測龍頭</td>
+<td>封測循環、資本支出</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>QCOM</td>
+<td>Qualcomm</td>
+<td>美股</td>
+<td>下游客戶/IC 設計</td>
+<td>手機與邊緣 AI 晶片</td>
+<td>IP 與品牌客戶</td>
+<td>手機週期、客戶集中</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>力積電</td>
+<td>6770</td>
+<td>TWSE</td>
+<td>44.24</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>成熟製程同業偏高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026Q1 約 10.2%</td>
+<td>2026 年前 5 月 +31.4%</td>
+<td>一次性獲利墊高 EPS，估值偏貴</td>
+</tr>
+<tr>
+<td>台積電</td>
+<td>2330</td>
+<td>TWSE</td>
+<td>31.46</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高品質龍頭溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>溢價主要來自先進製程與 AI 需求</td>
+</tr>
+<tr>
+<td>聯電</td>
+<td>2303</td>
+<td>TWSE</td>
+<td>41.21</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>成熟製程偏高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>若成熟製程未持續復甦，容錯低</td>
+</tr>
+<tr>
+<td>世界先進</td>
+<td>5347</td>
+<td>TPEx</td>
+<td>48.67</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>成熟 8 吋偏高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>市場已反映利基製程復甦</td>
+</tr>
+<tr>
+<td>GlobalFoundries</td>
+<td>GFS</td>
+<td>US</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>國際成熟製程參考</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>缺少同日官方估值，僅作質化比較</td>
+</tr>
+<tr>
+<td>Intel</td>
+<td>INTC</td>
+<td>US</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>轉型折價/風險溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>代工轉型不確定性高</td>
+</tr>
+<tr>
+<td>環球晶</td>
+<td>6488</td>
+<td>TPEx</td>
+<td>57.74</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>上游材料高位</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>半導體材料復甦預期已反映</td>
+</tr>
+</tbody>
+</table></div>
+<p>同業 P/E 低位/中位/高位：以 2026-06-26 官方資料粗略觀察，台灣半導體成熟製程/材料樣本多落在約 41-58 倍，合晶因 EPS 接近零而失真。力積電 44.24 倍不算樣本最高，但其核心營業尚未明確恢復，因此折溢價不具吸引力。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>成熟製程需求復甦延續，車用/工控/特殊製程利用率上升，報價穩定</td>
+<td>年複合中高個位數到低雙位數</td>
+<td>毛利率回升至中高 teens</td>
+<td>常態 EPS 明顯轉強</td>
+<td>成熟製程景氣高檔可給較高倍數，但需低於一次性 EPS 推算</td>
+<td>股價有基本面支撐，但需確認非一次性獲利</td>
+<td>月營收連續年增、毛利率逐季上升、核心營業利益轉正</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>2026 急單與價格改善部分延續，但成熟製程供給仍多</td>
+<td>年複合中個位數</td>
+<td>毛利率緩慢改善</td>
+<td>EPS 由虧轉盈但波動</td>
+<td>中性倍數</td>
+<td>股價高波動，估值修正壓力仍在</td>
+<td>Q2/Q3 毛利率未明顯擴張、月營收年增放緩</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>急單結束，價格回落，折舊與供給壓力回來</td>
+<td>持平到衰退</td>
+<td>毛利率再度壓縮</td>
+<td>常態 EPS 轉弱或虧損</td>
+<td>低倍數或 P/B 折價</td>
+<td>評級維持偏空，需降風險</td>
+<td>月營收轉年減、庫存升、核心營業虧損擴大</td>
+</tr>
+</tbody>
+</table></div>
+<p>每個情境下，最需要觀察的是：月營收年增是否能延續、Q2/Q3 毛利率是否上升、其他收益占獲利比重是否下降、產能利用率是否改善、成熟製程報價是否穩定。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6770</td>
+<td>力積電</td>
+<td>減碼/賣出</td>
+<td>能承受高波動且理解成熟製程循環的投資人</td>
+<td>月營收改善是真實正面訊號，但目前價格與估值對常態獲利要求過高</td>
+<td>2026Q1 EPS 受一次性收益扭曲，核心營業仍弱；P/B 3.44 不低</td>
+<td>可作為成熟製程復甦觀察標的</td>
+<td>月營收、毛利率、核心營業利益、產能利用率、成熟製程報價</td>
+<td>若連續 2-3 季核心營業利益轉正且估值回到合理區間，才可能上調至觀察或續抱</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合把它當作新手第一個半導體持股；波動大、獲利受一次性項目扭曲，研究難度高。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？研究角度偏向降低曝險或至少不加碼，直到常態毛利率與核心營業利益改善被財報確認。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等月營收成長不是只靠短期急單、毛利率逐季回升、扣除一次性利益後營業利益轉正，且估值回落。</li>
+<li>哪些訊號會讓你把評級上調？連續多季核心營業利益轉正、P/B 回落、成熟製程報價穩定、產能利用率明確提升。</li>
+<li>哪些訊號會讓你把評級下調？月營收轉弱、毛利率下滑、資本支出造成折舊壓力加劇、一次性收益消失後 EPS 大幅回落。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不屬於。核心半導體持股更應偏向現金流穩定、護城河清楚、獲利可預測性高的公司。</li>
+<li>成長型：部分符合。半導體復甦與特殊製程有成長線索，但不是長期高確定性成長。</li>
+<li>景氣循環型：最符合。營收、毛利率與股價都高度依賴成熟製程循環。</li>
+<li>高風險高報酬型：符合。若復甦超預期，股價彈性大；若急單消失，估值修正也會很大。</li>
+<li>只適合觀察、不適合輕易買進：目前最合理。它是觀察成熟製程復甦的樣本，但不是安全邊際充足的配置標的。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：P/E 44.24、P/B 3.44，若 EPS 回到常態低檔，估值會顯得更貴。</li>
+<li>景氣反轉風險：成熟製程常見急單後需求回落，報價與稼動率可能再度下修。</li>
+<li>技術替代風險：先進製程整合更多功能、或大型 IDM/代工廠釋出成熟產能，會壓縮中小型代工廠空間。</li>
+<li>競爭加劇風險：聯電、世界先進、SMIC、GFS 與各地政策支持的成熟製程產能都可能增加供給。</li>
+<li>政策與地緣政治風險：半導體出口管制、兩岸風險、電力與水資源都可能影響晶圓廠營運。</li>
+<li>客戶集中風險：需查證；若少數客戶貢獻復甦，營收續航力會較弱。</li>
+<li>財報可能出現的警訊：毛利率未跟上營收成長、其他收益比重過高、存貨增加、營運現金流未改善、折舊壓力上升。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：綜合損益表中的毛利率與其他收益、資產負債表中的負債與折舊相關資產、現金流量表中的營運現金流與資本支出。</li>
+<li>法說會應聽重點：產能利用率、成熟製程報價、車用與工控需求、P5 廠進度、一次性收益性質。</li>
+<li>每季追蹤指標：月營收年增、毛利率、核心營業利益、EPS、存貨、應收帳款、資本支出。</li>
+<li>產業數據來源：WSTS/SIA 半導體銷售、SEMI 晶圓與設備資料、TrendForce/Counterpoint foundry share、TWSE/MOPS 官方公告。</li>
+<li>競爭對手觀察名單：聯電、世界先進、台積電成熟特殊製程、GlobalFoundries、SMIC。</li>
+<li>初學者下一步應該研究哪 3 家公司：台積電、聯電、世界先進。這三家公司能幫助理解先進製程、成熟製程與 8 吋利基製程的差異。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是理解成熟製程循環與晶圓代工營運槓桿的好入口，但不是最穩健的半導體入門標的。</li>
+<li>該產業是否值得長期追蹤：值得。成熟製程雖非最熱門的 AI 先進製程，但在車用、工控、PMIC、感測與長尾應用仍重要。</li>
+<li>目前最重要的投資邏輯：月營收復甦能否轉化為可重複毛利與核心營業利益，而不是只反映一次性收益與短線題材。</li>
+<li>最大風險：估值已提前反映復甦，但常態獲利仍未被連續財報證明。</li>
+<li>估值是否已經反映成長預期：大致已反映，甚至對成熟製程復甦給了偏高期待。</li>
+<li>最終投資評級與理由：減碼/賣出。理由是股價與估值不便宜、核心營業仍待證明、2026Q1 獲利品質受一次性項目扭曲。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：成熟製程代工同業、上游矽晶圓與設備材料、下游 PMIC/車用/工控 IC 客戶需求。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

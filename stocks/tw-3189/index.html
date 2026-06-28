@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3189 景碩 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · ABF 載板</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">3189 景碩</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-29</span>
+        <span class="meta-pill">有效至 2026-07-13</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-29.html">2026-06-29</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>景碩 3189 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-29。有效性至 2026-07-13；超過此日應重抓價格、估值、月營收與法說更新。</li>
+<li>最新股價日期：2026-06-26。TWSE 2026-06-29 個股日本益比 API 尚無符合資料，因此採前一可得交易日 2026-06-26。</li>
+<li>最新財報期間：115 年第 1 季（2026Q1），TWSE OpenAPI <code>t187ap14_L</code> 出表日期 1150628。</li>
+<li>使用的主要資料來源：TWSE 個股日本益比/殖利率/PB（2026-06-26）、TWSE MI_INDEX 日行情（2026-06-26）、TWSE OpenAPI 月營收 <code>t187ap05_L</code>（出表 1150617）、TWSE OpenAPI 第一季損益簡表 <code>t187ap14_L</code>（出表 1150628）、公司官方 IR/產品頁、IDC 2026 半導體市場展望、TrendForce ABF/AI 基板相關研究、Mordor Intelligence advanced IC substrates 2026-2031 研究。</li>
+<li>是否有資料缺口：有。官方即時來源未完整取得 Forward P/E、EV/EBITDA、FCF Yield、自由現金流、資本支出、存貨週轉、客戶集中度與逐產品毛利率，因此相關欄位標示 <code>需查證</code>。</li>
+<li>需要再次查證的數據：2026-06-29 收盤價、2026Q2 財報、最新法說簡報、訂單能見度、ABF 產品 ASP、產能利用率、客戶別營收與資本支出。</li>
+<li>本報告為教育與研究用途，並非個人化投資建議、投顧服務或報酬保證。</li>
+<li>公司官方來源：景碩官方財務頁：https://www.kinsus.com.tw/en-global/Download/financial-information；月營收頁：https://www.kinsus.com.tw/en-global/Revenue/revenue-information；FCBGA 產品頁：https://www.kinsus.com.tw/en-global/Product/product/Detail/en_FCBGA
+主要外部來源連結：</li>
+<li>TWSE BWIBBU 2026-06-26：https://www.twse.com.tw/rwd/zh/afterTrading/BWIBBU_d?date=20260626&amp;selectType=ALL&amp;response=json</li>
+<li>TWSE MI_INDEX 2026-06-26：https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20260626&amp;type=ALLBUT0999&amp;response=json</li>
+<li>TWSE OpenAPI 月營收：https://openapi.twse.com.tw/v1/opendata/t187ap05_L</li>
+<li>TWSE OpenAPI 損益簡表：https://openapi.twse.com.tw/v1/opendata/t187ap14_L</li>
+<li>IDC 2026 semiconductor forecast：https://www.idc.com/resource-center/blog/semiconductor-market-to-surge-past-the-trillion-dollar-threshold-ai-infrastructure-drives-market-growth/</li>
+<li>TrendForce ABF substrate market：https://www.trendforce.com/news/2023/05/25/server-specification-upgrade-a-bountiful-blue-ocean-for-abf-substrates/</li>
+<li>TrendForce glass fiber cloth shortage：https://insights.trendforce.com/p/glass-fiber-cloth-shortage</li>
+<li>Mordor advanced IC substrates market：https://www.mordorintelligence.com/industry-reports/advanced-ic-substrates-market</li>
+<li>workorder 來源：reports/news/2026-06-26_kol_news_decision_report.md「現在不能買，但值得等買點名單」。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：景碩科技是台灣 ABF/IC 載板與 PCB 供應商，受 AI server、HPC、GPU/ASIC 封裝需求牽動。</li>
+<li>所屬主要產業：ABF 載板、IC 載板、高階 PCB。</li>
+<li>產業鏈位置：中游高階載板製造，連接上游材料/設備與下游先進封裝、晶片設計、AI server。</li>
+<li>核心投資邏輯：AI accelerator 的封裝面積、層數、訊號完整性要求提高，推升高階 ABF/FCBGA 載板需求；但 2026-06-26 股價與本益比已大幅反映樂觀預期。</li>
+<li>目前投資評級：觀察</li>
+<li>主要理由：2026 年前五月營收 +29.27%，需求復甦明確；但 2026-06-26 P/E 224.51、P/B 9.73，估值安全邊際不足。</li>
+<li>主要風險：追高套牢、ABF 循環反轉、良率/稼動率不如預期、材料短缺、客戶拉貨延後、估值壓縮。</li>
+<li>最重要的 3-5 個追蹤指標：月營收年增率、營益率、EPS、本業現金流、ABF 產能利用率與法說訂單能見度。</li>
+<li>代表性美股與台股同業：美股 TTMI、AMKR、NVDA、AMD；台股 3037 欣興、3189 景碩、8046 南電、2368 金像電、2313 華通、6213 聯茂、3711 日月光投控。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：景碩官方 FCBGA 頁說明 flip chip 封裝適用於高腳數微處理器與圖形處理器，並指出 server、data center 需要更高運算能力；FCCSP 頁則以智慧手機 application processor 與 connectivity 為主要應用。</li>
+<li>營收來源：銷售高階 PCB、IC 載板與相關電子零組件，ABF/FCBGA 受 AI/HPC、高階 ASIC、GPU/CPU 需求牽動。</li>
+<li>主要客戶：晶片設計公司、IDM、封裝廠與系統供應鏈；個別客戶集中度官方即時資料未完整取得，標示為 <code>需查證</code>。</li>
+<li>毛利率與營益率特性：2026Q1 營業利益率約 8.02%，淨利率約 7.89%；毛利率與逐產品毛利官方即時資料未取得，需查證。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：短期主要來自 AI/HPC 載板需求擴張、產品 mix 改善與稼動率回升；若高階 ABF 供需偏緊，ASP 也可能改善。</li>
+<li>是否有景氣循環性：有。ABF/PCB 兼具長期技術升級與短期庫存循環，過去 P/E 在景氣底部與題材高峰差異極大。</li>
+<li>最新營運數據：2026 年 5 月營收 42.00 億元，月增 +3.13%、年增 +33.02%；前五月累計營收 193.77 億元、年增 +29.27%。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：ABF 載板與高階 IC substrate，廣義上屬半導體先進封裝材料/零組件供應鏈。</li>
+<li>產業解決什麼問題：高階 CPU/GPU/ASIC 晶片 I/O 腳數、功耗、面積與訊號完整性要求提高，需要高層數、大尺寸、低翹曲、細線寬線距的載板承接晶片與主機板之間的訊號與電源。</li>
+<li>需求來自哪裡：AI server、HPC、資料中心 GPU/ASIC、server CPU、networking ASIC、高階消費電子與部分車用/工業晶片。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：ABF 技術不是新導入，但 AI/HPC 帶動高階規格進入新一輪成長期；傳統 PC/手機載板仍有循環性。</li>
+<li>長期成長驅動力：IDC 指出 2026 半導體成長由 AI infrastructure 主導；TrendForce 曾估 ABF substrate 市場由 2023 年 93 億美元增至 2026 年 150 億美元；Mordor 指 advanced IC substrates 2026-2031 仍成長，且 AI/HPC/data-center end-use 增速較快。</li>
+<li>短期波動因素：AI server 拉貨節奏、Nvidia/AMD/ASIC 世代轉換、上游玻纖布與 ABF film 供應、客戶庫存、台股資金動能與高估值回檔。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游材料</td>
+<td>ABF film、樹脂、玻纖布、銅箔、CCL</td>
+<td>高階絕緣材料、低損耗材料、銅箔基板</td>
+<td>DuPont、Isola（需查證）、材料商多非美股純標的</td>
+<td>聯茂、台玻、南亞塑膠、金居</td>
+<td>高階材料短缺時高</td>
+<td>可因缺料而擴張，但受原料波動影響</td>
+<td>材料短缺、替代材料、報價反轉</td>
+</tr>
+<tr>
+<td>設備/製程</td>
+<td>雷射鑽孔、曝光、濕製程、檢測</td>
+<td>IC 載板設備、AOI、LDI</td>
+<td>Applied Materials（間接受惠）</td>
+<td>牧德、群翊、志聖（需查證純度）</td>
+<td>視瓶頸設備而定</td>
+<td>訂單週期性高</td>
+<td>客戶延後資本支出</td>
+</tr>
+<tr>
+<td>中游載板</td>
+<td>ABF/FCBGA、FCCSP、BT substrate</td>
+<td>CPU/GPU/ASIC 用 IC 載板</td>
+<td>TTM（PCB）、Amkor（封裝需求端）</td>
+<td>欣興、景碩、南電</td>
+<td>高階 ABF 緊缺時高</td>
+<td>利潤率受良率、稼動率、產品 mix 影響大</td>
+<td>產能過剩、良率不佳、ASP 下滑</td>
+</tr>
+<tr>
+<td>先進封裝</td>
+<td>CoWoS/2.5D/3D、OSAT</td>
+<td>晶片封裝與測試</td>
+<td>Intel、Amkor</td>
+<td>台積電、日月光投控</td>
+<td>先進封裝瓶頸時高</td>
+<td>規模與資本支出驅動</td>
+<td>產能開出與折舊壓力</td>
+</tr>
+<tr>
+<td>晶片設計/IDM</td>
+<td>GPU、CPU、AI ASIC、Networking</td>
+<td>AI accelerator、server CPU、switch ASIC</td>
+<td>Nvidia、AMD、Broadcom、Marvell、Intel</td>
+<td>聯發科、世芯-KY、創意</td>
+<td>需求核心，議價力高</td>
+<td>毛利率通常高於製造環節</td>
+<td>AI capex 放緩、產品世代失敗</td>
+</tr>
+<tr>
+<td>系統/雲端</td>
+<td>AI server、資料中心、CSP</td>
+<td>GPU/ASIC server、rack system</td>
+<td>Dell、Supermicro、Microsoft、Amazon、Google</td>
+<td>鴻海、廣達、緯創、英業達</td>
+<td>大客戶集中度高</td>
+<td>組裝毛利率較低但規模大</td>
+<td>客戶拉貨節奏與庫存修正</td>
+</tr>
+</tbody>
+</table></div>
+<p>景碩科技位於中游高階載板段。它不是 AI 晶片需求的最終決策者，但若能掌握高階 ABF/FCBGA 良率、客戶認證與產能，會成為 AI accelerator 量產不可缺的瓶頸零組件之一。反過來說，若上游材料短缺或下游客戶延後拉貨，營收與毛利也會快速波動。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：高階 ABF 需要細線寬線距、多層堆疊、低翹曲、可靠度與良率控制；IC 載板專注度高、FCBGA/FCCSP 製程經驗、與封裝/晶片客戶共同認證能力；但規模與財務彈性低於欣興，景氣循環時波動較高。</li>
+<li>規模經濟：載板產線資本支出高，稼動率提升會放大營業利益；稼動率下降也會快速壓縮利潤。</li>
+<li>客戶黏著度：高階晶片封裝通常需要長期認證與共同開發，供應商一旦進入大客戶設計與量產流程，切換不容易。</li>
+<li>轉換成本：客戶更換載板供應商涉及可靠度、良率、封裝參數與交期風險，因此轉換成本高。</li>
+<li>品牌或通路優勢：B2B 供應鏈不靠消費品牌，優勢來自交期、品質、認證與客戶關係。</li>
+<li>成本優勢：量產良率、材料採購、產能配置與自動化決定成本優勢。</li>
+<li>專利、法規或資本門檻：專利與製程 know-how 重要，但更大的門檻是資本支出、良率學習曲線與客戶認證。</li>
+<li>是否容易被替代：短期不容易；中長期需觀察玻璃基板、fan-out panel level packaging、不同封裝架構是否降低 ABF 使用量。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：+29.27% 代表需求復甦；若連續轉弱，表示拉貨或 ASP 可能反轉。</li>
+<li>毛利率：需查證；若改善，通常代表產品 mix、價格、良率或稼動率提升；若惡化，可能是降價、折舊或材料成本壓力。</li>
+<li>營益率：2026Q1 約 8.02%；比營收更能反映本業復甦品質。</li>
+<li>EPS 成長率：2026Q1 EPS 1.17 元；目前 P/E 高，市場要求未來 EPS 快速成長。</li>
+<li>自由現金流：需查證；ABF 擴產資本支出大，若 FCF 長期偏弱，股價支撐會下降。</li>
+<li>資本支出：需查證；擴產代表需求信心，但過度擴產會造成下一輪供給壓力。</li>
+<li>存貨週轉：需查證；存貨上升而營收未跟上是景氣反轉警訊。</li>
+<li>訂單能見度：需查證；高階 AI/HPC 客戶長單越明確，越能支持高估值。</li>
+<li>客戶集中度：需查證；若少數 AI 客戶占比過高，客戶產品延遲會放大波動。</li>
+<li>市占率：需查證；可用高階 ABF 認證與產能開出速度作間接追蹤。</li>
+<li>產能利用率：需查證；高固定成本產業中，稼動率是毛利率與 EPS 的核心變數。</li>
+<li>最新季損益：2026Q1 營收 111.05 億元、營業利益 8.91 億元、稅後淨利 8.76 億元、EPS 1.17 元。2026Q1 EPS 只有 1.17 元，卻對應 224.51 倍本益比，代表市場已預先押注後續獲利大幅復甦。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3037</td>
+<td>欣興</td>
+<td>台股</td>
+<td>PCB/IC 載板</td>
+<td>HDI、PCB、FCBGA、FCCSP</td>
+<td>規模與產品線完整</td>
+<td>高估值、本業利潤率需確認</td>
+<td>高</td>
+<td>中</td>
+<td>2026-06-26 P/E 143.38、P/B 13.66，偏高</td>
+</tr>
+<tr>
+<td>3189</td>
+<td>景碩</td>
+<td>台股</td>
+<td>IC 載板</td>
+<td>FCBGA、FCCSP、PBGA、CSP</td>
+<td>IC 載板純度高</td>
+<td>規模較小、獲利彈性高但波動大</td>
+<td>高</td>
+<td>中低</td>
+<td>P/E 224.51、P/B 9.73，偏高</td>
+</tr>
+<tr>
+<td>8046</td>
+<td>南電</td>
+<td>台股</td>
+<td>PCB/IC 載板</td>
+<td>ABF/Flip Chip substrate、PCB</td>
+<td>集團資源、營益率較佳</td>
+<td>P/E/PB 極高、循環反轉風險</td>
+<td>高</td>
+<td>中</td>
+<td>P/E 238.35、P/B 15.56，偏高</td>
+</tr>
+<tr>
+<td>2368</td>
+<td>金像電</td>
+<td>台股</td>
+<td>高階 PCB</td>
+<td>AI server PCB、網通板</td>
+<td>AI server 板受惠明確</td>
+<td>P/B 已高、客戶集中需查證</td>
+<td>高</td>
+<td>中</td>
+<td>P/E 53.72、P/B 17.45，較 ABF 三雄便宜但 PB 高</td>
+</tr>
+<tr>
+<td>2313</td>
+<td>華通</td>
+<td>台股</td>
+<td>PCB/HDI</td>
+<td>通訊、伺服器、汽車 PCB</td>
+<td>客戶與應用分散</td>
+<td>產品組合較不純 ABF</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 39.24、P/B 5.66，相對低</td>
+</tr>
+<tr>
+<td>6213</td>
+<td>聯茂</td>
+<td>台股</td>
+<td>上游材料</td>
+<td>銅箔基板、低損耗材料</td>
+<td>AI PCB/高速材料受惠</td>
+<td>材料報價與庫存循環</td>
+<td>中高</td>
+<td>中</td>
+<td>P/E 84.72、P/B 5.97，偏高</td>
+</tr>
+<tr>
+<td>TTMI</td>
+<td>TTM Technologies</td>
+<td>美股</td>
+<td>PCB/高階電路板</td>
+<td>航太國防、資料中心 PCB</td>
+<td>美國製造與高可靠度板</td>
+<td>需查證最新估值與訂單</td>
+<td>中</td>
+<td>中</td>
+<td>估值需查證</td>
+</tr>
+<tr>
+<td>AMKR</td>
+<td>Amkor</td>
+<td>美股</td>
+<td>封測/先進封裝</td>
+<td>OSAT、封裝服務</td>
+<td>全球封測規模</td>
+<td>封測循環、資本支出</td>
+<td>中</td>
+<td>中</td>
+<td>估值需查證</td>
+</tr>
+<tr>
+<td>NVDA</td>
+<td>Nvidia</td>
+<td>美股</td>
+<td>下游 AI GPU/平台</td>
+<td>GPU、AI accelerator、networking</td>
+<td>需求核心驅動者</td>
+<td>估值與供應鏈瓶頸</td>
+<td>高</td>
+<td>高</td>
+<td>非同業估值，作需求指標</td>
+</tr>
+<tr>
+<td>AMD</td>
+<td>AMD</td>
+<td>美股</td>
+<td>下游 CPU/GPU/AI accelerator</td>
+<td>EPYC、Instinct、client/server CPU</td>
+<td>AI accelerator 追趕與 CPU 基礎</td>
+<td>競爭與毛利率</td>
+<td>高</td>
+<td>中</td>
+<td>非同業估值，作需求指標</td>
+</tr>
+</tbody>
+</table></div>
+<p>同業比較的重點不是只看誰漲最多，而是分清楚「直接載板廠」、「上游材料」、「高階 PCB」、「先進封裝」與「下游晶片需求」。景碩科技的股價會受到 ABF 供需與台股資金影響，但真正能長期支撐估值的是本業 EPS 與現金流，而不是單月題材。</p>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>景碩</td>
+<td>3189</td>
+<td>台股</td>
+<td>224.51</td>
+<td>需查證</td>
+<td>6.62-224.51</td>
+<td>高於自身 2022-2025 年底區間上緣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026 年前五月累計 +29.27%</td>
+<td>獲利基期低，本益比極高，需等 EPS 追上</td>
+</tr>
+<tr>
+<td>金像電</td>
+<td>2368</td>
+<td>台股</td>
+<td>53.72</td>
+<td>需查證</td>
+<td>9.50-53.72</td>
+<td>高位</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026 年前五月累計 +66.67%</td>
+<td>AI PCB 成長明確，但 PB 17.45 已高</td>
+</tr>
+<tr>
+<td>華通</td>
+<td>2313</td>
+<td>台股</td>
+<td>39.24</td>
+<td>需查證</td>
+<td>6.74-39.24</td>
+<td>高位但低於 ABF 三雄</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026 年前五月累計 +11.68%</td>
+<td>較分散，成長性不如純 ABF</td>
+</tr>
+<tr>
+<td>聯茂</td>
+<td>6213</td>
+<td>台股</td>
+<td>84.72</td>
+<td>需查證</td>
+<td>11.31-84.72</td>
+<td>高位</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>上游材料受惠，但需查證毛利與報價</td>
+</tr>
+<tr>
+<td>TTM Technologies</td>
+<td>TTMI</td>
+<td>美股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>作為美股 PCB 參照，需另取 SEC/市場資料</td>
+</tr>
+<tr>
+<td>Amkor</td>
+<td>AMKR</td>
+<td>美股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>作為封測/先進封裝需求參照</td>
+</tr>
+</tbody>
+</table></div>
+<p>景碩科技於 2026-06-26 收盤價 797.00 元、成交量 62,632,239 股，盤中高低 893.00 / 790.00，殖利率 0.19%。相較 2022-2025 年底官方 P/E 觀察點，現在已位於歷史高端；除非未來 4-8 季 EPS 大幅上修，否則估值壓縮風險高。P/S、EV/EBITDA、FCF Yield 與 Forward P/E 因官方即時來源不足，標示為 <code>需查證</code>。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>AI GPU/ASIC 與 server CPU 高階 ABF 供需持續偏緊，景碩科技取得更多高階認證且稼動率提升</td>
+<td>年化雙位數中高段成長</td>
+<td>營益率明顯上升，毛利率回到景氣上行段</td>
+<td>EPS 快速成長，現金流改善</td>
+<td>景氣上行可給 35-50 倍，但需 EPS 快速追上</td>
+<td>股價可由獲利成長支撐，不只靠題材</td>
+<td>月營收連續高年增、法說上修展望、毛利率與營益率同步改善</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>AI/HPC 需求續強，但材料、良率與客戶拉貨使成長呈波段</td>
+<td>年化中高個位數至低雙位數</td>
+<td>緩慢改善或維持</td>
+<td>EPS 成長但低於股價預期</td>
+<td>25-35 倍較合理</td>
+<td>現價需要時間讓獲利消化估值，股價震盪大</td>
+<td>Q2/Q3 財報確認本業改善但未爆發</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>客戶延後拉貨、競爭者產能開出、材料短缺壓縮出貨或 AI capex 降溫</td>
+<td>持平或轉負</td>
+<td>稼動率下降，折舊與材料成本壓力升高</td>
+<td>EPS 下修，FCF 轉弱</td>
+<td>15-25 倍或更低</td>
+<td>高 P/E/PB 估值壓縮，回檔幅度可能大</td>
+<td>月營收轉弱、存貨上升、毛利率下滑、法說保守</td>
+</tr>
+</tbody>
+</table></div>
+<p>每個情境最需要觀察的是：月營收是否只是一兩個月題材，還是能延續到季度；營益率是否跟上營收；EPS 是否足以把高 P/E 降下來；上游 ABF film、玻纖布與低損耗材料是否成為瓶頸；主要 AI 晶片客戶是否延後世代轉換。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3189</td>
+<td>景碩科技</td>
+<td>觀察</td>
+<td>能承受半導體循環與高估值波動、願意按季追蹤財報者</td>
+<td>景碩是 ABF/FCBGA 純度較高的觀察標的，但目前估值比獲利復甦走得更快，研究評級為「觀察」。</td>
+<td>2026-06-26 P/E 224.51、P/B 9.73，且多項現金流/Forward 估值仍需查證</td>
+<td>是理解 ABF/AI 載板循環的重要入口</td>
+<td>月營收、營益率、EPS、FCF、法說訂單、產能利用率</td>
+<td>上調：EPS 與 FCF 快速追上估值；下調：月營收或毛利率反轉、估值仍過高</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？新手不適合在高 P/E、高成交量急漲後追價；比較合理的練習是追蹤每月營收、營益率與同業估值差距。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？既有持有者可續看復甦，但要把「營收年增」與「EPS/現金流」分開檢查；若只有營收成長、毛利率不上來，應降低期待。這不是個人化建議，重點是建立財報與風險控管規則。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等待股價回檔或橫盤消化估值，且 Q2/Q3 顯示營益率、EPS、自由現金流同步改善。</li>
+<li>哪些訊號會讓你把評級上調？Forward P/E 可被未來 EPS 合理化、法說明確揭露高階 ABF 長單、營益率連續改善、FCF 轉強。</li>
+<li>哪些訊號會讓你把評級下調？月營收年增快速收斂、毛利率下滑、存貨與應收款上升、客戶拉貨延後、P/E/PB 持續高於同業但獲利不跟上。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不把 景碩科技歸為核心穩健型，因 ABF/PCB 是高固定成本與高循環產業；核心型更接近台積電、日月光這類供應鏈地位更分散且現金流較穩的公司。</li>
+<li>成長型：景碩科技可列入 AI/HPC 載板成長型觀察，因 2026 年前五月營收明顯年增，長期需求來自 GPU/ASIC/server CPU 規格提升。</li>
+<li>景氣循環型：必須列入。歷史 P/E 區間從低個位數/十位數擴到 2026 高位，反映產業循環與市場情緒變化很大。</li>
+<li>高風險高報酬型：目前屬於高風險高報酬型，因股價已大幅反映 ABF 供需緊俏，若獲利兌現會有彈性，若不兌現則回檔也快。</li>
+<li>只適合觀察、不適合輕易買進：以 2026-06-26 估值看，景碩科技更接近此類；研究價值高，但買點需要更嚴格的估值與財報確認。</li>
+</ul>
+<p>每一類都要說明分類理由：景碩較像成長與景氣循環混合標的，不是穩健核心股；它適合用來研究 IC 載板純度與營運槓桿。投資研究上，可把它放在「AI 半導體後段瓶頸」籃子，而不是單純 PCB 傳產電子零組件。</p>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：P/E 224.51、P/B 9.73 需要非常強的未來 EPS 才能合理化。</li>
+<li>景氣反轉風險：ABF 曾經歷供不應求後轉向庫存調整；若 AI server capex 放緩，股價會先反應。</li>
+<li>技術替代風險：玻璃基板、fan-out、CoPoS/FOPLP 等新架構可能改變 ABF 用量或價值分配。</li>
+<li>競爭加劇風險：日本、韓國、奧地利與台灣廠商都擴張高階基板，若供給集中開出，ASP 可能下滑。</li>
+<li>政策與地緣政治風險：AI 晶片出口管制、台海風險、客戶分散製造地，都會影響訂單與估值折價。</li>
+<li>客戶集中風險：高階 ABF 需求高度依賴少數 AI GPU/ASIC 與雲端客戶，客戶產品延後會放大營運波動。</li>
+<li>財報可能出現的警訊：營收高成長但毛利率不升、營業利益率落後、存貨增加、應收帳款上升、資本支出超前但訂單未明確、營業外收益支撐 EPS。</li>
+<li>反方觀點：即使 AI 需求是真實的，股票仍可能因估值太高而不漲；好產業不等於任何價格都值得買。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：營收拆分、毛利率、營業利益率、EPS、現金流量表、資本支出、存貨、應收款、折舊、匯兌與營業外損益。</li>
+<li>法說會應聽重點：ABF 產能利用率、AI/HPC 客戶比重、產品世代、ASP、材料短缺、資本支出、良率、長單與價格條款。</li>
+<li>每季追蹤指標：月營收年增率、Q/Q 營益率、EPS、FCF、存貨天數、客戶拉貨展望、同業擴產。</li>
+<li>產業數據來源：TWSE/MOPS、公司 IR、TrendForce、IDC、SEMI、主要晶片公司財報與 AI server 供應鏈法說。</li>
+<li>競爭對手觀察名單：欣興、景碩、南電、Ibiden、Shinko、AT&amp;S、Samsung Electro-Mechanics、金像電、華通、聯茂。</li>
+<li>初學者下一步應該研究哪 3 家公司：台積電（先進封裝需求核心）、金像電（AI server PCB）、聯茂（低損耗材料/CCL 上游）。</li>
+<li>資料再查核清單：Forward P/E、P/S、EV/EBITDA、FCF Yield、各公司 ABF 產品占比、產能與客戶集中度。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是。景碩科技能幫投資人從單一股票反推 ABF 載板、先進封裝、AI accelerator 與高階 PCB 的關係。</li>
+<li>該產業是否值得長期追蹤：值得。AI/HPC 使高階載板規格提高，產業鏈瓶頸有機會從晶圓製造延伸到封裝與材料。</li>
+<li>目前最重要的投資邏輯：AI server 與高階 ASIC/GPU 推升 ABF/FCBGA 需求，但必須轉化為營益率、EPS 與現金流。</li>
+<li>最大風險：估值已把高成長預期提前反映，若獲利兌現慢於股價，P/E/PB 壓縮會很劇烈。</li>
+<li>估值是否已經反映成長預期：大致已高度反映。以 2026-06-26 P/E 224.51 與 P/B 9.73 看，市場已在買未來數季甚至數年的復甦。</li>
+<li>最終投資評級與理由：觀察。需求與產業位置值得追蹤，但在官方可得資料中，估值安全邊際不足，且多項現金流與 Forward 估值仍需查證。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：上游 ABF film/玻纖布/低損耗 CCL、先進封裝 CoWoS/CoPoS、AI ASIC 客戶、以及高階 PCB/載板設備。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3707 漢磊 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 功率半導體</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">3707 漢磊</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-29</span>
+        <span class="meta-pill">有效至 2026-07-13</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-29.html">2026-06-29</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>漢磊 3707 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-29；有效追蹤期限：2026-07-13。內容為教育與研究用途，不是個人化投資建議。</li>
+<li>最新股價日期：2026-06-26，TPEx OpenAPI 顯示漢磊收盤價 81.60 元；同日 TPEx PER/PBR 顯示 P/E 為 N/A、殖利率 0.00%、P/B 4.50。TWSE 即時 API 回傳交易市場為 <code>otc</code>，與 workorder 內 <code>TWSE</code> 標示不一致，本報告以 TPEx/OTC 為準。</li>
+<li>最新財報期間：2026Q1，TPEx 上櫃公司綜合損益表出表日 2026-06-28；2026Q1 營收 1,534,730 千元，毛利 77,645 千元，營業損失 92,225 千元，歸母淨損 137,632 千元，EPS -0.35 元。</li>
+<li>使用的主要資料來源：<a href="https://www.episil.com/en-US/about/about_overview">漢磊公司概況</a>、<a href="https://www.episil.com/en-US/Product/product_view">漢磊產品技術</a>、<a href="https://www.episil.com/en-US/financial/monthly_revenue">漢磊月營收</a>、<a href="https://www.episil.com/en-US/financial/financial_report?id=2025">漢磊財務報告頁</a>、<a href="https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O">TPEx 基本資料</a>、<a href="https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap06_O_ci">TPEx 綜合損益表</a>、<a href="https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap07_O_ci">TPEx 資產負債表</a>、<a href="https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap05_O">TPEx 月營收</a>、<a href="https://www.tpex.org.tw/openapi/v1/tpex_mainboard_daily_close_quotes">TPEx 收盤行情</a>、<a href="https://www.tpex.org.tw/openapi/v1/tpex_mainboard_peratio_analysis">TPEx 本益比/PB</a>、<a href="https://www.semiconductors.org/global-semiconductor-sales-increase-25-from-q4-2025-to-q1-2026/">SIA Q1 2026 semiconductor sales</a>、<a href="https://www.wsts.org/76/103/Global-Semiconductor-Market-Surges-Beyond-15T-2026">WSTS Spring 2026 forecast</a>、<a href="https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025">SEMI 2025 equipment billings</a>。</li>
+<li>是否有資料缺口：Forward P/E、EV/EBITDA、FCF Yield、SiC/GaN 各產品營收占比、產能利用率、車用/工控客戶比重未完整揭露，標示為 <code>需查證</code>。</li>
+<li>需要再次查證的數據：2026Q2 財報、SiC/GaN 稼動率、8 吋/6 吋產能、主要客戶設計導入、現金流與資本支出。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：漢磊是功率與類比半導體晶圓代工廠，技術平台涵蓋 Linear Bipolar、High Power MOSFET、高壓 CMOS、FRD/TVS、SiC 與 GaN 離散元件。</li>
+<li>所屬主要產業：功率半導體與特殊製程晶圓代工。</li>
+<li>產業鏈位置：半導體中游晶圓製造/代工，介於上游矽晶圓/磊晶/設備材料與下游功率元件設計公司、IDM、車用/工控/電源終端之間。</li>
+<li>核心投資邏輯：2026 年 1-5 月累計營收年增 24.02%，顯示景氣回溫；但 2026Q1 毛利率僅約 5.1%、EPS -0.35，獲利尚未跟上股價與 P/B 4.50。</li>
+<li>目前投資評級：觀察。</li>
+<li>主要理由：SiC/GaN 與功率元件長期方向有吸引力，但目前仍虧損、P/E 不適用、P/B 偏高；需要確認稼動率與毛利率回升後才有更好風險報酬。</li>
+<li>主要風險：SiC/GaN 供需波動、價格競爭、產能利用率不足、技術導入慢於預期、資本支出與折舊壓力、同業 IDMs/Foundry 競爭。</li>
+<li>最重要的 3-5 個追蹤指標：月營收年增率、毛利率、營業利益率、P/B、SiC/GaN 客戶導入與稼動率。</li>
+<li>代表性美股與台股同業：美股可觀察 Wolfspeed、onsemi、Texas Instruments、Infineon ADR、STMicro；台股可觀察世界、合晶、環球晶、台半、強茂、茂矽、嘉晶。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：漢磊提供功率與類比特殊製程晶圓代工，官方產品技術頁列出 Bipolar、GaN、SiC、TVS、FRED、FRMOS 等平台。</li>
+<li>營收來源：晶圓代工與功率/特殊製程服務；TPEx 月營收顯示 2026 年 5 月營收 590,343 千元、年增 27.97%，1-5 月累計營收 2,709,617 千元、年增 24.02%。</li>
+<li>主要客戶：未於免費官方端點完整揭露；可推論客戶包括功率元件設計公司、IDM 外包第二來源與工控/電源相關 IC 客戶，具體占比 <code>需查證</code>。</li>
+<li>毛利率與營益率特性：2026Q1 毛利率約 5.1%、營益率約 -6.0%，說明目前產能利用率或產品價格仍不足以覆蓋成本與折舊。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：短期主要來自功率元件循環復甦與出貨量；中長期取決於 SiC/GaN 設計導入、車用/資料中心電源需求與特殊製程平台市占。</li>
+<li>是否有景氣循環性：高。功率半導體受工控、車用、消費電源、庫存循環與資本支出影響。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：功率半導體晶圓代工、化合物半導體與特殊製程 foundry。</li>
+<li>產業解決什麼問題：讓電源轉換、馬達控制、快充、伺服器電源、車用電控、工控與保護元件更高效率、更耐高壓、更耐高溫。</li>
+<li>需求來自哪裡：電動車、車用充電、工業電源、資料中心電源、再生能源、消費快充、通訊與高壓保護元件。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：傳統功率元件屬成熟循環；SiC/GaN 屬成長期但價格與產能仍在重新平衡。SIA 指出 2026Q1 全球半導體銷售較 2025Q4 增長，WSTS 也大幅上修 2026 半導體展望，但功率元件仍要看終端庫存與車用/工控需求。</li>
+<li>長期成長驅動力：電氣化、AI 資料中心電源效率、快充、車用高壓平台、工業自動化與能源轉換。</li>
+<li>短期波動因素：SiC 報價、車用需求、庫存去化、競爭者擴產、折舊成本與產能利用率。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游材料設備</td>
+<td>晶圓、磊晶、設備、氣體</td>
+<td>SiC 晶圓、矽晶圓、磊晶片、離子佈植/高溫設備</td>
+<td>Wolfspeed、Coherent、Applied Materials</td>
+<td>環球晶、合晶、嘉晶</td>
+<td>中高</td>
+<td>關鍵材料毛利較高</td>
+<td>擴產過快、價格下跌</td>
+</tr>
+<tr>
+<td>中游晶圓製造</td>
+<td>功率與特殊製程 foundry</td>
+<td>Bipolar、MOSFET、SiC、GaN、FRD、TVS</td>
+<td>GlobalFoundries、Tower</td>
+<td>漢磊、世界、茂矽</td>
+<td>中</td>
+<td>高稼動率才有營運槓桿</td>
+<td>稼動不足、折舊壓力</td>
+</tr>
+<tr>
+<td>元件設計/IDM</td>
+<td>功率半導體設計與整合</td>
+<td>MOSFET、IGBT、SiC diode/MOSFET、GaN FET</td>
+<td>onsemi、Infineon、STMicro、TI</td>
+<td>台半、強茂、朋程</td>
+<td>中高</td>
+<td>產品差異化較佳</td>
+<td>價格競爭、車規認證慢</td>
+</tr>
+<tr>
+<td>下游系統</td>
+<td>車用、工控、資料中心電源</td>
+<td>逆變器、充電器、伺服器 PSU</td>
+<td>Tesla、Delta Electronics ADR、Vertiv</td>
+<td>台達電、光寶科</td>
+<td>高</td>
+<td>系統整合者較穩</td>
+<td>終端需求下修</td>
+</tr>
+</tbody>
+</table></div>
+<p>指出輸入股票位於哪一段，以及它是否掌握產業鏈關鍵位置。漢磊位於中游晶圓製造，是功率元件供應鏈的關鍵製程節點；但議價能力取決於是否有差異化製程、良率與客戶設計導入，否則會受 IDMs 與大型 foundry 壓制。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：SiC/GaN、高壓 CMOS、Bipolar 與特殊功率製程需要製程 know-how、設備與良率經驗，技術門檻高於一般 EMS。</li>
+<li>規模經濟：晶圓廠固定成本高，稼動率回升時營業槓桿大；稼動率不足時虧損會放大。</li>
+<li>客戶黏著度：設計導入、製程驗證與車用/工控認證會形成切換成本，但新平台量產時間長。</li>
+<li>轉換成本：中高。客戶更換 foundry 需重新驗證良率與可靠度。</li>
+<li>品牌或通路優勢：作為 foundry，終端品牌力有限，但製程平台與客戶關係是核心。</li>
+<li>成本優勢：若產能利用率提升，折舊與固定成本攤提改善；目前 2026Q1 毛利率偏低，成本優勢尚未體現。</li>
+<li>專利、法規或資本門檻：高溫、高壓、SiC/GaN 製程設備與可靠度認證具資本與技術門檻。</li>
+<li>是否容易被替代：短期不易，因製程驗證慢；長期若良率/成本落後，仍可能被 IDMs 或其他 foundry 替代。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：2026 年 1-5 月累計年增 24.02%，是正面訊號；但必須轉化成毛利率與 EPS 才能支撐估值。</li>
+<li>毛利率：2026Q1 約 5.1%；若升到雙位數，代表稼動率、價格與產品組合改善。</li>
+<li>營益率：2026Q1 約 -6.0%；轉正是評級上調前提。</li>
+<li>EPS 成長率：2026Q1 EPS -0.35；若連續虧損，P/B 4.50 會難以支撐。</li>
+<li>自由現金流：需查證；晶圓廠高資本支出下，FCF 比 EPS 更能看出投資壓力。</li>
+<li>資本支出：需查證；若擴產高於訂單能見度，折舊會拖累毛利。</li>
+<li>存貨週轉：需查證；功率元件庫存周期是股價反轉關鍵。</li>
+<li>訂單能見度：需查證；SiC/GaN 長約或車用設計導入是核心。</li>
+<li>客戶集中度：需查證；若單一客戶或單一產品線占比高，波動加大。</li>
+<li>市占率：需查證；特殊 foundry 市占資料未由官方免費揭露。</li>
+<li>產能利用率：需查證；這是判斷毛利率能否反轉的第一指標。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3707</td>
+<td>漢磊</td>
+<td>台股 TPEx</td>
+<td>特殊製程 foundry</td>
+<td>功率、Bipolar、SiC、GaN 代工</td>
+<td>製程平台與驗證經驗</td>
+<td>虧損、P/B 偏高、稼動率</td>
+<td>中高</td>
+<td>低</td>
+<td>P/E N/A、P/B 4.50，觀察</td>
+</tr>
+<tr>
+<td>WOLF</td>
+<td>Wolfspeed</td>
+<td>美股</td>
+<td>SiC 材料/元件</td>
+<td>SiC 晶圓與元件</td>
+<td>垂直整合</td>
+<td>高負債、虧損與價格壓力</td>
+<td>高</td>
+<td>低</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>ON</td>
+<td>onsemi</td>
+<td>美股</td>
+<td>IDM</td>
+<td>車用/工控功率 IC</td>
+<td>車用客戶與產品組合</td>
+<td>車用庫存循環</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>IFNNY</td>
+<td>Infineon</td>
+<td>美股 ADR/德股</td>
+<td>IDM</td>
+<td>功率、車用、工控</td>
+<td>規模與車用滲透</td>
+<td>歐洲景氣與庫存</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>TXN</td>
+<td>Texas Instruments</td>
+<td>美股</td>
+<td>IDM</td>
+<td>類比與嵌入式</td>
+<td>產品廣、現金流強</td>
+<td>工控景氣循環</td>
+<td>中</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>STM</td>
+<td>STMicro</td>
+<td>美股/歐股</td>
+<td>IDM</td>
+<td>MCU、功率、車用</td>
+<td>車用與工控平台</td>
+<td>客戶庫存</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>5347</td>
+<td>世界</td>
+<td>台股 TPEx</td>
+<td>成熟製程 foundry</td>
+<td>8 吋晶圓代工</td>
+<td>稼動率與客戶基礎</td>
+<td>成熟製程競爭</td>
+<td>中</td>
+<td>中高</td>
+<td>P/E 48.67、P/B 5.51</td>
+</tr>
+<tr>
+<td>6488</td>
+<td>環球晶</td>
+<td>台股 TPEx</td>
+<td>上游晶圓</td>
+<td>矽晶圓</td>
+<td>全球規模</td>
+<td>晶圓報價循環</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 57.74、P/B 4.79</td>
+</tr>
+<tr>
+<td>6182</td>
+<td>合晶</td>
+<td>台股 TPEx</td>
+<td>上游晶圓</td>
+<td>矽晶圓</td>
+<td>矽晶圓供應</td>
+<td>P/E 扭曲、循環</td>
+<td>中</td>
+<td>低</td>
+<td>P/E 2987.50、P/B 4.49</td>
+</tr>
+<tr>
+<td>5425</td>
+<td>台半</td>
+<td>台股 TPEx</td>
+<td>功率元件</td>
+<td>二極體、功率元件</td>
+<td>產品與通路</td>
+<td>價格競爭</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 53.50、P/B 3.54</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>漢磊</td>
+<td>3707</td>
+<td>TPEx</td>
+<td>N/A</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 偏高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026Q1 約 5.1%</td>
+<td>2026 1-5 月 +24.02%</td>
+<td>成長有改善，但虧損下估值偏貴</td>
+</tr>
+<tr>
+<td>世界</td>
+<td>5347</td>
+<td>TPEx</td>
+<td>48.67</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>具成熟製程獲利基礎，仍不便宜</td>
+</tr>
+<tr>
+<td>環球晶</td>
+<td>6488</td>
+<td>TPEx</td>
+<td>57.74</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>上游晶圓循環復甦預期高</td>
+</tr>
+<tr>
+<td>合晶</td>
+<td>6182</td>
+<td>TPEx</td>
+<td>2987.50</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>極高/盈餘低基期</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/E 扭曲，應用 P/B/循環獲利看</td>
+</tr>
+<tr>
+<td>台半</td>
+<td>5425</td>
+<td>TPEx</td>
+<td>53.50</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>功率元件同業估值也偏高</td>
+</tr>
+<tr>
+<td>onsemi</td>
+<td>ON</td>
+<td>美股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需用美股資料另查</td>
+</tr>
+</tbody>
+</table></div>
+<p>漢磊因虧損導致 P/E 不適用，應以 P/B、毛利率與是否轉盈作為主要估值判斷。P/B 4.50 對一家 2026Q1 EPS 為負、毛利率僅約 5.1% 的 foundry 來說，安全邊際不足。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>SiC/GaN 客戶導入放量，功率元件庫存去化完成，稼動率大幅回升</td>
+<td>年複合 +15% 至 +25%</td>
+<td>毛利率回到 15% 以上，營益率轉正</td>
+<td>EPS 由虧轉盈</td>
+<td>P/B 3.5-5.0 倍或轉盈後 P/E 25-35 倍</td>
+<td>股價可維持成長股估值</td>
+<td>月營收續強、毛利率跳升、法說揭露新平台導入</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>傳統功率復甦，SiC/GaN 緩慢放量，但折舊仍壓抑</td>
+<td>年複合 +5% 至 +12%</td>
+<td>毛利率 8%-12%，營益率接近損平</td>
+<td>EPS 小虧到小盈</td>
+<td>P/B 2.5-3.5 倍</td>
+<td>股價區間震盪</td>
+<td>營收年增但獲利修復慢</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>SiC 價格競爭、車用/工控需求不如預期，稼動率低</td>
+<td>年複合 -5% 至 +3%</td>
+<td>毛利率低於 8%，營益率持續負</td>
+<td>虧損延續</td>
+<td>P/B 1.5-2.5 倍</td>
+<td>估值下修</td>
+<td>月營收轉弱、毛利率不升、資本支出壓力加大</td>
+</tr>
+</tbody>
+</table></div>
+<p>說明每個情境下，投資人最需要觀察哪些財報或產業訊號。樂觀情境看 SiC/GaN 設計導入與毛利率跳升；基準情境看損平點；悲觀情境看 P/B 是否因虧損延續而下修。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3707</td>
+<td>漢磊</td>
+<td>觀察</td>
+<td>熟悉半導體循環、能等待虧轉盈確認者</td>
+<td>功率半導體長期題材強，月營收已改善</td>
+<td>2026Q1 虧損、毛利率低、P/B 4.50 偏高</td>
+<td>若稼動率與毛利率回升，營運槓桿大</td>
+<td>月營收、毛利率、P/B、SiC/GaN 稼動率、資本支出</td>
+<td>上調：營益率轉正且 P/B 回落；下調：虧損延長或營收復甦中斷</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合直接追價，因為公司仍在虧損、估值主要靠未來復甦預期支撐。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？可小部位觀察；加碼應等毛利率與營益率轉強，若月營收轉弱或 P/B 持續偏高可減碼控風險。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等 2026Q2/Q3 毛利率明顯回升、營業利益接近損平、股價修正使 P/B 更合理。</li>
+<li>哪些訊號會讓你把評級上調？SiC/GaN 長單、稼動率提升、營收年增維持、毛利率超過 10%-15%、EPS 轉正。</li>
+<li>哪些訊號會讓你把評級下調？營收年增消失、毛利率無法改善、折舊與資本支出壓力擴大、P/B 因題材交易進一步膨脹。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：Texas Instruments、Infineon、onsemi 這類大型 IDM 較接近，產品分散且現金流較穩。</li>
+<li>成長型：漢磊若 SiC/GaN 平台成功放量，可成為成長型；目前仍未由損益表證明。</li>
+<li>景氣循環型：傳統功率與晶圓代工有明顯庫存循環，漢磊目前仍屬景氣循環型。</li>
+<li>高風險高報酬型：虧損 foundry 在稼動率回升時彈性高，但失敗時估值修正也大。</li>
+<li>只適合觀察、不適合輕易買進：在 P/E N/A、P/B 4.50、毛利率僅約 5.1% 的條件下，漢磊目前屬此類。</li>
+</ul>
+<p>每一類都要說明分類理由。分類重點在於是否已穩定獲利、製程是否有差異化、現金流能否支撐資本支出；漢磊長期題材好，但短期財報還沒確認。</p>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：P/B 4.50 對虧損公司偏高，市場可能已提前反映 SiC/GaN 復甦。</li>
+<li>景氣反轉風險：若車用/工控需求不如預期，功率元件庫存循環可能延長。</li>
+<li>技術替代風險：IDM 自有產能、其他 foundry 或新材料平台可能分流需求。</li>
+<li>競爭加劇風險：SiC/GaN 擴產若過快，價格與代工毛利可能受壓。</li>
+<li>政策與地緣政治風險：半導體出口管制、設備取得、兩岸供應鏈風險都會影響客戶決策。</li>
+<li>客戶集中風險：客戶別營收需查證；若少數客戶延後導入，營收與稼動率會受衝擊。</li>
+<li>財報可能出現的警訊：毛利率低檔、營業損失擴大、存貨增加、資本支出高於營收增速、現金流轉弱。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：毛利率、折舊、資本支出、存貨、應收帳款、營業現金流、少數股權影響。</li>
+<li>法說會應聽重點：SiC/GaN 稼動率、客戶設計導入進度、價格趨勢、車用/工控占比、產能擴充計畫。</li>
+<li>每季追蹤指標：月營收年增、毛利率、營益率、EPS、P/B、現金流。</li>
+<li>產業數據來源：SIA/WSTS 半導體銷售、SEMI 設備與產能資料、車用功率元件同業法說、IDM 庫存天數。</li>
+<li>競爭對手觀察名單：Wolfspeed、onsemi、Infineon、STMicro、世界、台半、強茂、環球晶、合晶、嘉晶。</li>
+<li>初學者下一步應該研究哪 3 家公司：onsemi 看車用功率元件；Infineon 看全球功率 IDM；環球晶看上游晶圓循環。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是，漢磊能幫助理解特殊製程 foundry 與 SiC/GaN 功率半導體供應鏈。</li>
+<li>該產業是否值得長期追蹤：值得，電氣化、資料中心電源與工控效率長期需求仍在。</li>
+<li>目前最重要的投資邏輯：營收復甦能否轉化為毛利率與 EPS 反轉。</li>
+<li>最大風險：股價與 P/B 先反映復甦，但公司仍處虧損與低毛利狀態。</li>
+<li>估值是否已經反映成長預期：已反映不少；P/E N/A 且 P/B 4.50，沒有明顯安全邊際。</li>
+<li>最終投資評級與理由：觀察。漢磊的產業位置與長期題材有價值，但要等毛利率、營業利益與 EPS 證明反轉。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：SiC/GaN 上游晶圓、功率 IDM、車用/工控終端需求與成熟製程 foundry 估值。</li>
+</ul>
+</article></main></div>
+</body>
+</html>
