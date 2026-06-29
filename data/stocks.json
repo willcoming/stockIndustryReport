@@ -1,9 +1,47 @@
 {
-  "generated_at": "2026-06-28T23:12:58.580562+00:00",
+  "generated_at": "2026-06-29T05:24:25.885904+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 14,
   "stocks": {
+    "tw:1215": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1215",
+      "name": "卜蜂",
+      "industry_group": "食品 / 肉品與飼料",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "續抱",
+      "latest_url": "stocks/tw-1215/",
+      "url": "stocks/tw-1215/",
+      "aliases": [
+        "1215",
+        "1215.TW",
+        "1215.TWO",
+        "TWSE:1215",
+        "卜蜂"
+      ]
+    },
+    "tw:1216": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1216",
+      "name": "統一",
+      "industry_group": "食品 / 綜合民生消費",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/tw-1216/",
+      "url": "stocks/tw-1216/",
+      "aliases": [
+        "1216",
+        "1216.TW",
+        "1216.TWO",
+        "TWSE:1216",
+        "統一"
+      ]
+    },
     "tw:1316": {
       "market": "tw",
       "exchange": "TWSE",
@@ -12,6 +50,7 @@
       "industry_group": "建材營造業",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-1316/",
       "url": "stocks/tw-1316/",
       "aliases": [
@@ -30,12 +69,51 @@
       "industry_group": "紡織纖維",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/tw-1447/",
       "url": "stocks/tw-1447/",
       "aliases": [
         "1447",
         "1447.TW",
         "TWSE:1447"
+      ]
+    },
+    "tw:1477": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1477",
+      "name": "聚陽",
+      "industry_group": "成衣代工 / 機能服飾",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/tw-1477/",
+      "url": "stocks/tw-1477/",
+      "aliases": [
+        "1477",
+        "1477.TW",
+        "1477.TWO",
+        "TWSE:1477",
+        "聚陽"
+      ]
+    },
+    "tw:1560": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1560",
+      "name": "中砂",
+      "industry_group": "半導體耗材 / 再生晶圓與鑽石碟",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/tw-1560/",
+      "url": "stocks/tw-1560/",
+      "aliases": [
+        "1560",
+        "1560.TW",
+        "1560.TWO",
+        "TWSE:1560",
+        "中砂"
       ]
     },
     "tw:2072": {
@@ -46,6 +124,7 @@
       "industry_group": "綠能環保",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/tw-2072/",
       "url": "stocks/tw-2072/",
       "aliases": [
@@ -62,6 +141,7 @@
       "industry_group": "汽車工業",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2236/",
       "url": "stocks/tw-2236/",
       "aliases": [
@@ -80,6 +160,7 @@
       "industry_group": "成熟製程代工",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2303/",
       "url": "stocks/tw-2303/",
       "aliases": [
@@ -100,6 +181,7 @@
       "industry_group": "AI 伺服器 / 組裝",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/tw-2317/",
       "url": "stocks/tw-2317/",
       "aliases": [
@@ -110,6 +192,25 @@
         "2317.TW"
       ]
     },
+    "tw:2324": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2324",
+      "name": "仁寶",
+      "industry_group": "電子代工 / 筆電與伺服器 ODM",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "續抱",
+      "latest_url": "stocks/tw-2324/",
+      "url": "stocks/tw-2324/",
+      "aliases": [
+        "2324",
+        "2324.TW",
+        "2324.TWO",
+        "TWSE:2324",
+        "仁寶"
+      ]
+    },
     "tw:2330": {
       "market": "tw",
       "exchange": "TWSE",
@@ -118,6 +219,7 @@
       "industry_group": "晶圓代工",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/tw-2330/",
       "url": "stocks/tw-2330/",
       "aliases": [
@@ -129,6 +231,25 @@
         "TWSE:2330"
       ]
     },
+    "tw:2337": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2337",
+      "name": "旺宏",
+      "industry_group": "記憶體 / NOR Flash",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2337/",
+      "url": "stocks/tw-2337/",
+      "aliases": [
+        "2337",
+        "2337.TW",
+        "2337.TWO",
+        "TWSE:2337",
+        "旺宏"
+      ]
+    },
     "tw:2344": {
       "market": "tw",
       "exchange": "TWSE",
@@ -137,6 +258,7 @@
       "industry_group": "記憶體",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2344/",
       "url": "stocks/tw-2344/",
       "aliases": [
@@ -156,6 +278,7 @@
       "industry_group": "導線架",
       "latest_report_date": "2026-06-09",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/tw-2351/",
       "url": "stocks/tw-2351/",
       "aliases": [
@@ -167,6 +290,25 @@
         "SDI"
       ]
     },
+    "tw:2368": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2368",
+      "name": "金像電",
+      "industry_group": "PCB / 載板與高階板",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2368/",
+      "url": "stocks/tw-2368/",
+      "aliases": [
+        "2368",
+        "2368.TW",
+        "2368.TWO",
+        "TWSE:2368",
+        "金像電"
+      ]
+    },
     "tw:2408": {
       "market": "tw",
       "exchange": "TWSE",
@@ -175,6 +317,7 @@
       "industry_group": "記憶體",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/tw-2408/",
       "url": "stocks/tw-2408/",
       "aliases": [
@@ -193,6 +336,7 @@
       "industry_group": "IC 設計 / CPO",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2454/",
       "url": "stocks/tw-2454/",
       "aliases": [
@@ -210,6 +354,7 @@
       "industry_group": "資訊服務業",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/tw-2480/",
       "url": "stocks/tw-2480/",
       "aliases": [
@@ -221,6 +366,25 @@
         "敦陽科"
       ]
     },
+    "tw:2618": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2618",
+      "name": "長榮航",
+      "industry_group": "航空運輸 / 客運與貨運",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "續抱",
+      "latest_url": "stocks/tw-2618/",
+      "url": "stocks/tw-2618/",
+      "aliases": [
+        "2618",
+        "2618.TW",
+        "2618.TWO",
+        "TWSE:2618",
+        "長榮航"
+      ]
+    },
     "tw:3008": {
       "market": "tw",
       "exchange": "TWSE",
@@ -229,12 +393,32 @@
       "industry_group": "光學 / CPO",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3008/",
       "url": "stocks/tw-3008/",
       "aliases": [
         "LARGAN",
         "Largan Precision",
         "大立光電"
+      ]
+    },
+    "tw:3019": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3019",
+      "name": "亞光",
+      "industry_group": "光學元件 / 影像鏡頭",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-3019/",
+      "url": "stocks/tw-3019/",
+      "aliases": [
+        "3019",
+        "3019.TW",
+        "3019.TWO",
+        "TWSE:3019",
+        "亞光"
       ]
     },
     "tw:3037": {
@@ -245,6 +429,7 @@
       "industry_group": "ABF 載板",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3037/",
       "url": "stocks/tw-3037/",
       "aliases": [
@@ -262,6 +447,7 @@
       "industry_group": "ABF 載板",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3189/",
       "url": "stocks/tw-3189/",
       "aliases": [
@@ -269,6 +455,25 @@
         "3189.TW",
         "3189.TWO",
         "TWSE:3189"
+      ]
+    },
+    "tw:3231": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3231",
+      "name": "緯創",
+      "industry_group": "電子代工 / AI 伺服器 ODM",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/tw-3231/",
+      "url": "stocks/tw-3231/",
+      "aliases": [
+        "3231",
+        "3231.TW",
+        "3231.TWO",
+        "TWSE:3231",
+        "緯創"
       ]
     },
     "tw:3443": {
@@ -279,6 +484,7 @@
       "industry_group": "ASIC / 矽智財",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3443/",
       "url": "stocks/tw-3443/",
       "aliases": [
@@ -296,6 +502,7 @@
       "industry_group": "面板 / 轉型題材",
       "latest_report_date": "2026-05-11",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3481/",
       "url": "stocks/tw-3481/",
       "aliases": [
@@ -315,6 +522,7 @@
       "industry_group": "功率半導體",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3707/",
       "url": "stocks/tw-3707/",
       "aliases": [
@@ -332,6 +540,7 @@
       "industry_group": "封測",
       "latest_report_date": "2026-06-09",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3711/",
       "url": "stocks/tw-3711/",
       "aliases": [
@@ -343,6 +552,25 @@
         "ASX"
       ]
     },
+    "tw:4958": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "4958",
+      "name": "臻鼎-KY",
+      "industry_group": "PCB / 載板",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-4958/",
+      "url": "stocks/tw-4958/",
+      "aliases": [
+        "4958",
+        "4958.TW",
+        "4958.TWO",
+        "TWSE:4958",
+        "臻鼎-KY"
+      ]
+    },
     "tw:5285": {
       "market": "tw",
       "exchange": "TWSE",
@@ -351,6 +579,7 @@
       "industry_group": "導線架",
       "latest_report_date": "2026-06-09",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-5285/",
       "url": "stocks/tw-5285/",
       "aliases": [
@@ -369,6 +598,7 @@
       "industry_group": "被動元件",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-5328/",
       "url": "stocks/tw-5328/",
       "aliases": [
@@ -385,6 +615,7 @@
       "industry_group": "晶圓代工",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-5347/",
       "url": "stocks/tw-5347/",
       "aliases": [
@@ -395,6 +626,25 @@
         "TPEx:5347"
       ]
     },
+    "tw:5469": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "5469",
+      "name": "瀚宇博",
+      "industry_group": "PCB / 板卡",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/tw-5469/",
+      "url": "stocks/tw-5469/",
+      "aliases": [
+        "5469",
+        "5469.TW",
+        "5469.TWO",
+        "TWSE:5469",
+        "瀚宇博"
+      ]
+    },
     "tw:5515": {
       "market": "tw",
       "exchange": "TWSE",
@@ -403,6 +653,7 @@
       "industry_group": "建材營造業",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/tw-5515/",
       "url": "stocks/tw-5515/",
       "aliases": [
@@ -421,6 +672,7 @@
       "industry_group": "矽晶圓",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-6182/",
       "url": "stocks/tw-6182/",
       "aliases": [
@@ -439,12 +691,32 @@
       "industry_group": "光學 / CPO",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/tw-6209/",
       "url": "stocks/tw-6209/",
       "aliases": [
         "KINKO",
         "Kinko Optical",
         "今國光學"
+      ]
+    },
+    "tw:6285": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "6285",
+      "name": "啟碁",
+      "industry_group": "網通設備 / 無線通訊",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/tw-6285/",
+      "url": "stocks/tw-6285/",
+      "aliases": [
+        "6285",
+        "6285.TW",
+        "6285.TWO",
+        "TWSE:6285",
+        "啟碁"
       ]
     },
     "tw:6548": {
@@ -455,6 +727,7 @@
       "industry_group": "導線架",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-6548/",
       "url": "stocks/tw-6548/",
       "aliases": [
@@ -474,6 +747,7 @@
       "industry_group": "其他電子業",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-6743/",
       "url": "stocks/tw-6743/",
       "aliases": [
@@ -491,6 +765,7 @@
       "industry_group": "晶圓代工",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/tw-6770/",
       "url": "stocks/tw-6770/",
       "aliases": [
@@ -501,6 +776,25 @@
         "6770.TW"
       ]
     },
+    "tw:8016": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "8016",
+      "name": "矽創",
+      "industry_group": "IC 設計 / 顯示驅動與感測",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-8016/",
+      "url": "stocks/tw-8016/",
+      "aliases": [
+        "8016",
+        "8016.TW",
+        "8016.TWO",
+        "TWSE:8016",
+        "矽創"
+      ]
+    },
     "tw:8046": {
       "market": "tw",
       "exchange": "TWSE",
@@ -509,6 +803,7 @@
       "industry_group": "ABF 載板",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-8046/",
       "url": "stocks/tw-8046/",
       "aliases": [
@@ -526,6 +821,7 @@
       "industry_group": "半導體業",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/tw-8150/",
       "url": "stocks/tw-8150/",
       "aliases": [
@@ -536,6 +832,25 @@
         "南茂科技股份有限公司"
       ]
     },
+    "tw:8926": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "8926",
+      "name": "台汽電",
+      "industry_group": "能源 / 汽電共生與電力服務",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "續抱",
+      "latest_url": "stocks/tw-8926/",
+      "url": "stocks/tw-8926/",
+      "aliases": [
+        "8926",
+        "8926.TW",
+        "8926.TWO",
+        "TWSE:8926",
+        "台汽電"
+      ]
+    },
     "tw:9914": {
       "market": "tw",
       "exchange": "TWSE",
@@ -544,6 +859,7 @@
       "industry_group": "運動休閒",
       "latest_report_date": "2026-05-13",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-9914/",
       "url": "stocks/tw-9914/",
       "aliases": [
@@ -563,6 +879,7 @@
       "industry_group": "其他業",
       "latest_report_date": "2026-06-28",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/tw-9939/",
       "url": "stocks/tw-9939/",
       "aliases": [
@@ -579,6 +896,7 @@
       "industry_group": "消費電子",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-aapl/",
       "url": "stocks/us-aapl/",
       "aliases": [
@@ -598,6 +916,7 @@
       "industry_group": "必需消費 / 飲料製造與分銷",
       "latest_report_date": "2026-05-05",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-abev/",
       "url": "stocks/us-abev/",
       "aliases": [
@@ -609,6 +928,23 @@
         "B3:ABEV3"
       ]
     },
+    "us:abt": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "ABT",
+      "name": "亞培",
+      "industry_group": "醫療保健 / 醫材、診斷與營養品",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "續抱",
+      "latest_url": "stocks/us-abt/",
+      "url": "stocks/us-abt/",
+      "aliases": [
+        "ABT",
+        "US:ABT",
+        "亞培"
+      ]
+    },
     "us:acgl": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -617,6 +953,7 @@
       "industry_group": "金融 / 產物保險",
       "latest_report_date": "2026-04-28",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-acgl/",
       "url": "stocks/us-acgl/",
       "aliases": [
@@ -634,6 +971,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-adea/",
       "url": "stocks/us-adea/",
       "aliases": [
@@ -652,6 +990,7 @@
       "industry_group": "工業 / 多元商業服務",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "買入",
       "latest_url": "stocks/us-adp/",
       "url": "stocks/us-adp/",
       "aliases": [
@@ -669,6 +1008,7 @@
       "industry_group": "非必需消費 / 原廠配套汽車零組件",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-aeva/",
       "url": "stocks/us-aeva/",
       "aliases": [
@@ -687,6 +1027,7 @@
       "industry_group": "金融 / 人壽保險",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-aig/",
       "url": "stocks/us-aig/",
       "aliases": [
@@ -704,6 +1045,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-aloy/",
       "url": "stocks/us-aloy/",
       "aliases": [
@@ -722,6 +1064,7 @@
       "industry_group": "半導體設備",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-amat/",
       "url": "stocks/us-amat/",
       "aliases": [
@@ -739,6 +1082,7 @@
       "industry_group": "非必需消費 / 電影與娛樂",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-amc/",
       "url": "stocks/us-amc/",
       "aliases": [
@@ -746,6 +1090,23 @@
         "AMC Entertainment",
         "AMC Entertainment Holdings",
         "AMC Theatres"
+      ]
+    },
+    "us:amzn": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "industry_group": "網路平台 / 電商、雲端與廣告",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-amzn/",
+      "url": "stocks/us-amzn/",
+      "aliases": [
+        "AMZN",
+        "US:AMZN",
+        "Amazon"
       ]
     },
     "us:ar": {
@@ -756,6 +1117,7 @@
       "industry_group": "能源 / 油氣生產",
       "latest_report_date": "2026-04-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ar/",
       "url": "stocks/us-ar/",
       "aliases": [
@@ -773,6 +1135,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-asan/",
       "url": "stocks/us-asan/",
       "aliases": [
@@ -792,6 +1155,7 @@
       "industry_group": "醫療保健 / 醫療與牙科器材",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-atrc/",
       "url": "stocks/us-atrc/",
       "aliases": [
@@ -811,6 +1175,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-avpt/",
       "url": "stocks/us-avpt/",
       "aliases": [
@@ -829,6 +1194,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-05-04",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-axsm/",
       "url": "stocks/us-axsm/",
       "aliases": [
@@ -840,6 +1206,23 @@
         "SYMBRAVO"
       ]
     },
+    "us:axti": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "AXTI",
+      "name": "AXT Inc",
+      "industry_group": "半導體材料 / 化合物半導體基板",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-axti/",
+      "url": "stocks/us-axti/",
+      "aliases": [
+        "AXTI",
+        "US:AXTI",
+        "AXT Inc"
+      ]
+    },
     "us:ba": {
       "market": "us",
       "exchange": "NYSE",
@@ -848,6 +1231,7 @@
       "industry_group": "工業 / 航太",
       "latest_report_date": "2026-04-22",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ba/",
       "url": "stocks/us-ba/",
       "aliases": [
@@ -865,6 +1249,7 @@
       "industry_group": "電商 / 雲端",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-baba/",
       "url": "stocks/us-baba/",
       "aliases": [
@@ -883,6 +1268,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-band/",
       "url": "stocks/us-band/",
       "aliases": [
@@ -900,6 +1286,7 @@
       "industry_group": "軟體 / 車用安控",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-bb/",
       "url": "stocks/us-bb/",
       "aliases": [
@@ -919,6 +1306,7 @@
       "industry_group": "金融 / 大型銀行",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-bbd/",
       "url": "stocks/us-bbd/",
       "aliases": [
@@ -936,6 +1324,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-bill/",
       "url": "stocks/us-bill/",
       "aliases": [
@@ -955,6 +1344,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-bl/",
       "url": "stocks/us-bl/",
       "aliases": [
@@ -972,6 +1362,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-bmy/",
       "url": "stocks/us-bmy/",
       "aliases": [
@@ -989,6 +1380,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-box/",
       "url": "stocks/us-box/",
       "aliases": [
@@ -1000,6 +1392,24 @@
         "Box, Inc. Class A"
       ]
     },
+    "us:brk.b": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "BRK.B",
+      "name": "Berkshire Hathaway I",
+      "industry_group": "金融 / 保險與多元控股",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "續抱",
+      "latest_url": "stocks/us-brk-b/",
+      "url": "stocks/us-brk-b/",
+      "aliases": [
+        "BRK.B",
+        "BRK-B",
+        "US:BRK.B",
+        "Berkshire Hathaway I"
+      ]
+    },
     "us:bro": {
       "market": "us",
       "exchange": "NYSE",
@@ -1008,6 +1418,7 @@
       "industry_group": "金融 / 專業保險",
       "latest_report_date": "2026-04-27",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-bro/",
       "url": "stocks/us-bro/",
       "aliases": [
@@ -1024,6 +1435,7 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-btbt/",
       "url": "stocks/us-btbt/",
       "aliases": [
@@ -1043,6 +1455,7 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-btdr/",
       "url": "stocks/us-btdr/",
       "aliases": [
@@ -1061,6 +1474,7 @@
       "industry_group": "金融 / 投資銀行、券商與服務",
       "latest_report_date": "2026-05-21",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-BULL/",
       "url": "stocks/us-bull/",
       "aliases": [
@@ -1077,6 +1491,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-carg/",
       "url": "stocks/us-carg/",
       "aliases": [
@@ -1095,6 +1510,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ccc/",
       "url": "stocks/us-ccc/",
       "aliases": [
@@ -1113,6 +1529,7 @@
       "industry_group": "非必需消費 / 海運",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-ccl/",
       "url": "stocks/us-ccl/",
       "aliases": [
@@ -1130,6 +1547,7 @@
       "industry_group": "非必需消費 / 廣告",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-cco/",
       "url": "stocks/us-cco/",
       "aliases": [
@@ -1147,6 +1565,7 @@
       "industry_group": "醫療保健 / 醫療專科服務",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-CELC/",
       "url": "stocks/us-celc/",
       "aliases": [
@@ -1163,6 +1582,7 @@
       "industry_group": "必需消費 / 飲料製造與分銷",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-celh/",
       "url": "stocks/us-celh/",
       "aliases": [
@@ -1183,6 +1603,7 @@
       "industry_group": "非必需消費 / 娛樂休閒服務",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-chdn/",
       "url": "stocks/us-chdn/",
       "aliases": [
@@ -1201,6 +1622,7 @@
       "industry_group": "非必需消費 / 包裝商品與化妝品",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-cl/",
       "url": "stocks/us-cl/",
       "aliases": [
@@ -1219,6 +1641,7 @@
       "industry_group": "非必需消費 / 耐久財",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-cnm/",
       "url": "stocks/us-cnm/",
       "aliases": [
@@ -1234,6 +1657,7 @@
       "industry_group": "能源 / 油氣生產",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-cnx/",
       "url": "stocks/us-cnx/",
       "aliases": [
@@ -1241,6 +1665,23 @@
         "NYSE:CNX",
         "CNX Resources",
         "CNX Resources Corporation"
+      ]
+    },
+    "us:coin": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "industry_group": "金融科技 / 加密貨幣交易與託管",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-coin/",
+      "url": "stocks/us-coin/",
+      "aliases": [
+        "COIN",
+        "US:COIN",
+        "Coinbase"
       ]
     },
     "us:cp": {
@@ -1251,6 +1692,7 @@
       "industry_group": "工業 / 鐵路運輸",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-cp/",
       "url": "stocks/us-cp/",
       "aliases": [
@@ -1269,6 +1711,7 @@
       "industry_group": "非必需消費 / 目錄與專業分銷",
       "latest_report_date": "2026-05-06",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-cpng/",
       "url": "stocks/us-cpng/",
       "aliases": [
@@ -1279,6 +1722,23 @@
         "Coupang Class A"
       ]
     },
+    "us:crcl": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "CRCL",
+      "name": "Circle Internet Group",
+      "industry_group": "金融科技 / 穩定幣與支付基礎設施",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-crcl/",
+      "url": "stocks/us-crcl/",
+      "aliases": [
+        "CRCL",
+        "US:CRCL",
+        "Circle Internet Group"
+      ]
+    },
     "us:crnx": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -1287,6 +1747,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-crnx/",
       "url": "stocks/us-crnx/",
       "aliases": [
@@ -1305,6 +1766,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ctmx/",
       "url": "stocks/us-ctmx/",
       "aliases": [
@@ -1324,6 +1786,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-cytk/",
       "url": "stocks/us-cytk/",
       "aliases": [
@@ -1334,6 +1797,23 @@
         "aficamten"
       ]
     },
+    "us:dash": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "DASH",
+      "name": "DoorDash Inc",
+      "industry_group": "網路平台 / 外送與本地商務",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-dash/",
+      "url": "stocks/us-dash/",
+      "aliases": [
+        "DASH",
+        "US:DASH",
+        "DoorDash Inc"
+      ]
+    },
     "us:dbx": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -1342,6 +1822,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-dbx/",
       "url": "stocks/us-dbx/",
       "aliases": [
@@ -1361,6 +1842,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-ddog/",
       "url": "stocks/us-ddog/",
       "aliases": [
@@ -1372,6 +1854,23 @@
         "美股:DDOG"
       ]
     },
+    "us:dhr": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "DHR",
+      "name": "Danaher Corp",
+      "industry_group": "生命科學 / 診斷與儀器平台",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-dhr/",
+      "url": "stocks/us-dhr/",
+      "aliases": [
+        "DHR",
+        "US:DHR",
+        "Danaher Corp"
+      ]
+    },
     "us:dkng": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -1380,6 +1879,7 @@
       "industry_group": "非必需消費 / 娛樂休閒服務",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-dkng/",
       "url": "stocks/us-dkng/",
       "aliases": [
@@ -1398,6 +1898,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-docs/",
       "url": "stocks/us-docs/",
       "aliases": [
@@ -1416,6 +1917,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "買入",
       "latest_url": "stocks/us-dt/",
       "url": "stocks/us-dt/",
       "aliases": [
@@ -1435,6 +1937,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-duol/",
       "url": "stocks/us-duol/",
       "aliases": [
@@ -1454,6 +1957,7 @@
       "industry_group": "科技 / 程式設計與資料處理軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-dv/",
       "url": "stocks/us-dv/",
       "aliases": [
@@ -1471,6 +1975,7 @@
       "industry_group": "醫療保健 / 醫療與牙科器材",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-dxcm/",
       "url": "stocks/us-dxcm/",
       "aliases": [
@@ -1491,6 +1996,7 @@
       "industry_group": "基礎材料 / 貴金屬",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ele/",
       "url": "stocks/us-ele/",
       "aliases": [
@@ -1509,6 +2015,7 @@
       "industry_group": "醫療保健 / 醫療專科服務",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-ELV/",
       "url": "stocks/us-elv/",
       "aliases": [
@@ -1525,6 +2032,7 @@
       "industry_group": "半導體材料",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-entg/",
       "url": "stocks/us-entg/",
       "aliases": [
@@ -1542,6 +2050,7 @@
       "industry_group": "非必需消費 / 多元商業服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-eqpt/",
       "url": "stocks/us-eqpt/",
       "aliases": [
@@ -1557,6 +2066,7 @@
       "industry_group": "能源 / 工業機械與零組件",
       "latest_report_date": "2026-06-08",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-fcel/",
       "url": "stocks/us-fcel/",
       "aliases": [
@@ -1576,6 +2086,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-fivn/",
       "url": "stocks/us-fivn/",
       "aliases": [
@@ -1594,6 +2105,7 @@
       "industry_group": "必需消費 / 包裝食品",
       "latest_report_date": "2026-05-21",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-flo/",
       "url": "stocks/us-flo/",
       "aliases": [
@@ -1613,6 +2125,7 @@
       "industry_group": "科技 / 程式設計與資料處理軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-flut/",
       "url": "stocks/us-flut/",
       "aliases": [
@@ -1631,6 +2144,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-frsh/",
       "url": "stocks/us-frsh/",
       "aliases": [
@@ -1649,6 +2163,7 @@
       "industry_group": "科技 / 電腦周邊設備",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-ftnt/",
       "url": "stocks/us-ftnt/",
       "aliases": [
@@ -1667,6 +2182,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-gen/",
       "url": "stocks/us-gen/",
       "aliases": [
@@ -1686,6 +2202,7 @@
       "industry_group": "醫療保健 / 生物科技：生物製劑",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-gild/",
       "url": "stocks/us-gild/",
       "aliases": [
@@ -1703,6 +2220,7 @@
       "industry_group": "電信 / 有線與付費電視服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-glibk/",
       "url": "stocks/us-glibk/",
       "aliases": [
@@ -1714,6 +2232,23 @@
         "美股:GLIBK"
       ]
     },
+    "us:glw": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "GLW",
+      "name": "康寧公司",
+      "industry_group": "材料科技 / 特種玻璃與光纖",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "續抱",
+      "latest_url": "stocks/us-glw/",
+      "url": "stocks/us-glw/",
+      "aliases": [
+        "GLW",
+        "US:GLW",
+        "康寧公司"
+      ]
+    },
     "us:glxy": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -1722,6 +2257,7 @@
       "industry_group": "金融 / 投資銀行、券商與服務",
       "latest_report_date": "2026-04-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-GLXY/",
       "url": "stocks/us-glxy/",
       "aliases": [
@@ -1738,6 +2274,7 @@
       "industry_group": "非必需消費 / 電子產品分銷",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-gme/",
       "url": "stocks/us-gme/",
       "aliases": [
@@ -1745,6 +2282,23 @@
         "GameStop",
         "GameStop Corp.",
         "GameStop Corporation"
+      ]
+    },
+    "us:googl": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "industry_group": "網路平台 / 搜尋廣告、雲端與 AI",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-googl/",
+      "url": "stocks/us-googl/",
+      "aliases": [
+        "GOOGL",
+        "US:GOOGL",
+        "Alphabet"
       ]
     },
     "us:grab": {
@@ -1755,6 +2309,7 @@
       "industry_group": "非必需消費 / 商業服務",
       "latest_report_date": "2026-05-05",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-grab/",
       "url": "stocks/us-grab/",
       "aliases": [
@@ -1773,6 +2328,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-gtlb/",
       "url": "stocks/us-gtlb/",
       "aliases": [
@@ -1791,6 +2347,7 @@
       "industry_group": "非必需消費 / 休閒遊戲與玩具",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-has/",
       "url": "stocks/us-has/",
       "aliases": [
@@ -1810,6 +2367,7 @@
       "industry_group": "金融 / 商業銀行",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-hdb/",
       "url": "stocks/us-hdb/",
       "aliases": [
@@ -1829,6 +2387,7 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-06-02",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-hive/",
       "url": "stocks/us-hive/",
       "aliases": [
@@ -1847,6 +2406,7 @@
       "industry_group": "非必需消費 / 商業服務",
       "latest_report_date": "2026-05-28",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-hqy/",
       "url": "stocks/us-hqy/",
       "aliases": [
@@ -1865,6 +2425,7 @@
       "industry_group": "科技 / 電腦製造",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-ibm/",
       "url": "stocks/us-ibm/",
       "aliases": [
@@ -1883,6 +2444,7 @@
       "industry_group": "醫療保健 / 生物科技：生物製劑",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ibrx/",
       "url": "stocks/us-ibrx/",
       "aliases": [
@@ -1900,6 +2462,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-imnm/",
       "url": "stocks/us-imnm/",
       "aliases": [
@@ -1907,6 +2470,23 @@
         "Immunome",
         "Immunome Inc.",
         "Immunome, Inc."
+      ]
+    },
+    "us:intc": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "INTC",
+      "name": "Intel",
+      "industry_group": "半導體 / IDM 與晶圓代工轉型",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-intc/",
+      "url": "stocks/us-intc/",
+      "aliases": [
+        "INTC",
+        "US:INTC",
+        "Intel"
       ]
     },
     "us:intu": {
@@ -1917,6 +2497,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-intu/",
       "url": "stocks/us-intu/",
       "aliases": [
@@ -1936,6 +2517,7 @@
       "industry_group": "醫療保健 / 醫療與牙科器材",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-ivf/",
       "url": "stocks/us-ivf/",
       "aliases": [
@@ -1957,6 +2539,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-jkhy/",
       "url": "stocks/us-jkhy/",
       "aliases": [
@@ -1976,6 +2559,7 @@
       "industry_group": "醫療保健 / 生物科技：生物製劑",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-kod/",
       "url": "stocks/us-kod/",
       "aliases": [
@@ -1995,6 +2579,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-kvyo/",
       "url": "stocks/us-kvyo/",
       "aliases": [
@@ -2013,6 +2598,7 @@
       "industry_group": "工業 / 汽車製造",
       "latest_report_date": "2026-05-05",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-lcid/",
       "url": "stocks/us-lcid/",
       "aliases": [
@@ -2031,6 +2617,7 @@
       "industry_group": "金融 / 人壽保險",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-lnc/",
       "url": "stocks/us-lnc/",
       "aliases": [
@@ -2048,6 +2635,7 @@
       "industry_group": "公用事業 / 油氣輸送",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-lng/",
       "url": "stocks/us-lng/",
       "aliases": [
@@ -2067,6 +2655,7 @@
       "industry_group": "半導體設備",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-lrcx/",
       "url": "stocks/us-lrcx/",
       "aliases": [
@@ -2085,6 +2674,7 @@
       "industry_group": "非必需消費 / 服飾",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-lulu/",
       "url": "stocks/us-lulu/",
       "aliases": [
@@ -2102,6 +2692,7 @@
       "industry_group": "非必需消費 / 商業服務",
       "latest_report_date": "2026-05-08",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-lyft/",
       "url": "stocks/us-lyft/",
       "aliases": [
@@ -2120,6 +2711,7 @@
       "industry_group": "非必需消費 / 商業服務",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-ma/",
       "url": "stocks/us-ma/",
       "aliases": [
@@ -2138,6 +2730,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-mara/",
       "url": "stocks/us-mara/",
       "aliases": [
@@ -2156,6 +2749,7 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-04-23",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-mco/",
       "url": "stocks/us-mco/",
       "aliases": [
@@ -2174,6 +2768,7 @@
       "industry_group": "金融 / 人壽保險",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-met/",
       "url": "stocks/us-met/",
       "aliases": [
@@ -2181,6 +2776,23 @@
         "MetLife",
         "MetLife Inc.",
         "MetLife, Inc."
+      ]
+    },
+    "us:meta": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "industry_group": "網路平台 / 社群廣告與 AI",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-meta/",
+      "url": "stocks/us-meta/",
+      "aliases": [
+        "META",
+        "US:META",
+        "Meta Platforms"
       ]
     },
     "us:mos": {
@@ -2191,6 +2803,7 @@
       "industry_group": "工業 / 農業化學品",
       "latest_report_date": "2026-05-11",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-mos/",
       "url": "stocks/us-mos/",
       "aliases": [
@@ -2209,6 +2822,7 @@
       "industry_group": "科技 / 電機產品",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-mrcy/",
       "url": "stocks/us-mrcy/",
       "aliases": [
@@ -2227,6 +2841,7 @@
       "industry_group": "金融 / 專業保險",
       "latest_report_date": "2026-04-16",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-mrsh/",
       "url": "stocks/us-mrsh/",
       "aliases": [
@@ -2237,6 +2852,23 @@
         "MRSH"
       ]
     },
+    "us:msft": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "MSFT",
+      "name": "微軟",
+      "industry_group": "企業軟體 / 雲端與 AI",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-msft/",
+      "url": "stocks/us-msft/",
+      "aliases": [
+        "MSFT",
+        "US:MSFT",
+        "微軟"
+      ]
+    },
     "us:mtch": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -2245,6 +2877,7 @@
       "industry_group": "科技 / 程式設計與資料處理軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-mtch/",
       "url": "stocks/us-mtch/",
       "aliases": [
@@ -2264,6 +2897,7 @@
       "industry_group": "記憶體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-mu/",
       "url": "stocks/us-mu/",
       "aliases": [
@@ -2283,6 +2917,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ncno/",
       "url": "stocks/us-ncno/",
       "aliases": [
@@ -2301,6 +2936,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-net/",
       "url": "stocks/us-net/",
       "aliases": [
@@ -2308,6 +2944,23 @@
         "NYSE:NET",
         "Cloudflare",
         "Cloudflare, Inc."
+      ]
+    },
+    "us:nflx": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "NFLX",
+      "name": "Netflix Inc",
+      "industry_group": "媒體娛樂 / 串流影音",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-nflx/",
+      "url": "stocks/us-nflx/",
+      "aliases": [
+        "NFLX",
+        "US:NFLX",
+        "Netflix Inc"
       ]
     },
     "us:nktr": {
@@ -2318,6 +2971,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-nktr/",
       "url": "stocks/us-nktr/",
       "aliases": [
@@ -2335,6 +2989,7 @@
       "industry_group": "通訊 / AI 基建",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-nok/",
       "url": "stocks/us-nok/",
       "aliases": [
@@ -2353,6 +3008,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-ntnx/",
       "url": "stocks/us-ntnx/",
       "aliases": [
@@ -2370,6 +3026,7 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-05-14",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-nu/",
       "url": "stocks/us-nu/",
       "aliases": [
@@ -2389,6 +3046,7 @@
       "industry_group": "醫療保健 / 醫療與牙科器材",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-nvcr/",
       "url": "stocks/us-nvcr/",
       "aliases": [
@@ -2408,6 +3066,7 @@
       "industry_group": "AI 晶片",
       "latest_report_date": "2026-05-20",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-nvda/",
       "url": "stocks/us-nvda/",
       "aliases": [
@@ -2415,6 +3074,40 @@
         "NVIDIA",
         "Nvidia",
         "美股:NVDA"
+      ]
+    },
+    "us:oklo": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "OKLO",
+      "name": "Oklo Inc",
+      "industry_group": "能源 / 先進核能與小型反應爐",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-oklo/",
+      "url": "stocks/us-oklo/",
+      "aliases": [
+        "OKLO",
+        "US:OKLO",
+        "Oklo Inc"
+      ]
+    },
+    "us:orcl": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "ORCL",
+      "name": "Oracle Corp",
+      "industry_group": "企業軟體 / 資料庫與雲端",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-orcl/",
+      "url": "stocks/us-orcl/",
+      "aliases": [
+        "ORCL",
+        "US:ORCL",
+        "Oracle Corp"
       ]
     },
     "us:orly": {
@@ -2425,6 +3118,7 @@
       "industry_group": "非必需消費 / 汽車與居家用品零售",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-orly/",
       "url": "stocks/us-orly/",
       "aliases": [
@@ -2442,6 +3136,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-pags/",
       "url": "stocks/us-pags/",
       "aliases": [
@@ -2460,6 +3155,7 @@
       "industry_group": "非必需消費 / 商業服務",
       "latest_report_date": "2026-05-05",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-pay/",
       "url": "stocks/us-pay/",
       "aliases": [
@@ -2478,6 +3174,7 @@
       "industry_group": "工業 / 多元商業服務",
       "latest_report_date": "2026-06-24",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-payx/",
       "url": "stocks/us-payx/",
       "aliases": [
@@ -2496,6 +3193,7 @@
       "industry_group": "金融 / 意外與健康保險",
       "latest_report_date": "2026-04-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-pfg/",
       "url": "stocks/us-pfg/",
       "aliases": [
@@ -2513,6 +3211,7 @@
       "industry_group": "科技 / 程式設計與資料處理軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-pins/",
       "url": "stocks/us-pins/",
       "aliases": [
@@ -2531,6 +3230,7 @@
       "industry_group": "AI 軟體",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-pltr/",
       "url": "stocks/us-pltr/",
       "aliases": [
@@ -2548,6 +3248,7 @@
       "industry_group": "醫療保健 / 藥用化學品與植物藥",
       "latest_report_date": "2026-04-24",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-pm/",
       "url": "stocks/us-pm/",
       "aliases": [
@@ -2566,6 +3267,7 @@
       "industry_group": "必需消費 / 肉類與水產食品",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ppc/",
       "url": "stocks/us-ppc/",
       "aliases": [
@@ -2584,6 +3286,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-prgs/",
       "url": "stocks/us-prgs/",
       "aliases": [
@@ -2601,6 +3304,7 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-purr/",
       "url": "stocks/us-purr/",
       "aliases": [
@@ -2619,6 +3323,7 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-05-01",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-pwp/",
       "url": "stocks/us-pwp/",
       "aliases": [
@@ -2636,6 +3341,7 @@
       "industry_group": "工業 / 多元商業服務",
       "latest_report_date": "2026-05-05",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-pypl/",
       "url": "stocks/us-pypl/",
       "aliases": [
@@ -2654,6 +3360,7 @@
       "industry_group": "IC 設計 / AI 邊緣",
       "latest_report_date": "2026-04-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-qcom/",
       "url": "stocks/us-qcom/",
       "aliases": [
@@ -2671,6 +3378,7 @@
       "industry_group": "非必需消費 / 餐飲",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-qsr/",
       "url": "stocks/us-qsr/",
       "aliases": [
@@ -2691,6 +3399,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-qtwo/",
       "url": "stocks/us-qtwo/",
       "aliases": [
@@ -2708,6 +3417,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-qucy/",
       "url": "stocks/us-qucy/",
       "aliases": [
@@ -2727,6 +3437,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-rblx/",
       "url": "stocks/us-rblx/",
       "aliases": [
@@ -2744,6 +3455,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-rbrk/",
       "url": "stocks/us-rbrk/",
       "aliases": [
@@ -2761,6 +3473,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-rddt/",
       "url": "stocks/us-rddt/",
       "aliases": [
@@ -2778,6 +3491,7 @@
       "industry_group": "房地產 / 不動產投資信託",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-rexr/",
       "url": "stocks/us-rexr/",
       "aliases": [
@@ -2795,6 +3509,7 @@
       "industry_group": "非必需消費 / 專業服務",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-rhi/",
       "url": "stocks/us-rhi/",
       "aliases": [
@@ -2814,6 +3529,7 @@
       "industry_group": "工業 / 汽車製造",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-rivn/",
       "url": "stocks/us-rivn/",
       "aliases": [
@@ -2824,6 +3540,23 @@
         "美股:RIVN"
       ]
     },
+    "us:rklb": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "RKLB",
+      "name": "Rocket Lab Corp",
+      "industry_group": "航太 / 發射服務與太空系統",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-rklb/",
+      "url": "stocks/us-rklb/",
+      "aliases": [
+        "RKLB",
+        "US:RKLB",
+        "Rocket Lab Corp"
+      ]
+    },
     "us:rlmd": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -2832,6 +3565,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-05-12",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-rlmd/",
       "url": "stocks/us-rlmd/",
       "aliases": [
@@ -2849,6 +3583,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-05-06",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-rprx/",
       "url": "stocks/us-rprx/",
       "aliases": [
@@ -2865,6 +3600,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-s/",
       "url": "stocks/us-s/",
       "aliases": [
@@ -2875,6 +3611,23 @@
         "Singularity Platform"
       ]
     },
+    "us:sats": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "SATS",
+      "name": "EchoStar Corp",
+      "industry_group": "通訊 / 衛星與付費電視",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-sats/",
+      "url": "stocks/us-sats/",
+      "aliases": [
+        "SATS",
+        "US:SATS",
+        "EchoStar Corp"
+      ]
+    },
     "us:schw": {
       "market": "us",
       "exchange": "NYSE",
@@ -2883,6 +3636,7 @@
       "industry_group": "金融 / 投資銀行、券商與服務",
       "latest_report_date": "2026-04-16",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-schw/",
       "url": "stocks/us-schw/",
       "aliases": [
@@ -2901,6 +3655,7 @@
       "industry_group": "非必需消費 / 其他消費服務",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-sci/",
       "url": "stocks/us-sci/",
       "aliases": [
@@ -2918,6 +3673,7 @@
       "industry_group": "非必需消費 / 餐飲",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-sdot/",
       "url": "stocks/us-sdot/",
       "aliases": [
@@ -2937,6 +3693,7 @@
       "industry_group": "非必需消費 / 其他消費服務",
       "latest_report_date": "2026-05-12",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-se/",
       "url": "stocks/us-se/",
       "aliases": [
@@ -2957,6 +3714,7 @@
       "industry_group": "非必需消費 / 鞋類製造",
       "latest_report_date": "2026-06-26",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-shoo/",
       "url": "stocks/us-shoo/",
       "aliases": [
@@ -2975,6 +3733,7 @@
       "industry_group": "非必需消費 / 廣播媒體",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-siri/",
       "url": "stocks/us-siri/",
       "aliases": [
@@ -2993,6 +3752,7 @@
       "industry_group": "儲存",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-sndk/",
       "url": "stocks/us-sndk/",
       "aliases": [
@@ -3013,6 +3773,7 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-04-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-sofi/",
       "url": "stocks/us-sofi/",
       "aliases": [
@@ -3031,6 +3792,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-05-06",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-srpt/",
       "url": "stocks/us-srpt/",
       "aliases": [
@@ -3048,6 +3810,7 @@
       "industry_group": "工業 / 貴金屬",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-ssrm/",
       "url": "stocks/us-ssrm/",
       "aliases": [
@@ -3065,6 +3828,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-stne/",
       "url": "stocks/us-stne/",
       "aliases": [
@@ -3084,6 +3848,7 @@
       "industry_group": "醫療保健 / 生物科技：藥物製劑",
       "latest_report_date": "2026-03-31",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-SUPN/",
       "url": "stocks/us-supn/",
       "aliases": [
@@ -3100,6 +3865,7 @@
       "industry_group": "醫療保健 / 醫療與牙科器材",
       "latest_report_date": "2026-05-11",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-syk/",
       "url": "stocks/us-syk/",
       "aliases": [
@@ -3118,6 +3884,7 @@
       "industry_group": "科技 / 程式設計與資料處理軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-tbla/",
       "url": "stocks/us-tbla/",
       "aliases": [
@@ -3136,6 +3903,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-tdc/",
       "url": "stocks/us-tdc/",
       "aliases": [
@@ -3154,6 +3922,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-tenb/",
       "url": "stocks/us-tenb/",
       "aliases": [
@@ -3174,6 +3943,7 @@
       "industry_group": "醫療保健 / 醫療與牙科器材",
       "latest_report_date": "2026-05-07",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-tndm/",
       "url": "stocks/us-tndm/",
       "aliases": [
@@ -3193,6 +3963,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-tost/",
       "url": "stocks/us-tost/",
       "aliases": [
@@ -3212,12 +3983,47 @@
       "industry_group": "金融 / 消費金融服務",
       "latest_report_date": "2026-04-28",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-TRU/",
       "url": "stocks/us-tru/",
       "aliases": [
         "TRU",
         "TransUnion",
         "TransUnion Common Stock"
+      ]
+    },
+    "us:tsla": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "TSLA",
+      "name": "特斯拉",
+      "industry_group": "電動車 / 能源儲存與自動駕駛",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-tsla/",
+      "url": "stocks/us-tsla/",
+      "aliases": [
+        "TSLA",
+        "US:TSLA",
+        "特斯拉"
+      ]
+    },
+    "us:tsm": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "TSM",
+      "name": "TSMC ADR",
+      "industry_group": "半導體 / 晶圓代工 ADR",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-tsm/",
+      "url": "stocks/us-tsm/",
+      "aliases": [
+        "TSM",
+        "US:TSM",
+        "TSMC ADR"
       ]
     },
     "us:tsn": {
@@ -3228,6 +4034,7 @@
       "industry_group": "必需消費 / 肉類與水產食品",
       "latest_report_date": "2026-05-04",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-tsn/",
       "url": "stocks/us-tsn/",
       "aliases": [
@@ -3246,6 +4053,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-ttan/",
       "url": "stocks/us-ttan/",
       "aliases": [
@@ -3264,6 +4072,7 @@
       "industry_group": "類比 / 嵌入式晶片",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-txn/",
       "url": "stocks/us-txn/",
       "aliases": [
@@ -3282,6 +4091,7 @@
       "industry_group": "工業 / 航太",
       "latest_report_date": "2026-04-30",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-txt/",
       "url": "stocks/us-txt/",
       "aliases": [
@@ -3299,6 +4109,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-u/",
       "url": "stocks/us-u/",
       "aliases": [
@@ -3318,6 +4129,7 @@
       "industry_group": "非必需消費 / 商業服務",
       "latest_report_date": "2026-05-06",
       "valid_until": "2026-07-13",
+      "rating": "買入",
       "latest_url": "stocks/us-uber/",
       "url": "stocks/us-uber/",
       "aliases": [
@@ -3328,6 +4140,23 @@
         "Uber Technologies, Inc."
       ]
     },
+    "us:unh": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "UNH",
+      "name": "UnitedHealth",
+      "industry_group": "醫療保健 / 健康保險與醫療服務",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "觀察",
+      "latest_url": "stocks/us-unh/",
+      "url": "stocks/us-unh/",
+      "aliases": [
+        "UNH",
+        "US:UNH",
+        "UnitedHealth"
+      ]
+    },
     "us:v": {
       "market": "us",
       "exchange": "NYSE",
@@ -3336,6 +4165,7 @@
       "industry_group": "非必需消費 / 商業服務",
       "latest_report_date": "2026-04-28",
       "valid_until": "2026-07-13",
+      "rating": "續抱",
       "latest_url": "stocks/us-v/",
       "url": "stocks/us-v/",
       "aliases": [
@@ -3353,6 +4183,7 @@
       "industry_group": "科技 / 套裝軟體",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "買入",
       "latest_url": "stocks/us-veev/",
       "url": "stocks/us-veev/",
       "aliases": [
@@ -3372,6 +4203,7 @@
       "industry_group": "工業 / 成衣與服飾",
       "latest_report_date": "2026-05-20",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-vfc/",
       "url": "stocks/us-vfc/",
       "aliases": [
@@ -3392,6 +4224,7 @@
       "industry_group": "醫療保健 / 生物科技：生物製劑",
       "latest_report_date": "2026-05-13",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-vor/",
       "url": "stocks/us-vor/",
       "aliases": [
@@ -3409,6 +4242,7 @@
       "industry_group": "工業 / 多元商業服務",
       "latest_report_date": "2026-04-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-vrsk/",
       "url": "stocks/us-vrsk/",
       "aliases": [
@@ -3419,6 +4253,23 @@
         "Verisk Analytics, Inc."
       ]
     },
+    "us:vst": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "VST",
+      "name": "Vistra Energy Corp",
+      "industry_group": "公用事業 / 發電與電力零售",
+      "latest_report_date": "2026-06-29",
+      "valid_until": "2026-07-13",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-vst/",
+      "url": "stocks/us-vst/",
+      "aliases": [
+        "VST",
+        "US:VST",
+        "Vistra Energy Corp"
+      ]
+    },
     "us:vz": {
       "market": "us",
       "exchange": "NYSE",
@@ -3427,6 +4278,7 @@
       "industry_group": "電信 / 電信設備",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-vz/",
       "url": "stocks/us-vz/",
       "aliases": [
@@ -3446,6 +4298,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-way/",
       "url": "stocks/us-way/",
       "aliases": [
@@ -3465,6 +4318,7 @@
       "industry_group": "非必需消費 / 百貨與專門零售",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-wmt/",
       "url": "stocks/us-wmt/",
       "aliases": [
@@ -3480,6 +4334,7 @@
       "industry_group": "非必需消費 / 其他專門零售",
       "latest_report_date": "2025-12-31",
       "valid_until": "2026-07-13",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/us-wshp/",
       "url": "stocks/us-wshp/",
       "aliases": [
@@ -3498,6 +4353,7 @@
       "industry_group": "金融 / 投資銀行、券商與服務",
       "latest_report_date": "2026-05-18",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-xp/",
       "url": "stocks/us-xp/",
       "aliases": [
@@ -3516,6 +4372,7 @@
       "industry_group": "非必需消費 / 其他消費服務",
       "latest_report_date": "2026-05-08",
       "valid_until": "2026-07-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-yelp/",
       "url": "stocks/us-yelp/",
       "aliases": [
@@ -3533,6 +4390,7 @@
       "industry_group": "科技 / 電子資料處理服務",
       "latest_report_date": "2026-06-29",
       "valid_until": "2026-07-13",
+      "rating": "分批布局",
       "latest_url": "stocks/us-zs/",
       "url": "stocks/us-zs/",
       "aliases": [
