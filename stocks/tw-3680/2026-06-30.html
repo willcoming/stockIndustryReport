@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3680 家登 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 半導體設備</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">3680 家登</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-30</span>
+        <span class="meta-pill">有效至 2026-07-14</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-30.html">2026-06-30</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>家登 3680 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-30。</li>
+<li>最新股價日期：2026-06-29，收盤價 489.0 TWD，來源為 StockLoop PEI ledger 記錄的 <code>tpex_official_latest_close</code>，檢索時間 2026-06-29T23:54:32Z。</li>
+<li>最新財報期間：本次 PEI valuation handoff 未提供完整估值倍數；完整季報、年報、法說逐項內容仍需查證。</li>
+<li>使用的主要資料來源：<code>reports/news/2026-06-30_kol_news_decision_report.md</code>、<code>reports/public-equity-batch/2026-06-30/companies/tw-3680/source_ledger.json</code>、交易所最新收盤價與本地日線風險輸入。</li>
+<li>是否有資料缺口：有。PEI 標示 <code>research_status=partial</code>、<code>valuation_status=not_run</code> 且估值倍數 missing；官方公司基本資料、月營收、完整財報、訂單、法說與客戶集中度未完成查核。</li>
+<li>需要再次查證的數據：P/E、Forward P/E、P/S、EV/EBITDA、P/B、FCF Yield、2026Q1 毛利率、營益率、EPS、EUV/先進製程載具產品占比。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：家登是半導體先進製程載具與設備周邊供應商，核心包括光罩盒、晶圓載具與高潔淨耗材/設備相關產品。</li>
+<li>所屬主要產業：半導體設備與材料零組件，偏先進製程與 EUV 供應鏈。</li>
+<li>產業鏈位置：半導體製造中游關鍵載具/耗材，服務晶圓廠與設備/製程供應鏈。</li>
+<li>核心投資邏輯：KOL/news 列為「現在可以買名單」，追蹤指標為先進封裝與設備需求；但 PEI ledger 顯示估值資料缺失，且股價距 20D 低點僅約 4.6%，需用回測與財報確認。</li>
+<li>目前投資評級：觀察。</li>
+<li>主要理由：公司長期題材與 EUV/先進製程鏈有關，但本次可驗證估值倍數不足，不能在缺 P/E 與完整財報下給更積極評級。</li>
+<li>主要風險：估值過高、大盤系統風險、客戶集中、先進製程資本支出節奏、產品驗證與良率。</li>
+<li>最重要的 3-5 個追蹤指標：月營收、EUV/先進製程載具出貨、毛利率、客戶擴產、20D 低點 466.5 TWD 與 60D 高點 567.0 TWD。</li>
+<li>代表性美股與台股同業：Entegris、MKS、Applied Materials、ASML、Lam Research、京鼎、弘塑、辛耘、漢唐、帆宣。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：光罩盒、晶圓載具、先進製程高潔淨載具、設備周邊與相關服務；細項產品比重需查最新年報。</li>
+<li>營收來源：向晶圓廠、光罩/晶圓製造與半導體供應鏈銷售載具、耗材與相關設備周邊。</li>
+<li>主要客戶：先進製程晶圓廠與半導體供應鏈客戶；具體客戶集中度需查證。</li>
+<li>毛利率與營益率特性：若產品具 EUV 或先進製程認證，毛利率可高於一般耗材；但研發、認證、產能與良率會影響營益率。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：主要來自先進製程節點增加、EUV 使用量、晶圓廠擴產、先進封裝與高潔淨需求。</li>
+<li>是否有景氣循環性：有。長期受先進製程結構成長支撐，但短期仍受半導體資本支出與客戶拉貨影響。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：半導體先進製程載具、耗材與設備周邊。</li>
+<li>產業解決什麼問題：在極高潔淨與精密要求下安全搬運、保護與儲存晶圓和光罩，降低污染、刮傷與良率損失。</li>
+<li>需求來自哪裡：EUV 微影、先進邏輯製程、先進封裝、高階記憶體與晶圓廠擴產。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：EUV/先進製程載具屬成長期，傳統載具屬成熟循環。</li>
+<li>長期成長驅動力：EUV 層數增加、先進製程良率要求、AI 晶片需求、HBM 與先進封裝。</li>
+<li>短期波動因素：晶圓廠資本支出、台積電/海外晶圓廠擴產節奏、認證進度、估值與大盤風險。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游材料</td>
+<td>高潔淨材料</td>
+<td>工程塑膠、特殊材料、精密耗材</td>
+<td>ENTG、MTSI</td>
+<td>需查證</td>
+<td>中高</td>
+<td>中高</td>
+<td>材料認證</td>
+</tr>
+<tr>
+<td>精密製造</td>
+<td>載具與零組件</td>
+<td>光罩盒、晶圓盒、FOUP/FOSB</td>
+<td>ENTG</td>
+<td>家登、翔名</td>
+<td>中</td>
+<td>中高</td>
+<td>認證與良率</td>
+</tr>
+<tr>
+<td>設備大廠</td>
+<td>製程設備</td>
+<td>微影、蝕刻、沉積</td>
+<td>ASML、AMAT、LRCX</td>
+<td>需查證</td>
+<td>高</td>
+<td>高</td>
+<td>出口管制</td>
+</tr>
+<tr>
+<td>晶圓製造</td>
+<td>下游客戶</td>
+<td>先進製程晶圓</td>
+<td>TSM、INTC、MU</td>
+<td>台積電、聯電、南亞科</td>
+<td>高</td>
+<td>中高</td>
+<td>資本支出循環</td>
+</tr>
+<tr>
+<td>先進封裝</td>
+<td>新增需求</td>
+<td>CoWoS、HBM、封裝載具</td>
+<td>AMAT、LRCX</td>
+<td>台積電、日月光、弘塑</td>
+<td>中高</td>
+<td>中高</td>
+<td>擴產節奏</td>
+</tr>
+<tr>
+<td>廠務/工程</td>
+<td>建廠支援</td>
+<td>無塵室、管線、搬運</td>
+<td>需查證</td>
+<td>漢唐、帆宣</td>
+<td>中</td>
+<td>中</td>
+<td>專案驗收</td>
+</tr>
+</tbody>
+</table></div>
+<p>家登位於精密載具與設備周邊段，若產品通過先進製程客戶認證，具關鍵位置；但它仍依賴晶圓廠擴產、先進製程節奏與客戶採購。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：高潔淨、低污染、精密尺寸控制、材料穩定度與 EUV/先進製程認證形成門檻。</li>
+<li>規模經濟：產能、良率與認證平台可攤提研發與製造成本。</li>
+<li>客戶黏著度：通過晶圓廠驗證後，替換供應商需重新測試污染、良率與可靠度，黏著度較高。</li>
+<li>轉換成本：高。先進製程客戶不會輕易替換影響良率的載具。</li>
+<li>品牌或通路優勢：B2B 認證與長期供應紀錄是品牌。</li>
+<li>成本優勢：需查證；若在台灣靠近主要客戶，可有交期與工程支援優勢。</li>
+<li>專利、法規或資本門檻：專利、材料 know-how、潔淨製造與資本支出都是門檻。</li>
+<li>是否容易被替代：一般載具替代風險中等；EUV/先進製程認證載具替代難度較高。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：代表先進製程載具出貨與客戶擴產；本次官方月營收未接入，需查證。</li>
+<li>毛利率：改善代表高階產品占比提升、良率改善或議價能力增加；下降代表產品組合轉弱或稼動不足。</li>
+<li>營益率：反映研發、產能與費用槓桿。</li>
+<li>EPS 成長率：估值資料缺失下，EPS 是判斷是否能升評的核心。</li>
+<li>自由現金流：高成長公司若大量擴產，現金流可能短期承壓。</li>
+<li>資本支出：擴產代表成長機會，但若需求不如預期會形成折舊壓力。</li>
+<li>存貨週轉：載具與材料備貨若過高，可能代表客戶拉貨延後。</li>
+<li>訂單能見度：先進製程客戶認證與長約能提高能見度。</li>
+<li>客戶集中度：需查證；若高度依賴少數晶圓廠，波動與議價風險高。</li>
+<li>市占率：EUV/先進載具市占提升是長線關鍵。</li>
+<li>產能利用率：稼動率高有利毛利，低稼動會拖累營益率。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3680</td>
+<td>家登</td>
+<td>台股</td>
+<td>載具/設備周邊</td>
+<td>光罩盒、晶圓載具</td>
+<td>先進製程認證</td>
+<td>估值、客戶集中</td>
+<td>高</td>
+<td>中</td>
+<td>估值倍數需查證</td>
+</tr>
+<tr>
+<td>ENTG</td>
+<td>Entegris</td>
+<td>美股</td>
+<td>材料/載具</td>
+<td>先進材料、過濾、載具</td>
+<td>全球客戶與產品線</td>
+<td>半導體循環</td>
+<td>高</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>MKSI</td>
+<td>MKS</td>
+<td>美股</td>
+<td>設備零組件</td>
+<td>真空、電源、製程控制</td>
+<td>設備供應鏈深度</td>
+<td>設備循環</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>ASML</td>
+<td>ASML</td>
+<td>美股/歐股</td>
+<td>微影設備</td>
+<td>EUV/DUV</td>
+<td>技術壟斷</td>
+<td>地緣政治</td>
+<td>高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>AMAT</td>
+<td>Applied Materials</td>
+<td>美股</td>
+<td>設備大廠</td>
+<td>沉積/蝕刻/材料工程</td>
+<td>規模</td>
+<td>出口管制</td>
+<td>高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>LRCX</td>
+<td>Lam Research</td>
+<td>美股</td>
+<td>設備大廠</td>
+<td>蝕刻/沉積</td>
+<td>記憶體與先進製程</td>
+<td>記憶體循環</td>
+<td>高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3413</td>
+<td>京鼎</td>
+<td>台股</td>
+<td>設備零組件</td>
+<td>半導體設備模組</td>
+<td>認證與製造</td>
+<td>資本支出循環</td>
+<td>中高</td>
+<td>中</td>
+<td>P/E 16.68</td>
+</tr>
+<tr>
+<td>3131</td>
+<td>弘塑</td>
+<td>台股</td>
+<td>濕製程設備</td>
+<td>先進封裝濕製程</td>
+<td>CoWoS 題材</td>
+<td>客戶集中</td>
+<td>高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3583</td>
+<td>辛耘</td>
+<td>台股</td>
+<td>設備/再生晶圓</td>
+<td>設備代理與濕製程</td>
+<td>先進封裝曝險</td>
+<td>估值</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2404</td>
+<td>漢唐</td>
+<td>台股</td>
+<td>廠務工程</td>
+<td>無塵室/廠務</td>
+<td>台積電建廠曝險</td>
+<td>專案毛利</td>
+<td>中高</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>家登</td>
+<td>3680</td>
+<td>台股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>因估值缺口，維持觀察</td>
+</tr>
+<tr>
+<td>Entegris</td>
+<td>ENTG</td>
+<td>美股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>全球材料/載具基準</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>MKS</td>
+<td>MKSI</td>
+<td>美股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>設備零組件基準</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>ASML</td>
+<td>ASML</td>
+<td>美股/歐股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高護城河溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>京鼎</td>
+<td>3413</td>
+<td>台股</td>
+<td>16.68</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>台股設備零組件參考</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中性偏合理</td>
+</tr>
+<tr>
+<td>弘塑</td>
+<td>3131</td>
+<td>台股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>先進封裝設備參考</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<p>家登本次缺少可驗證 valuation multiples，不能用感覺判斷便宜或昂貴。若市場已把 EUV 與先進製程成長完全反映，缺乏估值安全邊際會是主要風險。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>EUV 與先進製程載具滲透提升，客戶擴產延續</td>
+<td>高</td>
+<td>上升</td>
+<td>EPS 明顯成長</td>
+<td>可享高成長溢價</td>
+<td>升至分批布局或買入</td>
+<td>月營收連續成長、毛利率改善、估值可驗證合理</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>先進製程需求成長但估值偏高，拉貨節奏波動</td>
+<td>中</td>
+<td>持平</td>
+<td>EPS 成長但波動</td>
+<td>中高但需折現風險</td>
+<td>維持觀察</td>
+<td>回測支撐、財報與估值補齊</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>客戶擴產延後或估值修正，大盤風險升高</td>
+<td>下滑或低成長</td>
+<td>下滑</td>
+<td>EPS 下修</td>
+<td>估值下修</td>
+<td>降至減碼/賣出</td>
+<td>跌破 20D 低點、毛利率下降、訂單轉弱</td>
+</tr>
+</tbody>
+</table></div>
+<p>樂觀情境看 EUV/先進製程產品占比，基準情境看估值是否可被 EPS 支撐，悲觀情境看客戶擴產與大盤風險。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3680</td>
+<td>家登</td>
+<td>觀察</td>
+<td>能等待估值與財報補齊者</td>
+<td>長期題材佳，但估值資料缺失且系統風險仍在</td>
+<td>P/E/PB/FCF 等缺口過大，不宜直接判定便宜</td>
+<td>EUV、先進製程與載具本土供應鏈</td>
+<td>月營收、毛利率、EPS、EUV 出貨、20D 低點</td>
+<td>估值合理且財報確認可升評；跌破支撐或毛利轉弱可下調</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合在估值缺口下直接買入；先把 P/E、P/B、毛利率與月營收補齊。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？可續抱觀察；加碼需等估值與財報證據確認。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等股價回測不破、月營收/毛利率改善，且估值倍數回到可接受區間。</li>
+<li>哪些訊號會讓你把評級上調？EUV 載具出貨放大、EPS 上修、估值可驗證不昂貴、量價轉強。</li>
+<li>哪些訊號會讓你把評級下調？大盤風險升高、跌破 20D 低點、客戶擴產延後、毛利率下滑。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不列為核心穩健型，因估值與客戶集中風險較高。</li>
+<li>成長型：若 EUV 與先進製程載具放量，是明確成長型。</li>
+<li>景氣循環型：仍受半導體資本支出與晶圓廠擴產循環影響。</li>
+<li>高風險高報酬型：高成長題材若估值過高，股價波動會很大。</li>
+<li>只適合觀察、不適合輕易買進：本次因估值資料缺失，暫列觀察。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：若市場提前反映 EUV 成長，但 EPS 未跟上，修正壓力大。</li>
+<li>景氣反轉風險：半導體資本支出與晶圓廠擴產若延後，載具需求會受影響。</li>
+<li>技術替代風險：材料、載具規格或客戶認證平台改變。</li>
+<li>競爭加劇風險：全球材料/載具大廠與本土供應商競爭。</li>
+<li>政策與地緣政治風險：EUV 與先進製程受出口管制和區域化建廠影響。</li>
+<li>客戶集中風險：需查證；若主要客戶集中，訂單與議價風險提高。</li>
+<li>財報可能出現的警訊：月營收不如預期、毛利率下降、存貨升高、應收帳款拉長、擴產折舊壓力上升。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：2026Q1 季報、2025 年報、產品別營收、毛利率、EPS、存貨、資本支出與現金流。</li>
+<li>法說會應聽重點：EUV/先進製程載具出貨、主要客戶擴產、毛利率展望、產能與認證進度。</li>
+<li>每季追蹤指標：月營收、毛利率、EPS、P/E、P/B、存貨週轉、20D/60D 價格區間。</li>
+<li>產業數據來源：交易所、MOPS、公司 IR、台積電法說、ASML 出貨與 EUV 展望、Entegris 財報。</li>
+<li>競爭對手觀察名單：Entegris、MKS、京鼎、弘塑、辛耘、漢唐。</li>
+<li>初學者下一步應該研究哪 3 家公司：Entegris、ASML、台積電。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是。家登是理解 EUV、先進製程載具與高潔淨供應鏈的好入口。</li>
+<li>該產業是否值得長期追蹤：值得，因先進製程與 AI 晶片需求提高載具與污染控制重要性。</li>
+<li>目前最重要的投資邏輯：EUV/先進製程載具需求能否轉為可驗證營收與 EPS 成長。</li>
+<li>最大風險：估值資料缺失與大盤系統風險。</li>
+<li>估值是否已經反映成長預期：需查證；本次不應在缺乏估值倍數下判斷便宜。</li>
+<li>最終投資評級與理由：觀察。長期題材佳，但 P/E/PB/現金流與官方財報證據缺口過大，需補齊後再考慮升評。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：EUV 光罩盒、晶圓載具、先進製程污染控制、台積電與 ASML 擴產節奏。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

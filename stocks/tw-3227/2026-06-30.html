@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3227 原相 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · IC 設計</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">3227 原相</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-30</span>
+        <span class="meta-pill">有效至 2026-07-14</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-30.html">2026-06-30</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>原相 3227 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-30。</li>
+<li>最新股價日期：2026-06-29，收盤價 233.5 TWD，來源為 StockLoop PEI source_ledger 記錄的 <code>tpex_official_latest_close</code>。</li>
+<li>最新財報期間：需查證；PEI valuation handoff 標示 valuation multiples missing，官方財報與法說尚未補齊。</li>
+<li>使用的主要資料來源：<code>reports/news/2026-06-30_kol_news_decision_report.md</code>、<code>reports/public-equity-batch/2026-06-30/companies/tw-3227/summary.md</code>、<code>source_ledger.json</code>、TPEx 官方行情 handoff。</li>
+<li>是否有資料缺口：有。PEI 標示 <code>research_status=partial</code>、<code>valuation_status=not_run</code>、valuation multiples missing、官方 evidence handoff missing。</li>
+<li>需要再次查證的數據：P/E、P/B、P/S、EV/EBITDA、毛利率、EPS、自由現金流、產品別營收、Switch/遊戲控制應用實際貢獻。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：原相是 IC 設計公司，聚焦 CMOS 影像感測、光學感測、人機介面與遊戲/滑鼠/消費電子控制晶片。</li>
+<li>所屬主要產業：IC 設計。</li>
+<li>產業鏈位置：上游晶片設計，委外製造，下游應用於滑鼠、遊戲控制、消費電子與感測裝置。</li>
+<li>核心投資邏輯：若遊戲主機/周邊、滑鼠與感測應用出現新品循環，原相可受惠；但目前來源只給「等點火大量或跳空站上」，且估值資料缺口比義隆更大。</li>
+<li>目前投資評級：觀察。</li>
+<li>主要理由：KOL/news 將原相列為「現在不能買，但值得等買點名單」，PEI 為 Wait for trigger，估值 multiples missing。</li>
+<li>主要風險：追高回檔、消費電子需求波動、遊戲新品題材落空、估值不可驗證、買盤不連貫。</li>
+<li>最重要的 3-5 個追蹤指標：買盤連貫性、跳空/大量站上、Switch/遊戲應用、月營收、毛利率。</li>
+<li>代表性美股與台股同業：Synaptics、PixArt 競品需查證、義隆、聯詠、瑞昱、盛群、凌通、偉詮電。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：光學感測 IC、影像感測相關 IC、滑鼠/遊戲控制與消費電子感測晶片；精確分類需查最新年報。</li>
+<li>營收來源：IC 設計完成後委外晶圓代工與封測，再銷售至滑鼠、遊戲、消費電子與模組客戶。</li>
+<li>主要客戶：遊戲周邊、滑鼠、消費電子品牌與模組廠；客戶名單與集中度需查證。</li>
+<li>毛利率與營益率特性：IC 設計毛利率受產品利基性、競爭強度與晶圓成本影響；若新品週期強，營益率可因營收槓桿改善。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：主要來自新品導入、遊戲/周邊出貨量、市占率與感測應用擴張。</li>
+<li>是否有景氣循環性：有。遊戲、滑鼠與消費電子具產品週期與庫存循環。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：感測 IC、影像/光學控制 IC、人機介面 IC。</li>
+<li>產業解決什麼問題：將光、影像、位移或動作訊號轉成終端設備可處理的電子訊號。</li>
+<li>需求來自哪裡：遊戲周邊、滑鼠、控制器、智慧裝置、消費電子與部分工控/車用感測。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：滑鼠與傳統消費電子成熟，遊戲新品與新感測應用屬產品週期成長題材。</li>
+<li>長期成長驅動力：人機互動升級、遊戲硬體迭代、感測器小型化與低功耗化。</li>
+<li>短期波動因素：Switch 或遊戲平台題材、客戶拉貨、通路庫存、買盤連貫性、估值資料缺口。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游 EDA/IP</td>
+<td>設計工具</td>
+<td>EDA、感測 IP</td>
+<td>SNPS、CDNS</td>
+<td>創意、世芯-KY</td>
+<td>高</td>
+<td>高</td>
+<td>授權成本</td>
+</tr>
+<tr>
+<td>上游代工/封測</td>
+<td>製造</td>
+<td>CMOS/成熟製程、封測</td>
+<td>TSM、GFS、AMKR</td>
+<td>台積電、聯電、日月光</td>
+<td>中高</td>
+<td>中</td>
+<td>產能、成本</td>
+</tr>
+<tr>
+<td>中游 IC 設計</td>
+<td>感測與控制</td>
+<td>光學、影像、HMI IC</td>
+<td>SYNA、需查證</td>
+<td>原相、義隆、盛群、凌通</td>
+<td>中</td>
+<td>中高</td>
+<td>新品週期、競爭</td>
+</tr>
+<tr>
+<td>下游模組</td>
+<td>終端零組件</td>
+<td>滑鼠、控制器、鏡頭/感測模組</td>
+<td>LOGI 需查證</td>
+<td>群光、致伸、需查證</td>
+<td>中</td>
+<td>中</td>
+<td>庫存</td>
+</tr>
+<tr>
+<td>終端品牌</td>
+<td>需求決策</td>
+<td>遊戲主機、PC 周邊、消費電子</td>
+<td>NTDOY、LOGI、MSFT</td>
+<td>需查證</td>
+<td>高</td>
+<td>視品牌</td>
+<td>新品銷售不如預期</td>
+</tr>
+</tbody>
+</table></div>
+<p>原相位於中游 IC 設計段，關鍵位置在利基感測與控制晶片。它的投資價值高度依賴新品週期與設計案導入，而非單純總體半導體需求。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：光學/影像感測需要演算法、低功耗、抗干擾與大量應用經驗。</li>
+<li>規模經濟：研發與產品平台可重複使用，但市場規模小於大型網通或顯示 IC。</li>
+<li>客戶黏著度：設計導入後有黏著度，但新品代際切換可能重新競爭。</li>
+<li>轉換成本：中等；終端客戶更換晶片需重新驗證。</li>
+<li>品牌或通路優勢：主要靠技術口碑與客戶設計案，不靠消費品牌。</li>
+<li>成本優勢：取決於委外製造成本、良率與產品組合。</li>
+<li>專利、法規或資本門檻：演算法、感測設計與專利是門檻。</li>
+<li>是否容易被替代：中等偏高；若競品整合度更高、成本更低，替代風險上升。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：改善代表新品或終端需求放量；下滑代表產品週期轉弱。</li>
+<li>毛利率：改善代表利基產品占比上升；下滑代表競爭或成本壓力。</li>
+<li>營益率：可反映研發費用槓桿與產品組合。</li>
+<li>EPS 成長率：若 EPS 顯著落後營收，需檢查毛利與費用。</li>
+<li>自由現金流：需查證；庫存變動與應收帳款會影響現金流。</li>
+<li>資本支出：IC 設計資本支出通常不是核心，研發投入更重要。</li>
+<li>存貨週轉：惡化代表終端拉貨可能不如預期。</li>
+<li>訂單能見度：遊戲/滑鼠新品設計案與客戶 forecast 是關鍵。</li>
+<li>客戶集中度：需查證；遊戲或周邊大客戶變動可能影響很大。</li>
+<li>市占率：光學滑鼠、遊戲控制或特定感測應用市占需追蹤。</li>
+<li>產能利用率：委外製造下看晶圓代工供需與成本。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3227</td>
+<td>原相</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>光學/感測 IC</td>
+<td>利基感測與客戶導入</td>
+<td>新品週期、估值缺口</td>
+<td>中</td>
+<td>中</td>
+<td>multiples missing</td>
+</tr>
+<tr>
+<td>2458</td>
+<td>義隆</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>觸控/控制 IC</td>
+<td>HMI 經驗</td>
+<td>PC 循環</td>
+<td>中</td>
+<td>中</td>
+<td>PE 19.82</td>
+</tr>
+<tr>
+<td>6202</td>
+<td>盛群</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>MCU</td>
+<td>成熟控制 IC</td>
+<td>價格競爭</td>
+<td>中低</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>4952</td>
+<td>凌通</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>消費控制 IC</td>
+<td>利基市場</td>
+<td>規模小</td>
+<td>中</td>
+<td>中低</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2436</td>
+<td>偉詮電</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>電源/控制 IC</td>
+<td>利基產品</td>
+<td>需求循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3034</td>
+<td>聯詠</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>顯示驅動 IC</td>
+<td>規模</td>
+<td>面板循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2379</td>
+<td>瑞昱</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>網通/PC IC</td>
+<td>產品線廣</td>
+<td>競爭</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>SYNA</td>
+<td>Synaptics</td>
+<td>美股</td>
+<td>IC 設計</td>
+<td>HMI/IoT IC</td>
+<td>技術與品牌客戶</td>
+<td>終端循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>LOGI</td>
+<td>Logitech</td>
+<td>美股</td>
+<td>下游品牌</td>
+<td>周邊產品</td>
+<td>品牌與通路</td>
+<td>消費需求</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>NTDOY</td>
+<td>Nintendo</td>
+<td>海外</td>
+<td>終端品牌</td>
+<td>遊戲主機與內容</td>
+<td>IP 與平台</td>
+<td>新機週期</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原相</td>
+<td>3227</td>
+<td>台股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>PEI 顯示 valuation multiples missing，不可判定便宜</td>
+</tr>
+<tr>
+<td>義隆</td>
+<td>2458</td>
+<td>台股</td>
+<td>19.82</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中性偏高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>同業參考但不同產品</td>
+</tr>
+<tr>
+<td>盛群</td>
+<td>6202</td>
+<td>台股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>凌通</td>
+<td>4952</td>
+<td>台股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>Synaptics</td>
+<td>SYNA</td>
+<td>美股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>Logitech</td>
+<td>LOGI</td>
+<td>美股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>下游客戶參考</td>
+</tr>
+</tbody>
+</table></div>
+<p>原相目前最重要的估值結論不是便宜或昂貴，而是「不可充分判定」。PEI 明確顯示 valuation multiples missing，因此應先補 MOPS/TPEX 財報與同業 comps。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>遊戲平台或周邊新品導入成功，Switch 應用帶動拉貨，毛利率改善</td>
+<td>中高</td>
+<td>上升</td>
+<td>EPS 成長</td>
+<td>高於中位，需查證</td>
+<td>可升至分批布局</td>
+<td>點火大量或跳空站上且月營收確認</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>新品題材部分落地，消費電子需求溫和復甦</td>
+<td>中</td>
+<td>持平</td>
+<td>EPS 小幅成長</td>
+<td>中位，需查證</td>
+<td>維持觀察</td>
+<td>買盤連貫但財報需驗證</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>題材未落地，終端需求弱，估值無法支持</td>
+<td>低或下滑</td>
+<td>下滑</td>
+<td>EPS 下修</td>
+<td>低於中位，需查證</td>
+<td>降至減碼/賣出或排除</td>
+<td>追高回檔、月營收轉弱</td>
+</tr>
+</tbody>
+</table></div>
+<p>樂觀情境要看新品設計案與月營收；基準情境看買盤是否連貫；悲觀情境要盯題材落空與估值資料缺口。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3227</td>
+<td>原相</td>
+<td>觀察</td>
+<td>能等待大量突破與財報補證據者</td>
+<td>感測 IC 與遊戲應用有題材，但還缺估值與基本面證據</td>
+<td>PEI Wait for trigger，valuation multiples missing，追高回檔風險</td>
+<td>利基感測 IC 與遊戲新品週期觀察股</td>
+<td>買盤連貫性、Switch 應用、月營收、毛利率</td>
+<td>大量站上且財報改善可上調；題材落空或估值過高可下調</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合，因為估值資料缺口大且來源要求等點火大量或跳空站上。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？小部位可觀察，不建議在未確認前加碼；若追高後失去量價支撐應檢討減碼。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等大量站上、買盤連貫、月營收與毛利率確認新品貢獻。</li>
+<li>哪些訊號會讓你把評級上調？Switch/遊戲應用實際放量、估值補齊後仍合理、EPS 上修。</li>
+<li>哪些訊號會讓你把評級下調？跳空失敗、追高回檔、月營收下滑、毛利率惡化、題材證據不足。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不是核心穩健型，因需求與題材波動較高。</li>
+<li>成長型：若新品應用放量，可成為利基成長型。</li>
+<li>景氣循環型：消費電子與遊戲硬體具明顯產品週期。</li>
+<li>高風險高報酬型：在點火題材與估值不明時追價，屬高風險高報酬。</li>
+<li>只適合觀察、不適合輕易買進：目前屬此類，因 wait-trigger 與 valuation missing。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：目前估值 multiples missing，無法確認安全邊際。</li>
+<li>景氣反轉風險：消費電子與遊戲硬體需求可能低於預期。</li>
+<li>技術替代風險：感測功能可能被 SoC 整合或被其他感測方案取代。</li>
+<li>競爭加劇風險：中國、台灣與國際 IC 設計公司可能競爭設計案。</li>
+<li>政策與地緣政治風險：半導體供應鏈、匯率與出口政策可能影響成本與需求。</li>
+<li>客戶集中風險：需查證；若單一遊戲或周邊客戶占比高，產品週期影響大。</li>
+<li>財報可能出現的警訊：營收未跟題材同步、毛利率下滑、存貨增加、應收帳款拉長。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：最新季報、產品別營收、毛利率、EPS、存貨、現金流。</li>
+<li>法說會應聽重點：遊戲/滑鼠/感測新品、Switch 或其他平台應用、客戶拉貨、毛利率展望。</li>
+<li>每季追蹤指標：月營收、毛利率、EPS、買盤連貫性、TPEX/TWSE 估值資料。</li>
+<li>產業數據來源：MOPS、TPEx、公司 IR、遊戲硬體出貨、PC 周邊銷售、感測 IC 同業財報。</li>
+<li>競爭對手觀察名單：義隆、盛群、凌通、偉詮電、Synaptics、Logitech、Nintendo。</li>
+<li>初學者下一步應該研究哪 3 家公司：義隆、盛群、Synaptics。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是，原相是理解利基感測 IC、遊戲周邊晶片與人機介面晶片的好入口。</li>
+<li>該產業是否值得長期追蹤：值得，但應以新品週期與設計案驗證為核心。</li>
+<li>目前最重要的投資邏輯：Switch/遊戲或感測新品題材能否轉為月營收、毛利率與 EPS。</li>
+<li>最大風險：估值資料缺口大，且來源明確提示追高回檔。</li>
+<li>估值是否已經反映成長預期：需查證；目前不可下便宜結論。</li>
+<li>最終投資評級與理由：觀察。等待大量站上與官方財報補證據，才有升評基礎。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：遊戲硬體平台、滑鼠/周邊品牌、感測 IC 同業、代工成本。</li>
+</ul>
+</article></main></div>
+</body>
+</html>
