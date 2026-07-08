@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3041 揚智 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 半導體業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">3041 揚智</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-30</span>
+        <span class="meta-pill">有效至 2026-07-07</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-30.html">2026-06-30</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>揚智 3041 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-30；有效性建議至 2026-07-07，之後需重新檢查股價、月營收、虧損收斂與新產品進度。</li>
+<li>最新股價日期：2026-06-29，TWSE 官方 <code>STOCK_DAY_ALL</code> 收盤價 26.8 TWD；同日開高低收為 27.4 / 27.75 / 26.7 / 26.8 TWD。</li>
+<li>最新財報期間：2026Q1，TWSE OpenAPI <code>t187ap14_L</code> 與 <code>t187ap17_L</code> 出表日期 2026-06-30；2026Q1 營收 351.84 百萬元、EPS -0.48、毛利率 47.38%、營益率 -39.72%。</li>
+<li>使用的主要資料來源：TWSE 公司基本資料 <code>t187ap03_L</code>、TWSE 月營收 <code>t187ap05_L</code>、TWSE 獲利能力 <code>t187ap17_L</code>、TWSE BWIBBU 估值、TWSE <code>STOCK_DAY_ALL</code>、揚智官網 ALiIN / Set Top Box / ASIC / IP / Investor Relations 頁、<code>reports/twStock/2026-06-30_tw_kline_decision_report.md</code>、<code>reports/public-equity-batch/2026-06-30-tw-kline/companies/tw-3041/source_ledger.json</code>。</li>
+<li>是否有資料缺口：有。Forward P/E、EV/EBITDA、P/S、FCF Yield、近 3-5 年 P/E 區間、產品別營收、主要客戶、庫存與現金流仍需查證。</li>
+<li>需要再次查證的數據：新增合併個體對營收的貢獻、ALiIN 量產客戶、Set Top Box SoC 訂單、ASIC/IP 專案進度、研發費用率與現金水位。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：揚智科技是台灣 IC 設計公司，核心來自數位影音 Set Top Box SoC，並延伸到 ALiIN 智慧室內 AI 平台、ASIC 與 IP 授權。</li>
+<li>所屬主要產業：半導體業中的無晶圓廠 IC 設計、數位影音 SoC 與邊緣 AI/智慧室內應用。</li>
+<li>產業鏈位置：Fabless IC 設計端，位於上游 IP/EDA 與下游晶圓代工、封測、終端設備品牌之間。</li>
+<li>核心投資邏輯：2026 年 5 月營收年增 97.94%、累計營收年增 26.70%，但 2026Q1 仍虧損，市場目前用 P/B 2.66 評價而非 P/E。</li>
+<li>目前投資評級：觀察。</li>
+<li>主要理由：營收有低基期反彈與合併範圍改善，但虧損尚未證明可持續收斂；在缺少可核對獲利轉正證據前，不宜把短線量價訊號視為基本面買點。</li>
+<li>主要風險：終端機上盒市場成熟、研發費用壓力、產品轉型不確定、客戶與通路集中、虧損造成估值難以用 P/E 判斷。</li>
+<li>最重要的 3-5 個追蹤指標：月營收、毛利率、營益率、EPS 是否轉正、ALiIN/ASIC/IP 新案收入。</li>
+<li>代表性美股與台股同業：Qualcomm、Broadcom、Marvell、Silicon Labs、聯發科、聯詠、瑞昱、譜瑞-KY、信驊。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：Set Top Box SoC、影音解碼與連網晶片、ALiIN 智慧室內 AI 平台、ASIC 設計服務與 IP 授權。</li>
+<li>營收來源：晶片銷售、客戶專案、平台解決方案、ASIC/IP 授權或服務收入；實際產品別占比需查證。</li>
+<li>主要客戶：機上盒、數位影音、智慧顯示、智慧音訊、智慧機器人與工業/商用室內裝置客戶；具體客戶與集中度需查證。</li>
+<li>毛利率與營益率特性：2026Q1 毛利率 47.38%，顯示 IC 設計毛利率仍高於製造業；但營益率 -39.72%，代表營收規模不足以覆蓋研發與營運費用。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：短期來自低基期、需求回穩與新增合併個體；中長期需看 ALiIN、ASIC/IP 和智慧室內應用是否放量。</li>
+<li>是否有景氣循環性：有。傳統機上盒晶片受終端需求與通路庫存影響，ASIC/IP 專案收入也可能季節性波動。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：Fabless IC 設計、影音 SoC、邊緣 AI/智慧室內控制晶片。</li>
+<li>產業解決什麼問題：把影音解碼、連線、控制、AI 推論與人機介面整合成晶片或平台，讓終端設備能以較低成本量產。</li>
+<li>需求來自哪裡：有線/衛星/地面廣播機上盒、OTT/智慧顯示、智慧音訊、智慧機器人、室內商用與工業智慧裝置。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：機上盒 SoC 偏成熟甚至衰退；智慧室內 AI 平台與 ASIC/IP 仍屬轉型成長題材。</li>
+<li>長期成長驅動力：邊緣 AI、智慧家居與商用機器人、客製化 ASIC、IP 模組化與低功耗影音/控制需求。</li>
+<li>短期波動因素：客戶拉貨、通路庫存、研發案驗收、單一產品生命週期、匯率與研發費用率。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IP/EDA</td>
+<td>設計工具與 IP</td>
+<td>CPU/GPU/NPU IP、EDA、介面 IP</td>
+<td>Synopsys、Cadence、Arm</td>
+<td>創意、M31</td>
+<td>高</td>
+<td>高毛利</td>
+<td>授權成本</td>
+</tr>
+<tr>
+<td>IC 設計</td>
+<td>Fabless SoC</td>
+<td>影音 SoC、AI 控制、ASIC/IP</td>
+<td>QCOM、AVGO、MRVL</td>
+<td>揚智、聯發科、聯詠、瑞昱</td>
+<td>中至高</td>
+<td>毛利率高但研發費高</td>
+<td>產品轉型</td>
+</tr>
+<tr>
+<td>晶圓代工</td>
+<td>製造</td>
+<td>成熟/特殊製程</td>
+<td>TSM、UMC ADR</td>
+<td>台積電、聯電</td>
+<td>高</td>
+<td>稼動率驅動</td>
+<td>供需循環</td>
+</tr>
+<tr>
+<td>封測</td>
+<td>封裝測試</td>
+<td>IC 封裝、測試</td>
+<td>Amkor</td>
+<td>日月光投控、京元電</td>
+<td>中</td>
+<td>規模經濟</td>
+<td>稼動率</td>
+</tr>
+<tr>
+<td>終端設備</td>
+<td>客戶</td>
+<td>機上盒、智慧顯示、智慧音訊、機器人</td>
+<td>Roku、Comcast</td>
+<td>啟碁、緯創、和碩</td>
+<td>中高</td>
+<td>品牌/系統差異</td>
+<td>終端需求</td>
+</tr>
+<tr>
+<td>通路/營運商</td>
+<td>下游採購</td>
+<td>付費電視、寬頻、智慧家居通路</td>
+<td>Charter、Comcast</td>
+<td>中華電、台灣大</td>
+<td>高</td>
+<td>現金流穩定</td>
+<td>採購遞延</td>
+</tr>
+</tbody>
+</table></div>
+<p>揚智位於 IC 設計段，真正的關鍵在於能否把成熟機上盒 SoC 的經驗轉成智慧室內 AI、ASIC/IP 或新平台收入，而不是單靠舊產品循環。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：影音解碼、SoC 整合、低功耗設計、介面 IP 與 AI 推論平台整合能力。</li>
+<li>規模經濟：IC 設計的固定研發費高，營收規模越大，費用率越容易下降；目前揚智仍需證明規模恢復。</li>
+<li>客戶黏著度：既有機上盒客戶有平台黏著，但成熟市場價格壓力較高；ASIC/IP 若進入客戶產品線，黏著度可能較高。</li>
+<li>轉換成本：中等。SoC 平台導入需軟硬體驗證，但若競品成本更低，客戶仍可能轉換。</li>
+<li>品牌或通路優勢：B2B 晶片品牌以平台支援與交期為主，不是終端品牌優勢。</li>
+<li>成本優勢：需查證；若使用成熟製程與既有 IP，可降低成本，但研發費仍是壓力。</li>
+<li>專利、法規或資本門檻：IP 組合、影音規格授權、軟體堆疊與客戶認證形成門檻。</li>
+<li>是否容易被替代：中高。傳統機上盒 SoC 可被大型 SoC 或平台廠替代；ASIC/IP 與 ALiIN 若有客製化導入，替代性較低。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：2026 年 5 月營收 173.813 百萬元，月增 45.28%、年增 97.94%；累計營收 645.725 百萬元，年增 26.70%。TWSE 備註指出去年同期受國際情勢影響、代理商下單保守，本年度市場需求回穩且新增合併個體營收。</li>
+<li>毛利率：2026Q1 毛利率 47.38%；維持高毛利代表產品仍有 IC 設計附加價值。</li>
+<li>營益率：2026Q1 營益率 -39.72%；改善代表營收規模足以攤提研發費用，惡化代表轉型仍燒錢。</li>
+<li>EPS 成長率：2026Q1 EPS -0.48；投資重點是虧損是否逐季收斂。</li>
+<li>自由現金流：需查證；若虧損擴大且營運現金流轉弱，財務壓力會升高。</li>
+<li>資本支出：Fabless 模式資本支出通常低於製造業，但研發與流片成本仍需追蹤。</li>
+<li>存貨週轉：改善代表客戶拉貨穩定；惡化代表舊產品庫存或需求誤判。</li>
+<li>訂單能見度：ASIC/IP 與平台設計案是否有量產時程，是能見度核心。</li>
+<li>客戶集中度：需查證；機上盒與平台客戶集中度若高，單一客戶波動會放大營收。</li>
+<li>市占率：傳統 STB SoC 市占與新平台導入案數需追蹤。</li>
+<li>產能利用率：Fabless 不看自有產能，但需看晶圓代工供應、封測交期與流片成功率。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3041</td>
+<td>揚智</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>STB SoC、ALiIN、ASIC/IP</td>
+<td>影音 SoC 經驗</td>
+<td>虧損、轉型不確定</td>
+<td>中</td>
+<td>低</td>
+<td>P/E 不適用、P/B 2.66</td>
+</tr>
+<tr>
+<td>2454</td>
+<td>聯發科</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>手機、連網、ASIC</td>
+<td>規模與平台</td>
+<td>手機循環</td>
+<td>中高</td>
+<td>高</td>
+<td>P/E 62.31、P/B 15.99</td>
+</tr>
+<tr>
+<td>3034</td>
+<td>聯詠</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>顯示驅動 IC</td>
+<td>客戶與規模</td>
+<td>面板循環</td>
+<td>中</td>
+<td>高</td>
+<td>P/E 21.43、P/B 4.42</td>
+</tr>
+<tr>
+<td>2379</td>
+<td>瑞昱</td>
+<td>台股</td>
+<td>IC 設計</td>
+<td>網通/音訊 IC</td>
+<td>產品多元</td>
+<td>PC/網通循環</td>
+<td>中</td>
+<td>高</td>
+<td>P/E 28.19、P/B 8.93</td>
+</tr>
+<tr>
+<td>4966</td>
+<td>譜瑞-KY</td>
+<td>台股</td>
+<td>高速介面 IC</td>
+<td>USB/高速傳輸</td>
+<td>高速 IP</td>
+<td>客戶集中</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>5274</td>
+<td>信驊</td>
+<td>台股</td>
+<td>伺服器管理 IC</td>
+<td>BMC</td>
+<td>高市占</td>
+<td>估值高</td>
+<td>中高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>QCOM</td>
+<td>Qualcomm</td>
+<td>美股</td>
+<td>IC 設計</td>
+<td>行動 SoC/授權</td>
+<td>專利與規模</td>
+<td>手機循環</td>
+<td>中</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>AVGO</td>
+<td>Broadcom</td>
+<td>美股</td>
+<td>IC/基礎架構</td>
+<td>ASIC、網通、軟體</td>
+<td>規模與客戶</td>
+<td>估值高</td>
+<td>中高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>MRVL</td>
+<td>Marvell</td>
+<td>美股</td>
+<td>IC 設計</td>
+<td>資料中心 ASIC/網通</td>
+<td>AI ASIC 題材</td>
+<td>估值與執行</td>
+<td>高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>SLAB</td>
+<td>Silicon Labs</td>
+<td>美股</td>
+<td>物聯網 IC</td>
+<td>無線 MCU/IoT</td>
+<td>低功耗與生態</td>
+<td>IoT 循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>揚智</td>
+<td>3041</td>
+<td>台股</td>
+<td>不適用</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>虧損轉型股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026Q1 47.38%</td>
+<td>2026-05 年增 97.94%</td>
+<td>不能用 P/E，先看虧損收斂</td>
+</tr>
+<tr>
+<td>聯發科</td>
+<td>2454</td>
+<td>台股</td>
+<td>62.31</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>大型 IC 設計高位</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>品質高但估值高</td>
+</tr>
+<tr>
+<td>聯詠</td>
+<td>3034</td>
+<td>台股</td>
+<td>21.43</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>成熟 IC 設計中位</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>比揚智更成熟</td>
+</tr>
+<tr>
+<td>瑞昱</td>
+<td>2379</td>
+<td>台股</td>
+<td>28.19</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>網通 IC 品質股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>穩定性高於揚智</td>
+</tr>
+<tr>
+<td>譜瑞-KY</td>
+<td>4966</td>
+<td>台股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高速介面同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>Broadcom</td>
+<td>AVGO</td>
+<td>美股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>全球大型 ASIC/網通</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>不可直接與小型虧損股相比</td>
+</tr>
+</tbody>
+</table></div>
+<p>揚智 2026-06-29 概略市值約 37.58 億 TWD，計算基礎為 TWSE 已發行普通股數 140,223,647 股乘以收盤價 26.8 TWD。因 2026Q1 EPS 為負，本益比不適用；P/B 2.66 是否合理，取決於營收回升能否轉成營業利益改善。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>ALiIN、ASIC/IP 與新合併個體帶動營收，研發費率下降</td>
+<td>中高</td>
+<td>營益率明顯改善</td>
+<td>EPS 轉正</td>
+<td>可由 P/B 轉向 P/E 評價</td>
+<td>由觀察轉強</td>
+<td>連續兩季虧損收斂、月營收維持高年增</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>傳統 STB 回穩，新平台仍在導入</td>
+<td>中</td>
+<td>營益率仍負但改善</td>
+<td>虧損縮小</td>
+<td>P/B 低至中位</td>
+<td>維持觀察</td>
+<td>營收回升但 EPS 未轉正</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>營收反彈只是低基期，新產品未放量</td>
+<td>低</td>
+<td>營益率持續負</td>
+<td>持續虧損</td>
+<td>P/B 下修</td>
+<td>觀察並避免追價</td>
+<td>月營收回落、研發費壓力不降</td>
+</tr>
+</tbody>
+</table></div>
+<p>樂觀情境最需要看 EPS 轉正與營業利益改善；基準情境看營收恢復是否能攤提費用；悲觀情境看月營收反彈是否只是一次性合併或低基期效果。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3041</td>
+<td>揚智</td>
+<td>觀察</td>
+<td>能研究轉機股且接受虧損風險者</td>
+<td>營收回升與平台轉型值得追蹤</td>
+<td>2026Q1 仍虧損，P/E 不適用，轉型證據不足</td>
+<td>小型 IC 設計轉型樣本</td>
+<td>月營收、營益率、EPS、ALiIN/ASIC/IP 案件</td>
+<td>EPS 轉正可升評；營收回落或虧損擴大則下調</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合。這是轉機股，不是穩定獲利型 IC 設計公司。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？可維持小部位觀察；加碼需等 EPS 或營業利益改善。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等連續月營收回升、2026Q2/Q3 虧損明顯收斂，或新平台客戶量產證據出現。</li>
+<li>哪些訊號會讓你把評級上調？營業利益率改善、EPS 接近或轉正、ALiIN/ASIC/IP 收入可量化、P/B 未因題材過度擴張。</li>
+<li>哪些訊號會讓你把評級下調？月營收反彈後回落、毛利率下降、研發費用率持續過高、現金流惡化、股價跌破 22.25 TWD 且基本面無改善。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不屬於核心穩健型，因目前仍虧損且營收規模小。</li>
+<li>成長型：若 ALiIN、ASIC/IP 或智慧室內平台成功放量，才有機會轉為成長型。</li>
+<li>景氣循環型：傳統 Set Top Box SoC 受客戶庫存與終端市場循環影響。</li>
+<li>高風險高報酬型：屬於轉機型高風險標的，勝負在虧損收斂與新產品商業化。</li>
+<li>只適合觀察、不適合輕易買進：目前最適合歸在此類，因資料還不足以證明基本面反轉。</li>
+</ul>
+<p>分類理由是：揚智有高毛利 IC 設計屬性，但營收規模與獲利尚未回到可用 P/E 評估的狀態。</p>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：雖 P/B 2.66 低於大型 IC 設計股，但虧損公司若無法轉正，P/B 仍可能收縮。</li>
+<li>景氣反轉風險：機上盒與消費影音需求若再轉弱，月營收反彈可能中斷。</li>
+<li>技術替代風險：大型 SoC 廠、OTT 平台晶片或客戶自研方案可能替代傳統 STB SoC。</li>
+<li>競爭加劇風險：IC 設計市場競爭者多，價格與規格升級壓力高。</li>
+<li>政策與地緣政治風險：出口限制、客戶所在地政策、供應鏈重組會影響訂單。</li>
+<li>客戶集中風險：需查證；小型 IC 設計公司通常更容易受單一客戶或代理商影響。</li>
+<li>財報可能出現的警訊：營收增加但營益率不改善、研發費用率過高、存貨升高、應收帳款拉長、現金流持續流出。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：2026Q1 季報、2025 年報、產品別營收、研發費用、營業利益、現金流、存貨與應收帳款。</li>
+<li>法說會應聽重點：ALiIN 量產客戶、ASIC/IP pipeline、STB SoC 訂單能見度、新增合併個體營收來源。</li>
+<li>每季追蹤指標：月營收、毛利率、營益率、EPS、P/B、現金水位與研發費用率。</li>
+<li>產業數據來源：TWSE、MOPS、揚智 IR、IC 設計同業財報、機上盒與智慧家庭供應鏈資料。</li>
+<li>競爭對手觀察名單：聯發科、聯詠、瑞昱、Broadcom、Marvell、Silicon Labs。</li>
+<li>初學者下一步應該研究哪 3 家公司：聯發科、瑞昱、Broadcom。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是，但它更適合理解小型 Fabless IC 設計公司的轉型風險，而不是穩定大型半導體龍頭。</li>
+<li>該產業是否值得長期追蹤：值得。邊緣 AI、智慧室內裝置、ASIC/IP 仍有長期題材。</li>
+<li>目前最重要的投資邏輯：營收回升能否轉成營業利益改善與 EPS 轉正。</li>
+<li>最大風險：營收反彈只是低基期與合併因素，無法支撐長期獲利。</li>
+<li>估值是否已經反映成長預期：P/B 2.66 尚非大型 IC 設計高估值，但虧損狀態讓安全邊際不足。</li>
+<li>最終投資評級與理由：觀察。揚智有轉型題材與月營收改善，但 2026Q1 虧損仍大，需等獲利收斂證據。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：影音 SoC、邊緣 AI 控制晶片、ASIC/IP、成熟製程晶圓代工與封測。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

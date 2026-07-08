@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>8383 千附 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 半導體設備</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">8383 千附</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-07-08</span>
+        <span class="meta-pill">有效至 2026-07-15</span>
+        <span class="meta-pill">評級 分批布局</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-07-08.html">2026-07-08</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>千附 8383 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-07-08。</li>
+<li>最新股價日期：TPEx OpenAPI 1150707，千附收盤價 61.90 元；TPEx 本益比 16.64 倍、殖利率 4.04%、股價淨值比 1.79 倍。</li>
+<li>最新財報期間：以 2026 年第 1 季與 2026 年 5 月營收為主；完整 2026 Q2 財報尚未公告。</li>
+<li>使用的主要資料來源：TPEx 公司基本資料 OpenAPI <code>mopsfin_t187ap03_O</code>、TPEx 月營收 OpenAPI <code>mopsfin_t187ap05_O</code>、TPEx 每日行情與本益比 OpenAPI、公開資訊觀測站、千附官網、半導體設備供應鏈公開資料、workorder 來源 <code>reports/news/2026-07-07_kol_news_decision_report.md</code>。</li>
+<li>是否有資料缺口：有。workorder 標示 exchange 為 TWSE，但官方行情與估值資料來自 TPEx；Forward P/E、EV/EBITDA、FCF Yield、半導體設備零組件占比、航太/其他業務占比與接單明細需查證。</li>
+<li>需要再次查證的數據：2026 Q2 毛利率、半導體設備零組件出貨、主要客戶、航太/設備事業接單、資本支出與產能利用率。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：千附是精密加工與系統組裝公司，業務橫跨半導體設備零組件、航太與工業相關應用。</li>
+<li>所屬主要產業：半導體設備。</li>
+<li>產業鏈位置：半導體設備供應鏈上游/中游的精密零組件、模組加工與組裝供應商。</li>
+<li>核心投資邏輯：半導體設備國產化、先進製程資本支出與設備商拉貨可推升精密加工需求；2026 年 5 月營收 3.93 億元、年增 46.09%，前 5 月營收 17.51 億元、年增 30.95%。</li>
+<li>目前投資評級：分批布局。</li>
+<li>主要理由：營收成長與估值相對漢唐更溫和，但公司體質較小、業務組合較分散，訂單能見度與半導體占比需再驗證。</li>
+<li>主要風險：半導體設備循環、客戶集中、加工毛利波動、航太/工業需求不確定、流動性與中小型股波動。</li>
+<li>最重要的 3-5 個追蹤指標：月營收、毛利率、半導體設備零組件占比、訂單能見度、P/E/P/B。</li>
+<li>代表性美股與台股同業：AMAT、LRCX、KLAC、ACM Research、Ichor、辛耘、帆宣、均豪、弘塑、漢唐。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：精密零組件加工、設備模組、半導體設備相關零件與組裝，以及航太/工業零組件服務。</li>
+<li>營收來源：向設備商、系統整合商與工業/航太客戶供應加工零件、模組與相關服務。</li>
+<li>主要客戶：半導體設備、航太與工業客戶；具體客戶名稱與集中度需以年報和法說再查證。</li>
+<li>毛利率與營益率特性：精密加工毛利取決於產品複雜度、良率、稼動率與議價能力；規模較小時費用率與產能利用率影響大。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：主要來自設備商需求擴張、產品規格升級、加工件單價提高與市占提升。</li>
+<li>是否有景氣循環性：有。半導體設備資本支出與航太/工業景氣都會造成波動。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：半導體設備零組件與精密加工供應鏈。</li>
+<li>產業解決什麼問題：替設備商提供高精度、可靠且可量產的機構件、模組與加工服務，使設備能穩定交付。</li>
+<li>需求來自哪裡：晶圓廠擴產、半導體設備商出貨、先進製程設備升級、航太與工業客戶。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：成熟製造能力搭配半導體設備上升循環。</li>
+<li>長期成長驅動力：AI/HPC 晶片投資、先進製程、設備供應鏈在地化、航太長期需求。</li>
+<li>短期波動因素：設備商拉貨、庫存調整、稼動率、匯率、加工良率與材料成本。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游材料/機械</td>
+<td>提供金屬材料、加工設備、耗材</td>
+<td>鋁/不鏽鋼、CNC、表面處理</td>
+<td>ATI、AA</td>
+<td>中鋼、上銀</td>
+<td>中</td>
+<td>材料與設備毛利不一</td>
+<td>原料價格、交期</td>
+</tr>
+<tr>
+<td>中游零組件</td>
+<td>精密加工與模組組裝</td>
+<td>chamber 零件、機構件、設備模組</td>
+<td>ICHR、ACMR</td>
+<td>千附、辛耘、均豪、弘塑</td>
+<td>中</td>
+<td>稼動率高時毛利改善</td>
+<td>客戶集中、良率</td>
+</tr>
+<tr>
+<td>下游設備/晶圓廠</td>
+<td>設備整機與晶圓製造</td>
+<td>蝕刻、沉積、清洗、檢測設備</td>
+<td>AMAT、LRCX、KLAC</td>
+<td>台積電、聯電</td>
+<td>高</td>
+<td>龍頭毛利高</td>
+<td>capex 循環</td>
+</tr>
+</tbody>
+</table></div>
+<p>千附位於中游精密零組件與模組供應位置，不掌握最終設備品牌，但若進入設備商供應鏈，認證與品質門檻可形成黏著度。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：精密加工、材料處理、良率控制、潔淨度與設備客戶認證。</li>
+<li>規模經濟：產能利用率提高可攤薄固定成本。</li>
+<li>客戶黏著度：通過設備商認證後，量產與改版訂單具延續性。</li>
+<li>轉換成本：中等；設備商更換合格供應商需重新認證。</li>
+<li>品牌或通路優勢：B2B 供應鏈信任與交期能力比消費品牌更重要。</li>
+<li>成本優勢：加工效率、良率、人力與設備稼動率。</li>
+<li>專利、法規或資本門檻：設備投資、品質系統與航太認證構成門檻。</li>
+<li>是否容易被替代：一般加工件容易競爭，高精度且認證完成的半導體/航太件較不容易。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：TPEx 月營收顯示 2026 年 5 月營收年增 46.09%、前 5 月年增 30.95%；代表接單與出貨改善。</li>
+<li>毛利率：毛利率上升代表高階零件占比、良率或稼動率改善；下降代表報價競爭或產能利用不佳。</li>
+<li>營益率：反映加工產能、費用控制與產品組合。</li>
+<li>EPS 成長率：需追蹤是否由營收成長轉化為獲利成長。</li>
+<li>自由現金流：設備投資、庫存與應收會影響自由現金流。</li>
+<li>資本支出：擴產若搭配長單是正面；若需求反轉會拖累折舊。</li>
+<li>存貨週轉：設備零件備料若週轉變慢，可能代表客戶拉貨轉弱。</li>
+<li>訂單能見度：設備商 forecast 與長約是重要領先指標。</li>
+<li>客戶集中度：中小型零組件供應商通常較受大客戶訂單影響。</li>
+<li>市占率：在設備零組件供應鏈提升份額是成長關鍵。</li>
+<li>產能利用率：直接影響毛利率與營益率。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8383</td>
+<td>千附</td>
+<td>台灣</td>
+<td>精密零組件</td>
+<td>加工/模組/設備零件</td>
+<td>認證與加工能力</td>
+<td>規模小、循環</td>
+<td>中高</td>
+<td>中</td>
+<td>估值中性</td>
+</tr>
+<tr>
+<td>3583</td>
+<td>辛耘</td>
+<td>台灣</td>
+<td>設備/代理/零組件</td>
+<td>半導體設備服務</td>
+<td>客戶與代理</td>
+<td>capex 循環</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>5443</td>
+<td>均豪</td>
+<td>台灣</td>
+<td>設備/自動化</td>
+<td>檢測與自動化</td>
+<td>技術整合</td>
+<td>週期波動</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3131</td>
+<td>弘塑</td>
+<td>台灣</td>
+<td>濕製程設備</td>
+<td>清洗/濕製程</td>
+<td>技術門檻</td>
+<td>客戶集中</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2404</td>
+<td>漢唐</td>
+<td>台灣</td>
+<td>廠務工程</td>
+<td>高科技廠務</td>
+<td>大型案場</td>
+<td>專案認列</td>
+<td>高</td>
+<td>中</td>
+<td>高成長溢價</td>
+</tr>
+<tr>
+<td>AMAT</td>
+<td>Applied Materials</td>
+<td>美國</td>
+<td>設備龍頭</td>
+<td>製程設備</td>
+<td>技術與規模</td>
+<td>capex 循環</td>
+<td>中高</td>
+<td>高</td>
+<td>高品質</td>
+</tr>
+<tr>
+<td>LRCX</td>
+<td>Lam Research</td>
+<td>美國</td>
+<td>設備龍頭</td>
+<td>蝕刻/沉積</td>
+<td>技術壁壘</td>
+<td>記憶體循環</td>
+<td>中高</td>
+<td>高</td>
+<td>高品質</td>
+</tr>
+<tr>
+<td>KLAC</td>
+<td>KLA</td>
+<td>美國</td>
+<td>量測檢測</td>
+<td>檢測設備</td>
+<td>高市占</td>
+<td>估值</td>
+<td>中高</td>
+<td>高</td>
+<td>高品質</td>
+</tr>
+<tr>
+<td>ICHR</td>
+<td>Ichor</td>
+<td>美國</td>
+<td>設備子系統</td>
+<td>流體輸送子系統</td>
+<td>設備商客戶</td>
+<td>客戶集中</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>千附</td>
+<td>8383</td>
+<td>台灣</td>
+<td>16.64x（TPEx 1150707）</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中小型設備零件中性</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026/5 月 +46.09%</td>
+<td>成長可支撐但需驗證毛利</td>
+</tr>
+<tr>
+<td>辛耘</td>
+<td>3583</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>同業參考</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>均豪</td>
+<td>5443</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>同業參考</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>弘塑</td>
+<td>3131</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高階設備參考</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>Ichor</td>
+<td>ICHR</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>子系統同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<p>估值結論：16.64 倍 P/E 與 1.79 倍 P/B 不算極端，但千附規模較小、訂單資訊有限，需用後續毛利率與半導體占比確認估值合理性。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>半導體設備商拉貨延續，精密件占比提高，稼動率上升</td>
+<td>中高成長</td>
+<td>毛利率上升</td>
+<td>EPS 上修</td>
+<td>可維持或提升至成長股中位</td>
+<td>分批布局報酬改善</td>
+<td>月營收續增、毛利率改善</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>需求溫和成長，航太與半導體互補</td>
+<td>中度成長</td>
+<td>持平</td>
+<td>EPS 緩增</td>
+<td>中性本益比</td>
+<td>股價跟隨財報緩步表現</td>
+<td>營收穩定、P/E 合理</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>設備循環反轉，客戶拉貨減弱，稼動率下滑</td>
+<td>成長轉弱</td>
+<td>毛利率下降</td>
+<td>EPS 下修</td>
+<td>本益比壓縮</td>
+<td>轉為觀察</td>
+<td>月營收轉負、庫存升高</td>
+</tr>
+</tbody>
+</table></div>
+<p>投資人最需要觀察：半導體設備零組件營收占比、毛利率、稼動率、設備商需求與資本支出循環。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8383</td>
+<td>千附</td>
+<td>分批布局</td>
+<td>能接受中小型股波動並願意追蹤設備循環者</td>
+<td>月營收成長佳，估值未明顯過熱，可用小部位參與設備零件題材</td>
+<td>資訊透明度與規模不如龍頭，毛利與客戶集中需驗證</td>
+<td>觀察半導體設備零組件供應鏈的切入點</td>
+<td>月營收、毛利率、半導體占比、稼動率、P/E/P/B</td>
+<td>上調：毛利率改善且訂單明確；下調：營收轉弱、毛利下滑、設備循環反轉</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？只適合小部位分批；新手應先理解半導體設備循環與中小型股流動性。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？可續抱；加碼需等毛利率與訂單確認，若營收轉弱應減碼。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等 Q2/Q3 毛利率、EPS 與半導體設備需求確認。</li>
+<li>哪些訊號會讓你把評級上調？月營收連續成長、毛利率上升、取得設備商長單。</li>
+<li>哪些訊號會讓你把評級下調？月營收年增轉負、稼動率下降、設備 capex 下修、P/E 過度擴張。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不屬於。公司規模與產業週期使其不適合作為核心低波動資產。</li>
+<li>成長型：部分屬於。若半導體設備零組件放量，營收與獲利有成長性。</li>
+<li>景氣循環型：屬於。半導體設備與航太/工業需求皆具循環。</li>
+<li>高風險高報酬型：屬於中等程度。估值不算極端，但中小型股波動高。</li>
+<li>只適合觀察、不適合輕易買進：若無法追蹤月營收、毛利率與訂單，應先觀察。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：若市場把它當設備成長股快速重估，但財報未跟上，會有回檔風險。</li>
+<li>景氣反轉風險：設備商減少拉貨會直接影響出貨與稼動率。</li>
+<li>技術替代風險：加工件若規格不夠高，可能被其他供應商替代。</li>
+<li>競爭加劇風險：精密加工同業競價可能壓縮毛利。</li>
+<li>政策與地緣政治風險：半導體設備出口管制與供應鏈移轉可能影響客戶需求。</li>
+<li>客戶集中風險：設備零組件商通常受少數大客戶訂單影響。</li>
+<li>財報可能出現的警訊：毛利率下降、存貨增加、應收帳款拉長、資本支出後稼動率不足。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：營收分部、毛利率、存貨、應收帳款、資本支出、折舊。</li>
+<li>法說會應聽重點：半導體設備訂單、航太業務、產能利用率、主要客戶需求。</li>
+<li>每季追蹤指標：月營收、毛利率、EPS、稼動率、存貨週轉。</li>
+<li>產業數據來源：SEMI、MOPS、TPEx、設備龍頭財報、公司法說。</li>
+<li>競爭對手觀察名單：辛耘、均豪、弘塑、Ichor、Applied Materials、Lam Research。</li>
+<li>初學者下一步應該研究哪 3 家公司：辛耘、弘塑、Applied Materials。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是，但更適合用來理解半導體設備零組件，而非整機設備龍頭。</li>
+<li>該產業是否值得長期追蹤：值得，AI 與先進製程仍支撐設備投資。</li>
+<li>目前最重要的投資邏輯：月營收回升與半導體設備零組件需求改善。</li>
+<li>最大風險：公司規模較小、資訊透明度與訂單能見度有限。</li>
+<li>估值是否已經反映成長預期：部分反映，但未到明顯泡沫；後續要靠毛利與 EPS 驗證。</li>
+<li>最終投資評級與理由：分批布局；成長與估值具吸引力但證據不足以一次性買入。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：半導體設備整機、精密零組件、設備商 capex 與在地化供應鏈。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

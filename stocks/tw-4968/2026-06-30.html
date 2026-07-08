@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>4968 立積 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 半導體業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">4968 立積</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-30</span>
+        <span class="meta-pill">有效至 2026-07-07</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-30.html">2026-06-30</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>立積 4968 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-30；有效觀察期限：2026-07-07。</li>
+<li>最新股價日期：TWSE official STOCK_DAY_ALL 於 2026-06-30 顯示收盤價 115.50 TWD、成交金額約 9,861 萬元；StockLoop PEI 摘要採用 2026-06-29 收盤價 110.50 TWD。</li>
+<li>最新財報期間：2026 年第 1 季；最新月營收為 2026 年 5 月，TWSE 月營收 open data 出表日期 2026-06-17。</li>
+<li>使用的主要資料來源：TWSE 4968 個股 PDF（生成日 2026-07-01，含 2026Q1 摘要財務、月營收、EPS）、TWSE 公司基本資料 open data、TWSE BWIBBU 估值 open data（2026-06-30 P/E 39.02、P/B 3.80、殖利率 1.39%）、TWSE 月營收 open data、RichWave 公司簡介與產品頁、RichWave 2026Q1 法說與季報入口、MOPS 公開資訊觀測站、StockLoop <code>reports/twStock/2026-06-30_tw_kline_decision_report.md</code> 與 PEI 摘要。</li>
+<li>主要外部來源 URL：TWSE 個股 PDF <code>https://www.twse.com.tw/pdf/en/4968_en.pdf</code>；TWSE BWIBBU <code>https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL</code>；TWSE 公司資料 <code>https://openapi.twse.com.tw/v1/opendata/t187ap03_L</code>；TWSE 月營收 <code>https://openapi.twse.com.tw/v1/opendata/t187ap05_L</code>；RichWave 公司簡介 <code>https://www.richwave.com.tw/en/page.aspx?Id=3</code>；RichWave 2026Q1 季報入口 <code>https://www.richwave.com.tw/en/invest_financial_info_qfr.aspx</code>；RichWave 法說入口 <code>https://www.richwave.com.tw/en/invest_sharholder_conference.aspx</code>；MOPS <code>https://mops.twse.com.tw/</code>。</li>
+<li>是否有資料缺口：有。Forward P/E、EV/EBITDA、FCF Yield、完整客戶集中度、產品別營收、Wi-Fi 7 設計案量產時程、晶圓代工/封測供應條件與 3-5 年本益比區間仍需查證。</li>
+<li>需要再次查證的數據：2026Q2 財報、6 月以後月營收、法說會對 Wi-Fi 7/IoT/車用 RF 的設計導入進度、主要客戶與庫存水位、自由現金流與存貨週轉。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：立積電子是台灣 RF IC 設計公司，產品涵蓋 Wi-Fi 前端模組、功率放大器、低雜訊放大器、射頻開關、IoT、車用與廣播相關 RF 元件。</li>
+<li>所屬主要產業：半導體業；反推後核心產業是無線通訊射頻前端 IC 與連網裝置 RF 解決方案。</li>
+<li>產業鏈位置：中游 fabless RF IC 設計商，上游依賴晶圓代工、化合物半導體/特殊製程、封測與 EDA/IP，下游面向網通、手機、IoT、車用與消費電子客戶。</li>
+<li>核心投資邏輯：2026Q1 營收 9.30 億元、年增約 9.5%，EPS 0.58 元，5 月營收年增約 6.82%，顯示營運從低潮修復；但 2026-06-30 P/E 39.02 倍、P/B 3.80 倍，且營益率僅約 2.1%，估值已先反映復甦期待。</li>
+<li>目前投資評級：觀察。</li>
+<li>主要理由：公司處在 Wi-Fi 7、IoT 與車用連網升級題材中，但目前獲利率仍低、估值不便宜，StockLoop 來源也列入「等待買點」而非可直接放大部位。</li>
+<li>主要風險：網通與消費電子需求不穩、RF 前端價格競爭、客戶集中與設計案延遲、毛利率被產品組合拖累、估值高於目前獲利品質。</li>
+<li>最重要的 3-5 個追蹤指標：月營收年增率、毛利率、營益率、EPS、存貨週轉與 Wi-Fi 7/IoT 設計案量產進度。</li>
+<li>代表性美股與台股同業：Skyworks、Qorvo、Broadcom、NXP、Microchip、聯發科、瑞昱、穩懋、日月光投控、笙科。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：RF 前端模組、PA、LNA、Switch、濾波器與無線通訊相關 IC，應用在 Wi-Fi 4/5/6/6E/7、行動裝置、IoT、車用、監控與廣播等市場。</li>
+<li>營收來源：以 IC 產品銷售為主，透過客戶設計導入、量產出貨與產品世代升級取得營收；公司本身不做晶圓製造，採 fabless 模式。</li>
+<li>主要客戶：官方公開摘要未列出完整客戶名單；依產品屬性，下游多為網通設備、消費電子、手機/模組、IoT 與車用電子供應鏈，客戶集中度需以最新年報查證。</li>
+<li>毛利率與營益率特性：TWSE 2026Q1 摘要顯示營收 9.30 億元、毛利約 3.11 億元，毛利率約 33.5%；營業利益約 1,994 萬元，營益率約 2.1%。毛利率有 RF IC 設計價值，但營業費用與產品組合讓淨利敏感度高。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：短期主要靠出貨量與庫存回補；中期看 Wi-Fi 7、IoT、車用 RF 與新設計案量產；長期要看 RF 前端技術與客戶平台導入。</li>
+<li>是否有景氣循環性：有。RF IC 受網通、手機、消費電子庫存循環與客戶新品時程影響，營收與毛利率會有週期波動。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：射頻前端 IC、無線通訊 IC、fabless 半導體設計。</li>
+<li>產業解決什麼問題：讓終端裝置能在不同頻段、距離、功耗與訊號干擾條件下穩定收發無線訊號。</li>
+<li>需求來自哪裡：Wi-Fi 路由器與 AP、手機與穿戴、IoT、車用通訊、廣播與監控等終端，需求由連網裝置數量與通訊規格升級驅動。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：Wi-Fi 7 與部分車用/IoT RF 屬規格升級成長期；手機與一般網通 RF 屬成熟市場中的景氣循環期。</li>
+<li>長期成長驅動力：高頻寬 Wi-Fi、低功耗 IoT、車用連網、裝置端無線連結數增加、RF 前端整合度提升。</li>
+<li>短期波動因素：客戶庫存、網通設備換機節奏、手機需求、晶圓代工成本、競爭者降價與匯率。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游設計工具與 IP</td>
+<td>設計基礎建設</td>
+<td>EDA、IP、RF 模型</td>
+<td>Synopsys、Cadence</td>
+<td>創意、世芯-KY</td>
+<td>高</td>
+<td>軟體/IP 毛利高</td>
+<td>授權成本上升</td>
+</tr>
+<tr>
+<td>上游製造與封測</td>
+<td>晶圓代工、特殊製程、封測</td>
+<td>RF SOI、CMOS、GaAs/SiGe、封裝測試</td>
+<td>GlobalFoundries、Amkor</td>
+<td>台積電、聯電、穩懋、日月光投控</td>
+<td>中高</td>
+<td>製程稼動率影響獲利</td>
+<td>供應限制、製程成本</td>
+</tr>
+<tr>
+<td>中游 RF IC 設計</td>
+<td>無線通訊前端</td>
+<td>FEM、PA、LNA、Switch、Filter</td>
+<td>Skyworks、Qorvo、Broadcom、NXP</td>
+<td>立積、聯發科、瑞昱、笙科</td>
+<td>中</td>
+<td>設計案成功時毛利較佳，但費用率高</td>
+<td>設計案落空、價格競爭</td>
+</tr>
+<tr>
+<td>下游模組與品牌客戶</td>
+<td>網通、手機、IoT、車用</td>
+<td>路由器、AP、手機模組、車用通訊</td>
+<td>Apple、Cisco、Netgear</td>
+<td>智邦、中磊、啟碁、正文</td>
+<td>高</td>
+<td>終端品牌/系統商較能議價</td>
+<td>庫存修正、產品延後</td>
+</tr>
+<tr>
+<td>終端需求</td>
+<td>使用情境</td>
+<td>家用/企業網路、手機、IoT、車用</td>
+<td>Amazon、Tesla、Dell</td>
+<td>華碩、宏碁、和碩、鴻海</td>
+<td>高</td>
+<td>視品牌與通路而定</td>
+<td>消費需求不如預期</td>
+</tr>
+</tbody>
+</table></div>
+<p>輸入股票 4968 立積位於「中游 RF IC 設計」。它掌握產品定義與 RF 設計 know-how，但不掌握終端需求，也不掌握上游產能，因此議價能力通常低於大型平台客戶與特殊製程供應商。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：RF 前端需要高頻電路、雜訊控制、功耗、線性度、封裝與系統整合能力；RichWave 官網也強調 RF microwave、mixed-signal IC 與半導體工程專長。</li>
+<li>規模經濟：設計案可重複出貨時具備規模效益，但若產品線分散且客製化高，研發與驗證費用會壓縮營益率。</li>
+<li>客戶黏著度：RF IC 進入客戶平台後，後續世代延伸與供應穩定性會提高黏著度。</li>
+<li>轉換成本：中等。客戶仍可換用 Skyworks、Qorvo、Broadcom 或其他供應商，但重新驗證會耗時。</li>
+<li>品牌或通路優勢：在 B2B 半導體市場，品牌來自設計導入紀錄、產品性能、交期與技術支援。</li>
+<li>成本優勢：需查證。若上游代工與封測條件不利，小型 fabless 較難對抗大廠價格。</li>
+<li>專利、法規或資本門檻：IC 設計與車用/通訊驗證有門檻，但需查證具體專利、認證與客戶資格。</li>
+<li>是否容易被替代：中等偏高。標準化 Wi-Fi/手機 RF 元件競爭激烈；若能綁定特定平台或差異化規格，替代風險會下降。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：TWSE 月營收顯示 2026/05 營收 3.30 億元、年增 6.82%，2026 年 1-5 月累計年增 6.74%；若連續改善，代表庫存與設計案回溫。</li>
+<li>毛利率：2026Q1 約 33.5%；提高代表產品組合改善、規格升級或成本下降。</li>
+<li>營益率：2026Q1 約 2.1%；若能回到高個位數，估值才較容易被支撐。</li>
+<li>EPS 成長率：2026Q1 EPS 0.58 元，較 2025Q1 0.28 元修復；但全年化後仍難支撐 39 倍 P/E，需看後續季度。</li>
+<li>自由現金流：需查證。IC 設計公司若庫存與應收上升，淨利可能無法完全轉成現金。</li>
+<li>資本支出：fabless 模式資本支出通常低於製造商，但研發投入與測試設備仍需追蹤。</li>
+<li>存貨週轉：若存貨天數下降且營收年增，代表庫存去化健康；若存貨升但出貨不增，代表需求風險。</li>
+<li>訂單能見度：RF IC 需要設計導入與客戶預測，能見度若延長，有助於估值上修。</li>
+<li>客戶集中度：需查證。單一網通或消費電子客戶延後出貨，會放大季度波動。</li>
+<li>市占率：需查證。可從 Wi-Fi FEM、PA/LNA/Switch 出貨量與主要客戶平台推估。</li>
+<li>產能利用率：fabless 可用上游供應穩定度、封測交期與晶圓投片水位替代觀察。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SWKS</td>
+<td>Skyworks</td>
+<td>美國</td>
+<td>RF 前端 IC</td>
+<td>手機與連網 RF</td>
+<td>大客戶與 RF 技術</td>
+<td>手機需求與客戶集中</td>
+<td>中</td>
+<td>中高</td>
+<td>成熟 RF 股，需查證倍數</td>
+</tr>
+<tr>
+<td>QRVO</td>
+<td>Qorvo</td>
+<td>美國</td>
+<td>RF 前端 IC</td>
+<td>PA、Switch、Filter</td>
+<td>產品線完整</td>
+<td>手機與國防/網通波動</td>
+<td>中</td>
+<td>中</td>
+<td>循環與重組影響估值</td>
+</tr>
+<tr>
+<td>AVGO</td>
+<td>Broadcom</td>
+<td>美國</td>
+<td>通訊半導體平台</td>
+<td>網通、無線、ASIC、軟體</td>
+<td>規模與客戶鎖定</td>
+<td>估值與整合風險</td>
+<td>高</td>
+<td>高</td>
+<td>高品質溢價</td>
+</tr>
+<tr>
+<td>NXPI</td>
+<td>NXP</td>
+<td>美國</td>
+<td>車用/工控半導體</td>
+<td>車用 MCU、連網晶片</td>
+<td>車用客戶與產品組合</td>
+<td>車市循環</td>
+<td>中</td>
+<td>高</td>
+<td>品質循環股</td>
+</tr>
+<tr>
+<td>MCHP</td>
+<td>Microchip</td>
+<td>美國</td>
+<td>MCU/類比</td>
+<td>MCU、類比、連接</td>
+<td>長尾客戶</td>
+<td>工業庫存修正</td>
+<td>中</td>
+<td>中高</td>
+<td>循環低位需查證</td>
+</tr>
+<tr>
+<td>4968</td>
+<td>立積</td>
+<td>台灣</td>
+<td>RF IC 設計</td>
+<td>Wi-Fi FEM、PA、LNA、Switch</td>
+<td>RF 設計與客戶支援</td>
+<td>規模小、費用率高</td>
+<td>中</td>
+<td>中低</td>
+<td>P/E 高，需獲利追上</td>
+</tr>
+<tr>
+<td>2454</td>
+<td>聯發科</td>
+<td>台灣</td>
+<td>無線 SoC</td>
+<td>手機、Wi-Fi、車用平台</td>
+<td>平台與規模</td>
+<td>手機週期</td>
+<td>中高</td>
+<td>高</td>
+<td>大型 IC 設計溢價</td>
+</tr>
+<tr>
+<td>2379</td>
+<td>瑞昱</td>
+<td>台灣</td>
+<td>網通 IC</td>
+<td>Wi-Fi、乙太網、音訊</td>
+<td>網通客戶基礎</td>
+<td>PC/網通循環</td>
+<td>中</td>
+<td>中高</td>
+<td>品質中高位</td>
+</tr>
+<tr>
+<td>3105</td>
+<td>穩懋</td>
+<td>台灣</td>
+<td>RF 代工</td>
+<td>GaAs 晶圓代工</td>
+<td>製程與產能</td>
+<td>稼動率循環</td>
+<td>中</td>
+<td>中</td>
+<td>上游循環股</td>
+</tr>
+<tr>
+<td>3711</td>
+<td>日月光投控</td>
+<td>台灣</td>
+<td>封測</td>
+<td>IC 封裝測試</td>
+<td>規模與客戶廣度</td>
+<td>半導體循環</td>
+<td>中</td>
+<td>高</td>
+<td>OSAT 龍頭折溢價需查證</td>
+</tr>
+<tr>
+<td>5272</td>
+<td>笙科</td>
+<td>台灣</td>
+<td>無線 IC</td>
+<td>Sub-GHz、IoT 無線晶片</td>
+<td>利基產品</td>
+<td>規模小與需求波動</td>
+<td>中</td>
+<td>中低</td>
+<td>高波動利基股</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>立積</td>
+<td>4968</td>
+<td>台灣</td>
+<td>TWSE 2026-06-30 39.02 倍</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>台股小型 IC 設計中高位</td>
+<td>約 2.9 倍，依 6/30 市值與 2026Q1 年化營收估算</td>
+<td>需查證</td>
+<td>2026Q1 約 33.5%</td>
+<td>2026/05 年增 6.82%</td>
+<td>偏貴，需營益率大幅修復</td>
+</tr>
+<tr>
+<td>Skyworks</td>
+<td>SWKS</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>成熟 RF 前端同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>作為成熟 RF 估值參考</td>
+</tr>
+<tr>
+<td>Qorvo</td>
+<td>QRVO</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>RF 前端同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>景氣循環折價需查證</td>
+</tr>
+<tr>
+<td>Broadcom</td>
+<td>AVGO</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高品質平台溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高</td>
+<td>不宜直接套用立積</td>
+</tr>
+<tr>
+<td>聯發科</td>
+<td>2454</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>大型 IC 設計龍頭</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中高</td>
+<td>規模與平台溢價</td>
+</tr>
+<tr>
+<td>瑞昱</td>
+<td>2379</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>網通 IC 品質股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>可比較網通週期</td>
+</tr>
+</tbody>
+</table></div>
+<p>估值結論：立積 P/E 39.02 倍與 P/B 3.80 倍，對 2026Q1 營益率約 2.1% 的公司而言偏高。若只是營收低個位數到高個位數修復，估值安全邊際不足；若 Wi-Fi 7 與新平台導入讓營益率回升，才有重新評價空間。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>Wi-Fi 7、IoT、車用 RF 設計案順利量產，產品組合改善</td>
+<td>中高個位數到雙位數</td>
+<td>毛利率維持 34% 以上，營益率回到高個位數</td>
+<td>EPS 明顯成長</td>
+<td>25-35 倍，需用同業區間再查證</td>
+<td>由觀察上調至分批布局</td>
+<td>月營收連續年增、毛利率改善、法說確認新案放量</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>需求溫和復甦，但競爭與費用率限制獲利</td>
+<td>低到中個位數</td>
+<td>毛利率約 32-34%，營益率低到中個位數</td>
+<td>EPS 緩慢修復</td>
+<td>18-25 倍較合理</td>
+<td>維持觀察</td>
+<td>營收修復但 EPS 未追上估值</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>網通/消費電子庫存再修正，RF 價格競爭加劇</td>
+<td>持平或下滑</td>
+<td>毛利率下滑，營益率接近損益兩平</td>
+<td>EPS 下修</td>
+<td>15-20 倍或更低</td>
+<td>下調至減碼/賣出</td>
+<td>月營收轉弱、毛利率下滑、存貨上升</td>
+</tr>
+</tbody>
+</table></div>
+<p>投資人最需要觀察的訊號：月營收是否從低個位數年增擴大、毛利率是否站穩 33% 以上、營益率是否改善、Wi-Fi 7/IoT 客戶導入是否從題材變成出貨。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4968</td>
+<td>立積</td>
+<td>觀察</td>
+<td>能追蹤 IC 設計景氣、願意等待財報確認的新手或研究型投資人</td>
+<td>RF IC 產業值得研究，2026Q1 與 5 月營收有修復跡象</td>
+<td>P/E 39.02 倍偏高、營益率仍低、來源報告要求等回測或突破確認</td>
+<td>可作為理解 Wi-Fi/RF 前端與台灣小型 IC 設計公司的入口</td>
+<td>月營收、毛利率、營益率、EPS、存貨、設計案量產</td>
+<td>上調：營益率連續改善且估值回落；下調：營收轉弱、毛利率跌破、庫存升高</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合追價，較適合先觀察 2026Q2 財報與月營收。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？小部位可續抱觀察，但在獲利率與估值未改善前不宜加碼。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等月營收連續年增、營益率改善、股價回測支撐不破或估值回到較合理區間。</li>
+<li>哪些訊號會讓你把評級上調？Wi-Fi 7/IoT 新案放量、毛利率提升、EPS 快於股價成長、P/E 因獲利上升而下降。</li>
+<li>哪些訊號會讓你把評級下調？營收年增轉負、毛利率/營益率下滑、存貨或應收惡化、主要客戶砍單。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不適合。公司規模、獲利波動與客戶資訊透明度不如大型 IC 設計龍頭。</li>
+<li>成長型：有條件列入。若 Wi-Fi 7、IoT、車用 RF 出貨成真，營收與 EPS 可修復。</li>
+<li>景氣循環型：符合。網通與消費電子庫存循環會直接影響需求。</li>
+<li>高風險高報酬型：部分符合。小型 RF IC 設計股在新案成功時彈性大，但估值與獲利風險也高。</li>
+<li>只適合觀察、不適合輕易買進：目前符合。估值尚未提供足夠安全邊際，需等財報和買點確認。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：P/E 39.02 倍需要未來 EPS 大幅改善，否則容易被修正。</li>
+<li>景氣反轉風險：網通、手機與消費電子若再進入庫存調整，立積營收會受壓。</li>
+<li>技術替代風險：大型 RF 供應商或客戶自研/整合方案可能取代部分離散元件。</li>
+<li>競爭加劇風險：RF 前端市場有 Skyworks、Qorvo、Broadcom 與亞洲同業競爭，價格壓力高。</li>
+<li>政策與地緣政治風險：半導體出口管制、供應鏈移轉與匯率會影響客戶訂單與成本。</li>
+<li>客戶集中風險：需查證。若少數網通或消費電子客戶占比高，單一客戶變動會放大波動。</li>
+<li>財報可能出現的警訊：營收成長但毛利率下降、營業費用率上升、存貨週轉惡化、EPS 不跟營收改善。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：2026Q1 季報、2025 年報、月營收、存貨、應收帳款、研發費用率、產品別與地區別營收。</li>
+<li>法說會應聽重點：Wi-Fi 7 設計案、IoT/車用 RF 進度、毛利率展望、主要客戶庫存、上游代工/封測成本。</li>
+<li>每季追蹤指標：營收年增率、毛利率、營益率、EPS、自由現金流、存貨週轉、應收帳款週轉。</li>
+<li>產業數據來源：TWSE、MOPS、RichWave IR、SIA/WSTS 半導體銷售資料、主要 RF 同業財報、網通設備同業月營收。</li>
+<li>競爭對手觀察名單：Skyworks、Qorvo、Broadcom、聯發科、瑞昱、穩懋、日月光投控、笙科。</li>
+<li>初學者下一步應該研究哪 3 家公司：瑞昱、Skyworks、穩懋。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是。立積能幫助投資人理解 RF 前端 IC、Wi-Fi 規格升級與 fabless 半導體設計的獲利彈性。</li>
+<li>該產業是否值得長期追蹤：值得。連網裝置數量與 Wi-Fi/IoT/車用通訊升級會延續，但景氣與競爭波動明顯。</li>
+<li>目前最重要的投資邏輯：不是單看營收復甦，而是看毛利率與營益率能否讓 EPS 追上目前估值。</li>
+<li>最大風險：P/E 39.02 倍對低營益率公司偏高，若獲利修復不如預期，股價下修空間大。</li>
+<li>估值是否已經反映成長預期：已反映不少復甦期待，安全邊際不足。</li>
+<li>最終投資評級與理由：觀察。理由是產業題材與財務修復值得追蹤，但估值偏高、獲利率尚未證明、來源報告仍要求等待買點。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：先研究 Wi-Fi/RF 前端需求與瑞昱/網通客戶月營收，再追蹤上游穩懋、日月光投控與國際 RF 同業的毛利率變化。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

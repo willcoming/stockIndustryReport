@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6202 盛群 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 半導體業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">6202 盛群</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-30</span>
+        <span class="meta-pill">有效至 2026-07-07</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-30.html">2026-06-30</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>盛群 6202 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-30；有效觀察期限：2026-07-07。</li>
+<li>最新股價日期：TWSE official STOCK_DAY_ALL 於 2026-06-30 顯示收盤價 65.10 TWD、成交金額約 2.32 億元；StockLoop PEI 摘要採用 2026-06-29 收盤價 63.00 TWD。</li>
+<li>最新財報期間：2026 年第 1 季；最新月營收為 2026 年 5 月，TWSE 月營收 open data 出表日期 2026-06-17。</li>
+<li>使用的主要資料來源：TWSE 6202 個股 PDF（生成日 2026-07-01，含 2026Q1 摘要財務、月營收、EPS）、TWSE 公司基本資料 open data、TWSE BWIBBU 估值 open data（2026-06-30 P/E 98.64、P/B 3.72、殖利率 1.04%）、TWSE 月營收 open data、Holtek 2026Q1 合併財報 PDF、Holtek 公司/產品與 IR 頁、MOPS、StockLoop <code>reports/twStock/2026-06-30_tw_kline_decision_report.md</code> 與 PEI 摘要。</li>
+<li>主要外部來源 URL：TWSE 個股 PDF <code>https://www.twse.com.tw/pdf/en/6202_en.pdf</code>；TWSE BWIBBU <code>https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL</code>；TWSE 公司資料 <code>https://openapi.twse.com.tw/v1/opendata/t187ap03_L</code>；TWSE 月營收 <code>https://openapi.twse.com.tw/v1/opendata/t187ap05_L</code>；Holtek 2026Q1 合併財報 <code>https://www.holtek.com.tw/WebAPI/213417/%E7%9B%9B%E7%BE%A4115Q1%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf</code>；Holtek IR <code>https://www.holtek.com/page/investor_relations/Financial_Statement/quarterly_financial_statements</code>；MOPS <code>https://mops.twse.com.tw/</code>。</li>
+<li>是否有資料缺口：有。Forward P/E、EV/EBITDA、FCF Yield、產品別營收、終端應用占比、通路庫存、客戶集中度與近 3-5 年估值區間仍需查證。</li>
+<li>需要再次查證的數據：2026Q2 財報、6 月以後月營收、MCU 通路庫存、毛利率能否持續回升、車用/工控/健康量測產品貢獻、自由現金流。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：盛群半導體是台灣 MCU 與特殊應用 IC 設計公司，產品橫跨 8-bit/32-bit MCU、觸控、電源管理、健康量測、安全防護、家電與工控控制晶片。</li>
+<li>所屬主要產業：半導體業；反推後核心產業是微控制器 MCU、嵌入式控制 IC 與利基型消費/工控半導體。</li>
+<li>產業鏈位置：中游 fabless MCU 設計商，上游連接晶圓代工、封測、EDA/IP，下游服務家電、消費電子、健康量測、工控、IoT 與通路客戶。</li>
+<li>核心投資邏輯：2026Q1 營收 8.26 億元、年增約 8.5%，毛利率約 40.0%，5 月營收年增約 6.63%，顯示 MCU 需求緩步復甦；但 EPS 0.30 元、2026-06-30 P/E 98.64 倍，估值明顯高於目前獲利恢復速度。</li>
+<li>目前投資評級：觀察。</li>
+<li>主要理由：公司具 MCU 長尾產品與現金股息歷史價值，但目前獲利尚未回到高峰，P/E 對新進投資人缺乏安全邊際。</li>
+<li>主要風險：MCU 庫存循環、低階 MCU 價格競爭、終端需求復甦慢、營業費用率高、估值已大幅預支復甦。</li>
+<li>最重要的 3-5 個追蹤指標：月營收年增率、毛利率、營益率、EPS、通路庫存與新產品設計導入。</li>
+<li>代表性美股與台股同業：Microchip、Texas Instruments、NXP、Renesas、STMicroelectronics、Infineon、新唐、義隆電、偉詮電、松翰、凌通。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：MCU、觸控控制、電源管理、健康量測、安全防護、家電與工控控制晶片，銷售給各類嵌入式控制應用客戶。</li>
+<li>營收來源：以 IC 產品銷售為主，透過長尾產品組合、客戶設計導入、通路銷售與應用方案支援取得營收。</li>
+<li>主要客戶：官方公開資料未完整揭露主要客戶；依 MCU 產業屬性，客戶分散於家電、消費電子、IoT、健康量測、工控與代理通路，客戶集中度需查最新年報。</li>
+<li>毛利率與營益率特性：Holtek/TWSE 2026Q1 摘要顯示營收 8.26 億元、毛利約 3.30 億元，毛利率約 40.0%；營業利益約 5,521 萬元，營益率約 6.7%。毛利率優於一般電子製造，但營益率受研發、銷售與通路費用影響。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：短期靠 MCU 庫存回補與出貨量恢復；中期看 32-bit MCU、健康量測、工控/家電與 IoT 新產品導入。</li>
+<li>是否有景氣循環性：有。MCU 屬長尾但仍受通路庫存、家電/消費電子需求與工業景氣影響。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：MCU 與嵌入式控制半導體。</li>
+<li>產業解決什麼問題：用低成本、低功耗、可程式化的控制晶片，讓家電、健康量測、工控、IoT 與消費電子產品能完成感測、運算、控制與通訊。</li>
+<li>需求來自哪裡：家電控制、觸控介面、醫療/健康量測、安防、工控、消費電子、IoT 終端與通路備貨。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：8-bit MCU 多為成熟與價格競爭市場；32-bit MCU、健康量測、工控與 IoT 應用仍有結構升級空間，但整體受半導體庫存循環影響。</li>
+<li>長期成長驅動力：萬物控制與感測、家電智慧化、工業自動化、健康量測裝置增加、MCU 從 8-bit 向 32-bit 升級。</li>
+<li>短期波動因素：通路庫存、消費需求、同業降價、晶圓代工成本、匯率與客戶新品時程。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游工具/IP</td>
+<td>設計基礎</td>
+<td>EDA、CPU core、IP、製程設計套件</td>
+<td>Synopsys、Cadence、Arm</td>
+<td>創意、世芯-KY</td>
+<td>高</td>
+<td>軟體/IP 毛利高</td>
+<td>授權成本與供應限制</td>
+</tr>
+<tr>
+<td>上游製造封測</td>
+<td>晶圓代工與封測</td>
+<td>成熟製程晶圓、封裝測試</td>
+<td>GlobalFoundries、Amkor</td>
+<td>台積電、聯電、力積電、日月光投控</td>
+<td>中</td>
+<td>稼動率影響獲利</td>
+<td>成本、交期、成熟製程供需</td>
+</tr>
+<tr>
+<td>中游 MCU 設計</td>
+<td>嵌入式控制 IC</td>
+<td>8-bit/32-bit MCU、觸控、電源管理</td>
+<td>Microchip、TI、NXP、Renesas、STMicro</td>
+<td>盛群、新唐、義隆、偉詮電、松翰</td>
+<td>中</td>
+<td>毛利率可高，但費用率與價格競爭重要</td>
+<td>庫存循環、同質化</td>
+</tr>
+<tr>
+<td>下游模組/OEM</td>
+<td>家電、工控、消費電子</td>
+<td>控制板、感測模組、終端產品</td>
+<td>Whirlpool、Honeywell、Bosch</td>
+<td>聲寶、東元、群光、致伸</td>
+<td>中高</td>
+<td>系統商視品牌而定</td>
+<td>需求波動、砍價</td>
+</tr>
+<tr>
+<td>通路與終端</td>
+<td>代理與終端消費</td>
+<td>分銷、終端需求</td>
+<td>Arrow、Avnet</td>
+<td>大聯大、文曄、至上</td>
+<td>中</td>
+<td>通路毛利較低</td>
+<td>庫存修正</td>
+</tr>
+</tbody>
+</table></div>
+<p>輸入股票 6202 盛群位於「中游 MCU 與特殊應用 IC 設計」。它的價值在長尾產品、應用支援與客戶導入，但面對大型 MCU 廠與本土同業競爭，必須靠產品組合與費用控管維持獲利。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：MCU 需要低功耗設計、類比混合訊號、韌體工具、開發板與應用支援；但成熟 MCU 的差異化低於先進製程 SoC。</li>
+<li>規模經濟：長尾產品與既有客戶平台可帶來穩定出貨，但規模不如 Microchip、TI、NXP 等國際大廠。</li>
+<li>客戶黏著度：MCU 一旦被設計進終端產品，客戶替換需要重新驗證與韌體修改，黏著度中等偏高。</li>
+<li>轉換成本：中等。成熟應用可替換，但若綁定軟體工具、韌體與認證，轉換成本會提升。</li>
+<li>品牌或通路優勢：盛群在台灣 MCU 市場有多年產品線與通路基礎，對中小型客戶有服務優勢。</li>
+<li>成本優勢：需查證。成熟製程成本與產品組合決定毛利率，若價格戰升溫，成本優勢會被稀釋。</li>
+<li>專利、法規或資本門檻：醫療/健康、安防、車用或工控應用有認證門檻，但具體認證占比需查年報。</li>
+<li>是否容易被替代：中等。一般低階 MCU 可替代性較高；利基應用、韌體工具與客戶平台綁定後替代性下降。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：TWSE 月營收顯示 2026/05 營收 3.13 億元、年增 6.63%，2026 年 1-5 月累計年增 7.73%；連續改善代表 MCU 通路庫存與終端需求回溫。</li>
+<li>毛利率：2026Q1 約 40.0%；若維持或提升，代表產品組合與價格競爭可控。</li>
+<li>營益率：2026Q1 約 6.7%；若回到雙位數，才代表獲利修復較完整。</li>
+<li>EPS 成長率：2026Q1 EPS 0.30 元，較 2025Q1 0.40 元下降，顯示營收改善尚未完全轉成股東獲利。</li>
+<li>自由現金流：需查證。MCU 通路庫存與應收變化會影響現金流品質。</li>
+<li>資本支出：fabless 模式資本支出較低，但研發與測試資源仍需投入。</li>
+<li>存貨週轉：關鍵。若庫存下降且營收成長，代表復甦健康；若存貨與通路庫存回升，代表拉貨可能不實。</li>
+<li>訂單能見度：MCU 訂單多受通路與終端需求影響，能見度通常低於長約型半導體。</li>
+<li>客戶集中度：需查證。若特定家電或消費電子應用占比過高，景氣波動會放大。</li>
+<li>市占率：需查證。可追蹤台灣 MCU 同業月營收與國際 MCU 廠庫存評論。</li>
+<li>產能利用率：對 fabless 可觀察上游成熟製程供需、投片節奏與封測交期。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MCHP</td>
+<td>Microchip</td>
+<td>美國</td>
+<td>MCU/類比</td>
+<td>MCU、FPGA、類比</td>
+<td>長尾產品與客戶廣</td>
+<td>工業庫存循環</td>
+<td>中</td>
+<td>中高</td>
+<td>MCU 成熟同業參考</td>
+</tr>
+<tr>
+<td>TXN</td>
+<td>Texas Instruments</td>
+<td>美國</td>
+<td>類比/嵌入式</td>
+<td>類比、嵌入式處理</td>
+<td>製造與通路規模</td>
+<td>工業週期</td>
+<td>中</td>
+<td>高</td>
+<td>高品質溢價</td>
+</tr>
+<tr>
+<td>NXPI</td>
+<td>NXP</td>
+<td>美國</td>
+<td>車用/工控 MCU</td>
+<td>車用 MCU、連接</td>
+<td>車用平台</td>
+<td>車市循環</td>
+<td>中</td>
+<td>高</td>
+<td>車用半導體品質股</td>
+</tr>
+<tr>
+<td>RNECY</td>
+<td>Renesas</td>
+<td>日本/ADR</td>
+<td>MCU/車用</td>
+<td>MCU、SoC、功率</td>
+<td>車用與工控客戶</td>
+<td>車市與日圓</td>
+<td>中</td>
+<td>中高</td>
+<td>循環中位</td>
+</tr>
+<tr>
+<td>STM</td>
+<td>STMicroelectronics</td>
+<td>美國/歐洲</td>
+<td>MCU/功率</td>
+<td>MCU、感測、功率</td>
+<td>產品廣度</td>
+<td>車用與工業修正</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>IFNNY</td>
+<td>Infineon</td>
+<td>美國/歐洲 ADR</td>
+<td>MCU/功率</td>
+<td>車用、工控、功率</td>
+<td>功率半導體</td>
+<td>車市循環</td>
+<td>中</td>
+<td>高</td>
+<td>品質循環股</td>
+</tr>
+<tr>
+<td>6202</td>
+<td>盛群</td>
+<td>台灣</td>
+<td>MCU 設計</td>
+<td>MCU、觸控、健康量測、家電 IC</td>
+<td>長尾產品與本地支援</td>
+<td>估值高、競爭</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 偏高</td>
+</tr>
+<tr>
+<td>4919</td>
+<td>新唐</td>
+<td>台灣</td>
+<td>MCU/邏輯</td>
+<td>MCU、晶圓代工、工控</td>
+<td>產品與製造資源</td>
+<td>景氣與產品組合</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2458</td>
+<td>義隆電</td>
+<td>台灣</td>
+<td>控制 IC</td>
+<td>觸控、PC/消費控制 IC</td>
+<td>客戶導入</td>
+<td>PC/消費循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2436</td>
+<td>偉詮電</td>
+<td>台灣</td>
+<td>MCU/控制 IC</td>
+<td>USB PD、MCU、控制 IC</td>
+<td>利基產品</td>
+<td>需求波動</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>5471</td>
+<td>松翰</td>
+<td>台灣</td>
+<td>MCU/消費 IC</td>
+<td>MCU、影像與控制 IC</td>
+<td>利基市場</td>
+<td>小型股波動</td>
+<td>中低</td>
+<td>中低</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>盛群</td>
+<td>6202</td>
+<td>台灣</td>
+<td>TWSE 2026-06-30 98.64 倍</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>明顯偏高</td>
+<td>約 4.5 倍，依 6/30 市值與 2026Q1 年化營收估算</td>
+<td>需查證</td>
+<td>2026Q1 約 40.0%</td>
+<td>2026/05 年增 6.63%</td>
+<td>估值預支復甦，不具安全邊際</td>
+</tr>
+<tr>
+<td>Microchip</td>
+<td>MCHP</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>全球 MCU 成熟同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>同業參考</td>
+</tr>
+<tr>
+<td>Texas Instruments</td>
+<td>TXN</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高品質類比/嵌入式</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>龍頭溢價</td>
+</tr>
+<tr>
+<td>NXP</td>
+<td>NXPI</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>車用 MCU 品質股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>車用循環</td>
+</tr>
+<tr>
+<td>新唐</td>
+<td>4919</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>台股 MCU 同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>需比較產品組合</td>
+</tr>
+<tr>
+<td>義隆電</td>
+<td>2458</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>控制 IC 同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<p>估值結論：盛群 2026-06-30 P/E 98.64 倍，主要問題不是公司不好，而是目前 EPS 尚未恢復到足以支撐估值的水準。除非 2026 下半年營益率與 EPS 快速回升，否則評級應保守。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>MCU 庫存循環結束，32-bit、健康量測、家電與工控產品放量</td>
+<td>中到高個位數</td>
+<td>毛利率維持 40% 以上，營益率回到雙位數</td>
+<td>EPS 明顯修復</td>
+<td>25-35 倍，需查同業區間</td>
+<td>由觀察上調至分批布局</td>
+<td>連續月營收年增、EPS 快速回升、P/E 明顯下降</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>通路緩慢補庫存，低階 MCU 價格競爭仍在</td>
+<td>低到中個位數</td>
+<td>毛利率約 38-40%，營益率中個位數</td>
+<td>EPS 緩慢修復</td>
+<td>18-25 倍較合理</td>
+<td>維持觀察</td>
+<td>營收有成長但獲利彈性不足</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>消費/家電需求轉弱，通路庫存回升，同業降價</td>
+<td>持平或下滑</td>
+<td>毛利率下滑，營益率壓縮</td>
+<td>EPS 下修</td>
+<td>15-20 倍或更低</td>
+<td>下調至減碼/賣出</td>
+<td>營收轉負、毛利率跌破趨勢、庫存惡化</td>
+</tr>
+</tbody>
+</table></div>
+<p>投資人最需要觀察：MCU 通路庫存是否真的去化、毛利率是否維持 40% 附近、營益率是否回到雙位數，以及 EPS 是否比營收更快改善。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6202</td>
+<td>盛群</td>
+<td>觀察</td>
+<td>想研究 MCU 產業與成熟 IC 設計循環的新手</td>
+<td>公司有長尾產品與 40% 左右毛利率，但獲利尚未恢復</td>
+<td>P/E 98.64 倍過高、EPS 0.30 元偏低、來源報告要求等待觸發</td>
+<td>可理解台灣 MCU 與消費/工控控制 IC</td>
+<td>月營收、毛利率、營益率、EPS、庫存、通路需求</td>
+<td>上調：EPS 快速回升且估值下降；下調：營收轉弱或毛利率下滑</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合。估值相對目前 EPS 太高，先等財報證明復甦。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？可小部位續抱觀察，但不建議在 P/E 接近 100 倍時加碼。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等 EPS 連續改善、P/E 因獲利上升而下降、股價回測支撐不破。</li>
+<li>哪些訊號會讓你把評級上調？營益率回到雙位數、月營收年增擴大、通路庫存健康、32-bit/工控/健康量測產品放量。</li>
+<li>哪些訊號會讓你把評級下調？營收年增轉負、毛利率跌破 38%、庫存升高、EPS 繼續低於市場期待。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：暫不列入。盛群雖有現金與成熟產品，但小型 MCU 循環與估值波動不適合作為核心部位。</li>
+<li>成長型：有條件列入。若 32-bit MCU、健康量測、工控與 IoT 成功提高產品組合，才具成長屬性。</li>
+<li>景氣循環型：符合。MCU 通路庫存與終端需求會顯著影響出貨。</li>
+<li>高風險高報酬型：中度符合。當低基期復甦出現時股價彈性高，但高 P/E 也放大下檔。</li>
+<li>只適合觀察、不適合輕易買進：目前符合。估值與 EPS 不匹配，需等待證據。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：P/E 98.64 倍代表市場已預期獲利快速恢復，若 EPS 不跟上，修正壓力大。</li>
+<li>景氣反轉風險：MCU 與消費/家電/工控需求若轉弱，營收與毛利率會下滑。</li>
+<li>技術替代風險：大型 MCU 廠、低價中國同業或客戶平台整合可能壓縮利基。</li>
+<li>競爭加劇風險：成熟 MCU 同質性高，降價競爭會侵蝕毛利。</li>
+<li>政策與地緣政治風險：供應鏈轉移、出口限制與匯率變動會影響客戶訂單。</li>
+<li>客戶集中風險：需查證。若特定應用或通路占比過高，景氣波動會集中反映。</li>
+<li>財報可能出現的警訊：營收年增但 EPS 不增、毛利率下滑、存貨上升、應收帳款增加、營業費用率過高。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：2026Q1 合併財報、2025 年報、月營收、存貨、應收帳款、研發費用率、產品別營收。</li>
+<li>法說會應聽重點：MCU 通路庫存、32-bit MCU 進展、健康量測與工控需求、毛利率展望、成熟製程成本。</li>
+<li>每季追蹤指標：月營收年增率、毛利率、營益率、EPS、自由現金流、存貨週轉、通路庫存。</li>
+<li>產業數據來源：TWSE、MOPS、Holtek IR、SIA/WSTS、Microchip/TI/NXP/Renesas 財報與庫存評論。</li>
+<li>競爭對手觀察名單：Microchip、TI、NXP、Renesas、STMicroelectronics、新唐、義隆電、偉詮電、松翰。</li>
+<li>初學者下一步應該研究哪 3 家公司：Microchip、Texas Instruments、新唐。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是。盛群是研究台灣 MCU、成熟製程 IC 設計與通路庫存循環的好入口。</li>
+<li>該產業是否值得長期追蹤：值得。MCU 是所有智慧控制產品的基礎，但成熟市場競爭與庫存循環很強。</li>
+<li>目前最重要的投資邏輯：不是只看營收回溫，而是看 EPS 和營益率是否足以消化高 P/E。</li>
+<li>最大風險：P/E 98.64 倍遠高於目前獲利品質，任何復甦不如預期都可能造成估值收縮。</li>
+<li>估值是否已經反映成長預期：是，已大幅反映復甦期待。</li>
+<li>最終投資評級與理由：觀察。理由是公司與產業值得追蹤，但估值過高、EPS 尚未恢復，缺乏新進買入安全邊際。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：先研究 MCU 通路庫存與國際 MCU 廠財報，再比較新唐、義隆電、偉詮電等台股同業的毛利率與估值。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

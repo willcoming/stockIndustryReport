@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2022 聚亨 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 鋼鐵工業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">2022 聚亨</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-06-30</span>
+        <span class="meta-pill">有效至 2026-07-07</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-06-30.html">2026-06-30</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>聚亨 2022 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-06-30；valid_until：2026-07-07。</li>
+<li>最新股價日期：2026-06-30，TWSE <code>STOCK_DAY_ALL</code> 收盤價 7.75 TWD，開高低收 7.64 / 7.75 / 7.64 / 7.75 TWD。</li>
+<li>最新財報期間：2026Q1，TWSE <code>t187ap14_L</code> 與 <code>t187ap17_L</code> 出表日期 2026-07-01；Q1 營收 3,459.605 百萬元、EPS -0.09、毛利率 6.34%、營益率 -0.01%。</li>
+<li>使用的主要資料來源：TWSE 公司基本資料、TWSE 月營收、TWSE 獲利能力、TWSE BWIBBU 估值、TWSE 2026-06-30 交易資料、聚亨企業官網、<code>reports/twStock/2026-06-30_tw_kline_decision_report.md</code>。</li>
+<li>是否有資料缺口：有。鋼材產品別出貨、泰國子公司獲利、鋼筋/盤元價格、Forward P/E、EV/EBITDA、FCF Yield、近年 P/E 區間需查證。</li>
+<li>需要再次查證的數據：泰國內需與地震後鋼筋需求、原料鋼胚價格、匯率敏感度、借款與利息費用、營運現金流。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：聚亨是鋼鐵線材、鋼筋、盤元、螺絲線材與相關加工/貿易公司，營運與泰國鋼鐵需求連動度高。</li>
+<li>所屬主要產業：鋼鐵工業。</li>
+<li>產業鏈位置：鋼鐵中下游加工與銷售，承接上游鋼胚/盤元材料，服務建築、螺絲扣件、工業加工與區域鋼材需求。</li>
+<li>核心投資邏輯：2026 年 5 月營收年增 24.16%、累計年增 51.79%，但 Q1 EPS -0.09、營益率幾乎打平，低價與低成交金額使投資風險高。</li>
+<li>目前投資評級：觀察。</li>
+<li>主要理由：泰國需求回溫帶來營收彈性，但獲利尚未轉正，且 2026-06-30 K 線報告列入「排除 / 不建議追價」，主要因收盤低於 10 元與成交金額不足。</li>
+<li>主要風險：鋼價循環、原料成本、低毛利、匯率、泰國市場、低流動性、虧損。</li>
+<li>最重要的 3-5 個追蹤指標：月營收、毛利率、營益率、EPS、鋼價/鋼胚價差、成交金額。</li>
+<li>代表性美股與台股同業：Nucor、Steel Dynamics、U.S. Steel、ArcelorMittal、中鋼、中鴻、豐興、大成鋼、燁輝、官田鋼。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：鋼筋、盤元、線材、螺絲線材、鋼材加工與銷售；細項占比需查證。</li>
+<li>營收來源：鋼材銷售、加工、貿易與海外子公司營收。</li>
+<li>主要客戶：建築工程、鋼筋通路、螺絲扣件廠、金屬加工廠、區域鋼材客戶；主要客戶占比需查證。</li>
+<li>毛利率與營益率特性：2026Q1 毛利率 6.34%、營益率 -0.01%，典型低毛利鋼鐵中下游模式。</li>
+<li>成長主要來自價格、出貨量、市占率、新產品，還是產業總需求擴張：短期主要來自出貨量、泰國內需回溫、鋼材價格與匯率。</li>
+<li>是否有景氣循環性：高度循環。鋼價、建築需求、庫存與原料價格會放大獲利波動。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：鋼鐵工業中的線材、鋼筋、盤元與中下游加工。</li>
+<li>產業解決什麼問題：供應建築、基礎建設、扣件與工業製造所需的標準化鋼材。</li>
+<li>需求來自哪裡：房建與基礎建設、公共工程、螺絲扣件、機械與金屬製品、泰國與東南亞內需。</li>
+<li>產業目前處於導入期、成長期、成熟期，還是景氣循環期：成熟且高度景氣循環。</li>
+<li>長期成長驅動力：東南亞基建、都市化、災後重建或耐震規範、區域製造業。</li>
+<li>短期波動因素：鋼胚/鐵礦砂/廢鋼價格、鋼筋報價、匯率、關稅、庫存、建築景氣。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原料</td>
+<td>鐵礦砂、煤、廢鋼</td>
+<td>大宗原料</td>
+<td>BHP、Rio Tinto</td>
+<td>需查證</td>
+<td>高</td>
+<td>商品循環</td>
+<td>原料漲價</td>
+</tr>
+<tr>
+<td>上游鋼廠</td>
+<td>煉鋼與熱軋</td>
+<td>鋼胚、熱軋、冷軋</td>
+<td>Nucor、Steel Dynamics</td>
+<td>中鋼、中鴻</td>
+<td>中高</td>
+<td>隨鋼價循環</td>
+<td>產能過剩</td>
+</tr>
+<tr>
+<td>中下游加工</td>
+<td>線材、鋼筋、盤元</td>
+<td>螺絲線材、鋼筋、加工</td>
+<td>Commercial Metals</td>
+<td>聚亨、豐興、官田鋼</td>
+<td>中低</td>
+<td>低毛利</td>
+<td>價差壓縮</td>
+</tr>
+<tr>
+<td>通路貿易</td>
+<td>鋼材銷售</td>
+<td>庫存與配送</td>
+<td>Reliance Steel</td>
+<td>大成鋼</td>
+<td>中</td>
+<td>庫存價差</td>
+<td>價格跌損</td>
+</tr>
+<tr>
+<td>終端需求</td>
+<td>建築與製造</td>
+<td>工程、扣件、機械</td>
+<td>DR Horton、Caterpillar</td>
+<td>營建與扣件廠</td>
+<td>高</td>
+<td>需求循環</td>
+<td>景氣反轉</td>
+</tr>
+</tbody>
+</table></div>
+<p>聚亨位於中下游加工與區域銷售段，較難掌握上游定價權；投資重點是價差、產能利用率與泰國需求，而不是單純營收成長。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：標準化鋼材技術門檻中低，重點在品質認證與穩定供應。</li>
+<li>規模經濟：產線稼動率與原料採購規模影響成本。</li>
+<li>客戶黏著度：建築與扣件客戶重視品質、交期與價格，黏著度中等。</li>
+<li>轉換成本：低至中，標準產品容易比價；有認證需求的鋼筋與特規線材轉換成本較高。</li>
+<li>品牌或通路優勢：區域市場與客戶關係有價值，但品牌溢價有限。</li>
+<li>成本優勢：需查證；原料採購、泰國生產與匯率是關鍵。</li>
+<li>專利、法規或資本門檻：耐震鋼筋認證、品質規格與環保/能耗法規形成門檻。</li>
+<li>是否容易被替代：中高。標準鋼材可被同規格產品替代。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<p>列出公司與產業最重要的指標，並說明每個指標變好或變壞代表什麼：</p>
+<ul>
+<li>營收成長率：2026 年 5 月營收 849.409 百萬元，年增 24.16%；累計營收 5,448.025 百萬元，年增 51.79%。TWSE 備註指出泰國鋼鐵內需回溫、地震影響帶動有認證鋼筋需求、匯率變動使合併營收增長。</li>
+<li>毛利率：2026Q1 6.34%；若原料與售價價差改善，毛利率才有上升空間。</li>
+<li>營益率：2026Q1 -0.01%；幾乎打平，代表營收成長尚未有效轉化成營業利益。</li>
+<li>EPS 成長率：2026Q1 EPS -0.09；需要至少連續轉正才可提高評級。</li>
+<li>自由現金流：需查證；鋼鐵股需看庫存與應收對現金流的拖累。</li>
+<li>資本支出：產線維護與環保設備，需配合鋼價循環。</li>
+<li>存貨週轉：鋼價下跌時，存貨跌價風險高。</li>
+<li>訂單能見度：建築與泰國內需訂單是核心。</li>
+<li>客戶集中度：需查證；若區域客戶集中，景氣衝擊會加大。</li>
+<li>市占率：台灣/泰國線材與鋼筋市占需查證。</li>
+<li>產能利用率：提高可攤低固定成本；過低會壓低毛利。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<p>比較至少 5-10 家相關公司，包含直接競爭者、上游供應商、下游客戶或同產業替代標的。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022</td>
+<td>聚亨</td>
+<td>台股</td>
+<td>中下游鋼材</td>
+<td>線材、鋼筋、盤元</td>
+<td>泰國需求彈性</td>
+<td>虧損、低流動性</td>
+<td>中</td>
+<td>低</td>
+<td>P/B 0.77、P/E 不適用</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>中鋼</td>
+<td>台股</td>
+<td>上游一貫鋼廠</td>
+<td>熱軋、冷軋、鋼品</td>
+<td>規模與國內龍頭</td>
+<td>鋼價循環</td>
+<td>低中</td>
+<td>中</td>
+<td>P/B 0.97、P/E 不適用</td>
+</tr>
+<tr>
+<td>2014</td>
+<td>中鴻</td>
+<td>台股</td>
+<td>上游/中游</td>
+<td>熱軋、冷軋</td>
+<td>中鋼體系</td>
+<td>虧損循環</td>
+<td>低中</td>
+<td>低</td>
+<td>P/B 2.07</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>豐興</td>
+<td>台股</td>
+<td>電爐/鋼筋</td>
+<td>鋼筋、型鋼</td>
+<td>成本與報價透明</td>
+<td>廢鋼價格</td>
+<td>低中</td>
+<td>中高</td>
+<td>P/E 15.29</td>
+</tr>
+<tr>
+<td>2027</td>
+<td>大成鋼</td>
+<td>台股</td>
+<td>鋼材通路</td>
+<td>不鏽鋼、鋁、通路</td>
+<td>美國通路</td>
+<td>庫存價差</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 11.80</td>
+</tr>
+<tr>
+<td>2038</td>
+<td>海光</td>
+<td>台股</td>
+<td>電爐鋼筋</td>
+<td>鋼筋</td>
+<td>區域供應</td>
+<td>景氣循環</td>
+<td>低中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>NUE</td>
+<td>Nucor</td>
+<td>美股</td>
+<td>電爐鋼廠</td>
+<td>鋼材</td>
+<td>成本與規模</td>
+<td>鋼價循環</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>STLD</td>
+<td>Steel Dynamics</td>
+<td>美股</td>
+<td>電爐鋼廠</td>
+<td>鋼材、回收</td>
+<td>成本與成長</td>
+<td>循環</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>X</td>
+<td>U.S. Steel</td>
+<td>美股</td>
+<td>一貫鋼廠</td>
+<td>鋼材</td>
+<td>資產規模</td>
+<td>併購/循環</td>
+<td>低中</td>
+<td>低中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>MT</td>
+<td>ArcelorMittal</td>
+<td>美股/歐洲</td>
+<td>全球鋼廠</td>
+<td>鋼鐵</td>
+<td>全球規模</td>
+<td>地區需求</td>
+<td>低中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<p>整理目前 P/E、Forward P/E、近 3-5 年 P/E 區間、同業 P/E 低位/中位/高位、P/S、EV/EBITDA、P/B、FCF Yield、與同業相比折價或溢價，以及折溢價是否合理。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>聚亨</td>
+<td>2022</td>
+<td>台股</td>
+<td>不適用</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>虧損低 P/B</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026Q1 6.34%</td>
+<td>2026-05 年增 24.16%</td>
+<td>價格低但缺獲利</td>
+</tr>
+<tr>
+<td>中鋼</td>
+<td>2002</td>
+<td>台股</td>
+<td>不適用</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>鋼鐵龍頭低 P/B</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026Q1 3.33%</td>
+<td>2026-05 年增 2.19%</td>
+<td>循環底部觀察</td>
+</tr>
+<tr>
+<td>中鴻</td>
+<td>2014</td>
+<td>台股</td>
+<td>不適用</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>虧損同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026Q1 -0.95%</td>
+<td>2026-05 年增 4.26%</td>
+<td>風險高</td>
+</tr>
+<tr>
+<td>豐興</td>
+<td>2015</td>
+<td>台股</td>
+<td>15.29</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>獲利穩定同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026Q1 12.81%</td>
+<td>2026-05 年減 8.29%</td>
+<td>品質優於聚亨</td>
+</tr>
+<tr>
+<td>大成鋼</td>
+<td>2027</td>
+<td>台股</td>
+<td>11.80</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>通路/材料較佳</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>2026Q1 27.32%</td>
+<td>2026-05 年增 42.53%</td>
+<td>獲利能力較強</td>
+</tr>
+</tbody>
+</table></div>
+<p>聚亨 2026-06-30 概略市值約 26.13 億 TWD，計算基礎為 TWSE 已發行普通股數 337,168,138 股乘以收盤價 7.75 TWD。P/B 0.77 顯示市場已給低評價，但 Q1 虧損使低 P/B 不能直接等同便宜。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>泰國需求持續、鋼筋認證需求增加、價差改善</td>
+<td>中高</td>
+<td>毛利率升、營益率轉正</td>
+<td>EPS 轉正並放大</td>
+<td>P/B 0.9-1.2、P/E 10-15 倍</td>
+<td>轉機股反彈</td>
+<td>月營收與毛利率同步改善</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>營收高基期但價差普通</td>
+<td>中</td>
+<td>營益率接近損平</td>
+<td>EPS 小幅正負</td>
+<td>P/B 0.7-0.9</td>
+<td>低檔整理</td>
+<td>營收成長但獲利未跟上</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>鋼價下跌、原料成本高、泰國需求降溫</td>
+<td>負</td>
+<td>毛利率下滑</td>
+<td>虧損擴大</td>
+<td>P/B 0.5-0.7</td>
+<td>評價下修</td>
+<td>鋼價跌、存貨跌價、營收轉弱</td>
+</tr>
+</tbody>
+</table></div>
+<p>投資人最需要看鋼價與鋼胚價差、泰國訂單、毛利率是否改善，以及 EPS 是否由負轉正。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022</td>
+<td>聚亨</td>
+<td>觀察</td>
+<td>能研究鋼鐵循環且接受低價低流動性者</td>
+<td>營收受泰國需求回溫，但獲利尚未轉正</td>
+<td>EPS -0.09、股價低於 10 元、成交金額不足</td>
+<td>鋼鐵中下游轉機樣本</td>
+<td>月營收、毛利率、EPS、鋼價、成交金額</td>
+<td>EPS 轉正且成交放大可升評；虧損擴大則下調</td>
+</tr>
+</tbody>
+</table></div>
+<p>另外回答：</p>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合，低價股、循環股與虧損狀態需要較高研究能力。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？若部位小可觀察；不建議在未轉盈前加碼。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等 Q2/Q3 EPS 轉正、毛利率改善、月營收成長延續且成交金額提升。</li>
+<li>哪些訊號會讓你把評級上調？鋼價價差改善、泰國需求持續、EPS 連續轉正、P/B 仍低。</li>
+<li>哪些訊號會讓你把評級下調？月營收轉弱、毛利率跌破 5%、存貨跌價、現金流惡化或虧損擴大。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不屬於，因虧損且鋼鐵循環波動大。</li>
+<li>成長型：不屬於，營收成長主要是循環與區域需求，不是高毛利結構成長。</li>
+<li>景氣循環型：屬於，鋼價與建築需求直接影響獲利。</li>
+<li>高風險高報酬型：屬於，低價、低 P/B、虧損與低流動性放大波動。</li>
+<li>只適合觀察、不適合輕易買進：目前最符合，需等獲利轉正證據。</li>
+</ul>
+<p>分類理由是：聚亨的營收彈性明顯，但毛利與 EPS 未證明可持續改善。</p>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：雖 P/B 0.77 低，但虧損公司若淨值回報率低，仍可能價值陷阱。</li>
+<li>景氣反轉風險：鋼價與建築需求下滑會快速壓縮價差。</li>
+<li>技術替代風險：標準鋼材技術替代風險低，但規格升級與低碳鋼要求可能增加成本。</li>
+<li>競爭加劇風險：區域鋼廠與進口鋼材競爭壓低價格。</li>
+<li>政策與地緣政治風險：關稅、反傾銷、泰國法規、匯率與區域基建政策。</li>
+<li>客戶集中風險：泰國與特定建築/扣件需求集中度需查證。</li>
+<li>財報可能出現的警訊：營收增但毛利率不升、存貨跌價、利息費用升、營運現金流流出。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：2025 年報、2026Q1/Q2 季報、產品別營收、存貨、借款、利息費用、現金流。</li>
+<li>法說會應聽重點：泰國需求、鋼筋認證訂單、鋼胚採購、匯率影響、庫存水位。</li>
+<li>每季追蹤指標：月營收、毛利率、營益率、EPS、P/B、成交金額。</li>
+<li>產業數據來源：TWSE、MOPS、公司 IR、中鋼盤價、廢鋼/鋼胚價格、泰國建築與鋼材需求資料。</li>
+<li>競爭對手觀察名單：中鋼、中鴻、豐興、大成鋼、Nucor、Steel Dynamics。</li>
+<li>初學者下一步應該研究哪 3 家公司：中鋼、豐興、Nucor。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>這家公司是否是理解該產業的好入口：是，可用來理解鋼鐵中下游如何受價差、區域需求與匯率影響。</li>
+<li>該產業是否值得長期追蹤：值得，但應以循環研究而非長期高成長邏輯看待。</li>
+<li>目前最重要的投資邏輯：泰國需求帶動營收後，能否真正讓 EPS 轉正。</li>
+<li>最大風險：營收成長無法轉為獲利，形成低 P/B 價值陷阱。</li>
+<li>估值是否已經反映成長預期：市場給低 P/B，但也反映虧損與低流動性折價。</li>
+<li>最終投資評級與理由：觀察。營收改善值得追蹤，但 EPS、流動性與低價風險尚未解除。</li>
+<li>我接下來應該優先研究哪些產業鏈環節：鋼胚/廢鋼價格、鋼筋價差、泰國建築需求、扣件線材與中下游庫存。</li>
+</ul>
+</article></main></div>
+</body>
+</html>
