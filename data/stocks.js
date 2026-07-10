@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-10T06:44:22.843641+00:00",
+  "generated_at": "2026-07-10T23:11:53.930551+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -7955,6 +7955,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Archer Aviation Inc."
       ]
     },
+    "us:aci": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "ACI",
+      "name": "Albertsons Companies, Inc. Class A Common Stock",
+      "industry_group": "民生消費 / 食品零售連鎖",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-aci/",
+      "url": "stocks/us-aci/",
+      "aliases": [
+        "ACI",
+        "US:ACI"
+      ]
+    },
     "us:adbe": {
       "market": "us",
       "exchange": "US",
@@ -8076,6 +8092,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NYSE:AEO",
         "American Eagle Outfitters",
         "Aerie"
+      ]
+    },
+    "us:aep": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "AEP",
+      "name": "American Electric Power Company, Inc.",
+      "industry_group": "公用事業／中央電力公用事業",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-aep/",
+      "url": "stocks/us-aep/",
+      "aliases": [
+        "AEP",
+        "US:AEP",
+        "American Electric Power"
       ]
     },
     "us:aes": {
@@ -8216,6 +8249,23 @@ window.STOCK_INDUSTRY_REPORTS = {
       "aliases": [
         "ALK",
         "NYSE:ALK"
+      ]
+    },
+    "us:alm": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "ALM",
+      "name": "Almonty Industries Inc.",
+      "industry_group": "基礎原材料 / 其他金屬與礦物",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-alm/2026-07-10.html",
+      "url": "stocks/us-alm/",
+      "aliases": [
+        "ALM",
+        "US:ALM",
+        "Almonty Industries Inc."
       ]
     },
     "us:aloy": {
@@ -8881,6 +8931,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "美股:BILL"
       ]
     },
+    "us:bkng": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "BKNG",
+      "name": "Booking Holdings Inc. - Common Stock",
+      "industry_group": "非必需消費 / 線上旅遊與交通服務",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "續抱",
+      "latest_url": "stocks/us-bkng/",
+      "url": "stocks/us-bkng/",
+      "aliases": [
+        "BKNG",
+        "US:BKNG"
+      ]
+    },
     "us:bl": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -8974,6 +9040,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Box, Inc. Class A"
       ]
     },
+    "us:bp": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "BP",
+      "name": "BP p.l.c.",
+      "industry_group": "能源／綜合石油與天然氣",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-bp/",
+      "url": "stocks/us-bp/",
+      "aliases": [
+        "BP",
+        "US:BP",
+        "NYSE:BP",
+        "bp p.l.c."
+      ]
+    },
     "us:brk.b": {
       "market": "us",
       "exchange": "US",
@@ -9010,6 +9094,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Brown & Brown",
         "Brown and Brown",
         "BRO"
+      ]
+    },
+    "us:bros": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "BROS",
+      "name": "Dutch Bros Inc.",
+      "industry_group": "非必需消費 / 餐飲連鎖",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-bros/2026-07-10.html",
+      "url": "stocks/us-bros/",
+      "aliases": [
+        "BROS",
+        "US:BROS",
+        "Dutch Bros Inc."
       ]
     },
     "us:brx": {
@@ -9118,6 +9219,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NYSE:C"
       ]
     },
+    "us:cag": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CAG",
+      "name": "ConAgra Brands, Inc. Common Stock",
+      "industry_group": "民生消費 / 包裝食品",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-cag/",
+      "url": "stocks/us-cag/",
+      "aliases": [
+        "CAG",
+        "US:CAG"
+      ]
+    },
     "us:cai": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -9167,6 +9284,23 @@ window.STOCK_INDUSTRY_REPORTS = {
       "aliases": [
         "CARR",
         "NYSE:CARR"
+      ]
+    },
+    "us:cava": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CAVA",
+      "name": "CAVA Group, Inc.",
+      "industry_group": "非必需消費 / 餐飲連鎖",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-cava/2026-07-10.html",
+      "url": "stocks/us-cava/",
+      "aliases": [
+        "CAVA",
+        "US:CAVA",
+        "CAVA Group, Inc."
       ]
     },
     "us:ccc": {
@@ -9404,19 +9538,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "CL",
-      "name": "Colgate-Palmolive Company Common Stock",
-      "industry_group": "非必需消費 / 包裝商品與化妝品",
-      "latest_report_date": "2026-03-31",
-      "valid_until": "2026-07-06",
+      "name": "Colgate-Palmolive Company",
+      "industry_group": "必需消費 / 日用品與個人護理",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
       "rating": "續抱",
-      "latest_url": "stocks/us-cl/",
+      "latest_url": "stocks/us-cl/2026-07-10.html",
       "url": "stocks/us-cl/",
       "aliases": [
         "CL",
-        "Colgate-Palmolive",
-        "Colgate Palmolive",
-        "Colgate-Palmolive Company",
-        "NYSE:CL"
+        "US:CL",
+        "Colgate-Palmolive Company"
       ]
     },
     "us:cmcsa": {
@@ -9627,6 +9759,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Canadian Pacific Kansas City Limited"
       ]
     },
+    "us:cpb": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CPB",
+      "name": "The Campbell's Company - Common Stock",
+      "industry_group": "民生消費 / 包裝食品",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-cpb/",
+      "url": "stocks/us-cpb/",
+      "aliases": [
+        "CPB",
+        "US:CPB"
+      ]
+    },
     "us:cpng": {
       "market": "us",
       "exchange": "NYSE",
@@ -9804,6 +9952,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Varseta-M",
         "CX-2051",
         "PROBODY"
+      ]
+    },
+    "us:cvx": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CVX",
+      "name": "Chevron Corporation",
+      "industry_group": "能源／綜合石油與天然氣",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-cvx/",
+      "url": "stocks/us-cvx/",
+      "aliases": [
+        "CVX",
+        "US:CVX",
+        "NYSE:CVX",
+        "Chevron"
       ]
     },
     "us:cx": {
@@ -10341,6 +10507,23 @@ window.STOCK_INDUSTRY_REPORTS = {
       "aliases": [
         "ESPR",
         "NASDAQ:ESPR"
+      ]
+    },
+    "us:exc": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "EXC",
+      "name": "Exelon Corporation",
+      "industry_group": "公用事業／發電與輸配電",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-exc/",
+      "url": "stocks/us-exc/",
+      "aliases": [
+        "EXC",
+        "US:EXC",
+        "Exelon"
       ]
     },
     "us:exe": {
@@ -10901,6 +11084,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "GameStop Corporation"
       ]
     },
+    "us:gmm": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "GMM",
+      "name": "Global Mofy AI Limited",
+      "industry_group": "科技 / 電腦軟體：程式設計與資料處理",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-gmm/",
+      "url": "stocks/us-gmm/",
+      "aliases": [
+        "GMM",
+        "US:GMM",
+        "Global Mofy AI"
+      ]
+    },
     "us:goog": {
       "market": "us",
       "exchange": "US",
@@ -11134,6 +11334,25 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NYSE:HOG",
         "Harley-Davidson",
         "Harley-Davidson, Inc."
+      ]
+    },
+    "us:hon": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "HON",
+      "name": "Honeywell International Inc.",
+      "industry_group": "工業／航太",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-hon/",
+      "url": "stocks/us-hon/",
+      "aliases": [
+        "HON",
+        "US:HON",
+        "NASDAQ:HON",
+        "Honeywell",
+        "Honeywell Technologies"
       ]
     },
     "us:hood": {
@@ -11447,17 +11666,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "IOT",
-      "name": "Samsara Inc. Class A Common Stock",
+      "name": "Samsara Inc.",
       "industry_group": "科技 / 電子資料處理服務",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-07-07",
-      "rating": "觀察",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
       "latest_url": "stocks/us-iot/",
       "url": "stocks/us-iot/",
       "aliases": [
         "IOT",
-        "NYSE:IOT",
-        "Samsara Inc. Class A Common Stock"
+        "US:IOT",
+        "Samsara"
       ]
     },
     "us:ip": {
@@ -11474,6 +11693,24 @@ window.STOCK_INDUSTRY_REPORTS = {
       "aliases": [
         "IP",
         "NYSE:IP"
+      ]
+    },
+    "us:ir": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "IR",
+      "name": "Ingersoll Rand Inc.",
+      "industry_group": "工業／工業機械與零組件",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-ir/",
+      "url": "stocks/us-ir/",
+      "aliases": [
+        "IR",
+        "US:IR",
+        "NYSE:IR",
+        "Ingersoll Rand"
       ]
     },
     "us:irdm": {
@@ -11624,6 +11861,39 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Jack Henry & Associates, Inc. - Common Stock"
       ]
     },
+    "us:jzxn": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "JZXN",
+      "name": "Jiuzi Holdings, Inc.",
+      "industry_group": "非必需消費 / 汽車零售與經銷",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-jzxn/2026-07-10.html",
+      "url": "stocks/us-jzxn/",
+      "aliases": [
+        "JZXN",
+        "US:JZXN",
+        "Jiuzi Holdings, Inc."
+      ]
+    },
+    "us:kdp": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "KDP",
+      "name": "Keurig Dr Pepper Inc. - Common Stock",
+      "industry_group": "民生消費 / 飲料生產與通路",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-kdp/",
+      "url": "stocks/us-kdp/",
+      "aliases": [
+        "KDP",
+        "US:KDP"
+      ]
+    },
     "us:keel": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -11728,6 +11998,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Kinder Morgan",
         "Kinder Morgan Inc",
         "Kinder Morgan, Inc. Common Stock"
+      ]
+    },
+    "us:kmx": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "KMX",
+      "name": "CarMax Inc.",
+      "industry_group": "非必需消費 / 汽車零售與經銷",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-kmx/2026-07-10.html",
+      "url": "stocks/us-kmx/",
+      "aliases": [
+        "KMX",
+        "US:KMX",
+        "CarMax Inc."
       ]
     },
     "us:knx": {
@@ -12488,6 +12775,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "agentic banking"
       ]
     },
+    "us:nee": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "NEE",
+      "name": "NextEra Energy, Inc.",
+      "industry_group": "公用事業 / 電力與再生能源",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-nee/",
+      "url": "stocks/us-nee/",
+      "aliases": [
+        "NEE",
+        "US:NEE",
+        "NextEra Energy",
+        "Florida Power & Light"
+      ]
+    },
     "us:net": {
       "market": "us",
       "exchange": "NYSE",
@@ -12838,6 +13143,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Ondas Holdings"
       ]
     },
+    "us:onon": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "ONON",
+      "name": "On Holding AG Class A Ordinary Shares",
+      "industry_group": "非必需消費 / 鞋類製造",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-onon/",
+      "url": "stocks/us-onon/",
+      "aliases": [
+        "ONON",
+        "US:ONON"
+      ]
+    },
     "us:open": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -13050,6 +13371,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "美股:PAYX"
       ]
     },
+    "us:peg": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "PEG",
+      "name": "Public Service Enterprise Group Incorporated",
+      "industry_group": "公用事業／發電與輸配電",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-peg/",
+      "url": "stocks/us-peg/",
+      "aliases": [
+        "PEG",
+        "US:PEG",
+        "PSEG",
+        "Public Service Enterprise Group"
+      ]
+    },
     "us:pega": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -13164,18 +13503,36 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NYSE",
       "symbol": "PM",
       "name": "Philip Morris International Inc.",
-      "industry_group": "醫療保健 / 藥用化學品與植物藥",
-      "latest_report_date": "2026-04-24",
-      "valid_until": "2026-07-06",
-      "rating": "觀察",
+      "industry_group": "健康照護／藥用化學品與植物性產品",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
       "latest_url": "stocks/us-pm/",
       "url": "stocks/us-pm/",
       "aliases": [
         "PM",
-        "Philip Morris",
+        "US:PM",
+        "NYSE:PM",
         "Philip Morris International",
-        "Philip Morris International Inc.",
-        "菲利普莫里斯國際"
+        "PMI"
+      ]
+    },
+    "us:pnr": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "PNR",
+      "name": "Pentair plc",
+      "industry_group": "工業／工業機械與零組件",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-pnr/",
+      "url": "stocks/us-pnr/",
+      "aliases": [
+        "PNR",
+        "US:PNR",
+        "NYSE:PNR",
+        "Pentair"
       ]
     },
     "us:ppc": {
@@ -13552,6 +13909,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Rexford Industrial Realty, Inc."
       ]
     },
+    "us:rezi": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "REZI",
+      "name": "Resideo Technologies, Inc.",
+      "industry_group": "工業 / 批發分銷",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-rezi/",
+      "url": "stocks/us-rezi/",
+      "aliases": [
+        "REZI",
+        "US:REZI",
+        "Resideo"
+      ]
+    },
     "us:rgti": {
       "market": "us",
       "exchange": "US",
@@ -13675,6 +14049,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Rollins",
         "Rollins, Inc.",
         "Rollins, Inc. Common Stock"
+      ]
+    },
+    "us:rost": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "ROST",
+      "name": "Ross Stores, Inc.",
+      "industry_group": "非必需消費 / 服飾鞋包零售",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "續抱",
+      "latest_url": "stocks/us-rost/2026-07-10.html",
+      "url": "stocks/us-rost/",
+      "aliases": [
+        "ROST",
+        "US:ROST",
+        "Ross Stores, Inc."
       ]
     },
     "us:rpgl": {
@@ -13914,6 +14305,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Seer, Inc."
       ]
     },
+    "us:sei": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SEI",
+      "name": "Solaris Energy Infrastructure, Inc.",
+      "industry_group": "能源服務設備 / 油氣田機械與分散式電力基礎設施",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-sei/2026-07-10.html",
+      "url": "stocks/us-sei/",
+      "aliases": [
+        "SEI",
+        "US:SEI",
+        "Solaris Energy Infrastructure, Inc."
+      ]
+    },
     "us:shak": {
       "market": "us",
       "exchange": "NYSE",
@@ -14096,20 +14504,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NASDAQ",
       "symbol": "SNDK",
       "name": "Sandisk Corporation",
-      "industry_group": "儲存",
-      "latest_report_date": "2026-06-29",
-      "valid_until": "2026-07-06",
-      "rating": "觀察",
+      "industry_group": "科技 / 電子零組件",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
       "latest_url": "stocks/us-sndk/",
       "url": "stocks/us-sndk/",
       "aliases": [
         "SNDK",
-        "Sandisk",
+        "US:SNDK",
         "SanDisk",
-        "Sandisk Corporation",
-        "閃迪",
-        "美股:SNDK",
-        "NASDAQ:SNDK"
+        "Sandisk Corporation"
       ]
     },
     "us:sny": {
@@ -15073,6 +15478,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NASDAQ:VISN"
       ]
     },
+    "us:vod": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "VOD",
+      "name": "Vodafone Group Plc ADR",
+      "industry_group": "電信服務／電信設備",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-vod/",
+      "url": "stocks/us-vod/",
+      "aliases": [
+        "VOD",
+        "US:VOD",
+        "Vodafone"
+      ]
+    },
     "us:vor": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -15150,19 +15572,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "VSAT",
-      "name": "ViaSat, Inc. - Common Stock",
-      "industry_group": "科技 / Radio And Television Broadcasting And Communications Equipment",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-07-07",
+      "name": "Viasat, Inc.",
+      "industry_group": "科技 / 無線、電視廣播與通訊設備",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
       "rating": "觀察",
       "latest_url": "stocks/us-vsat/",
       "url": "stocks/us-vsat/",
       "aliases": [
         "VSAT",
-        "Viasat",
-        "ViaSat",
-        "Viasat, Inc.",
-        "NASDAQ:VSAT"
+        "US:VSAT",
+        "Viasat"
       ]
     },
     "us:vst": {
@@ -15187,22 +15607,18 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:vz": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "VZ",
-      "name": "Verizon Communications Inc.",
-      "industry_group": "電信 / 電信設備",
-      "latest_report_date": "2026-06-29",
-      "valid_until": "2026-07-06",
-      "rating": "分批布局",
+      "name": "Verizon Communications",
+      "industry_group": "電信服務 / 無線通訊",
+      "latest_report_date": "2026-07-11",
+      "valid_until": "2026-07-18",
+      "rating": "觀察",
       "latest_url": "stocks/us-vz/",
       "url": "stocks/us-vz/",
       "aliases": [
         "VZ",
-        "Verizon",
-        "Verizon Communications",
-        "Verizon Communications Inc.",
-        "美股:VZ",
-        "NYSE:VZ"
+        "US:VZ"
       ]
     },
     "us:way": {
@@ -15258,6 +15674,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Western Digital Corporation",
         "WD",
         "NASDAQ:WDC"
+      ]
+    },
+    "us:whr": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "WHR",
+      "name": "Whirlpool Corporation",
+      "industry_group": "非必需消費 / 家電與消費電子",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "stocks/us-whr/2026-07-10.html",
+      "url": "stocks/us-whr/",
+      "aliases": [
+        "WHR",
+        "US:WHR",
+        "Whirlpool Corporation"
       ]
     },
     "us:wmg": {
@@ -15345,6 +15778,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NASDAQ:WYFI",
         "WhiteFiber",
         "WhiteFiber, Inc."
+      ]
+    },
+    "us:xel": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "XEL",
+      "name": "Xcel Energy Inc.",
+      "industry_group": "公用事業／發電與輸配電",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-xel/",
+      "url": "stocks/us-xel/",
+      "aliases": [
+        "XEL",
+        "US:XEL",
+        "Xcel Energy"
       ]
     },
     "us:xom": {
