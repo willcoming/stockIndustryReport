@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-09T22:50:51.552303+00:00",
+  "generated_at": "2026-07-10T00:02:23.709431+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -1693,6 +1693,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "台灣積體電路製造",
         "TSMC",
         "TSM"
+      ]
+    },
+    "tw:2332": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2332",
+      "name": "友訊",
+      "industry_group": "低軌衛星 / 網通",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "tw-2332/2026-07-10/report.html",
+      "url": "stocks/tw-2332/",
+      "aliases": [
+        "2332",
+        "2332.TW",
+        "2332.TWO",
+        "TWSE:2332"
       ]
     },
     "tw:2337": {
@@ -4351,6 +4369,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "GeoVision Inc."
       ]
     },
+    "tw:3362": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3362",
+      "name": "先進光",
+      "industry_group": "光學",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "tw-3362/2026-07-10/report.html",
+      "url": "stocks/tw-3362/",
+      "aliases": [
+        "3362",
+        "3362.TW",
+        "3362.TWO",
+        "TWSE:3362"
+      ]
+    },
     "tw:3363": {
       "market": "tw",
       "exchange": "TPEx",
@@ -4533,6 +4569,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "TWSE:3481",
         "群創",
         "Innolux"
+      ]
+    },
+    "tw:3491": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3491",
+      "name": "昇達科",
+      "industry_group": "低軌衛星 / 網通",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "tw-3491/2026-07-10/report.html",
+      "url": "stocks/tw-3491/",
+      "aliases": [
+        "3491",
+        "3491.TW",
+        "3491.TWO",
+        "TWSE:3491"
       ]
     },
     "tw:3504": {
@@ -5327,6 +5381,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "正文科技",
         "Gemtek",
         "Gemtek Technology"
+      ]
+    },
+    "tw:4916": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "4916",
+      "name": "事欣科",
+      "industry_group": "低軌衛星 / 網通",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "觀察",
+      "latest_url": "tw-4916/2026-07-10/report.html",
+      "url": "stocks/tw-4916/",
+      "aliases": [
+        "4916",
+        "4916.TW",
+        "4916.TWO",
+        "TWSE:4916"
       ]
     },
     "tw:4931": {
@@ -6706,6 +6778,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Depo Auto Parts"
       ]
     },
+    "tw:6669": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "6669",
+      "name": "緯穎",
+      "industry_group": "AI 伺服器代工",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
+      "rating": "分批布局",
+      "latest_url": "tw-6669/2026-07-10/report.html",
+      "url": "stocks/tw-6669/",
+      "aliases": [
+        "6669",
+        "6669.TW",
+        "6669.TWO",
+        "TWSE:6669"
+      ]
+    },
     "tw:6719": {
       "market": "tw",
       "exchange": "TWSE",
@@ -7117,11 +7207,11 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "8046",
       "name": "南電",
-      "industry_group": "ABF 載板",
-      "latest_report_date": "2026-06-28",
-      "valid_until": "2026-07-06",
+      "industry_group": "載板",
+      "latest_report_date": "2026-07-10",
+      "valid_until": "2026-07-17",
       "rating": "觀察",
-      "latest_url": "stocks/tw-8046/",
+      "latest_url": "tw-8046/2026-07-10/report.html",
       "url": "stocks/tw-8046/",
       "aliases": [
         "8046",
