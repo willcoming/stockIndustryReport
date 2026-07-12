@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-10T23:11:53.930551+00:00",
+  "generated_at": "2026-07-12T23:52:36.145848+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -1553,6 +1553,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "2303.TW"
       ]
     },
+    "tw:2305": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2305",
+      "name": "全友",
+      "industry_group": "電腦及週邊設備(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-2305/2026-07-13/report.html",
+      "url": "stocks/tw-2305/",
+      "aliases": [
+        "2305",
+        "全友"
+      ]
+    },
     "tw:2308": {
       "market": "tw",
       "exchange": "TWSE",
@@ -2730,6 +2746,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "2465.TW"
       ]
     },
+    "tw:2467": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2467",
+      "name": "志聖",
+      "industry_group": "設備(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-2467/2026-07-13/report.html",
+      "url": "stocks/tw-2467/",
+      "aliases": [
+        "2467",
+        "志聖"
+      ]
+    },
     "tw:2472": {
       "market": "tw",
       "exchange": "TWSE",
@@ -2847,6 +2879,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "2492.TW",
         "2492.TWO",
         "TWSE:2492"
+      ]
+    },
+    "tw:2493": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2493",
+      "name": "揚博",
+      "industry_group": "設備(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-2493/2026-07-13/report.html",
+      "url": "stocks/tw-2493/",
+      "aliases": [
+        "2493",
+        "揚博"
       ]
     },
     "tw:2497": {
@@ -4081,6 +4129,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "TPEx:3081"
       ]
     },
+    "tw:3090": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3090",
+      "name": "日電貿",
+      "industry_group": "電子零組件(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-3090/2026-07-13/report.html",
+      "url": "stocks/tw-3090/",
+      "aliases": [
+        "3090",
+        "日電貿"
+      ]
+    },
     "tw:3105": {
       "market": "tw",
       "exchange": "TPEx",
@@ -4346,6 +4410,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "弘憶國際",
         "G.M.I",
         "GMI"
+      ]
+    },
+    "tw:3338": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3338",
+      "name": "泰碩",
+      "industry_group": "電子零組件(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "觀察",
+      "latest_url": "reports/stock-industry-research/tw-3338/2026-07-13/report.html",
+      "url": "stocks/tw-3338/",
+      "aliases": [
+        "3338",
+        "泰碩"
       ]
     },
     "tw:3356": {
@@ -4871,6 +4951,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "達邁",
         "達邁科技",
         "Taimide"
+      ]
+    },
+    "tw:3653": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3653",
+      "name": "健策",
+      "industry_group": "電子零組件(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-3653/2026-07-13/report.html",
+      "url": "stocks/tw-3653/",
+      "aliases": [
+        "3653",
+        "健策"
       ]
     },
     "tw:3661": {
@@ -5829,6 +5925,38 @@ window.STOCK_INDUSTRY_REPORTS = {
         "HannStar Board"
       ]
     },
+    "tw:5475": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "5475",
+      "name": "德宏",
+      "industry_group": "電子零組件(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-5475/2026-07-13/report.html",
+      "url": "stocks/tw-5475/",
+      "aliases": [
+        "5475",
+        "德宏"
+      ]
+    },
+    "tw:5483": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "5483",
+      "name": "中美晶",
+      "industry_group": "半導體(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "觀察",
+      "latest_url": "reports/stock-industry-research/tw-5483/2026-07-13/report.html",
+      "url": "stocks/tw-5483/",
+      "aliases": [
+        "5483",
+        "中美晶"
+      ]
+    },
     "tw:5484": {
       "market": "tw",
       "exchange": "TWSE",
@@ -6252,6 +6380,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Flytech Technology"
       ]
     },
+    "tw:6207": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "6207",
+      "name": "雷科",
+      "industry_group": "電子零組件(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-6207/2026-07-13/report.html",
+      "url": "stocks/tw-6207/",
+      "aliases": [
+        "6207",
+        "雷科"
+      ]
+    },
     "tw:6209": {
       "market": "tw",
       "exchange": "TWSE",
@@ -6309,6 +6453,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "精誠",
         "精誠資訊",
         "SYSTEX"
+      ]
+    },
+    "tw:6223": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "6223",
+      "name": "旺矽",
+      "industry_group": "半導體(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-6223/2026-07-13/report.html",
+      "url": "stocks/tw-6223/",
+      "aliases": [
+        "6223",
+        "旺矽"
       ]
     },
     "tw:6239": {
@@ -6370,6 +6530,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "同欣電子工業股份有限公司",
         "Tong Hsing Electronic Industries",
         "THEIL"
+      ]
+    },
+    "tw:6274": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "6274",
+      "name": "台燿",
+      "industry_group": "電子零組件(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "減碼/賣出",
+      "latest_url": "reports/stock-industry-research/tw-6274/2026-07-13/report.html",
+      "url": "stocks/tw-6274/",
+      "aliases": [
+        "6274",
+        "台燿"
       ]
     },
     "tw:6278": {
@@ -12934,6 +13110,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NYSE:NOK"
       ]
     },
+    "us:now": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "industry_group": "軟體(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "觀察",
+      "latest_url": "reports/stock-industry-research/us-now/2026-07-13/report.html",
+      "url": "stocks/us-now/",
+      "aliases": [
+        "NOW",
+        "ServiceNow"
+      ]
+    },
     "us:ntap": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -14515,6 +14707,22 @@ window.STOCK_INDUSTRY_REPORTS = {
         "US:SNDK",
         "SanDisk",
         "Sandisk Corporation"
+      ]
+    },
+    "us:snow": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "SNOW",
+      "name": "Snowflake",
+      "industry_group": "數據庫(推論)",
+      "latest_report_date": "2026-07-13",
+      "valid_until": "2026-07-20",
+      "rating": "觀察",
+      "latest_url": "reports/stock-industry-research/us-snow/2026-07-13/report.html",
+      "url": "stocks/us-snow/",
+      "aliases": [
+        "SNOW",
+        "Snowflake"
       ]
     },
     "us:sny": {
