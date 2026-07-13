@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6579 研揚 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 工業電腦與邊緣AI</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">6579 研揚</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-07-13</span>
+        <span class="meta-pill">有效至 2026-07-20</span>
+        <span class="meta-pill">評級 分批布局</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-07-13.html">2026-07-13</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>研揚（6579）反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li><strong>研究日期：</strong> 2026-07-13；<strong>有效期限：</strong> 2026-07-20。本報告為教育與研究用途，不保證報酬，也不是個人化投資建議。</li>
+<li><strong>公司識別：</strong> 研揚科技股份有限公司，TWSE：6579，英文簡稱 AAEON，財報幣別新台幣、曆年制；2011 年納入華碩集團，核心業務為工業電腦、嵌入式系統、醫療電腦、網路安全設備與邊緣 AI 平台。</li>
+<li><strong>最新股價日期：</strong> 2026-07-09 正式收盤 168.00 元；TWSE 同日 P/E 30.83 倍、P/B 2.73 倍、殖利率 2.23%。</li>
+<li><strong>最新財報期間：</strong> 2026Q1；月營收更新至 2026 年 6 月／上半年。</li>
+<li><strong>主要資料來源：</strong> <a href="https://openapi.twse.com.tw/v1/opendata/t187ap03_L">TWSE 公司基本資料</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap05_L">TWSE 月營收</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci">TWSE 綜合損益表</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci">TWSE 資產負債表</a>、<a href="https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL">TWSE 收盤</a>、<a href="https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL">TWSE 估值</a>、<a href="https://newdata.aaeon.com.tw/DOWNLOAD/prenentations/Annual_financial_statements_for_year_114.pdf">研揚 2025 年合併財報</a>、<a href="https://newdata.aaeon.com.tw/DOWNLOAD/prenentations/Consolidated_Financial_Report_for_the_First_Quarter_of_Year_115.pdf">研揚 2026Q1 合併財報</a>、<a href="https://www.aaeon.com/tw/article/list/aaeon-company-introduction">研揚公司簡介</a>、<a href="https://www.aaeon.com/tw/news/detail/embedded_world_2026_news_aaeon">研揚 2026 Embedded World 新聞</a>，以及來源報告 <code>reports/twStock/2026-07-13-1250_tw_kline_decision_report.md</code>。</li>
+<li><strong>資料衝突處理：</strong> 2025 年官方財報基本 EPS 為 7.72 元，但 2026-07-09 TWSE 顯示 P/E 30.83 倍，無法以 168／7.72 直接重現，可能涉及交易所計算口徑、加權股數與交互持股處理；本報告保留兩個官方數字並揭露差異，不自行改寫。來源盤中報告僅證明 LZEMA20 觸發。</li>
+<li><strong>資料缺口：</strong> Forward P/E、EV/EBITDA、FCF Yield、2026Q1 邊緣 AI 營收占比、前十大客戶、AAEON Technology 株式會社併表前的有機成長為 <code>需查證</code>。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li><strong>公司一句話介紹：</strong> 研揚是工業與嵌入式運算平台供應商，將 Intel、NVIDIA 等處理器轉化為可在工廠、交通、醫療、機器人與網路安全場景長期運作的硬體及軟體方案。</li>
+<li><strong>主要產業／位置：</strong> 工業電腦與 Edge AI 供應鏈中游設計製造／平台商，上游採購 CPU、GPU、記憶體與連接元件，下游服務 OEM、系統整合商與垂直產業客戶。</li>
+<li><strong>核心投資邏輯：</strong> 2025 營收 86.25 億元、年增 20.03%；2026Q1 營收年增 23.07%、營業利益年增 61.66%，6 月營收年增 47.10%，需求與本業槓桿強。</li>
+<li><strong>目前投資評級：分批布局。</strong> 邊緣 AI、機器人與工業運算長期趨勢明確，但 30.83 倍 TWSE P/E 已高於多數台灣 IPC 同業，且 Q1 EPS 的大幅成長含 3.70 億元營業外收益，不能把全部視為本業常態。</li>
+<li><strong>正面理由：</strong> 產品線廣、全球 12 國 17 個銷售據點、Intel 鈦金級會員與 NVIDIA Elite Partner、2026H1 營收年增 28.75%。</li>
+<li><strong>主要風險：</strong> 高估值、業外公允價值波動、存貨由 2024 年底 13.20 億增至 2025 年底 21.70 億、2026Q1 營業現金流淨流出 2.51 億元，以及新併子公司使月營收可比性下降。</li>
+<li><strong>追蹤指標：</strong> 有機月營收、毛利率、營益率、存貨天數、營業現金流、邊緣 AI 專案量產、業外占稅前利益比例。</li>
+<li><strong>代表同業：</strong> 台股研華（2395）、威強電（3022）、凌華（6166）、友通（2397）、樺漢（6414）、艾訊（3088）；美股可觀察 NVIDIA（NVDA）、Intel（INTC）、Dell（DELL）。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li><strong>主要產品／服務：</strong> 嵌入式單板、工業主機板、Box PC、工業觸控與平板、醫療電腦、網路安全設備、IoT 閘道器、UP 開發板與搭載 NVIDIA Jetson／GPU 的邊緣 AI 系統。</li>
+<li><strong>營收來源：</strong> 以硬體設計、製造與銷售為主，搭配 ODM 客製、BIOS／嵌入式軟體、量產與售後；2025 財報將主要產品線分為工業電腦與醫療電腦，詳細 2026 占比需查證。</li>
+<li><strong>主要客戶：</strong> 全球 OEM、設備商、系統整合商與交通、醫療、製造、零售、機器人客戶；前十大及單一客戶占比本輪未核實。</li>
+<li><strong>毛利／營益特性：</strong> 2025 毛利率約 33.43%，2026Q1 34.83%；Q1 營益率由 2025Q1 的 6.62% 升至 8.70%，顯示產品組合與營收規模帶來本業槓桿。</li>
+<li><strong>成長來源：</strong> 邊緣 AI 滲透、機器視覺／機器人、工業自動化換機、網路安全、醫療專案、新 CPU／GPU 平台與併購／併表。</li>
+<li><strong>景氣循環性：</strong> 中等。工業客戶專案週期較消費電子長，但半導體換代、資本支出、通路庫存與客戶認證時程仍造成季度波動。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li><strong>公司所屬產業：</strong> 工業電腦、嵌入式運算、IoT 與 Edge AI。</li>
+<li><strong>產業解決問題：</strong> 把通用處理器轉為耐溫、耐震、長供貨、可擴充、可認證並能在現場即時推論的專用運算平台。</li>
+<li><strong>需求來源：</strong> 智慧工廠、機器人、交通、醫療影像、零售自助、網路安全、能源、無人載具與公共基礎建設。</li>
+<li><strong>產業階段：</strong> 傳統 IPC 成熟，Edge AI 與實體 AI 處於成長期；兩者結合讓產品單價與軟體附加價值提升。</li>
+<li><strong>長期驅動：</strong> 雲端推論下沉、低延遲與資料隱私、缺工自動化、設備聯網、AI PC／GPU 算力升級及資安要求。</li>
+<li><strong>短期波動：</strong> 客戶庫存、晶片供應、GPU 平台轉換、新品認證、企業資本支出、匯率，以及 AI 題材估值壓縮。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游</td>
+<td>核心晶片／零件</td>
+<td>CPU、GPU、記憶體、連接與電源</td>
+<td>NVDA、INTC、AMD、MU</td>
+<td>台積電、聯發科、國巨</td>
+<td>關鍵平台高</td>
+<td>晶片商高、零件分化</td>
+<td>缺料、換代、出口管制</td>
+</tr>
+<tr>
+<td>中游</td>
+<td>IPC／Edge 平台</td>
+<td>板卡、系統、強固設備、ODM</td>
+<td>DELL（替代比較）</td>
+<td>研揚、研華、凌華、威強電、樺漢</td>
+<td>規格與認證帶來中等能力</td>
+<td>毛利約取決於軟硬整合</td>
+<td>存貨、價格、專案延遲</td>
+</tr>
+<tr>
+<td>平台軟體</td>
+<td>AI／IoT 工具鏈</td>
+<td>SDK、模型部署、設備管理</td>
+<td>MSFT、NVDA</td>
+<td>凌群、邁達特（通路／整合）</td>
+<td>生態系高</td>
+<td>軟體毛利較高</td>
+<td>平台綁定、資安</td>
+</tr>
+<tr>
+<td>下游</td>
+<td>系統整合／終端</td>
+<td>工廠、醫療、交通、機器人</td>
+<td>HON、ROK</td>
+<td>所羅門、盟立、三商電</td>
+<td>大型專案客戶中高</td>
+<td>專案差異大</td>
+<td>驗收、資本支出</td>
+</tr>
+</tbody>
+</table></div>
+<p>研揚位於中游運算平台層，能把上游晶片快速工程化並提供長生命週期與客製服務；真正最高定價權仍多在 GPU／CPU 生態與掌握終端應用資料的平台商。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li><strong>技術壁壘：</strong> 高速訊號、散熱、耐環境、電源、I/O 擴充、BIOS、驅動、AI 加速卡整合及垂直認證。</li>
+<li><strong>規模經濟：</strong> 共用板卡模組、供應鏈採購、全球服務與多產品線攤提研發；但 SKU 多會增加庫存複雜度。</li>
+<li><strong>客戶黏著度：</strong> 設備一旦完成認證，客戶偏好長期供貨與相容升級，黏著度高於一般 PC。</li>
+<li><strong>轉換成本：</strong> 機構、驅動、映像檔、安規與現場驗證重做，形成中高轉換成本。</li>
+<li><strong>品牌／通路：</strong> AAEON 全球據點、UP 生態與 Intel／NVIDIA 夥伴級別有助取得新品與開發者。</li>
+<li><strong>成本優勢：</strong> 華碩集團供應鏈與研揚規模有利採購；實際集團協同效益未單獨揭露，勿重複計值。</li>
+<li><strong>專利／資本門檻：</strong> 研發人員占比與產品認證形成門檻；公司稱研發投入約占營收 10%，財報 2026Q1 研發費用率約 9.03%。</li>
+<li><strong>替代性：</strong> 低價通用板卡可替代標準品，但醫療、強固、長供貨與客製平台較難快速切換。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th style="text-align:right">最新可驗證值</th>
+<th>變好／變壞代表什麼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2025 營收／成長</td>
+<td style="text-align:right">86.25 億元／+20.03%</td>
+<td>需求與出貨復甦，但需拆分有機與併購</td>
+</tr>
+<tr>
+<td>2025 毛利率</td>
+<td style="text-align:right">33.43%</td>
+<td>低於 2024 的約 35.88%，顯示組合仍有壓力</td>
+</tr>
+<tr>
+<td>2025 EPS</td>
+<td style="text-align:right">7.72 元</td>
+<td>官方年報口徑；與 TWSE P/E 顯示口徑有差異</td>
+</tr>
+<tr>
+<td>2026Q1 營收／成長</td>
+<td style="text-align:right">24.10 億元／+23.07%</td>
+<td>成長延續</td>
+</tr>
+<tr>
+<td>2026Q1 毛利率／營益率</td>
+<td style="text-align:right">34.83%／8.70%</td>
+<td>本業獲利品質改善</td>
+</tr>
+<tr>
+<td>2026Q1 EPS</td>
+<td style="text-align:right">3.81 元，YoY +84.1%</td>
+<td>含 3.70 億元營業外收益，不能全額年化</td>
+</tr>
+<tr>
+<td>2026H1 營收</td>
+<td style="text-align:right">52.28 億元，YoY +28.75%</td>
+<td>5 月起新增日本子公司併表，需拆有機成長</td>
+</tr>
+<tr>
+<td>2026 年 6 月營收</td>
+<td style="text-align:right">10.89 億元，YoY +47.10%</td>
+<td>強勁但併表效應需校正</td>
+</tr>
+<tr>
+<td>2026Q1 營業現金流</td>
+<td style="text-align:right">-2.51 億元</td>
+<td>應收、存貨與採購占用；轉正是重要驗證</td>
+</tr>
+<tr>
+<td>2025 年底存貨</td>
+<td style="text-align:right">21.70 億元，YoY +64.5%</td>
+<td>高於營收成長，陳舊與跌價風險上升</td>
+</tr>
+<tr>
+<td>Q1 每股淨值／負債比</td>
+<td style="text-align:right">61.64 元／22.94%</td>
+<td>財務結構穩健，但 P/B 已有成長溢價</td>
+</tr>
+<tr>
+<td>客戶集中／市占率</td>
+<td style="text-align:right">需查證</td>
+<td>判斷成長是否可持續與議價能力</td>
+</tr>
+</tbody>
+</table></div>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6579</td>
+<td>研揚</td>
+<td>台灣</td>
+<td>IPC／Edge 平台</td>
+<td>工業、醫療、Edge AI</td>
+<td>產品廣、全球據點、夥伴生態</td>
+<td>業外、存貨、高估值</td>
+<td>高</td>
+<td>中</td>
+<td>P/E 30.83 倍</td>
+</tr>
+<tr>
+<td>2395</td>
+<td>研華</td>
+<td>台灣</td>
+<td>IPC 龍頭／平台</td>
+<td>工業 IoT、Edge</td>
+<td>規模、品牌、通路</td>
+<td>高估值</td>
+<td>中高</td>
+<td>高</td>
+<td>P/E 41.89 倍</td>
+</tr>
+<tr>
+<td>3022</td>
+<td>威強電</td>
+<td>台灣</td>
+<td>IPC</td>
+<td>板卡、系統、醫療</td>
+<td>產品與投資資產</td>
+<td>本業利潤較薄</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 25.21 倍</td>
+</tr>
+<tr>
+<td>6166</td>
+<td>凌華</td>
+<td>台灣</td>
+<td>Edge／量測</td>
+<td>工業 AI、資料擷取</td>
+<td>技術、應用</td>
+<td>成長兌現</td>
+<td>高</td>
+<td>中</td>
+<td>P/E 37.26 倍</td>
+</tr>
+<tr>
+<td>2397</td>
+<td>友通</td>
+<td>台灣</td>
+<td>嵌入式板卡</td>
+<td>工業主機板</td>
+<td>垂直市場</td>
+<td>規模較小</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 25.22 倍</td>
+</tr>
+<tr>
+<td>6414</td>
+<td>樺漢</td>
+<td>台灣</td>
+<td>IPC／系統整合</td>
+<td>工業電腦與集團整合</td>
+<td>規模、通路</td>
+<td>組織複雜</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 18.31 倍</td>
+</tr>
+<tr>
+<td>NVDA</td>
+<td>NVIDIA</td>
+<td>美國</td>
+<td>上游平台</td>
+<td>GPU、Jetson、AI 軟體</td>
+<td>生態與算力</td>
+<td>出口、估值</td>
+<td>高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>INTC</td>
+<td>Intel</td>
+<td>美國</td>
+<td>上游平台</td>
+<td>x86、Edge 處理器</td>
+<td>生態、相容性</td>
+<td>製程與競爭</td>
+<td>中</td>
+<td>中低</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>DELL</td>
+<td>Dell</td>
+<td>美國</td>
+<td>系統平台</td>
+<td>企業／Edge 系統</td>
+<td>規模、通路</td>
+<td>標準化競爭</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th style="text-align:right">P/E</th>
+<th style="text-align:right">Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th style="text-align:right">P/S</th>
+<th style="text-align:right">EV/EBITDA</th>
+<th style="text-align:right">毛利率</th>
+<th style="text-align:right">營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>研揚</td>
+<td>6579</td>
+<td>台灣</td>
+<td style="text-align:right">30.83</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>台灣樣本中位偏高</td>
+<td style="text-align:right">約 3.30（以 2025 營收）</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">34.83%（26Q1）</td>
+<td style="text-align:right">+28.75%（26H1）</td>
+<td>成長合理化部分溢價</td>
+</tr>
+<tr>
+<td>研華</td>
+<td>2395</td>
+<td>台灣</td>
+<td style="text-align:right">41.89</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>龍頭高位</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">39.14%（26Q1）</td>
+<td style="text-align:right">需查證</td>
+<td>品牌／平台溢價</td>
+</tr>
+<tr>
+<td>威強電</td>
+<td>3022</td>
+<td>台灣</td>
+<td style="text-align:right">25.21</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>中位</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">28.15%（26Q1）</td>
+<td style="text-align:right">需查證</td>
+<td>本業利潤需看</td>
+</tr>
+<tr>
+<td>凌華</td>
+<td>6166</td>
+<td>台灣</td>
+<td style="text-align:right">37.26</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>偏高</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">37.55%（26Q1）</td>
+<td style="text-align:right">需查證</td>
+<td>AI 成長溢價</td>
+</tr>
+<tr>
+<td>友通</td>
+<td>2397</td>
+<td>台灣</td>
+<td style="text-align:right">25.22</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>中位</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">24.89%（26Q1）</td>
+<td style="text-align:right">需查證</td>
+<td>規模折價</td>
+</tr>
+<tr>
+<td>樺漢</td>
+<td>6414</td>
+<td>台灣</td>
+<td style="text-align:right">18.31</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>低位</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">20.11%（26Q1）</td>
+<td style="text-align:right">需查證</td>
+<td>集團複雜度折價</td>
+</tr>
+</tbody>
+</table></div>
+<p>估值日均為 2026-07-09。台灣 IPC 樣本 P/E 約 18.31-41.89 倍，研揚 30.83 倍位於中高段；其 Q1 本業成長支持溢價，但業外收益、存貨與負現金流削弱安全邊際。約 3.30 倍 P/S 以收盤市值除以 2025 營收計算，非資料商即時值。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>Edge AI／機器人量產、有機成長強</td>
+<td>CAGR 15%-22%</td>
+<td>營益率升至 10%-13%</td>
+<td>本業 EPS 雙位數成長</td>
+<td>P/E 30-40 倍</td>
+<td>成長消化估值、股價上行</td>
+<td>有機營收 &gt;15%、FCF 轉正、AI 占比升</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>IPC 復甦、AI 專案漸進量產</td>
+<td>CAGR 8%-14%</td>
+<td>營益率 8%-10%</td>
+<td>EPS 穩健成長但業外正常化</td>
+<td>P/E 24-32 倍</td>
+<td>報酬依賴盈餘成長</td>
+<td>毛利 33%-36%、庫存趨穩</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>客戶去庫存、AI 專案遞延、估值壓縮</td>
+<td>CAGR 0%-6%</td>
+<td>營益率降至 5%-8%</td>
+<td>EPS 回落</td>
+<td>P/E 16-22 倍</td>
+<td>盈餘與倍數雙降</td>
+<td>庫存續升、FCF 為負、營收轉弱</td>
+</tr>
+</tbody>
+</table></div>
+<p>樂觀情境看有機 AI 出貨與現金流；基準看毛利、營益率與併購整合；悲觀看庫存跌價、應收、業外反轉與估值壓縮。倍數是研究假設，不是保證目標價。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6579</td>
+<td>研揚</td>
+<td>分批布局</td>
+<td>能承受 IPC 與 AI 估值波動的中長期投資人</td>
+<td>營收、本業利潤與 Edge AI 趨勢向上</td>
+<td>30.83 倍 P/E、業外占比高、庫存與負現金流</td>
+<td>AI 平台量產與營益率提升</td>
+<td>有機營收、毛利、營益、存貨、FCF、業外占比</td>
+<td>FCF 轉正且本業 EPS 成長可上調；有機成長低於 8% 或毛利 &lt;32% 可下調</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li><strong>新手現在是否適合買入？</strong> 可理解為分批研究型布局，不適合因 AI 題材或單日技術觸發一次追價。</li>
+<li><strong>已持有者應如何做？</strong> 基本面仍支持續抱觀察；新增部位要看估值與本業現金流，不把 Q1 業外收益年化。</li>
+<li><strong>如果目前不追價，等什麼？</strong> 估值回到同業中位附近，或營業現金流轉正、存貨增速低於營收、有機營收仍雙位數。</li>
+<li><strong>上調訊號：</strong> Edge AI 量產、連兩季營益率逾 10%、FCF 轉正、存貨天數下降且本業 EPS 成長。</li>
+<li><strong>下調訊號：</strong> 毛利低於 32%、有機營收轉弱、存貨跌價、業外轉損或 P/E 在成長下修時仍高於 35 倍。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li><strong>核心穩健型：</strong> 可作成長型核心的候選，但業外與估值波動使其不等同防禦股。</li>
+<li><strong>成長型：</strong> 主要分類；Edge AI、機器人與工業自動化是核心驅動。</li>
+<li><strong>景氣循環型：</strong> 次要分類；客戶資本支出與庫存週期仍影響訂單。</li>
+<li><strong>高風險高報酬型：</strong> 在高估值階段部分屬於，尤其市場把 AI 出貨提前反映時。</li>
+<li><strong>只適合觀察、不適合輕易買進：</strong> 對無法承受 20%-30% 估值回撤的新手，應先觀察現金流與有機成長。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li><strong>估值過高：</strong> 30.83 倍 P/E 已要求雙位數本業成長，任何專案延遲都可能壓縮倍數。</li>
+<li><strong>景氣反轉：</strong> 工業資本支出、半導體設備與客戶庫存下行。</li>
+<li><strong>技術替代：</strong> 上游 SoC 高整合、雲端推論回流或客戶自研平台壓縮硬體價值。</li>
+<li><strong>競爭加劇：</strong> 研華、凌華、威強電、樺漢及中國 IPC 廠同時搶 Edge AI 專案。</li>
+<li><strong>政策／地緣：</strong> AI 晶片出口限制、供應鏈區域化、關稅與匯率。</li>
+<li><strong>客戶集中：</strong> 最新集中度缺資料；單一大案延遲可能影響季度營收。</li>
+<li><strong>財報警訊：</strong> 存貨增速過快、營業現金流為負、毛利下滑、業外占稅前利益過高、投資公允價值反轉。</li>
+<li><strong>反方觀點：</strong> 多方認為 Q1 本業利益增 61.66% 足以支持溢價；反方是 2025 毛利低於 2024，且 Q1 淨利增幅大半來自業外，現金尚未跟上帳面獲利。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li><strong>必讀財報：</strong> 2026Q2 產品／地區收入、存貨庫齡、跌價、應收、現金流、投資公允價值與併購附註。</li>
+<li><strong>法說重點：</strong> Edge AI 營收占比、Jetson／Intel 新平台量產、機器人專案、有機成長、日本子公司貢獻與毛利。</li>
+<li><strong>每季追蹤：</strong> 月營收、毛利、營益、存貨天數、營業現金流、研發費用率、業外占比。</li>
+<li><strong>產業資料：</strong> TWSE／MOPS、Intel／NVIDIA Edge 產品路線、研華與凌華法說、工業自動化資本支出。</li>
+<li><strong>競爭對手：</strong> 研華、凌華、威強電、友通、樺漢、艾訊。</li>
+<li><strong>初學者下一步：</strong> 研究 NVIDIA（上游平台）、研華（IPC 龍頭）、所羅門（下游機器視覺／整合），比較平台、硬體與應用的利潤分配。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>研揚是理解 IPC 如何轉向 Edge AI 與實體 AI 的好入口。</li>
+<li>產業長期值得追蹤，尤其機器人、機器視覺、醫療與低延遲現場推論。</li>
+<li>最重要投資邏輯是營收與本業營益同步加速；最大風險是高估值、存貨與業外收益品質。</li>
+<li>目前 30.83 倍 TWSE P/E 已反映相當成長預期，Q1 業外收益不能直接年化，安全邊際普通。</li>
+<li><strong>最終投資評級：分批布局。</strong> 優先研究有機 Edge AI 收入、庫存與 FCF，再追蹤上游運算平台與下游機器人／工業自動化應用。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

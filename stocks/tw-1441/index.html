@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1441 大東 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 紡織纖維</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">1441 大東</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-07-13</span>
+        <span class="meta-pill">有效至 2026-07-20</span>
+        <span class="meta-pill">評級 減碼</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-07-13.html">2026-07-13</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>大東/1441 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-07-13；有效期限至 2026-07-20。內容為教育與研究用途，不是個人化投資建議。</li>
+<li>公司身分：大東紡織股份有限公司，TWSE 1441，財報幣別新台幣、曆年制；TWSE 2026-07-12 基本資料列為紡織纖維業，已發行普通股 71,744,387 股。<a href="https://openapi.twse.com.tw/v1/opendata/t187ap03_L">TWSE 公司基本資料</a></li>
+<li>最新股價日期：TWSE 最新可驗證正式收盤為 2026-07-09，收盤 9.36 元；成交僅約 0.99 萬股，流動性很低。<a href="https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL">TWSE 日成交資訊</a></li>
+<li>最新財報期間：2026Q1；營收 289.127 百萬元、毛利率 1.42%、營業損失 32.285 百萬元、稅後淨損 44.777 百萬元、EPS -0.62 元。<a href="https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci">TWSE 綜合損益表</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap17_L">TWSE 營益分析</a></li>
+<li>最新營運資料：2026 年 6 月營收 90.177 百萬元、年減 39.89%；H1 累計 605.123 百萬元、年減 22.20%。<a href="https://openapi.twse.com.tw/v1/opendata/t187ap05_L">TWSE 月營收，出表日 2026-07-12</a></li>
+<li>主要來源：<a href="https://doc.twse.com.tw/server-java/t57sb01?co_id=1441&amp;colorchg=1&amp;kind=F&amp;step=9&amp;filename=2025_1441_20260604F04.pdf">大東 2025 年報（2026-06-04 上傳）</a>、<a href="https://www.tahtong.com.tw/web/content/7041?download=true&amp;unique=edb20fc9296d379c21984b4bfa81a252f436402d">大東 2025 合併財報</a>、TWSE/MOPS、<a href="https://mnscdn.moea.gov.tw/Mns/Populace/news/News.aspx?kind=1&amp;menu_id=40&amp;news_id=121719">經濟部 2026 紡織轉型政策</a>、本批來源報告 <code>reports/twStock/2026-07-13-1250_tw_kline_decision_report.md</code>。</li>
+<li>資料差異：2024 稅後獲利含資產處分等非本業因素，而 2024 營業仍虧損；歷史 P/E 因損益正負切換而失真，本報告以 P/B、營業利益、流動性與現金流為主。</li>
+<li>資料缺口：Forward P/E、EV/EBITDA、標準化 FCF Yield、品牌客戶集中度、產能利用率與訂單能見度需查證。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：大東是老牌紡織中游製造商，生產紗與針織布，2025 年布類收入占 72.88%、紗類占 27.12%，並在越南布局生產。</li>
+<li>所屬主要產業：紡織纖維中的紡紗、混紡/特殊紗與功能性針織布。</li>
+<li>產業鏈位置：中游紗線與布料，介於棉花/化纖原料及成衣代工/品牌之間。</li>
+<li>核心投資邏輯：公司試圖用特殊紗、環保材質、功能性布與越南產能改善產品組合；但 2026Q1 毛利率僅 1.42%、H1 營收年減 22.20%，轉型尚未反映在財務成果。</li>
+<li>目前投資評級：減碼。</li>
+<li>主要理由：持續本業虧損、流動比率低於 1 倍、負債比約 69%、股價高於每股淨值 58%；即使 P/S 低，也缺乏獲利與資產安全邊際。</li>
+<li>主要風險：原棉/化纖與能源成本、低價競爭、品牌訂單外移、越南營運、匯率、低成交量與持續融資需求。</li>
+<li>關鍵追蹤：月營收、毛利率能否 &gt;8%-10%、營益率轉正、營運現金流、流動比率、存貨/應收、越南產能稼動。</li>
+<li>代表同業：台股遠東新、南紡、力麗、集盛、儒鴻、聚陽；美股 Gildan、Nike、VF、Kontoor。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品：紡紗事業生產棉紗、混紡與特殊/環保紗；布品事業供應客製功能性針織布。</li>
+<li>2025 產品組合：布 1,104.136 百萬元（72.88%）、紗 410.869 百萬元（27.12%）。布品已是主要收入來源。</li>
+<li>主要客戶：半成品供應台灣、日本、歐美、中國與東協客戶，再由客戶製成成衣銷往全球；品牌名稱與集中度未完整揭露。</li>
+<li>毛利與營益：2025 全年毛利率 6.61%，營業損失 50.238 百萬元；2026Q1 毛利率再降至 1.42%、營益率 -11.17%，固定成本與低稼動率壓力大。</li>
+<li>成長來源：不是大宗紗量增，而是降低棉紗比重、提高混紡/特殊紗及功能布、擴大品牌客戶與越南供應鏈。</li>
+<li>景氣循環性：高。品牌庫存、原料、能源、匯率與產地關稅會同時影響訂單及毛利。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>產業解決的問題：把棉花、聚酯等纖維轉成具強度、手感、吸濕排汗、彈性與永續認證的紗線/布料，供成衣與品牌設計量產。</li>
+<li>需求來源：運動休閒、日常服飾、國際賽事商品與品牌補庫存；大東年報提出 2026 冬奧/FIFA 需求，但公司 H1 數據尚未驗證受惠。</li>
+<li>產業階段：大宗棉紡成熟且競爭激烈；機能、再生、低碳、可追溯布料仍是成長型細分市場。</li>
+<li>長期驅動：品牌永續規範、功能服飾、供應鏈分散至越南、AI/智慧製造提升良率。</li>
+<li>短期波動：品牌庫存、棉價、油價/化纖、電價、匯率與關稅。</li>
+<li>產業政策交叉驗證：經濟部 2026-01-27 指出紡織競爭關鍵是 AI、機聯網、智慧製造與永續循環；這支持轉型方向，但不保證個別公司能取得報酬。<a href="https://mnscdn.moea.gov.tw/Mns/Populace/news/News.aspx?kind=1&amp;menu_id=40&amp;news_id=121719">經濟部</a></li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游</td>
+<td>天然纖維</td>
+<td>原棉</td>
+<td>期貨/農業商</td>
+<td>無直接純標的</td>
+<td>商品化</td>
+<td>低且循環</td>
+<td>天候、棉價</td>
+</tr>
+<tr>
+<td>上游</td>
+<td>化學纖維</td>
+<td>聚酯、尼龍、再生料</td>
+<td>LYB</td>
+<td>1402、1409、1444</td>
+<td>規模廠中等</td>
+<td>石化循環</td>
+<td>油價、產能過剩</td>
+</tr>
+<tr>
+<td>中游</td>
+<td>紡紗</td>
+<td>棉紗、混紡、特殊紗</td>
+<td>GIL（垂直整合）</td>
+<td>1441、1440、1455</td>
+<td>低至中</td>
+<td>稼動率敏感</td>
+<td>低價競爭</td>
+</tr>
+<tr>
+<td>中游</td>
+<td>織布/染整</td>
+<td>功能性針織布</td>
+<td>GIL</td>
+<td>1441、1476</td>
+<td>差異化品較高</td>
+<td>技術/良率決定</td>
+<td>環保與水電成本</td>
+</tr>
+<tr>
+<td>下游</td>
+<td>成衣代工</td>
+<td>成衣製造與供應鏈管理</td>
+<td>GIL</td>
+<td>1477、1476</td>
+<td>中高</td>
+<td>較穩定</td>
+<td>工資、客戶集中</td>
+</tr>
+<tr>
+<td>終端</td>
+<td>品牌/零售</td>
+<td>設計、行銷、通路</td>
+<td>NKE、VFC、KTB</td>
+<td>9910</td>
+<td>高</td>
+<td>品牌毛利高</td>
+<td>消費與庫存</td>
+</tr>
+</tbody>
+</table></div>
+<p>大東位於中游，普通紗議價最低；功能布與客製共同開發才可能提高毛利。公司尚未證明高附加價值產品足以覆蓋固定成本，因此不宜把轉型方向當成既成護城河。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：混紡配方、機能整理、針織良率與客戶共同開發；普通紗技術門檻低。</li>
+<li>規模經濟：紡織設備固定成本高，稼動率是單位成本關鍵；大東規模小於遠東新等垂直整合廠。</li>
+<li>客戶黏著/轉換成本：品牌認證、顏色/手感與品質穩定可增加黏著，但客戶仍可跨國轉單。</li>
+<li>品牌/通路：屬 B2B 中游，沒有終端品牌溢價。</li>
+<li>成本優勢：越南產能可能享工資、產地與區域貿易優勢；但跨國管理、良率與資金成本是反向風險。</li>
+<li>專利/法規門檻：功能材料、回收認證與化學品管理形成中等門檻；大宗紗門檻低。</li>
+<li>可替代性：普通紗高、經認證客製功能布中等。公司必須以收入占比證明產品升級。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<ul>
+<li>營收：2026H1 年減 22.20%，6 月年減 39.89%，需求/出貨仍在惡化。</li>
+<li>毛利率：2025 年 6.61%，2026Q1 1.42%；若不能回到至少高個位數，營業損益難轉正。</li>
+<li>營益率：2026Q1 -11.17%，本業虧損是評級核心。</li>
+<li>EPS：2025 全年 -0.45 元；2026Q1 -0.62 元，單季虧損已超過去年全年每股虧損。</li>
+<li>自由現金流：公開現金流資料顯示 2026Q1 營業現金流 -72.124 百萬元、投資現金流 -3.275 百萬元，廣義 FCF 約 -75.399 百萬元；需以正式財報確認資本支出分類。<a href="https://info.technews.tw/company/51037304-%E5%A4%A7%E6%9D%B1%E7%B4%A1%E7%B9%94%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8">公開資料彙整（註明以 MOPS 為準）</a></li>
+<li>資本支出：越南擴廠與設備升級需以新增毛利/現金流驗證，不應只看產能。</li>
+<li>存貨週轉：需查證；棉價下跌或產品過季會造成跌價。</li>
+<li>訂單能見度：公司提及品牌客戶與賽事需求，但未量化訂單，需查證。</li>
+<li>客戶集中度/市占率：未完整揭露。</li>
+<li>產能利用率：需查證；低毛利與營收下滑暗示稼動不足，屬推論。</li>
+<li>財務安全：2026Q1 流動資產 673.599 百萬元、流動負債 687.889 百萬元，流動比率約 0.98；負債 950.008 百萬元、資產 1,375.598 百萬元，負債比約 69.1%；每股淨值 5.93 元。<a href="https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci">TWSE 資產負債表</a></li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1441</td>
+<td>大東</td>
+<td>台股</td>
+<td>紗/布中游</td>
+<td>特殊紗、針織布</td>
+<td>客製與越南布局</td>
+<td>虧損、財務壓力</td>
+<td>低</td>
+<td>低</td>
+<td>P/B 高於虧損同業</td>
+</tr>
+<tr>
+<td>1402</td>
+<td>遠東新</td>
+<td>台股</td>
+<td>上游至下游整合</td>
+<td>聚酯、紡織、資產</td>
+<td>規模、垂直整合</td>
+<td>石化/資本配置</td>
+<td>中</td>
+<td>中高</td>
+<td>P/B 0.62x</td>
+</tr>
+<tr>
+<td>1409</td>
+<td>新纖</td>
+<td>台股</td>
+<td>化纖上游</td>
+<td>聚酯纖維/材料</td>
+<td>材料規模</td>
+<td>石化循環</td>
+<td>中</td>
+<td>中</td>
+<td>P/E 19.67x</td>
+</tr>
+<tr>
+<td>1440</td>
+<td>南紡</td>
+<td>台股</td>
+<td>紡紗/資產</td>
+<td>棉紡、零售/資產</td>
+<td>土地與規模</td>
+<td>本業循環</td>
+<td>低</td>
+<td>低中</td>
+<td>P/E 不適用</td>
+</tr>
+<tr>
+<td>1444</td>
+<td>力麗</td>
+<td>台股</td>
+<td>化纖/織布</td>
+<td>聚酯、尼龍</td>
+<td>垂直整合</td>
+<td>虧損週期</td>
+<td>低</td>
+<td>低</td>
+<td>P/E 不適用</td>
+</tr>
+<tr>
+<td>1455</td>
+<td>集盛</td>
+<td>台股</td>
+<td>化纖</td>
+<td>尼龍粒/絲</td>
+<td>規模</td>
+<td>供過於求</td>
+<td>低</td>
+<td>低</td>
+<td>P/E 不適用</td>
+</tr>
+<tr>
+<td>1476</td>
+<td>儒鴻</td>
+<td>台股</td>
+<td>布/成衣</td>
+<td>機能布與成衣</td>
+<td>品牌客戶、開發力</td>
+<td>客戶集中</td>
+<td>中高</td>
+<td>高</td>
+<td>P/E 16.21x</td>
+</tr>
+<tr>
+<td>1477</td>
+<td>聚陽</td>
+<td>台股</td>
+<td>成衣下游</td>
+<td>成衣供應鏈</td>
+<td>多產地、快反</td>
+<td>工資/客戶</td>
+<td>中高</td>
+<td>高</td>
+<td>P/E 16.06x</td>
+</tr>
+<tr>
+<td>GIL</td>
+<td>Gildan</td>
+<td>美股</td>
+<td>垂直整合成衣</td>
+<td>基礎服飾</td>
+<td>低成本與品牌</td>
+<td>棉價/消費</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>NKE</td>
+<td>Nike</td>
+<td>美股</td>
+<td>終端品牌</td>
+<td>運動品牌</td>
+<td>品牌與通路</td>
+<td>庫存/競爭</td>
+<td>中</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大東</td>
+<td>1441</td>
+<td>台股</td>
+<td>不適用</td>
+<td>不適用</td>
+<td>2022-2026 僅 242 個正 EPS 日；4.47-200x，無代表性</td>
+<td>應改看 P/B</td>
+<td>約 0.44x</td>
+<td>需查證</td>
+<td>1.42%</td>
+<td>2026H1 -22.20%</td>
+<td>P/S 低但 P/B 1.58x 偏高</td>
+</tr>
+<tr>
+<td>遠東新</td>
+<td>1402</td>
+<td>台股</td>
+<td>17.05x</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>獲利大型股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 0.62x</td>
+</tr>
+<tr>
+<td>新纖</td>
+<td>1409</td>
+<td>台股</td>
+<td>19.67x</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中位</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 1.02x</td>
+</tr>
+<tr>
+<td>南紡</td>
+<td>1440</td>
+<td>台股</td>
+<td>不適用</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>虧損期</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 0.80x</td>
+</tr>
+<tr>
+<td>力麗</td>
+<td>1444</td>
+<td>台股</td>
+<td>不適用</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>虧損期</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 0.84x</td>
+</tr>
+<tr>
+<td>儒鴻</td>
+<td>1476</td>
+<td>台股</td>
+<td>16.21x</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>品質溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 3.34x 有獲利支撐</td>
+</tr>
+<tr>
+<td>聚陽</td>
+<td>1477</td>
+<td>台股</td>
+<td>16.06x</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>品質溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 4.22x 有獲利支撐</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>估值日期：2026-07-09。<a href="https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL">TWSE P/E、殖利率、P/B</a></li>
+<li>大東市值以 71,744,387 股乘 9.36 元估約 6.72 億元；以 2025 營收 15.15 億元估 P/S 約 0.44x。</li>
+<li>收盤 9.36 元相對每股淨值 5.93 元為 P/B 1.58x。虧損中的南紡/力麗 P/B 僅約 0.80/0.84x；大東反而溢價，缺乏相對安全邊際。</li>
+<li>Forward P/E、EV/EBITDA 與 FCF Yield：因虧損及公開一致預估不足，列不適用/需查證。</li>
+</ul>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>功能布/特殊紗放量、越南稼動提升</td>
+<td>CAGR 5%-8%</td>
+<td>毛利 &gt;10%、營益率 2%-4%</td>
+<td>轉虧為盈</td>
+<td>P/B 0.9-1.2x</td>
+<td>財務壓力緩解</td>
+<td>連 2 季毛利 &gt;10%、OCF 轉正</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>訂單止跌但價格競爭延續</td>
+<td>CAGR -3%-2%</td>
+<td>毛利 5%-8%、營業損益近損平</td>
+<td>小虧/損平</td>
+<td>P/B 0.6-0.9x</td>
+<td>仍有估值下修壓力</td>
+<td>H2 跌幅收斂、流動比率 &gt;1</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>訂單外移、棉/能源成本無法轉嫁</td>
+<td>CAGR -8% 至 -4%</td>
+<td>毛利 &lt;5%、持續營業虧損</td>
+<td>虧損擴大、淨值下降</td>
+<td>P/B 0.4-0.6x</td>
+<td>再融資/減損風險</td>
+<td>營收雙位數衰退、OCF 負、淨值續降</td>
+</tr>
+</tbody>
+</table></div>
+<p>情境不是公司財測。樂觀看特殊紗/布占比、稼動與 OCF；基準看毛利與流動比率；悲觀看銀行融資、存貨跌價、資產減損與淨值變化。</p>
+<h2>10. 投資建議：減碼</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1441</td>
+<td>大東</td>
+<td>減碼</td>
+<td>僅適合能承受重整/低流動性風險者</td>
+<td>財務與本業風險高，先降低曝險</td>
+<td>H1 -22.2%、Q1 毛利 1.42%、流動比 &lt;1、P/B 1.58x</td>
+<td>特殊紗/功能布與越南轉機</td>
+<td>毛利、營益率、OCF、流動比、淨值</td>
+<td>連 2 季本業與 OCF 轉正可上調；淨值/流動性惡化則維持減碼</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li>新手現在是否適合買入？不適合。技術觸發不能抵消持續本業虧損、負現金流與財務壓力。</li>
+<li>已持有應如何？研究評級為減碼；實際動作仍需依個人成本、稅務與風險承受度決定，本報告不提供個人化指令。</li>
+<li>應等什麼？至少等毛利率連兩季 &gt;8%-10%、營業利益與 OCF 轉正、流動比率回到 1 以上。</li>
+<li>上調訊號：月營收轉正、毛利率 &gt;10%、營益轉正、越南稼動改善、淨負債下降。</li>
+<li>下調訊號：營收持續 -20% 以上、毛利接近零、OCF 負、淨值下降或需再融資。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：遠東新較接近；大東不屬此類。</li>
+<li>成長型：儒鴻/聚陽以客戶與獲利證明成長；大東只有轉型計畫，尚無財務證據。</li>
+<li>景氣循環型：大東屬高循環中游製造。</li>
+<li>高風險高報酬型：大東同時具轉機、財務與低流動性風險，可歸此類但不代表報酬對稱。</li>
+<li>只適合觀察、不適合輕易買進：在營業與 OCF 轉正前，大東應列此層。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值：低 P/S 是虧損製造業常見現象；P/B 1.58x 反而高於多數虧損同業。</li>
+<li>景氣：品牌去庫存、消費放緩與賽事需求落空會壓低稼動。</li>
+<li>技術替代：產品若停留普通棉紗，會被低成本產地取代；機能與回收材料需持續研發認證。</li>
+<li>競爭：中國、越南與其他 ASEAN 產能具成本/關稅優勢；台灣大型廠有規模與垂直整合。</li>
+<li>政策/地緣：原產地規則、關稅、化學品與碳法規提高管理成本。</li>
+<li>客戶集中：品牌名單與集中度未完整揭露，單一訂單變動風險需查證。</li>
+<li>財報警訊：毛利率接近零、流動比低於 1、營運現金流負、資產處分支撐損益、存貨跌價、借款上升。</li>
+<li>反方觀點：2025 毛利已由 2024 的負值改善至 6.61%，代表轉型並非完全失敗；但 2026Q1 再惡化，反而提高「改善不可持續」的證據權重。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀：2026Q2 財報、2025 年報越南子公司/借款/存貨/資產處分附註。</li>
+<li>法說重點：Q1 毛利崩落原因、各廠稼動、特殊紗與功能布收入、品牌訂單與融資條件。</li>
+<li>每季追蹤：營收、毛利率、營益率、EPS、OCF、存貨、應收、流動比率與每股淨值。</li>
+<li>產業來源：TWSE/MOPS、經濟部紡織政策與生產統計、品牌/同業財報。</li>
+<li>競爭名單：遠東新、南紡、力麗、集盛、儒鴻、聚陽、Gildan。</li>
+<li>初學者下一步研究 3 家：遠東新（垂直整合）、儒鴻（功能布/成衣高毛利）、聚陽（下游供應鏈管理）。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>大東可作為理解紡織中游困境與轉型的案例，但不是目前最好的產業核心入口。</li>
+<li>紡織產業中的功能、永續與供應鏈多元化值得長期追蹤；大宗紗線則高度成熟且競爭。</li>
+<li>最重要邏輯：特殊紗/功能布與越南布局能否讓毛利、營業利益與現金流同時轉正。</li>
+<li>最大風險：收入快速萎縮、本業虧損、流動比低於 1，且股價仍高於淨值。</li>
+<li>估值判斷：P/S 0.44x 看似低，但 P/B 1.58x 高於虧損同業；成長預期尚未被財報證明。</li>
+<li>最終投資評級：減碼。財務與本業風險支持降低曝險，但轉型機會尚未完全消失；只有連續兩季本業及 OCF 改善、財務安全回升，才考慮上調為觀察。</li>
+<li>優先研究：品牌訂單、功能產品占比、越南稼動、營運資金、銀行借款與資產減損風險。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

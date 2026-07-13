@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6533 晶心科 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 半導體業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">6533 晶心科</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-07-13</span>
+        <span class="meta-pill">有效至 2026-07-20</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-07-13.html">2026-07-13</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>晶心科（6533）反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li><strong>研究日期／有效期限：</strong> 2026-07-13／2026-07-20。本報告提供研究協助與情境分析，不構成個人化投資建議或報酬保證。</li>
+<li><strong>最新股價日期：</strong> 2026-07-09，TWSE 收盤 191.50 元；P/B 2.23 倍。當日 P/E、殖利率欄位無值，因近期獲利為負，不以不適用的 P/E 替代。</li>
+<li><strong>最新財報期間：</strong> 2026Q1；月營收更新至 2026 年 6 月。</li>
+<li><strong>主要資料來源：</strong> <a href="https://openapi.twse.com.tw/v1/opendata/t187ap03_L">TWSE 公司基本資料</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap05_L">月營收</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci">綜合損益表</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci">資產負債表</a>、<a href="https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL">日成交</a>、<a href="https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL">估值</a>、<a href="https://www.andestech.com/tw/">晶心官網</a>、<a href="https://www.andestech.com/tw/markets-overview-tw/">RISC-V 市場與產品概覽</a>、<a href="https://www.andestech.com/wp-content/uploads/113%E5%B9%B4%E5%A0%B1-v1.0-%E4%B8%8A%E5%82%B3%E5%90%88%E4%BD%B5%E7%89%88-%E4%BF%9D%E5%85%A8.pdf">113 年年報</a>，及來源 K 線報告 <code>reports/twStock/2026-07-13_tw_kline_decision_report.md</code>。</li>
+<li><strong>資料缺口：</strong> 2026Q2 細項、客戶集中度、授權與權利金各自占比、在手案、Forward P/E、P/S、EV/EBITDA、FCF Yield、可比公司即時倍數為 <code>需查證</code>。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li><strong>公司一句話介紹：</strong> 晶心科為 32/64 位元嵌入式處理器 IP 與 SoC 設計平台公司，主力是 AndesCore RISC-V CPU IP、開發工具及客製化服務。</li>
+<li><strong>產業／位置：</strong> 半導體 IP 供應鏈中游，將 CPU 核心／工具授權給 IC 設計與系統公司，最終應用在 AI、車用、網通、儲存、IoT 和消費電子。</li>
+<li><strong>核心投資邏輯：</strong> IP 授權具有高毛利、遞延權利金與生態系效應；但 2026Q1 仍虧損 EPS -3.28 元，6 月營收因 IP 授權年增 247.0%，反映收入認列高度集中，不能只以單月判定獲利反轉。</li>
+<li><strong>目前投資評級：觀察。</strong> RISC-V 長期滲透與公司技術地位值得追蹤，但虧損、營收認列波動與估值無 P/E 錨點，須先看到連續的本業改善。</li>
+<li><strong>主要風險：</strong> 授權／權利金集中與認列時點、RISC-V 生態競爭、研發費用、客戶產品量產延遲，以及可轉換性金融負債／資本結構的理解風險。</li>
+<li><strong>追蹤指標：</strong> 新授權與量產權利金、季度營收與營益率、研發費用率、現金流、主要客戶／應用分布、AndesCore SoC 累積出貨與生態合作進度。</li>
+<li><strong>代表同業：</strong> 台股 M31（6643）、力旺（3529）、創意（3443）、世芯-KY（3661）；美股 Synopsys（SNPS）、Cadence（CDNS）、Arm（ARM）、CEVA（CEVA）。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li><strong>主要產品／服務：</strong> CPU IP 軟核／硬核授權、AndeSight 開發工具、平台與技術服務，並在客戶晶片量產後收取權利金；年報對兩類授權機制與維護服務有說明。</li>
+<li><strong>客戶：</strong> IC 設計、SoC、嵌入式系統與平台公司。客戶名稱、前五大占比和個別合約金額並非本研究可驗證公開資料，均標示 <code>需查證</code>。</li>
+<li><strong>毛利／營益特性：</strong> 2026Q1 營收 3.264 億元、毛利率約 99.9%，但研發與營業費用 5.289 億元，使營業損失約 2.030 億元；這是典型 IP 公司的高毛利、重研發模型。</li>
+<li><strong>成長來源：</strong> RISC-V 滲透、AI／向量／車規安全核心、客製擴充、開發工具和客戶量產權利金。</li>
+<li><strong>循環性：</strong> 授權簽約和客戶量產節點會造成季度跳動，半導體資本支出與設計活動景氣亦會影響新案。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li><strong>產業功能：</strong> 將 CPU 核心、軟體工具與技術支援標準化，讓客戶能更快完成 SoC，且可依應用做客製化擴充。</li>
+<li><strong>需求來源：</strong> AI 邊緣運算、車用電子、工控、儲存、網通、IoT、消費電子與資料中心等 SoC 設計活動。</li>
+<li><strong>產業階段：</strong> 處理器 IP 是成熟且高門檻產業；RISC-V 開放指令集和 AI／車用需求仍是成長階段，但生態成熟度與商業化速度不一。</li>
+<li><strong>長期／短期驅動：</strong> 長期取決於 RISC-V 生態、客製指令與軟體工具；短期則受客戶簽約、設計定案、tape-out 與量產權利金認列影響。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游</td>
+<td>ISA／EDA／晶圓生態</td>
+<td>RISC-V 標準、EDA、製程</td>
+<td>SNPS、CDNS</td>
+<td>台積電、智原</td>
+<td>標準／工具重要</td>
+<td>授權與服務高毛利</td>
+<td>相容性、工具鎖定</td>
+</tr>
+<tr>
+<td>中游</td>
+<td>CPU／IP</td>
+<td>CPU、向量、DSP、工具</td>
+<td>ARM、CEVA</td>
+<td><strong>晶心科</strong>、M31、力旺</td>
+<td>技術與生態決定</td>
+<td>高毛利、研發密集</td>
+<td>授權週期、競爭</td>
+</tr>
+<tr>
+<td>下游</td>
+<td>SoC 設計／服務</td>
+<td>ASIC、MCU、網通／AI 晶片</td>
+<td>AVGO、MRVL</td>
+<td>創意、世芯-KY</td>
+<td>客戶規模高</td>
+<td>專案型</td>
+<td>tape-out 延後</td>
+</tr>
+<tr>
+<td>終端</td>
+<td>系統／設備</td>
+<td>車用、AI、IoT、網通</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>應用需求驅動</td>
+<td>依產品不同</td>
+<td>終端景氣與標準</td>
+</tr>
+</tbody>
+</table></div>
+<p>晶心科在中游提供處理器 IP 與開發平台；其關鍵位置是讓客戶採用 RISC-V 後仍能取得商用等級 CPU、工具與支援，而非單純販售晶片。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li><strong>技術壁壘：</strong> 官方資料顯示其提供可配置 32/64 位元核心，涵蓋 DSP、FPU、向量、超純量與多核心；CPU 驗證、軟體相容和客戶支援需長期投入。</li>
+<li><strong>生態與黏著：</strong> AndesCore、AndeSight 與合作夥伴形成設計流程黏著；官方於 2023 年底統計 CPU IP 授權逾 300 個、累積 SoC 出貨逾 140 億顆，後續數字與計算口徑需查證。</li>
+<li><strong>轉換成本：</strong> 客戶完成 CPU 選型、SoC 整合、軟硬體驗證後轉換有成本，但 RISC-V 的開放性也降低指令集本身的鎖定，競爭優勢須來自核心品質、工具和服務。</li>
+<li><strong>替代性：</strong> ARM、Synopsys、Cadence、CEVA 與其他 RISC-V 供應商皆可競爭；大客戶自行設計核心亦是風險。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th style="text-align:right">最新可驗證值</th>
+<th>解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026Q1 營收</td>
+<td style="text-align:right">3.264 億元</td>
+<td>授權／服務收入基礎</td>
+</tr>
+<tr>
+<td>Q1 毛利率</td>
+<td style="text-align:right">約 99.9%</td>
+<td>IP 模型毛利高，不等於營業獲利</td>
+</tr>
+<tr>
+<td>Q1 營業損失／EPS</td>
+<td style="text-align:right">-2.030 億元／-3.28 元</td>
+<td>研發費用仍超過營收</td>
+</tr>
+<tr>
+<td>2026H1 營收</td>
+<td style="text-align:right">8.926 億元，年增 62.07%</td>
+<td>成長顯著但月度波動大</td>
+</tr>
+<tr>
+<td>6 月營收</td>
+<td style="text-align:right">3.722 億元，年增 247.04%</td>
+<td>公司註記主因為矽智財授權收入增加</td>
+</tr>
+<tr>
+<td>Q1 每股淨值／負債比</td>
+<td style="text-align:right">85.91 元／約 28.8%</td>
+<td>負債含非流動項，需讀附註理解</td>
+</tr>
+<tr>
+<td>7/9 P/B</td>
+<td style="text-align:right">2.23 倍</td>
+<td>虧損期間可作資本基礎參考，非完整估值</td>
+</tr>
+<tr>
+<td>FCF、權利金、客戶集中</td>
+<td style="text-align:right">需查證</td>
+<td>是判斷可持續性的必要資料</td>
+</tr>
+</tbody>
+</table></div>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6533</td>
+<td>晶心科</td>
+<td>台灣</td>
+<td>CPU IP</td>
+<td>RISC-V CPU、工具</td>
+<td>RISC-V 專注與客製</td>
+<td>獲利波動</td>
+<td>高</td>
+<td>低中</td>
+<td>P/E 不適用</td>
+</tr>
+<tr>
+<td>6643</td>
+<td>M31</td>
+<td>台灣</td>
+<td>IP</td>
+<td>高速介面 IP</td>
+<td>製程／客戶布局</td>
+<td>授權週期</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3529</td>
+<td>力旺</td>
+<td>台灣</td>
+<td>IP</td>
+<td>嵌入式記憶體 IP</td>
+<td>技術／權利金</td>
+<td>設計週期</td>
+<td>中高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3443</td>
+<td>創意</td>
+<td>台灣</td>
+<td>ASIC</td>
+<td>SoC 設計服務</td>
+<td>台積電生態</td>
+<td>專案集中</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3661</td>
+<td>世芯-KY</td>
+<td>台灣</td>
+<td>ASIC</td>
+<td>高階客製晶片</td>
+<td>設計服務</td>
+<td>大客戶／專案</td>
+<td>高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>ARM</td>
+<td>Arm</td>
+<td>美國</td>
+<td>CPU IP</td>
+<td>Arm 架構與核心</td>
+<td>生態規模</td>
+<td>高估值、授權循環</td>
+<td>中高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>SNPS</td>
+<td>Synopsys</td>
+<td>美國</td>
+<td>EDA／IP</td>
+<td>EDA 與 IP</td>
+<td>工具鎖定</td>
+<td>監管／景氣</td>
+<td>中高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>CDNS</td>
+<td>Cadence</td>
+<td>美國</td>
+<td>EDA／IP</td>
+<td>EDA、設計 IP</td>
+<td>軟體生態</td>
+<td>客戶 CAPEX</td>
+<td>中高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>CEVA</td>
+<td>CEVA</td>
+<td>美國</td>
+<td>IP</td>
+<td>DSP／無線 IP</td>
+<td>利基技術</td>
+<td>小型客戶波動</td>
+<td>中</td>
+<td>中低</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th style="text-align:right">P/E</th>
+<th style="text-align:right">Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th style="text-align:right">P/S</th>
+<th style="text-align:right">EV/EBITDA</th>
+<th style="text-align:right">毛利率</th>
+<th style="text-align:right">營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>晶心科</td>
+<td>6533</td>
+<td>台灣</td>
+<td style="text-align:right">不適用</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>P/B 2.23 倍</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">不適用</td>
+<td style="text-align:right">99.9% Q1</td>
+<td style="text-align:right">H1 +62.07%</td>
+<td>需待轉盈驗證</td>
+</tr>
+<tr>
+<td>M31</td>
+<td>6643</td>
+<td>台灣</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>IP 參考</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>力旺</td>
+<td>3529</td>
+<td>台灣</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>權利金 IP 參考</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>Arm</td>
+<td>ARM</td>
+<td>美國</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>CPU IP 生態參考</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>CEVA</td>
+<td>CEVA</td>
+<td>美國</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>利基 IP 參考</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<p>晶心科目前虧損，P/E 與 EV/EBITDA 不適合作為主判準；應優先看現金流、淨現金／負債附註、可重複的權利金、授權管線與轉盈時間。本表不混用不同日期的第三方估值。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀</td>
+<td>AI／車用／高階 RISC-V 授權與量產權利金擴大</td>
+<td>高成長</td>
+<td>費用率下降</td>
+<td>轉盈並擴張</td>
+<td>P/S／現金流需查證</td>
+<td>成長重估</td>
+<td>授權連續、權利金提高、營益轉正</td>
+</tr>
+<tr>
+<td>基準</td>
+<td>授權成長但認列波動，持續研發</td>
+<td>中高</td>
+<td>漸進改善</td>
+<td>虧損縮小</td>
+<td>需查證</td>
+<td>區間震盪</td>
+<td>新案與費用控制平衡</td>
+</tr>
+<tr>
+<td>悲觀</td>
+<td>客戶 tape-out／量產延後、競爭變強</td>
+<td>低或負</td>
+<td>費用壓力</td>
+<td>虧損延長</td>
+<td>不適用</td>
+<td>資本與估值壓力</td>
+<td>授權下滑、現金流惡化</td>
+</tr>
+</tbody>
+</table></div>
+<p>要確認樂觀情境，至少要同時看到授權／權利金的可重複增長、營業費用率下降與正向營運現金流，單月大額授權不足以證明。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6533</td>
+<td>晶心科</td>
+<td>觀察</td>
+<td>能理解 IP 收入認列與高波動者</td>
+<td>RISC-V 技術與生態位置</td>
+<td>Q1 虧損、P/E 不適用</td>
+<td>AI／車用 RISC-V</td>
+<td>授權、權利金、營益、現金流</td>
+<td>連續轉盈可上調；營收波動或現金流惡化可下調</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li><strong>新手：</strong> 不宜以 6 月營收跳升或 K 線訊號直接判定可買；先理解授權與權利金差別。</li>
+<li><strong>既有持有者：</strong> 應聚焦季度轉盈路徑與現金流，並以自身風險限制處理波動。</li>
+<li><strong>等待條件：</strong> 連續季度本業虧損收斂、授權／權利金可重複、現金流改善。</li>
+<li><strong>上調訊號：</strong> 高階核心 design win 量產、營收與營益率連續改善、客戶／應用更分散。</li>
+<li><strong>下調訊號：</strong> 授權認列回落、研發費用擴張卻無新案、客戶量產延遲。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li><strong>核心穩健型：</strong> 具較成熟權利金與獲利紀錄的 IP／EDA 公司可作基準，實際估值仍須查證。</li>
+<li><strong>成長型：</strong> 晶心科屬 RISC-V、AI 與車用成長型，但回報取決於設計導入能否量產。</li>
+<li><strong>景氣循環型：</strong> 客戶 SoC 設計活動與半導體 CAPEX 會影響新授權。</li>
+<li><strong>高風險高報酬型：</strong> 收入認列波動、先行研發投資與轉盈不確定使其符合此類。</li>
+<li><strong>只適合觀察：</strong> 對虧損公司估值與 IP 商業模式不熟悉者，現階段宜觀察。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>RISC-V 成長不等於所有 IP 供應商都能取得定價權；開放 ISA 也可能增加競爭。</li>
+<li>高毛利不能掩蓋營業費用和虧損，轉盈的時間與幅度是估值核心。</li>
+<li>單月授權收入可能高度集中，客戶量產延後會造成季度大幅變動。</li>
+<li>大型 EDA／IP 業者、Arm 與客戶內製能力可能壓縮差異化；車用／AI 認證期亦較長。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀：Q2 財報與法說、最新年報附註；拆解授權、權利金、維護服務、客戶集中與合約負債。</li>
+<li>法說重點：各 CPU 系列在 AI／車用／網通的 design win、tape-out、量產時程與研發人力。</li>
+<li>每季追蹤：月營收、毛利／營益率、營運現金流、現金與非流動負債、授權／權利金敘述。</li>
+<li>產業來源：RISC-V International、生態夥伴公開資料、客戶 SoC 發表、TWSE／MOPS。</li>
+<li>初學者下一步：比較 M31（6643）、力旺（3529）、Arm（ARM）與 CEVA（CEVA）。</li>
+</ul>
+<h2>14. 結論</h2>
+<p>晶心科是理解 RISC-V 商用 CPU IP 與台灣 IP 生態的好入口。官方資料展現其核心、工具與合作生態，且 2026H1 營收明顯成長；但是 Q1 仍為營業虧損，6 月的授權拉升尚須用連續季度和現金流驗證。因此最終評級為 <strong>觀察</strong>。最重要的研究不是單看高毛利或題材，而是追蹤授權能否轉化為可重複權利金、營業獲利與健康現金流。</p>
+</article></main></div>
+</body>
+</html>
