@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-13T09:52:33.785870+00:00",
+  "generated_at": "2026-07-13T12:41:16.941114+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
