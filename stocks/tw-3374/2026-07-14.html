@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3374 精材 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 封測</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">3374 精材</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-07-14</span>
+        <span class="meta-pill">有效至 2026-07-21</span>
+        <span class="meta-pill">評級 分批布局</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-07-14.html">2026-07-14</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>精材 3374 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-07-14；有效至 2026-07-21，屬研究協助與情境分析，不是個人化投資建議。</li>
+<li>最新股價日期：2026-07-13；TPEX 上櫃日收盤資料顯示 3374 精材收盤價 358.00 元、成交股數 28,570,729 股。</li>
+<li>最新財報期間：2026 年第一季；公司官網提供 2026 Q1 財務報告，最新公開月營收資料為 2026 年 6 月。</li>
+<li>使用的主要資料來源：精材科技官方年報與財務報表頁、TPEX 上櫃日收盤行情、MOPS 財務報告入口、Yahoo/公開財經頁月營收輔助資料、來源篩選報告。</li>
+<li>是否有資料缺口：有；TPEX 月營收 OpenAPI 本次未回傳 3374 row，故 2026 年 6 月月營收採公開財經頁交叉資料，仍需以 MOPS 單公司查詢重核。</li>
+<li>需要再次查證的數據：Forward P/E、EV/EBITDA、P/B、FCF Yield、主要客戶占比、晶背銅/12 吋產能投資進度與折舊影響。</li>
+</ul>
+<p>主要來源：</p>
+<ul>
+<li>精材科技公司年報：https://www.xintec.com.tw/chi/FIN/IR_Annual_Reports.html</li>
+<li>精材科技歷年財務報表，含 2026 Q1 財務報告：https://www.xintec.com.tw/chi/FIN/IR_Financial-Reports.html</li>
+<li>TPEX 上櫃日收盤行情 OpenAPI，資料日 1150713：https://www.tpex.org.tw/openapi/v1/tpex_mainboard_daily_close_quotes</li>
+<li>Yahoo 股市 3374.TWO 營收頁，公開顯示 2026/06 月營收 764,006 千元、年增 61.01%、累計 4,098,395 千元、年增 32.97%：https://tw.stock.yahoo.com/quote/3374.TWO/revenue</li>
+<li>公開資訊觀測站 MOPS：https://mops.twse.com.tw/mops/</li>
+<li>來源篩選報告：<code>reports/news/2026-07-14_kol_news_decision_report.md</code></li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：精材是台積電轉投資背景的晶圓級封裝廠，聚焦 CMOS 影像感測、MEMS 與 3D/WLCSP 等晶圓級封裝服務。</li>
+<li>所屬主要產業：半導體封測；本次 workorder 歸類為封測。</li>
+<li>產業鏈位置：位於晶圓製造之後、系統組裝之前的晶圓級封裝與測試節點，特別偏向影像感測、MEMS 與特殊晶圓封裝。</li>
+<li>核心投資邏輯：2026 年上半年營收明顯回升，AI、先進封裝與 3D 堆疊題材推升市場想像；但股價與估值已快速拉高，投資重點變成產能投資是否能轉為 EPS。</li>
+<li>目前投資評級：分批布局。</li>
+<li>主要理由：公開營收資料顯示 2026 年 6 月營收 7.64 億元、年增 61.01%，1-6 月累計營收 40.98 億元、年增 32.97%；2026 Q1 EPS 公開資料約 1.42 元、年增約 13%。成長有證據，但以 358 元與 2025 EPS 4.99 元粗估 P/E 約 72 倍，需分批控風險。</li>
+<li>主要風險：高估值、單一大客戶與產品集中、封裝產能投資折舊、影像感測需求波動、資本支出回收期。</li>
+<li>最重要的 3-5 個追蹤指標：月營收年增、毛利率、12 吋/晶背銅設備投資進度、EPS、資本支出與折舊。</li>
+<li>代表性美股與台股同業：日月光投控、京元電、力成、南茂、同欣電、AMKR、TSM、ASE、JCET。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品或服務：晶圓級尺寸封裝、測試服務、後護層封裝、3D WLCSP、CMOS 影像感測與 MEMS 封裝。</li>
+<li>營收來源：向影像感測器、MEMS、特殊 IC 與半導體客戶提供晶圓級封裝與測試服務。</li>
+<li>主要客戶：公司具台積電供應鏈與轉投資背景，但具體客戶結構與占比需以年報與 MOPS 附註查證。</li>
+<li>毛利率與營益率特性：封測為資本密集與稼動率敏感產業；高階 WLCSP 與特殊封裝若稼動率高，利潤率可改善。</li>
+<li>成長主要來自：影像感測器復甦、晶圓級封裝需求、AI/高速運算相關特殊封裝、12 吋與晶背銅等投資轉化。</li>
+<li>是否有景氣循環性：有；封測需求受半導體庫存、客戶新品與產能利用率影響。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：半導體封裝測試中的晶圓級封裝與特殊封裝。</li>
+<li>產業解決什麼問題：在晶圓層級完成保護、互連、尺寸縮小、訊號傳遞與測試，讓晶片能進入模組或系統。</li>
+<li>需求來自哪裡：手機與車用影像感測器、MEMS、工業感測、AI 邊緣裝置、特殊感測與部分先進封裝應用。</li>
+<li>產業目前階段：傳統封測成熟且循環；晶圓級封裝、3D 堆疊與特殊感測封裝仍有結構成長。</li>
+<li>長期成長驅動力：感測器數量增加、晶片小型化、異質整合、先進封裝與高階影像/感測需求。</li>
+<li>短期波動因素：客戶庫存、手機/消費電子景氣、產能投資驗收、折舊、AI 封裝題材與估值波動。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游設備/材料</td>
+<td>提供封裝設備、基板、材料</td>
+<td>封裝設備、晶圓、材料</td>
+<td>AMAT、BESI、KLAC</td>
+<td>萬潤、辛耘、欣興</td>
+<td>中</td>
+<td>規格差異大</td>
+<td>交期與成本</td>
+</tr>
+<tr>
+<td>晶圓製造</td>
+<td>前段製造</td>
+<td>CMOS、MEMS、特殊 IC</td>
+<td>TSM、GFS</td>
+<td>台積電、聯電</td>
+<td>高</td>
+<td>製程節點差異大</td>
+<td>CAPEX 與景氣</td>
+</tr>
+<tr>
+<td>晶圓級封裝</td>
+<td>精材所在節點</td>
+<td>WLCSP、3D、測試、後護層</td>
+<td>AMKR</td>
+<td>精材、同欣電、日月光</td>
+<td>中</td>
+<td>稼動率槓桿高</td>
+<td>客戶集中、折舊</td>
+</tr>
+<tr>
+<td>系統模組</td>
+<td>封裝後模組化</td>
+<td>相機模組、感測器模組</td>
+<td>ON、Sony 供應鏈</td>
+<td>大立光、玉晶光、群光</td>
+<td>中</td>
+<td>組合差異大</td>
+<td>終端新品</td>
+</tr>
+<tr>
+<td>終端應用</td>
+<td>吸收晶片需求</td>
+<td>手機、車用、AI、工業</td>
+<td>AAPL、NVDA、TSLA</td>
+<td>廣達、鴻海</td>
+<td>高</td>
+<td>差異大</td>
+<td>終端需求</td>
+</tr>
+</tbody>
+</table></div>
+<p>精材位於晶圓級封裝節點，關鍵在技術驗證、良率、稼動率與客戶黏著度。它不是最上游設備，也不是終端品牌，而是特殊封裝服務的製造環節。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：3D WLCSP、CMOS 影像感測與 MEMS 封裝需要製程、良率與量產經驗。</li>
+<li>規模經濟：封測具固定成本與折舊槓桿，產能利用率越高越有利。</li>
+<li>客戶黏著度：晶圓級封裝一旦通過客戶認證，替換供應商成本較高。</li>
+<li>轉換成本：中高；客戶更換封裝供應商需重新驗證可靠度與良率。</li>
+<li>品牌或通路優勢：台積電供應鏈背景與晶圓級封裝經驗有助於客戶信任。</li>
+<li>成本優勢：取決於良率、稼動率、折舊與生產效率，需用財報追蹤。</li>
+<li>專利、法規或資本門檻：專利、製程 know-how、潔淨室、設備投資與客戶認證形成門檻。</li>
+<li>是否容易被替代：一般封測可替代性較高；高良率特殊 WLCSP 與客戶共同開發產品較不易。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<ul>
+<li>營收成長率：公開財經頁顯示 2026 年 6 月營收 764,006 千元、年增 61.01%；1-6 月累計 4,098,395 千元、年增 32.97%。需以 MOPS 單公司月營收重核。</li>
+<li>毛利率：公開研究摘要顯示 2026 Q1 毛利率約 29.7%，但需以公司 2026 Q1 財報重核。</li>
+<li>營益率：公開研究摘要顯示 2026 Q1 營益率約 23.6%，需以公司財報重核。</li>
+<li>EPS 成長率：公開資料顯示 2026 Q1 EPS 約 1.42 元、年增約 13%；2025 全年 EPS 約 4.99 元。</li>
+<li>自由現金流：需查證；資本支出增加時，自由現金流可能先承壓。</li>
+<li>資本支出：市場資訊提及公司通過 12 吋晶背銅製程設備投資，需以董事會公告與 MOPS 重核金額與時程。</li>
+<li>存貨週轉：封測廠需觀察在製品、材料與應收帳款，避免營收成長但現金流不佳。</li>
+<li>訂單能見度：取決於客戶新品與產能驗證；公司未完整公開長約或訂單。</li>
+<li>客戶集中度：需查證；若主要客戶占比高，營運彈性與風險同步放大。</li>
+<li>市占率／產能利用率：需查證；利用率是判斷毛利率可持續性的核心。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3374</td>
+<td>精材</td>
+<td>台灣/TPEX</td>
+<td>晶圓級封裝</td>
+<td>WLCSP、CMOS/MEMS 封裝</td>
+<td>特殊封裝與客戶認證</td>
+<td>高估值、客戶集中</td>
+<td>高</td>
+<td>中</td>
+<td>偏高</td>
+</tr>
+<tr>
+<td>3711</td>
+<td>日月光投控</td>
+<td>台灣/TWSE</td>
+<td>封測龍頭</td>
+<td>封裝測試、EMS</td>
+<td>規模與客戶廣度</td>
+<td>景氣循環</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2449</td>
+<td>京元電</td>
+<td>台灣/TWSE</td>
+<td>測試</td>
+<td>IC 測試</td>
+<td>AI/HPC 測試需求</td>
+<td>客戶集中</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>6239</td>
+<td>力成</td>
+<td>台灣/TWSE</td>
+<td>封測</td>
+<td>記憶體與邏輯封測</td>
+<td>規模</td>
+<td>記憶體循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>8150</td>
+<td>南茂</td>
+<td>台灣/TWSE</td>
+<td>封測</td>
+<td>Driver IC、記憶體測試</td>
+<td>特定產品線</td>
+<td>面板/記憶體循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>6271</td>
+<td>同欣電</td>
+<td>台灣/TWSE</td>
+<td>特殊封裝</td>
+<td>混合積體電路、車用/影像</td>
+<td>技術利基</td>
+<td>需求波動</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>AMKR</td>
+<td>Amkor</td>
+<td>美國</td>
+<td>封測</td>
+<td>OSAT</td>
+<td>全球客戶</td>
+<td>CAPEX 循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>TSM</td>
+<td>台積電 ADR</td>
+<td>美國</td>
+<td>晶圓製造/封裝</td>
+<td>晶圓代工與先進封裝</td>
+<td>技術領先</td>
+<td>高 CAPEX</td>
+<td>高</td>
+<td>高</td>
+<td>高</td>
+</tr>
+<tr>
+<td>600584.SS</td>
+<td>長電科技</td>
+<td>中國</td>
+<td>封測</td>
+<td>OSAT</td>
+<td>規模</td>
+<td>競爭與政策</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>精材</td>
+<td>3374</td>
+<td>TPEX</td>
+<td>約 72 倍，按 2026-07-13 收盤價/2025 EPS 粗估</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高位</td>
+<td>約 13 倍，按市值/2025 營收粗估</td>
+<td>需查證</td>
+<td>Q1 約 29.7%，需重核</td>
+<td>2026 1-6 月 +32.97%</td>
+<td>成長強但估值高</td>
+</tr>
+<tr>
+<td>日月光投控</td>
+<td>3711</td>
+<td>TWSE</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>封測龍頭基準</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>較穩健</td>
+</tr>
+<tr>
+<td>京元電</td>
+<td>2449</td>
+<td>TWSE</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>AI 測試溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需重核</td>
+</tr>
+<tr>
+<td>力成</td>
+<td>6239</td>
+<td>TWSE</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>循環型</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需重核</td>
+</tr>
+<tr>
+<td>AMKR</td>
+<td>AMKR</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>全球 OSAT 比較</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>較成熟</td>
+</tr>
+</tbody>
+</table></div>
+<p>精材目前市場給的是成長股估值，不是傳統封測低倍數。若 2026 EPS 不能快速追上股價，估值回調風險高。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>12 吋、晶背銅與特殊 WLCSP 產能順利放量</td>
+<td>年複合雙位數</td>
+<td>擴張</td>
+<td>EPS 高成長</td>
+<td>高於封測平均</td>
+<td>股價可支撐高估值</td>
+<td>月營收、毛利率與 EPS 同步上修</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>營收維持成長但折舊與費用抵銷部分利潤</td>
+<td>中高個位至低雙位數</td>
+<td>持平</td>
+<td>溫和成長</td>
+<td>中高倍數</td>
+<td>等 EPS 追上估值</td>
+<td>季報符合預期</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>投資提前但需求延後，稼動率不足</td>
+<td>低成長或負成長</td>
+<td>收縮</td>
+<td>EPS 下修</td>
+<td>回到封測循環倍數</td>
+<td>估值修正</td>
+<td>毛利率下滑、設備折舊上升</td>
+</tr>
+</tbody>
+</table></div>
+<p>每個情境最重要的訊號是營收成長是否同步推升毛利率與 EPS，而不是只看資本支出或股價量能。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3374</td>
+<td>精材</td>
+<td>分批布局</td>
+<td>能承受封測高波動並重視財報驗證者</td>
+<td>上半年營收成長強，特殊封裝題材具研究價值</td>
+<td>估值高、資本支出與折舊風險</td>
+<td>晶圓級封裝與特殊感測封裝代表</td>
+<td>月營收、毛利率、EPS、CAPEX</td>
+<td>EPS 快速上修且估值降溫可上調；毛利下滑或營收失速則下調</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li>如果我是新手，現在是否適合買入？不適合一次性追高；可先研究封測與估值，再用分批方式控制風險。</li>
+<li>如果我已經持有，應該續抱、加碼、減碼還是賣出？若投資假設是成長續強，可續抱但應設定財報失效條件；加碼需等回檔或 EPS 確認。</li>
+<li>如果目前不適合買，應該等什麼條件出現？等待估值降溫、Q2/Q3 毛利與 EPS 證明產能投資有效。</li>
+<li>哪些訊號會讓你把評級上調？月營收連續高成長、毛利率改善、自由現金流未惡化。</li>
+<li>哪些訊號會讓你把評級下調？營收轉弱、折舊壓縮 EPS、客戶需求遞延、估值過度脫離財報。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：日月光投控、台積電等具規模與客戶廣度者。</li>
+<li>成長型：精材、京元電等受惠特殊封裝或測試需求者。</li>
+<li>景氣循環型：力成、南茂與一般封測供應鏈。</li>
+<li>高風險高報酬型：小型特殊封裝、單一客戶或單一應用高度集中公司。</li>
+<li>只適合觀察、不適合輕易買進：只有 AI/先進封裝題材但未反映在營收與 EPS 的公司。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值過高風險：封測股若被給成長股倍數，EPS 落差會造成劇烈修正。</li>
+<li>景氣反轉風險：影像感測、手機或半導體庫存循環轉弱會影響稼動率。</li>
+<li>技術替代風險：不同封裝形式或客戶內製可能改變需求。</li>
+<li>競爭加劇風險：OSAT、晶圓廠與中國封測廠都在投資先進封裝。</li>
+<li>政策與地緣政治風險：半導體供應鏈重組、出口管制與台海風險。</li>
+<li>客戶集中風險：若主要客戶調整訂單，營收與毛利會被放大影響。</li>
+<li>財報可能出現的警訊：毛利率下滑、折舊增加但營收未放大、營運現金流弱、應收與存貨增加。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀財報項目：2026 Q1/Q2 合併財報、固定資產、折舊、資本支出承諾、存貨與應收帳款。</li>
+<li>法說會應聽重點：12 吋與晶背銅投資時程、稼動率、主要應用需求、毛利率展望。</li>
+<li>每季追蹤指標：月營收年增、毛利率、營益率、EPS、CAPEX、自由現金流。</li>
+<li>產業數據來源：MOPS、TPEX、公司官網財報、台積電法說、日月光/AMKR 法說、影像感測供應鏈資料。</li>
+<li>競爭對手觀察名單：日月光、京元電、同欣電、力成、南茂、AMKR、長電科技。</li>
+<li>初學者下一步應該研究哪 3 家公司：日月光投控、台積電、AMKR。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>精材是理解晶圓級封裝、影像感測封裝與特殊封測的好入口。</li>
+<li>該產業值得長期追蹤，因感測器、AI 與異質整合都需要更複雜封裝。</li>
+<li>目前最重要的投資邏輯是 2026 年營收復甦能否轉成 EPS 與現金流，而非只有題材。</li>
+<li>最大風險是估值已高，且資本支出與折舊可能壓縮未來盈餘。</li>
+<li>估值已反映相當高的成長預期，需要後續財報持續兌現。</li>
+<li>最終投資評級：分批布局；營收動能明確，但估值與資本支出風險要求分批與嚴格追蹤。</li>
+<li>接下來應優先研究晶圓級封裝、影像感測供應鏈、先進封裝設備與 OSAT 資本支出。</li>
+</ul>
+</article></main></div>
+</body>
+</html>
