@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-14T08:32:02.804816+00:00",
+  "generated_at": "2026-07-15T00:26:15.825062+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -31,19 +31,19 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "1103",
       "name": "嘉泥",
-      "industry_group": "水泥工業 / 多角化資產服務",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
+      "industry_group": "水泥工業",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
       "rating": "觀察",
       "latest_url": "stocks/tw-1103/",
       "url": "stocks/tw-1103/",
       "aliases": [
         "1103",
         "1103.TW",
+        "1103.TWO",
         "TWSE:1103",
-        "嘉泥",
         "嘉新水泥",
-        "嘉新水泥股份有限公司",
+        "Chia Hsin Cement",
         "CHC"
       ]
     },
@@ -157,10 +157,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "1232",
       "name": "大統益",
-      "industry_group": "食品製造 / 大豆加工 / 食用油脂",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
-      "rating": "分批布局",
+      "industry_group": "食品工業",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
+      "rating": "續抱",
       "latest_url": "stocks/tw-1232/",
       "url": "stocks/tw-1232/",
       "aliases": [
@@ -168,7 +168,9 @@ window.STOCK_INDUSTRY_REPORTS = {
         "1232.TW",
         "1232.TWO",
         "TWSE:1232",
-        "大統益"
+        "大統益",
+        "大統益股份有限公司",
+        "TTET"
       ]
     },
     "tw:1304": {
@@ -1059,18 +1061,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "1773",
       "name": "勝一",
-      "industry_group": "電子級溶劑與高純度化學材料",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
+      "industry_group": "化學工業",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/tw-1773/2026-07-06/report.html",
+      "latest_url": "stocks/tw-1773/",
       "url": "stocks/tw-1773/",
       "aliases": [
         "1773",
         "1773.TW",
         "1773.TWO",
         "TWSE:1773",
-        "勝一",
         "勝一化工",
         "Shiny Chemical Industrial"
       ]
@@ -1655,10 +1656,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2106",
       "name": "建大",
-      "industry_group": "橡膠工業 / 輪胎",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
-      "rating": "觀察",
+      "industry_group": "橡膠工業",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
+      "rating": "減碼/賣出",
       "latest_url": "stocks/tw-2106/",
       "url": "stocks/tw-2106/",
       "aliases": [
@@ -1666,9 +1667,8 @@ window.STOCK_INDUSTRY_REPORTS = {
         "2106.TW",
         "2106.TWO",
         "TWSE:2106",
-        "建大",
         "建大工業",
-        "Kenda",
+        "Kenda Rubber",
         "Kenda Tire"
       ]
     },
@@ -2418,19 +2418,20 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2371",
       "name": "大同",
-      "industry_group": "電機機械 / 重電與智慧能源",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
+      "industry_group": "電機機械",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/tw-2371/2026-07-06/report.html",
+      "latest_url": "stocks/tw-2371/",
       "url": "stocks/tw-2371/",
       "aliases": [
         "2371",
         "2371.TW",
+        "2371.TWO",
+        "TWSE:2371",
         "大同",
         "大同股份有限公司",
-        "Tatung",
-        "Tatung Company"
+        "TATUNG"
       ]
     },
     "tw:2374": {
@@ -4947,11 +4948,11 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3167",
       "name": "大量",
-      "industry_group": "電機機械 / PCB鑽孔成型與半導體檢測設備",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
+      "industry_group": "電機機械",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
       "rating": "分批布局",
-      "latest_url": "reports/stock-industry-research/tw-3167/2026-07-06/report.html",
+      "latest_url": "stocks/tw-3167/",
       "url": "stocks/tw-3167/",
       "aliases": [
         "3167",
@@ -4960,8 +4961,8 @@ window.STOCK_INDUSTRY_REPORTS = {
         "TWSE:3167",
         "大量",
         "大量科技",
-        "TA LIANG",
-        "Taliang Technology"
+        "大量科技股份有限公司",
+        "TALIANG"
       ]
     },
     "tw:3189": {
@@ -9772,19 +9773,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "AG",
-      "name": "First Majestic Silver Corp. Ordinary Shares (Canada)",
+      "name": "First Majestic Silver Corp.",
       "industry_group": "基礎材料 / 貴金屬",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
       "rating": "觀察",
-      "latest_url": "stocks/us-ag/",
+      "latest_url": "stocks/us-ag/2026-07-14.html",
       "url": "stocks/us-ag/",
       "aliases": [
         "AG",
         "NYSE:AG",
-        "First Majestic Silver",
-        "First Majestic Silver Corp.",
-        "AG.TO"
+        "First Majestic",
+        "First Majestic Silver"
       ]
     },
     "us:aig": {
@@ -10638,6 +10638,25 @@ window.STOCK_INDUSTRY_REPORTS = {
         "US:BKNG"
       ]
     },
+    "us:bksy": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "BKSY",
+      "name": "BlackSky Technology Inc.",
+      "industry_group": "衛星 / 商業地球觀測",
+      "latest_report_date": "2026-03-31",
+      "valid_until": "2026-07-22",
+      "rating": "觀察",
+      "latest_url": "stocks/us-bksy/",
+      "url": "stocks/us-bksy/",
+      "aliases": [
+        "BKSY",
+        "US:BKSY",
+        "BlackSky",
+        "BlackSky Technology",
+        "BlackSky Technology Inc."
+      ]
+    },
     "us:bl": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -11085,17 +11104,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NYSE",
       "symbol": "CDE",
       "name": "Coeur Mining, Inc.",
-      "industry_group": "貴金屬礦業 / 金銀銅礦商",
-      "latest_report_date": "2026-05-06",
-      "valid_until": "2026-07-13",
-      "rating": "觀察",
-      "latest_url": "stocks/us-cde/",
+      "industry_group": "基礎材料 / 貴金屬",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-cde/2026-07-14.html",
       "url": "stocks/us-cde/",
       "aliases": [
         "CDE",
+        "NYSE:CDE",
         "Coeur",
-        "Coeur Mining",
-        "Coeur Mining, Inc."
+        "Coeur Mining"
       ]
     },
     "us:cdw": {
@@ -13288,17 +13307,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NYSE",
       "symbol": "HMY",
       "name": "Harmony Gold Mining Company Limited",
-      "industry_group": "貴金屬礦業 / 黃金與銅礦商",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-07-13",
+      "industry_group": "基礎材料 / 貴金屬",
+      "latest_report_date": "2026-07-14",
+      "valid_until": "2026-07-21",
       "rating": "續抱",
-      "latest_url": "stocks/us-hmy/",
+      "latest_url": "stocks/us-hmy/2026-07-14.html",
       "url": "stocks/us-hmy/",
       "aliases": [
         "HMY",
+        "NYSE:HMY",
         "Harmony Gold",
-        "Harmony Gold Mining",
-        "Harmony Gold Mining Company Limited"
+        "Harmony Gold Mining"
       ]
     },
     "us:hog": {
@@ -16766,6 +16785,49 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Sirius XM Holdings Inc.",
         "NASDAQ:SIRI",
         "SIRI"
+      ]
+    },
+    "us:skhy": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "SKHY",
+      "name": "SK hynix Inc. ADR",
+      "industry_group": "記憶體 / HBM / DRAM / NAND",
+      "latest_report_date": "2026-03-31",
+      "valid_until": "2026-07-22",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-skhy/",
+      "url": "stocks/us-skhy/",
+      "aliases": [
+        "SKHY",
+        "SKHYV",
+        "US:SKHY",
+        "SK hynix",
+        "SK hynix Inc.",
+        "SK Hynix",
+        "000660.KS"
+      ]
+    },
+    "us:skhyv": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "SKHYV",
+      "name": "SK hynix Inc.",
+      "industry_group": "記憶體",
+      "latest_report_date": "2026-03-31",
+      "valid_until": "2026-07-22",
+      "rating": "觀察",
+      "latest_url": "stocks/us-skhyv/",
+      "url": "stocks/us-skhyv/",
+      "aliases": [
+        "SKHYV",
+        "SKHY",
+        "US:SKHYV",
+        "US:SKHY",
+        "000660.KS",
+        "SK海力士",
+        "SK hynix",
+        "SK hynix Inc."
       ]
     },
     "us:skyq": {
