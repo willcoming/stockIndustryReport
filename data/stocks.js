@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-17T00:07:38.766548+00:00",
+  "generated_at": "2026-07-17T00:08:06.553183+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -21421,11 +21421,11 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NYSE",
       "symbol": "VST",
       "name": "Vistra Energy Corp",
-      "industry_group": "公用事業 / 獨立發電、零售電力與資料中心電力需求",
-      "latest_report_date": "2026-07-08",
-      "valid_until": "2026-07-15",
-      "rating": "分批布局",
-      "latest_url": "reports/stock-industry-research/us-vst/2026-07-08/report.html",
+      "industry_group": "公用事業／獨立發電、競爭性零售電力與資料中心電力需求",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "續抱",
+      "latest_url": "reports/stock-industry-research/us-vst/2026-07-17/report.html",
       "url": "stocks/us-vst/",
       "aliases": [
         "VST",
