@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-17T08:19:01.876008+00:00",
+  "generated_at": "2026-07-17T22:55:02.174117+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -12419,10 +12419,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NYSE",
       "symbol": "AR",
       "name": "Antero Resources Corporation",
-      "industry_group": "能源 / 石油與天然氣生產",
-      "latest_report_date": "2026-07-08",
-      "valid_until": "2026-07-15",
-      "rating": "分批布局",
+      "industry_group": "能源 / 油氣生產",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
       "latest_url": "stocks/us-ar/",
       "url": "stocks/us-ar/",
       "aliases": [
@@ -13908,6 +13908,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "CNH Industrial"
       ]
     },
+    "us:cnk": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CNK",
+      "name": "Cinemark Holdings, Inc.",
+      "industry_group": "非必需消費 / 電影與娛樂",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-cnk/",
+      "url": "stocks/us-cnk/",
+      "aliases": [
+        "CNK",
+        "Cinemark",
+        "Cinemark Holdings"
+      ]
+    },
     "us:cnm": {
       "market": "us",
       "exchange": "NYSE",
@@ -13939,6 +13956,25 @@ window.STOCK_INDUSTRY_REPORTS = {
         "CNP",
         "NYSE:CNP",
         "US:CNP"
+      ]
+    },
+    "us:cnq": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CNQ",
+      "name": "Canadian Natural Resources Limited",
+      "industry_group": "能源 / 油氣生產",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-cnq/",
+      "url": "stocks/us-cnq/",
+      "aliases": [
+        "CNQ",
+        "NYSE:CNQ",
+        "Canadian Natural",
+        "Canadian Natural Resources",
+        "Canadian Natural Resources Limited"
       ]
     },
     "us:cnx": {
@@ -14312,16 +14348,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "CSCO",
-      "name": "Cisco Systems, Inc. - Common Stock",
+      "name": "Cisco Systems, Inc.",
       "industry_group": "電信 / Computer Communications Equipment",
-      "latest_report_date": "2026-07-09",
-      "valid_until": "2026-07-16",
-      "rating": "觀察",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "續抱",
       "latest_url": "stocks/us-csco/",
       "url": "stocks/us-csco/",
       "aliases": [
         "CSCO",
-        "NASDAQ:CSCO"
+        "Cisco",
+        "Cisco Systems"
       ]
     },
     "us:csgp": {
@@ -15144,6 +15181,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NASDAQ:EQPT"
       ]
     },
+    "us:eqt": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "EQT",
+      "name": "EQT Corporation",
+      "industry_group": "能源 / 油氣生產",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-eqt/",
+      "url": "stocks/us-eqt/",
+      "aliases": [
+        "EQT",
+        "NYSE:EQT",
+        "EQT Corporation"
+      ]
+    },
     "us:eric": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -15690,6 +15744,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Frontline",
         "Frontline plc",
         "Frontline Plc"
+      ]
+    },
+    "us:frog": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "FROG",
+      "name": "JFrog Ltd.",
+      "industry_group": "科技 / 套裝軟體",
+      "latest_report_date": "2026-03-31",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-frog/",
+      "url": "stocks/us-frog/",
+      "aliases": [
+        "FROG",
+        "NASDAQ:FROG",
+        "JFrog",
+        "JFrog Ltd."
       ]
     },
     "us:frsh": {
@@ -19473,6 +19545,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "P66"
       ]
     },
+    "us:pten": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "PTEN",
+      "name": "Patterson-UTI Energy, Inc.",
+      "industry_group": "能源／油氣服務與生產",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-pten/",
+      "url": "stocks/us-pten/",
+      "aliases": [
+        "PTEN",
+        "NASDAQ:PTEN",
+        "US:PTEN",
+        "Patterson-UTI Energy"
+      ]
+    },
     "us:pton": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -19997,6 +20087,25 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Relmada Therapeutics, Inc."
       ]
     },
+    "us:roiv": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "ROIV",
+      "name": "Roivant Sciences Ltd.",
+      "industry_group": "醫療保健／生物科技與製藥",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-roiv/",
+      "url": "stocks/us-roiv/",
+      "aliases": [
+        "ROIV",
+        "NASDAQ:ROIV",
+        "US:ROIV",
+        "Roivant Sciences",
+        "Roivant Sciences Ltd."
+      ]
+    },
     "us:rol": {
       "market": "us",
       "exchange": "NYSE",
@@ -20284,20 +20393,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "SDOT",
-      "name": "Sadot Group Inc. - Common Stock",
-      "industry_group": "非必需消費 / 餐飲",
-      "latest_report_date": "2026-06-29",
-      "valid_until": "2026-07-06",
+      "name": "Sadot Group Inc.",
+      "industry_group": "Agribusiness / Food Supply Chain (workorder restaurant classification corrected)",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
       "rating": "減碼/賣出",
       "latest_url": "stocks/us-sdot/",
       "url": "stocks/us-sdot/",
       "aliases": [
         "SDOT",
-        "Sadot Group",
-        "Sadot Group Inc.",
-        "Muscle Maker",
-        "Sadot Agri-Foods",
-        "Pokemoto"
+        "Sadot",
+        "Sadot Group"
       ]
     },
     "us:se": {
@@ -20577,6 +20683,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NASDAQ:SLM"
       ]
     },
+    "us:sls": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "SLS",
+      "name": "SELLAS Life Sciences Group, Inc.",
+      "industry_group": "醫療保健 / 生物科技：藥物製劑",
+      "latest_report_date": "2026-03-31",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-sls/",
+      "url": "stocks/us-sls/",
+      "aliases": [
+        "SLS",
+        "NASDAQ:SLS",
+        "SELLAS",
+        "SELLAS Life Sciences"
+      ]
+    },
     "us:sm": {
       "market": "us",
       "exchange": "NYSE",
@@ -20727,6 +20851,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "SoFi",
         "SoFi Technologies",
         "SoFi Technologies Inc"
+      ]
+    },
+    "us:sono": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "SONO",
+      "name": "Sonos, Inc.",
+      "industry_group": "Consumer Electronics / Home Audio",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-sono/",
+      "url": "stocks/us-sono/",
+      "aliases": [
+        "SONO",
+        "Sonos",
+        "Sonos, Inc."
       ]
     },
     "us:sony": {
@@ -21484,6 +21625,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "TransUnion Common Stock"
       ]
     },
+    "us:trvi": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "TRVI",
+      "name": "Trevi Therapeutics, Inc.",
+      "industry_group": "醫療保健 / 生物科技：藥物製劑",
+      "latest_report_date": "2026-03-31",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-trvi/",
+      "url": "stocks/us-trvi/",
+      "aliases": [
+        "TRVI",
+        "NASDAQ:TRVI",
+        "Trevi",
+        "Trevi Therapeutics"
+      ]
+    },
     "us:tsco": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -21592,6 +21751,25 @@ window.STOCK_INDUSTRY_REPORTS = {
       "aliases": [
         "TTD",
         "NASDAQ:TTD"
+      ]
+    },
+    "us:tte": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "TTE",
+      "name": "TotalEnergies SE",
+      "industry_group": "能源／整合油氣與多能源",
+      "latest_report_date": "2026-07-17",
+      "valid_until": "2026-07-24",
+      "rating": "觀察",
+      "latest_url": "stocks/us-tte/",
+      "url": "stocks/us-tte/",
+      "aliases": [
+        "TTE",
+        "NYSE:TTE",
+        "US:TTE",
+        "TotalEnergies",
+        "TotalEnergies SE"
       ]
     },
     "us:tvrd": {
