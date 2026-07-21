@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T04:16:36.782404+00:00",
+  "generated_at": "2026-07-21T04:19:24.773585+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -19420,17 +19420,19 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "industry_group": "半導體設計／AI 資料中心互連",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
+      "name": "Marvell Technology, Inc.",
+      "industry_group": "半導體／AI 資料中心連接與客製晶片",
+      "latest_report_date": "2026-07-21",
+      "valid_until": "2026-07-28",
       "rating": "觀察",
-      "latest_url": "stocks/us-mrvl/",
+      "latest_url": "stocks/us-mrvl/2026-07-21.html",
       "url": "stocks/us-mrvl/",
       "aliases": [
         "MRVL",
         "NASDAQ:MRVL",
-        "Marvell"
+        "Marvell",
+        "Marvell Technology",
+        "Marvell Technology, Inc."
       ]
     },
     "us:ms": {
