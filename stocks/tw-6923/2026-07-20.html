@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6923 中台 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 綠能環保／事業廢棄物處理與資源循環</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">6923 中台</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-07-20</span>
+        <span class="meta-pill">有效至 2026-07-27</span>
+        <span class="meta-pill">評級 續抱</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-07-20.html">2026-07-20</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>中台（6923）反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>研究日期：2026-07-20；有效至 2026-07-27；幣別除註明外為新台幣。</li>
+<li>最新股價：TWSE 2026-07-20 收盤 77.20 元，高低 77.50／76.70 元，成交量 99,592 股。<a href="https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?date=20260720&amp;stockNo=6923&amp;response=json">TWSE 日成交</a></li>
+<li>最新財報：2026Q1；營收趨勢更新至 2026 年 6 月。<a href="https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci">損益 OpenAPI</a>｜<a href="https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci">資產負債 OpenAPI</a>｜<a href="https://openapi.twse.com.tw/v1/opendata/t187ap05_L">月營收 OpenAPI</a></li>
+<li>公司與產業：<a href="https://esg.chinalab.com.tw/overview/about/1-1">中台公司簡介</a>、<a href="https://esg.chinalab.com.tw/overview/about/1-3">技術與服務</a>、<a href="https://esg.chinalab.com.tw/reportData/2024%E4%B8%AD%E5%8F%B0%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf">2024 永續報告</a>、<a href="https://www.chinalab.com.tw/investor-contact.html">2026 法說資訊</a>。</li>
+<li>原始觸發：<code>reports/twStock/2026-07-20-1250_tw_kline_decision_report.md</code>「現在可以買名單」。技術觸發只代表研究起點。</li>
+<li>資料缺口：即時同業一致估值、各處理線利用率、長約／現貨價占比、客戶集中度與 2026 全年資本支出需查證；情境為研究估算，非公司財測。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公司一句話</td>
+<td>台灣事業廢棄物焚化、含汞／貴金屬／廢電路板回收與環境整治的綜合資源循環商</td>
+</tr>
+<tr>
+<td>產業鏈位置</td>
+<td>半導體、電子、化工、醫療與住商廢棄物的後端處理／再生材料供應</td>
+</tr>
+<tr>
+<td>2026Q1</td>
+<td>營收 3.05 億元、毛利率 30.8%、營益率 23.5%、淨利 0.77 億元、EPS 0.84 元</td>
+</tr>
+<tr>
+<td>2026H1</td>
+<td>營收 6.72 億元、年增 17.3%；6 月 1.32 億元、年增 40.7%</td>
+</tr>
+<tr>
+<td>財務結構</td>
+<td>資產 41.79 億元、負債 14.65 億元、權益 27.14 億元，BVPS 29.67 元</td>
+</tr>
+<tr>
+<td>核心邏輯</td>
+<td>許可稀缺、難處理廢棄物能力與電子產業擴產支撐需求；再生銅／汞與能源回收增加處理費之外收益</td>
+</tr>
+<tr>
+<td>估值</td>
+<td>77.20 元約為 2025 EPS 3.03 元的 25.5 倍、2026Q1 BVPS 的 2.60 倍，並不便宜</td>
+</tr>
+<tr>
+<td>評級</td>
+<td><strong>續抱</strong>：營運回升但估值已反映一部分成長，新資金宜等獲利或安全邊際再確認</td>
+</tr>
+<tr>
+<td>風險</td>
+<td>歲修與利用率、廢棄物量、法規事故、金屬價格、工程認列、流動性低</td>
+</tr>
+</tbody>
+</table></div>
+<p>最重要追蹤指標：焚化處理量與平均處理價、毛利率、歲修天數、營業現金流、環境整治案與再生金屬價格。代表台股為可寧衛、日友、崑鼎、山林水；美股可參考 Waste Management、Republic Services、Clean Harbors。</p>
+<h2>2. 公司如何賺錢</h2>
+<p>中台向產廢企業收取清運與處理費，將一般及有害事業廢棄物焚化、化學／固化或洗淨處理；焚化熱能再發電，降低外購電並形成能源價值。公司也處理廢光源回收純度 99.99% 以上的汞、以熱裂解回收稀貴金屬，並由廢印刷電路板回收高純度銅粉，出售再生材料。</p>
+<p>第三類收益是污染土壤、石綿等環境整治工程，認列受標案與施工進度影響，波動高於經常性處理費。2025 前三季公開法說資料顯示，焚化等處理、回收、銅粉銷售、整治工程約占 55%、22%、19%、4%，實際全年結構仍需查證。</p>
+<p>獲利由處理量 × 單價、產能利用率、廢棄物熱值／配料、歲修、金屬回收率與金屬價格共同決定。焚化固定成本高，量增通常帶來營運槓桿；但設備停機或事故也會快速壓縮利潤。</p>
+<h2>3. 從公司反推產業</h2>
+<p>中台屬「事業廢棄物處理＋資源循環＋環境工程」。產業解決製造業無法自行安全處置有害、高硫氯或複合廢棄物的問題，需求由工業產值、半導體擴產、環保法規、非法棄置整治與循環材料政策驅動。</p>
+<p>這是成熟需求中的結構成長產業：廢棄物總量偏景氣循環，但處理規格、碳盤查、資源化與高科技製程廢棄物複雜度上升。中台一廠 2022 年營運；公司依環境部資料推估總事業廢棄物處理市占僅 1.5%–2.0%，但有害事業廢棄物焚化量約二成，顯示利基位置比總市占更重要。</p>
+<p>短期波動來自歲修、客戶產能利用率、環境工程認列及銅價；長期驅動則是半導體／電子製造擴張、處理設施許可稀缺、循環材料與淨零要求。</p>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游產廢</td>
+<td>廢棄物來源</td>
+<td>半導體、電子、化工、醫療廢棄物</td>
+<td>INTC、MU</td>
+<td>2330、2303</td>
+<td>大客戶可議價</td>
+<td>非本段</td>
+<td>景氣與產量</td>
+</tr>
+<tr>
+<td>清運／檢測</td>
+<td>收運分類</td>
+<td>清運、化驗、配料</td>
+<td>WM</td>
+<td>2607、環工業者</td>
+<td>中</td>
+<td>服務型</td>
+<td>混料、運輸事故</td>
+</tr>
+<tr>
+<td>綜合處理</td>
+<td><strong>中台所在</strong></td>
+<td>焚化、化學、固化、洗淨</td>
+<td>CLH、WM</td>
+<td>6923、8422、8341</td>
+<td>許可與難度提高議價</td>
+<td>高固定成本、量增槓桿</td>
+<td>停機、環安事故</td>
+</tr>
+<tr>
+<td>資源回收</td>
+<td>再生材料</td>
+<td>汞、貴金屬、銅粉、底渣再利用</td>
+<td>CLH</td>
+<td>9955、1785</td>
+<td>隨純度與金屬價</td>
+<td>商品＋加工價差</td>
+<td>金屬價格</td>
+</tr>
+<tr>
+<td>下游</td>
+<td>再利用者</td>
+<td>金屬、建材、電力</td>
+<td>NUE</td>
+<td>銅材／建材廠</td>
+<td>商品化較高</td>
+<td>週期型</td>
+<td>品質與售價</td>
+</tr>
+<tr>
+<td>整治工程</td>
+<td>專案服務</td>
+<td>污染土壤、石綿等</td>
+<td>TTEK</td>
+<td>8473</td>
+<td>專業資格有利</td>
+<td>案件波動</td>
+<td>工期與追加成本</td>
+</tr>
+</tbody>
+</table></div>
+<p>中台掌握許可、配料、焚化與回收技術的中游關鍵節點。它不是壟斷者，但難處理廢棄物處理紀錄與法規資本門檻，使新增供給慢於一般製造業。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li><strong>許可與資本門檻</strong>：廢棄物種類、處理量及環保許可限制新增產能，興建與試運轉期長。</li>
+<li><strong>配料及操作 know-how</strong>：高硫氯、不同熱值與有害廢棄物需穩定配料，操作紀錄形成經驗壁壘。</li>
+<li><strong>三廠整合</strong>：一廠焚化／發電、二廠回收汞與貴金屬、三廠回收銅，能跨流程資源化。</li>
+<li><strong>客戶轉換成本</strong>：大型製造業需稽核處理商、追蹤流向與 ESG 紀錄，合格後具黏著性。</li>
+<li><strong>限制</strong>：設備不是不可複製；若競爭者取得許可或客戶自建，處理價仍會競爭。事故會讓信任壁壘反向崩解。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th style="text-align:right">最新資料</th>
+<th>變好／變壞代表什麼</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026Q1 營收</td>
+<td style="text-align:right">3.048 億元</td>
+<td>處理量、整治工程或材料售價上升；需拆來源</td>
+</tr>
+<tr>
+<td>毛利率</td>
+<td style="text-align:right">30.8%</td>
+<td>利用率／配料／處理價改善；跌破 27% 須查歲修與低毛利案</td>
+</tr>
+<tr>
+<td>營益率</td>
+<td style="text-align:right">23.5%</td>
+<td>固定成本槓桿佳；與毛利同向才健康</td>
+</tr>
+<tr>
+<td>淨利／EPS</td>
+<td style="text-align:right">0.766 億元／0.84 元</td>
+<td>淨利高於營益後須辨識業外，不宜機械年化</td>
+</tr>
+<tr>
+<td>2026H1 營收</td>
+<td style="text-align:right">6.715 億元、年增 17.3%</td>
+<td>需求復甦；須待 Q2 毛利確認品質</td>
+</tr>
+<tr>
+<td>2025 營收／EPS</td>
+<td style="text-align:right">11.56 億元／3.03 元</td>
+<td>較 2024 高基期衰退，2026 正在恢復</td>
+</tr>
+<tr>
+<td>流動資產／流動負債</td>
+<td style="text-align:right">5.37／5.41 億元</td>
+<td>接近 1 倍，短期資金結構需關注</td>
+</tr>
+<tr>
+<td>負債／權益</td>
+<td style="text-align:right">14.65／27.14 億元</td>
+<td>約 54%，可控但仍有設備資本密集特性</td>
+</tr>
+<tr>
+<td>自由現金流／資本支出</td>
+<td style="text-align:right">最新完整值需查證</td>
+<td>FCF 應覆蓋維修與擴產，否則 EPS 品質不足</td>
+</tr>
+<tr>
+<td>客戶集中／利用率</td>
+<td style="text-align:right">需查證</td>
+<td>決定議價與營運槓桿</td>
+</tr>
+</tbody>
+</table></div>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6923</td>
+<td>中台</td>
+<td>台</td>
+<td>綜合處理／回收</td>
+<td>有害廢棄物、銅汞回收、整治</td>
+<td>三廠整合、許可</td>
+<td>停機、工程波動</td>
+<td>中高</td>
+<td>中</td>
+<td>合理偏高</td>
+</tr>
+<tr>
+<td>8422</td>
+<td>可寧衛</td>
+<td>台</td>
+<td>掩埋／固化／資源循環</td>
+<td>有害廢棄物終端處理</td>
+<td>場址與許可</td>
+<td>政策、擴產</td>
+<td>中</td>
+<td>高</td>
+<td>即時需查證</td>
+</tr>
+<tr>
+<td>8341</td>
+<td>日友</td>
+<td>台</td>
+<td>醫療／事業廢棄物</td>
+<td>焚化處理</td>
+<td>醫療利基</td>
+<td>產能與中國曝險</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>6803</td>
+<td>崑鼎</td>
+<td>台</td>
+<td>環保營運</td>
+<td>焚化、水務、能源</td>
+<td>長約營運</td>
+<td>成長較慢</td>
+<td>中低</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>8473</td>
+<td>山林水</td>
+<td>台</td>
+<td>水處理／環工</td>
+<td>污水工程與營運</td>
+<td>工程經驗</td>
+<td>專案波動</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>WM</td>
+<td>Waste Management</td>
+<td>美</td>
+<td>收運／掩埋／回收</td>
+<td>北美綜合廢棄物</td>
+<td>網路與規模</td>
+<td>利率、監管</td>
+<td>中</td>
+<td>高</td>
+<td>通常溢價</td>
+</tr>
+<tr>
+<td>RSG</td>
+<td>Republic Services</td>
+<td>美</td>
+<td>收運／掩埋</td>
+<td>北美固廢</td>
+<td>路線密度</td>
+<td>併購價格</td>
+<td>中</td>
+<td>高</td>
+<td>通常溢價</td>
+</tr>
+<tr>
+<td>CLH</td>
+<td>Clean Harbors</td>
+<td>美</td>
+<td>危廢處理</td>
+<td>高難度危廢與工業服務</td>
+<td>許可與技術</td>
+<td>工業循環</td>
+<td>中高</td>
+<td>中高</td>
+<td>最接近質性同業</td>
+</tr>
+<tr>
+<td>TTEK</td>
+<td>Tetra Tech</td>
+<td>美</td>
+<td>環境顧問</td>
+<td>水務、整治、工程</td>
+<td>人才與專案</td>
+<td>人力成本</td>
+<td>中</td>
+<td>中高</td>
+<td>非直接同業</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th style="text-align:right">P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th style="text-align:right">毛利率</th>
+<th style="text-align:right">營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>中台</td>
+<td>6923</td>
+<td>台</td>
+<td style="text-align:right">25.5x（2025）</td>
+<td>需查證</td>
+<td>上市歷史短</td>
+<td>中高</td>
+<td>約 6.1x（粗估）</td>
+<td>需查證</td>
+<td style="text-align:right">30.8%</td>
+<td style="text-align:right">H1 +17.3%</td>
+<td>成長已部分反映</td>
+</tr>
+<tr>
+<td>可寧衛</td>
+<td>8422</td>
+<td>台</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>質量溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>同日資料待補</td>
+</tr>
+<tr>
+<td>日友</td>
+<td>8341</td>
+<td>台</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>中</td>
+<td>需查證</td>
+<td>需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>同日資料待補</td>
+</tr>
+<tr>
+<td>Clean Harbors</td>
+<td>CLH</td>
+<td>美</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>美股危廢標竿</td>
+<td>需查證</td>
+<td>需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>模式較接近</td>
+</tr>
+<tr>
+<td>WM／RSG</td>
+<td>WM／RSG</td>
+<td>美</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>高</td>
+<td>需查證</td>
+<td>需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>路線密度模式不同</td>
+</tr>
+</tbody>
+</table></div>
+<p>P/S 粗估以 2026-07-20 股價、約 9,149 萬股與 2025 營收計算，非交易所公告估值。77.20 元對 2025 EPS 為 25.5 倍、對 Q1 EPS 年化為約 23 倍、P/B 2.60 倍。若以環保處理股 18–25 倍正常化 P/E 為研究帶，現價在上緣；要再上修需 H2 毛利及現金流同步成長。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>高科技產廢增、利用率與處理價提升、整治案放量</td>
+<td>年複合 12%–18%</td>
+<td>毛利 34%–39%</td>
+<td>EPS 4.5–5.5 元</td>
+<td>23–28x</td>
+<td>價值約 104–154 元</td>
+<td>量價齊升、FCF 強</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>處理量穩增、歲修正常、再生材料平穩</td>
+<td>年複合 6%–10%</td>
+<td>毛利 30%–35%</td>
+<td>EPS 3.3–4.2 元</td>
+<td>20–24x</td>
+<td>約 66–101 元</td>
+<td>H1 動能延續</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>停機／事故、工業景氣弱、銅價下跌</td>
+<td>-5% 至 +3%</td>
+<td>毛利 24%–29%</td>
+<td>EPS 2.0–2.8 元</td>
+<td>15–19x</td>
+<td>約 30–53 元</td>
+<td>利用率降、現金流弱</td>
+</tr>
+</tbody>
+</table></div>
+<p>投資人應在樂觀情境看處理價與利用率，在基準情境看毛利／FCF，在悲觀情境看停機公告、環保裁罰與流動負債。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6923</td>
+<td>中台</td>
+<td><strong>續抱</strong></td>
+<td>能承受小型股與環安事件風險者</td>
+<td>H1 成長、許可利基、營益率佳</td>
+<td>25.5x 歷史 P/E、成交量低、流動比率近 1</td>
+<td>危廢處理與循環材料</td>
+<td>毛利、處理量、FCF、歲修</td>
+<td>EPS 上修且估值回落升評；毛利 &lt;27% 或事故降評</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li>新手現在不宜因單日 K-line 一次買足，宜先等 Q2 毛利與現金流。</li>
+<li>已持有者可續抱，部位以衛星持股管理；不因 6 月單月高增追價。</li>
+<li>未持有者可等 68–72 元或基本面上修後小額分批。</li>
+<li>上調條件：H2 營收維持雙位數、毛利率 ≥33%、營業現金流覆蓋資本支出。</li>
+<li>下調條件：設備事故／裁罰、毛利率連兩季下滑、處理量轉弱或高槓桿擴產。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li><strong>核心穩健型</strong>：可寧衛、WM 等長約／路線密度較高者較符合；中台尚非核心。</li>
+<li><strong>成長型</strong>：中台可列入，前提是有害廢棄物量與資源化收入持續成長。</li>
+<li><strong>景氣循環型</strong>：銅粉與工業產廢部分屬此類，受電子產能與金屬價影響。</li>
+<li><strong>高風險高報酬型</strong>：環境整治專案與新增設備利用率帶來槓桿，但也有事故風險。</li>
+<li><strong>只適合觀察</strong>：若估值高於 28 倍且無 EPS 上修，應轉為只觀察。</li>
+</ul>
+<p>整體定位為「成長／景氣衛星型」，不宜把法規門檻誤認為無風險公用事業。</p>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值風險：2025 盈餘基準下已 25.5 倍，若成長回落，倍數壓縮可能大於股利回報。</li>
+<li>設備與環安：火災、超排、停爐或許可變更會同時傷害收入與信任。</li>
+<li>景氣反轉：半導體／電子產量下降會減少產廢，環境工程亦可能遞延。</li>
+<li>商品風險：銅、汞與貴金屬價格影響再生材料收益及存貨評價。</li>
+<li>客戶集中：大型科技客戶占比需查證；集中會提高稽核門檻，也提高議價風險。</li>
+<li>現金流：流動資產略低於流動負債，若擴產與維修同時發生，資金需求上升。</li>
+<li>反方核心：2024 高成長包含工程認列，2025 營收下滑顯示獲利不完全是線性長約。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ol>
+<li>讀 2026Q2 附註：處理／銷售／工程收入、存貨、應收、資本支出與現金流。</li>
+<li>法說追問一至三廠處理量、利用率、歲修、平均處理價與長約占比。</li>
+<li>每月追蹤營收；每季追蹤毛利率、營益率、營業現金流與環保裁罰。</li>
+<li>產業資料：環境部事業廢棄物申報量、許可處理量與半導體產值。</li>
+<li>競爭者：8422、8341、6803、8473、WM、RSG、CLH。</li>
+<li>初學者下一步研究可寧衛（終端處理）、日友（醫療廢棄物）、Clean Harbors（美國危廢）。</li>
+</ol>
+<h2>14. 結論</h2>
+<p>中台是理解台灣危廢處理、資源循環與環境整治的好入口，三廠整合與有害廢棄物焚化利基具長期追蹤價值。2026H1 營收年增 17.3%、Q1 營益率 23.5% 顯示營運回升；最大風險是設備／環安事件、專案波動與 25.5 倍歷史 P/E 已不低。最終評級為 <strong>續抱</strong>：既有持股可追蹤獲利與現金流，新資金優先研究處理量、利用率及同業估值，等待更佳安全邊際。</p>
+<blockquote>
+<p>本報告僅供教育與研究，不構成個人化投資建議或獲利保證。</p>
+</blockquote>
+</article></main></div>
+</body>
+</html>

@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6933 AMAX-KY Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 電腦及週邊設備／AI與HPC系統整合</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">6933 AMAX-KY</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-07-20</span>
+        <span class="meta-pill">有效至 2026-07-27</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-07-20.html">2026-07-20</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>AMAX-KY（6933）反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>研究日期：2026-07-20；有效至 2026-07-27。公司以美元營運為主，本文財報依 TWSE 換算／申報新台幣。</li>
+<li>最新股價：2026-07-20 收盤 163.50 元，高低 167.50／146.00 元，成交量 344,742 股。<a href="https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?date=20260720&amp;stockNo=6933&amp;response=json">TWSE 日成交</a></li>
+<li>最新財報：2026Q1；月營收至 2026 年 6 月。<a href="https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci">損益 OpenAPI</a>｜<a href="https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci">資產負債 OpenAPI</a>｜<a href="https://openapi.twse.com.tw/v1/opendata/t187ap05_L">月營收 OpenAPI</a></li>
+<li>公司與產業：<a href="https://www.amax.tw/overview.php">台灣 IR 營業概況</a>、<a href="https://www.amax.com/about-us/">AMAX Engineering 公司介紹</a>、<a href="https://www.amax.com/solutions/">AI/HPC 解決方案</a>、<a href="https://www.amax.tw/financial_year.php">年報專區</a>、<a href="https://www.nvidia.com/en-gb/data-center/where-to-buy/">NVIDIA 合作夥伴頁</a>。</li>
+<li>原始觸發：<code>reports/twStock/2026-07-20-1250_tw_kline_decision_report.md</code>「現在可以買名單」。</li>
+<li>缺口：在手訂單、GPU 平台別營收、前五大客戶、供應商集中、即時同業估值與自由現金流需查證。AI 題材不取代財報驗證。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公司一句話</td>
+<td>矽谷起家的 AI／HPC 伺服器、GPU 叢集、儲存、網路與液冷整機櫃整合商</td>
+</tr>
+<tr>
+<td>產業鏈位置</td>
+<td>上游 CPU/GPU／記憶體之後、終端企業／研究機構之前的中游系統設計、製造、部署與服務</td>
+</tr>
+<tr>
+<td>2026Q1</td>
+<td>營收 18.20 億元、毛利率 13.7%、營益率 4.2%、淨利 0.47 億元、EPS 1.10 元</td>
+</tr>
+<tr>
+<td>2026H1</td>
+<td>營收 44.87 億元、年增 16.4%；6 月 14.16 億元、年增 26.6%，但月波動很大</td>
+</tr>
+<tr>
+<td>財務</td>
+<td>資產 54.04 億元、負債 30.15 億元、權益 23.89 億元，BVPS 56.36 元</td>
+</tr>
+<tr>
+<td>核心邏輯</td>
+<td>GPU 稀缺、液冷與 AI Factory 複雜度提升客製整合價值；美國在地工程／製造靠近客戶</td>
+</tr>
+<tr>
+<td>估值</td>
+<td>163.50 元約 32.5 倍 2025 EPS 5.03 元、2.90 倍 P/B；Q1 年化 P/E 約 37.2 倍</td>
+</tr>
+<tr>
+<td>評級</td>
+<td><strong>觀察</strong>：成長方向正確，但低毛利、專案波動與高本益比使安全邊際不足</td>
+</tr>
+<tr>
+<td>最大風險</td>
+<td>NVIDIA／GPU 供應、客戶專案延遲、營運資金、低毛利硬體占比、產品世代切換</td>
+</tr>
+</tbody>
+</table></div>
+<p>最重要指標：在手訂單、GPU／AI Factory 占比、毛利率、應收與存貨、營業現金流、液冷專案交付。代表台股同業為緯穎、廣達、技嘉、神達、迎廣；美股為 Supermicro、Dell、HPE、Vertiv。</p>
+<h2>2. 公司如何賺錢</h2>
+<p>AMAX 向 Intel、AMD、NVIDIA 生態系及通路採購 CPU、GPU、記憶體、儲存、網路、機殼與機櫃，依客戶工作負載設計伺服器或叢集，完成 rack-and-stack、散熱、燒機、驗證、部署與維運後認列硬體與工程服務收入。</p>
+<p>業務一類是 OEM 代工，客戶提供季度預測，AMAX 備料排產；另一類是 Enterprise/HPC 與 AI Factory 專案，公司依 CPU/GPU、記憶體、網路、儲存與液冷需求做客製整合。後者工程價值較高，但驗收與 GPU 到貨使單月／單季波動。</p>
+<p>公司聲稱具備從叢集架構、製造、液冷、網路、儲存到專業服務的整合能力，並曾交付 DGX B200 SuperPOD。真正獲利不是 GPU 晶片本身的高毛利，而是採購管理、工程設計、系統驗證與快速部署的價差；硬體比重高使毛利率仍僅十多個百分點。</p>
+<h2>3. 從公司反推產業</h2>
+<p>AMAX 屬 AI 伺服器與高效能運算基礎設施。產業解決大型模型訓練／推論、半導體 EDA、生命科學、工業模擬與資安分析需要大量平行運算、低延遲網路、儲存與散熱的問題。</p>
+<p>產業處於結構成長、產品高度循環階段：AI 算力建置增加，但 GPU 每 1–2 年換代、單櫃功耗快速上升、供應鏈受單一平台支配。長期驅動是 token 需求、主權 AI、企業私有 AI 與液冷；短期波動則是 GPU 配額、產品延遲、客戶資本預算與驗收。</p>
+<p>AMAX 相對大型 ODM 的優勢是客製、小量複雜專案與美國在地服務；劣勢是規模、採購議價、資金與客戶集中。研究不應把「AI 伺服器營收」等同「半導體平台毛利」。</p>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>晶片／平台</td>
+<td>核心運算</td>
+<td>GPU、CPU、DPU、交換晶片</td>
+<td>NVDA、AMD、INTC</td>
+<td>5274</td>
+<td>高</td>
+<td>高毛利</td>
+<td>出口管制、世代切換</td>
+</tr>
+<tr>
+<td>關鍵零件</td>
+<td>記憶體／網路／電源</td>
+<td>HBM、SSD、NIC、PSU</td>
+<td>MU、AVGO</td>
+<td>2308、2345</td>
+<td>中高</td>
+<td>週期＋技術</td>
+<td>缺料與價格</td>
+</tr>
+<tr>
+<td>系統 ODM</td>
+<td>大量設計製造</td>
+<td>AI 伺服器、主板、機櫃</td>
+<td>SMCI</td>
+<td>2382、3231、6669</td>
+<td>中</td>
+<td>低至中毛利</td>
+<td>客戶集中、營運資金</td>
+</tr>
+<tr>
+<td>客製整合</td>
+<td><strong>AMAX 所在</strong></td>
+<td>HPC／AI 叢集、液冷、部署</td>
+<td>SMCI、HPE</td>
+<td>6933、3706</td>
+<td>視工程能力</td>
+<td>硬體低毛利＋服務價值</td>
+<td>專案延遲</td>
+</tr>
+<tr>
+<td>散熱／機房</td>
+<td>基礎設施</td>
+<td>液冷、電力、CDU、機房</td>
+<td>VRT</td>
+<td>3017、3324</td>
+<td>成長中</td>
+<td>中高</td>
+<td>技術規格</td>
+</tr>
+<tr>
+<td>終端</td>
+<td>算力使用者</td>
+<td>雲端、企業、研究、政府</td>
+<td>MSFT、META</td>
+<td>電信／研究機構</td>
+<td>大客戶強</td>
+<td>非本段</td>
+<td>Capex 週期</td>
+</tr>
+</tbody>
+</table></div>
+<p>AMAX 位於中游，平台不可替代性低於 NVIDIA，但其液冷整合、驗證與在地部署能降低客戶「買到零件卻無法上線」的風險。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li><strong>工程整合</strong>：CPU/GPU、InfiniBand／Ethernet、儲存與液冷需共同驗證，跨域人才是主要壁壘。</li>
+<li><strong>平台夥伴資格</strong>：NVIDIA Elite Solution Partner 與認證系統縮短導入，仍依賴上游配額。</li>
+<li><strong>矽谷客戶接近性</strong>：美國設計、製造、部署與維運有利新創、研究與企業專案。</li>
+<li><strong>客製與速度</strong>：大型 ODM 不一定願意承接小量複雜案，AMAX 可在此取得價差。</li>
+<li><strong>護城河限制</strong>：核心晶片與平台由供應商掌握；客戶可改向 Dell、HPE、SMCI 或大型台灣 ODM。硬體營運資金需求大，規模未必轉成高 ROIC。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th style="text-align:right">最新資料</th>
+<th>解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026Q1 營收</td>
+<td style="text-align:right">18.205 億元</td>
+<td>受專案與 GPU 到貨影響，單季代表性有限</td>
+</tr>
+<tr>
+<td>毛利率</td>
+<td style="text-align:right">13.7%</td>
+<td>高於純代工才顯示服務價值；跌破 12% 是警訊</td>
+</tr>
+<tr>
+<td>營益率</td>
+<td style="text-align:right">4.2%</td>
+<td>費用槓桿有限，專案組合影響大</td>
+</tr>
+<tr>
+<td>淨利／EPS</td>
+<td style="text-align:right">0.466 億元／1.10 元</td>
+<td>淨利率僅 2.6%，高營收不等於高獲利</td>
+</tr>
+<tr>
+<td>2026H1 營收</td>
+<td style="text-align:right">44.871 億元、年增 16.4%</td>
+<td>Q2 明顯加速；獲利品質待財報</td>
+</tr>
+<tr>
+<td>2025 營收／EPS</td>
+<td style="text-align:right">約 80.38 億元／5.03 元</td>
+<td>營收年增約 27%，EPS 仍受組合影響</td>
+</tr>
+<tr>
+<td>流動資產／流動負債</td>
+<td style="text-align:right">50.47／28.58 億元</td>
+<td>覆蓋 1.77 倍，但多為應收／存貨者需查證</td>
+</tr>
+<tr>
+<td>負債／權益</td>
+<td style="text-align:right">30.15／23.89 億元</td>
+<td>126%，須搭配現金轉換週期看風險</td>
+</tr>
+<tr>
+<td>訂單／客戶集中</td>
+<td style="text-align:right">需查證</td>
+<td>最能解釋未來營收與波動</td>
+</tr>
+<tr>
+<td>自由現金流</td>
+<td style="text-align:right">需查證</td>
+<td>高成長若持續吃現金，估值應折價</td>
+</tr>
+</tbody>
+</table></div>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6933</td>
+<td>AMAX-KY</td>
+<td>台</td>
+<td>客製系統整合</td>
+<td>AI/HPC、液冷、部署</td>
+<td>矽谷與工程彈性</td>
+<td>規模、低淨利</td>
+<td>高</td>
+<td>中低</td>
+<td>偏高</td>
+</tr>
+<tr>
+<td>6669</td>
+<td>緯穎</td>
+<td>台</td>
+<td>雲端 ODM</td>
+<td>Hyperscale 伺服器</td>
+<td>規模與客戶深度</td>
+<td>客戶集中</td>
+<td>高</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2382</td>
+<td>廣達</td>
+<td>台</td>
+<td>大型 ODM</td>
+<td>AI 伺服器與電子製造</td>
+<td>規模供應鏈</td>
+<td>低毛利</td>
+<td>高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2376</td>
+<td>技嘉</td>
+<td>台</td>
+<td>品牌／系統</td>
+<td>GPU 伺服器、主板</td>
+<td>產品廣度</td>
+<td>庫存週期</td>
+<td>高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3706</td>
+<td>神達</td>
+<td>台</td>
+<td>伺服器 ODM</td>
+<td>雲端／邊緣伺服器</td>
+<td>製造與客戶</td>
+<td>競爭</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>SMCI</td>
+<td>Supermicro</td>
+<td>美</td>
+<td>系統 OEM</td>
+<td>AI 伺服器與液冷</td>
+<td>上市速度</td>
+<td>治理、現金流</td>
+<td>高</td>
+<td>中</td>
+<td>高波動</td>
+</tr>
+<tr>
+<td>DELL</td>
+<td>Dell</td>
+<td>美</td>
+<td>系統／通路</td>
+<td>AI 伺服器、儲存、PC</td>
+<td>企業通路</td>
+<td>低毛利、債務</td>
+<td>中高</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>HPE</td>
+<td>HPE</td>
+<td>美</td>
+<td>企業 IT／HPC</td>
+<td>Cray、伺服器、服務</td>
+<td>HPC 技術</td>
+<td>成長較慢</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>VRT</td>
+<td>Vertiv</td>
+<td>美</td>
+<td>電力與散熱</td>
+<td>資料中心基礎設施</td>
+<td>液冷／電力</td>
+<td>高估值</td>
+<td>高</td>
+<td>中高</td>
+<td>成長溢價</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th style="text-align:right">P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th style="text-align:right">P/S</th>
+<th>EV/EBITDA</th>
+<th style="text-align:right">毛利率</th>
+<th style="text-align:right">營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AMAX-KY</td>
+<td>6933</td>
+<td>台</td>
+<td style="text-align:right">32.5x（2025）</td>
+<td>需查證</td>
+<td>上市史短</td>
+<td>中高</td>
+<td style="text-align:right">約 0.86x</td>
+<td>需查證</td>
+<td style="text-align:right">13.7%</td>
+<td style="text-align:right">H1 +16.4%</td>
+<td>P/S 低但 P/E 高</td>
+</tr>
+<tr>
+<td>緯穎</td>
+<td>6669</td>
+<td>台</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>品質溢價</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>規模較優</td>
+</tr>
+<tr>
+<td>廣達／神達</td>
+<td>2382／3706</td>
+<td>台</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>大型 ODM</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>不直接套用</td>
+</tr>
+<tr>
+<td>Supermicro</td>
+<td>SMCI</td>
+<td>美</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>高波動</td>
+<td>直接標竿</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>治理折價因素</td>
+</tr>
+<tr>
+<td>Dell／HPE</td>
+<td>DELL／HPE</td>
+<td>美</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>企業通路</td>
+<td style="text-align:right">需查證</td>
+<td>需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>規模大、成長慢</td>
+</tr>
+</tbody>
+</table></div>
+<p>P/S 粗估依 2026-07-20 股價、約 4,238 萬股及 2025 營收計算，非交易所公告。32.5 倍歷史 P/E 與 Q1 年化 37.2 倍意味市場期待 H2 獲利加速；但 2.6% Q1 淨利率使 EPS 對毛利小幅變動極敏感。正常系統整合觀察帶可用 18–28 倍，只有可驗證的高成長、高服務比重才支持 30 倍以上。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>Blackwell／Rubin、液冷 AI Factory 大單，服務比重升</td>
+<td>CAGR 25%–35%</td>
+<td>淨利 4%–5%</td>
+<td>EPS 9–13 元</td>
+<td>28–35x</td>
+<td>約 252–455 元</td>
+<td>訂單、毛利與 FCF 齊升</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>AI/HPC 成長、GPU 供應正常，硬體仍占大宗</td>
+<td>CAGR 12%–20%</td>
+<td>淨利 3%–4%</td>
+<td>EPS 6–8 元</td>
+<td>22–28x</td>
+<td>約 132–224 元</td>
+<td>H1 動能延續、毛利穩</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>平台延遲、客戶遞延、價格競爭與庫存損失</td>
+<td>-5% 至 +8%</td>
+<td>淨利 1%–2.5%</td>
+<td>EPS 2.5–4.5 元</td>
+<td>14–20x</td>
+<td>約 35–90 元</td>
+<td>存貨／應收上升、毛利跌</td>
+</tr>
+</tbody>
+</table></div>
+<p>最關鍵的不是營收表，而是毛利率、營業現金流與訂單取消。液冷專案若只增加低毛利硬體，不能採樂觀倍數。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6933</td>
+<td>AMAX-KY</td>
+<td><strong>觀察</strong></td>
+<td>熟悉 AI 伺服器專案波動者</td>
+<td>H1 +16%、液冷／AI 工程能力</td>
+<td>32.5x P/E、Q1 淨利率 2.6%、營運資金</td>
+<td>AI Factory 整合</td>
+<td>訂單、毛利、FCF、存貨</td>
+<td>毛利 ≥15% 且 FCF 正升評；毛利 &lt;11% 降評</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li>新手目前不適合追逐 7/20 大振幅，應先看 Q2 財報。</li>
+<li>已持有者以續抱但不追價的方式管理；若部位過大可在估值擴張時降低集中。</li>
+<li>等待條件：Q2 毛利率至少 14.5%、營業現金流轉正，或股價回到 125–145 元建立安全邊際。</li>
+<li>上調訊號：訂單能見度跨兩季、服務／液冷提升毛利、EPS 上修。</li>
+<li>下調訊號：GPU 延遲、存貨與應收飆升、營收增而營益率跌破 3%。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li><strong>核心穩健型</strong>：大型 ODM 或 HPE／Dell 較接近；AMAX 規模與波動尚不足。</li>
+<li><strong>成長型</strong>：AMAX 的主要屬性，取決於 AI/HPC 與液冷訂單。</li>
+<li><strong>景氣循環型</strong>：GPU 世代切換、客戶 Capex 與供應影響明顯。</li>
+<li><strong>高風險高報酬型</strong>：小型股、專案集中與低淨利率放大 EPS 波動，亦屬此類。</li>
+<li><strong>只適合觀察</strong>：在 30 倍以上 P/E 且現金流未證明時，現階段歸入此層。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值：目前倍數要求未來獲利明顯高於 2025；任何延遲都會壓縮估值。</li>
+<li>上游集中：NVIDIA／CPU／網路晶片供應決定可出貨時點與成本。</li>
+<li>客戶與專案：大型單一專案取消、驗收延遲會造成季度斷層；集中度需查證。</li>
+<li>毛利：硬體轉售占比高，競爭者包含 SMCI、Dell、HPE 與台灣大型 ODM。</li>
+<li>現金流：備料先於收款，GPU 高單價放大存貨、應收與融資需求。</li>
+<li>技術：液冷規格、互連與平台快速改版，舊庫存可能跌價。</li>
+<li>地緣：美國出口管制、關稅與原產地規則影響可服務市場。</li>
+<li>反方核心：AMAX 受惠 AI 但不是 AI 晶片公司；低淨利率意味高營收可能只創造有限股東回報。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ol>
+<li>2026Q2 財報核對毛利、營益率、存貨、應收、合約負債與營業現金流。</li>
+<li>法說追問在手訂單、NVIDIA 平台別、液冷收入、前五大客戶及取消條款。</li>
+<li>每月追蹤營收，但用三個月移動平均降低專案噪音。</li>
+<li>觀察 NVIDIA 平台量產、交期與美國出口管制。</li>
+<li>比較 SMCI、DELL、HPE、VRT、6669、2382、2376、3706。</li>
+<li>初學者優先研究緯穎（大型 ODM）、Supermicro（直接系統商）、Vertiv（電力散熱）。</li>
+</ol>
+<h2>14. 結論</h2>
+<p>AMAX-KY 是理解 AI Factory 從晶片走向機櫃、液冷、網路與部署的好入口，產業值得長期追蹤。公司 2026H1 營收年增 16.4%，但 Q1 毛利率 13.7%、淨利率 2.6%，顯示價值捕捉遠低於平台晶片商。163.50 元相當於 32.5 倍 2025 EPS，成長期待已高。最終評級 <strong>觀察</strong>：優先研究訂單、毛利與現金流，待獲利品質或價格安全邊際改善後再評估分批布局。</p>
+<blockquote>
+<p>本報告僅供教育與研究，不構成個人化投資建議或獲利保證。</p>
+</blockquote>
+</article></main></div>
+</body>
+</html>
