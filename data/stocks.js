@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-21T23:17:22.214353+00:00",
+  "generated_at": "2026-07-22T02:28:09.068586+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -2866,17 +2866,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2308",
       "name": "台達電",
-      "industry_group": "電源供應器",
-      "latest_report_date": "2026-07-10",
-      "valid_until": "2026-07-17",
-      "rating": "觀察",
-      "latest_url": "stocks/tw-2308/",
+      "industry_group": "電源／資料中心",
+      "latest_report_date": "2026-07-22",
+      "valid_until": "2026-07-29",
+      "rating": "分批布局",
+      "latest_url": "stocks/tw-2308/2026-07-22.html",
       "url": "stocks/tw-2308/",
       "aliases": [
         "2308",
         "2308.TW",
-        "2308.TWO",
-        "TWSE:2308"
+        "TWSE:2308",
+        "Delta Electronics"
       ]
     },
     "tw:2313": {
@@ -6407,19 +6407,19 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "3049",
-      "name": "精金",
-      "industry_group": "光電業",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-07-07",
-      "rating": "觀察",
-      "latest_url": "stocks/tw-3049/",
+      "name": "精金科技",
+      "industry_group": "面板",
+      "latest_report_date": "2026-07-22",
+      "valid_until": "2026-07-29",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/tw-3049/2026-07-22.html",
       "url": "stocks/tw-3049/",
       "aliases": [
-        "精金科技股份有限公司",
-        "Hannstouch",
-        "HannStar Touch",
+        "3049",
+        "3049.TW",
         "TWSE:3049",
-        "3049.TW"
+        "精金",
+        "HannStar Touch"
       ]
     },
     "tw:3050": {
@@ -14123,6 +14123,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "美股:BB"
       ]
     },
+    "us:bbai": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "BBAI",
+      "name": "BigBear.ai",
+      "industry_group": "AI 軟體",
+      "latest_report_date": "2026-07-22",
+      "valid_until": "2026-07-29",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-bbai/2026-07-22.html",
+      "url": "stocks/us-bbai/",
+      "aliases": [
+        "BBAI",
+        "NYSE:BBAI",
+        "BigBear.ai Holdings, Inc."
+      ]
+    },
     "us:bbd": {
       "market": "us",
       "exchange": "NYSE",
@@ -14829,17 +14846,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "CAVA",
-      "name": "CAVA Group, Inc.",
-      "industry_group": "非必需消費 / 餐飲連鎖",
-      "latest_report_date": "2026-07-10",
-      "valid_until": "2026-07-17",
-      "rating": "分批布局",
-      "latest_url": "stocks/us-cava/2026-07-10.html",
+      "name": "CAVA Group",
+      "industry_group": "餐飲",
+      "latest_report_date": "2026-07-22",
+      "valid_until": "2026-07-29",
+      "rating": "觀察",
+      "latest_url": "stocks/us-cava/",
       "url": "stocks/us-cava/",
       "aliases": [
         "CAVA",
-        "US:CAVA",
-        "CAVA Group, Inc."
+        "CAVA:US",
+        "NYSE:CAVA"
       ]
     },
     "us:ccc": {
@@ -21375,6 +21392,23 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NASDAQ:PRGS",
         "Progress Software",
         "Progress Software Corporation"
+      ]
+    },
+    "us:psky": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "PSKY",
+      "name": "Paramount Skydance",
+      "industry_group": "媒體",
+      "latest_report_date": "2026-07-22",
+      "valid_until": "2026-07-29",
+      "rating": "觀察",
+      "latest_url": "stocks/us-psky/",
+      "url": "stocks/us-psky/",
+      "aliases": [
+        "PSKY",
+        "PSKY:US",
+        "NASDAQ:PSKY"
       ]
     },
     "us:psx": {
