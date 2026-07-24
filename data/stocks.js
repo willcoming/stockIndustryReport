@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-23T23:14:17.849444+00:00",
+  "generated_at": "2026-07-24T00:04:43.808539+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -3009,20 +3009,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2317",
       "name": "鴻海",
-      "industry_group": "電子製造服務與AI伺服器整合",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
-      "rating": "分批布局",
+      "industry_group": "AI 伺服器代工",
+      "latest_report_date": "2026-07-24",
+      "valid_until": "2026-07-31",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2317/",
       "url": "stocks/tw-2317/",
       "aliases": [
         "2317",
         "2317.TW",
-        "TWSE:2317",
-        "鴻海",
-        "鴻海精密",
-        "HON HAI",
-        "Foxconn"
+        "TWSE:2317"
       ]
     },
     "tw:2323": {
@@ -3089,19 +3085,15 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "2330",
       "name": "台積電",
       "industry_group": "晶圓代工",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
-      "rating": "分批布局",
+      "latest_report_date": "2026-07-24",
+      "valid_until": "2026-07-31",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2330/",
       "url": "stocks/tw-2330/",
       "aliases": [
         "2330",
         "2330.TW",
-        "TWSE:2330",
-        "台積電",
-        "台灣積體電路製造",
-        "TSMC",
-        "TSM"
+        "TWSE:2330"
       ]
     },
     "tw:2332": {
@@ -20446,21 +20438,18 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:meta": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "META",
-      "name": "Meta Platforms Inc. Class A",
-      "industry_group": "軟體與社群",
-      "latest_report_date": "2026-07-08",
-      "valid_until": "2026-07-15",
-      "rating": "續抱",
+      "name": "Meta Platforms",
+      "industry_group": "社群／AI",
+      "latest_report_date": "2026-07-24",
+      "valid_until": "2026-07-31",
+      "rating": "觀察",
       "latest_url": "stocks/us-meta/",
       "url": "stocks/us-meta/",
       "aliases": [
         "META",
-        "NASDAQ:META",
-        "Meta",
-        "Meta Platforms",
-        "Facebook"
+        "US:META"
       ]
     },
     "us:mgm": {
@@ -20763,21 +20752,18 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:mu": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "MU",
-      "name": "Micron Technology, Inc.",
+      "name": "Micron",
       "industry_group": "記憶體",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
+      "latest_report_date": "2026-07-24",
+      "valid_until": "2026-07-31",
       "rating": "觀察",
       "latest_url": "stocks/us-mu/",
       "url": "stocks/us-mu/",
       "aliases": [
         "MU",
-        "NASDAQ:MU",
-        "Micron",
-        "Micron Technology",
-        "美光"
+        "US:MU"
       ]
     },
     "us:mur": {
@@ -21213,18 +21199,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "US",
       "symbol": "NVDA",
-      "name": "輝達",
+      "name": "NVIDIA",
       "industry_group": "AI 晶片",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
-      "rating": "分批布局",
+      "latest_report_date": "2026-07-24",
+      "valid_until": "2026-07-31",
+      "rating": "觀察",
       "latest_url": "stocks/us-nvda/",
       "url": "stocks/us-nvda/",
       "aliases": [
         "NVDA",
-        "US:NVDA",
-        "NVIDIA",
-        "輝達"
+        "US:NVDA"
       ]
     },
     "us:nvs": {
@@ -24763,18 +24747,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "US",
       "symbol": "TSM",
-      "name": "台積電",
+      "name": "TSMC ADR",
       "industry_group": "晶圓代工",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
-      "rating": "分批布局",
+      "latest_report_date": "2026-07-24",
+      "valid_until": "2026-07-31",
+      "rating": "觀察",
       "latest_url": "stocks/us-tsm/",
       "url": "stocks/us-tsm/",
       "aliases": [
         "TSM",
-        "US:TSM",
-        "台積電",
-        "TSMC"
+        "US:TSM"
       ]
     },
     "us:tsn": {
