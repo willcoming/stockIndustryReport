@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-24T22:54:47.444242+00:00",
+  "generated_at": "2026-07-27T00:05:19.589818+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -4870,19 +4870,14 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "2528",
       "name": "皇普",
       "industry_group": "建材營造業",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "stocks/tw-2528/",
+      "latest_url": "https://mops.twse.com.tw/mops/web/index",
       "url": "stocks/tw-2528/",
       "aliases": [
-        "2528",
-        "2528.TW",
-        "2528.TWO",
-        "TWSE:2528",
-        "皇普",
-        "皇普建設股份有限公司",
-        "CROWELL"
+        "皇普建設",
+        "2528.TW"
       ]
     },
     "tw:2530": {
@@ -6668,23 +6663,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "tw:3081": {
       "market": "tw",
-      "exchange": "TPEx",
+      "exchange": "TWSE",
       "symbol": "3081",
       "name": "聯亞",
       "industry_group": "光通訊",
-      "latest_report_date": "2026-07-10",
-      "valid_until": "2026-07-17",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "stocks/tw-3081/",
+      "latest_url": "https://www.lmoc.com.tw/",
       "url": "stocks/tw-3081/",
       "aliases": [
-        "聯亞",
-        "聯亞光電工業股份有限公司",
-        "LandMark",
-        "LMOC",
-        "3081",
-        "3081.TWO",
-        "TPEx:3081"
+        "聯亞光電",
+        "LandMark Optoelectronics",
+        "3081.TWO"
       ]
     },
     "tw:3090": {
@@ -6725,23 +6716,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "tw:3105": {
       "market": "tw",
-      "exchange": "TPEx",
+      "exchange": "TWSE",
       "symbol": "3105",
       "name": "穩懋",
-      "industry_group": "砷化鎵",
-      "latest_report_date": "2026-07-10",
-      "valid_until": "2026-07-17",
+      "industry_group": "化合物半導體",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "stocks/tw-3105/",
+      "latest_url": "https://www.winfoundry.com/en-US/Invest/invest_index",
       "url": "stocks/tw-3105/",
       "aliases": [
-        "穩懋",
-        "穩懋半導體股份有限公司",
+        "穩懋半導體",
         "WIN Semiconductors",
-        "WIN",
-        "3105",
-        "3105.TWO",
-        "TPEx:3105"
+        "3105.TW"
       ]
     },
     "tw:3149": {
@@ -7207,10 +7194,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3416",
       "name": "融程電",
-      "industry_group": "電腦及週邊設備業",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "續抱",
+      "industry_group": "工業電腦",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3416/",
       "url": "stocks/tw-3416/",
       "aliases": [
@@ -7219,7 +7206,6 @@ window.STOCK_INDUSTRY_REPORTS = {
         "3416.TWO",
         "TWSE:3416",
         "融程電",
-        "融程電訊股份有限公司",
         "Winmate"
       ]
     },
@@ -8889,6 +8875,26 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Calin"
       ]
     },
+    "tw:4979": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "4979",
+      "name": "華星光",
+      "industry_group": "矽光子／光通訊",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-4979/",
+      "url": "stocks/tw-4979/",
+      "aliases": [
+        "4979",
+        "4979.TW",
+        "4979.TWO",
+        "TWSE:4979",
+        "華星光",
+        "LuxNet"
+      ]
+    },
     "tw:4989": {
       "market": "tw",
       "exchange": "TWSE",
@@ -8910,23 +8916,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "tw:4991": {
       "market": "tw",
-      "exchange": "TPEx",
+      "exchange": "TWSE",
       "symbol": "4991",
       "name": "環宇-KY",
       "industry_group": "光通訊",
-      "latest_report_date": "2026-07-10",
-      "valid_until": "2026-07-17",
-      "rating": "分批布局",
-      "latest_url": "stocks/tw-4991/",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
+      "latest_url": "https://gcsincorp.com/tc/investors/Shareholder_Services.php",
       "url": "stocks/tw-4991/",
       "aliases": [
-        "4991",
-        "4991.TWO",
-        "TPEX:4991",
-        "環宇-KY",
-        "環宇通訊半導體控股",
-        "GCS Holdings",
-        "GCS"
+        "環宇通訊半導體",
+        "Global Communication Semiconductors",
+        "4991.TWO"
       ]
     },
     "tw:5007": {
@@ -13631,15 +13633,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NYSE",
       "symbol": "ALK",
       "name": "Alaska Air Group, Inc. Common Stock",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "industry_group": "非必需消費 / Air Freight/Delivery Services",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "stocks/us-ALK/",
+      "latest_url": "https://investor.alaskaair.com/",
       "url": "stocks/us-alk/",
       "aliases": [
-        "ALK",
-        "NYSE:ALK"
+        "Alaska Air Group",
+        "Alaska Airlines",
+        "ALK"
       ]
     },
     "us:ally": {
@@ -16057,20 +16060,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:crcl": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "CRCL",
-      "name": "Circle Internet Group, Inc.",
-      "industry_group": "數位金融基礎設施／穩定幣",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "name": "Circle Internet Group",
+      "industry_group": "未分類",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
       "latest_url": "stocks/us-crcl/",
       "url": "stocks/us-crcl/",
       "aliases": [
         "CRCL",
-        "US:CRCL",
-        "NYSE:CRCL",
-        "Circle Internet Group, Inc."
+        "Circle",
+        "Circle Internet Group"
       ]
     },
     "us:crdo": {
@@ -17600,15 +17602,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NASDAQ",
       "symbol": "FISV",
       "name": "Fiserv, Inc. - Common Stock",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "industry_group": "非必需消費 / 商業服務",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "stocks/us-FISV/",
+      "latest_url": "https://investors.fiserv.com/financial-information/annual-reports/",
       "url": "stocks/us-fisv/",
       "aliases": [
-        "FISV",
-        "NASDAQ:FISV"
+        "Fiserv",
+        "FI",
+        "FISV"
       ]
     },
     "us:fitb": {
@@ -18245,20 +18248,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:glw": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "GLW",
-      "name": "Corning Incorporated",
-      "industry_group": "特種玻璃、光纖與材料科技",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "續抱",
+      "name": "Corning",
+      "industry_group": "未分類",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
       "latest_url": "stocks/us-glw/",
       "url": "stocks/us-glw/",
       "aliases": [
         "GLW",
-        "US:GLW",
-        "NYSE:GLW",
-        "Corning Incorporated"
+        "Corning",
+        "康寧"
       ]
     },
     "us:glxy": {
@@ -18354,20 +18356,20 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:googl": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "GOOGL",
-      "name": "Alphabet Inc. Class A",
-      "industry_group": "網路廣告、雲端與 AI 平台",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "續抱",
+      "name": "Alphabet",
+      "industry_group": "雲端／網路服務",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
       "latest_url": "stocks/us-googl/",
       "url": "stocks/us-googl/",
       "aliases": [
         "GOOGL",
         "US:GOOGL",
-        "NASDAQ:GOOGL",
-        "Alphabet Inc. Class A"
+        "Alphabet",
+        "Google"
       ]
     },
     "us:gpc": {
@@ -20985,19 +20987,18 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:msft": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "industry_group": "企業軟體、雲端基礎設施與 AI 平台",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "續抱",
+      "name": "Microsoft",
+      "industry_group": "未分類",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
       "latest_url": "stocks/us-msft/",
       "url": "stocks/us-msft/",
       "aliases": [
         "MSFT",
-        "US:MSFT",
-        "NASDAQ:MSFT",
+        "Microsoft",
         "Microsoft Corporation"
       ]
     },
@@ -21245,21 +21246,18 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:nflx": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "NFLX",
-      "name": "Netflix, Inc.",
-      "industry_group": "串流媒體與數位娛樂",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "續抱",
-      "latest_url": "stocks/us-nflx/",
+      "name": "Netflix Inc",
+      "industry_group": "未分類",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
+      "latest_url": "https://ir.netflix.net/financials/annual-reports-and-proxies/",
       "url": "stocks/us-nflx/",
       "aliases": [
-        "NFLX",
-        "NASDAQ:NFLX",
         "Netflix",
-        "Netflix Inc",
-        "Netflix, Inc."
+        "NFLX"
       ]
     },
     "us:ni": {
@@ -21859,20 +21857,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:orcl": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "ORCL",
-      "name": "Oracle Corp",
-      "industry_group": "企業軟體 / 雲端基礎設施",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "分批布局",
-      "latest_url": "reports/stock-industry-research/us-orcl/2026-07-08/report.html",
+      "name": "Oracle",
+      "industry_group": "雲端／企業軟體",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
+      "latest_url": "stocks/us-orcl/",
       "url": "stocks/us-orcl/",
       "aliases": [
         "ORCL",
-        "NYSE:ORCL",
+        "US:ORCL",
         "Oracle",
-        "Oracle Corp",
         "Oracle Corporation"
       ]
     },
@@ -22329,18 +22326,18 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:pgr": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NYSE",
       "symbol": "PGR",
-      "name": "Progressive",
-      "industry_group": "保險",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "name": "Progressive Corporation",
+      "industry_group": "金融 / 產物保險",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "stocks/us-PGR/",
+      "latest_url": "stocks/us-pgr/",
       "url": "stocks/us-pgr/",
       "aliases": [
         "PGR",
-        "PGR",
+        "NYSE:PGR",
         "Progressive"
       ]
     },
@@ -22418,19 +22415,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "PLTR",
-      "name": "Palantir Technologies Inc",
-      "industry_group": "人工智慧軟體 / 資料分析平台",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "name": "Palantir Technologies",
+      "industry_group": "科技 / 套裝軟體",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-pltr/2026-07-08/report.html",
+      "latest_url": "stocks/us-pltr/",
       "url": "stocks/us-pltr/",
       "aliases": [
         "PLTR",
         "NASDAQ:PLTR",
         "Palantir",
-        "Palantir Technologies",
-        "Palantir Technologies Inc"
+        "Palantir Technologies"
       ]
     },
     "us:plug": {
@@ -23184,21 +23180,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:rklb": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "RKLB",
-      "name": "Rocket Lab Corp",
-      "industry_group": "航太與太空基礎設施",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "name": "Rocket Lab",
+      "industry_group": "太空服務",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-rklb/2026-07-08/report.html",
+      "latest_url": "stocks/us-rklb/",
       "url": "stocks/us-rklb/",
       "aliases": [
         "RKLB",
-        "NASDAQ:RKLB",
+        "US:RKLB",
         "Rocket Lab",
-        "Rocket Lab Corp",
-        "Rocket Lab Corporation",
         "Rocket Lab USA"
       ]
     },
@@ -24607,16 +24601,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "SW",
-      "name": "Smurfit WestRock plc Ordinary Shares",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "name": "Smurfit WestRock plc",
+      "industry_group": "非必需消費 / Containers/Packaging",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
-      "latest_url": "stocks/us-SW/",
+      "latest_url": "stocks/us-sw/",
       "url": "stocks/us-sw/",
       "aliases": [
         "SW",
-        "NYSE:SW"
+        "NYSE:SW",
+        "Smurfit WestRock"
       ]
     },
     "us:swks": {
@@ -25331,21 +25326,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:txn": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "TXN",
-      "name": "Texas Instruments Incorporated",
-      "industry_group": "類比 / 嵌入式晶片",
-      "latest_report_date": "2026-06-29",
-      "valid_until": "2026-07-06",
+      "name": "Texas Instruments",
+      "industry_group": "綜合／半導體",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
       "rating": "觀察",
       "latest_url": "stocks/us-txn/",
       "url": "stocks/us-txn/",
       "aliases": [
         "TXN",
-        "NASDAQ:TXN",
-        "Texas Instruments",
-        "Texas Instruments Incorporated",
-        "德州儀器"
+        "US:TXN",
+        "Texas Instruments"
       ]
     },
     "us:txt": {
@@ -25858,22 +25851,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:vst": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "VST",
       "name": "Vistra Energy Corp",
-      "industry_group": "公用事業／獨立發電、競爭性零售電力與資料中心電力需求",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "續抱",
-      "latest_url": "reports/stock-industry-research/us-vst/2026-07-17/report.html",
+      "industry_group": "未分類",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-08-03",
+      "rating": "觀察",
+      "latest_url": "https://investor.vistracorp.com/sec-filings",
       "url": "stocks/us-vst/",
       "aliases": [
-        "VST",
-        "NYSE:VST",
-        "Vistra",
+        "Vistra Corp.",
         "Vistra Energy",
-        "Vistra Energy Corp",
-        "Vistra Corp"
+        "VST"
       ]
     },
     "us:vz": {
