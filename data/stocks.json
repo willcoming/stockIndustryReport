@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T08:29:16.299496+00:00",
+  "generated_at": "2026-07-30T08:34:05.017452+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -5152,17 +5152,18 @@
       "exchange": "TWSE",
       "symbol": "2542",
       "name": "興富發",
-      "industry_group": "建材營造業",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
-      "rating": "分批布局",
-      "latest_url": "report.html",
+      "industry_group": "建材營造業／不動產開發",
+      "latest_report_date": "2026-07-30",
+      "valid_until": "2026-08-06",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2542/",
       "url": "stocks/tw-2542/",
       "aliases": [
         "2542",
         "2542.TW",
         "TWSE:2542",
-        "興富發"
+        "興富發",
+        "Highwealth Construction"
       ]
     },
     "tw:2543": {
@@ -5211,15 +5212,18 @@
       "exchange": "TWSE",
       "symbol": "2548",
       "name": "華固",
-      "industry_group": "建材營造業",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
+      "industry_group": "建材營造業／不動產開發",
+      "latest_report_date": "2026-07-30",
+      "valid_until": "2026-08-06",
       "rating": "觀察",
-      "latest_url": "https://www.twse.com.tw/",
+      "latest_url": "stocks/tw-2548/",
       "url": "stocks/tw-2548/",
       "aliases": [
+        "2548",
+        "2548.TW",
+        "TWSE:2548",
         "華固",
-        "2548.TW"
+        "Huaku Development"
       ]
     },
     "tw:2601": {
@@ -5754,16 +5758,20 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "2836",
-      "name": "高雄銀",
-      "industry_group": "金融保險業",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
+      "name": "高雄銀行",
+      "industry_group": "金融保險業／商業銀行",
+      "latest_report_date": "2026-07-30",
+      "valid_until": "2026-08-06",
       "rating": "觀察",
-      "latest_url": "https://www.twse.com.tw/",
+      "latest_url": "stocks/tw-2836/",
       "url": "stocks/tw-2836/",
       "aliases": [
+        "2836",
+        "2836.TW",
+        "TWSE:2836",
         "高雄銀",
-        "2836.TW"
+        "高雄銀行",
+        "Bank of Kaohsiung"
       ]
     },
     "tw:2845": {
@@ -8067,18 +8075,20 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "3703",
-      "name": "欣陸",
-      "industry_group": "建材營造業",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-07-07",
+      "name": "欣陸投資控股股份有限公司",
+      "industry_group": "建材營造業／環境工程",
+      "latest_report_date": "2026-07-30",
+      "valid_until": "2026-08-06",
       "rating": "觀察",
-      "latest_url": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3703",
+      "latest_url": "stocks/tw-3703/",
       "url": "stocks/tw-3703/",
       "aliases": [
+        "3703",
+        "3703.TW",
+        "TWSE:3703",
         "欣陸",
         "欣陸投控",
-        "欣陸投資控股",
-        "3703.TW"
+        "Continental Holdings"
       ]
     },
     "tw:3704": {
@@ -8744,16 +8754,16 @@
       "exchange": "TWSE",
       "symbol": "4763",
       "name": "材料*-KY",
-      "industry_group": "化學工業",
-      "latest_report_date": "2026-07-15",
-      "valid_until": "2026-07-22",
+      "industry_group": "化學工業／醋酸纖維材料",
+      "latest_report_date": "2026-07-30",
+      "valid_until": "2026-08-06",
       "rating": "觀察",
       "latest_url": "stocks/tw-4763/",
       "url": "stocks/tw-4763/",
       "aliases": [
         "4763",
-        "TW:4763",
         "4763.TW",
+        "TWSE:4763",
         "材料*-KY",
         "材料-KY",
         "Acetek",
@@ -9258,7 +9268,7 @@
       "symbol": "5258",
       "name": "虹堡科技股份有限公司",
       "industry_group": "電子支付終端／金融科技設備",
-      "latest_report_date": "2026-03-12",
+      "latest_report_date": "2026-07-30",
       "valid_until": "2026-08-06",
       "rating": "觀察",
       "latest_url": "stocks/tw-5258/",
