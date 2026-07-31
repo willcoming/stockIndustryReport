@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-07-31T03:29:34.871065+00:00",
+  "generated_at": "2026-07-31T07:58:45.039034+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -9437,6 +9437,25 @@ window.STOCK_INDUSTRY_REPORTS = {
         "鈺創"
       ]
     },
+    "tw:5371": {
+      "market": "tw",
+      "exchange": "TPEX",
+      "symbol": "5371",
+      "name": "中光電",
+      "industry_group": "光電／智能機器人／無人機",
+      "latest_report_date": "2026-07-31",
+      "valid_until": "2026-08-07",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-5371/",
+      "url": "stocks/tw-5371/",
+      "aliases": [
+        "5371",
+        "5371.TW",
+        "TPEX:5371",
+        "中光電",
+        "中強光電"
+      ]
+    },
     "tw:5388": {
       "market": "tw",
       "exchange": "TWSE",
@@ -12468,6 +12487,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "PSI",
         "TWSE:8028",
         "8028.TW"
+      ]
+    },
+    "tw:8033": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "8033",
+      "name": "雷虎",
+      "industry_group": "無人機／國防系統",
+      "latest_report_date": "2026-07-31",
+      "valid_until": "2026-08-07",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-8033/",
+      "url": "stocks/tw-8033/",
+      "aliases": [
+        "8033",
+        "8033.TW",
+        "TWSE:8033",
+        "雷虎"
       ]
     },
     "tw:8039": {
