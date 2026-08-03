@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T23:45:07.025802+00:00",
+  "generated_at": "2026-08-03T03:04:05.624031+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -167,9 +167,9 @@
       "exchange": "TWSE",
       "symbol": "1215",
       "name": "卜蜂",
-      "industry_group": "肉品加工與飼料",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
+      "industry_group": "食品／飼料與肉品加工",
+      "latest_report_date": "2026-07-31",
+      "valid_until": "2026-08-10",
       "rating": "續抱",
       "latest_url": "stocks/tw-1215/",
       "url": "stocks/tw-1215/",
@@ -178,8 +178,7 @@
         "1215.TW",
         "TWSE:1215",
         "卜蜂",
-        "台灣卜蜂",
-        "Charoen Pokphand Enterprise Taiwan"
+        "台灣卜蜂"
       ]
     },
     "tw:1216": {
@@ -219,24 +218,66 @@
         "AGV Products"
       ]
     },
+    "tw:1218": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1218",
+      "name": "泰山",
+      "industry_group": "食品",
+      "latest_report_date": "2026-08-03",
+      "valid_until": "2026-08-10",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-1218/2026-08-03.html",
+      "url": "stocks/tw-1218/",
+      "aliases": [
+        "1218",
+        "1218.TW",
+        "1218.TWO",
+        "TWSE:1218",
+        "泰山",
+        "泰山企業",
+        "TAISUN"
+      ]
+    },
     "tw:1219": {
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "1219",
       "name": "福壽",
-      "industry_group": "食品工業",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
+      "industry_group": "食品",
+      "latest_report_date": "2026-08-03",
+      "valid_until": "2026-08-10",
       "rating": "觀察",
-      "latest_url": "stocks/tw-1219/",
+      "latest_url": "stocks/tw-1219/2026-08-03.html",
       "url": "stocks/tw-1219/",
       "aliases": [
         "1219",
         "1219.TW",
+        "1219.TWO",
         "TWSE:1219",
         "福壽",
         "福壽實業",
         "FWUSOW"
+      ]
+    },
+    "tw:1225": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1225",
+      "name": "福懋油",
+      "industry_group": "食品／油脂與飼料加工",
+      "latest_report_date": "2026-07-31",
+      "valid_until": "2026-08-10",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/tw-1225/",
+      "url": "stocks/tw-1225/",
+      "aliases": [
+        "1225",
+        "1225.TW",
+        "1225.TWO",
+        "TWSE:1225",
+        "福懋油",
+        "福懋油脂"
       ]
     },
     "tw:1227": {
@@ -1707,11 +1748,11 @@
       "exchange": "TWSE",
       "symbol": "1702",
       "name": "南僑",
-      "industry_group": "食品、油脂、烘焙原料與消費品",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
+      "industry_group": "食品／烘焙油脂與消費品",
+      "latest_report_date": "2026-07-31",
+      "valid_until": "2026-08-10",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/tw-1702/2026-07-06/report.html",
+      "latest_url": "stocks/tw-1702/",
       "url": "stocks/tw-1702/",
       "aliases": [
         "1702",
@@ -11231,20 +11272,23 @@
     },
     "tw:6488": {
       "market": "tw",
-      "exchange": "TPEx",
+      "exchange": "TWSE",
       "symbol": "6488",
       "name": "環球晶",
-      "industry_group": "矽晶圓 / 功率",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
+      "industry_group": "矽晶圓",
+      "latest_report_date": "2026-08-03",
+      "valid_until": "2026-08-10",
       "rating": "觀察",
-      "latest_url": "stocks/tw-6488/",
+      "latest_url": "stocks/tw-6488/2026-08-03.html",
       "url": "stocks/tw-6488/",
       "aliases": [
         "6488",
+        "6488.TW",
         "6488.TWO",
+        "TWSE:6488",
         "TPEx:6488",
         "環球晶",
+        "環球晶圓",
         "GlobalWafers"
       ]
     },
@@ -11913,9 +11957,9 @@
       "exchange": "TWSE",
       "symbol": "6770",
       "name": "力積電",
-      "industry_group": "成熟製程",
-      "latest_report_date": "2026-07-14",
-      "valid_until": "2026-07-21",
+      "industry_group": "半導體／成熟製程與記憶體代工",
+      "latest_report_date": "2026-07-31",
+      "valid_until": "2026-08-10",
       "rating": "觀察",
       "latest_url": "stocks/tw-6770/",
       "url": "stocks/tw-6770/",
@@ -11924,7 +11968,6 @@
         "6770.TW",
         "TWSE:6770",
         "力積電",
-        "Powerchip Semiconductor Manufacturing",
         "PSMC"
       ]
     },
@@ -16960,16 +17003,18 @@
       "exchange": "US",
       "symbol": "COHR",
       "name": "Coherent",
-      "industry_group": "光通訊",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "industry_group": "光通訊／光子元件與材料",
+      "latest_report_date": "2026-07-31",
+      "valid_until": "2026-08-10",
       "rating": "觀察",
-      "latest_url": "stocks/us-COHR/",
+      "latest_url": "stocks/us-cohr/",
       "url": "stocks/us-cohr/",
       "aliases": [
         "COHR",
-        "COHR",
-        "Coherent"
+        "US:COHR",
+        "NYSE:COHR",
+        "Coherent",
+        "Coherent Corp."
       ]
     },
     "us:coin": {
@@ -21808,17 +21853,20 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "LITE",
-      "name": "Lumentum Holdings Inc. - Common Stock",
-      "industry_group": "通訊 / 光通訊與電信設備",
-      "latest_report_date": "2026-07-14",
-      "valid_until": "2026-07-21",
+      "name": "Lumentum Holdings Inc.",
+      "industry_group": "光通訊／光子半導體",
+      "latest_report_date": "2026-08-03",
+      "valid_until": "2026-08-10",
       "rating": "觀察",
-      "latest_url": "stocks/us-lite/",
+      "latest_url": "stocks/us-lite/2026-08-03.html",
       "url": "stocks/us-lite/",
       "aliases": [
         "LITE",
         "NASDAQ:LITE",
-        "US:LITE"
+        "US:LITE",
+        "Lumentum",
+        "Lumentum Holdings",
+        "Lumentum Holdings Inc."
       ]
     },
     "us:lkq": {
