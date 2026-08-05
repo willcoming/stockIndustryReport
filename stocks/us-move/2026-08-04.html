@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOVE Corvex, Inc. Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">美股 · GPU 加速 AI 雲端基礎設施</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">MOVE Corvex, Inc.</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-08-04</span>
+        <span class="meta-pill">有效至 2026-08-11</span>
+        <span class="meta-pill">評級 減碼/賣出</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-08-04.html">2026-08-04</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>Corvex（MOVE）GPU 加速 AI 雲端基礎設施產業研究報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>研究日期：2026-08-04；有效至 2026-08-11。最新股價日期：2026-08-04（只引用來源決策報告的 K 線統計，不使用延遲報價推導估值）。</li>
+<li>最新完整財報：2026Q1，但合併於 2026-03-19 完成，GAAP 季報僅包含 Corvex OpCo 12 天營運，跨期不可直接比較。</li>
+<li>官方／監管來源：<a href="https://s21.q4cdn.com/874588523/files/doc_financials/2026/q1/Corvex-Q1-2026-Earnings-Call-Announcement-Press-Release-FINAL.pdf">2026Q1 結果</a>、<a href="https://www.sec.gov/Archives/edgar/data/1734750/000121390026058993/ea0290472-10q_corvex.htm">2026Q1 SEC Form 10-Q</a>、<a href="https://www.sec.gov/Archives/edgar/data/1734750/000121390026077253/ea0297058-s1_corvex.htm">2026 年 7 月 S-1</a>、<a href="https://www.sec.gov/Archives/edgar/data/1734750/000121390026031846/ea0282032-8k_movano.htm">合併完成 8-K</a>。</li>
+<li>訊號來源：<code>reports/usStock/2026-08-04_us_kline_decision_report.md</code>。即時價格、完全稀釋股數、估值、GPU 容量利用率、客戶集中與合約單位經濟需查證。</li>
+<li>公司前身 Movano 的歷史財務不代表新 AI 雲端業務；所有 pro forma 與非 GAAP 指標均應與申報調節表並讀。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話：Corvex 是早期商業化的 GPU 加速 AI 雲端平台，同時保留前 Movano 的穿戴式健康裝置業務。</li>
+<li>2026Q1 GAAP 營收 51 萬美元，其中合併後 12 天 AI Platform and services 營收 47.5 萬美元；pro forma 季營收 370 萬美元。</li>
+<li>季末遞延收入 440 萬美元、現金 2,930 萬美元；GAAP 淨損 510 萬美元，pro forma 淨損 1,590 萬美元，pro forma 調整後 EBITDA 虧損 90 萬美元。</li>
+<li>8 月 4 日雖為 LZEMA20／3MA 雙買點，但收盤位置僅 4.3%、單日振幅 39.3%、量比 183.90；來源明確列為排除。</li>
+<li>目前研究評級：<strong>減碼/賣出</strong>。核心理由是極端價格風險、財務歷史斷裂、虧損與潛在大幅稀釋，不因雙技術買點改變。</li>
+<li>核心追蹤：GPU 部署與利用率、合約／遞延收入轉換、毛利、現金消耗、股數稀釋、融資設施使用及內控改善。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<p>新 Corvex 主要以 GPU 加速基礎設施向 AI 模型訓練與推論客戶出售算力、平台與相關服務。收入可來自預留容量、按使用量計價、託管與工程服務；遞延收入代表已收取或已合約但尚未滿足履約義務的部分，不能直接當期營收或現金獲利。</p>
+<p>公司亦保留 Connected devices and services，包括原 Movano 女性健康穿戴裝置。該業務與 AI 雲端的客戶、資本需求及競爭結構不同，管理層資源配置與未來處分／持續經營策略需查證。AI 雲端需要先購置或租用 GPU、資料中心電力、網路與儲存，只有高利用率、穩定價格及低資金成本才能轉成正自由現金流。</p>
+<h2>3. 從公司反推產業</h2>
+<p>GPU 雲端受生成式 AI 訓練、推論及主權／安全需求驅動。需求成長快，但供給同時由大型 hyperscaler、專業 GPU cloud 與客戶自建擴張；硬體迭代、電力限制、晶片供應、價格競爭與融資條件決定回報。</p>
+<p>早期業者可用專業配置、部署速度或安全隔離取得客戶，但規模較小也意味採購議價弱、客戶集中高與再融資依賴。產業故事應落到已部署 GPU、可售容量、利用率、每 GPU 收入、毛利與現金回收期。</p>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>角色</th>
+<th>代表企業／類型</th>
+<th>價值來源</th>
+<th>主要風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游</td>
+<td>GPU、網路、伺服器、儲存、電力與資料中心</td>
+<td>NVIDIA、AMD、設備 OEM、機房與電力商</td>
+<td>稀缺硬體、互連與供電</td>
+<td>交期、價格、設備折舊</td>
+</tr>
+<tr>
+<td>中游</td>
+<td>Hyperscaler 與 GPU cloud</td>
+<td>AWS、Azure、Google Cloud、CoreWeave、Nebius、Corvex</td>
+<td>容量、軟體、安全與服務</td>
+<td>資本密集、利用率、價格戰</td>
+</tr>
+<tr>
+<td>下游</td>
+<td>模型商、企業、政府與研究機構</td>
+<td>AI 開發商與算力客戶</td>
+<td>訓練／推論效率、資料安全</td>
+<td>客戶集中、預算與自建替代</td>
+</tr>
+</tbody>
+</table></div>
+<p>Corvex 位於資本密集的中游，規模遠小於主要競爭者。只有當遞延收入轉為高毛利營收且不靠持續稀釋支應設備時，產業成長才會轉化為股東價值。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>潛在差異化：公司主張工程導向、GPU 加速、分層安全與高效架構；實際效能與續約仍需第三方和客戶證據。</li>
+<li>合約容量：遞延收入可提供部分可見度，但須核對取消條款、履約期及客戶集中。</li>
+<li>切換成本：AI 工作負載、資料與工具鏈遷移可形成黏著，前提是平台已有大規模生產使用。</li>
+<li>護城河反證：競爭者更便宜、GPU 代際快速折舊或客戶轉向 hyperscaler 時，小型平台的設備和融資成本會放大。</li>
+<li>目前不能確認具耐久護城河；應視為待驗證的早期商業模式。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>2026Q1 指標</th>
+<th style="text-align:right">結果</th>
+<th>解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GAAP 營收</td>
+<td style="text-align:right">51 萬美元</td>
+<td>僅含合併後 12 天；其中 AI 平台服務 47.5 萬美元</td>
+</tr>
+<tr>
+<td>Pro forma 營收</td>
+<td style="text-align:right">370 萬美元</td>
+<td>假設合併期初即完成；非 GAAP／未來不可保證</td>
+</tr>
+<tr>
+<td>遞延收入</td>
+<td style="text-align:right">440 萬美元</td>
+<td>較 2025 年底 1.2 萬美元增加，但履約與毛利需查證</td>
+</tr>
+<tr>
+<td>GAAP 淨損</td>
+<td style="text-align:right">510 萬美元</td>
+<td>仍處虧損</td>
+</tr>
+<tr>
+<td>Pro forma 淨損</td>
+<td style="text-align:right">1,590 萬美元</td>
+<td>顯示完整合併經濟成本較高</td>
+</tr>
+<tr>
+<td>調整後 EBITDA 損失</td>
+<td style="text-align:right">160 萬美元</td>
+<td>比去年改善；pro forma 損失 90 萬美元</td>
+</tr>
+<tr>
+<td>現金及約當現金</td>
+<td style="text-align:right">2,930 萬美元</td>
+<td>相對設備擴張與虧損的續航需壓力測試</td>
+</tr>
+</tbody>
+</table></div>
+<p>完全稀釋股數是關鍵：S-1 顯示 Series C 已於 7 月轉換，Series D 仍可轉換；另有最高總購買價 10 億美元的 equity facility（實際出售受條件限制）。這不是已完成稀釋額，但構成重大潛在供給與每股價值風險。</p>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司／群組</th>
+<th>市場</th>
+<th>核心業務</th>
+<th>相對優勢</th>
+<th>主要風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Corvex（MOVE）</td>
+<td>美股</td>
+<td>早期 GPU cloud＋穿戴裝置</td>
+<td>小型專業平台、彈性</td>
+<td>規模、虧損、稀釋、內控</td>
+</tr>
+<tr>
+<td>CoreWeave（CRWV）</td>
+<td>美股</td>
+<td>專業 GPU cloud</td>
+<td>較大規模與客戶基礎</td>
+<td>高槓桿、客戶集中</td>
+</tr>
+<tr>
+<td>Nebius（NBIS）</td>
+<td>美股</td>
+<td>AI 基礎設施</td>
+<td>資本與區域布局</td>
+<td>高投入、執行</td>
+</tr>
+<tr>
+<td>AWS／Azure／Google Cloud</td>
+<td>美股</td>
+<td>Hyperscale cloud</td>
+<td>全球規模、軟體生態</td>
+<td>資本支出與監管</td>
+</tr>
+<tr>
+<td>緯創、廣達、緯穎等</td>
+<td>台股</td>
+<td>AI 伺服器製造</td>
+<td>硬體供應鏈規模</td>
+<td>並非雲端營運商，不宜直接套估值</td>
+</tr>
+</tbody>
+</table></div>
+<p>台股 AI 伺服器廠主要賺製造與設計服務收入，Corvex 則承擔容量、電力、利用率與融資風險；兩者本益比不可直接比較。</p>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th style="text-align:right">P/E</th>
+<th style="text-align:right">Forward P/E</th>
+<th style="text-align:right">EV/Sales</th>
+<th style="text-align:right">EV/EBITDA</th>
+<th>判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MOVE</td>
+<td style="text-align:right">不適用／需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">不適用／需查證</td>
+<td>虧損、合併歷史短且股數快速變動</td>
+</tr>
+<tr>
+<td>CRWV</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>規模與槓桿差異大</td>
+</tr>
+<tr>
+<td>NBIS</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>早期投資期，需看現金與容量</td>
+</tr>
+</tbody>
+</table></div>
+<p>MOVE 不適合以 P/E 評價。應使用完全稀釋企業價值對正常化營收／毛利，再對 GPU 年齡、債務、租賃、資本支出與客戶集中折價。因缺少可靠價格與完全稀釋股數快照，本報告不提供合理倍數或目標價。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收／現金流</th>
+<th>股東結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀</td>
+<td>容量快速部署、利用率高、續約強、融資成本可控</td>
+<td>營收倍增，逐步轉正 FCF</td>
+<td>稀釋被營運增長吸收</td>
+<td>遞延收入高毛利轉換、現金消耗下降</td>
+</tr>
+<tr>
+<td>基準</td>
+<td>客戶逐步上線、仍需設備與股權融資</td>
+<td>營收成長但 FCF 持續負</td>
+<td>每股價值受稀釋抵銷</td>
+<td>季度收入增長但股數同步上升</td>
+</tr>
+<tr>
+<td>悲觀</td>
+<td>GPU 價格下降、利用率不足、客戶／融資中斷</td>
+<td>毛利與現金惡化</td>
+<td>再融資、重大稀釋或持續經營風險</td>
+<td>合約取消、資金快速消耗、折價發股</td>
+</tr>
+</tbody>
+</table></div>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票</th>
+<th>評級</th>
+<th>理由</th>
+<th>排除原因</th>
+<th>重新評估條件</th>
+<th>進一步惡化條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MOVE</td>
+<td><strong>減碼/賣出</strong></td>
+<td>AI 雲端題材與遞延收入提供研究價值，但不足以抵銷風險</td>
+<td>39.3% 單日振幅、收盤位置 4.3%、量比 183.90；虧損、合併後財務不可比與潛在大幅稀釋</td>
+<td>至少兩季可比營收／毛利、現金續航與完全稀釋股數穩定，波動降至可管理</td>
+<td>折價融資、現金消耗加速、合約未轉收入、內控或上市合規惡化</td>
+</tr>
+</tbody>
+</table></div>
+<p>對未持有者，「減碼/賣出」在本報告等同明確排除、暫不建立部位；對已持有者不構成個人化賣出指令，仍須依自身成本、部位和風險限制決定。</p>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>MOVE 屬高風險高報酬／特殊情況微型 AI 基礎設施標的，不屬核心持股。</li>
+<li>CRWV、NBIS 可作專業 GPU cloud 營運基準；hyperscaler 作成本與規模上限；台股 ODM 僅作設備需求參照。</li>
+<li>在可比財務、股數與容量經濟未建立前，MOVE 應放在排除層，而非一般成長觀察層。</li>
+<li>雙技術買點不能抵銷極端波動與接近當日低點收盤的風險。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>GPU 供應、代際折舊、電力、機房和網路成本可能使資產快速貶值。</li>
+<li>客戶集中與合約取消會讓預留容量閒置。</li>
+<li>大型雲端及資本更充足的專業平台可發動價格競爭。</li>
+<li>股權設施、優先股轉換、認股權與股票薪酬可能持續稀釋。</li>
+<li>10-Q 指出歷史結果主要是舊健康業務，投資人缺少長期可比的新業務紀錄。</li>
+<li>S-1 揭露過往財務報導內控重大缺失；即使管理層改善，錯報與延遲風險仍需追蹤。</li>
+<li>反方觀點：即使 AI 算力需求快速成長，低毛利、高資本與高稀釋也可能讓企業成長不轉化為每股價值。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ol>
+<li>取得下一季 10-Q，分離 AI 平台與穿戴裝置營收、毛利、現金流。</li>
+<li>建立已部署 GPU、待部署容量、利用率、每 GPU 收入與電力成本表。</li>
+<li>核對前五大客戶、合約期限、取消權及遞延收入轉換。</li>
+<li>重建 Series D、選擇權、認股權、股權設施後的完全稀釋股數。</li>
+<li>追蹤現金消耗、資本承諾、設備融資與股權發售價格。</li>
+<li>驗證財務內控重大缺失補救與 Nasdaq 合規。</li>
+<li>等波動正常化後再以原始 OHLCV 評估技術訊號。</li>
+</ol>
+<h2>14. 結論</h2>
+<p>Corvex 提供小型 GPU 雲端的高成長敘事，但 2026Q1 只含 12 天新業務，現有財務不足以建立穩健基準。8 月 4 日雙買點伴隨 39.3% 振幅、183.90 量比與接近當日低點收盤，反映的是極端事件風險，不是可重複的低風險進場訊號；加上虧損、潛在稀釋和內控風險，評級為 <strong>減碼/賣出</strong>，維持明確排除。只有在可比收入、毛利、現金續航與完全稀釋股數連續獲得驗證後才重新研究。本報告僅供教育與研究，不保證報酬。</p>
+</article></main></div>
+</body>
+</html>
