@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-08-05T23:38:53.564279+00:00",
+  "generated_at": "2026-08-06T00:22:11.524008+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -4249,16 +4249,20 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2404",
       "name": "漢唐",
-      "industry_group": "半導體廠務",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "分批布局",
+      "industry_group": "廠務工程",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2404/",
       "url": "stocks/tw-2404/",
       "aliases": [
         "2404",
         "2404.TW",
-        "漢唐"
+        "TWSE:2404",
+        "漢唐",
+        "漢唐集成",
+        "United Integrated Services",
+        "UIS"
       ]
     },
     "tw:2405": {
@@ -10049,19 +10053,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "tw:5347": {
       "market": "tw",
-      "exchange": "TPEx",
+      "exchange": "TPEX",
       "symbol": "5347",
       "name": "世界先進",
       "industry_group": "成熟製程",
-      "latest_report_date": "2026-07-14",
-      "valid_until": "2026-07-21",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
       "rating": "觀察",
       "latest_url": "stocks/tw-5347/",
       "url": "stocks/tw-5347/",
       "aliases": [
         "5347",
         "5347.TWO",
-        "TPEx:5347",
+        "TPEX:5347",
         "世界先進",
         "世界",
         "Vanguard International Semiconductor",
@@ -10223,18 +10227,21 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "tw:5475": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEX",
       "symbol": "5475",
-      "name": "德宏",
-      "industry_group": "電子零組件(推論)",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
-      "rating": "減碼/賣出",
-      "latest_url": "reports/stock-industry-research/tw-5475/2026-07-13/report.html",
+      "name": "德宏工業股份有限公司",
+      "industry_group": "玻纖布",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
+      "rating": "觀察",
+      "latest_url": "reports/stock-industry-research/tw-5475/2026-08-06/report.html",
       "url": "stocks/tw-5475/",
       "aliases": [
         "5475",
-        "德宏"
+        "5475.TWO",
+        "德宏",
+        "德宏工業",
+        "Glotech"
       ]
     },
     "tw:5483": {
@@ -10935,10 +10942,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TPEX",
       "symbol": "6187",
       "name": "萬潤",
-      "industry_group": "CoWoS設備",
-      "latest_report_date": "2026-07-14",
-      "valid_until": "2026-07-21",
-      "rating": "分批布局",
+      "industry_group": "半導體設備",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
+      "rating": "觀察",
       "latest_url": "stocks/tw-6187/",
       "url": "stocks/tw-6187/",
       "aliases": [
@@ -14703,18 +14710,21 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:adbe": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "ADBE",
       "name": "Adobe",
-      "industry_group": "科技／預裝軟體",
-      "latest_report_date": "2026-07-24",
-      "valid_until": "2026-07-31",
-      "rating": "分批布局",
-      "latest_url": "stocks/us-adbe/",
+      "industry_group": "軟體／創意內容、文件與數位體驗 SaaS",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
+      "rating": "觀察",
+      "latest_url": "reports/stock-industry-research/us-adbe/2026-08-06/report.html",
       "url": "stocks/us-adbe/",
       "aliases": [
         "ADBE",
-        "US:ADBE"
+        "NASDAQ:ADBE",
+        "Adobe",
+        "Adobe Inc.",
+        "奧多比"
       ]
     },
     "us:adea": {
@@ -15602,17 +15612,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "APP",
-      "name": "Applovin Corporation - Class A Common Stock",
-      "industry_group": "科技 / 程式設計與資料處理軟體",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-07-07",
-      "rating": "分批布局",
+      "name": "AppLovin",
+      "industry_group": "軟體／廣告",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
+      "rating": "觀察",
       "latest_url": "stocks/us-app/",
       "url": "stocks/us-app/",
       "aliases": [
         "APP",
         "NASDAQ:APP",
-        "Applovin Corporation - Class A Common Stock"
+        "AppLovin",
+        "AppLovin Corporation"
       ]
     },
     "us:aptv": {
@@ -18399,19 +18410,21 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:crm": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "CRM",
-      "name": "Salesforce, Inc. Common Stock",
-      "industry_group": "科技／預先封裝電腦軟體",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "name": "Salesforce",
+      "industry_group": "軟體／企業 CRM、資料平台與代理式 AI",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
       "rating": "觀察",
-      "latest_url": "stocks/us-crm/",
+      "latest_url": "reports/stock-industry-research/us-crm/2026-08-06/report.html",
       "url": "stocks/us-crm/",
       "aliases": [
         "CRM",
         "NYSE:CRM",
-        "Salesforce"
+        "Salesforce",
+        "Salesforce.com",
+        "賽富時"
       ]
     },
     "us:crml": {
@@ -20287,19 +20300,21 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:fig": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "FIG",
-      "name": "Figma, Inc.",
-      "industry_group": "科技／預裝軟體",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "name": "Figma",
+      "industry_group": "軟體／協作式產品設計、開發與生成式 AI SaaS",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
       "rating": "觀察",
-      "latest_url": "stocks/us-fig/",
+      "latest_url": "reports/stock-industry-research/us-fig/2026-08-06/report.html",
       "url": "stocks/us-fig/",
       "aliases": [
         "FIG",
         "NYSE:FIG",
-        "Figma"
+        "Figma",
+        "Figma Inc.",
+        "菲格瑪"
       ]
     },
     "us:figr": {
@@ -25637,18 +25652,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NYSE",
       "symbol": "OKLO",
       "name": "Oklo Inc.",
-      "industry_group": "先進核能與小型模組化反應爐",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "industry_group": "核能",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
       "rating": "觀察",
-      "latest_url": "stocks/us-oklo/",
+      "latest_url": "reports/stock-industry-research/us-oklo/2026-08-06/report.html",
       "url": "stocks/us-oklo/",
       "aliases": [
         "OKLO",
         "NYSE:OKLO",
-        "Oklo",
-        "Oklo Inc",
-        "Oklo Inc."
+        "Oklo"
       ]
     },
     "us:okta": {
@@ -28720,16 +28733,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "SNDK",
-      "name": "SanDisk Corporation",
-      "industry_group": "NAND 快閃記憶體／儲存",
-      "latest_report_date": "2026-07-21",
-      "valid_until": "2026-07-28",
+      "name": "Sandisk Corporation",
+      "industry_group": "儲存",
+      "latest_report_date": "2026-08-06",
+      "valid_until": "2026-08-13",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-sndk/2026-07-21/report.html",
+      "latest_url": "reports/stock-industry-research/us-sndk/2026-08-06/report.html",
       "url": "stocks/us-sndk/",
       "aliases": [
         "SNDK",
         "NASDAQ:SNDK",
+        "Sandisk",
         "SanDisk"
       ]
     },
