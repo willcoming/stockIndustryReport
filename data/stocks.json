@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T23:52:29.077398+00:00",
+  "generated_at": "2026-08-07T00:19:23.294128+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -3944,10 +3944,10 @@
       "exchange": "TWSE",
       "symbol": "2363",
       "name": "矽統",
-      "industry_group": "半導體業",
-      "latest_report_date": "2026-07-08",
-      "valid_until": "2026-07-15",
-      "rating": "分批布局",
+      "industry_group": "IC 設計／轉投資",
+      "latest_report_date": "2026-08-07",
+      "valid_until": "2026-08-14",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2363/",
       "url": "stocks/tw-2363/",
       "aliases": [
@@ -3956,9 +3956,8 @@
         "TWSE:2363",
         "矽統",
         "矽統科技",
-        "矽統科技股份有限公司",
-        "Silicon Integrated Systems",
-        "SiS"
+        "SiS",
+        "Silicon Integrated Systems"
       ]
     },
     "tw:2364": {
@@ -4827,20 +4826,17 @@
       "exchange": "TWSE",
       "symbol": "2449",
       "name": "京元電子",
-      "industry_group": "半導體業",
-      "latest_report_date": "2026-07-22",
-      "valid_until": "2026-07-29",
-      "rating": "續抱",
-      "latest_url": "stocks/tw-2449/",
+      "industry_group": "半導體測試",
+      "latest_report_date": "2026-08-07",
+      "valid_until": "2026-08-14",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2449/2026-08-07.html",
       "url": "stocks/tw-2449/",
       "aliases": [
         "2449",
-        "2449.TW",
         "TWSE:2449",
         "京元電子",
-        "京元電",
-        "KYEC",
-        "King Yuan Electronics"
+        "KYEC"
       ]
     },
     "tw:2451": {
@@ -7959,6 +7955,27 @@
         "Uniflex Technology"
       ]
     },
+    "tw:3324": {
+      "market": "tw",
+      "exchange": "TPEx",
+      "symbol": "3324",
+      "name": "雙鴻",
+      "industry_group": "AI 散熱",
+      "latest_report_date": "2026-08-07",
+      "valid_until": "2026-08-14",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-3324/",
+      "url": "stocks/tw-3324/",
+      "aliases": [
+        "3324",
+        "3324.TWO",
+        "TPEX:3324",
+        "雙鴻",
+        "雙鴻科技",
+        "Auras",
+        "Auras Technology"
+      ]
+    },
     "tw:3338": {
       "market": "tw",
       "exchange": "TWSE",
@@ -8754,16 +8771,18 @@
       "exchange": "TWSE",
       "symbol": "3680",
       "name": "家登",
-      "industry_group": "半導體設備耗材",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "industry_group": "半導體耗材",
+      "latest_report_date": "2026-08-07",
+      "valid_until": "2026-08-14",
       "rating": "觀察",
-      "latest_url": "stocks/tw-3680/",
+      "latest_url": "stocks/tw-3680/2026-08-07.html",
       "url": "stocks/tw-3680/",
       "aliases": [
         "3680",
-        "3680.TWO",
-        "家登"
+        "TPEx:3680",
+        "家登",
+        "家登精密",
+        "Gudeng"
       ]
     },
     "tw:3694": {
@@ -10185,19 +10204,23 @@
     },
     "tw:5274": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "5274",
       "name": "信驊",
-      "industry_group": "伺服器管理晶片",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "industry_group": "BMC 晶片",
+      "latest_report_date": "2026-08-07",
+      "valid_until": "2026-08-14",
       "rating": "觀察",
       "latest_url": "stocks/tw-5274/",
       "url": "stocks/tw-5274/",
       "aliases": [
         "5274",
         "5274.TWO",
-        "信驊"
+        "TPEX:5274",
+        "信驊",
+        "信驊科技",
+        "ASPEED",
+        "ASPEED Technology"
       ]
     },
     "tw:5284": {
@@ -10478,15 +10501,17 @@
       "exchange": "TWSE",
       "symbol": "5483",
       "name": "中美晶",
-      "industry_group": "半導體(推論)",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
+      "industry_group": "半導體材料／太陽能",
+      "latest_report_date": "2026-08-07",
+      "valid_until": "2026-08-14",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/tw-5483/2026-07-13/report.html",
+      "latest_url": "stocks/tw-5483/2026-08-07.html",
       "url": "stocks/tw-5483/",
       "aliases": [
         "5483",
-        "中美晶"
+        "TWSE:5483",
+        "中美晶",
+        "中美矽晶"
       ]
     },
     "tw:5484": {
@@ -12459,6 +12484,27 @@
         "均華",
         "均華精密",
         "GMM"
+      ]
+    },
+    "tw:6643": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "6643",
+      "name": "M31 Technology Corporation",
+      "industry_group": "矽智財",
+      "latest_report_date": "2026-03-31",
+      "valid_until": "2026-08-14",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-6643/",
+      "url": "stocks/tw-6643/",
+      "aliases": [
+        "6643",
+        "6643.TW",
+        "6643.TWO",
+        "TWSE:6643",
+        "M31",
+        "M31 Technology",
+        "円星科技"
       ]
     },
     "tw:6655": {
@@ -29637,19 +29683,20 @@
     },
     "us:soun": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "SOUN",
-      "name": "SoundHound AI, Inc. - Class A Common Stock",
-      "industry_group": "科技 / 套裝軟體",
-      "latest_report_date": "2026-07-30",
-      "valid_until": "2026-08-06",
+      "name": "SoundHound AI",
+      "industry_group": "語音 AI",
+      "latest_report_date": "2026-08-07",
+      "valid_until": "2026-08-14",
       "rating": "觀察",
-      "latest_url": "stocks/us-soun/",
+      "latest_url": "stocks/us-soun/2026-08-07.html",
       "url": "stocks/us-soun/",
       "aliases": [
         "SOUN",
-        "SOUN:US",
-        "NASDAQ:SOUN"
+        "NASDAQ:SOUN",
+        "SoundHound",
+        "SoundHound AI"
       ]
     },
     "us:sprc": {
@@ -30899,21 +30946,21 @@
     },
     "us:u": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "U",
-      "name": "Unity Software Inc.",
-      "industry_group": "即時 3D 軟體與行動廣告科技",
-      "latest_report_date": "2026-07-20",
-      "valid_until": "2026-07-27",
+      "name": "Unity Software",
+      "industry_group": "遊戲引擎",
+      "latest_report_date": "2026-08-07",
+      "valid_until": "2026-08-14",
       "rating": "觀察",
-      "latest_url": "stocks/us-u/2026-07-20.html",
+      "latest_url": "stocks/us-u/2026-08-07.html",
       "url": "stocks/us-u/",
       "aliases": [
         "U",
-        "US:U",
         "NYSE:U",
         "Unity",
-        "Unity Software"
+        "Unity Software",
+        "Unity Technologies"
       ]
     },
     "us:ual": {
