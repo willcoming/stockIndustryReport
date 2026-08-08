@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:41:13.797645+00:00",
+  "generated_at": "2026-08-08T00:09:31.404174+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -2899,19 +2899,18 @@
       "exchange": "TWSE",
       "symbol": "2049",
       "name": "上銀",
-      "industry_group": "電機機械",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
-      "rating": "分批布局",
-      "latest_url": "stocks/tw-2049/",
+      "industry_group": "傳動元件",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
+      "rating": "觀察",
+      "latest_url": "tw-2049/2026-08-08/report.html",
       "url": "stocks/tw-2049/",
       "aliases": [
         "2049",
         "2049.TW",
-        "TWSE:2049",
         "上銀",
-        "上銀科技",
-        "HIWIN"
+        "HIWIN",
+        "HIWIN Technologies"
       ]
     },
     "tw:2059": {
@@ -3424,15 +3423,17 @@
       "symbol": "2303",
       "name": "聯電",
       "industry_group": "晶圓代工",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
       "rating": "觀察",
       "latest_url": "stocks/tw-2303/",
       "url": "stocks/tw-2303/",
       "aliases": [
         "2303",
         "2303.TW",
+        "2303.TWO",
         "TWSE:2303",
+        "UMC",
         "聯電"
       ]
     },
@@ -8789,19 +8790,18 @@
       "exchange": "TWSE",
       "symbol": "3653",
       "name": "健策",
-      "industry_group": "電子零組件業",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "industry_group": "散熱／半導體零組件",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
       "rating": "觀察",
       "latest_url": "stocks/tw-3653/",
       "url": "stocks/tw-3653/",
       "aliases": [
         "3653",
         "3653.TW",
+        "3653.TWO",
         "TWSE:3653",
-        "健策",
-        "健策精密",
-        "JENTECH"
+        "健策"
       ]
     },
     "tw:3661": {
@@ -10073,16 +10073,19 @@
       "exchange": "TWSE",
       "symbol": "4967",
       "name": "十銓",
-      "industry_group": "半導體業",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
-      "rating": "分批布局",
+      "industry_group": "記憶體模組",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
+      "rating": "觀察",
       "latest_url": "stocks/tw-4967/",
       "url": "stocks/tw-4967/",
       "aliases": [
         "4967",
         "4967.TW",
-        "十銓"
+        "4967.TWO",
+        "TWSE:4967",
+        "十銓",
+        "TEAMGROUP"
       ]
     },
     "tw:4968": {
@@ -10397,22 +10400,21 @@
     },
     "tw:5289": {
       "market": "tw",
-      "exchange": "TPEx",
+      "exchange": "TWSE",
       "symbol": "5289",
       "name": "宜鼎",
-      "industry_group": "記憶體",
-      "latest_report_date": "2026-07-14",
-      "valid_until": "2026-07-21",
+      "industry_group": "工業記憶體",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
       "rating": "觀察",
-      "latest_url": "stocks/tw-5289/",
+      "latest_url": "tw-5289/2026-08-08/report.html",
       "url": "stocks/tw-5289/",
       "aliases": [
         "5289",
-        "5289.TW",
         "5289.TWO",
         "宜鼎",
-        "宜鼎國際",
-        "Innodisk"
+        "Innodisk",
+        "Innodisk Corporation"
       ]
     },
     "tw:5328": {
@@ -11772,18 +11774,23 @@
     },
     "tw:6274": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "6274",
-      "name": "台燿",
-      "industry_group": "電子零組件(推論)",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
-      "rating": "減碼/賣出",
-      "latest_url": "reports/stock-industry-research/tw-6274/2026-07-13/report.html",
+      "name": "台燿科技股份有限公司",
+      "industry_group": "CCL",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-6274/",
       "url": "stocks/tw-6274/",
       "aliases": [
         "6274",
-        "台燿"
+        "6274.TWO",
+        "TPEX:6274",
+        "台燿",
+        "台燿科技",
+        "TUC",
+        "Taiwan Union Technology"
       ]
     },
     "tw:6277": {
@@ -12248,6 +12255,25 @@
         "TWSE:6505",
         "台塑化",
         "台塑石化"
+      ]
+    },
+    "tw:6510": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "6510",
+      "name": "精測",
+      "industry_group": "半導體測試介面",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
+      "rating": "觀察",
+      "latest_url": "tw-6510/2026-08-08/report.html",
+      "url": "stocks/tw-6510/",
+      "aliases": [
+        "6510",
+        "6510.TWO",
+        "精測",
+        "中華精測",
+        "CHPT"
       ]
     },
     "tw:6515": {
@@ -13812,9 +13838,9 @@
       "exchange": "TWSE",
       "symbol": "8039",
       "name": "台虹科技股份有限公司",
-      "industry_group": "電子零組件業",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "industry_group": "FCCL／軟板材料",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
       "rating": "觀察",
       "latest_url": "stocks/tw-8039/",
       "url": "stocks/tw-8039/",
@@ -14199,17 +14225,17 @@
       "market": "tw",
       "exchange": "TPEx",
       "symbol": "8299",
-      "name": "群聯",
-      "industry_group": "記憶體",
-      "latest_report_date": "2026-07-14",
-      "valid_until": "2026-07-21",
+      "name": "群聯電子股份有限公司",
+      "industry_group": "NAND 控制晶片",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
       "rating": "觀察",
       "latest_url": "stocks/tw-8299/",
       "url": "stocks/tw-8299/",
       "aliases": [
         "8299",
-        "8299.TW",
         "8299.TWO",
+        "TPEX:8299",
         "群聯",
         "群聯電子",
         "Phison"
@@ -16410,20 +16436,18 @@
     },
     "us:asml": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NASDAQ",
       "symbol": "ASML",
-      "name": "艾司摩爾",
+      "name": "ASML",
       "industry_group": "半導體設備",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
-      "rating": "觀察",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
+      "rating": "分批布局",
       "latest_url": "stocks/us-asml/",
       "url": "stocks/us-asml/",
       "aliases": [
         "ASML",
         "NASDAQ:ASML",
-        "US:ASML",
-        "艾司摩爾",
         "ASML Holding"
       ]
     },
@@ -17957,6 +17981,24 @@
         "CB",
         "NYSE:CB",
         "Chubb"
+      ]
+    },
+    "us:cbrs": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CBRS",
+      "name": "Cerebras",
+      "industry_group": "AI 推理晶片",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
+      "rating": "觀察",
+      "latest_url": "stocks/us-cbrs/",
+      "url": "stocks/us-cbrs/",
+      "aliases": [
+        "CBRS",
+        "NASDAQ:CBRS",
+        "Cerebras",
+        "Cerebras Systems"
       ]
     },
     "us:ccc": {
@@ -30729,9 +30771,9 @@
       "exchange": "NASDAQ",
       "symbol": "TEAM",
       "name": "Atlassian",
-      "industry_group": "科技／團隊協作軟體",
-      "latest_report_date": "2026-07-24",
-      "valid_until": "2026-07-31",
+      "industry_group": "企業協作軟體",
+      "latest_report_date": "2026-08-08",
+      "valid_until": "2026-08-15",
       "rating": "觀察",
       "latest_url": "stocks/us-team/",
       "url": "stocks/us-team/",
