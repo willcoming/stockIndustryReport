@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T00:11:36.759047+00:00",
+  "generated_at": "2026-08-10T00:02:38.830038+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -2920,9 +2920,9 @@
       "exchange": "TWSE",
       "symbol": "2059",
       "name": "川湖",
-      "industry_group": "電子零組件業",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "industry_group": "伺服器導軌",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
       "rating": "觀察",
       "latest_url": "stocks/tw-2059/",
       "url": "stocks/tw-2059/",
@@ -2931,7 +2931,6 @@
         "2059.TW",
         "TWSE:2059",
         "川湖",
-        "川湖科技",
         "King Slide"
       ]
     },
@@ -4319,17 +4318,18 @@
       "exchange": "TWSE",
       "symbol": "2395",
       "name": "研華",
-      "industry_group": "電腦及週邊設備業",
-      "latest_report_date": "2026-07-08",
-      "valid_until": "2026-07-15",
-      "rating": "分批布局",
+      "industry_group": "工業電腦／邊緣 AI",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2395/",
       "url": "stocks/tw-2395/",
       "aliases": [
-        "Advantech",
-        "研華股份有限公司",
+        "2395",
+        "2395.TW",
         "TWSE:2395",
-        "2395.TW"
+        "研華",
+        "Advantech"
       ]
     },
     "tw:2397": {
@@ -5155,15 +5155,18 @@
       "exchange": "TWSE",
       "symbol": "2467",
       "name": "志聖",
-      "industry_group": "設備(推論)",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
-      "rating": "減碼/賣出",
-      "latest_url": "reports/stock-industry-research/tw-2467/2026-07-13/report.html",
+      "industry_group": "半導體設備",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2467/",
       "url": "stocks/tw-2467/",
       "aliases": [
         "2467",
-        "志聖"
+        "2467.TW",
+        "TWSE:2467",
+        "志聖",
+        "C Sun"
       ]
     },
     "tw:2468": {
@@ -7091,10 +7094,10 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "3022",
-      "name": "威強電工業電腦股份有限公司",
-      "industry_group": "電腦及週邊設備業",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "name": "威強電",
+      "industry_group": "工業電腦／邊緣 AI",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
       "rating": "觀察",
       "latest_url": "stocks/tw-3022/",
       "url": "stocks/tw-3022/",
@@ -7720,19 +7723,21 @@
     },
     "tw:3105": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "3105",
       "name": "穩懋",
       "industry_group": "化合物半導體",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
       "rating": "觀察",
-      "latest_url": "https://www.winfoundry.com/en-US/Invest/invest_index",
+      "latest_url": "stocks/tw-3105/",
       "url": "stocks/tw-3105/",
       "aliases": [
-        "穩懋半導體",
-        "WIN Semiconductors",
-        "3105.TW"
+        "3105",
+        "3105.TWO",
+        "TPEX:3105",
+        "穩懋",
+        "WIN Semiconductors"
       ]
     },
     "tw:3135": {
@@ -7877,18 +7882,17 @@
       "symbol": "3211",
       "name": "順達",
       "industry_group": "備援電池模組",
-      "latest_report_date": "2026-07-10",
-      "valid_until": "2026-07-17",
-      "rating": "分批布局",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3211/",
       "url": "stocks/tw-3211/",
       "aliases": [
+        "3211",
+        "3211.TWO",
+        "TPEX:3211",
         "順達",
-        "順達科技",
-        "Dynapack",
-        "Dynapack International Technology",
-        "TPEx:3211",
-        "3211.TWO"
+        "Dynapack"
       ]
     },
     "tw:3227": {
@@ -8415,10 +8419,10 @@
       "exchange": "TPEx",
       "symbol": "3529",
       "name": "力旺",
-      "industry_group": "ASIC 客製化晶片與矽智財",
-      "latest_report_date": "2026-07-08",
-      "valid_until": "2026-07-15",
-      "rating": "分批布局",
+      "industry_group": "半導體 IP",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3529/",
       "url": "stocks/tw-3529/",
       "aliases": [
@@ -8426,10 +8430,7 @@
         "3529.TWO",
         "TPEX:3529",
         "力旺",
-        "力旺電子",
-        "力旺電子股份有限公司",
-        "eMemory",
-        "eMemory Technology"
+        "eMemory"
       ]
     },
     "tw:3530": {
@@ -19685,16 +19686,17 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "DDOG",
-      "name": "Datadog, Inc. - Class A Common Stock",
-      "industry_group": "科技／預先封裝電腦軟體",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "name": "Datadog",
+      "industry_group": "雲端可觀測性軟體",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
       "rating": "觀察",
       "latest_url": "stocks/us-ddog/",
       "url": "stocks/us-ddog/",
       "aliases": [
         "DDOG",
         "NASDAQ:DDOG",
+        "US:DDOG",
         "Datadog"
       ]
     },
@@ -30029,17 +30031,18 @@
     },
     "us:snap": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NYSE",
       "symbol": "SNAP",
       "name": "Snap",
       "industry_group": "社群平台",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "latest_report_date": "2026-08-10",
+      "valid_until": "2026-08-17",
       "rating": "觀察",
       "latest_url": "stocks/us-snap/",
       "url": "stocks/us-snap/",
       "aliases": [
         "SNAP",
+        "NYSE:SNAP",
         "US:SNAP",
         "Snap"
       ]
