@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-08-11T00:03:58.813476+00:00",
+  "generated_at": "2026-08-11T00:10:41.060585+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -4298,9 +4298,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2383",
       "name": "台光電子材料股份有限公司",
-      "industry_group": "電子零組件業",
-      "latest_report_date": "2026-08-03",
-      "valid_until": "2026-08-10",
+      "industry_group": "CCL",
+      "latest_report_date": "2026-08-11",
+      "valid_until": "2026-08-18",
       "rating": "觀察",
       "latest_url": "stocks/tw-2383/",
       "url": "stocks/tw-2383/",
@@ -10371,19 +10371,23 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "tw:4991": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "4991",
       "name": "環宇-KY",
-      "industry_group": "光通訊",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "industry_group": "砷化鎵／光通訊",
+      "latest_report_date": "2026-08-11",
+      "valid_until": "2026-08-18",
       "rating": "觀察",
-      "latest_url": "https://gcsincorp.com/tc/investors/Shareholder_Services.php",
+      "latest_url": "stocks/tw-4991/",
       "url": "stocks/tw-4991/",
       "aliases": [
-        "環宇通訊半導體",
+        "4991",
+        "4991.TW",
+        "4991.TWO",
+        "TPEx:4991",
+        "環宇-KY",
         "Global Communication Semiconductors",
-        "4991.TWO"
+        "GCS"
       ]
     },
     "tw:5007": {
@@ -30551,17 +30555,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:snow": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NYSE",
       "symbol": "SNOW",
       "name": "Snowflake",
-      "industry_group": "數據庫(推論)",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
+      "industry_group": "雲端資料平台",
+      "latest_report_date": "2026-08-11",
+      "valid_until": "2026-08-18",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-snow/2026-07-13/report.html",
+      "latest_url": "stocks/us-snow/",
       "url": "stocks/us-snow/",
       "aliases": [
         "SNOW",
+        "US:SNOW",
+        "NYSE:SNOW",
         "Snowflake"
       ]
     },
