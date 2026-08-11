@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6443 元晶 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 光電業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">6443 元晶</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-08-11</span>
+        <span class="meta-pill">有效至 2026-08-18</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-08-11.html">2026-08-11</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>元晶 6443 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>本報告研究日期：2026-08-11；有效至 2026-08-18。市場為 TWSE，財報幣別為新台幣，會計年度為曆年制。</li>
+<li>最新股價日期：2026-08-11；來源 K 線掃描收盤 26.90 元、成交 2,702,826 股、成交金額 72,588,243 元。TWSE 2026-08-10 估值為 P/E 不適用、P/B 3.91 倍、殖利率空白。</li>
+<li>最新可核財報：2026Q1，營收 406,130 千元、毛利率約 -5.14%、營益率約 -18.79%、稅後虧損約 101 百萬元、EPS -0.20 元。公司排定 2026-08-11 董事會審議 Q2，截點尚無可交叉核對完整數字。</li>
+<li>最新營收：TWSE 個股資訊顯示 2026 年 7 月 67,526 千元，年減約 1.67%；前 7 月 741,359 千元，年減約 37.16%。</li>
+<li>主要來源：<a href="https://www.twse.com.tw/pdf/ch/6443_ch.pdf">TWSE 個股資訊（2026-08-11）</a>、<a href="https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL">TWSE 估值 OpenAPI</a>、<a href="https://www.tsecpv.com/company/">元晶公司簡介</a>、<a href="https://www.tsecpv.com/solar/">元晶太陽能模組</a>、<a href="https://www.tsecpv.com/financial-statements/">元晶財務報表</a>、<a href="https://www.moea.gov.tw/Mns/populace/news/EpaperDetail.aspx?volume=20260520">經濟部 2026 綠能資訊</a>、來源決策報告 <code>reports/twStock/2026-08-11_tw_kline_decision_report.md</code>。</li>
+<li>資料缺口：Q2 主表、最新產品別出貨／ASP、產能利用率、客戶集中度、自由現金流、Forward P/E、P/S、EV/EBITDA、FCF Yield 均需查證。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話介紹：元晶是台灣太陽能電池及模組製造商，產品涵蓋 N 型高效率 TOPCon 與 PERC 模組。</li>
+<li>所屬主要產業：太陽光電／矽晶電池與模組製造。</li>
+<li>產業鏈位置：矽料、矽晶圓下游，案場／EPC 與發電業者上游的中游製造。</li>
+<li>核心投資邏輯：台灣光電裝置長期仍成長，且在地製造與高效模組有政策／認證價值；但元晶 2026Q1 毛利為負、前 7 月營收大減約 37%，P/B 3.91 倍已不便宜。</li>
+<li>目前投資評級：觀察。</li>
+<li>主要理由：產業需求存在，基本面與估值安全邊際不足；8 月 11 日技術訊號僅 LZEMA20，量比 0.44，需等待確認。</li>
+<li>主要風險：全球模組供給過剩、價格競爭、政策／躉購制度、關稅與供應鏈、稼動率、資本支出與現金流。</li>
+<li>最重要追蹤指標：模組 ASP、出貨量／稼動率、毛利率、月營收、存貨、營業現金流。</li>
+<li>代表同業：台股聯合再生、安集、茂迪；美股 First Solar、Enphase、SolarEdge，海外 Canadian Solar、JinkoSolar。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>主要產品：太陽能電池、PERC 與 N 型高效率 TOPCon 模組，並透過關係企業／合作案連結案場需求。</li>
+<li>營收來源：電池與模組銷售；產品、區域與案場占比需以最新年報／Q2 附註查證。</li>
+<li>主要客戶：EPC、系統整合商、光電案場開發商及電力需求方；具名客戶與集中度需查證。</li>
+<li>毛利率與營益率：高度受模組 ASP、矽料／電池成本、稼動率與產品效率影響；2026Q1 毛利率 -5.14%、營益率 -18.79%，顯示價格與產能吸收壓力。</li>
+<li>成長來源：國內裝置量、在地供應政策、高效率產品占比、出口與市占；不是單靠售價。</li>
+<li>景氣循環性：高。產能擴張、庫存與政策節奏造成價格週期。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>公司所屬產業：晶矽太陽能電池／模組製造。</li>
+<li>產業解決問題：把太陽輻射轉為低碳電力，供屋頂型、地面型與水面型案場使用。</li>
+<li>需求來源：政府再生能源目標、企業綠電／RE100、電網與資料中心用電成長、案場投資報酬。</li>
+<li>產業階段：全球需求仍成長，但製造端處於供給過剩與技術迭代週期；台灣案場受土地、併網與許可限制。</li>
+<li>長期驅動：經濟部指出截至 2026 年 4 月台灣光電累積約 15.82GW，且新建物光電義務預估每年增加 0.66GW；高效率 N 型技術與本土供應鏈仍有需求。</li>
+<li>短期波動：模組報價、矽料價格、補貼／躉購費率、天候、案場核准、關稅與庫存。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游材料</td>
+<td>矽料、矽晶圓、銀漿、玻璃</td>
+<td>多晶矽、晶圓、封裝材料</td>
+<td>DQ、AMAT（設備參考）</td>
+<td>3576 聯合再生供應鏈、材料商需查證</td>
+<td>隨週期變動</td>
+<td>商品化、波動大</td>
+<td>過剩、原料價格</td>
+</tr>
+<tr>
+<td>電池製造</td>
+<td>電池片</td>
+<td>PERC、TOPCon</td>
+<td>JKS、CSIQ</td>
+<td>6443 元晶、3576 聯合再生</td>
+<td>中低</td>
+<td>良率／效率敏感</td>
+<td>技術淘汰、價格戰</td>
+</tr>
+<tr>
+<td>模組製造</td>
+<td>模組設計與組裝</td>
+<td>高效率模組</td>
+<td>FSLR、CSIQ、JKS</td>
+<td>元晶、聯合再生、6477 安集</td>
+<td>中低</td>
+<td>ASP 與稼動率敏感</td>
+<td>庫存、保固、關稅</td>
+</tr>
+<tr>
+<td>EPC／系統</td>
+<td>設計、採購、建置</td>
+<td>屋頂／地面案場</td>
+<td>FLNC、NXT</td>
+<td>6244 茂迪等需個案查證</td>
+<td>中</td>
+<td>專案型</td>
+<td>許可、工期、融資</td>
+</tr>
+<tr>
+<td>發電／終端</td>
+<td>售電與綠電</td>
+<td>PPA、躉售</td>
+<td>NEE</td>
+<td>6869 雲豹能源、6873 泓德能源</td>
+<td>中高</td>
+<td>長約較穩</td>
+<td>利率、電網、政策</td>
+</tr>
+<tr>
+<td>電力電子</td>
+<td>逆變器／儲能</td>
+<td>逆變器、優化器</td>
+<td>ENPH、SEDG</td>
+<td>產品同業需查證</td>
+<td>中</td>
+<td>技術／通路較佳</td>
+<td>需求與庫存</td>
+</tr>
+</tbody>
+</table></div>
+<p>元晶位於電池與模組中游，是供應鏈必要環節，但標準化與全球產能過剩壓低議價力；真正差異須由效率、良率、認證、在地供應與客戶交付驗證。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：電池轉換效率、良率、模組可靠性與 TOPCon 製程是核心，但技術追趕速度快。</li>
+<li>規模經濟：量產可降低單位成本；低稼動時折舊反噬毛利。</li>
+<li>客戶黏著：案場認證、保固與銀行可融資性形成轉換成本，但價格仍是重要決策。</li>
+<li>品牌／通路：台灣製造、金能獎與既有案場實績可加分，尚不足以抵銷全球報價下跌。</li>
+<li>成本優勢：Q1 負毛利不支持已具成本優勢的判斷。</li>
+<li>資本門檻：產線、研發、品質與長期保固需要資本；同時造成折舊與現金流風險。</li>
+<li>替代性：模組品牌間替代性中高；高效率、特規與在地採購可降低替代性。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<ul>
+<li>營收成長：2026 年 7 月年減約 1.67%，前 7 月年減約 37.16%；雖降幅收斂，基期與持續性仍需觀察。</li>
+<li>毛利率：2026Q1 約 -5.14%；回到正值只是第一道門檻。</li>
+<li>營益率：2026Q1 約 -18.79%；需同時改善費用與稼動。</li>
+<li>EPS：2026Q1 -0.20 元；Q2 尚待正式可核資料。</li>
+<li>自由現金流／資本支出：需查證；擴產與技術升級若無訂單會消耗現金。</li>
+<li>存貨週轉：模組跌價週期的核心風險，存貨天數上升可能帶來跌價損失。</li>
+<li>訂單能見度／客戶集中：需查證；案場延遲會使出貨遞延。</li>
+<li>市占與產能利用率：公司曾有台灣模組出貨排名與在地實績，但 2026 最新市占／稼動率需查證。</li>
+<li>技術 KPI：TOPCon 良率、瓦數、衰減與單瓦成本。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6443</td>
+<td>元晶</td>
+<td>台灣</td>
+<td>電池／模組</td>
+<td>PERC、TOPCon 模組</td>
+<td>台灣製造與案場實績</td>
+<td>負毛利、稼動、價格戰</td>
+<td>中</td>
+<td>低</td>
+<td>P/E 不適用、P/B 3.91 偏高</td>
+</tr>
+<tr>
+<td>3576</td>
+<td>聯合再生</td>
+<td>台灣</td>
+<td>電池／模組</td>
+<td>太陽能電池模組</td>
+<td>規模與整合</td>
+<td>虧損、供給過剩</td>
+<td>中</td>
+<td>低</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>6477</td>
+<td>安集</td>
+<td>台灣</td>
+<td>模組／電廠</td>
+<td>模組與綠電</td>
+<td>案場連結</td>
+<td>專案與價格</td>
+<td>中</td>
+<td>低中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>6244</td>
+<td>茂迪</td>
+<td>台灣</td>
+<td>電池／模組</td>
+<td>太陽能產品</td>
+<td>產業經驗</td>
+<td>規模與循環</td>
+<td>低中</td>
+<td>低</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>FSLR</td>
+<td>First Solar</td>
+<td>美國</td>
+<td>薄膜模組</td>
+<td>CdTe 公用級模組</td>
+<td>技術、在地產能、訂單</td>
+<td>政策與擴產</td>
+<td>高</td>
+<td>中高</td>
+<td>需查 Q2 即時估值</td>
+</tr>
+<tr>
+<td>CSIQ</td>
+<td>Canadian Solar</td>
+<td>美國／全球</td>
+<td>模組／儲能／案場</td>
+<td>晶矽模組與能源</td>
+<td>全球通路</td>
+<td>負債、價格、地域</td>
+<td>中</td>
+<td>低中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>JKS</td>
+<td>JinkoSolar</td>
+<td>美國／中國</td>
+<td>電池／模組</td>
+<td>N 型模組</td>
+<td>規模與技術</td>
+<td>中國供給、關稅</td>
+<td>高</td>
+<td>低</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>ENPH</td>
+<td>Enphase</td>
+<td>美國</td>
+<td>逆變器</td>
+<td>微型逆變器</td>
+<td>技術與通路</td>
+<td>住宅需求／庫存</td>
+<td>中</td>
+<td>中</td>
+<td>不可直接比模組倍數</td>
+</tr>
+<tr>
+<td>SEDG</td>
+<td>SolarEdge</td>
+<td>美國</td>
+<td>逆變器</td>
+<td>逆變器／能源管理</td>
+<td>安裝基礎</td>
+<td>虧損與庫存</td>
+<td>中</td>
+<td>低</td>
+<td>P/E 不適用時看 P/S／現金</td>
+</tr>
+<tr>
+<td>NXT</td>
+<td>Nextracker</td>
+<td>美國</td>
+<td>系統設備</td>
+<td>太陽能追日系統</td>
+<td>軟硬整合與訂單</td>
+<td>專案週期</td>
+<td>中高</td>
+<td>中高</td>
+<td>設備端溢價</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>元晶</td>
+<td>6443</td>
+<td>台灣</td>
+<td>不適用</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 3.91、虧損股</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>Q1 -5.14%</td>
+<td>前 7 月 -37.16%</td>
+<td>顯著欠缺安全邊際</td>
+</tr>
+<tr>
+<td>聯合再生</td>
+<td>3576</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>直接同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需看現金與稼動</td>
+</tr>
+<tr>
+<td>First Solar</td>
+<td>FSLR</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>政策／技術溢價</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>與晶矽同業差異大</td>
+</tr>
+<tr>
+<td>Canadian Solar</td>
+<td>CSIQ</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>全球模組</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>負債與週期重要</td>
+</tr>
+<tr>
+<td>JinkoSolar</td>
+<td>JKS</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>大型 N 型模組</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>規模不等於獲利</td>
+</tr>
+</tbody>
+</table></div>
+<p>元晶因虧損不宜用 P/E。P/B 3.91 倍對負毛利、營收大幅衰退的製造商並不便宜；除非市場提前反映政策／轉型，但該溢價須由 Q2 毛利、訂單與現金流驗證。Forward P/E、P/S、EV/EBITDA、FCF Yield 與 3～5 年區間均缺乏同時點可靠資料，保留需查證。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>台灣裝置加速、TOPCon 良率與稼動提高、ASP 止穩</td>
+<td>年複合 10%～20%</td>
+<td>毛利轉正、營益率至中個位數</td>
+<td>由虧轉盈</td>
+<td>轉盈後 P/B 2～3 倍或週期 P/E 15～20 倍觀察</td>
+<td>基本面修復</td>
+<td>連 2 季正毛利、訂單與 FCF 改善</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>需求成長但供給過剩延續</td>
+<td>年複合 0%～8%</td>
+<td>毛利低檔、損平附近</td>
+<td>微虧至微利</td>
+<td>P/B 1.5～2.5 倍</td>
+<td>高波動盤整</td>
+<td>營收回穩但 ASP／稼動改善有限</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>價格戰、案場延遲、技術升級再投資</td>
+<td>持平至負成長</td>
+<td>負毛利延續</td>
+<td>虧損擴大</td>
+<td>P/B 低於 1.5 倍</td>
+<td>估值壓縮</td>
+<td>存貨減損、現金流惡化、增資壓力</td>
+</tr>
+</tbody>
+</table></div>
+<p>最需要觀察 Q2／Q3 毛利率、TOPCon 出貨與良率、存貨、應收、營業現金流及月營收；估值倍數為情境框架而非目標價。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6443</td>
+<td>元晶</td>
+<td>觀察</td>
+<td>能理解政策與製造週期者</td>
+<td>長期裝置需求與在地供應價值尚存</td>
+<td>Q1 負毛利、前 7 月 -37%、P/B 3.91</td>
+<td>TOPCon、台灣案場與政策</td>
+<td>毛利、ASP、稼動、存貨、FCF</td>
+<td>連續正毛利與現金流可上調；虧損／存貨減損惡化可下調</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li>新手現在是否適合買入？不宜只因綠能題材或單日技術轉折買進，應先等 Q2／Q3 驗證毛利。</li>
+<li>已持有者如何看？教育性研究評級為觀察，重點是先定義負毛利、存貨與現金流的失效條件。</li>
+<li>等什麼條件？營收不再大幅衰退、毛利率連續轉正、稼動與 FCF 改善，且股價回測支撐或突破續強。</li>
+<li>上調訊號：TOPCon 大單、ASP 止穩、正毛利兩季、存貨下降、現金流轉正。</li>
+<li>下調訊號：負毛利延續、案場延後、存貨減損、再融資壓力或價格戰惡化。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不屬於，獲利與現金流尚不穩。</li>
+<li>成長型：產業需求具成長性，但公司尚未證明成長能轉成利潤。</li>
+<li>景氣循環型：屬於，ASP、庫存、稼動與政策形成強週期。</li>
+<li>高風險高報酬型：是；若供需反轉有高彈性，若負毛利延續則下行風險大。</li>
+<li>只適合觀察、不適合輕易買進：目前屬此類，等待財報與技術雙確認。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值：P/B 3.91 倍已反映相當預期，基本面若不修復將壓縮。</li>
+<li>景氣：全球過剩、模組 ASP 下跌與庫存調整。</li>
+<li>技術替代：PERC 向 TOPCon／更高效率技術轉移，舊產線可能減值。</li>
+<li>競爭：中國大型廠規模與成本優勢；反方是台灣在地含量、認證與供應安全可提供保護。</li>
+<li>政策／地緣：躉購費率、土地、環評、併網、關稅與原產地規則。</li>
+<li>客戶集中：大型案場延遲會顯著影響單季出貨。</li>
+<li>財報警訊：負毛利、存貨與應收增加、現金流出、資產減損、籌資需求。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀：2026Q2 完整財報、存貨跌價、現金流、資本支出、借款與產品／區域營收。</li>
+<li>法說重點：TOPCon 產能、良率、單瓦成本、ASP、訂單、台灣案場進度與出口。</li>
+<li>每季追蹤：月營收、毛利率、營益率、EPS、存貨天數、FCF、稼動率。</li>
+<li>產業來源：經濟部能源署、TWSE／MOPS、InfoLink（若可取得）、同業財報與案場併網資料。</li>
+<li>競爭名單：聯合再生、安集、茂迪、First Solar、Canadian Solar、JinkoSolar。</li>
+<li>初學者下一步研究 3 家：聯合再生（台灣直接同業）、First Solar（技術／政策差異）、Nextracker（系統設備獲利模型）。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>元晶是理解台灣太陽光電製造、政策需求與全球供給過剩矛盾的良好入口。</li>
+<li>產業值得長期追蹤，但公司目前最重要課題不是裝置量故事，而是負毛利能否轉正。</li>
+<li>P/B 3.91 倍與虧損、前 7 月營收衰退不匹配，成長預期已反映不少；8 月 11 日量能又未形成強確認。</li>
+<li>最終投資評級：觀察。優先研究 TOPCon 良率／成本、案場需求、存貨與現金流，再評估是否具備安全邊際。</li>
+</ul>
+</article></main></div>
+</body>
+</html>
