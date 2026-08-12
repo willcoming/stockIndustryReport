@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1718 中纖 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 化學工業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">1718 中纖</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-08-12</span>
+        <span class="meta-pill">有效至 2026-08-19</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-08-12.html">2026-08-12</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>中纖（1718）反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>研究日期：2026-08-12；有效至 2026-08-19。公司為中國人造纖維股份有限公司，TWSE：1718，財報幣別新台幣，會計年度至 12 月 31 日。本報告屬研究協助與情境分析，不是個人化投資建議。</li>
+<li>最新技術輸入：<code>reports/twStock/2026-08-12_tw_kline_decision_report.md</code> 收盤 11.20 元，列於「現在可以買名單」，LZEMA20／3MA 雙策略、技術分數 81、收盤位置 100%，但 AI 摘要仍要求隔日續強或回測不破；此為技術訊號，不等同基本面買入結論。</li>
+<li>最新可核對交易所估值：TWSE 2026-08-11 收盤 10.20 元、P/E 42.50 倍、P/B 0.61 倍；與 8/12 掃描價不同日期，不混用為同日估值。</li>
+<li>最新財報：公司 2026Q1 合併財報。收入 111.70 億元、稅前淨利 25.26 億元、淨利 20.51 億元；歸母淨利僅 2.28 億元、EPS 0.17 元。銀行部門收入 89.22 億元、部門損益 28.98 億元；化學工業與化學纖維部門分別虧損 1.12 億與 0.99 億元。</li>
+<li>最新營收：TWSE 月營收資料顯示 2026/07 合併營收 49.02 億元、年增 11.17%；前 7 月累計 286.61 億元、年增 3.08%。月營收含異業別合併，不能視為純化工需求。</li>
+<li>主要來源：<a href="https://www.cmfc.com.tw/_i/assets/file/report/53560b3c6ad91269c98464816fc67c5a.pdf">中纖 2026Q1 合併財報</a>、<a href="https://www.cmfc.com.tw/relation_tw_2.php">中纖財務報告專區</a>、<a href="https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL">TWSE 日成交</a>、<a href="https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL">TWSE 估值</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap05_L">TWSE 月營收</a>及本次正式 K 線報告。</li>
+<li>資料缺口：2026Q2 尚未在研究時完整核對；乙二醇／環氧乙烷報價與現金成本、纖維產品價差、台中銀資產品質、Forward P/E、EV/EBITDA、FCF Yield 及即時市值需查證。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話：中纖是「石化／化纖本業＋控制台中銀行」的複合型集團，名稱容易低估金融資產對合併報表的影響。</li>
+<li>所屬產業：石化中間體、聚酯纖維與銀行金融；產業鏈位置為上游石化原料加工、中游纖維材料，以及金融服務平台。</li>
+<li>核心邏輯：P/B 低於 1 倍可能反映資產折價，但歸母獲利必須同時扣除台中銀非控制權益，不能用合併淨利直接估值。</li>
+<li>目前投資評級：<strong>觀察</strong>。</li>
+<li>主要理由：2026Q1 歸母 EPS 改善至 0.17 元、銀行部門穩健獲利；但化工與化纖本業仍虧，8/11 P/E 42.5 倍並不便宜，單日 K 線轉折不足以確認結構反轉。</li>
+<li>主要風險：石化價差、能源與原料成本、中國產能、纖維需求、銀行信用成本、利差變化、複雜股權與非控制權益。</li>
+<li>追蹤指標：化工／纖維部門損益、MEG／EO 價差、台中銀淨利差與逾放、歸母淨利占合併淨利比、每股淨值與現金流。</li>
+<li>代表同業：台塑化、東聯、遠東新、新纖、南亞；Dow、LyondellBasell、Eastman、Kuraray；金融面對照台中銀、彰銀與區域銀行。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>化學工業部生產乙二醇、環氧乙烷等石化中間體；化學纖維部生產聚酯絲等產品；銀行部門由台中商銀及其子公司賺取利息、手續費與金融交易收益。</li>
+<li>2026Q1 收入結構中，銀行部門 89.22 億元占絕對多數；化工 7.44 億、化纖 5.42 億、其他 9.62 億元。收入規模與股東可分配獲利不是同一概念。</li>
+<li>銀行部門 Q1 部門損益 28.98 億元，但台中銀非控制權益占比高；合併淨利 20.51 億元中僅 2.28 億元歸屬中纖母公司股東。</li>
+<li>化工與化纖是高固定成本、商品化且景氣循環的業務，獲利來自產品售價減原料、能源、折舊及物流成本後的價差。</li>
+<li>成長可能來自價差回升、稼動率提高、利基產品組合與銀行資產規模／手續費；不是只看合併營收年增。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>石化／化纖解決聚酯、溶劑、塗料、紡織與工業材料的中間原料需求；銀行則提供存放款、支付與財富管理。</li>
+<li>傳統乙二醇與聚酯纖維屬成熟循環產業，供需與能源價格主導價差；金融業則受利率、信用週期與監管資本約束。</li>
+<li>長期驅動：亞洲消費與包材需求、差異化纖維、循環材料、銀行數位化與財富管理。</li>
+<li>短期波動：油價／乙烯成本、中國新增產能、下游庫存、匯率、央行利率、存放款利差與信用成本。</li>
+<li>研究重點是「雙循環」：化工循環改善時銀行可能面臨不同利率環境，需分部估值而非單一 P/E。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游原料／能源</td>
+<td>提供乙烯、天然氣與能源</td>
+<td>石化原料、燃料</td>
+<td>XOM、CVX</td>
+<td>台塑化</td>
+<td>高度循環</td>
+<td>隨油氣價格</td>
+<td>原料暴漲、供應中斷</td>
+</tr>
+<tr>
+<td>石化中間體</td>
+<td>中纖化工本業</td>
+<td>MEG、EO 等</td>
+<td>DOW、LYB</td>
+<td>1718 中纖、東聯</td>
+<td>低至中</td>
+<td>價差與稼動率敏感</td>
+<td>中國產能、低價競爭</td>
+</tr>
+<tr>
+<td>化纖材料</td>
+<td>聚酯／工業纖維</td>
+<td>聚酯絲、差異化纖維</td>
+<td>KURRY、EMN</td>
+<td>遠東新、新纖、中纖</td>
+<td>中</td>
+<td>利基品較佳</td>
+<td>成衣需求、庫存</td>
+</tr>
+<tr>
+<td>金融平台</td>
+<td>台中銀及子公司</td>
+<td>放款、存款、手續費</td>
+<td>USB、FITB</td>
+<td>台中銀、彰銀</td>
+<td>中</td>
+<td>利差與信用成本</td>
+<td>逾放、資本、利率</td>
+</tr>
+<tr>
+<td>下游終端</td>
+<td>紡織、包材、工業與金融客戶</td>
+<td>成衣、包裝、消費金融</td>
+<td>NKE、TGT</td>
+<td>聚陽、儒鴻</td>
+<td>高</td>
+<td>品牌／通路較高</td>
+<td>景氣與消費</td>
+</tr>
+</tbody>
+</table></div>
+<p>中纖同時位於石化／化纖中游及金融服務層；真正的關鍵位置目前是台中銀控制權，而非商品化學品定價權。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：連續製程、安全環保、產品品質與配方 know-how；但標準化 MEG／聚酯可替代性高。</li>
+<li>規模經濟：石化設備需要高稼動率；低稼動會放大折舊與能源成本。銀行則靠分行、存款基礎與風控攤提系統成本。</li>
+<li>客戶黏著：利基纖維與銀行主往來客戶黏著較高，標準化石化品較低。</li>
+<li>品牌／通路：台中銀區域存款與客群是相對穩定資產；中纖本體不是高品牌溢價材料商。</li>
+<li>資本與法規門檻高，但不能等同超額報酬；目前化工／化纖部門虧損顯示成本優勢仍待證明。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th style="text-align:right">最新可核對值</th>
+<th>解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026Q1 合併收入</td>
+<td style="text-align:right">111.70 億元</td>
+<td>年減約 2.8%，受多事業混合影響</td>
+</tr>
+<tr>
+<td>Q1 歸母淨利／EPS</td>
+<td style="text-align:right">2.28 億元／0.17 元</td>
+<td>優於去年 0.02 元，但占合併淨利低</td>
+</tr>
+<tr>
+<td>化工部門損益</td>
+<td style="text-align:right">-1.12 億元</td>
+<td>商品價差仍未回到獲利門檻</td>
+</tr>
+<tr>
+<td>化纖部門損益</td>
+<td style="text-align:right">-0.99 億元</td>
+<td>稼動率／產品組合待改善</td>
+</tr>
+<tr>
+<td>銀行部門損益</td>
+<td style="text-align:right">28.98 億元</td>
+<td>集團主要獲利來源</td>
+</tr>
+<tr>
+<td>2026/07 營收</td>
+<td style="text-align:right">49.02 億元，年增 11.17%</td>
+<td>含銀行等異業，不可等同出貨成長</td>
+</tr>
+<tr>
+<td>8/11 P/E／P/B</td>
+<td style="text-align:right">42.50x／0.61x</td>
+<td>低 P/B 與高 P/E並存，反映低 ROE／控股折價</td>
+</tr>
+<tr>
+<td>營業現金流</td>
+<td style="text-align:right">Q1 -144.03 億元</td>
+<td>銀行資產負債變動使一般 FCF 解讀失真</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>存貨週轉、CapEx、化工產能利用率、市占率及訂單能見度均需查證；銀行應另追蹤存放款、淨利差、覆蓋率與資本適足率。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1718</td>
+<td>中纖</td>
+<td>台股</td>
+<td>化工／化纖＋銀行</td>
+<td>MEG、聚酯、台中銀</td>
+<td>複合資產</td>
+<td>本業虧損、權益複雜</td>
+<td>中</td>
+<td>中</td>
+<td>P/B 0.61x、需 SOTP</td>
+</tr>
+<tr>
+<td>1710</td>
+<td>東聯</td>
+<td>台股</td>
+<td>EO 衍生物</td>
+<td>EO／EG／特化</td>
+<td>產品延伸</td>
+<td>石化循環</td>
+<td>中</td>
+<td>中低</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>1402</td>
+<td>遠東新</td>
+<td>台股</td>
+<td>聚酯一體化</td>
+<td>聚酯、紡織、電信</td>
+<td>垂直整合</td>
+<td>多角化折價</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>1409</td>
+<td>新纖</td>
+<td>台股</td>
+<td>化纖／塑料</td>
+<td>聚酯、工程塑料</td>
+<td>產品廣度</td>
+<td>循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>DOW</td>
+<td>Dow</td>
+<td>美股</td>
+<td>全球化學</td>
+<td>基礎化學／塑料</td>
+<td>規模與全球客戶</td>
+<td>能源與供需</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>LYB</td>
+<td>LyondellBasell</td>
+<td>美股</td>
+<td>石化</td>
+<td>烯烴／聚合物</td>
+<td>成本與規模</td>
+<td>景氣循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>2812</td>
+<td>台中銀</td>
+<td>台股</td>
+<td>銀行</td>
+<td>區域商銀</td>
+<td>存款與客群</td>
+<td>信用成本</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>中纖</td>
+<td>1718</td>
+<td>TWSE</td>
+<td>42.50x（8/11）</td>
+<td>需查證</td>
+<td>受循環與金融合併扭曲</td>
+<td>P/B 0.61x 偏低</td>
+<td>需查證</td>
+<td>不宜合併使用</td>
+<td>不宜合併比較</td>
+<td>7月 +11.17%</td>
+<td>低 P/B 不是立即便宜證據</td>
+</tr>
+<tr>
+<td>東聯</td>
+<td>1710</td>
+<td>TWSE</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>循環失真</td>
+<td>純化工對照</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>看正常化價差</td>
+</tr>
+<tr>
+<td>遠東新</td>
+<td>1402</td>
+<td>TWSE</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>多角化對照</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>SOTP 較合適</td>
+</tr>
+<tr>
+<td>Dow</td>
+<td>DOW</td>
+<td>NYSE</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>全球循環基準</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<p>最合理方法是分部加總：化工／化纖採正常化 EBITDA 或資產重置折價，台中銀採持股市值／P/B，再扣淨負債與非控制權益。當期缺完整同日資料，因此不製造目標價。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>化工價差回升、纖維轉盈、台中銀信用成本穩</td>
+<td>CAGR 5%–9%（假設）</td>
+<td>兩製造部門轉正</td>
+<td>歸母 EPS 明顯提升</td>
+<td>0.8–1.0x P/B（假設）</td>
+<td>控股折價縮小</td>
+<td>兩季本業獲利、ROE 回升</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>銀行獲利穩、本業損益兩平附近</td>
+<td>CAGR 1%–4%</td>
+<td>集團改善有限</td>
+<td>EPS 溫和</td>
+<td>0.55–0.75x P/B</td>
+<td>區間震盪</td>
+<td>部門損失收斂但未轉正</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>石化過剩、纖維需求弱、信用成本上升</td>
+<td>衰退至持平</td>
+<td>本業虧損擴大</td>
+<td>歸母 EPS 下滑</td>
+<td>0.35–0.55x P/B</td>
+<td>折價擴大</td>
+<td>價差惡化、逾放／呆帳升</td>
+</tr>
+</tbody>
+</table></div>
+<p>情境為研究假設，不是公司指引。每季需同時驗證化工價差、部門損益、台中銀資產品質與歸母權益，而非只看合併營收。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1718</td>
+<td>中纖</td>
+<td><strong>觀察</strong></td>
+<td>熟悉循環股與控股折價者</td>
+<td>低 P/B、銀行資產、Q1 EPS 改善</td>
+<td>本業仍虧、高 P/E、非控制權益大</td>
+<td>化工＋銀行分部估值案例</td>
+<td>部門損益、價差、NIM、信用成本、ROE</td>
+<td>本業連兩季轉盈可上調；銀行／本業同步轉弱則下調</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li>新手不宜只因「現在可以買」技術分類進場；先理解合併淨利與歸母淨利差異。</li>
+<li>已持有者研究上可續作小部位觀察，但不因單日訊號放大風險；實際決策須依自身條件。</li>
+<li>等待條件：化工與化纖部門至少連兩季虧損收斂／轉盈，且台中銀資產品質穩定。</li>
+<li>上調訊號：正常化 ROE 回升、歸母 EPS 可持續、P/B 未先大幅重估。</li>
+<li>下調訊號：石化價差惡化、銀行信用成本升、歸母獲利再縮或財務結構轉弱。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不宜直接歸類；銀行穩定性被循環本業與複雜權益抵消。</li>
+<li>成長型：不是典型高成長股，主要是循環修復與資產重估。</li>
+<li>景氣循環型：化工／化纖本業明確屬此類。</li>
+<li>高風險高報酬型：若押注價差反轉與折價收斂，具有轉機特徵。</li>
+<li>只適合觀察、不適合輕易買進：對不熟悉銀行合併與非控制權益的投資人，目前歸此類。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值：P/B 0.61 倍可能是合理的低 ROE／控股折價，而非錯價。</li>
+<li>景氣：中國石化與化纖產能過剩可讓價差長期低迷。</li>
+<li>技術替代：再生材料與新纖維要求追加投資，標準品差異化不足。</li>
+<li>競爭：大型一體化石化廠具原料與規模優勢。</li>
+<li>政策／地緣：碳費、環保、能源、兩岸供需與銀行監管均可能影響估值。</li>
+<li>客戶／信用集中：製造客戶與銀行授信集中度需查證。</li>
+<li>財報警訊：本業營收增但部門虧損擴大、信用減損升高、非控制權益吸收大部分獲利、淨值品質轉差。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀：2026Q2 部門資訊、台中銀淨利差／逾放／覆蓋率、化工存貨與減損、借款與利息。</li>
+<li>法說重點：MEG／EO 現金價差、工廠稼動率、聚酯差異化產品、台中銀資產品質與資本配置。</li>
+<li>每月追蹤：合併營收只能作線索；每季以部門損益與歸母 EPS 為主。</li>
+<li>產業來源：公司 IR、MOPS、TWSE、台中銀法說、ICIS／Platts 等付費價差資料（本輪未取得）。</li>
+<li>競爭名單：東聯、遠東新、新纖、南亞、Dow、LyondellBasell、台中銀。</li>
+<li>初學者下一步：東聯（EO 純度較高）、遠東新（聚酯一體化）、台中銀（拆解金融價值）。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>中纖是理解「循環製造本業＋控制銀行」的好入口，但不能以公司名稱或合併淨利直接判斷價值。</li>
+<li>化工與金融都值得追蹤；目前最重要邏輯是製造部門能否轉盈，以及銀行獲利有多少真正歸屬母公司股東。</li>
+<li>最大風險是把低 P/B 誤認為安全邊際，忽略低 ROE、循環虧損和非控制權益。</li>
+<li>8/12 技術訊號提高研究優先序，但基本面尚未通過連續轉盈驗證。</li>
+<li>最終評級：<strong>觀察</strong>。優先研究化工價差、化纖稼動率、台中銀資產品質及分部加總估值。</li>
+</ul>
+</article></main></div>
+</body>
+</html>

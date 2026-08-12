@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T00:21:53.234339+00:00",
+  "generated_at": "2026-08-12T08:38:08.242601+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -603,17 +603,17 @@
       "symbol": "1316",
       "name": "上曜建設開發股份有限公司",
       "industry_group": "建材營造業",
-      "latest_report_date": "2026-06-28",
-      "valid_until": "2026-07-06",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-1316/",
       "url": "stocks/tw-1316/",
       "aliases": [
         "1316",
+        "1316.TW",
+        "TWSE:1316",
         "上曜",
-        "上曜建設",
-        "上曜建設開發",
-        "SUN YAD"
+        "上曜建設"
       ]
     },
     "tw:1319": {
@@ -1445,6 +1445,26 @@
         "Rexon"
       ]
     },
+    "tw:1528": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1528",
+      "name": "恩德科技股份有限公司",
+      "industry_group": "電機機械",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-1528/",
+      "url": "stocks/tw-1528/",
+      "aliases": [
+        "1528",
+        "1528.TW",
+        "TWSE:1528",
+        "恩德",
+        "恩德科技",
+        "Anderson"
+      ]
+    },
     "tw:1529": {
       "market": "tw",
       "exchange": "TWSE",
@@ -1533,18 +1553,16 @@
       "exchange": "TWSE",
       "symbol": "1536",
       "name": "和大",
-      "industry_group": "精密機械",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "industry_group": "汽車工業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-1536/",
       "url": "stocks/tw-1536/",
       "aliases": [
         "1536",
         "1536.TW",
-        "TWSE:1536",
-        "和大",
-        "HOTA"
+        "TWSE:1536"
       ]
     },
     "tw:1537": {
@@ -1839,16 +1857,15 @@
       "exchange": "TWSE",
       "symbol": "1615",
       "name": "大山",
-      "industry_group": "電線電纜",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
-      "rating": "分批布局",
-      "latest_url": "reports/stock-industry-research/tw-1615/2026-07-13/report.html",
+      "industry_group": "電器電纜",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-1615/",
       "url": "stocks/tw-1615/",
       "aliases": [
         "1615",
         "1615.TW",
-        "1615.TWO",
         "TWSE:1615"
       ]
     },
@@ -2106,6 +2123,26 @@
         "1717.TW",
         "1717.TWO",
         "TWSE:1717"
+      ]
+    },
+    "tw:1718": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1718",
+      "name": "中纖",
+      "industry_group": "化學工業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-1718/",
+      "url": "stocks/tw-1718/",
+      "aliases": [
+        "1718",
+        "1718.TW",
+        "TWSE:1718",
+        "中纖",
+        "中國人造纖維",
+        "CMFC"
       ]
     },
     "tw:1720": {
@@ -2554,6 +2591,23 @@
         "正隆",
         "Cheng Loong",
         "Cheng Loong Corporation"
+      ]
+    },
+    "tw:1905": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "1905",
+      "name": "華紙",
+      "industry_group": "造紙工業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-1905/",
+      "url": "stocks/tw-1905/",
+      "aliases": [
+        "1905",
+        "1905.TW",
+        "TWSE:1905"
       ]
     },
     "tw:1907": {
@@ -3403,18 +3457,15 @@
       "symbol": "2258",
       "name": "鴻華先進-創",
       "industry_group": "汽車工業",
-      "latest_report_date": "2026-07-29",
-      "valid_until": "2026-08-05",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "減碼/賣出",
       "latest_url": "stocks/tw-2258/",
       "url": "stocks/tw-2258/",
       "aliases": [
         "2258",
         "2258.TW",
-        "TWSE:2258",
-        "鴻華先進-創",
-        "鴻華先進科技",
-        "Foxtron"
+        "TWSE:2258"
       ]
     },
     "tw:2301": {
@@ -3767,8 +3818,8 @@
       "symbol": "2340",
       "name": "台亞",
       "industry_group": "半導體業",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-2340/",
       "url": "stocks/tw-2340/",
@@ -4318,8 +4369,8 @@
       "symbol": "2385",
       "name": "群光",
       "industry_group": "電子零組件業",
-      "latest_report_date": "2026-07-22",
-      "valid_until": "2026-07-29",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-2385/",
       "url": "stocks/tw-2385/",
@@ -4327,7 +4378,9 @@
         "2385",
         "2385.TW",
         "TWSE:2385",
-        "群光"
+        "群光",
+        "群光電子",
+        "Chicony Electronics"
       ]
     },
     "tw:2388": {
@@ -4751,19 +4804,16 @@
       "exchange": "TWSE",
       "symbol": "2428",
       "name": "興勤",
-      "industry_group": "電子零組件業 / 電路保護元件",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
+      "industry_group": "電子零組件業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "分批布局",
       "latest_url": "stocks/tw-2428/",
       "url": "stocks/tw-2428/",
       "aliases": [
         "2428",
         "2428.TW",
-        "TWSE:2428",
-        "興勤",
-        "興勤電子工業股份有限公司",
-        "Thinking Electronic"
+        "TWSE:2428"
       ]
     },
     "tw:2429": {
@@ -4833,8 +4883,8 @@
       "symbol": "2434",
       "name": "統懋",
       "industry_group": "半導體業",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "減碼/賣出",
       "latest_url": "stocks/tw-2434/",
       "url": "stocks/tw-2434/",
@@ -5598,17 +5648,16 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "2511",
-      "name": "太子建設",
-      "industry_group": "建材營造",
-      "latest_report_date": "2026-07-30",
-      "valid_until": "2026-08-06",
-      "rating": "減碼/賣出",
-      "latest_url": "stocks/tw-2511/2026-07-30.html",
+      "name": "太子建設開發股份有限公司",
+      "industry_group": "建材營造業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2511/",
       "url": "stocks/tw-2511/",
       "aliases": [
         "2511",
         "2511.TW",
-        "2511.TWO",
         "TWSE:2511",
         "太子",
         "太子建設",
@@ -5787,16 +5836,20 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "2539",
-      "name": "櫻花建",
+      "name": "櫻花建設股份有限公司",
       "industry_group": "建材營造業",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
-      "latest_url": "https://www.twse.com.tw/",
+      "latest_url": "stocks/tw-2539/",
       "url": "stocks/tw-2539/",
       "aliases": [
+        "2539",
+        "2539.TW",
+        "TWSE:2539",
         "櫻花建",
-        "2539.TW"
+        "櫻花建設",
+        "SAKURAD"
       ]
     },
     "tw:2540": {
@@ -6824,19 +6877,16 @@
       "exchange": "TWSE",
       "symbol": "2903",
       "name": "遠百",
-      "industry_group": "貿易百貨業／百貨與購物中心",
-      "latest_report_date": "2026-08-03",
-      "valid_until": "2026-08-10",
+      "industry_group": "貿易百貨業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-2903/",
       "url": "stocks/tw-2903/",
       "aliases": [
         "2903",
         "2903.TW",
-        "TWSE:2903",
-        "遠百",
-        "遠東百貨",
-        "FEDS"
+        "TWSE:2903"
       ]
     },
     "tw:2904": {
@@ -7325,18 +7375,15 @@
       "symbol": "3032",
       "name": "偉訓",
       "industry_group": "電子零組件業",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-3032/",
       "url": "stocks/tw-3032/",
       "aliases": [
         "3032",
         "3032.TW",
-        "TWSE:3032",
-        "偉訓",
-        "偉訓科技",
-        "HEC"
+        "TWSE:3032"
       ]
     },
     "tw:3033": {
@@ -7672,6 +7719,26 @@
         "Apex Science & Engineering"
       ]
     },
+    "tw:3055": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3055",
+      "name": "蔚華科",
+      "industry_group": "電子通路業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-3055/",
+      "url": "stocks/tw-3055/",
+      "aliases": [
+        "3055",
+        "3055.TW",
+        "TWSE:3055",
+        "蔚華科",
+        "蔚華科技",
+        "Spirox"
+      ]
+    },
     "tw:3056": {
       "market": "tw",
       "exchange": "TWSE",
@@ -7746,6 +7813,23 @@
         "3060.TW",
         "3060.TWO",
         "TWSE:3060"
+      ]
+    },
+    "tw:3062": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3062",
+      "name": "建漢",
+      "industry_group": "通信網路業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-3062/",
+      "url": "stocks/tw-3062/",
+      "aliases": [
+        "3062",
+        "3062.TW",
+        "TWSE:3062"
       ]
     },
     "tw:3081": {
@@ -8107,15 +8191,18 @@
       "symbol": "3312",
       "name": "弘憶股",
       "industry_group": "電子通路業",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-3312/",
       "url": "stocks/tw-3312/",
       "aliases": [
         "3312",
+        "3312.TW",
+        "TWSE:3312",
         "弘憶股",
-        "弘憶國際"
+        "弘憶國際",
+        "GMI Technology"
       ]
     },
     "tw:3321": {
@@ -9437,20 +9524,15 @@
       "symbol": "4164",
       "name": "承業醫",
       "industry_group": "生技醫療業",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-4164/",
       "url": "stocks/tw-4164/",
       "aliases": [
         "4164",
         "4164.TW",
-        "4164.TWO",
-        "TWSE:4164",
-        "承業醫",
-        "承業生醫",
-        "承業生醫投資控股股份有限公司",
-        "CHC Healthcare"
+        "TWSE:4164"
       ]
     },
     "tw:4190": {
@@ -9599,20 +9681,16 @@
       "exchange": "TWSE",
       "symbol": "4526",
       "name": "東台",
-      "industry_group": "工具機",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
+      "industry_group": "電機機械",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-4526/",
       "url": "stocks/tw-4526/",
       "aliases": [
         "4526",
         "4526.TW",
-        "4526.TWO",
-        "TWSE:4526",
-        "東台",
-        "東台精機",
-        "Tongtai Machine & Tool"
+        "TWSE:4526"
       ]
     },
     "tw:4532": {
@@ -10372,17 +10450,15 @@
       "symbol": "4989",
       "name": "榮科",
       "industry_group": "電子零組件業",
-      "latest_report_date": "2026-07-14",
-      "valid_until": "2026-07-21",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
-      "latest_url": "stocks/tw-4989/2026-07-14.html",
+      "latest_url": "stocks/tw-4989/",
       "url": "stocks/tw-4989/",
       "aliases": [
         "4989",
         "4989.TW",
-        "TWSE:4989",
-        "榮科",
-        "李長榮科技股份有限公司"
+        "TWSE:4989"
       ]
     },
     "tw:4991": {
@@ -10588,20 +10664,18 @@
       "symbol": "5285",
       "name": "界霖",
       "industry_group": "半導體業",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-5285/",
       "url": "stocks/tw-5285/",
       "aliases": [
         "5285",
         "5285.TW",
-        "5285.TWO",
         "TWSE:5285",
         "界霖",
         "界霖科技",
-        "Jih Lin Technology",
-        "JIHLIN"
+        "Jih Lin Technology"
       ]
     },
     "tw:5289": {
@@ -11149,18 +11223,15 @@
       "symbol": "6005",
       "name": "群益證",
       "industry_group": "金融保險業",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-6005/",
       "url": "stocks/tw-6005/",
       "aliases": [
         "6005",
         "6005.TW",
-        "TWSE:6005",
-        "群益證",
-        "群益金鼎證券",
-        "Capital Securities"
+        "TWSE:6005"
       ]
     },
     "tw:6024": {
@@ -11424,6 +11495,26 @@
         "6153.TW",
         "6153.TWO",
         "TWSE:6153"
+      ]
+    },
+    "tw:6155": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "6155",
+      "name": "鈞寶電子工業股份有限公司",
+      "industry_group": "電子零組件業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-6155/",
+      "url": "stocks/tw-6155/",
+      "aliases": [
+        "6155",
+        "6155.TW",
+        "TWSE:6155",
+        "鈞寶",
+        "鈞寶電子",
+        "King Core"
       ]
     },
     "tw:6164": {
@@ -11971,17 +12062,18 @@
       "symbol": "6257",
       "name": "矽格",
       "industry_group": "半導體業",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-07-07",
-      "rating": "分批布局",
-      "latest_url": "reports/stock-industry-research/tw-6257/2026-06-30/report.html",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-6257/",
       "url": "stocks/tw-6257/",
       "aliases": [
         "6257",
         "6257.TW",
+        "TWSE:6257",
         "矽格",
         "矽格股份有限公司",
-        "Sigurd"
+        "Sigurd Microelectronics"
       ]
     },
     "tw:6269": {
@@ -12624,8 +12716,8 @@
       "symbol": "6531",
       "name": "愛普*",
       "industry_group": "半導體業",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
       "latest_url": "stocks/tw-6531/",
       "url": "stocks/tw-6531/",
@@ -12635,7 +12727,8 @@
         "TWSE:6531",
         "愛普*",
         "愛普科技",
-        "AP MEMORY"
+        "AP Memory",
+        "APMEMORY"
       ]
     },
     "tw:6533": {
@@ -13118,18 +13211,20 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "6715",
-      "name": "嘉基",
+      "name": "嘉基科技股份有限公司",
       "industry_group": "電子零組件業",
-      "latest_report_date": "2026-07-23",
-      "valid_until": "2026-07-30",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/tw-6715/2026-07-23/report.html",
+      "latest_url": "stocks/tw-6715/",
       "url": "stocks/tw-6715/",
       "aliases": [
         "6715",
+        "6715.TW",
+        "TWSE:6715",
         "嘉基",
         "嘉基科技",
-        "Lintes Technology"
+        "Lintes"
       ]
     },
     "tw:6719": {
@@ -14359,19 +14454,16 @@
       "exchange": "TWSE",
       "symbol": "8114",
       "name": "振樺電",
-      "industry_group": "電腦及週邊設備業／POS與嵌入式運算",
-      "latest_report_date": "2026-08-03",
-      "valid_until": "2026-08-10",
+      "industry_group": "電腦及週邊設備業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
       "rating": "分批布局",
       "latest_url": "stocks/tw-8114/",
       "url": "stocks/tw-8114/",
       "aliases": [
         "8114",
         "8114.TW",
-        "TWSE:8114",
-        "振樺電",
-        "振樺電子",
-        "Posiflex"
+        "TWSE:8114"
       ]
     },
     "tw:8131": {
@@ -15272,6 +15364,23 @@
         "潤泰創新國際股份有限公司",
         "RUENTEX DEVELOP",
         "Ruentex Development"
+      ]
+    },
+    "tw:9946": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "9946",
+      "name": "三發地產",
+      "industry_group": "建材營造業",
+      "latest_report_date": "2026-08-12",
+      "valid_until": "2026-08-19",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-9946/",
+      "url": "stocks/tw-9946/",
+      "aliases": [
+        "9946",
+        "9946.TW",
+        "TWSE:9946"
       ]
     },
     "tw:9955": {

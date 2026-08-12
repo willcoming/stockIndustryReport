@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1905 華紙 Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 造紙工業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">1905 華紙</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-08-12</span>
+        <span class="meta-pill">有效至 2026-08-19</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-08-12.html">2026-08-12</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>華紙 1905 反推產業 Deep Research 投資報告</h1>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>研究日 2026-08-12；有效至 2026-08-19。</li>
+<li>公司身分：TWSE:1905 中華紙漿股份有限公司，造紙工業；報導貨幣新台幣、曆年制。</li>
+<li>主要來源：<a href="https://www.twse.com.tw/pdf/ch/1905_ch.pdf">TWSE 個股資訊</a>、<a href="https://openapi.twse.com.tw/">TWSE OpenAPI</a>、<a href="https://mops.twse.com.tw/mops/web/index">MOPS</a>、<a href="https://www.chp.com.tw/">中華紙漿</a>、<code>reports/twStock/2026-08-12_tw_kline_decision_report.md</code>。</li>
+<li>本日 LZEMA20／3MA 雙策略轉折，但成交金額 40,062,364 元低於 50,000,000 元且上影壓力重，deterministic 分類為排除。</li>
+<li>最新漿價、產品組合、財報、估值、產能利用率與碳成本需查證；未核實數字不填。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>一句話：華紙生產紙漿、文化用紙、包裝／特用紙與相關林紙產品。</li>
+<li>產業鏈：上游木材／回收紙與能源，中游紙漿造紙，下游印刷、包裝與消費品。</li>
+<li>核心邏輯：漿紙價差、產品組合、能源成本與稼動率改善可帶動獲利；但產業高度循環且替代與環保壓力長期存在。</li>
+<li>評級：觀察。</li>
+<li>理由：本日流動性與上影線門檻未過，且缺少同日財務／估值交叉證據。</li>
+<li>追蹤：國際漿價、紙價、能源、匯率、稼動率、存貨、月營收與 FCF。</li>
+<li>同業：永豐餘、正隆、榮成、士紙、International Paper、Suzano、UPM。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>透過紙漿、紙品與加工產品銷售變現；最新產品別與地區別營收需查證。</li>
+<li>毛利取決於漿紙價差、木材／回收紙、能源、運費、匯率、稼動率與產品組合。</li>
+<li>成長來自特用／包裝紙、新產品、市占與價格；文化用紙面臨數位化壓力。</li>
+<li>具有明顯商品與庫存循環。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>產業提供包裝、印刷、衛生、工業與特用纖維材料。</li>
+<li>需求來自電商、食品、消費品、工業包裝、出版與永續材料替代。</li>
+<li>傳統紙品成熟，包裝、再生纖維與高附加價值材料是成長分支。</li>
+<li>短期受庫存、漿價、能源、運費與終端需求影響。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游</td>
+<td>林木／回收／能源</td>
+<td>木片、廢紙、蒸汽</td>
+<td>SUZ</td>
+<td>能源與回收業者</td>
+<td>高</td>
+<td>商品循環</td>
+<td>成本、供應</td>
+</tr>
+<tr>
+<td>中游</td>
+<td>華紙／造紙</td>
+<td>紙漿、紙品</td>
+<td>IP、UPM</td>
+<td>1905、1907、1904</td>
+<td>中低</td>
+<td>價差驅動</td>
+<td>稼動、庫存</td>
+</tr>
+<tr>
+<td>下游</td>
+<td>加工／包裝</td>
+<td>紙箱、印刷</td>
+<td>PKG</td>
+<td>正隆、榮成</td>
+<td>中</td>
+<td>需求與規模</td>
+<td>降價、客戶</td>
+</tr>
+<tr>
+<td>終端</td>
+<td>品牌／消費</td>
+<td>食品、電商、出版</td>
+<td>AMZN</td>
+<td>統一等</td>
+<td>高</td>
+<td>品牌主導</td>
+<td>景氣、替代</td>
+</tr>
+</tbody>
+</table></div>
+<p>華紙位於中游，規模、能源效率、纖維來源與高值產品組合決定議價能力。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術：製程穩定、紙種配方、品質與能源回收。</li>
+<li>規模：大型設備與固定成本使稼動率關鍵。</li>
+<li>客戶黏著：高規格紙品有認證，商品紙轉換成本較低。</li>
+<li>資本與環保門檻高；水、能源、碳排與污染治理形成成本。</li>
+<li>替代風險來自塑膠、數位化與海外低成本產能，也可能受惠以紙代塑。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<ul>
+<li>營收、毛利、營益、EPS 與 FCF：確認價差是否真正轉為現金。</li>
+<li>漿價／紙價／能源／運費：主要外生變數。</li>
+<li>存貨週轉：高庫存遇跌價會壓抑毛利。</li>
+<li>產能利用率、產品組合、出口比重、匯率與資本支出：需逐季追蹤。</li>
+</ul>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1905</td>
+<td>華紙</td>
+<td>台</td>
+<td>漿紙</td>
+<td>漿、文化／特用紙</td>
+<td>整合製程</td>
+<td>循環、能源</td>
+<td>低中</td>
+<td>低</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>1907</td>
+<td>永豐餘</td>
+<td>台</td>
+<td>綜合紙業</td>
+<td>紙品／投資</td>
+<td>多元</td>
+<td>複雜度</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>1904</td>
+<td>正隆</td>
+<td>台</td>
+<td>工紙／紙器</td>
+<td>包裝</td>
+<td>規模</td>
+<td>需求循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>1909</td>
+<td>榮成</td>
+<td>台</td>
+<td>工紙</td>
+<td>包裝紙</td>
+<td>區域產能</td>
+<td>價格競爭</td>
+<td>中</td>
+<td>低中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>IP</td>
+<td>International Paper</td>
+<td>美</td>
+<td>包裝</td>
+<td>工業包裝</td>
+<td>全球規模</td>
+<td>循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>SUZ</td>
+<td>Suzano</td>
+<td>美／巴西</td>
+<td>紙漿</td>
+<td>市售漿</td>
+<td>林地成本</td>
+<td>漿價</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>華紙</td>
+<td>1905</td>
+<td>台</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>證據不足</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>觀察</td>
+</tr>
+<tr>
+<td>正隆</td>
+<td>1904</td>
+<td>台</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>參考</td>
+</tr>
+<tr>
+<td>IP</td>
+<td>IP</td>
+<td>美</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>商模不同</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>參考</td>
+</tr>
+</tbody>
+</table></div>
+<p>循環股應使用正常化獲利、EV/EBITDA、P/B 與 FCF Yield，而非景氣高低點單年 P/E。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀</td>
+<td>價差擴大、高值紙放量</td>
+<td>中個位數</td>
+<td>上升</td>
+<td>改善</td>
+<td>需查證</td>
+<td>重評價</td>
+<td>毛利、FCF 改善</td>
+</tr>
+<tr>
+<td>基準</td>
+<td>供需平衡</td>
+<td>低個位數</td>
+<td>持平</td>
+<td>波動</td>
+<td>需查證</td>
+<td>區間</td>
+<td>庫存正常</td>
+</tr>
+<tr>
+<td>悲觀</td>
+<td>漿價／能源升、需求弱</td>
+<td>衰退</td>
+<td>下降</td>
+<td>惡化</td>
+<td>折價</td>
+<td>下修</td>
+<td>庫存、負債升</td>
+</tr>
+</tbody>
+</table></div>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1905</td>
+<td>華紙</td>
+<td>觀察</td>
+<td>熟悉循環與價差者</td>
+<td>林紙循環研究入口</td>
+<td>流動性與資料缺口</td>
+<td>漿紙價差</td>
+<td>毛利、庫存、FCF</td>
+<td>證據改善才上調</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li>新手不宜只依技術買入。2. 持有者依自身風險規則追蹤。3. 等流動性、價差、毛利與現金流改善。4. 上調需高值產品與 FCF 驗證。5. 下調為需求、庫存與負債惡化。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：多元、低負債且 FCF 穩定者。</li>
+<li>成長型：高值纖維與永續材料已量產者。</li>
+<li>景氣循環型：華紙及多數漿紙公司。</li>
+<li>高風險高報酬型：高槓桿、低稼動或單一紙種公司。</li>
+<li>只適合觀察：本研究日華紙，因證據與流動性未過門檻。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值、景氣、數位替代、海外競爭、環保／碳、能源、匯率與客戶集中風險。</li>
+<li>警訊：存貨上升、毛利下滑、FCF 為負、負債與利息增加。</li>
+<li>反方：以紙代塑與高值材料可能改善組合，但需量產與獲利證據。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀：2026Q2 財報、產品別營收、存貨、負債、能源與 FCF。</li>
+<li>法說：漿紙價格、稼動率、高值產品、碳成本、資本支出。</li>
+<li>產業：國際漿價、庫存、運費、紙箱需求。</li>
+<li>同業：永豐餘、正隆、榮成、International Paper、Suzano。</li>
+<li>初學者下一步：正隆、永豐餘、Suzano。</li>
+</ul>
+<h2>14. 結論</h2>
+<ul>
+<li>華紙是理解漿紙價差、稼動率與以紙代塑的研究入口。</li>
+<li>最大風險是商品循環、能源、庫存與本日低流動性／上影壓力。</li>
+<li>估值是否反映成長：需查證。</li>
+<li>最終評級：觀察；雙策略轉折不足以推翻硬性排除條件。</li>
+<li>優先研究：漿紙價差、高值產品、能源效率、存貨與 FCF。</li>
+</ul>
+</article></main></div>
+</body>
+</html>
