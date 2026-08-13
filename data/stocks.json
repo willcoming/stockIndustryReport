@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T23:43:29.885642+00:00",
+  "generated_at": "2026-08-13T00:24:04.633768+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -3854,17 +3854,16 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "2345",
-      "name": "智邦",
-      "industry_group": "通信網路業／高速資料中心網通",
-      "latest_report_date": "2026-08-03",
-      "valid_until": "2026-08-10",
-      "rating": "分批布局",
+      "name": "智邦科技",
+      "industry_group": "高速網路交換器",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2345/",
       "url": "stocks/tw-2345/",
       "aliases": [
         "2345",
         "2345.TW",
-        "TWSE:2345",
         "智邦",
         "智邦科技",
         "Accton"
@@ -5071,20 +5070,19 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "2455",
-      "name": "全新光電科技股份有限公司",
-      "industry_group": "通信網路業",
-      "latest_report_date": "2026-08-03",
-      "valid_until": "2026-08-10",
-      "rating": "分批布局",
+      "name": "全新光電",
+      "industry_group": "光通訊／砷化鎵磊晶",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
+      "rating": "觀察",
       "latest_url": "stocks/tw-2455/",
       "url": "stocks/tw-2455/",
       "aliases": [
         "2455",
         "2455.TW",
-        "TWSE:2455",
         "全新",
         "全新光電",
-        "AWSC"
+        "VPEC"
       ]
     },
     "tw:2457": {
@@ -9076,17 +9074,19 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "3665",
-      "name": "貿聯-KY",
-      "industry_group": "其他電子業",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
-      "rating": "分批布局",
+      "name": "貿聯控股",
+      "industry_group": "高速連接與線束",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
+      "rating": "觀察",
       "latest_url": "stocks/tw-3665/",
       "url": "stocks/tw-3665/",
       "aliases": [
         "3665",
         "3665.TW",
-        "貿聯-KY"
+        "貿聯-KY",
+        "貿聯控股",
+        "BizLink"
       ]
     },
     "tw:3669": {
@@ -12541,19 +12541,16 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "6488",
-      "name": "環球晶",
-      "industry_group": "矽晶圓",
-      "latest_report_date": "2026-08-03",
-      "valid_until": "2026-08-10",
+      "name": "環球晶圓",
+      "industry_group": "半導體矽晶圓",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
       "rating": "觀察",
-      "latest_url": "stocks/tw-6488/2026-08-03.html",
+      "latest_url": "stocks/tw-6488/",
       "url": "stocks/tw-6488/",
       "aliases": [
         "6488",
         "6488.TW",
-        "6488.TWO",
-        "TWSE:6488",
-        "TPEx:6488",
         "環球晶",
         "環球晶圓",
         "GlobalWafers"
@@ -18115,15 +18112,17 @@
       "exchange": "NYSE",
       "symbol": "BRK.B",
       "name": "Berkshire Hathaway",
-      "industry_group": "金融／多元保險與控股",
-      "latest_report_date": "2026-07-24",
-      "valid_until": "2026-07-31",
-      "rating": "觀察",
+      "industry_group": "多元控股與保險",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
+      "rating": "續抱",
       "latest_url": "stocks/us-brk-b/",
       "url": "stocks/us-brk-b/",
       "aliases": [
         "BRK.B",
-        "US:BRK.B"
+        "BRK-B",
+        "Berkshire Hathaway",
+        "波克夏"
       ]
     },
     "us:brkr": {
@@ -19492,21 +19491,19 @@
     },
     "us:cohr": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NYSE",
       "symbol": "COHR",
       "name": "Coherent",
-      "industry_group": "光通訊／光子元件與材料",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-10",
+      "industry_group": "光通訊與光電材料",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
       "rating": "觀察",
       "latest_url": "stocks/us-cohr/",
       "url": "stocks/us-cohr/",
       "aliases": [
         "COHR",
-        "US:COHR",
-        "NYSE:COHR",
         "Coherent",
-        "Coherent Corp."
+        "US:COHR"
       ]
     },
     "us:coin": {
@@ -21200,17 +21197,17 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "ENPH",
-      "name": "Enphase Energy, Inc. - Common Stock",
-      "industry_group": "太陽能功率電子與住宅儲能",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "name": "Enphase Energy",
+      "industry_group": "住宅太陽能與儲能",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
       "rating": "觀察",
-      "latest_url": "stocks/us-enph/2026-08-04.html",
+      "latest_url": "stocks/us-enph/",
       "url": "stocks/us-enph/",
       "aliases": [
         "ENPH",
-        "NASDAQ:ENPH",
-        "Enphase Energy"
+        "Enphase Energy",
+        "US:ENPH"
       ]
     },
     "us:entg": {
@@ -21893,6 +21890,24 @@
         "FER",
         "FER:US",
         "NASDAQ:FER"
+      ]
+    },
+    "us:ffai": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "FFAI",
+      "name": "Faraday Future Intelligent Electric",
+      "industry_group": "電動車與具身 AI",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-ffai/",
+      "url": "stocks/us-ffai/",
+      "aliases": [
+        "FFAI",
+        "Faraday Future",
+        "FFIE",
+        "US:FFAI"
       ]
     },
     "us:fhb": {
@@ -24390,17 +24405,17 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "ISRG",
-      "name": "Intuitive Surgical, Inc. - Common Stock",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
-      "rating": "分批布局",
+      "name": "Intuitive Surgical",
+      "industry_group": "機器人手術醫療器材",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
+      "rating": "續抱",
       "latest_url": "stocks/us-isrg/",
       "url": "stocks/us-isrg/",
       "aliases": [
         "ISRG",
         "Intuitive Surgical",
-        "Intuitive Surgical, Inc."
+        "US:ISRG"
       ]
     },
     "us:ivf": {
@@ -27242,18 +27257,17 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "NOW",
-      "name": "ServiceNow, Inc.",
-      "industry_group": "科技／企業軟體與工作流程自動化",
-      "latest_report_date": "2026-07-21",
-      "valid_until": "2026-07-28",
+      "name": "ServiceNow",
+      "industry_group": "企業工作流程 SaaS",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
       "rating": "觀察",
-      "latest_url": "stocks/us-now/2026-07-21.html",
+      "latest_url": "stocks/us-now/",
       "url": "stocks/us-now/",
       "aliases": [
         "NOW",
-        "NYSE:NOW",
         "ServiceNow",
-        "ServiceNow, Inc."
+        "US:NOW"
       ]
     },
     "us:nrg": {
@@ -27988,18 +28002,18 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "ORCL",
-      "name": "Oracle Corporation Common Stock",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "name": "Oracle",
+      "industry_group": "雲端基礎設施與企業資料庫",
+      "latest_report_date": "2026-08-13",
+      "valid_until": "2026-08-20",
       "rating": "觀察",
       "latest_url": "stocks/us-orcl/",
       "url": "stocks/us-orcl/",
       "aliases": [
         "ORCL",
         "Oracle",
-        "Oracle Corporation",
-        "甲骨文"
+        "甲骨文",
+        "US:ORCL"
       ]
     },
     "us:oric": {
