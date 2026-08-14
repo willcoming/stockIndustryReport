@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-08-13T23:46:29.796422+00:00",
+  "generated_at": "2026-08-14T00:09:43.000790+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -10463,6 +10463,26 @@ window.STOCK_INDUSTRY_REPORTS = {
         "Richwave"
       ]
     },
+    "tw:4971": {
+      "market": "tw",
+      "exchange": "TPEX",
+      "symbol": "4971",
+      "name": "IET-KY 英特磊",
+      "industry_group": "三五族磊晶／InP",
+      "latest_report_date": "2026-08-14",
+      "valid_until": "2026-08-21",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-4971/2026-08-14.html",
+      "url": "stocks/tw-4971/",
+      "aliases": [
+        "4971",
+        "4971.TWO",
+        "TPEX:4971",
+        "IET-KY",
+        "英特磊",
+        "IntelliEPI"
+      ]
+    },
     "tw:4976": {
       "market": "tw",
       "exchange": "TWSE",
@@ -11730,11 +11750,11 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TPEX",
       "symbol": "6187",
       "name": "萬潤",
-      "industry_group": "半導體設備",
-      "latest_report_date": "2026-08-06",
-      "valid_until": "2026-08-13",
+      "industry_group": "半導體／封裝設備",
+      "latest_report_date": "2026-08-14",
+      "valid_until": "2026-08-21",
       "rating": "觀察",
-      "latest_url": "stocks/tw-6187/",
+      "latest_url": "stocks/tw-6187/2026-08-14.html",
       "url": "stocks/tw-6187/",
       "aliases": [
         "6187",
@@ -15534,12 +15554,12 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "AAOI",
-      "name": "Applied Optoelectronics, Inc. - Common Stock",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "name": "Applied Optoelectronics",
+      "industry_group": "光通訊模組",
+      "latest_report_date": "2026-08-14",
+      "valid_until": "2026-08-21",
       "rating": "觀察",
-      "latest_url": "stocks/us-aaoi/",
+      "latest_url": "stocks/us-aaoi/2026-08-14.html",
       "url": "stocks/us-aaoi/",
       "aliases": [
         "AAOI",
@@ -16751,11 +16771,11 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NASDAQ",
       "symbol": "APP",
       "name": "AppLovin",
-      "industry_group": "軟體／廣告",
-      "latest_report_date": "2026-08-06",
-      "valid_until": "2026-08-13",
+      "industry_group": "廣告軟體",
+      "latest_report_date": "2026-08-14",
+      "valid_until": "2026-08-21",
       "rating": "觀察",
-      "latest_url": "stocks/us-app/",
+      "latest_url": "stocks/us-app/2026-08-14.html",
       "url": "stocks/us-app/",
       "aliases": [
         "APP",
@@ -17336,12 +17356,12 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "AXTI",
-      "name": "AXT, Inc.",
-      "industry_group": "化合物半導體基板材料",
-      "latest_report_date": "2026-08-05",
-      "valid_until": "2026-08-12",
+      "name": "AXT",
+      "industry_group": "InP／化合物半導體基板",
+      "latest_report_date": "2026-08-14",
+      "valid_until": "2026-08-21",
       "rating": "觀察",
-      "latest_url": "stocks/us-axti/2026-08-05.html",
+      "latest_url": "stocks/us-axti/2026-08-14.html",
       "url": "stocks/us-axti/",
       "aliases": [
         "AXTI",
@@ -20095,17 +20115,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "CSCO",
-      "name": "Cisco Systems, Inc. - Common Stock",
-      "industry_group": "電信服務／電腦通訊設備",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "name": "Cisco",
+      "industry_group": "網通設備",
+      "latest_report_date": "2026-08-14",
+      "valid_until": "2026-08-21",
       "rating": "觀察",
-      "latest_url": "stocks/us-csco/",
+      "latest_url": "stocks/us-csco/2026-08-14.html",
       "url": "stocks/us-csco/",
       "aliases": [
         "CSCO",
         "NASDAQ:CSCO",
-        "Cisco"
+        "Cisco",
+        "Cisco Systems"
       ]
     },
     "us:csgp": {
@@ -20558,18 +20579,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "DELL",
-      "name": "Dell Technologies Inc. Class C Common Stock",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
-      "rating": "分批布局",
-      "latest_url": "stocks/us-dell/",
+      "name": "Dell Technologies",
+      "industry_group": "AI 伺服器／PC",
+      "latest_report_date": "2026-08-14",
+      "valid_until": "2026-08-21",
+      "rating": "觀察",
+      "latest_url": "stocks/us-dell/2026-08-14.html",
       "url": "stocks/us-dell/",
       "aliases": [
         "DELL",
+        "NYSE:DELL",
         "Dell",
-        "Dell Technologies",
-        "Dell Technologies Inc."
+        "Dell Technologies"
       ]
     },
     "us:dfsc": {
