@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-08-14T23:25:31.721531+00:00",
+  "generated_at": "2026-08-16T00:17:16.376593+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -2360,9 +2360,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "1736",
       "name": "喬山",
-      "industry_group": "運動休閒／健身器材",
-      "latest_report_date": "2026-08-03",
-      "valid_until": "2026-08-10",
+      "industry_group": "健身器材",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
       "latest_url": "stocks/tw-1736/",
       "url": "stocks/tw-1736/",
@@ -2370,9 +2370,7 @@ window.STOCK_INDUSTRY_REPORTS = {
         "1736",
         "1736.TW",
         "TWSE:1736",
-        "喬山",
-        "喬山健康科技",
-        "Johnson Health Tech"
+        "喬山"
       ]
     },
     "tw:1737": {
@@ -3435,9 +3433,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2236",
       "name": "百達-KY",
-      "industry_group": "機器人 / 車用",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-07-23",
+      "industry_group": "精密零組件",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
       "latest_url": "stocks/tw-2236/",
       "url": "stocks/tw-2236/",
@@ -3445,9 +3443,7 @@ window.STOCK_INDUSTRY_REPORTS = {
         "2236",
         "2236.TW",
         "TWSE:2236",
-        "百達-KY",
-        "百達精密",
-        "Patec"
+        "百達-KY"
       ]
     },
     "tw:2243": {
@@ -4233,17 +4229,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2368",
       "name": "金像電",
-      "industry_group": "電子零組件業",
-      "latest_report_date": "2026-08-05",
-      "valid_until": "2026-08-12",
+      "industry_group": "PCB",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
       "latest_url": "stocks/tw-2368/",
       "url": "stocks/tw-2368/",
       "aliases": [
         "2368",
         "2368.TW",
-        "2368.TWO",
-        "TWSE:2368"
+        "TWSE:2368",
+        "金像電"
       ]
     },
     "tw:2369": {
@@ -7167,15 +7163,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3008",
       "name": "大立光",
-      "industry_group": "光電業",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "industry_group": "光學",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
       "latest_url": "stocks/tw-3008/",
       "url": "stocks/tw-3008/",
       "aliases": [
         "3008",
         "3008.TW",
+        "TWSE:3008",
         "大立光"
       ]
     },
@@ -8370,16 +8367,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "3362",
       "name": "先進光",
       "industry_group": "光學",
-      "latest_report_date": "2026-07-10",
-      "valid_until": "2026-07-17",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
-      "latest_url": "tw-3362/2026-07-10/report.html",
+      "latest_url": "stocks/tw-3362/",
       "url": "stocks/tw-3362/",
       "aliases": [
         "3362",
         "3362.TW",
-        "3362.TWO",
-        "TWSE:3362"
+        "TWSE:3362",
+        "先進光"
       ]
     },
     "tw:3363": {
@@ -10158,19 +10155,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "4912",
       "name": "聯德控股-KY",
-      "industry_group": "精密金屬沖壓與先進熱管理",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
+      "industry_group": "散熱／精密零組件",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/tw-4912/2026-07-13/report.html",
+      "latest_url": "stocks/tw-4912/",
       "url": "stocks/tw-4912/",
       "aliases": [
         "4912",
         "4912.TW",
-        "聯德控股-KY",
-        "聯德控股",
-        "Lemtech",
-        "TWSE:4912"
+        "TWSE:4912",
+        "聯德控股-KY"
       ]
     },
     "tw:4915": {
@@ -11982,18 +11977,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "6213",
       "name": "聯茂",
-      "industry_group": "電子零組件業",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
-      "rating": "分批布局",
+      "industry_group": "CCL",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
+      "rating": "觀察",
       "latest_url": "stocks/tw-6213/",
       "url": "stocks/tw-6213/",
       "aliases": [
         "6213",
         "6213.TW",
         "TWSE:6213",
-        "聯茂",
-        "ITEQ"
+        "聯茂"
       ]
     },
     "tw:6214": {
@@ -14729,20 +14723,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "tw",
       "exchange": "TPEx",
       "symbol": "8299",
-      "name": "群聯電子股份有限公司",
-      "industry_group": "NAND 控制晶片",
-      "latest_report_date": "2026-08-08",
-      "valid_until": "2026-08-15",
+      "name": "群聯",
+      "industry_group": "儲存控制晶片",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
       "latest_url": "stocks/tw-8299/",
       "url": "stocks/tw-8299/",
       "aliases": [
         "8299",
         "8299.TWO",
-        "TPEX:8299",
-        "群聯",
-        "群聯電子",
-        "Phison"
+        "TPEx:8299",
+        "群聯"
       ]
     },
     "tw:8367": {
@@ -17267,17 +17259,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "industry_group": "科技／半導體",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "name": "Broadcom",
+      "industry_group": "ASIC／網通",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
       "latest_url": "stocks/us-avgo/",
       "url": "stocks/us-avgo/",
       "aliases": [
         "AVGO",
         "NASDAQ:AVGO",
-        "Broadcom"
+        "Broadcom",
+        "Broadcom Inc."
       ]
     },
     "us:avpt": {
@@ -18798,10 +18791,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "CBRS",
-      "name": "Cerebras",
-      "industry_group": "AI 推理晶片",
-      "latest_report_date": "2026-08-08",
-      "valid_until": "2026-08-15",
+      "name": "Cerebras Systems",
+      "industry_group": "AI 推理晶片／雲端",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
       "latest_url": "stocks/us-cbrs/",
       "url": "stocks/us-cbrs/",
@@ -19263,18 +19256,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "CIFR",
-      "name": "Cipher Digital Inc. - Common Stock",
-      "industry_group": "AI/HPC 資料中心開發與比特幣運算基礎設施",
-      "latest_report_date": "2026-08-07",
-      "valid_until": "2026-08-14",
+      "name": "Cipher Digital",
+      "industry_group": "加密貨幣礦業／HPC 資料中心",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
-      "latest_url": "stocks/us-cifr/2026-08-07.html",
+      "latest_url": "stocks/us-cifr/",
       "url": "stocks/us-cifr/",
       "aliases": [
         "CIFR",
         "NASDAQ:CIFR",
-        "Cipher Digital",
-        "Cipher Digital Inc."
+        "Cipher Mining",
+        "Cipher Digital"
       ]
     },
     "us:cl": {
@@ -22206,6 +22199,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "NYSE:FHN",
         "First Horizon",
         "First Horizon Bank"
+      ]
+    },
+    "us:fico": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "industry_group": "信用評分軟體",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
+      "rating": "觀察",
+      "latest_url": "stocks/us-fico/",
+      "url": "stocks/us-fico/",
+      "aliases": [
+        "FICO",
+        "NYSE:FICO",
+        "Fair Isaac",
+        "Fair Isaac Corporation"
       ]
     },
     "us:fig": {
@@ -27134,10 +27145,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "industry_group": "企業軟體／雲端與 AI 平台",
-      "latest_report_date": "2026-08-05",
-      "valid_until": "2026-08-12",
+      "name": "Microsoft",
+      "industry_group": "雲端／AI",
+      "latest_report_date": "2026-08-16",
+      "valid_until": "2026-08-23",
       "rating": "觀察",
       "latest_url": "stocks/us-msft/",
       "url": "stocks/us-msft/",
