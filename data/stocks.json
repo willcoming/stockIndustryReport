@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:47:03.313045+00:00",
+  "generated_at": "2026-08-18T23:31:52.975060+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -172,8 +172,8 @@
       "symbol": "1215",
       "name": "台灣卜蜂企業股份有限公司",
       "industry_group": "未分類",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "續抱",
       "latest_url": "stocks/tw-1215/",
       "url": "stocks/tw-1215/",
@@ -4431,9 +4431,9 @@
       "exchange": "TWSE",
       "symbol": "2383",
       "name": "台光電子材料股份有限公司",
-      "industry_group": "CCL",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "industry_group": "CCL／AI 伺服器",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
       "latest_url": "stocks/tw-2383/",
       "url": "stocks/tw-2383/",
@@ -5358,8 +5358,8 @@
       "symbol": "2466",
       "name": "冠西電子企業股份有限公司",
       "industry_group": "光電業",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
       "latest_url": "stocks/tw-2466/",
       "url": "stocks/tw-2466/",
@@ -5630,11 +5630,11 @@
       "exchange": "TWSE",
       "symbol": "2492",
       "name": "華新科技股份有限公司",
-      "industry_group": "電子零組件業／被動元件",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "industry_group": "被動元件",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
-      "latest_url": "stocks/tw-2492/",
+      "latest_url": "stocks/tw-2492/2026-08-19.html",
       "url": "stocks/tw-2492/",
       "aliases": [
         "2492",
@@ -5642,7 +5642,6 @@
         "TWSE:2492",
         "華新科",
         "華新科技",
-        "華新科技股份有限公司",
         "Walsin Technology",
         "WTC"
       ]
@@ -6396,11 +6395,11 @@
       "exchange": "TWSE",
       "symbol": "2634",
       "name": "漢翔航空工業股份有限公司",
-      "industry_group": "航運業",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "industry_group": "航太／軍工",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
-      "latest_url": "stocks/tw-2634/",
+      "latest_url": "stocks/tw-2634/2026-08-19.html",
       "url": "stocks/tw-2634/",
       "aliases": [
         "2634",
@@ -7679,9 +7678,9 @@
       "exchange": "TWSE",
       "symbol": "3037",
       "name": "欣興電子股份有限公司",
-      "industry_group": "ABF 載板",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "industry_group": "IC 載板",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
       "latest_url": "stocks/tw-3037/",
       "url": "stocks/tw-3037/",
@@ -8093,8 +8092,8 @@
       "symbol": "3090",
       "name": "日電貿股份有限公司",
       "industry_group": "電子零組件業",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
       "latest_url": "stocks/tw-3090/",
       "url": "stocks/tw-3090/",
@@ -11079,12 +11078,12 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "5434",
-      "name": "崇越",
+      "name": "崇越科技股份有限公司",
       "industry_group": "電子通路業",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
-      "rating": "續抱",
-      "latest_url": "stocks/tw-5434/",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
+      "rating": "分批布局",
+      "latest_url": "stocks/tw-5434/2026-08-19.html",
       "url": "stocks/tw-5434/",
       "aliases": [
         "5434",
@@ -13589,9 +13588,9 @@
       "exchange": "TWSE",
       "symbol": "6770",
       "name": "力晶積成電子製造股份有限公司",
-      "industry_group": "半導體業",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "industry_group": "未分類",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
       "latest_url": "stocks/tw-6770/",
       "url": "stocks/tw-6770/",
@@ -14463,10 +14462,10 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "8033",
-      "name": "雷虎",
-      "industry_group": "其他業",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "name": "雷虎科技股份有限公司",
+      "industry_group": "無人機／軍工",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
       "latest_url": "stocks/tw-8033/",
       "url": "stocks/tw-8033/",
@@ -16403,6 +16402,22 @@
         "美國國際集團"
       ]
     },
+    "us:aixc": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "AIXC",
+      "name": "AIxCrypto Holdings, Inc.",
+      "industry_group": "金融科技／實體資產代幣化與 AI 基礎設施",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-aixc/",
+      "url": "stocks/us-aixc/",
+      "aliases": [
+        "AIXC",
+        "NASDAQ:AIXC"
+      ]
+    },
     "us:akam": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -16657,15 +16672,17 @@
       "exchange": "NYSE",
       "symbol": "AMCR",
       "name": "Amcor plc Ordinary Shares",
-      "industry_group": "包裝材料業",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "industry_group": "消費與醫療包裝材料",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-amcr/",
+      "latest_url": "stocks/us-amcr/2026-08-18.html",
       "url": "stocks/us-amcr/",
       "aliases": [
         "AMCR",
         "NYSE:AMCR",
+        "AMCR:US",
+        "AMC:ASX",
         "Amcor",
         "Amcor plc"
       ]
@@ -17830,18 +17847,15 @@
       "exchange": "NASDAQ",
       "symbol": "BBIO",
       "name": "BridgeBio Pharma, Inc.",
-      "industry_group": "遺傳疾病與罕病生技製藥",
-      "latest_report_date": "2026-08-10",
-      "valid_until": "2026-08-17",
+      "industry_group": "醫療保健／遺傳疾病與罕病生技",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-bbio/2026-08-10.html",
+      "latest_url": "stocks/us-bbio/",
       "url": "stocks/us-bbio/",
       "aliases": [
         "BBIO",
-        "NASDAQ:BBIO",
-        "BridgeBio",
-        "BridgeBio Pharma",
-        "BridgeBio Pharma, Inc."
+        "NASDAQ:BBIO"
       ]
     },
     "us:bbwi": {
@@ -17849,17 +17863,15 @@
       "exchange": "NYSE",
       "symbol": "BBWI",
       "name": "Bath & Body Works, Inc.",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "industry_group": "非必需消費／香氛與個人護理專門零售",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
       "latest_url": "stocks/us-bbwi/",
       "url": "stocks/us-bbwi/",
       "aliases": [
         "BBWI",
-        "Bath & Body Works",
-        "Bath and Body Works",
-        "White Barn"
+        "NYSE:BBWI"
       ]
     },
     "us:bby": {
@@ -18421,19 +18433,19 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "BP",
-      "name": "BP p.l.c.",
-      "industry_group": "整合石油天然氣／全球能源",
-      "latest_report_date": "2026-08-06",
-      "valid_until": "2026-08-13",
+      "name": "BP p.l.c. Common Stock",
+      "industry_group": "全球整合石油天然氣／液化天然氣與能源零售",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-bp/2026-08-06/report.html",
+      "latest_url": "stocks/us-bp/2026-08-18.html",
       "url": "stocks/us-bp/",
       "aliases": [
         "BP",
         "NYSE:BP",
+        "LSE:BP",
         "BP p.l.c.",
-        "British Petroleum",
-        "英國石油"
+        "British Petroleum"
       ]
     },
     "us:brai": {
@@ -18580,16 +18592,15 @@
       "exchange": "NASDAQ",
       "symbol": "BRZE",
       "name": "Braze, Inc.",
-      "industry_group": "科技／預裝軟體",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
+      "industry_group": "科技／顧客互動與行銷自動化 SaaS",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
       "latest_url": "stocks/us-brze/",
       "url": "stocks/us-brze/",
       "aliases": [
         "BRZE",
-        "NASDAQ:BRZE",
-        "Braze"
+        "NASDAQ:BRZE"
       ]
     },
     "us:bsx": {
@@ -18967,6 +18978,24 @@
         "Instacart"
       ]
     },
+    "us:cast": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CAST",
+      "name": "FreeCast, Inc. - Class A common stock",
+      "industry_group": "串流媒體聚合／電子節目指南與廣告科技",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-cast/2026-08-18.html",
+      "url": "stocks/us-cast/",
+      "aliases": [
+        "CAST",
+        "NASDAQ:CAST",
+        "FreeCast",
+        "SmartGuide"
+      ]
+    },
     "us:cat": {
       "market": "us",
       "exchange": "NYSE",
@@ -18991,10 +19020,10 @@
       "symbol": "CAVA",
       "name": "CAVA Group, Inc.",
       "industry_group": "快速休閒餐飲與連鎖餐廳",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
-      "latest_url": "us-cava/2026-08-11/report.html",
+      "latest_url": "us-cava/2026-08-19/report.html",
       "url": "stocks/us-cava/",
       "aliases": [
         "CAVA",
@@ -19042,19 +19071,16 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "CCC",
-      "name": "CCC Intelligent Solutions Holdings Inc. - Common Stock",
-      "industry_group": "科技 / 套裝軟體",
-      "latest_report_date": "2026-06-29",
-      "valid_until": "2026-07-06",
+      "name": "CCC Intelligent Solutions Holdings Inc.",
+      "industry_group": "科技／保險理賠 SaaS 與 AI 平台",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
       "latest_url": "stocks/us-ccc/",
       "url": "stocks/us-ccc/",
       "aliases": [
         "CCC",
-        "NASDAQ:CCC",
-        "CCC Intelligent Solutions",
-        "CCC Intelligent Solutions Holdings Inc.",
-        "CCC Intelligent Solutions Holdings Inc. - Common Stock"
+        "NASDAQ:CCC"
       ]
     },
     "us:ccep": {
@@ -19297,9 +19323,9 @@
       "exchange": "NYSE",
       "symbol": "CF",
       "name": "CF Industries Holdings, Inc.",
-      "industry_group": "Materials / Nitrogen Fertilizers & Hydrogen Products",
-      "latest_report_date": "2026-08-10",
-      "valid_until": "2026-08-17",
+      "industry_group": "工業／氮肥、農用化學品與氫產品",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "分批布局",
       "latest_url": "stocks/us-cf/",
       "url": "stocks/us-cf/",
@@ -19423,17 +19449,15 @@
       "exchange": "NASDAQ",
       "symbol": "CHTR",
       "name": "Charter Communications, Inc.",
-      "industry_group": "有線寬頻與融合通訊服務",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "industry_group": "通訊／有線寬頻與行動融合服務",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-chtr/2026-08-04.html",
+      "latest_url": "stocks/us-chtr/",
       "url": "stocks/us-chtr/",
       "aliases": [
         "CHTR",
-        "NASDAQ:CHTR",
-        "Charter Communications",
-        "Spectrum"
+        "NASDAQ:CHTR"
       ]
     },
     "us:chwy": {
@@ -19510,18 +19534,15 @@
       "exchange": "NYSE",
       "symbol": "CL",
       "name": "Colgate-Palmolive Company",
-      "industry_group": "必需消費品（口腔、個人護理與寵物營養）",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "industry_group": "必需消費／口腔、個人護理與寵物營養",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "續抱",
-      "latest_url": "stocks/us-cl/2026-08-04.html",
+      "latest_url": "stocks/us-cl/",
       "url": "stocks/us-cl/",
       "aliases": [
         "CL",
-        "NYSE:CL",
-        "Colgate-Palmolive",
-        "Colgate",
-        "高露潔"
+        "NYSE:CL"
       ]
     },
     "us:clf": {
@@ -19948,16 +19969,16 @@
       "exchange": "NYSE",
       "symbol": "COLD",
       "name": "Americold Realty Trust, Inc. Common Stock",
-      "industry_group": "不動產／冷鏈物流 REIT",
-      "latest_report_date": "2026-08-07",
-      "valid_until": "2026-08-14",
+      "industry_group": "冷鏈物流不動產投資信託",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-cold/",
+      "latest_url": "stocks/us-cold/2026-08-18.html",
       "url": "stocks/us-cold/",
       "aliases": [
         "COLD",
-        "US:COLD",
         "NYSE:COLD",
+        "COLD:US",
         "Americold",
         "Americold Realty Trust"
       ]
@@ -20170,10 +20191,10 @@
       "symbol": "CPRT",
       "name": "Copart Inc",
       "industry_group": "汽車售後服務／全損車拍賣與車輛再行銷",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
-      "latest_url": "us-cprt/2026-08-11/report.html",
+      "latest_url": "us-cprt/2026-08-19/report.html",
       "url": "stocks/us-cprt/",
       "aliases": [
         "CPRT",
@@ -20920,18 +20941,18 @@
       "exchange": "NYSE",
       "symbol": "DG",
       "name": "Dollar General Corporation Common Stock",
-      "industry_group": "非必需消費 / 百貨與專門零售、折扣零售",
-      "latest_report_date": "2026-07-06",
-      "valid_until": "2026-07-13",
-      "rating": "分批布局",
-      "latest_url": "stocks/us-dg/",
+      "industry_group": "折扣零售與價值型便利零售",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-dg/2026-08-18.html",
       "url": "stocks/us-dg/",
       "aliases": [
         "DG",
         "NYSE:DG",
+        "DG:US",
         "Dollar General",
-        "Dollar General Corporation",
-        "美元通用"
+        "Dollar General Corporation"
       ]
     },
     "us:dgnx": {
@@ -21361,6 +21382,24 @@
         "DoubleVerify Holdings, Inc."
       ]
     },
+    "us:dvlt": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "DVLT",
+      "name": "Datavault AI Inc. - Common Stock",
+      "industry_group": "企業資料管理與貨幣化／活動科技／音訊智慧財產",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-dvlt/2026-08-18.html",
+      "url": "stocks/us-dvlt/",
+      "aliases": [
+        "DVLT",
+        "NASDAQ:DVLT",
+        "Datavault AI",
+        "WiSA Technologies"
+      ]
+    },
     "us:dvn": {
       "market": "us",
       "exchange": "NYSE",
@@ -21450,6 +21489,41 @@
         "eBay Inc."
       ]
     },
+    "us:ecl": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "ECL",
+      "name": "Ecolab Inc.",
+      "industry_group": "工業／水處理、衛生與感染防治",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-ecl/",
+      "url": "stocks/us-ecl/",
+      "aliases": [
+        "ECL",
+        "NYSE:ECL"
+      ]
+    },
+    "us:ed": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "ED",
+      "name": "Consolidated Edison, Inc. Common Stock",
+      "industry_group": "受監管電力、天然氣與蒸汽公用事業",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-ed/2026-08-18.html",
+      "url": "stocks/us-ed/",
+      "aliases": [
+        "ED",
+        "NYSE:ED",
+        "ED:US",
+        "Consolidated Edison",
+        "Con Edison"
+      ]
+    },
     "us:ego": {
       "market": "us",
       "exchange": "NYSE",
@@ -21485,6 +21559,22 @@
         "NASDAQ:EHGO",
         "Eshallgo",
         "EShallGo"
+      ]
+    },
+    "us:eix": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "EIX",
+      "name": "Edison International",
+      "industry_group": "公用事業／受監管電力與電網",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-eix/",
+      "url": "stocks/us-eix/",
+      "aliases": [
+        "EIX",
+        "NYSE:EIX"
       ]
     },
     "us:el": {
@@ -23562,6 +23652,24 @@
         "Golar LNG"
       ]
     },
+    "us:glob": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "GLOB",
+      "name": "Globant S.A. Common Shares",
+      "industry_group": "數位工程與人工智慧原生資訊科技服務",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-glob/2026-08-18.html",
+      "url": "stocks/us-glob/",
+      "aliases": [
+        "GLOB",
+        "NYSE:GLOB",
+        "Globant",
+        "Globant S.A."
+      ]
+    },
     "us:glpi": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -23853,10 +23961,10 @@
       "symbol": "GSK",
       "name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
       "industry_group": "醫療保健／全球製藥與疫苗",
-      "latest_report_date": "2026-08-06",
-      "valid_until": "2026-08-13",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-gsk/2026-08-06/report.html",
+      "latest_url": "stocks/us-gsk/2026-08-18.html",
       "url": "stocks/us-gsk/",
       "aliases": [
         "GSK",
@@ -24197,17 +24305,15 @@
       "exchange": "NYSE",
       "symbol": "HLN",
       "name": "Haleon plc",
-      "industry_group": "消費保健品與非處方藥",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-08-12",
+      "industry_group": "必需消費／消費保健與非處方藥",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "續抱",
       "latest_url": "stocks/us-hln/",
       "url": "stocks/us-hln/",
       "aliases": [
         "HLN",
-        "NYSE:HLN",
-        "Haleon",
-        "Haleon plc"
+        "NYSE:HLN"
       ]
     },
     "us:hlt": {
@@ -25620,17 +25726,19 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "KMB",
-      "name": "Kimberly-Clark Corporation",
+      "name": "Kimberly-Clark Corporation - Common Stock",
       "industry_group": "個人照護與家庭衛生用品",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
-      "rating": "分批布局",
-      "latest_url": "stocks/us-kmb/2026-08-04.html",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-kmb/2026-08-18.html",
       "url": "stocks/us-kmb/",
       "aliases": [
         "KMB",
         "NASDAQ:KMB",
-        "KMB:US"
+        "KMB:US",
+        "Kimberly-Clark",
+        "Kimberly-Clark Corporation"
       ]
     },
     "us:kmi": {
@@ -25778,17 +25886,18 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "KR",
-      "name": "Kroger",
-      "industry_group": "超市零售",
-      "latest_report_date": "2026-07-24",
-      "valid_until": "2026-07-31",
+      "name": "Kroger Company (The) Common Stock",
+      "industry_group": "食品雜貨零售／會員數據與零售媒體",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-kr/",
+      "latest_url": "stocks/us-kr/2026-08-18.html",
       "url": "stocks/us-kr/",
       "aliases": [
         "KR",
         "NYSE:KR",
-        "KR:US"
+        "Kroger",
+        "The Kroger Co."
       ]
     },
     "us:krg": {
@@ -25921,16 +26030,16 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "KVYO",
-      "name": "Klaviyo, Inc. Series A Common Stock",
-      "industry_group": "B2C CRM、行銷自動化與客戶資料平台",
-      "latest_report_date": "2026-08-10",
-      "valid_until": "2026-08-17",
+      "name": "Klaviyo, Inc.",
+      "industry_group": "科技／B2C CRM 與行銷自動化 SaaS",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-kvyo/2026-08-10/report.html",
+      "latest_url": "stocks/us-kvyo/",
       "url": "stocks/us-kvyo/",
       "aliases": [
         "KVYO",
-        "Klaviyo"
+        "NYSE:KVYO"
       ]
     },
     "us:labt": {
@@ -26042,10 +26151,10 @@
       "symbol": "LEGN",
       "name": "Legend Biotech Corporation",
       "industry_group": "細胞治療與腫瘤生技",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
-      "latest_url": "us-legn/2026-08-11/report.html",
+      "latest_url": "us-legn/2026-08-19/report.html",
       "url": "stocks/us-legn/",
       "aliases": [
         "LEGN",
@@ -26770,14 +26879,14 @@
     },
     "us:ma": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NYSE",
       "symbol": "MA",
-      "name": "萬事達卡",
-      "industry_group": "金融科技",
-      "latest_report_date": "2026-07-14",
-      "valid_until": "2026-07-21",
+      "name": "Mastercard Incorporated Common Stock",
+      "industry_group": "金融科技／全球支付網路與加值服務",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-ma/",
+      "latest_url": "stocks/us-ma/2026-08-18.html",
       "url": "stocks/us-ma/",
       "aliases": [
         "MA",
@@ -28155,6 +28264,25 @@
         "Natera"
       ]
     },
+    "us:ntwo": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "NTWO",
+      "name": "Newbury Street II Acquisition Corp Class A",
+      "industry_group": "特殊目的收購公司（SPAC）與工業機器人安全系統",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-ntwo/2026-08-18.html",
+      "url": "stocks/us-ntwo/",
+      "aliases": [
+        "NTWO",
+        "NASDAQ:NTWO",
+        "NTWO:US",
+        "Newbury Street II",
+        "Newbury Street II Acquisition Corp"
+      ]
+    },
     "us:nu": {
       "market": "us",
       "exchange": "NYSE",
@@ -28304,13 +28432,14 @@
       "symbol": "NVST",
       "name": "Envista Holdings Corporation Common Stock",
       "industry_group": "牙科設備、植牙、矯正與數位牙科",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-nvst/2026-08-04/report.html",
+      "latest_url": "stocks/us-nvst/2026-08-18.html",
       "url": "stocks/us-nvst/",
       "aliases": [
         "NVST",
+        "NYSE:NVST",
         "Envista",
         "Envista Holdings"
       ]
@@ -28826,16 +28955,17 @@
       "exchange": "NASDAQ",
       "symbol": "ORLY",
       "name": "O'Reilly Automotive, Inc.",
-      "industry_group": "汽車售後零件零售與專業維修供應鏈",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "industry_group": "非必需消費／汽車售後零件零售",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-orly/2026-07-31.html",
+      "latest_url": "stocks/us-orly/2026-08-18.html",
       "url": "stocks/us-orly/",
       "aliases": [
         "ORLY",
         "NASDAQ:ORLY",
-        "O'Reilly Automotive"
+        "O'Reilly Automotive",
+        "O'Reilly Auto Parts"
       ]
     },
     "us:oscr": {
@@ -29445,17 +29575,16 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "PGR",
-      "name": "Progressive Corporation",
-      "industry_group": "金融 / 產物保險",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
-      "rating": "觀察",
+      "name": "The Progressive Corporation",
+      "industry_group": "金融／財產意外與汽車保險",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "續抱",
       "latest_url": "stocks/us-pgr/",
       "url": "stocks/us-pgr/",
       "aliases": [
         "PGR",
-        "NYSE:PGR",
-        "Progressive"
+        "NYSE:PGR"
       ]
     },
     "us:pgy": {
@@ -29634,17 +29763,19 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "PNR",
-      "name": "Pentair plc.",
-      "industry_group": "水處理、流體控制與泳池設備",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "name": "Pentair plc. Ordinary Share",
+      "industry_group": "水處理與工業流體設備",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-pnr/2026-08-04.html",
+      "latest_url": "stocks/us-pnr/2026-08-18.html",
       "url": "stocks/us-pnr/",
       "aliases": [
         "PNR",
         "NYSE:PNR",
-        "PNR:US"
+        "PNR:US",
+        "Pentair",
+        "Pentair plc"
       ]
     },
     "us:pnw": {
@@ -30458,17 +30589,19 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "REXR",
-      "name": "Rexford Industrial Realty, Inc.",
-      "industry_group": "房地產 / 不動產投資信託",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
+      "name": "Rexford Industrial Realty, Inc. Common Stock",
+      "industry_group": "工業物流不動產投資信託",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-rexr/",
+      "latest_url": "stocks/us-rexr/2026-08-18.html",
       "url": "stocks/us-rexr/",
       "aliases": [
         "REXR",
         "NYSE:REXR",
-        "US:REXR"
+        "REXR:US",
+        "Rexford Industrial",
+        "Rexford Industrial Realty"
       ]
     },
     "us:rezi": {
@@ -32102,6 +32235,24 @@
         "SoundHound AI"
       ]
     },
+    "us:spot": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SPOT",
+      "name": "Spotify Technology S.A.",
+      "industry_group": "非必需消費／音訊串流與數位媒體平台",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-spot/2026-08-18.html",
+      "url": "stocks/us-spot/",
+      "aliases": [
+        "SPOT",
+        "NYSE:SPOT",
+        "Spotify",
+        "Spotify Technology"
+      ]
+    },
     "us:sprc": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -33060,6 +33211,25 @@
         "Trex Company, Inc."
       ]
     },
+    "us:tri": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "TRI",
+      "name": "Thomson Reuters Corp - Common Shares",
+      "industry_group": "專業資訊服務／法律稅務工作流程與可信任人工智慧",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-tri/2026-08-18.html",
+      "url": "stocks/us-tri/",
+      "aliases": [
+        "TRI",
+        "NASDAQ:TRI",
+        "TSX:TRI",
+        "Thomson Reuters",
+        "路透"
+      ]
+    },
     "us:trmb": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -33553,6 +33723,38 @@
         "UDR, Inc."
       ]
     },
+    "us:ugi": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "UGI",
+      "name": "UGI Corporation",
+      "industry_group": "公用事業／天然氣配送、LPG 與中游能源",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-ugi/",
+      "url": "stocks/us-ugi/",
+      "aliases": [
+        "UGI",
+        "NYSE:UGI"
+      ]
+    },
+    "us:ul": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "UL",
+      "name": "Unilever PLC",
+      "industry_group": "必需消費／個人、居家護理與食品品牌",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "續抱",
+      "latest_url": "stocks/us-ul/",
+      "url": "stocks/us-ul/",
+      "aliases": [
+        "UL",
+        "NYSE:UL"
+      ]
+    },
     "us:umc": {
       "market": "us",
       "exchange": "US",
@@ -33724,10 +33926,10 @@
       "symbol": "V",
       "name": "Visa Inc.",
       "industry_group": "全球電子支付網路與金融科技",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "分批布局",
-      "latest_url": "us-v/2026-08-11/report.html",
+      "latest_url": "us-v/2026-08-19/report.html",
       "url": "stocks/us-v/",
       "aliases": [
         "V",
@@ -33830,18 +34032,19 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "VG",
-      "name": "Venture Global, Inc.",
-      "industry_group": "公用事業／天然氣基礎設施與液化天然氣出口",
-      "latest_report_date": "2026-07-29",
-      "valid_until": "2026-08-05",
+      "name": "Venture Global, Inc. Class A common stock",
+      "industry_group": "液化天然氣生產與出口",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-vg/2026-07-29.html",
+      "latest_url": "stocks/us-vg/2026-08-18.html",
       "url": "stocks/us-vg/",
       "aliases": [
         "VG",
         "NYSE:VG",
+        "VG:US",
         "Venture Global",
-        "Venture Global, Inc."
+        "Venture Global Inc"
       ]
     },
     "us:viav": {
@@ -34358,6 +34561,24 @@
         "WD"
       ]
     },
+    "us:weav": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "WEAV",
+      "name": "Weave Communications, Inc. Common Stock",
+      "industry_group": "醫療垂直軟體／病患互動、支付與人工智慧前台",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-weav/2026-08-18.html",
+      "url": "stocks/us-weav/",
+      "aliases": [
+        "WEAV",
+        "NYSE:WEAV",
+        "Weave",
+        "Weave Communications"
+      ]
+    },
     "us:well": {
       "market": "us",
       "exchange": "NYSE",
@@ -34425,6 +34646,22 @@
         "NYSE:WFC",
         "Wells Fargo",
         "Wells Fargo & Company"
+      ]
+    },
+    "us:wff": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "WFF",
+      "name": "WF Holding Limited",
+      "industry_group": "工業材料／玻璃纖維強化塑膠製造",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "觀察",
+      "latest_url": "stocks/us-wff/",
+      "url": "stocks/us-wff/",
+      "aliases": [
+        "WFF",
+        "NASDAQ:WFF"
       ]
     },
     "us:whr": {
@@ -34519,10 +34756,10 @@
       "symbol": "WMB",
       "name": "The Williams Companies, Inc. Common Stock",
       "industry_group": "北美天然氣中游、輸送與儲存基礎設施",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "latest_report_date": "2026-08-19",
+      "valid_until": "2026-08-26",
       "rating": "觀察",
-      "latest_url": "us-wmb/2026-08-11/report.html",
+      "latest_url": "us-wmb/2026-08-19/report.html",
       "url": "stocks/us-wmb/",
       "aliases": [
         "WMB",
@@ -34885,6 +35122,24 @@
         "ExxonMobil Holdings Corporation Common Stock"
       ]
     },
+    "us:xos": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "XOS",
+      "name": "Xos, Inc.",
+      "industry_group": "非必需消費／電動商用車與原廠零組件",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-xos/2026-08-18.html",
+      "url": "stocks/us-xos/",
+      "aliases": [
+        "XOS",
+        "NASDAQ:XOS",
+        "Xos",
+        "Xos, Inc."
+      ]
+    },
     "us:xp": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -35086,17 +35341,18 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "Z",
-      "name": "Zillow Group",
-      "industry_group": "房地產資訊與線上媒合平台",
-      "latest_report_date": "2026-07-24",
-      "valid_until": "2026-07-31",
+      "name": "Zillow Group, Inc. - Class C Capital Stock",
+      "industry_group": "房地產資訊／線上媒合與房貸平台",
+      "latest_report_date": "2026-08-18",
+      "valid_until": "2026-08-25",
       "rating": "觀察",
-      "latest_url": "stocks/us-z/",
+      "latest_url": "stocks/us-z/2026-08-18.html",
       "url": "stocks/us-z/",
       "aliases": [
         "Z",
         "NASDAQ:Z",
-        "Z:US"
+        "Zillow",
+        "Zillow Group"
       ]
     },
     "us:zbh": {
