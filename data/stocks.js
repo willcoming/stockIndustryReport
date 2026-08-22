@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-08-21T23:45:24.688585+00:00",
+  "generated_at": "2026-08-22T00:20:35.808871+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -2615,6 +2615,25 @@ window.STOCK_INDUSTRY_REPORTS = {
         "和成欣業",
         "和成欣業股份有限公司",
         "HCG"
+      ]
+    },
+    "tw:1815": {
+      "market": "tw",
+      "exchange": "TPEx",
+      "symbol": "1815",
+      "name": "富喬",
+      "industry_group": "電子材料／玻纖布",
+      "latest_report_date": "2026-08-22",
+      "valid_until": "2026-08-29",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-1815/",
+      "url": "stocks/tw-1815/",
+      "aliases": [
+        "1815",
+        "1815.TWO",
+        "TPEx:1815",
+        "富喬",
+        "FFG"
       ]
     },
     "tw:1903": {
@@ -8978,18 +8997,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3533",
       "name": "嘉澤",
-      "industry_group": "電子零組件業／CPU Socket 與高速連接器",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "industry_group": "連接器",
+      "latest_report_date": "2026-08-22",
+      "valid_until": "2026-08-29",
       "rating": "觀察",
-      "latest_url": "stocks/tw-3533/2026-08-11.html",
+      "latest_url": "stocks/tw-3533/",
       "url": "stocks/tw-3533/",
       "aliases": [
         "3533",
         "3533.TW",
         "TWSE:3533",
         "嘉澤",
-        "嘉澤端子",
         "LOTES"
       ]
     },
@@ -9364,9 +9382,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3661",
       "name": "世芯-KY",
-      "industry_group": "ASIC 設計服務",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "industry_group": "ASIC",
+      "latest_report_date": "2026-08-22",
+      "valid_until": "2026-08-29",
       "rating": "觀察",
       "latest_url": "stocks/tw-3661/",
       "url": "stocks/tw-3661/",
@@ -10630,17 +10648,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "4958",
       "name": "臻鼎-KY",
-      "industry_group": "電子零組件業",
-      "latest_report_date": "2026-08-05",
-      "valid_until": "2026-08-12",
-      "rating": "分批布局",
+      "industry_group": "PCB／載板",
+      "latest_report_date": "2026-08-22",
+      "valid_until": "2026-08-29",
+      "rating": "觀察",
       "latest_url": "stocks/tw-4958/",
       "url": "stocks/tw-4958/",
       "aliases": [
         "4958",
         "4958.TW",
-        "4958.TWO",
-        "TWSE:4958"
+        "TWSE:4958",
+        "臻鼎-KY",
+        "ZDT"
       ]
     },
     "tw:4960": {
@@ -15047,6 +15066,25 @@ window.STOCK_INDUSTRY_REPORTS = {
         "群聯"
       ]
     },
+    "tw:8358": {
+      "market": "tw",
+      "exchange": "TPEx",
+      "symbol": "8358",
+      "name": "金居",
+      "industry_group": "銅箔",
+      "latest_report_date": "2026-08-22",
+      "valid_until": "2026-08-29",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-8358/",
+      "url": "stocks/tw-8358/",
+      "aliases": [
+        "8358",
+        "8358.TWO",
+        "TPEx:8358",
+        "金居",
+        "CO-TECH"
+      ]
+    },
     "tw:8367": {
       "market": "tw",
       "exchange": "TWSE",
@@ -16817,17 +16855,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "industry_group": "人工智慧運算、伺服器處理器與半導體平台",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "name": "Advanced Micro Devices",
+      "industry_group": "半導體",
+      "latest_report_date": "2026-08-22",
+      "valid_until": "2026-08-29",
       "rating": "觀察",
-      "latest_url": "stocks/us-amd/2026-08-13.html",
+      "latest_url": "stocks/us-amd/",
       "url": "stocks/us-amd/",
       "aliases": [
         "AMD",
-        "Advanced Micro Devices",
-        "超微"
+        "NASDAQ:AMD",
+        "Advanced Micro Devices"
       ]
     },
     "us:amgn": {
