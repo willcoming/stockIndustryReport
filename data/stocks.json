@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T00:20:35.808871+00:00",
+  "generated_at": "2026-08-23T00:12:29.025431+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -435,15 +435,17 @@
       "exchange": "TWSE",
       "symbol": "1303",
       "name": "南亞",
-      "industry_group": "塑膠工業",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "industry_group": "塑化／電子材料",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/tw-1303/",
       "url": "stocks/tw-1303/",
       "aliases": [
         "1303",
         "1303.TW",
+        "1303.TWO",
+        "TWSE:1303",
         "南亞"
       ]
     },
@@ -4210,16 +4212,18 @@
       "exchange": "TWSE",
       "symbol": "2360",
       "name": "致茂",
-      "industry_group": "其他電子業",
-      "latest_report_date": "2026-08-08",
-      "valid_until": "2026-08-15",
+      "industry_group": "測試設備",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
-      "latest_url": "tw-2360/2026-08-08/report.html",
+      "latest_url": "stocks/tw-2360/",
       "url": "stocks/tw-2360/",
       "aliases": [
         "2360",
-        "致茂",
-        "Chroma ATE"
+        "2360.TW",
+        "2360.TWO",
+        "TWSE:2360",
+        "致茂"
       ]
     },
     "tw:2362": {
@@ -8160,19 +8164,18 @@
       "exchange": "TPEx",
       "symbol": "3081",
       "name": "聯亞",
-      "industry_group": "光通訊",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "industry_group": "磷化銦／光通訊",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/tw-3081/",
       "url": "stocks/tw-3081/",
       "aliases": [
         "3081",
+        "3081.TW",
         "3081.TWO",
-        "TPEx:3081",
-        "聯亞",
-        "聯亞光電",
-        "LandMark Optoelectronics"
+        "TPEX:3081",
+        "聯亞"
       ]
     },
     "tw:3090": {
@@ -8231,6 +8234,25 @@
         "TPEX:3105",
         "穩懋",
         "WIN Semiconductors"
+      ]
+    },
+    "tw:3131": {
+      "market": "tw",
+      "exchange": "TPEx",
+      "symbol": "3131",
+      "name": "弘塑",
+      "industry_group": "半導體設備",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-3131/",
+      "url": "stocks/tw-3131/",
+      "aliases": [
+        "3131",
+        "3131.TW",
+        "3131.TWO",
+        "TPEX:3131",
+        "弘塑"
       ]
     },
     "tw:3135": {
@@ -8979,9 +9001,9 @@
       "exchange": "TWSE",
       "symbol": "3532",
       "name": "台勝科",
-      "industry_group": "半導體業",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "industry_group": "矽晶圓",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "分批布局",
       "latest_url": "stocks/tw-3532/",
       "url": "stocks/tw-3532/",
@@ -8989,7 +9011,8 @@
         "3532",
         "3532.TW",
         "3532.TWO",
-        "TWSE:3532"
+        "TWSE:3532",
+        "台勝科"
       ]
     },
     "tw:3533": {
@@ -9400,19 +9423,19 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "3665",
-      "name": "貿聯控股",
-      "industry_group": "高速連接與線束",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "name": "貿聯-KY",
+      "industry_group": "連接器",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/tw-3665/",
       "url": "stocks/tw-3665/",
       "aliases": [
         "3665",
         "3665.TW",
-        "貿聯-KY",
-        "貿聯控股",
-        "BizLink"
+        "3665.TWO",
+        "TWSE:3665",
+        "貿聯-KY"
       ]
     },
     "tw:3669": {
@@ -10742,22 +10765,21 @@
     },
     "tw:4971": {
       "market": "tw",
-      "exchange": "TPEX",
+      "exchange": "TPEx",
       "symbol": "4971",
-      "name": "IET-KY 英特磊",
-      "industry_group": "三五族磊晶／InP",
-      "latest_report_date": "2026-08-14",
-      "valid_until": "2026-08-21",
+      "name": "IET-KY",
+      "industry_group": "磊晶／光通訊",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
-      "latest_url": "stocks/tw-4971/2026-08-14.html",
+      "latest_url": "stocks/tw-4971/",
       "url": "stocks/tw-4971/",
       "aliases": [
         "4971",
+        "4971.TW",
         "4971.TWO",
         "TPEX:4971",
-        "IET-KY",
-        "英特磊",
-        "IntelliEPI"
+        "IET-KY"
       ]
     },
     "tw:4976": {
@@ -12005,42 +12027,40 @@
     },
     "tw:6182": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "6182",
       "name": "合晶",
-      "industry_group": "半導體矽晶圓",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
+      "industry_group": "矽晶圓",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/tw-6182/",
       "url": "stocks/tw-6182/",
       "aliases": [
         "6182",
+        "6182.TW",
         "6182.TWO",
         "TPEX:6182",
-        "合晶",
-        "合晶科技",
-        "Wafer Works"
+        "合晶"
       ]
     },
     "tw:6187": {
       "market": "tw",
-      "exchange": "TPEX",
+      "exchange": "TPEx",
       "symbol": "6187",
       "name": "萬潤",
-      "industry_group": "半導體／封裝設備",
-      "latest_report_date": "2026-08-14",
-      "valid_until": "2026-08-21",
+      "industry_group": "半導體設備",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
-      "latest_url": "stocks/tw-6187/2026-08-14.html",
+      "latest_url": "stocks/tw-6187/",
       "url": "stocks/tw-6187/",
       "aliases": [
         "6187",
+        "6187.TW",
         "6187.TWO",
         "TPEX:6187",
-        "萬潤",
-        "萬潤科技",
-        "All Ring Tech"
+        "萬潤"
       ]
     },
     "tw:6189": {
@@ -12312,6 +12332,25 @@
         "Aurotek"
       ]
     },
+    "tw:6217": {
+      "market": "tw",
+      "exchange": "TPEx",
+      "symbol": "6217",
+      "name": "中探針",
+      "industry_group": "測試介面",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-6217/",
+      "url": "stocks/tw-6217/",
+      "aliases": [
+        "6217",
+        "6217.TW",
+        "6217.TWO",
+        "TPEX:6217",
+        "中探針"
+      ]
+    },
     "tw:6223": {
       "market": "tw",
       "exchange": "TPEx",
@@ -12489,21 +12528,19 @@
       "market": "tw",
       "exchange": "TPEx",
       "symbol": "6274",
-      "name": "台燿科技股份有限公司",
+      "name": "台燿",
       "industry_group": "CCL",
-      "latest_report_date": "2026-08-08",
-      "valid_until": "2026-08-15",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/tw-6274/",
       "url": "stocks/tw-6274/",
       "aliases": [
         "6274",
+        "6274.TW",
         "6274.TWO",
         "TPEX:6274",
-        "台燿",
-        "台燿科技",
-        "TUC",
-        "Taiwan Union Technology"
+        "台燿"
       ]
     },
     "tw:6277": {
@@ -12913,21 +12950,21 @@
     },
     "tw:6488": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "6488",
-      "name": "環球晶圓",
-      "industry_group": "半導體矽晶圓",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "name": "環球晶",
+      "industry_group": "矽晶圓",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/tw-6488/",
       "url": "stocks/tw-6488/",
       "aliases": [
         "6488",
         "6488.TW",
-        "環球晶",
-        "環球晶圓",
-        "GlobalWafers"
+        "6488.TWO",
+        "TPEX:6488",
+        "環球晶"
       ]
     },
     "tw:6491": {
@@ -15381,19 +15418,18 @@
       "exchange": "TWSE",
       "symbol": "8996",
       "name": "高力",
-      "industry_group": "電機機械",
-      "latest_report_date": "2026-08-06",
-      "valid_until": "2026-08-13",
+      "industry_group": "熱交換器／散熱",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "分批布局",
       "latest_url": "stocks/tw-8996/",
       "url": "stocks/tw-8996/",
       "aliases": [
         "8996",
         "8996.TW",
+        "8996.TWO",
         "TWSE:8996",
-        "高力",
-        "高力熱處理",
-        "Kaori"
+        "高力"
       ]
     },
     "tw:9103": {
@@ -16801,10 +16837,10 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "AMBA",
-      "name": "Ambarella, Inc. - Ordinary Shares",
-      "industry_group": "科技 / 半導體",
-      "latest_report_date": "2026-07-28",
-      "valid_until": "2026-08-04",
+      "name": "Ambarella",
+      "industry_group": "邊緣 AI",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/us-amba/",
       "url": "stocks/us-amba/",
@@ -29707,18 +29743,18 @@
     },
     "us:oust": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "NYSE",
       "symbol": "OUST",
-      "name": "Ouster, Inc.",
-      "industry_group": "數位光達、機器視覺與智慧基礎設施感知",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "name": "Ouster",
+      "industry_group": "光達／AI 感知",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
-      "latest_url": "stocks/us-oust/2026-07-31.html",
+      "latest_url": "stocks/us-oust/",
       "url": "stocks/us-oust/",
       "aliases": [
         "OUST",
-        "NASDAQ:OUST",
+        "NYSE:OUST",
         "Ouster"
       ]
     },
@@ -30291,8 +30327,8 @@
       "symbol": "PINS",
       "name": "Pinterest, Inc. Class A Common Stock",
       "industry_group": "互動媒體、視覺搜尋與數位廣告",
-      "latest_report_date": "2026-08-15",
-      "valid_until": "2026-08-22",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/us-pins/",
       "url": "stocks/us-pins/",
@@ -30961,8 +30997,8 @@
       "symbol": "QUBT",
       "name": "Quantum Computing Inc. - Common Stock",
       "industry_group": "量子光子運算與整合光子晶片",
-      "latest_report_date": "2026-08-15",
-      "valid_until": "2026-08-22",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/us-qubt/",
       "url": "stocks/us-qubt/",
@@ -34355,8 +34391,8 @@
       "symbol": "TXN",
       "name": "Texas Instruments Incorporated - Common Stock",
       "industry_group": "類比與嵌入式半導體整合元件製造",
-      "latest_report_date": "2026-08-15",
-      "valid_until": "2026-08-22",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "續抱",
       "latest_url": "stocks/us-txn/",
       "url": "stocks/us-txn/",
@@ -35042,6 +35078,23 @@
         "Vor Biopharma Inc."
       ]
     },
+    "us:vpg": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "VPG",
+      "name": "Vishay Precision Group",
+      "industry_group": "精密感測",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
+      "rating": "觀察",
+      "latest_url": "stocks/us-vpg/",
+      "url": "stocks/us-vpg/",
+      "aliases": [
+        "VPG",
+        "NYSE:VPG",
+        "Vishay Precision Group"
+      ]
+    },
     "us:vrax": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -35380,8 +35433,8 @@
       "symbol": "WDC",
       "name": "Western Digital Corporation - Common Stock",
       "industry_group": "企業級近線硬碟與資料儲存基礎設施",
-      "latest_report_date": "2026-08-15",
-      "valid_until": "2026-08-22",
+      "latest_report_date": "2026-08-23",
+      "valid_until": "2026-08-30",
       "rating": "觀察",
       "latest_url": "stocks/us-wdc/",
       "url": "stocks/us-wdc/",
