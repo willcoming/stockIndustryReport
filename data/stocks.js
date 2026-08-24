@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-08-23T13:26:32.141606+00:00",
+  "generated_at": "2026-08-24T00:10:57.149163+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -8561,19 +8561,20 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "3260",
       "name": "威剛",
       "industry_group": "記憶體模組",
-      "latest_report_date": "2026-07-08",
-      "valid_until": "2026-07-15",
+      "latest_report_date": "2026-08-24",
+      "valid_until": "2026-08-31",
       "rating": "觀察",
       "latest_url": "stocks/tw-3260/",
       "url": "stocks/tw-3260/",
       "aliases": [
-        "威剛",
-        "威剛科技股份有限公司",
-        "ADATA",
-        "XPG",
         "3260",
         "3260.TWO",
-        "TPEx:3260"
+        "TPEx:3260",
+        "威剛",
+        "威剛科技",
+        "ADATA",
+        "XPG",
+        "TRUSTA"
       ]
     },
     "tw:3305": {
@@ -11151,21 +11152,22 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "tw:5289": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "5289",
       "name": "宜鼎",
-      "industry_group": "工業記憶體",
-      "latest_report_date": "2026-08-08",
-      "valid_until": "2026-08-15",
+      "industry_group": "工業儲存",
+      "latest_report_date": "2026-08-24",
+      "valid_until": "2026-08-31",
       "rating": "觀察",
-      "latest_url": "tw-5289/2026-08-08/report.html",
+      "latest_url": "stocks/tw-5289/",
       "url": "stocks/tw-5289/",
       "aliases": [
         "5289",
         "5289.TWO",
+        "TPEx:5289",
         "宜鼎",
-        "Innodisk",
-        "Innodisk Corporation"
+        "宜鼎國際",
+        "Innodisk"
       ]
     },
     "tw:5328": {
@@ -14835,6 +14837,26 @@ window.STOCK_INDUSTRY_REPORTS = {
         "TPEx:8086"
       ]
     },
+    "tw:8088": {
+      "market": "tw",
+      "exchange": "TPEx",
+      "symbol": "8088",
+      "name": "品安科技",
+      "industry_group": "記憶體模組",
+      "latest_report_date": "2026-08-24",
+      "valid_until": "2026-08-31",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-8088/",
+      "url": "stocks/tw-8088/",
+      "aliases": [
+        "8088",
+        "8088.TWO",
+        "TPEx:8088",
+        "品安",
+        "品安科技",
+        "Panram International"
+      ]
+    },
     "tw:8091": {
       "market": "tw",
       "exchange": "TWSE",
@@ -15183,9 +15205,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TPEx",
       "symbol": "8299",
       "name": "群聯",
-      "industry_group": "儲存控制晶片",
-      "latest_report_date": "2026-08-16",
-      "valid_until": "2026-08-23",
+      "industry_group": "NAND 控制晶片",
+      "latest_report_date": "2026-08-24",
+      "valid_until": "2026-08-31",
       "rating": "觀察",
       "latest_url": "stocks/tw-8299/",
       "url": "stocks/tw-8299/",
@@ -15193,7 +15215,9 @@ window.STOCK_INDUSTRY_REPORTS = {
         "8299",
         "8299.TWO",
         "TPEx:8299",
-        "群聯"
+        "群聯",
+        "群聯電子",
+        "Phison"
       ]
     },
     "tw:8358": {
@@ -17305,17 +17329,19 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "APH",
-      "name": "Amphenol Corporation Common Stock",
-      "industry_group": "科技 / 電機產品",
-      "latest_report_date": "2026-07-30",
-      "valid_until": "2026-08-06",
+      "name": "Amphenol Corporation",
+      "industry_group": "高速互連與連接器",
+      "latest_report_date": "2026-08-24",
+      "valid_until": "2026-08-31",
       "rating": "觀察",
       "latest_url": "stocks/us-aph/",
       "url": "stocks/us-aph/",
       "aliases": [
         "APH",
         "APH:US",
-        "NYSE:APH"
+        "NYSE:APH",
+        "Amphenol",
+        "Amphenol Corporation"
       ]
     },
     "us:apld": {
@@ -28308,18 +28334,20 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "MSFT",
-      "name": "Microsoft",
-      "industry_group": "雲端／AI",
-      "latest_report_date": "2026-08-16",
-      "valid_until": "2026-08-23",
+      "name": "Microsoft Corporation",
+      "industry_group": "雲端與企業 AI 平台",
+      "latest_report_date": "2026-08-24",
+      "valid_until": "2026-08-31",
       "rating": "觀察",
       "latest_url": "stocks/us-msft/",
       "url": "stocks/us-msft/",
       "aliases": [
         "MSFT",
+        "MSFT:US",
         "NASDAQ:MSFT",
         "Microsoft",
-        "Microsoft Corporation"
+        "Microsoft Corporation",
+        "微軟"
       ]
     },
     "us:mstr": {
