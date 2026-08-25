@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:50:01.546053+00:00",
+  "generated_at": "2026-08-25T23:21:35.754014+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -16838,6 +16838,25 @@
         "NASDAQ:AIXC"
       ]
     },
+    "us:aixi": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "AIXI",
+      "name": "XIAO-I Corporation - American Depositary Shares",
+      "industry_group": "科技 / 套裝軟體",
+      "latest_report_date": "2026-06-30",
+      "valid_until": "2026-09-01",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-aixi/",
+      "url": "stocks/us-aixi/",
+      "aliases": [
+        "AIXI",
+        "NASDAQ:AIXI",
+        "Xiao-I",
+        "Xiao-I Corporation",
+        "小i機器人"
+      ]
+    },
     "us:akam": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -18953,6 +18972,26 @@
         "Broadstone Net Lease"
       ]
     },
+    "us:bns": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "BNS",
+      "name": "The Bank of Nova Scotia Common Shares",
+      "industry_group": "北美與美洲綜合商業銀行",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "觀察",
+      "latest_url": "stocks/us-bns/",
+      "url": "stocks/us-bns/",
+      "aliases": [
+        "BNS",
+        "NYSE:BNS",
+        "TSX:BNS",
+        "Scotiabank",
+        "The Bank of Nova Scotia",
+        "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares"
+      ]
+    },
     "us:box": {
       "market": "us",
       "exchange": "NYSE",
@@ -19519,6 +19558,25 @@
         "Caris Life Sciences Inc."
       ]
     },
+    "us:capr": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CAPR",
+      "name": "Capricor Therapeutics, Inc. - Common Stock",
+      "industry_group": "醫療保健 / 生物科技：藥物製劑",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "觀察",
+      "latest_url": "stocks/us-capr/",
+      "url": "stocks/us-capr/",
+      "aliases": [
+        "CAPR",
+        "NASDAQ:CAPR",
+        "Capricor",
+        "Capricor Therapeutics",
+        "Deramiocel"
+      ]
+    },
     "us:carg": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -19804,6 +19862,25 @@
         "NYSE:CDE",
         "Coeur Mining",
         "Coeur"
+      ]
+    },
+    "us:cdns": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems, Inc. - Common Stock",
+      "industry_group": "科技 / 套裝軟體",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-09-01",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-cdns/",
+      "url": "stocks/us-cdns/",
+      "aliases": [
+        "CDNS",
+        "NASDAQ:CDNS",
+        "Cadence",
+        "Cadence Design Systems",
+        "鏗騰電子"
       ]
     },
     "us:cdw": {
@@ -20237,9 +20314,9 @@
       "exchange": "NASDAQ",
       "symbol": "CLSK",
       "name": "CleanSpark, Inc. - Common Stock",
-      "industry_group": "比特幣挖礦與人工智慧資料中心基礎設施",
-      "latest_report_date": "2026-08-14",
-      "valid_until": "2026-08-21",
+      "industry_group": "比特幣挖礦與 AI/HPC 數位基礎設施",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "觀察",
       "latest_url": "stocks/us-clsk/",
       "url": "stocks/us-clsk/",
@@ -28697,6 +28774,24 @@
         "agentic banking"
       ]
     },
+    "us:ncpl": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "NCPL",
+      "name": "Netcapital Inc. - Common Stock",
+      "industry_group": "金融 / 消費金融服務",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-ncpl/",
+      "url": "stocks/us-ncpl/",
+      "aliases": [
+        "NCPL",
+        "NASDAQ:NCPL",
+        "Netcapital",
+        "Netcapital Inc."
+      ]
+    },
     "us:ndaq": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -29608,6 +29703,23 @@
         "OBDC",
         "NYSE:OBDC",
         "OBDC:US"
+      ]
+    },
+    "us:ofal": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "OFAL",
+      "name": "OFA Group - Class A Ordinary Shares",
+      "industry_group": "建築設計與早期 BIM／RWA 技術平台",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "觀察",
+      "latest_url": "stocks/us-ofal/",
+      "url": "stocks/us-ofal/",
+      "aliases": [
+        "OFAL",
+        "NASDAQ:OFAL",
+        "OFA Group"
       ]
     },
     "us:oi": {
@@ -31357,6 +31469,25 @@
         "Ralliant Corporation"
       ]
     },
+    "us:rare": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "RARE",
+      "name": "Ultragenyx Pharmaceutical Inc. - Common Stock",
+      "industry_group": "醫療保健 / 生物科技：藥物製劑",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "觀察",
+      "latest_url": "stocks/us-rare/",
+      "url": "stocks/us-rare/",
+      "aliases": [
+        "RARE",
+        "NASDAQ:RARE",
+        "Ultragenyx",
+        "Ultragenyx Pharmaceutical",
+        "GENGLYCOS"
+      ]
+    },
     "us:rblx": {
       "market": "us",
       "exchange": "NYSE",
@@ -32177,6 +32308,24 @@
         "NYSE:RYN",
         "Rayonier",
         "Rayonier Inc."
+      ]
+    },
+    "us:rzlv": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "RZLV",
+      "name": "Rezolve AI PLC - Ordinary Shares",
+      "industry_group": "科技 / 程式設計與資料處理軟體",
+      "latest_report_date": "2026-07-27",
+      "valid_until": "2026-09-01",
+      "rating": "減碼/賣出",
+      "latest_url": "stocks/us-rzlv/",
+      "url": "stocks/us-rzlv/",
+      "aliases": [
+        "RZLV",
+        "NASDAQ:RZLV",
+        "Rezolve AI",
+        "Rezolve Ai plc"
       ]
     },
     "us:s": {
@@ -33127,6 +33276,24 @@
         "Snowflake"
       ]
     },
+    "us:snps": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "SNPS",
+      "name": "Synopsys, Inc. - Common Stock",
+      "industry_group": "科技 / 套裝軟體",
+      "latest_report_date": "2026-05-27",
+      "valid_until": "2026-09-01",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-snps/",
+      "url": "stocks/us-snps/",
+      "aliases": [
+        "SNPS",
+        "NASDAQ:SNPS",
+        "Synopsys",
+        "新思科技"
+      ]
+    },
     "us:sny": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -33812,6 +33979,24 @@
         "Takeda Pharmaceutical"
       ]
     },
+    "us:tal": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "TAL",
+      "name": "TAL Education Group American Depositary Shares",
+      "industry_group": "智慧教育、學習服務與內容解決方案",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "觀察",
+      "latest_url": "stocks/us-tal/",
+      "url": "stocks/us-tal/",
+      "aliases": [
+        "TAL",
+        "NYSE:TAL",
+        "TAL Education Group",
+        "好未來"
+      ]
+    },
     "us:tap": {
       "market": "us",
       "exchange": "NYSE",
@@ -33881,6 +34066,25 @@
         "TCOM",
         "NASDAQ:TCOM",
         "TCOM:US"
+      ]
+    },
+    "us:td": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "TD",
+      "name": "Toronto Dominion Bank (The) Common Stock",
+      "industry_group": "北美綜合商業銀行",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "觀察",
+      "latest_url": "stocks/us-td/",
+      "url": "stocks/us-td/",
+      "aliases": [
+        "TD",
+        "NYSE:TD",
+        "TSX:TD",
+        "Toronto-Dominion Bank",
+        "TD Bank Group"
       ]
     },
     "us:tdc": {
