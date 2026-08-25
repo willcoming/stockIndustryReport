@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-08-24T23:14:51.221032+00:00",
+  "generated_at": "2026-08-25T00:09:13.748542+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -5226,16 +5226,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "2449",
       "name": "京元電子",
       "industry_group": "半導體測試",
-      "latest_report_date": "2026-08-07",
-      "valid_until": "2026-08-14",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "觀察",
-      "latest_url": "stocks/tw-2449/2026-08-07.html",
+      "latest_url": "stocks/tw-2449/",
       "url": "stocks/tw-2449/",
       "aliases": [
         "2449",
+        "2449.TW",
         "TWSE:2449",
-        "京元電子",
-        "KYEC"
+        "京元電子"
       ]
     },
     "tw:2451": {
@@ -7458,9 +7458,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3008",
       "name": "大立光",
-      "industry_group": "光學",
-      "latest_report_date": "2026-08-16",
-      "valid_until": "2026-08-23",
+      "industry_group": "精密光學／CPO",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "觀察",
       "latest_url": "stocks/tw-3008/",
       "url": "stocks/tw-3008/",
@@ -9581,6 +9581,24 @@ window.STOCK_INDUSTRY_REPORTS = {
         "家登",
         "家登精密",
         "Gudeng"
+      ]
+    },
+    "tw:3693": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3693",
+      "name": "營邦",
+      "industry_group": "伺服器機殼",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-3693/",
+      "url": "stocks/tw-3693/",
+      "aliases": [
+        "3693",
+        "3693.TW",
+        "TWSE:3693",
+        "營邦"
       ]
     },
     "tw:3694": {
@@ -12559,9 +12577,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "6257",
       "name": "矽格",
-      "industry_group": "半導體業",
-      "latest_report_date": "2026-08-12",
-      "valid_until": "2026-08-19",
+      "industry_group": "半導體測試",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "觀察",
       "latest_url": "stocks/tw-6257/",
       "url": "stocks/tw-6257/",
@@ -12569,9 +12587,7 @@ window.STOCK_INDUSTRY_REPORTS = {
         "6257",
         "6257.TW",
         "TWSE:6257",
-        "矽格",
-        "矽格股份有限公司",
-        "Sigurd Microelectronics"
+        "矽格"
       ]
     },
     "tw:6269": {
@@ -15022,9 +15038,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "8150",
       "name": "南茂",
-      "industry_group": "半導體業",
-      "latest_report_date": "2026-08-10",
-      "valid_until": "2026-08-17",
+      "industry_group": "封裝測試",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "分批布局",
       "latest_url": "stocks/tw-8150/",
       "url": "stocks/tw-8150/",
@@ -15032,10 +15048,7 @@ window.STOCK_INDUSTRY_REPORTS = {
         "8150",
         "8150.TW",
         "TWSE:8150",
-        "南茂",
-        "南茂科技",
-        "ChipMOS",
-        "IMOS"
+        "南茂"
       ]
     },
     "tw:8162": {
@@ -16097,20 +16110,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:aaoi": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "AAOI",
       "name": "Applied Optoelectronics",
-      "industry_group": "光通訊模組",
-      "latest_report_date": "2026-08-14",
-      "valid_until": "2026-08-21",
+      "industry_group": "光通訊",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "觀察",
-      "latest_url": "stocks/us-aaoi/2026-08-14.html",
+      "latest_url": "stocks/us-aaoi/",
       "url": "stocks/us-aaoi/",
       "aliases": [
         "AAOI",
-        "NASDAQ:AAOI",
-        "Applied Optoelectronics",
-        "AOI"
+        "US:AAOI",
+        "Applied Optoelectronics"
       ]
     },
     "us:aapl": {
@@ -17904,20 +17916,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:avgo": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "AVGO",
       "name": "Broadcom",
       "industry_group": "ASIC／網通",
-      "latest_report_date": "2026-08-16",
-      "valid_until": "2026-08-23",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "觀察",
       "latest_url": "stocks/us-avgo/",
       "url": "stocks/us-avgo/",
       "aliases": [
         "AVGO",
-        "NASDAQ:AVGO",
-        "Broadcom",
-        "Broadcom Inc."
+        "US:AVGO",
+        "Broadcom"
       ]
     },
     "us:avpt": {
@@ -18346,20 +18357,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:be": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "BE",
-      "name": "Bloom Energy Corporation Class A Common Stock",
-      "industry_group": "燃料電池與分散式現場發電",
-      "latest_report_date": "2026-08-12",
-      "valid_until": "2026-08-19",
+      "name": "Bloom Energy",
+      "industry_group": "燃料電池",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "觀察",
-      "latest_url": "stocks/us-be/2026-08-12.html",
+      "latest_url": "stocks/us-be/",
       "url": "stocks/us-be/",
       "aliases": [
         "BE",
-        "NYSE:BE",
-        "Bloom Energy",
-        "Bloom Energy Corporation"
+        "US:BE",
+        "Bloom Energy"
       ]
     },
     "us:beam": {
@@ -20472,19 +20482,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:cohr": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "COHR",
       "name": "Coherent",
-      "industry_group": "光通訊與光電材料",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "industry_group": "光通訊",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
       "rating": "觀察",
       "latest_url": "stocks/us-cohr/",
       "url": "stocks/us-cohr/",
       "aliases": [
         "COHR",
-        "Coherent",
-        "US:COHR"
+        "US:COHR",
+        "Coherent"
       ]
     },
     "us:coin": {
@@ -26136,20 +26146,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:jd": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "JD",
-      "name": "京東",
-      "industry_group": "電商／零售／物流",
-      "latest_report_date": "2026-07-13",
-      "valid_until": "2026-07-20",
-      "rating": "分批布局",
+      "name": "JD.com",
+      "industry_group": "電商",
+      "latest_report_date": "2026-08-25",
+      "valid_until": "2026-09-01",
+      "rating": "觀察",
       "latest_url": "stocks/us-jd/",
       "url": "stocks/us-jd/",
       "aliases": [
         "JD",
-        "NASDAQ:JD",
-        "9618.HK",
-        "京東"
+        "US:JD",
+        "JD.com"
       ]
     },
     "us:jem": {
