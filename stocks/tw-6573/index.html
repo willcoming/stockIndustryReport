@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6573 虹揚-KY Deep Research</title>
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../../assets/stock-industry-site.css">
+</head>
+<body class="bg-stone-50 text-neutral-950 antialiased">
+<div class="site-shell">
+<header class="site-header">
+  <div class="site-container py-5">
+    <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+      <a class="font-bold text-emerald-800 underline decoration-emerald-700/30 underline-offset-4" href="../../index.html">研究首頁</a>
+      <a class="font-bold text-stone-600 underline decoration-stone-400/30 underline-offset-4" href="index.html">最新報告</a>
+    </div>
+    <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold text-emerald-800">台股 · 半導體業</p>
+        <h1 class="mt-1 text-3xl font-black tracking-normal">6573 虹揚-KY</h1>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="meta-pill">研究日 2026-08-25</span>
+        <span class="meta-pill">有效至 2026-09-01</span>
+        <span class="meta-pill">評級 觀察</span>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="site-container py-5">
+  <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
+  <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-08-25.html">2026-08-25</a></li></ul>
+</aside>
+<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><h1>虹揚-KY（6573）反推產業 Deep Research 投資報告</h1>
+<blockquote>
+<p>本報告為公開資訊的教育性研究與情境分析，不構成個人化投資建議、報酬保證或下單指令。</p>
+</blockquote>
+<h2>0. 資料來源與研究日期</h2>
+<ul>
+<li>研究日期：2026-08-25；有效至 2026-09-01。公司法定名稱為虹揚發展科技股份有限公司（HY Electronic (Cayman) Limited），TWSE 6573，主要財報表達幣別新台幣、曆年制。<a href="https://wwwc.twse.com.tw/pdf/ch/6573_ch.pdf">TWSE 公司資訊（2026-05-23 產製）</a>確認其上市身分與半導體整流功率分離式元件業務。</li>
+<li>最新可核驗正式財報：2026 Q1。<a href="https://www.hygroup.com.tw/upfiles/ADUpload/tw_/tw_ir_report_1857520167.pdf">公司 IR 2026 財報</a>於 2026-05-12 經董事會通過，營收 1.772 億元、毛利 1,961 萬元、營業損失 2,922 萬元、歸母淨損 3,190 萬元、EPS -0.40 元；營業活動淨現金流入 160.5 萬元、期末存貨 1.074 億元。公司 IR 截至研究日的 2026 列僅有一份正式報告，Q2 尚未成為可檢核文件。</li>
+<li>最新營收：<a href="https://openapi.twse.com.tw/v1/opendata/t187ap05_L">TWSE 月營收 OpenAPI（2026-08-17 出表）</a>列示 7 月 7,614 萬元、年增 5.89%，前七月 4.562 億元、年減 13.07%。</li>
+<li>最新價格：正式 K 線報告 2026-08-25 日 K 開 18.1、最高 18.6、最低 17.2、收 17.9 元，成交額僅 930.2 萬元；<a href="https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL">TWSE 日成交 OpenAPI</a>列示 8/24 收 17.1 元。</li>
+<li>估值：<a href="https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL">TWSE BWIBBU</a>於 8/24 列示 P/E 13.05 倍、P/B 2.28 倍；但 2025 全年本業仍虧損且非營業項目顯著，該 trailing P/E 不宜單獨視為便宜。</li>
+<li>公司業務來源：<a href="https://www.hygroup.com.tw/tw-ww/solution/solution.aspx">官方產品總覽</a>、<a href="https://www.hygroup.com.tw/tw-ww/csr/editor.aspx?CID=2">官方價值鏈說明</a>、<a href="https://www.hygroup.com.tw/tw-ww/news/news.aspx">2026 產品新聞</a>。正式來源報告為 <code>reports/twStock/2026-08-25_tw_kline_decision_report.md</code>「明確不可以買 / 暫時排除名單」。</li>
+<li>資料缺口：2026 Q2 財報、產品別收入／毛利、客戶集中、產能利用率、訂單、Forward P/E、EV/EBITDA、FCF Yield 與同業即期估值需查證。</li>
+</ul>
+<h2>1. 一頁式懶人包</h2>
+<ul>
+<li>公司一句話：虹揚-KY 是垂直整合的功率分離元件供應商，產品涵蓋二極體、橋式整流器、TVS／ESD、MOSFET、車規元件與晶圓代工。</li>
+<li>主要產業／位置：半導體分離元件，位於晶圓／材料至封裝測試的中游，再供應電源、家電、消費、通訊、工業與車用系統。</li>
+<li>核心邏輯：低壓降整流、車用保護、SiC Schottky、ESD／TVS 與自帶散熱橋式整流器提供產品升級機會；但目前規模小、本業尚未穩定獲利。</li>
+<li>目前投資評級：<strong>觀察</strong>。</li>
+<li>主要理由：Q1 毛利率回升至約 11.07%、虧損年減且營業現金流小幅轉正，但前七月營收仍年減 13.07%；8/25 即使雙訊號，成交額只有 930 萬元，硬性流動性門檻不通過。</li>
+<li>主要風險：低流動性、成熟分離元件價格競爭、中國製造／通路曝險、原料與匯率、關係人交易與本業虧損。</li>
+<li>追蹤指標：月營收、毛利／營益率、營業現金流、存貨／應收、淨負債、車規／SiC／保護元件占比與日成交額。</li>
+<li>代表同業：強茂、台半、德微、朋程；Diodes、Vishay、onsemi、STMicroelectronics。</li>
+</ul>
+<h2>2. 公司如何賺錢</h2>
+<ul>
+<li>產品包括一般／快恢復／Schottky／SiC 二極體、橋式整流器、TVS、Zener、ESD、小訊號元件、MOSFET 與晶圓製造／代工。</li>
+<li>官方價值鏈資料指出主要銷售橋式整流器、MOSFET 與 Schottky，應用於電腦、通訊、消費、家電與汽車電子。</li>
+<li>收入由自有產品與代工構成；客戶、地區與產品占比需以最新年報／Q2 附註確認。</li>
+<li>Q1 毛利率 11.07%，但營益率 -16.49%，顯示規模、組合與費用仍不足以支撐本業獲利。</li>
+<li>成長要靠出貨、低壓降／高壓／車規與保護元件組合、良率及稼動率；成熟標準品具明顯景氣與價格循環。</li>
+</ul>
+<h2>3. 從公司反推產業</h2>
+<ul>
+<li>分離元件在電源轉換、整流、保護與開關中扮演基本功能，單價通常低但可靠度與效率影響系統損耗。</li>
+<li>需求來自電源供應器、家電、車用、工控、通訊、太陽能、伺服器與消費電子。</li>
+<li>標準二極體／橋式整流器屬成熟循環；低壓降、SiC、車規與 ESD／TVS 保護屬結構升級方向。</li>
+<li>長期驅動為電氣化、功率密度、能源效率與車用電子；短期受終端庫存、ASP、晶圓／銅材價格、匯率及中國需求影響。</li>
+</ul>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>角色</th>
+<th>主要產品/服務</th>
+<th>代表美股</th>
+<th>代表台股</th>
+<th>議價能力</th>
+<th>利潤率特性</th>
+<th>關鍵風險</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游</td>
+<td>晶圓、焊料、銅材、樹脂／設備</td>
+<td>材料與設備</td>
+<td>WOLF（SiC 參照）、AMAT</td>
+<td>合晶、設備商</td>
+<td>中高</td>
+<td>材料循環</td>
+<td>供應／價格</td>
+</tr>
+<tr>
+<td>晶圓／元件製造</td>
+<td><strong>虹揚所在</strong></td>
+<td>整流、Schottky、TVS、MOSFET</td>
+<td>DIOD、VSH、ON</td>
+<td>強茂、台半、德微</td>
+<td>中低至中</td>
+<td>組合／稼動率敏感</td>
+<td>價格競爭</td>
+</tr>
+<tr>
+<td>封裝測試</td>
+<td>分離元件封裝</td>
+<td>軸向、SMD、橋式封裝</td>
+<td>DIOD</td>
+<td>朋程、強茂</td>
+<td>中</td>
+<td>規模敏感</td>
+<td>良率／人力</td>
+</tr>
+<tr>
+<td>模組／電源</td>
+<td>電源與保護模組</td>
+<td>PSU、逆變器、車電</td>
+<td>VRT、APTV</td>
+<td>台達電、光寶科</td>
+<td>中高</td>
+<td>系統毛利較高</td>
+<td>認證／設計更換</td>
+</tr>
+<tr>
+<td>終端</td>
+<td>車用、家電、工業、IT</td>
+<td>整機／設備</td>
+<td>F、TSLA</td>
+<td>鴻海、和碩</td>
+<td>高</td>
+<td>依應用而異</td>
+<td>需求循環</td>
+</tr>
+</tbody>
+</table></div>
+<p>虹揚具晶圓至元件製造整合，但成熟標準品易被替代；真正關鍵位置取決於車規、SiC、低壓降與保護元件的認證及占比。</p>
+<h2>5. 商業模式與護城河</h2>
+<ul>
+<li>技術壁壘：晶圓製程、封裝、熱設計、低壓降、高耐壓、可靠度與車規認證；2026 新品顯示公司持續往散熱與 ESD 小型封裝延伸。</li>
+<li>規模經濟：晶圓與封裝固定成本需要稼動率支撐；目前收入規模使費用吸收較弱。</li>
+<li>客戶黏著：通過電源／車規設計認證後有轉換成本，但標準品價格競爭激烈。</li>
+<li>通路與品牌：公司在中國製造與銷售網絡具歷史基礎；同時帶來地緣、需求與關係人治理風險。</li>
+<li>不易被替代程度：高可靠度或特殊封裝較佳；通用二極體與橋式整流器較低。</li>
+</ul>
+<h2>6. 重要財務與營運指標</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th style="text-align:right">2026 最新核驗</th>
+<th>變好代表</th>
+<th>變壞警訊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q1 營收</td>
+<td style="text-align:right">1.772 億元</td>
+<td>需求回升</td>
+<td>規模收縮</td>
+</tr>
+<tr>
+<td>Q1 毛利率</td>
+<td style="text-align:right">11.07%</td>
+<td>組合／稼動率改善</td>
+<td>ASP／成本壓力</td>
+</tr>
+<tr>
+<td>Q1 營益率</td>
+<td style="text-align:right">-16.49%</td>
+<td>向損平靠近</td>
+<td>本業虧損擴大</td>
+</tr>
+<tr>
+<td>Q1 EPS</td>
+<td style="text-align:right">-0.40 元</td>
+<td>虧損年減</td>
+<td>持續侵蝕淨值</td>
+</tr>
+<tr>
+<td>前七月營收</td>
+<td style="text-align:right">4.562 億元、-13.07% YoY</td>
+<td>降幅收斂</td>
+<td>需求續弱</td>
+</tr>
+<tr>
+<td>OCF／存貨</td>
+<td style="text-align:right">+160.5 萬／1.074 億元</td>
+<td>現金轉正、去庫存</td>
+<td>現金流轉負、存貨升</td>
+</tr>
+</tbody>
+</table></div>
+<p>另需追蹤淨借款、應收週轉、CapEx、訂單、客戶集中、市占與產能利用率；Q2 尚未核實前不升級結論。</p>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>市場</th>
+<th>產業鏈位置</th>
+<th>核心業務</th>
+<th>競爭優勢</th>
+<th>主要風險</th>
+<th>成長性</th>
+<th>獲利穩定度</th>
+<th>估值評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6573</td>
+<td>虹揚-KY</td>
+<td>台灣</td>
+<td>分離元件 IDM</td>
+<td>整流、保護、MOSFET</td>
+<td>垂直整合／通路</td>
+<td>小規模、低流動性</td>
+<td>中低</td>
+<td>低</td>
+<td>P/E 易失真</td>
+</tr>
+<tr>
+<td>2481</td>
+<td>強茂</td>
+<td>台灣</td>
+<td>分離元件</td>
+<td>二極體、MOSFET</td>
+<td>規模／客戶</td>
+<td>景氣循環</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>5425</td>
+<td>台半</td>
+<td>台灣</td>
+<td>分離元件</td>
+<td>整流、車用</td>
+<td>車用布局</td>
+<td>ASP／車市</td>
+<td>中</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>3675</td>
+<td>德微</td>
+<td>台灣</td>
+<td>分離元件</td>
+<td>二極體／保護</td>
+<td>利基產品</td>
+<td>集中度</td>
+<td>中高</td>
+<td>中</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>8255</td>
+<td>朋程</td>
+<td>台灣</td>
+<td>車用元件</td>
+<td>整流器／調節器</td>
+<td>車規認證</td>
+<td>車市循環</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>DIOD</td>
+<td>Diodes Inc.</td>
+<td>美國</td>
+<td>分離／類比</td>
+<td>二極體、邏輯、類比</td>
+<td>產品廣度</td>
+<td>週期</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>VSH</td>
+<td>Vishay</td>
+<td>美國</td>
+<td>分離／被動</td>
+<td>二極體、MOSFET、被動</td>
+<td>全球客戶</td>
+<td>成熟循環</td>
+<td>低中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>ON</td>
+<td>onsemi</td>
+<td>美國</td>
+<td>功率 IDM</td>
+<td>SiC、車用功率</td>
+<td>車用平台</td>
+<td>車市／CapEx</td>
+<td>中</td>
+<td>中高</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>STM</td>
+<td>STMicroelectronics</td>
+<td>美國／歐洲</td>
+<td>IDM</td>
+<td>功率、MCU、感測</td>
+<td>產品／客戶廣</td>
+<td>庫存循環</td>
+<td>中</td>
+<td>高</td>
+<td>需查證</td>
+</tr>
+</tbody>
+</table></div>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>股票代號</th>
+<th>市場</th>
+<th>P/E</th>
+<th>Forward P/E</th>
+<th>近年 P/E 區間</th>
+<th>同業估值位置</th>
+<th>P/S</th>
+<th>EV/EBITDA</th>
+<th>毛利率</th>
+<th>營收成長</th>
+<th>估值判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>虹揚-KY</td>
+<td>6573</td>
+<td>TWSE</td>
+<td>13.05x（8/24）</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>P/B 2.28x</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>Q1 11.07%</td>
+<td>前七月 -13.07%</td>
+<td>P/E 受非本業影響，不宜視為便宜</td>
+</tr>
+<tr>
+<td>強茂</td>
+<td>2481</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>直接同業</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>台半／德微</td>
+<td>5425／3675</td>
+<td>台灣</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>車用／利基參照</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+</tr>
+<tr>
+<td>Diodes／Vishay</td>
+<td>DIOD／VSH</td>
+<td>美國</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>全球規模參照</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>需查證</td>
+<td>規模不同</td>
+</tr>
+</tbody>
+</table></div>
+<p>官方 8/24 P/E 與 Q1 本業虧損看似矛盾，原因是 trailing 盈餘含先前非營業收益；因此本輪更重視 P/B、本業營益率、現金流與正常化獲利。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>核心假設</th>
+<th>營收成長</th>
+<th>利潤率變化</th>
+<th>EPS/獲利方向</th>
+<th>合理估值倍數</th>
+<th>可能結果</th>
+<th>觸發條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀情境</td>
+<td>車規／SiC／保護新品放量、稼動率升</td>
+<td>CAGR 10%–15%</td>
+<td>營益率轉正至 5%–8%</td>
+<td>轉盈</td>
+<td>P/B 2–3x 或正常化 P/E 15–20x</td>
+<td>本業重估</td>
+<td>連兩季營收／毛利／OCF 同升</td>
+</tr>
+<tr>
+<td>基準情境</td>
+<td>標準品復甦慢、組合漸改善</td>
+<td>CAGR 2%–7%</td>
+<td>接近損平</td>
+<td>小虧至小盈</td>
+<td>P/B 1.3–2x</td>
+<td>區間整理</td>
+<td>毛利穩定、營收止跌</td>
+</tr>
+<tr>
+<td>悲觀情境</td>
+<td>價格競爭、需求弱、費用剛性</td>
+<td>-8%–2%</td>
+<td>虧損延續</td>
+<td>淨值受侵蝕</td>
+<td>P/B 0.7–1.2x</td>
+<td>流動性折價</td>
+<td>營收／毛利降、OCF 轉負</td>
+</tr>
+</tbody>
+</table></div>
+<p>情境倍數為研究假設，不是目標價；應優先驗證 Q2、本業損益、現金流與新品收入。</p>
+<h2>10. 投資建議：買入、分批布局、續抱、觀察或減碼/賣出</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股票代號</th>
+<th>公司名稱</th>
+<th>目前評級</th>
+<th>適合投資人</th>
+<th>建議理由</th>
+<th>不建議買入的原因</th>
+<th>觀察價值</th>
+<th>關鍵追蹤指標</th>
+<th>可能改變評級的條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6573</td>
+<td>虹揚-KY</td>
+<td>觀察</td>
+<td>能承受小型股與成熟元件循環者</td>
+<td>毛利回升、新品與垂直整合</td>
+<td>本業虧損、營收年減、低流動性</td>
+<td>車規／SiC／保護元件升級</td>
+<td>毛利、營益、OCF、成交額</td>
+<td>連兩季轉盈且流動性改善才上調；惡化則下調</td>
+</tr>
+</tbody>
+</table></div>
+<ol>
+<li>新手：目前不適合僅因雙訊號追價，低成交額會放大滑價與出場風險。</li>
+<li>已持有：應優先檢查自身部位大小與預設失效條件，本研究不提供個人化處置。</li>
+<li>等待條件：Q2 正式財報、本業接近損平、月營收止跌且成交額持續高於流動性門檻。</li>
+<li>上調：毛利與營益率連兩季改善、營收恢復正成長、OCF 穩定、車規／SiC／保護占比升。</li>
+<li>下調：營收續減、毛利回落、OCF 轉負、淨值下降或關係人／治理風險升高。</li>
+</ol>
+<h2>11. 投資標的分層</h2>
+<ul>
+<li>核心穩健型：不是，規模、獲利與流動性皆不足。</li>
+<li>成長型：僅有新品／車規／SiC 選擇權，尚未由財報證明。</li>
+<li>景氣循環型：是，標準分離元件受庫存、價格與稼動率影響。</li>
+<li>高風險高報酬型：是，小型股、固定成本與低流動性放大波動。</li>
+<li>只適合觀察：現階段最合適，直到本業與流動性雙重改善。</li>
+</ul>
+<h2>12. 產業風險與反方觀點</h2>
+<ul>
+<li>估值：P/E 看似不高，但若正常化本業仍虧損，倍數沒有可靠意義；P/B 2.28 倍也需獲利改善支撐。</li>
+<li>景氣／競爭：成熟二極體、橋式整流器可能面臨中國同業降價、終端去庫存與稼動率下降。</li>
+<li>技術替代：整合式電源 IC、GaN／SiC 路線、封裝小型化可能改變傳統產品價值。</li>
+<li>政策／地緣：中國製造與銷售、匯率、關稅、出口規則與供應鏈轉移。</li>
+<li>治理／集中：關係人交易、客戶集中與產品占比需查證；警訊為應收／存貨增加、借款升高與本業虧損擴大。</li>
+</ul>
+<h2>13. 後續研究清單</h2>
+<ul>
+<li>必讀：2026 Q2 正式財報、產品／地區收入、關係人交易、存貨、應收、借款與現金流。</li>
+<li>法說：SiC、車規、ESD／TVS、散熱橋式整流器的認證、ASP、收入占比與損平門檻。</li>
+<li>每月／每季：營收、毛利、營益、OCF、存貨週轉、稼動率與日成交額。</li>
+<li>來源：MOPS、TWSE、虹揚 IR、主要電源／車用客戶法說、同業年報。</li>
+<li>競爭名單：強茂、台半、德微、朋程、Diodes、Vishay、onsemi。</li>
+<li>初學者下一步：研究強茂（直接同業）、朋程（車規）、onsemi（功率平台）。</li>
+</ul>
+<h2>14. 結論</h2>
+<p>虹揚-KY 是理解成熟功率分離元件與產品升級的入口，但不是目前具足夠證據的決策型標的。Q1 毛利改善與現金流小幅轉正是正面訊號，前七月營收年減、本業虧損與 8/25 成交額僅 930 萬元則是更直接的限制。最終評級為<strong>觀察</strong>；應先研究 Q2 正式財報、車規／SiC／保護元件收入、正常化本業獲利與可持續流動性。</p>
+</article></main></div>
+</body>
+</html>
