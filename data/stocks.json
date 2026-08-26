@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T23:21:35.754014+00:00",
+  "generated_at": "2026-08-26T00:18:34.503738+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -3114,8 +3114,8 @@
       "symbol": "2059",
       "name": "川湖",
       "industry_group": "伺服器滑軌與資料中心機構件",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
       "rating": "觀察",
       "latest_url": "stocks/tw-2059/",
       "url": "stocks/tw-2059/",
@@ -3754,6 +3754,23 @@
         "鴻海精密",
         "Foxconn",
         "Hon Hai"
+      ]
+    },
+    "tw:2321": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2321",
+      "name": "東訊",
+      "industry_group": "通訊設備／企業網路",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2321/",
+      "url": "stocks/tw-2321/",
+      "aliases": [
+        "2321",
+        "2321.TW",
+        "TWSE:2321"
       ]
     },
     "tw:2323": {
@@ -5307,8 +5324,8 @@
       "symbol": "2455",
       "name": "全新光電",
       "industry_group": "光通訊／砷化鎵磊晶",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
       "rating": "觀察",
       "latest_url": "stocks/tw-2455/",
       "url": "stocks/tw-2455/",
@@ -10938,8 +10955,8 @@
       "symbol": "4979",
       "name": "華星光",
       "industry_group": "光通訊",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
       "rating": "觀察",
       "latest_url": "stocks/tw-4979/",
       "url": "stocks/tw-4979/",
@@ -11129,19 +11146,20 @@
       "symbol": "5274",
       "name": "信驊",
       "industry_group": "BMC 晶片",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
       "rating": "觀察",
       "latest_url": "stocks/tw-5274/",
       "url": "stocks/tw-5274/",
       "aliases": [
         "5274",
         "5274.TWO",
-        "TPEX:5274",
-        "信驊",
-        "信驊科技",
         "ASPEED",
-        "ASPEED Technology"
+        "ASPEED Technology",
+        "TPEX:5274",
+        "TPEx:5274",
+        "信驊",
+        "信驊科技"
       ]
     },
     "tw:5284": {
@@ -19924,8 +19942,8 @@
       "symbol": "CEG",
       "name": "Constellation Energy Corporation",
       "industry_group": "核能／電力",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
       "rating": "觀察",
       "latest_url": "stocks/us-ceg/",
       "url": "stocks/us-ceg/",
@@ -21007,10 +21025,10 @@
       "symbol": "CRM",
       "name": "Salesforce",
       "industry_group": "企業應用軟體／CRM SaaS",
-      "latest_report_date": "2026-08-14",
-      "valid_until": "2026-08-21",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
       "rating": "觀察",
-      "latest_url": "reports/stock-industry-research/us-crm/2026-08-14/report.html",
+      "latest_url": "stocks/us-crm/",
       "url": "stocks/us-crm/",
       "aliases": [
         "CRM",
@@ -21080,8 +21098,8 @@
       "symbol": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
       "industry_group": "科技 / Cybersecurity Software",
-      "latest_report_date": "2026-08-07",
-      "valid_until": "2026-08-14",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
       "rating": "觀察",
       "latest_url": "stocks/us-crwd/",
       "url": "stocks/us-crwd/",
@@ -21861,6 +21879,23 @@
         "NASDAQ:DKNG",
         "DraftKings",
         "DraftKings Inc."
+      ]
+    },
+    "us:dks": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "DKS",
+      "name": "Dick's Sporting Goods",
+      "industry_group": "運動用品零售",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
+      "rating": "觀察",
+      "latest_url": "stocks/us-dks/",
+      "url": "stocks/us-dks/",
+      "aliases": [
+        "DKS",
+        "NYSE:DKS",
+        "US:DKS"
       ]
     },
     "us:dlo": {
@@ -32189,6 +32224,23 @@
         "RPRX",
         "NASDAQ:RPRX",
         "Royalty Pharma"
+      ]
+    },
+    "us:rr": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "RR",
+      "name": "Richtech Robotics",
+      "industry_group": "服務型機器人／具身 AI",
+      "latest_report_date": "2026-08-26",
+      "valid_until": "2026-09-02",
+      "rating": "觀察",
+      "latest_url": "stocks/us-rr/",
+      "url": "stocks/us-rr/",
+      "aliases": [
+        "RR",
+        "NASDAQ:RR",
+        "US:RR"
       ]
     },
     "us:rrc": {
