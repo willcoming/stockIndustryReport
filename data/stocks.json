@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T08:27:47.720106+00:00",
+  "generated_at": "2026-08-27T13:12:09.848438+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -15894,6 +15894,24 @@
         "泰金寶-DR",
         "CCET",
         "Cal-Comp"
+      ]
+    },
+    "tw:9136": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "9136",
+      "name": "巨騰-DR",
+      "industry_group": "電子零組件／筆電機構件",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-9136/",
+      "url": "stocks/tw-9136/",
+      "aliases": [
+        "9136",
+        "9136.TW",
+        "TWSE:9136",
+        "3336.HK"
       ]
     },
     "tw:9802": {
