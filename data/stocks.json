@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T23:47:12.767552+00:00",
+  "generated_at": "2026-08-27T00:26:28.271783+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -2290,10 +2290,10 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "1727",
-      "name": "臺灣中華化學工業股份有限公司",
-      "industry_group": "化學工業／基礎、特用與電子化學品",
-      "latest_report_date": "2026-08-11",
-      "valid_until": "2026-08-18",
+      "name": "中華化",
+      "industry_group": "電子化學材料",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-1727/",
       "url": "stocks/tw-1727/",
@@ -2301,9 +2301,7 @@
         "1727",
         "1727.TW",
         "TWSE:1727",
-        "中華化",
-        "臺灣中華化學",
-        "Chung Hwa Chemical"
+        "中華化"
       ]
     },
     "tw:1731": {
@@ -2468,9 +2466,9 @@
       "exchange": "TWSE",
       "symbol": "1773",
       "name": "勝一",
-      "industry_group": "化學工業",
-      "latest_report_date": "2026-08-10",
-      "valid_until": "2026-08-17",
+      "industry_group": "電子化學材料",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-1773/",
       "url": "stocks/tw-1773/",
@@ -2478,9 +2476,7 @@
         "1773",
         "1773.TW",
         "TWSE:1773",
-        "勝一",
-        "勝一化工",
-        "Shiny Chemical"
+        "勝一"
       ]
     },
     "tw:1789": {
@@ -4562,10 +4558,10 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "2383",
-      "name": "台光電子材料股份有限公司",
-      "industry_group": "CCL／AI 伺服器",
-      "latest_report_date": "2026-08-19",
-      "valid_until": "2026-08-26",
+      "name": "台光電",
+      "industry_group": "CCL",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-2383/",
       "url": "stocks/tw-2383/",
@@ -4573,9 +4569,7 @@
         "2383",
         "2383.TW",
         "TWSE:2383",
-        "台光電",
-        "台光電子材料",
-        "EMC"
+        "台光電"
       ]
     },
     "tw:2385": {
@@ -4831,8 +4825,8 @@
       "symbol": "2408",
       "name": "南亞科",
       "industry_group": "DRAM",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-2408/",
       "url": "stocks/tw-2408/",
@@ -4840,9 +4834,7 @@
         "2408",
         "2408.TW",
         "TWSE:2408",
-        "南亞科",
-        "南亞科技",
-        "Nanya Technology"
+        "南亞科"
       ]
     },
     "tw:2409": {
@@ -6098,20 +6090,17 @@
       "exchange": "TWSE",
       "symbol": "2535",
       "name": "達欣工",
-      "industry_group": "建材營造業",
-      "latest_report_date": "2026-08-17",
-      "valid_until": "2026-08-24",
+      "industry_group": "科技廠辦工程",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-2535/",
       "url": "stocks/tw-2535/",
       "aliases": [
         "2535",
         "2535.TW",
-        "2535.TWO",
         "TWSE:2535",
-        "達欣工",
-        "達欣工程",
-        "Dacin Construction"
+        "達欣工"
       ]
     },
     "tw:2536": {
@@ -6229,6 +6218,24 @@
         "皇昌營造"
       ]
     },
+    "tw:2546": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2546",
+      "name": "根基",
+      "industry_group": "科技廠辦工程",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2546/",
+      "url": "stocks/tw-2546/",
+      "aliases": [
+        "2546",
+        "2546.TW",
+        "TWSE:2546",
+        "根基"
+      ]
+    },
     "tw:2547": {
       "market": "tw",
       "exchange": "TWSE",
@@ -6265,6 +6272,24 @@
         "華固建設",
         "HUAKU",
         "Huaku Development"
+      ]
+    },
+    "tw:2597": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "2597",
+      "name": "潤弘",
+      "industry_group": "預鑄／科技廠辦",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-2597/",
+      "url": "stocks/tw-2597/",
+      "aliases": [
+        "2597",
+        "2597.TW",
+        "TWSE:2597",
+        "潤弘"
       ]
     },
     "tw:2601": {
@@ -8355,18 +8380,17 @@
       "exchange": "TPEx",
       "symbol": "3105",
       "name": "穩懋",
-      "industry_group": "化合物半導體",
-      "latest_report_date": "2026-08-10",
-      "valid_until": "2026-08-17",
+      "industry_group": "砷化鎵晶圓",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-3105/",
       "url": "stocks/tw-3105/",
       "aliases": [
         "3105",
-        "3105.TWO",
-        "TPEX:3105",
-        "穩懋",
-        "WIN Semiconductors"
+        "3105.TW",
+        "TPEx:3105",
+        "穩懋"
       ]
     },
     "tw:3131": {
@@ -8770,19 +8794,19 @@
     },
     "tw:3362": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "3362",
       "name": "先進光",
-      "industry_group": "光學",
-      "latest_report_date": "2026-08-16",
-      "valid_until": "2026-08-23",
+      "industry_group": "光學鏡頭",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-3362/",
       "url": "stocks/tw-3362/",
       "aliases": [
         "3362",
         "3362.TW",
-        "TWSE:3362",
+        "TPEx:3362",
         "先進光"
       ]
     },
@@ -8870,17 +8894,17 @@
       "exchange": "TWSE",
       "symbol": "3406",
       "name": "玉晶光",
-      "industry_group": "光電業",
-      "latest_report_date": "2026-08-05",
-      "valid_until": "2026-08-12",
+      "industry_group": "光學鏡頭",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-3406/",
       "url": "stocks/tw-3406/",
       "aliases": [
         "3406",
         "3406.TW",
-        "3406.TWO",
-        "TWSE:3406"
+        "TWSE:3406",
+        "玉晶光"
       ]
     },
     "tw:3413": {
@@ -11370,20 +11394,17 @@
       "exchange": "TPEx",
       "symbol": "5425",
       "name": "台半",
-      "industry_group": "功率半導體",
-      "latest_report_date": "2026-07-16",
-      "valid_until": "2026-08-26",
+      "industry_group": "二極體／分離式元件",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-5425/",
       "url": "stocks/tw-5425/",
       "aliases": [
         "5425",
-        "5425.TWO",
+        "5425.TW",
         "TPEx:5425",
-        "台半",
-        "台灣半導體",
-        "Taiwan Semiconductor",
-        "TSC"
+        "台半"
       ]
     },
     "tw:5434": {
@@ -12464,8 +12485,8 @@
       "symbol": "6213",
       "name": "聯茂",
       "industry_group": "CCL",
-      "latest_report_date": "2026-08-16",
-      "valid_until": "2026-08-23",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/tw-6213/",
       "url": "stocks/tw-6213/",
@@ -12538,14 +12559,16 @@
       "exchange": "TPEx",
       "symbol": "6223",
       "name": "旺矽",
-      "industry_group": "半導體測試／探針卡",
-      "latest_report_date": "2026-08-19",
-      "valid_until": "2026-08-26",
-      "rating": "減碼/賣出",
-      "latest_url": "tw-6223/2026-08-19/report.html",
+      "industry_group": "半導體測試介面",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-6223/",
       "url": "stocks/tw-6223/",
       "aliases": [
         "6223",
+        "6223.TW",
+        "TPEx:6223",
         "旺矽"
       ]
     },
@@ -13226,6 +13249,24 @@
         "台塑石化",
         "Formosa Petrochemical",
         "FPCC"
+      ]
+    },
+    "tw:6506": {
+      "market": "tw",
+      "exchange": "TPEx",
+      "symbol": "6506",
+      "name": "雙邦",
+      "industry_group": "化工材料",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-6506/",
+      "url": "stocks/tw-6506/",
+      "aliases": [
+        "6506",
+        "6506.TW",
+        "TPEx:6506",
+        "雙邦"
       ]
     },
     "tw:6510": {
@@ -17452,6 +17493,23 @@
         "ANET",
         "NYSE:ANET",
         "Arista Networks"
+      ]
+    },
+    "us:anf": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "ANF",
+      "name": "Abercrombie & Fitch Co.",
+      "industry_group": "零售",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
+      "rating": "觀察",
+      "latest_url": "stocks/us-anf/",
+      "url": "stocks/us-anf/",
+      "aliases": [
+        "ANF",
+        "Abercrombie & Fitch Co.",
+        "NYSE:ANF"
       ]
     },
     "us:annx": {
@@ -26058,17 +26116,17 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "INTU",
-      "name": "Intuit",
-      "industry_group": "科技／財務與稅務軟體",
-      "latest_report_date": "2026-07-24",
-      "valid_until": "2026-07-31",
-      "rating": "續抱",
+      "name": "Intuit Inc.",
+      "industry_group": "財務軟體",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
+      "rating": "觀察",
       "latest_url": "stocks/us-intu/",
       "url": "stocks/us-intu/",
       "aliases": [
         "INTU",
-        "NASDAQ:INTU",
-        "Intuit"
+        "Intuit Inc.",
+        "NASDAQ:INTU"
       ]
     },
     "us:invh": {
@@ -31334,17 +31392,17 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "PWR",
-      "name": "Quanta Services",
-      "industry_group": "工業 / Engineering & Construction",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "name": "Quanta Services, Inc.",
+      "industry_group": "電網工程",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/us-pwr/",
       "url": "stocks/us-pwr/",
       "aliases": [
-        "PWR",
         "NYSE:PWR",
-        "Quanta Services"
+        "PWR",
+        "Quanta Services, Inc."
       ]
     },
     "us:pypl": {
@@ -33364,21 +33422,19 @@
     },
     "us:snap": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NYSE",
       "symbol": "SNAP",
-      "name": "Snap",
-      "industry_group": "社群平台",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "name": "Snap Inc.",
+      "industry_group": "網路平台",
+      "latest_report_date": "2026-08-27",
+      "valid_until": "2026-09-03",
       "rating": "觀察",
       "latest_url": "stocks/us-snap/",
       "url": "stocks/us-snap/",
       "aliases": [
-        "SNAP",
         "NYSE:SNAP",
-        "Snap",
-        "Snap Inc.",
-        "Snapchat"
+        "SNAP",
+        "Snap Inc."
       ]
     },
     "us:sndk": {
