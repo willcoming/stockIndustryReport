@@ -23,7 +23,7 @@
       <div class="flex flex-wrap gap-2">
         <span class="meta-pill">研究日 2026-08-29</span>
         <span class="meta-pill">有效至 2026-09-05</span>
-        <span class="meta-pill">評級 觀察</span>
+        <span class="meta-pill">評級 續抱</span>
       </div>
     </div>
   </div>
@@ -41,352 +41,721 @@
 <main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><blockquote>
 <p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
 </blockquote>
-<h1>Berkshire Hathaway／BRK.B 反推產業 Deep Research 投資報告</h1>
+<h1>Berkshire Hathaway Inc./BRK.B 反推產業 Deep Research 投資報告</h1>
 <h2>0. 資料來源與研究日期</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>項目</th>
+<th>欄位</th>
 <th>內容</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>研究日期</td>
+<td>報告研究日期</td>
 <td>2026-08-29；有效至 2026-09-05</td>
 </tr>
 <tr>
-<td>證券識別</td>
-<td>NYSE: BRK.B；Berkshire Hathaway B 股；美元報表</td>
+<td>最新股價</td>
+<td>505.00 美元，2026-08-28 收盤；Class B，1 股 Class A 可轉換為 1,500 股 Class B</td>
 </tr>
 <tr>
-<td>最新市場快照</td>
-<td>2026-08-28 收盤 505.00 美元；市值約 7,113 億美元；追蹤 P/E 約 12.6 倍。市值與倍數為市場資料，需以同日股數重算</td>
+<td>最新市值</td>
+<td>約 1.081 兆美元；行情快照，按 A/B 等值股數計算</td>
 </tr>
 <tr>
-<td>最新財報</td>
-<td>2026 Q2／H1，截至 2026-06-30</td>
+<td>最新財報期間</td>
+<td>FY2026 Q2／H1，截至 2026-06-30；10-Q 於 2026-08-10 申報</td>
 </tr>
 <tr>
-<td>官方來源</td>
-<td><a href="https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm">Berkshire 2026 Q2 10-Q</a>、<a href="https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922dex991.htm">Q2 正式新聞稿</a>、<a href="https://www.berkshirehathaway.com/qtrly/2ndqtr26.pdf">官方季度報告</a></td>
+<td>主要財報來源</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm">Berkshire FY2026 Q2 10-Q</a>、<a href="https://www.berkshirehathaway.com/qtrly/2ndqtr26.pdf">Q2 shareholder report PDF</a>、<a href="https://www.berkshirehathaway.com/reports.html">annual reports</a></td>
 </tr>
 <tr>
-<td>決策來源</td>
-<td><code>reports/usStock/2026-08-28_us_kline_decision_report.md</code>「現在不能買，但值得等買點名單」；K 線只作研究觸發</td>
+<td>主要估值來源</td>
+<td><a href="https://stockanalysis.com/stocks/brk.b/statistics/">StockAnalysis BRK.B statistics</a>、<a href="https://www.nyse.com/quote/XNYS:BRK.B">NYSE BRK.B</a>；本報告另以營運盈餘與 P/B 判斷</td>
+</tr>
+<tr>
+<td>主要產業來源</td>
+<td><a href="https://content.naic.org/industry/industry-financial-data">NAIC insurance data</a>、<a href="https://railroads.dot.gov/rail-network-development/freight-rail-overview">FRA rail data</a>、<a href="https://www.eia.gov/electricity/data.php">EIA electricity data</a></td>
+</tr>
+<tr>
+<td>資料缺口</td>
+<td>各私有子公司完整估值、未揭露標的的交易細節、保險 float 精確資金成本、接班後長期資本配置差異</td>
+</tr>
+<tr>
+<td>需再次查證數據</td>
+<td>FY2026 catastrophe losses、GEICO 保單／留存、BNSF volume、BHE wildfire 最終負債、OxyChem／Taylor Morrison 整合與後續回購</td>
 </tr>
 </tbody>
 </table></div>
-<p>GAAP 淨利含上市股票未實現損益，不能直接代表經常性獲利；本文優先採公司揭露的營運盈餘、分部獲利、浮存金與每股資本配置。</p>
+<p>來源報告為 <code>reports/usStock/2026-08-28_us_kline_decision_report.md</code> 的「現在不能買，但值得等買點名單」。母報告顯示 LZEMA20／3MA 雙訊號、收盤位階 56.9%、振幅 0.7%、估算成交額約 24.48 億美元，但仍屬中性觀察；本報告不以技術訊號替代內含價值分析。</p>
 <h2>1. 一頁式懶人包</h2>
-<ul>
-<li>Berkshire 是由保險浮存金與永久股東資本驅動的多元控股公司，核心涵蓋保險、鐵路、能源、工業／服務／零售與有價證券。</li>
-<li>Q2 股東淨利 256.67 億美元，其中投資收益 126.84 億；營運盈餘 129.83 億、年增 16.3%，較能反映本業。</li>
-<li>保險承保仍獲利、浮存金約 1,775 億美元；BNSF、BHE、製造服務零售均成長，降低單一產業依賴。</li>
-<li>H1 回購 48 億美元、Q2 占 45 億；但 505 美元已高於 5、6 月 B 股平均回購價，回購本身不等於當前安全邊際。</li>
-<li>評級：<strong>觀察</strong>。企業品質與防禦力突出，但來源屬等待買點，正常化內在價值折價尚未量化。</li>
-<li>核心追蹤：每股營運盈餘、承保綜合率、浮存金成本、現金／國債、BNSF 與 BHE 報酬、股數及大型收購 ROIC。</li>
-</ul>
-<h2>2. 公司如何賺錢</h2>
-<ul>
-<li>保險先收保費、後付賠款，形成可投資的浮存金；若承保同時獲利，資金成本可為負。</li>
-<li>GEICO、Berkshire Hathaway Primary Group 與再保險提供承保利潤；龐大債券組合提供投資收益。</li>
-<li>BNSF 依北美鐵路運量、價格與服務收費；Berkshire Hathaway Energy 依受監管資產基礎、發電與管線賺取報酬。</li>
-<li>製造、服務與零售橫跨精密工業、航空、化學、住宅、汽車零售等，以分散現金流支持再投資。</li>
-<li>上市股票、權益法投資與收購創造股息和資本增值，但公允價值變動會令 GAAP 淨利劇烈波動。</li>
-</ul>
-<h2>3. 從公司反推產業</h2>
-<ul>
-<li>多元保險控股的核心不是「業務很多」，而是把低成本長期資金配置到高風險調整後報酬資產。</li>
-<li>財產意外險受費率、損失成本、巨災與準備金影響；短率決定巨額固定收益組合的再投資收益。</li>
-<li>鐵路與能源屬網路型重資產，進入障礙高，但需要持續 CapEx，並承擔監管、工安與災害責任。</li>
-<li>規模與信用讓 Berkshire 能在市場壓力時迅速部署資本；反面是可顯著增厚每股價值的大標的愈來愈少。</li>
-</ul>
-<h2>4. 產業鏈上下游分析</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>位置</th>
-<th>主要角色</th>
-<th>代表公司／資產</th>
-<th>價值來源</th>
-<th>主要風險</th>
+<th>項目</th>
+<th>結論</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>資金上游</td>
-<td>保戶、債券人、股東</td>
-<td>BRK.B、MKL</td>
-<td>浮存金、信用、永久資本</td>
-<td>賠款、流動性、資本錯配</td>
+<td>公司一句話介紹</td>
+<td>以保險 float 為資本來源，持有鐵路、能源、製造、服務、零售與上市股票的去中心化複合企業</td>
 </tr>
 <tr>
-<td>保險核心</td>
-<td>直保、專業險、再保</td>
-<td>GEICO、CB、PGR</td>
-<td>定價資料、費率、準備金</td>
-<td>巨災、社會通膨、競爭</td>
+<td>主要產業</td>
+<td>金融服務／多元保險；同時跨鐵路、公用事業、工業與消費</td>
 </tr>
 <tr>
-<td>實體營運</td>
-<td>鐵路、公用事業、工業</td>
-<td>BNSF、UNP、BHE</td>
-<td>路網、監管資產、規模</td>
-<td>CapEx、監管、野火責任</td>
+<td>產業鏈位置</td>
+<td>保險承保／投資為資本核心，永久持有營運公司並配置巨額證券與現金</td>
 </tr>
 <tr>
-<td>資本配置</td>
-<td>國債、股票、企業收購</td>
-<td>BRK、公開市場／子公司</td>
-<td>稅後複利、逆週期部署</td>
-<td>高估值、集中、整合</td>
+<td>核心投資邏輯</td>
+<td>低成本 float、優質私有資產、巨額流動性與紀律配置能否持續提高每股內含價值</td>
 </tr>
 <tr>
-<td>終端</td>
-<td>消費者與企業</td>
-<td>保戶、貨主、能源客戶</td>
-<td>可靠服務與風險轉移</td>
-<td>景氣與需求下滑</td>
+<td>目前投資評級</td>
+<td><strong>續抱</strong></td>
+</tr>
+<tr>
+<td>適合投資人</td>
+<td>重視資本保全、低換手與長期複利，接受不配息及大型化降低增速者</td>
+</tr>
+<tr>
+<td>主要理由</td>
+<td>Q2 核心五大營運來源稅後盈餘合計約 117.1 億美元、年增約 5%；insurance-and-other cash/T-bills 3,592 億</td>
+</tr>
+<tr>
+<td>主要風險</td>
+<td>接班與資本配置、保險巨災、BHE wildfire、鐵路／工業循環、規模造成再投資報酬下降</td>
+</tr>
+<tr>
+<td>3–5 個追蹤指標</td>
+<td>保險 combined ratio／float、營運盈餘、每股淨值、cash/T-bills、回購價與金額</td>
+</tr>
+<tr>
+<td>代表性美股同業</td>
+<td>MKL、CB、ACGL；UNP、NEE／DUK 僅為分部對照</td>
+</tr>
+<tr>
+<td>代表性台股同業</td>
+<td>富邦金、國泰金、中信金；均非相同永久資本複合體</td>
 </tr>
 </tbody>
 </table></div>
+<p>投資含義：Berkshire 的品質仍高，但 1.44 倍 P/B 與約 23 倍年化核心營運盈餘已非明顯低估，對新資金的安全邊際低於既有持有人。</p>
+<h2>2. 公司如何賺錢</h2>
+<p>Berkshire 的保險業務（GEICO、Berkshire Hathaway Primary、Reinsurance）先收保費、後支付理賠，期間形成 float。若承保至少損益兩平，float 等同低成本甚至負成本資金，可投資國庫券、債券與股票。BNSF 以貨運量與每單位收入減燃料、人力、折舊賺取鐵路利潤；BHE 由受監管電力、天然氣管線與能源資產取得長期回報。</p>
+<p>Manufacturing, Service and Retailing 包含工業品、建材、消費品牌、航空服務、汽車經銷、Pilot、McLane 等。上市股票組合與現金利息也貢獻價值，但 GAAP 要把未實現股票漲跌計入損益，使單季淨利不能代表營運表現。</p>
+<p>簡單說，這家公司賺錢的方式是……用保險 float 和子公司現金流，長期持有能產生更多現金的企業與證券，再把資金投向回報最高且風險可承受的地方。</p>
+<h2>3. 從公司反推產業</h2>
+<p>多元保險的核心不是保費規模，而是「承保紀律＋float 成本＋投資能力」。巨災與社會通膨會讓單年理賠波動，利率則改變固定收益；因此需跨多年看 combined ratio。Berkshire 另把資金投入鐵路與公用事業等資本密集基礎設施，換取高進入門檻與長期需求。</p>
+<p>此模式已進入成熟期。Berkshire 的 1.26 兆美元資產規模降低單筆投資對每股價值的影響，未來驅動更依賴大型收購、回購與既有子公司內生增長。Q2 已反映 OxyChem 於 2026-01-02 以約 94 億美元收購後併表；Taylor Morrison 於 7 月完成的影響將在後續期間呈現。</p>
+<p>三個最重要問題是：保險 float 是否維持低成本；接班後資本紀律是否延續；巨額現金是否能在不降低品質的前提下再投資。</p>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>環節</th>
+<th>角色／產品</th>
+<th>美股／台股代表</th>
+<th>議價力／利潤</th>
+<th>與 BRK.B 關聯</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保險分銷／風險資料</td>
+<td>經紀、定價、模型</td>
+<td>AON、MMC／保經通路</td>
+<td>資料與通路有黏著</td>
+<td>影響保費取得與選擇風險</td>
+</tr>
+<tr>
+<td><strong>承保／再保</strong></td>
+<td><strong>車險、商業險、特殊險、再保</strong></td>
+<td><strong>BRK、CB、ACGL／富邦金、國泰金</strong></td>
+<td>紀律好時可產生低成本 float</td>
+<td>Berkshire 資本來源核心</td>
+</tr>
+<tr>
+<td>資產管理／配置</td>
+<td>國庫券、股票、整體收購</td>
+<td>BRK、MKL</td>
+<td>規模、耐心與永久資本</td>
+<td>決定長期每股價值</td>
+</tr>
+<tr>
+<td>基礎設施</td>
+<td>鐵路、電網、管線、再生能源</td>
+<td>BNSF、UNP、NEE／台鐵非上市、台電非上市</td>
+<td>網路與監管形成門檻</td>
+<td>穩定但資本密集</td>
+</tr>
+<tr>
+<td>工業／消費</td>
+<td>航空零件、建材、零售、物流</td>
+<td>多家公司／台股各產業</td>
+<td>品牌與規模不一</td>
+<td>分散現金流與循環曝險</td>
+</tr>
+<tr>
+<td>終端</td>
+<td>個人、企業、公共服務客戶</td>
+<td>分散</td>
+<td>對價格／景氣敏感</td>
+<td>單一客戶集中低，分部風險不同</td>
+</tr>
+</tbody>
+</table></div>
+<p>Berkshire 同時是風險承擔者與資本市場「挖金礦者」：保險承擔尾端風險，永久資本則讓它在市場壓力期成為資金供應者。</p>
 <h2>5. 商業模式與護城河</h2>
-<ul>
-<li>長期且多數時期低成本的浮存金，加上保守流動性政策，是核心資金優勢。</li>
-<li>GEICO 的規模與資料、BNSF 路網、BHE 受監管資產及眾多子公司品牌難以整體複製。</li>
-<li>去中心化治理使總部精簡，管理者可長期經營；永久資本降低被迫出售優質資產的風險。</li>
-<li>Q2 浮存金約 1,775 億美元、較年底增 11 億，H1 承保獲利代表平均浮存金成本仍為負。</li>
-<li>護城河的真正壓力是規模、接班與資本閒置：若新增資本只能取得市場平均報酬，每股超額複利會下滑。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>構面</th>
+<th>評級</th>
+<th>證據與改變條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>技術／定價</td>
+<td>強</td>
+<td>保險數據、再保能力與分權管理；長期 combined ratio 惡化則下修</td>
+</tr>
+<tr>
+<td>規模經濟</td>
+<td>強</td>
+<td>逾兆美元市值、巨額 float 與現金可承接大型風險／交易</td>
+</tr>
+<tr>
+<td>客戶黏著</td>
+<td>中</td>
+<td>車險可轉換；鐵路／公用事業網路黏著更高</td>
+</tr>
+<tr>
+<td>轉換成本</td>
+<td>中強</td>
+<td>基礎設施高，保險中低，工業依產品而異</td>
+</tr>
+<tr>
+<td>品牌／信用</td>
+<td>強</td>
+<td>財務實力使交易對手願意轉移巨額風險</td>
+</tr>
+<tr>
+<td>成本優勢</td>
+<td>強</td>
+<td>若承保獲利，float 成本低於一般融資</td>
+</tr>
+<tr>
+<td>資本門檻</td>
+<td>極強</td>
+<td>再保、鐵路與公用事業均需巨額資本</td>
+</tr>
+<tr>
+<td>替代風險</td>
+<td>中</td>
+<td>線上保險、替代運輸與分散能源競爭；永久資本難複製</td>
+</tr>
+</tbody>
+</table></div>
+<p>護城河是「低成本永久資本＋信任＋去中心化經營」，但其有效性取決於接班團隊能否拒絕低回報交易。</p>
 <h2>6. 重要財務與營運指標</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>指標</th>
-<th style="text-align:right">2026 Q2／H1</th>
-<th>判讀</th>
+<th>最新值／期間</th>
+<th>投資含義</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Q2 股東淨利</td>
-<td style="text-align:right">256.67 億美元；2025 Q2 為 123.70 億</td>
-<td>含投資收益，不宜年化</td>
+<td>Q2 核心營運盈餘</td>
+<td>承保 17.31 億、投資收益 30.59 億、BNSF 15.58 億、BHE 8.91 億、製造服務零售 44.70 億；合計 117.09 億美元</td>
+<td>約年增 5.2%，比 GAAP 淨利更可比</td>
 </tr>
 <tr>
-<td>Q2 營運盈餘</td>
-<td style="text-align:right">129.83 億；+16.3%</td>
-<td>本業較具參考性</td>
+<td>GAAP 淨利</td>
+<td>Q2 256.67 億，去年 123.70 億；含投資收益 126.84 億</td>
+<td>股票未實現損益扭曲，不能年化</td>
 </tr>
 <tr>
-<td>保險承保／投資收益</td>
-<td style="text-align:right">17.31／30.59 億</td>
-<td>承保及短率均需追蹤</td>
+<td>保險承保</td>
+<td>Q2 17.31 億、年減 13.1%；H1 34.48 億、年增 3.6%</td>
+<td>單季走弱，跨年仍獲利</td>
 </tr>
 <tr>
-<td>BNSF／BHE</td>
-<td style="text-align:right">15.58／8.91 億</td>
-<td>分別年增約 6%／27%</td>
+<td>BNSF</td>
+<td>Q2 稅後 15.58 億、年增 6.3%</td>
+<td>燃料／運量循環仍可增益</td>
+</tr>
+<tr>
+<td>BHE</td>
+<td>Q2 稅後 8.91 億、年增 26.9%</td>
+<td>改善，但 wildfire 負債仍需追蹤</td>
 </tr>
 <tr>
 <td>製造服務零售</td>
-<td style="text-align:right">44.70 億</td>
-<td>年增約 24%</td>
+<td>Q2 稅後 44.70 億、年增 24.1%</td>
+<td>OxyChem 等併表／工業服務成長，需拆有機增長</td>
 </tr>
 <tr>
-<td>浮存金</td>
-<td style="text-align:right">約 1,775 億</td>
-<td>資金規模續增</td>
+<td>H1 OCF／capex</td>
+<td>216.53／106.31 億美元；簡化 FCF 約 110.22 億</td>
+<td>鐵路／能源 capex 高，FCF 口徑不宜和輕資產同業硬比</td>
 </tr>
 <tr>
-<td>H1 回購</td>
-<td style="text-align:right">48 億</td>
-<td>降低股數但幅度有限</td>
+<td>現金與 T-bills</td>
+<td>insurance-and-other 3,592 億美元（扣未交割應付款）；保險業務表內 2,103 億為不同範圍</td>
+<td>流動性極強；範圍不同不可混用</td>
 </tr>
 <tr>
-<td>A 股等值股數</td>
-<td style="text-align:right">2026-06-30 為 1,431,693 股</td>
-<td>每股分析分母</td>
+<td>回購</td>
+<td>H1 約 48 億；Q2 多數在 5 月，Class B 平均約 476.01 美元</td>
+<td>管理層當時判斷低於保守內含價值；研究日已高約 6%</td>
+</tr>
+<tr>
+<td>每股淨值／P/B</td>
+<td>研究日 P/B 約 1.44 倍</td>
+<td>比 GAAP P/E更適合輔助估值</td>
+</tr>
+<tr>
+<td>客戶集中／訂單</td>
+<td>集團整體低；各子公司需查證</td>
+<td>分散降低單一客戶風險，不消除循環</td>
+</tr>
+<tr>
+<td>庫存周轉</td>
+<td>聚合 TTM 約 1.30 次</td>
+<td>複合企業口徑意義有限</td>
 </tr>
 </tbody>
 </table></div>
-<p>公司 2026-01-02 以約 94 億美元完成 OxyChem 收購；未來要觀察整合後營運現金流是否高於資金機會成本。</p>
 <h2>7. 美股與台股同業比較</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>代號</th>
-<th>公司</th>
-<th>可比面向</th>
+<th>公司／市場</th>
+<th>關係</th>
+<th>優勢</th>
+<th>風險</th>
 <th>成長／穩定</th>
-<th>核心風險</th>
+<th>估值判斷</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>BRK.B</td>
-<td>Berkshire</td>
-<td>保險＋多元控股＋資本配置</td>
-<td>中／高</td>
-<td>規模、接班、巨災</td>
+<td>Berkshire／美國</td>
+<td>目標</td>
+<td>float、永久資本、跨業資產</td>
+<td>規模／接班／巨災</td>
+<td>中低／高</td>
+<td>P/B 1.44；核心盈餘約 23 倍</td>
 </tr>
 <tr>
 <td>MKL</td>
-<td>Markel</td>
-<td>專業險＋投資控股</td>
+<td>Markel／美國</td>
+<td>最接近複合體</td>
+<td>特殊險＋投資＋私企</td>
+<td>規模小、承保波動</td>
 <td>中／中高</td>
-<td>承保及投資波動</td>
+<td>即時倍數需查證</td>
 </tr>
 <tr>
 <td>CB</td>
-<td>Chubb</td>
-<td>全球財產意外險</td>
+<td>Chubb／美國</td>
+<td>直接保險同業</td>
+<td>全球商業／個人險紀律</td>
+<td>巨災／理賠通膨</td>
 <td>中／高</td>
-<td>巨災、準備金</td>
+<td>應看 P/B、ROE</td>
 </tr>
 <tr>
-<td>PGR</td>
-<td>Progressive</td>
-<td>美國汽車保險</td>
-<td>中高／中高</td>
-<td>損失成本與費率</td>
+<td>ACGL</td>
+<td>Arch Capital／美國</td>
+<td>直接保／再保</td>
+<td>特殊險與週期配置</td>
+<td>再保週期</td>
+<td>中高／中</td>
+<td>應看 P/B、combined ratio</td>
 </tr>
 <tr>
 <td>UNP</td>
-<td>Union Pacific</td>
-<td>北美鐵路</td>
-<td>中／中高</td>
-<td>運量、服務、CapEx</td>
+<td>Union Pacific／美國</td>
+<td>BNSF 分部對照</td>
+<td>西部鐵路網路</td>
+<td>貨運／監管</td>
+<td>中低／中高</td>
+<td>資本密集、非集團對標</td>
 </tr>
 <tr>
-<td>2882／2881</td>
-<td>國泰金／富邦金</td>
-<td>台灣保險金融控股</td>
+<td>NEE</td>
+<td>NextEra／美國</td>
+<td>BHE 分部對照</td>
+<td>公用事業／再生能源</td>
+<td>利率、capex</td>
+<td>中／高</td>
+<td>受監管資產對照</td>
+</tr>
+<tr>
+<td>2881</td>
+<td>富邦金／台灣</td>
+<td>保險金控關聯</td>
+<td>壽險、銀行與證券</td>
+<td>利率／匯率／資本</td>
 <td>中／中</td>
-<td>匯率、利率、資本</td>
+<td>非永久資本複合體</td>
+</tr>
+<tr>
+<td>2882</td>
+<td>國泰金／台灣</td>
+<td>保險金控關聯</td>
+<td>壽險／銀行規模</td>
+<td>匯率／資本</td>
+<td>中／中</td>
+<td>會計與監管差異大</td>
+</tr>
+<tr>
+<td>2891</td>
+<td>中信金／台灣</td>
+<td>金融控股關聯</td>
+<td>銀行／保險通路</td>
+<td>信用／監管</td>
+<td>中／中高</td>
+<td>不宜直接套 Berkshire 倍數</td>
 </tr>
 </tbody>
 </table></div>
-<p>台灣金控受會計制度、壽險負債與監管影響，僅能比較資本與保險管理，不能把估值倍數直接套用 Berkshire。</p>
 <h2>8. 估值比較與同業本益比區間</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>公司</th>
-<th style="text-align:right">追蹤 P/E</th>
-<th style="text-align:right">P/B／正常化估值</th>
-<th>判斷</th>
+<th>指標</th>
+<th style="text-align:right">BRK.B 研究日</th>
+<th>歷史／同業解讀</th>
+<th>結論</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Berkshire</td>
-<td style="text-align:right">約 12.6x</td>
-<td style="text-align:right">需查證；宜用 SOTP</td>
-<td>投資損益使 P/E 失真</td>
+<td>GAAP TTM P/E</td>
+<td style="text-align:right">12.61 倍</td>
+<td>2021–25 約 7.4–16.2 倍，受投資未實現損益嚴重扭曲</td>
+<td>非主估值</td>
 </tr>
 <tr>
-<td>Markel</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>較小型保險控股基準</td>
+<td>Forward P/E</td>
+<td style="text-align:right">約 22.99 倍</td>
+<td>接近 Q2 核心營運盈餘年化約 23 倍</td>
+<td>合理偏高</td>
 </tr>
 <tr>
-<td>Chubb</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>承保品質基準</td>
+<td>P/B</td>
+<td style="text-align:right">1.44 倍</td>
+<td>Berkshire 常以淨值＋營運價值輔助</td>
+<td>尚有品質溢價，非明顯折價</td>
 </tr>
 <tr>
-<td>Progressive</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>高成長汽車險基準</td>
+<td>EV/EBITDA</td>
+<td style="text-align:right">6.48 倍</td>
+<td>金融 float 與受監管債務使 EV 定義不如工業公司直觀</td>
+<td>僅輔助</td>
+</tr>
+<tr>
+<td>P/FCF／FCF yield</td>
+<td style="text-align:right">44.65 倍／2.24% 聚合口徑</td>
+<td>capex 含鐵路／能源成長與維持，且保險現金流特殊</td>
+<td>不宜直接比較</td>
+</tr>
+<tr>
+<td>P/S</td>
+<td style="text-align:right">2.81 倍</td>
+<td>不同分部 margin 差異太大</td>
+<td>次要</td>
+</tr>
+<tr>
+<td>回購參考</td>
+<td style="text-align:right">5 月 Class B 平均 476.01 美元</td>
+<td>研究日 505 美元高約 6%</td>
+<td>仍可能低於內含值，但安全邊際縮小</td>
 </tr>
 </tbody>
 </table></div>
-<p>估值應將營運子公司、現金與股票資產、債務、保險準備金分開，再以每股營運盈餘與每股淨值交叉驗證。505 美元相對 Q2 平均回購價並未顯示明確折價；同日完整 SOTP 與同業倍數仍需查證。</p>
+<p>估值結論：應優先看「每股淨值＋正常化核心營運盈餘＋淨現金／投資組合」，而非 12.6 倍 GAAP P/E。現價反映大部分品質與流動性優勢。</p>
 <h2>9. 未來 3 年情境分析</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>情境</th>
-<th>核心假設</th>
-<th>每股價值方向</th>
-<th>驗證訊號</th>
+<th>假設</th>
+<th>營運／盈餘</th>
+<th>合理估值</th>
+<th>潛在結果／觸發</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>樂觀</td>
-<td>承保持續獲利、BNSF/BHE 提效、折價回購</td>
-<td>高個位至低雙位數複利</td>
-<td>每股營運盈餘與股數同步改善</td>
+<td>承保紀律、併購高回報、BNSF/BHE 增長、回購有效</td>
+<td>核心盈餘年增 7%–10%，淨值穩增</td>
+<td>P/B 1.5–1.7、核心 P/E 23–26</td>
+<td>大型配置成功、每股價值加速</td>
 </tr>
 <tr>
 <td>基準</td>
-<td>分部穩健，短率下行壓投資收益</td>
-<td>中高個位數成長</td>
-<td>浮存金低成本、CapEx 報酬穩定</td>
+<td>營運年增 4%–7%、現金利息下降、少量回購</td>
+<td>每股內含價值中個位數增長</td>
+<td>P/B 1.3–1.5、P/E 20–24</td>
+<td>目前價格大致反映</td>
 </tr>
 <tr>
 <td>悲觀</td>
-<td>巨災／責任損失、收購低報酬、治理轉弱</td>
-<td>停滯或下滑</td>
-<td>準備金惡化、資本長期閒置</td>
+<td>巨災／wildfire、高價併購、工業衰退、接班失誤</td>
+<td>核心盈餘停滯、淨值受損</td>
+<td>P/B 1.0–1.3、P/E 16–21</td>
+<td>承保虧損、資本回報下降</td>
 </tr>
 </tbody>
 </table></div>
-<p>情境不是目標價；需要每季更新股數、淨資產與可重複營運盈餘後才能換算報酬區間。</p>
 <h2>10. 投資建議</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>代號</th>
+<th>代號／名稱</th>
 <th>評級</th>
+<th>適合投資人</th>
 <th>理由</th>
-<th>上調條件</th>
-<th>下調條件</th>
+<th>不買理由</th>
+<th>觀察價值</th>
+<th>變更條件</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>BRK.B</td>
-<td><strong>觀察</strong></td>
-<td>高品質、流動性與分散營運，但新資金安全邊際未證實</td>
-<td>SOTP 顯示可驗證折價，且每股營運價值續增</td>
-<td>承保／準備金惡化、資本配置或治理轉弱</td>
+<td>BRK.B／Berkshire</td>
+<td><strong>續抱</strong></td>
+<td>長期複利、低換手、重視財務韌性者</td>
+<td>float、優質資產、3,592 億流動性、核心盈餘增長</td>
+<td>約 23 倍核心盈餘、1.44 倍 P/B、規模／接班</td>
+<td>資本配置教科書</td>
+<td>承保、回購、每股淨值、併購回報</td>
 </tr>
 </tbody>
 </table></div>
-<p>新資金不應把約 12.6 倍 GAAP P/E 或回購單獨視為買入理由；已持有者可依自身成本與風險預算追蹤每股營運價值，本報告不提供個人化部位指令。</p>
+<p><strong>續抱</strong>優於「分批布局」，因研究日較 Q2 回購均價高、估值已合理，新進場安全邊際有限；也優於「觀察」，因五大核心營運合計仍成長、流動性極強且 H1 回購顯示管理層仍找到部分內含價值折價。</p>
+<h3>新手買入</h3>
+<p>可把 BRK.B 當多元企業而非 ETF；若要新建部位，宜等 P/B 或核心盈餘倍數回落，並用 3–4 次分批。</p>
+<h3>不同成本持有者</h3>
+<ul>
+<li>低成本：續抱，觀察每股內含價值而非單季股價。</li>
+<li>現價附近：不追高，等待回購／Q3 營運資料。</li>
+<li>大幅獲利：依單一公司集中度再平衡。</li>
+<li>套牢：勿只因品牌攤平；檢查估值與接班後配置。</li>
+</ul>
+<h3>等候買點條件</h3>
+<p>P/B 回到約 1.3 倍附近、價格接近管理層積極回購區，而核心承保／營運未惡化。</p>
+<h3>評級上調訊號</h3>
+<p>核心營運盈餘連續高個位數增長、回購顯著增加、大型收購回報可驗證、combined ratio 維持優良、每股淨值加速。</p>
+<h3>評級下調訊號</h3>
+<p>多年承保虧損、BHE wildfire 負債大增、低回報大型收購、回購紀律改變、核心營運停滯而 P/B 仍擴張。</p>
 <h2>11. 投資標的分層</h2>
-<ul>
-<li>核心穩健型：BRK.B、CB；重點是資本、流動性與承保品質。</li>
-<li>成長型：PGR；以資料定價與保單增長換取較高波動。</li>
-<li>景氣循環型：BNSF／UNP 與工業子公司；受運量和 CapEx 週期影響。</li>
-<li>高風險高報酬型：高槓桿、準備金不透明或災害責任集中的保險控股。</li>
-<li>本次 BRK.B 歸為高品質觀察標的，等待可量化折價。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分層</th>
+<th>標的</th>
+<th>組合角色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心穩健型</td>
+<td><strong>BRK.B</strong>、CB</td>
+<td>財務韌性與低成本資本</td>
+</tr>
+<tr>
+<td>成長型</td>
+<td>ACGL、特種保險</td>
+<td>承保週期與市占提升</td>
+</tr>
+<tr>
+<td>景氣循環型</td>
+<td>UNP、BNSF 類鐵路／工業</td>
+<td>貨運與工業循環</td>
+</tr>
+<tr>
+<td>高風險高報酬型</td>
+<td>高槓桿再保／災害曝險</td>
+<td>尾端風險與價格彈性</td>
+</tr>
+<tr>
+<td>只適合觀察型</td>
+<td>承保失紀律、資本不足保險商</td>
+<td>稀釋／監管風險</td>
+</tr>
+</tbody>
+</table></div>
+<p>BRK.B 可作一般組合的核心穩健型，但「不配息＋單一管理體系＋複合企業」仍不同於廣泛指數。</p>
 <h2>12. 產業風險與反方觀點</h2>
-<ul>
-<li>巨災、醫療／修車通膨與社會通膨可能使保險準備金多年後才暴露不足。</li>
-<li>短率下降會壓低龐大短債部位的收益；現金安全也伴隨機會成本。</li>
-<li>BHE 有監管、野火責任和重 CapEx；BNSF 有工資、燃料、運量與服務品質風險。</li>
-<li>規模使大型投資更難顯著提升每股價值，接班後的資本配置紀律尚需時間驗證。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>風險</th>
+<th>機率</th>
+<th>影響</th>
+<th>警訊</th>
+<th>應對</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>估值過度</td>
+<td>中</td>
+<td>高</td>
+<td>核心 P/E／P/B 擴張但增速下滑</td>
+<td>用正常化盈餘＋淨值</td>
+</tr>
+<tr>
+<td>保險循環／巨災</td>
+<td>高</td>
+<td>高</td>
+<td>combined ratio、reserve development 惡化</td>
+<td>跨多年追蹤</td>
+</tr>
+<tr>
+<td>技術替代</td>
+<td>中</td>
+<td>中</td>
+<td>車險定價／自駕、運輸替代</td>
+<td>分部估值</td>
+</tr>
+<tr>
+<td>競爭</td>
+<td>中</td>
+<td>中</td>
+<td>保費降、優質收購被競價</td>
+<td>看承保紀律</td>
+</tr>
+<tr>
+<td>政策／訴訟</td>
+<td>中</td>
+<td>高</td>
+<td>BHE wildfire／公用事業監管</td>
+<td>保留負債折價</td>
+</tr>
+<tr>
+<td>客戶集中</td>
+<td>低</td>
+<td>低中</td>
+<td>特定工業子公司訂單降</td>
+<td>聚合與分部同看</td>
+</tr>
+<tr>
+<td>財報警訊</td>
+<td>中</td>
+<td>高</td>
+<td>GAAP 投資利益掩蓋營運走弱</td>
+<td>剔除投資漲跌</td>
+</tr>
+</tbody>
+</table></div>
 <h3>反方觀點</h3>
-<p>即使各分部穩健，若超額現金長期無法以高回報部署、回購價格不夠便宜，整體每股報酬仍可能只接近大盤而不值得品質溢價。</p>
+<p>最強空方論點是：Berkshire 已大到難以複製過往報酬。研究日超過 1 兆美元市值，每一筆收購都要極大才有意義；核心營運盈餘僅約中個位數增長，約 23 倍並不便宜。接班、BHE wildfire 與巨災又可能同時消耗資本，巨額現金在利率下行時會成為收益拖累。</p>
 <h2>13. 後續研究清單</h2>
-<ol>
-<li>每季重建承保、投資收益、BNSF、BHE、製造服務零售與其他營運盈餘。</li>
-<li>更新浮存金、現金／國債、股數和回購價格，改看每股而非總額成長。</li>
-<li>追蹤 GEICO 損失率、BHE 災害責任、BNSF 運量效率及 OxyChem ROIC。</li>
-<li>以同日 P/B、正常化營運盈餘和 SOTP 比較 BRK.B、MKL、CB、PGR。</li>
-</ol>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>類別</th>
+<th>下一步</th>
+<th>頻率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保險</td>
+<td>combined ratio、float、reserve、巨災</td>
+<td>每季／年度</td>
+</tr>
+<tr>
+<td>營運</td>
+<td>BNSF volume／revenue per car、BHE rate base／capex</td>
+<td>每季</td>
+</tr>
+<tr>
+<td>子公司</td>
+<td>製造服務有機增長、OxyChem／Taylor Morrison</td>
+<td>每季</td>
+</tr>
+<tr>
+<td>現金</td>
+<td>cash/T-bills、投資買賣、利息收入</td>
+<td>每季</td>
+</tr>
+<tr>
+<td>配置</td>
+<td>收購、回購均價／數量、發債</td>
+<td>事件驅動</td>
+</tr>
+<tr>
+<td>治理</td>
+<td>CEO／董事會職責、資本配置溝通</td>
+<td>年會／事件</td>
+</tr>
+<tr>
+<td>估值</td>
+<td>P/B、核心 P/E、每股內含價值</td>
+<td>每月</td>
+</tr>
+</tbody>
+</table></div>
+<p>新手下一步研究：Markel（較小型複合體）、Chubb（承保品質）、Union Pacific（拆解鐵路經濟），以理解 Berkshire 的三個主要價值來源。</p>
 <h2>14. 結論</h2>
-<p>Berkshire 仍是多元保險控股的高品質研究標的。Q2 的營運盈餘、BNSF、BHE 與製造服務零售改善，負成本浮存金和充裕流動性提供防禦；但 GAAP P/E 失真、規模與接班使資本配置更難。現價尚缺可驗證折價，因此結論為 <strong>觀察</strong>，等待以正常化 SOTP 證實安全邊際。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>問題</th>
+<th>結論</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>是否為產業好入口</td>
+<td>是，可同時學保險 float、資本配置與基礎設施</td>
+</tr>
+<tr>
+<td>產業是否值得長期追蹤</td>
+<td>是，保險與永久資本具長期複利特性</td>
+</tr>
+<tr>
+<td>最重要投資邏輯</td>
+<td>接班後仍能以低成本 float 提高每股內含價值</td>
+</tr>
+<tr>
+<td>最大風險</td>
+<td>規模／接班令資本回報下降，並遇巨災或訴訟</td>
+</tr>
+<tr>
+<td>估值是否已反映成長</td>
+<td>已反映大部分品質，安全邊際有限</td>
+</tr>
+<tr>
+<td>最終投資評級</td>
+<td><strong>續抱</strong></td>
+</tr>
+<tr>
+<td>優先研究產業鏈環節</td>
+<td>承保／float、回購、BNSF、BHE 與大型收購</td>
+</tr>
+</tbody>
+</table></div>
+<p>給新手的白話結論：Berkshire 像一台用保險資金驅動的企業收購與持有機器，品質仍好，但現在價格已不便宜。既有持有人可續抱，新資金更適合等安全邊際。</p>
 </article></main></div>
 </body>
 </html>

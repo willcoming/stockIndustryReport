@@ -17,13 +17,13 @@
     </div>
     <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
       <div>
-        <p class="text-sm font-bold text-emerald-800">台股 · 電子零組件／鍵盤、影像模組與電源供應器</p>
+        <p class="text-sm font-bold text-emerald-800">台股 · 電子零組件業</p>
         <h1 class="mt-1 text-3xl font-black tracking-normal">2385 群光</h1>
       </div>
       <div class="flex flex-wrap gap-2">
         <span class="meta-pill">研究日 2026-08-29</span>
         <span class="meta-pill">有效至 2026-09-05</span>
-        <span class="meta-pill">評級 續抱</span>
+        <span class="meta-pill">評級 觀察</span>
       </div>
     </div>
   </div>
@@ -39,676 +39,349 @@
 <main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><blockquote>
 <p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
 </blockquote>
-<h1>群光電子／2385 反推產業 Deep Research 投資報告</h1>
+<h1>群光/2385 反推產業 Deep Research 投資報告</h1>
 <h2>0. 資料來源與研究日期</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>欄位</th>
-<th>內容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>報告研究日期</td>
-<td>2026-08-29；有效至 2026-09-05</td>
-</tr>
-<tr>
-<td>最新股價</td>
-<td>2026-08-28 TWSE 收盤 108.00 元；<a href="https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY?date=20260828&amp;stockNo=2385&amp;response=json">證交所日成交資料</a></td>
-</tr>
-<tr>
-<td>最新市值</td>
-<td>依證交所已發行 765,721,188 股推算約 827.0 億元</td>
-</tr>
-<tr>
-<td>最新財報期間</td>
-<td>2026 Q2／上半年累計，單位新台幣</td>
-</tr>
-<tr>
-<td>主要財報來源</td>
-<td><a href="https://esg.chicony.com/chicony/en/news-detail/2026Q2_EPS/">群光 Q2 2026 官方結果</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci">TWSE/MOPS綜合損益</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci">資產負債</a></td>
-</tr>
-<tr>
-<td>主要估值來源</td>
-<td><a href="https://www.twse.com.tw/rwd/zh/afterTrading/BWIBBU?date=20260828&amp;stockNo=2385&amp;response=json">TWSE 2026-08-28 本益比／殖利率／股淨比</a></td>
-</tr>
-<tr>
-<td>主要產業來源</td>
-<td><a href="https://www.chicony.com/chicony/tw/investors/Statements">公司財報與月營收入口</a>、公司 2026 Q1/Q2 營運說明</td>
-</tr>
-<tr>
-<td>資料缺口</td>
-<td>三大產品精確收入／毛利、客戶集中、FCF、庫存週轉、Forward P/E、庫存持股實際成本</td>
-</tr>
-<tr>
-<td>需再次查證數據</td>
-<td>產品漲價落實、DRAM缺貨對下半年拉貨、泰國產能利用、庫藏股最終買回／註銷</td>
-</tr>
-</tbody>
-</table></div>
+<ul>
+<li>研究日期：2026-08-29；資料有效至：2026-09-05。</li>
+<li>觸發來源：<code>myStock/tw_stock_inventory.csv</code> 的「庫存持股」。該資料僅作研究清單來源，不構成依成本或部位給予的個人化建議。</li>
+<li>公司主來源：群光電子<a href="https://eftp.chicony.com/ChiconyESG/2026Chicony_Q2ConsolidatedFinancialStatement_CN.pdf">2026Q2 合併財務報告</a>、<a href="https://esg.chicony.com/chicony/en/news-detail/2026Q2_EPS/">第二季營運新聞</a>、<a href="https://esg.chicony.com/chicony/esg/investor_relation/financial_statistics/">月營收資料</a>及<a href="https://esg.chicony.com/chicony/esg/investor_relation/financial_statement/">財務報告專區</a>。</li>
+<li>交易與申報主來源：臺灣證券交易所公司基本資料、財務報表、月營收、每日收盤與個股估值公開資料。價格及估值基準日為 2026-08-28。</li>
+<li>產業交叉來源：IDC <a href="https://www.idc.com/promo/pcdforecast/">PC 市場預測</a>。即時供應鏈價格、客戶別占比與未公開訂單均標為需查證。</li>
+<li>口徑：金額除每股數據外均為新台幣；H1 指 2026 上半年。近似自由現金流為營業現金流扣除現金購置 PP&amp;E；若再扣除無形資產支出，另行標示。</li>
+</ul>
 <h2>1. 一頁式懶人包</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>項目</th>
-<th>判斷</th>
+<th>研究判斷</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>公司一句話介紹</td>
-<td>全球筆電鍵盤、相機模組與電源供應器大型 ODM，並擴張智慧會議、安防與邊緣 AI 影像</td>
+<td>公司本質</td>
+<td>全球鍵盤、影像模組、智慧視訊與電源相關供應商；量產、客戶認證及產品交叉銷售是核心能力。</td>
 </tr>
 <tr>
-<td>主要產業</td>
-<td>電子零組件／PC 周邊、影像模組、電源與智慧系統</td>
+<td>產業定位</td>
+<td>位於 PC／消費電子品牌下游之前，受 NB 出貨、規格升級、記憶體成本與客戶庫存影響。</td>
 </tr>
 <tr>
-<td>產業鏈位置</td>
-<td>品牌 PC／雲端／智慧裝置廠的關鍵模組供應商</td>
+<td>2026H1</td>
+<td>營收 452.59 億元、年減 5.3%；毛利率 14.90%、營益率 5.03%；歸母淨利 36.97 億元、EPS 5.06 元。</td>
 </tr>
 <tr>
-<td>核心投資邏輯</td>
-<td>龍頭規模、商用 PC 高值化、AI 影像與高殖利率提供支撐；但本業 margin 下滑必須修復</td>
+<td>盈餘品質</td>
+<td>H1 營業利益年減約 44%，但 EPS 僅減 1.7%，主因營業外及衍生／評價收益支撐，需正常化。</td>
 </tr>
 <tr>
-<td>目前投資評級</td>
-<td><strong>續抱</strong></td>
+<td>現金與庫存</td>
+<td>營業現金流降至 5.37 億元，近似自由現金流 2.76 億元；存貨同比增 21.8%。現金扣主要有息借款仍為淨現金。</td>
 </tr>
 <tr>
-<td>適合投資人</td>
-<td>已持有、重視現金股利與中期產品升級，能接受PC循環者</td>
+<td>成長亮點</td>
+<td>智慧視訊會議 Q2 與 H1 均年增約 20%；電競鍵盤高個位數增長、NB LED 背光鍵盤滲透率逾 50%。</td>
 </tr>
 <tr>
-<td>主要理由</td>
-<td>估值12.12倍、殖利率6.67%；EPS大致持平，但1H營收、毛利與營益均下降，新增資金安全邊際一般</td>
+<td>估值</td>
+<td>2026-08-28 收盤 108.00 元；P/E 12.12 倍、P/B 1.77 倍、歷史殖利率 6.67%。低倍數反映景氣與獲利品質疑慮。</td>
 </tr>
 <tr>
 <td>主要風險</td>
-<td>DRAM價格壓需求、毛利率、業外依賴、匯率、客戶集中、價格調整延遲</td>
+<td>核心毛利與營益下滑、記憶體成本壓抑 PC 需求、存貨與現金轉換惡化、非營業收益反轉。</td>
 </tr>
 <tr>
-<td>追蹤指標</td>
-<td>月營收、毛利／營益率、背光鍵盤搭載率、B2B影像成長、股利／FCF</td>
-</tr>
-<tr>
-<td>代表性美股同業</td>
-<td>Logitech（LOGI）、Flex（FLEX）、Jabil（JBL）、Primax非美股</td>
-</tr>
-<tr>
-<td>代表性台股同業</td>
-<td>致伸 4915、群電 6412、光寶科 2301、佳世達 2352</td>
+<td>綜合評級</td>
+<td><strong>觀察</strong>。淨現金、產品地位與低倍數使其優於「減碼 / 賣出」；核心獲利及現金流惡化，尚不符合「續抱／分批布局」的嚴格條件。</td>
 </tr>
 </tbody>
 </table></div>
+<p>核心判斷：群光不是失去競爭力，而是 2026H1 發生「EPS 表面穩定、核心營運明顯轉弱」的背離。股息與低 P/E 提供評價緩衝，但真正的上調條件是價格調整在 Q3 反映、毛利率回升，以及存貨與營業現金流恢復正常。</p>
 <h2>2. 公司如何賺錢</h2>
-<p>群光向全球品牌客戶設計製造鍵盤、筆電／智慧裝置相機模組、智慧會議與安防影像、電源供應器與智慧家居產品。鍵盤靠規模、背光與電競高值化；影像產品靠光機電整合與 AI 軟硬體；電源透過子公司群電連結 PC、伺服器、雲端及衛星通訊需求。</p>
-<p>1H26 營收 452.59 億元、年減 5.3%；毛利率由 18.1%降至14.9%，營益率由8.5%降至5.0%。歸母淨利36.97億元僅年減1.3%，因業外收益21.89億元彌補本業下滑。公司亦有轉投資／子公司收益，因此需要同時看營業利益與稅後EPS。</p>
-<p>簡單說，這家公司賺錢的方式是替全球品牌大量生產鍵盤、鏡頭與電源，再透過背光、電競、AI影像與商用產品提高單價；2026上半年本業承壓，但業外與規模仍守住每股獲利。</p>
+<p>群光以設計、製造及供應鍵盤、影像產品、智慧視訊／安防與電源相關產品獲利。鍵盤業務靠筆電與桌機品牌的長期認證、模具、背光與電競規格升級創造價值；影像模組延伸至筆電相機、視訊會議、安防及機器視覺；電源相關曝險部分透過關係企業群電形成協同。這些產品單價不一定高，但量產良率、交期與客戶平台導入可形成穩定規模。</p>
+<p>公司 Q2 新聞指出，智慧視訊會議產品 Q2 及 H1 均同比成長約 20%，電競鍵盤為高個位數成長，NB LED 背光鍵盤滲透率已超過 50%。它們是規格升級與非 PC 傳統需求的亮點。然而 2026H1 營收仍減 5.3%，毛利率由 18.11% 降至 14.90%，營益率由 8.50% 降至 5.03%，代表成本、產品組合與價格調整落後的壓力更大。</p>
+<p>第二季營收 223.88 億元、年減 8.6%，毛利率 13.62%、營益率 2.46%；歸母淨利卻增 4.1% 至 22.41 億元，EPS 3.06 元。公司表示部分價格調整在 Q2、更多在 Q3 反映，但記憶體成本也削弱終端需求，Q3 獲利仍受制約。這是管理層展望，不是已實現結果，後續需用毛利率和現金流驗證。</p>
 <h2>3. 從公司反推產業</h2>
-<p>PC與智慧裝置模組解決品牌商不自建大規模製造、光機電整合與全球交付的需求。商用換機、AI PC、視訊會議、安防、機器人視覺與高功率電源是長期驅動；DRAM價格、終端消費、庫存與匯率造成短期波動。</p>
-<p>鍵盤／傳統相機模組屬成熟循環，智慧影像與邊緣AI處成長導入期。最重要三問：產品漲價能否恢復毛利？商用PC與AI影像可否抵銷消費疲弱？高股利是否由可持續FCF而非業外收益支撐？</p>
+<p>從群光反推的是「PC 周邊與智慧影像模組」產業：上游為感測器、IC、LED、機構件、記憶體及其他電子材料；中游把零件整合成鍵盤、相機、視訊設備與電源；下游由 PC／消費電子品牌、企業協作、安防及機器人客戶採購。供應商需在產品開發前期共同設計，經長期驗證後大量生產。</p>
+<p>PC 產業成熟，但價值量可由 LED 背光、電競、AI PC 相機／麥克風規格、視訊會議與邊緣視覺提升。另一方面，記憶體等成本上漲可能推高終端售價、壓低 PC 出貨；IDC 目前預測 2026 全年 PC 出貨下降 11.3%，顯示規格升級與總量壓力可能同時存在。</p>
+<p>產業競爭焦點不是單純產能，而是設計導入、量產良率、成本轉嫁速度及跨產品客戶關係。品牌商通常掌握議價權；若原料漲價到客戶調價有時間差，供應商毛利率先承壓。群光 2026H1 正是這種營運槓桿反向作用的案例。</p>
 <h2>4. 產業鏈上下游分析</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>環節</th>
-<th>角色／產品</th>
-<th>美股／台股代表</th>
-<th>議價與獲利</th>
-<th>風險</th>
+<th>主要內容</th>
+<th>群光的機會／風險</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>上游</td>
-<td>IC、感測器、鏡頭、DRAM、塑膠／金屬</td>
-<td>Sony、MU；大立光、聯發科</td>
-<td>關鍵晶片／感測器議價較強</td>
-<td>缺貨、漲價、匯率</td>
+<td>上游零件</td>
+<td>感測器、控制 IC、LED、連接器、記憶體、塑膠與金屬件</td>
+<td>關鍵零件漲價及缺料造成成本／備貨壓力；多來源採購與價格轉嫁重要。</td>
 </tr>
 <tr>
-<td><strong>中游：群光</strong></td>
-<td>鍵盤、影像模組、電源、AI系統</td>
-<td>LOGI、FLEX；<strong>2385</strong>、4915、6412</td>
-<td>規模／整合強，ODM仍受品牌議價</td>
-<td>毛利與客戶集中</td>
+<td>模組設計製造</td>
+<td>鍵盤、相機模組、視訊設備、電源與周邊</td>
+<td>群光的設計、良率、自動化、規模及產品組合創造價值。</td>
 </tr>
 <tr>
-<td>下游</td>
-<td>PC、雲端、安防、消費品牌</td>
-<td>HPQ、DELL；宏碁、華碩</td>
-<td>品牌掌握訂單與庫存</td>
-<td>砍單、價格談判</td>
+<td>下游品牌</td>
+<td>PC、消費電子、企業協作、安防及機器人品牌</td>
+<td>客戶產品週期、庫存與拉貨決定營收；具名客戶及集中度需查證。</td>
 </tr>
 <tr>
-<td>終端</td>
-<td>商用PC、電競、會議、安防、機器人</td>
-<td>企業與消費者</td>
-<td>高值產品需求較穩</td>
-<td>景氣與技術週期</td>
+<td>終端市場</td>
+<td>消費 PC、電競、商用換機、遠距協作、智慧安防</td>
+<td>PC 量下滑是逆風，背光／電競／AI 規格與視訊會議提供價值量。</td>
 </tr>
 </tbody>
 </table></div>
-<p>群光是成熟供應鏈「賣鏟人」，優勢在大規模設計製造與多產品交叉供應，不是擁有終端品牌定價權。</p>
+<p>2026 年 7 月營收 70.57 億元、同比減 12.2%；前七月 523.16 億元、同比減 6.3%，顯示 Q3 開端尚未看到營收止跌。若價格調整成功，首先應反映在毛利率而非一定反映在銷量；因此月營收、毛利率與存貨需一起看，不能用單一指標判斷轉折。</p>
 <h2>5. 商業模式與護城河</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>因素</th>
-<th>強度</th>
-<th>證據與改變條件</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>技術門檻</td>
-<td>中強</td>
-<td>光機電、VLM／sensor fusion、電源設計；AI產品量產可上調</td>
-</tr>
-<tr>
-<td>規模經濟</td>
-<td>強</td>
-<td>全球筆電鍵盤／影像／電源龍頭規模與採購</td>
-</tr>
-<tr>
-<td>客戶黏著</td>
-<td>強</td>
-<td>共同設計、品質與全球交付認證；集中度仍需查證</td>
-</tr>
-<tr>
-<td>轉換成本</td>
-<td>中強</td>
-<td>模組重驗證與供應鏈切換成本高</td>
-</tr>
-<tr>
-<td>品牌／通路</td>
-<td>中</td>
-<td>B2B聲譽強，終端品牌較弱</td>
-</tr>
-<tr>
-<td>成本優勢</td>
-<td>強</td>
-<td>規模、自動化與亞洲製造；泰國分散地緣</td>
-</tr>
-<tr>
-<td>資本門檻</td>
-<td>中</td>
-<td>製造基地與研發需資本，但低於晶圓廠</td>
-</tr>
-<tr>
-<td>替代風險</td>
-<td>中</td>
-<td>產品標準化與同業價格競爭；AI整合可降低替代</td>
-</tr>
-</tbody>
-</table></div>
+<p>群光的護城河來自長期 ODM／OEM 關係、共同設計與認證、跨地量產、採購規模及高良率。鍵盤雖成熟，品牌更換供應商需重新驗證品質、鍵感、燈效與可靠性，形成切換成本。影像與智慧視訊牽涉光學、演算法、韌體與隱私／安全要求，技術整合度較高，可改善產品組合。</p>
+<p>但護城河不是無限定價權。當 PC 需求轉弱或投入成本快速上漲，價格調整常有落差；大量營運資金需求也可能侵蝕自由現金流。H1 營益率大幅下滑說明，即使市占與客戶關係穩固，短期獲利仍會受到景氣和成本左右。評估護城河應看穿越周期的毛利率、營業現金流與客戶留存，而非只看 EPS 或股息。</p>
 <h2>6. 重要財務與營運指標</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>指標</th>
-<th style="text-align:right">最新值</th>
-<th>意義</th>
+<th style="text-align:right">2026H1</th>
+<th style="text-align:right">2025H1</th>
+<th>判讀</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1H26 營收</td>
-<td style="text-align:right">452.59 億，-5.3% YoY</td>
-<td>終端需求偏弱</td>
+<td>營收</td>
+<td style="text-align:right">452.59 億元</td>
+<td style="text-align:right">477.76 億元</td>
+<td>年減 5.3%。</td>
 </tr>
 <tr>
-<td>1H26 毛利率</td>
-<td style="text-align:right">14.9%，去年18.1%</td>
-<td>成本／組合／價格壓力顯著</td>
+<td>毛利率</td>
+<td style="text-align:right">14.90%</td>
+<td style="text-align:right">18.11%</td>
+<td>下滑 3.21 個百分點，為主要警訊。</td>
 </tr>
 <tr>
-<td>1H26 營益率</td>
-<td style="text-align:right">5.0%，去年8.5%</td>
-<td>本業獲利下降44%</td>
+<td>營益率</td>
+<td style="text-align:right">5.03%</td>
+<td style="text-align:right">8.50%</td>
+<td>營業利益年減約 44%。</td>
 </tr>
 <tr>
-<td>1H26 EPS</td>
-<td style="text-align:right">5.06元，去年5.15元</td>
-<td>業外補足本業下降</td>
+<td>歸母淨利／EPS</td>
+<td style="text-align:right">36.97 億元／5.06 元</td>
+<td style="text-align:right">37.45 億元／5.15 元</td>
+<td>跌幅有限，但與本業表現背離。</td>
 </tr>
 <tr>
-<td>2Q26 EPS／淨利率</td>
-<td style="text-align:right">3.06元／10.0%</td>
-<td>季增，但主要非本業改善</td>
-</tr>
-<tr>
-<td>7月營收</td>
-<td style="text-align:right">70.57億，-12.24% YoY；累計-6.27%</td>
-<td>下半年開局偏弱</td>
-</tr>
-<tr>
-<td>背光NB鍵盤搭載率</td>
-<td style="text-align:right">Q2維持50%以上</td>
-<td>高值產品組合支撐</td>
-</tr>
-<tr>
-<td>智慧視訊會議</td>
-<td style="text-align:right">Q2與1H年增逾20%（公司說法）</td>
-<td>B2B影像成長亮點</td>
-</tr>
-<tr>
-<td>每股淨值／P/B</td>
-<td style="text-align:right">61.18元／1.77倍</td>
-<td>資產與ROE中等評價</td>
-</tr>
-<tr>
-<td>P/E／殖利率</td>
-<td style="text-align:right">12.12倍／6.67%</td>
-<td>收益型支撐，但需驗證配息品質</td>
-</tr>
-<tr>
-<td>FCF／庫存週轉／客戶集中</td>
+<td>營業外收益</td>
+<td style="text-align:right">21.89 億元</td>
 <td style="text-align:right">需查證</td>
-<td>決定股利可持續性</td>
+<td>約占稅前盈餘 49%；含約 29.78 億元衍生／評價等收益。</td>
+</tr>
+<tr>
+<td>營業現金流</td>
+<td style="text-align:right">5.37 億元</td>
+<td style="text-align:right">35.32 億元</td>
+<td>大幅下降，現金轉換需改善。</td>
+</tr>
+<tr>
+<td>近似自由現金流</td>
+<td style="text-align:right">2.76 億元</td>
+<td style="text-align:right">需查證</td>
+<td>扣 PP&amp;E 2.60 億元；再扣無形資產後約 2.12 億元。</td>
+</tr>
+<tr>
+<td>存貨</td>
+<td style="text-align:right">179.22 億元</td>
+<td style="text-align:right">147.11 億元</td>
+<td>同比增 21.8%，較 2025 年底增 8.8%。</td>
 </tr>
 </tbody>
 </table></div>
+<p>H1 期末現金 297.41 億元；短期借款 136.62 億元，加計一年內到期與長期借款後仍約有 159 億元淨現金。總資產 1,102.34 億元、負債 573.63 億元。上半年普通股現金股利發放約 55.13 億元，遠高於同期近似自由現金流；半年口徑可能受季節性影響，但股利覆蓋率仍是必須在全年檢驗的風險，不應把歷史殖利率視為保證。</p>
 <h2>7. 美股與台股同業比較</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>代號</th>
-<th>公司／市場</th>
-<th>關係</th>
-<th>優勢</th>
-<th>風險</th>
-<th>成長／獲利穩定</th>
-<th>估值判斷</th>
+<th>公司</th>
+<th>定位</th>
+<th style="text-align:right">2026-08-28 TWSE P/E／P/B</th>
+<th style="text-align:right">2026H1 毛利率／營益率</th>
+<th>比較重點</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>LOGI</td>
-<td>Logitech／美</td>
-<td>周邊品牌／部分競合</td>
-<td>品牌、通路、毛利</td>
-<td>消費循環</td>
-<td>中穩</td>
-<td>品牌溢價</td>
+<td>群光 2385</td>
+<td>鍵盤、影像、智慧視訊</td>
+<td style="text-align:right">12.12／1.77</td>
+<td style="text-align:right">14.9%／5.0%</td>
+<td>EPS 受營業外支撐。</td>
 </tr>
 <tr>
-<td>FLEX</td>
-<td>Flex／美</td>
-<td>EMS關聯</td>
-<td>全球製造規模</td>
-<td>低毛利</td>
-<td>穩定</td>
-<td>較低倍數</td>
+<td>致伸 4915</td>
+<td>電腦周邊、消費電子、聲學／影像</td>
+<td style="text-align:right">12.04／1.38</td>
+<td style="text-align:right">15.4%／4.0%</td>
+<td>最接近產品／製造型態，但組合仍不同。</td>
 </tr>
 <tr>
-<td>JBL</td>
-<td>Jabil／美</td>
-<td>EMS關聯</td>
-<td>高階製造／多元終端</td>
-<td>客戶集中</td>
-<td>中穩</td>
-<td>製造業倍數</td>
+<td>群電 6412</td>
+<td>電源供應器</td>
+<td style="text-align:right">13.03／2.05</td>
+<td style="text-align:right">14.4%／3.3%</td>
+<td>關係企業與電源純度較高。</td>
 </tr>
 <tr>
-<td>2385</td>
-<td>群光／台</td>
-<td>目標</td>
-<td>鍵盤／影像／電源規模</td>
-<td>本業margin下滑</td>
-<td>中穩</td>
-<td>12.12倍、合理偏低</td>
+<td>光寶科 2301</td>
+<td>電源、光電與雲端應用</td>
+<td style="text-align:right">37.13／7.52</td>
+<td style="text-align:right">24.7%／12.8%</td>
+<td>AI／雲端曝險與利潤率較高。</td>
 </tr>
 <tr>
-<td>4915</td>
-<td>致伸／台</td>
-<td>影像／周邊直接同業</td>
-<td>聲學／影像整合</td>
-<td>消費需求</td>
-<td>中</td>
-<td>需查證即時倍數</td>
+<td>佳世達 2352</td>
+<td>顯示、網通、醫療與企業解決方案</td>
+<td style="text-align:right">36.62／1.12</td>
+<td style="text-align:right">17.0%／1.3%</td>
+<td>業務更分散、營益率較低。</td>
 </tr>
 <tr>
-<td>6412</td>
-<td>群電／台</td>
-<td>關聯子公司／電源</td>
-<td>高階電源</td>
-<td>PC循環</td>
-<td>較穩</td>
-<td>收益型</td>
+<td>Logitech</td>
+<td>品牌周邊、視訊會議</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>有品牌與通路溢價，不宜直接套倍數。</td>
 </tr>
 <tr>
-<td>2301</td>
-<td>光寶科／台</td>
-<td>電源／零組件同業</td>
-<td>資料中心電源規模</td>
-<td>景氣、估值</td>
-<td>中高</td>
-<td>AI電源溢價</td>
+<td>Flex／Jabil</td>
+<td>電子製造服務</td>
+<td style="text-align:right">需查證</td>
+<td style="text-align:right">需查證</td>
+<td>製造模式可比，但產品與客戶結構不同。</td>
 </tr>
 </tbody>
 </table></div>
-<p>群光比一般EMS更有產品設計與零組件位置，但終端品牌力弱於Logitech；合理估值應介於低毛利製造與高成長AI零組件之間。</p>
+<p>群光與致伸、群電的 P/E 都在約 12–13 倍，是較合理的台股基準。光寶科的倍數反映高價值雲端／AI 組合，除非群光智慧影像與機器視覺的獲利占比明顯提升，否則不應直接引用其估值溢價。</p>
 <h2>8. 估值比較與同業本益比區間</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>指標</th>
-<th style="text-align:right">2385 最新</th>
-<th>同業／歷史語境</th>
-<th>結論</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>P/E</td>
-<td style="text-align:right">12.12倍</td>
-<td>成熟電子零組件常見低至中十位數倍</td>
-<td>合理偏低</td>
-</tr>
-<tr>
-<td>Forward P/E</td>
-<td style="text-align:right">需查證</td>
-<td>下半年margin不確定</td>
-<td>不可硬算</td>
-</tr>
-<tr>
-<td>近期歷史P/E</td>
-<td style="text-align:right">需查證</td>
-<td>應搭配股利與循環</td>
-<td>待補</td>
-</tr>
-<tr>
-<td>P/S</td>
-<td style="text-align:right">市值／年化1H營收約0.91倍</td>
-<td>低margin製造合理低倍數</td>
-<td>中性</td>
-</tr>
-<tr>
-<td>EV/EBITDA</td>
-<td style="text-align:right">需查證</td>
-<td>有子公司與投資，需淨債調整</td>
-<td>待補</td>
-</tr>
-<tr>
-<td>P/B</td>
-<td style="text-align:right">1.77倍</td>
-<td>需與ROE、庫藏股與股利看</td>
-<td>合理</td>
-</tr>
-<tr>
-<td>FCF Yield</td>
-<td style="text-align:right">需查證</td>
-<td>高殖利率是否可持續的關鍵</td>
-<td>必要缺口</td>
-</tr>
-<tr>
-<td>毛利率／營收成長</td>
-<td style="text-align:right">14.9%／-5.3%</td>
-<td>明顯惡化</td>
-<td>限制估值上修</td>
-</tr>
-</tbody>
-</table></div>
-<p>最有用的估值是正常化P/E＋股利殖利率，再以FCF覆蓋率驗證。12.12倍與6.67%殖利率提供支撐，但不是忽略本業衰退的理由。</p>
+<p>2026-08-28 收盤 108.00 元，TWSE 公開 P/E 12.12 倍、P/B 1.77 倍、歷史現金殖利率 6.67%。按扣除庫藏股後流通股約 7.33 億股估算，市值約 792 億元；以 H1 年化營收估算 P/S 約 0.88 倍。</p>
+<p>近似同業致伸及群電的 P/E 約 12.0–13.0 倍、P/B 約 1.38–2.05 倍，群光落在區間內，並沒有明顯錯價。表面 P/E 低，但 H1 營業外收益約占稅前盈餘 49%，若先剔除不可重複的評價／衍生收益，正常化 P/E 會高於 12 倍。另一方面，淨現金和領先產品地位也使其不應只用谷底本業獲利給予過度折價。</p>
+<p>估值應以「正常化本業盈餘＋淨現金」為主，股息殖利率作交叉檢查，並以三年平均自由現金流測試股利可持續性。若 Q3 毛利率回升、非營業收益依賴下降，現行倍數才有吸引力；若毛利仍下滑，低 P/E 可能只是盈餘高估。</p>
 <h2>9. 未來 3 年情境分析</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>情境</th>
-<th>假設</th>
-<th>營收／margin方向</th>
-<th>合理倍數</th>
-<th>可能結果／觸發</th>
+<th>2026–2028 假設</th>
+<th>財務方向</th>
+<th>驗證指標</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>樂觀</td>
-<td>商用PC換機、漲價落實、AI影像／電源放量</td>
-<td>中高個位成長；營益率回7–9%</td>
-<td>13–16倍正常化P/E</td>
-<td>毛利率連季回升、B2B雙位數</td>
+<td>成本成功轉嫁；AI PC／背光／電競規格升級；智慧視訊與機器視覺高成長</td>
+<td>營收恢復增長，毛利率回到 17% 以上，現金流覆蓋股利</td>
+<td>Q3 起毛利連升、非 PC 新品占比提高、存貨週轉改善</td>
 </tr>
 <tr>
 <td>基準</td>
-<td>PC溫和恢復、產品組合部分改善</td>
-<td>低個位成長；營益率5–7%</td>
-<td>10–13倍</td>
-<td>股息為主要報酬來源</td>
+<td>PC 總量疲弱但產品組合抵銷部分衰退；調價逐步生效</td>
+<td>營收低個位數波動，毛利率在 15%–17%，EPS 正常化</td>
+<td>月營收降幅收斂、營益率穩定、OCF 回復</td>
 </tr>
 <tr>
 <td>悲觀</td>
-<td>記憶體壓需求、價格轉嫁失敗、業外消失</td>
-<td>營收續降；營益率低於5%</td>
-<td>7–10倍</td>
-<td>減配息、月營收雙位數衰退</td>
+<td>記憶體成本推升終端價格、PC 需求惡化；調價落後；非營業收益反轉</td>
+<td>營收與毛利續降、EPS 明顯下修、股利壓力上升</td>
+<td>庫存續增、毛利低於 14%、負 FCF、現金股利覆蓋惡化</td>
 </tr>
 </tbody>
 </table></div>
-<p>108元大致反映基準情境，並沒有把AI影像的全部樂觀價值計入，但margin若不修復也難以重評。</p>
+<p>三年投資成敗取決於群光是否把傳統鍵盤規模優勢升級為智慧影像／協作的高價值組合，同時維持資本紀律。若成長仍主要靠低單價成熟產品，估值上限大致接近傳統硬體供應商區間。</p>
 <h2>10. 投資建議</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>代號</th>
-<th>名稱</th>
-<th>評級</th>
-<th>適合投資人</th>
-<th>理由</th>
-<th>不買理由</th>
-<th>觀察價值</th>
-<th>評級改變條件</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2385</td>
-<td>群光</td>
-<td><strong>續抱</strong></td>
-<td>既有持有人、收益與中期升級型</td>
-<td>12.12倍、6.67%殖利率、龍頭規模</td>
-<td>本業獲利衰退、7月營收弱、業外支撐</td>
-<td>margin修復與AI影像</td>
-<td>毛利／營益恢復可升評；減配息／衰退可降評</td>
-</tr>
-</tbody>
-</table></div>
+<h3>新手買入</h3>
+<p>歷史殖利率高不代表未來配息保證。新進研究者宜先等 Q3 毛利率、營業現金流及存貨出現改善，並把正常化 EPS 與一次性收益分開，再評估是否分批；不宜只因 12 倍 P/E 一次投入。</p>
+<h3>不同成本持有者</h3>
+<p>低成本持有者可續追蹤產品競爭力與股息，但需以本業營益率、FCF 覆蓋率作風險線。接近現價者應把 Q3 調價成效視為主要驗證點。高成本持有者不應單靠平均成本決策；若毛利持續低於歷史水準、營業外收益消退，就需要下修正常化價值。</p>
+<h3>等候買點條件</h3>
+<p>較佳條件是毛利率連兩季回升、營業現金流顯著改善、庫存同比增幅收斂，且月營收跌幅不再擴大；估值最好仍位於致伸／群電合理區間，而非先因高殖利率交易推升。</p>
+<h3>評級上調訊號</h3>
 <ul>
-<li><strong>新手買入</strong>：公司品質可研究，但新資金先等毛利率止跌；不要只因殖利率買進。</li>
-<li><strong>不同成本持有者</strong>：低成本者以股利與營益率續抱；現價附近者等Q3；大幅獲利者可留核心並管理循環；套牢者不宜在本業未回升前無條件攤平。</li>
-<li><strong>等候買點條件</strong>：營收年減收斂、毛利率回16%以上、營益率回升、FCF覆蓋股利。</li>
-<li><strong>評級上調訊號</strong>：產品漲價完成、AI影像雙位數、PC商用換機、margin修復、庫藏股註銷。</li>
-<li><strong>評級下調訊號</strong>：月營收續雙位數降、毛利率再跌、業外轉負、FCF不足、配息下修。</li>
+<li>Q3/Q4 調價落地，毛利率與營益率連續改善。</li>
+<li>智慧視訊、電競、AI PC 影像的增長轉化為可見的合併營業利益。</li>
+<li>存貨週轉與營業現金流恢復，全年 FCF 能合理覆蓋股利。</li>
+<li>盈餘成長主要來自本業，而非衍生工具或公允價值收益。</li>
 </ul>
+<h3>評級下調訊號</h3>
+<ul>
+<li>PC 終端需求進一步惡化，月營收與訂單降幅擴大。</li>
+<li>毛利率低於 14%、存貨持續上升或出現明顯跌價。</li>
+<li>非營業收益反轉導致 EPS 下修，或現金股利侵蝕淨現金安全墊。</li>
+<li>大客戶流失、產品認證延後或價格轉嫁持續失敗。</li>
+</ul>
+<p>評級為 <strong>觀察</strong>。它比「減碼 / 賣出」更積極，因公司仍有約 159 億元淨現金、EPS 相對穩定、鍵盤／影像產品地位及低雙位數 P/E；但低於「續抱」與「分批布局」，因 H1 營業利益年減約 44%、OCF 大幅下降、存貨上升、7 月營收續弱，且 EPS 受到營業外收益顯著支撐。等待核心數字反轉比追逐表面殖利率更合理。</p>
 <h2>11. 投資標的分層</h2>
+<p>群光目前為 <strong>成熟硬體／股息型觀察標的</strong>，不是已確認再加速的成長股。若智慧視訊與機器視覺持續雙位數成長、合併毛利回升，可逐步轉向品質型核心；在此之前，應以景氣循環、現金流和股利覆蓋管理預期。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>分層</th>
-<th>標的</th>
-<th>投組角色</th>
+<th>現況</th>
+<th>主要判準</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>核心穩健型</td>
-<td>2385 群光、2301 光寶科</td>
-<td>成熟現金流／供應鏈核心，但需看循環</td>
+<td>品質核心</td>
+<td>候選、未確認</td>
+<td>穩定毛利、現金轉換、產品領先與低負債。</td>
 </tr>
 <tr>
-<td>成長型</td>
-<td>AI影像／資料中心電源相關業務</td>
-<td>產品升級選擇權</td>
+<td>股息收益</td>
+<td>有吸引力但需驗證</td>
+<td>三年平均 FCF 覆蓋股利，而非單年 EPS。</td>
 </tr>
 <tr>
-<td>景氣循環型</td>
-<td>4915 致伸、LOGI</td>
-<td>PC與消費周邊循環</td>
+<td>景氣循環</td>
+<td>明顯</td>
+<td>PC 出貨、記憶體成本、客戶庫存和調價節奏。</td>
 </tr>
 <tr>
-<td>高風險高報酬型</td>
-<td>未規模化的機器人視覺新案</td>
-<td>量產與客戶不確定</td>
-</tr>
-<tr>
-<td>只適合觀察型</td>
-<td>只靠高殖利率、FCF不足的供應鏈股</td>
-<td>可能是價值陷阱</td>
+<td>成長選擇權</td>
+<td>智慧視訊／機器視覺</td>
+<td>需證明收入規模、毛利及客戶擴散。</td>
 </tr>
 </tbody>
 </table></div>
-<p>一般角色上，群光較適合收益／價值核心的一部分，但仍需產業與客戶分散，不能把股息當保證。</p>
 <h2>12. 產業風險與反方觀點</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>風險</th>
-<th>機率</th>
-<th>衝擊</th>
-<th>預警訊號</th>
-<th>應對</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>估值過度</td>
-<td>低中</td>
-<td>中</td>
-<td>P/E擴張但margin不升</td>
-<td>不追價</td>
-</tr>
-<tr>
-<td>循環反轉</td>
-<td>高</td>
-<td>高</td>
-<td>PC／7月營收續弱</td>
-<td>看月營收</td>
-</tr>
-<tr>
-<td>技術替代</td>
-<td>中</td>
-<td>中高</td>
-<td>鍵盤／相機規格標準化</td>
-<td>提高AI產品比重</td>
-</tr>
-<tr>
-<td>競爭</td>
-<td>高</td>
-<td>中高</td>
-<td>價格轉嫁失敗、毛利降</td>
-<td>追蹤報價</td>
-</tr>
-<tr>
-<td>政策／地緣</td>
-<td>中</td>
-<td>高</td>
-<td>關稅、產地要求</td>
-<td>泰國分散</td>
-</tr>
-<tr>
-<td>客戶集中</td>
-<td>需查證</td>
-<td>高</td>
-<td>大客戶砍單</td>
-<td>查年報</td>
-</tr>
-<tr>
-<td>財報警訊</td>
-<td>中高</td>
-<td>高</td>
-<td>業外占淨利高、FCF弱</td>
-<td>以營業利益驗證</td>
-</tr>
-</tbody>
-</table></div>
+<ul>
+<li>需求風險：PC 出貨受記憶體成本、消費景氣與換機週期拖累，規格升級未必足以抵銷總量下降。</li>
+<li>成本／定價風險：零件漲價若無法即時轉嫁，毛利與營業利益會被放大壓縮。</li>
+<li>庫存與現金風險：備貨上升可能合理，但若需求未落地會轉成週轉、跌價與負現金流。</li>
+<li>盈餘品質：衍生工具、公允價值或匯兌收益具波動性，表面 EPS 與核心本業可能脫鉤。</li>
+<li>股利風險：歷史配息不保證持續；若 FCF 長期低於股利，淨現金會下降。</li>
+<li>集中與地緣風險：客戶及產能地理分布、關稅與匯率可能影響訂單與成本，細節需查證。</li>
+</ul>
 <h3>反方觀點</h3>
-<p>最強反方論點是：1H26 營收下降5.3%、毛利下降22%、營業利益下降44%，7月營收再年減12%；EPS近乎持平主要是業外挹注。若投資人把6.67%殖利率視為安全，卻未驗證FCF與本業，可能落入高股息價值陷阱。</p>
+<p>多方認為群光在鍵盤與影像模組具長期地位、智慧視訊成長、淨現金充裕，12 倍 P/E 和高歷史殖利率已反映大部分壞消息。反方則認為 H1 毛利率跌逾 3 個百分點、營業利益近乎腰斬，EPS 只是被營業外收益掩飾；同時現金流驟降與庫存升高，代表景氣壓力尚未完全反映。若 Q3 調價仍無法修復毛利，估值基礎會從表面 EPS 下修至正常化本業盈餘。</p>
 <h2>13. 後續研究清單</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>主題</th>
-<th>追蹤資料</th>
-<th>頻率</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>財報</td>
-<td>三產品收入、margin、業外、FCF、庫存</td>
-<td>每季</td>
-</tr>
-<tr>
-<td>法說</td>
-<td>漲價、泰國產能、AI影像、商用PC</td>
-<td>每次</td>
-</tr>
-<tr>
-<td>產業</td>
-<td>PC出貨、DRAM價格、AI PC滲透</td>
-<td>每月／季</td>
-</tr>
-<tr>
-<td>競爭</td>
-<td>致伸、群電、光寶產品與margin</td>
-<td>每季</td>
-</tr>
-<tr>
-<td>客戶需求</td>
-<td>品牌PC庫存／企業換機</td>
-<td>每季</td>
-</tr>
-<tr>
-<td>估值</td>
-<td>正常化P/E、殖利率、FCF覆蓋</td>
-<td>每季</td>
-</tr>
-</tbody>
-</table></div>
-<p>下一步研究：致伸 4915（影像／周邊直接比較）、群電 6412（電源分部與關係企業）、Logitech LOGI（品牌端margin與終端需求）。</p>
+<ol>
+<li>逐月更新 PC 出貨、記憶體價格、群光營收及主要產品動能。</li>
+<li>驗證 Q3 價格調整幅度、適用產品及毛利率改善，而非只引用管理層預期。</li>
+<li>拆解 H1 營業外收益中的衍生工具、公允價值、匯兌與可重複項目。</li>
+<li>追蹤存貨天數、備抵跌價、應收／應付變化及營業現金流。</li>
+<li>用三年平均 FCF、淨現金與配息政策檢查股利安全性。</li>
+<li>量化智慧視訊、電競鍵盤、機器視覺和 AI PC 產品的收入與毛利占比。</li>
+<li>比較致伸、群電的營益率與估值，確認群光折溢價是否有營運依據。</li>
+</ol>
 <h2>14. 結論</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>問題</th>
-<th>結論</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>是否為產業好入口</td>
-<td>是，能觀察PC模組、電源與AI影像</td>
-</tr>
-<tr>
-<td>產業是否值得長期追蹤</td>
-<td>是，但成熟產品具循環</td>
-</tr>
-<tr>
-<td>最重要投資邏輯</td>
-<td>龍頭規模＋高值產品讓margin恢復</td>
-</tr>
-<tr>
-<td>最大風險</td>
-<td>本業衰退被業外收益與高股息掩蓋</td>
-</tr>
-<tr>
-<td>估值是否已反映成長</td>
-<td>未完全反映AI選擇權，但已反映穩定股息</td>
-</tr>
-<tr>
-<td>最終投資評級</td>
-<td><strong>續抱</strong></td>
-</tr>
-<tr>
-<td>優先研究之產業鏈環節</td>
-<td>AI影像模組、商用PC鍵盤、資料中心電源</td>
-</tr>
-</tbody>
-</table></div>
-<p>白話說：群光不是高速成長股，而是有龍頭規模與股息的成熟零組件公司。已持有可以續抱觀察，但新錢應等本業毛利回升；股息高，不代表營運風險消失。</p>
+<p>群光擁有成熟供應鏈能力、領先的鍵盤／影像產品及淨現金安全墊，智慧視訊與高階鍵盤也提供組合升級。然而 2026H1 核心毛利、營業利益與現金流同步走弱，EPS 的韌性高度依賴營業外收益；7 月營收仍衰退，反轉尚未獲得財務證明。</p>
+<p>因此採 <strong>觀察</strong>，以 Q3 調價落地、毛利回升、庫存／現金轉換改善作上調門檻。若三者成立且估值仍在同業合理區間，可轉為分批布局或續抱；若需求與毛利繼續惡化、非營業收益反轉，則需下調。這個結論兼顧資產與產品優勢，也不忽略表面 EPS 背後的品質風險。</p>
 </article></main></div>
 </body>
 </html>

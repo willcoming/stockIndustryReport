@@ -17,7 +17,7 @@
     </div>
     <div class="mt-5 flex flex-wrap items-end justify-between gap-4">
       <div>
-        <p class="text-sm font-bold text-emerald-800">台股 · 紡織纖維／尼龍 6 材料與機能布</p>
+        <p class="text-sm font-bold text-emerald-800">台股 · 紡織纖維</p>
         <h1 class="mt-1 text-3xl font-black tracking-normal">1447 力鵬</h1>
       </div>
       <div class="flex flex-wrap gap-2">
@@ -38,632 +38,48 @@
 <main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><blockquote>
 <p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
 </blockquote>
-<h1>力鵬／1447 反推產業 Deep Research 投資報告</h1>
+<h1>力鵬/1447 反推產業 Deep Research 投資報告</h1>
 <h2>0. 資料來源與研究日期</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>項目</th>
-<th>內容</th>
+<th>本報告採用資料</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>報告研究日期</td>
+<td>研究基準日</td>
 <td>2026-08-29；有效至 2026-09-05</td>
 </tr>
 <tr>
-<td>證券識別</td>
-<td>力鵬企業股份有限公司；TWSE: 1447；普通股；新台幣報表；12 月底財年</td>
+<td>股價／市值</td>
+<td>2026-08-28 TWSE 收盤 6.88 元；以已發行普通股 910,071,242 股估算市值約 62.61 億元</td>
 </tr>
 <tr>
-<td>最新股價／市值</td>
-<td>2026-08-28 收盤 6.88 元；以 Q2 約 8.75 億加權股數粗估市值約 60 億元，最新流通股數需查證</td>
+<td>最新財報</td>
+<td>2026 H1 合併財報，2026-08-11 通過、會計師核閱；金額除另註外均為新台幣</td>
 </tr>
 <tr>
-<td>最新財報期間</td>
-<td>2026 Q2／H1，截至 2026-06-30；7 月營收已公告</td>
+<td>交易所資料</td>
+<td><a href="https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL">TWSE 每日行情</a>、<a href="https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL">TWSE 本益比／殖利率／股價淨值比</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap03_L">公司基本資料</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap05_L">月營收</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci">損益表</a>、<a href="https://openapi.twse.com.tw/v1/opendata/t187ap07_L_ci">資產負債表</a></td>
 </tr>
 <tr>
-<td>主要財報來源</td>
-<td>力鵬 2026 Q2 公開資訊觀測站申報、<a href="https://www.lealeagroup.com.tw/project-detail/lp07/">公司財務資訊入口</a>、<a href="https://www.lealeagroup.com.tw/libolon-detail/LIPENGE/">官方公司／產品資料</a></td>
+<td>公司資料</td>
+<td><a href="https://www.lealeagroup.com.tw/upload/download_files/twl_download_26h13_q4p75ii93r.pdf">力鵬 2026 H1 合併財報</a>、<a href="https://www.lealeagroup.com.tw/libolon-detail/LIPENGE/">LIBOLON／力鵬業務與產能介紹</a>、<a href="https://www.lealeagroup.com.tw/project-detail/lpf4/">公司財報下載頁</a></td>
 </tr>
 <tr>
-<td>主要估值來源</td>
-<td>2026-08-28 Goodinfo 行情；Q2 BVPS 9.62 元，P/B 約 0.72 倍；TTM EPS 為負，P/E 不適用</td>
+<td>任務來源</td>
+<td><code>reports/twStock/2026-08-28_tw_kline_decision_report.md</code>「明確不可以買 / 暫時排除名單」；原報告因低價、成交額不足與上影線壓力而暫時排除</td>
 </tr>
 <tr>
-<td>主要產業來源</td>
-<td>公司產品／產能資料、2025 法說、台灣區人造纖維公會與原料／紡織市場公開資訊</td>
-</tr>
-<tr>
-<td>資料缺口</td>
-<td>尼龍粒／絲／布最新營收與毛利拆分、CPL 原料價差、產能利用率、前五大客戶、訂單能見度</td>
-</tr>
-<tr>
-<td>需再次查證</td>
-<td>最新現金／有息負債、2026 Q2 完整現金流、外匯／投資利益可持續性、同業即時估值</td>
+<td>仍有缺口</td>
+<td>CPL／尼龍利差、各廠利用率、平均售價與銷量、客戶與訂單集中度、同日海外同業倍數、正常化 EBITDA、十年估值區間均需查證</td>
 </tr>
 </tbody>
 </table></div>
+<p>TWSE 月營收 2026 H1 累計 144.94 億元，與核閱財報一致；7 月營收的月減幅受 6 月高基期影響，不能直接解讀為需求崩落。本報告對損益與現金流一律採核閱財報口徑。</p>
 <h2>1. 一頁式懶人包</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>項目</th>
-<th>判斷</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>公司一句話介紹</td>
-<td>力鵬是 Nylon 6 尼龍粒、尼龍絲與長纖梭織／機能布一貫化製造商。</td>
-</tr>
-<tr>
-<td>主要產業</td>
-<td>紡織纖維／尼龍 6 材料與機能布。</td>
-</tr>
-<tr>
-<td>產業鏈位置</td>
-<td>從聚合、紡絲到織布染整的中上游整合製造商。</td>
-</tr>
-<tr>
-<td>核心投資邏輯</td>
-<td>2026 H1 營收成長、由虧轉盈；若產品 mix 與 CPL 價差改善，薄利可帶來高營運槓桿。</td>
-</tr>
-<tr>
-<td>目前投資評級</td>
-<td><strong>觀察</strong></td>
-</tr>
-<tr>
-<td>適合投資人</td>
-<td>熟悉化纖價差與景氣循環、能承受低毛利與小型股流動性者。</td>
-</tr>
-<tr>
-<td>主要理由</td>
-<td>H1 revenue +10.9%、EPS 0.12，較去年虧損改善；但毛利率僅 2.57%、營益率 0.28%，安全墊極薄。</td>
-</tr>
-<tr>
-<td>主要風險</td>
-<td>CPL／能源成本、中國供給、低價競爭、匯率、需求／庫存、關係企業與投資評價。</td>
-</tr>
-<tr>
-<td>追蹤指標</td>
-<td>CPL-PA6 spread、毛利率、營益率、產能利用率、庫存／應收、CFO／net debt。</td>
-</tr>
-<tr>
-<td>代表性美股同業</td>
-<td>CE、LYB、DOW、INVISTA（未上市）、KTB／COLM（下游客戶類比）。</td>
-</tr>
-<tr>
-<td>代表性台股同業</td>
-<td>力麗 1444、集盛 1455、宏益 1452、東隆興 4401、儒鴻 1476。</td>
-</tr>
-</tbody>
-</table></div>
-<p>投資含意：公司從虧損邊緣回到小幅獲利，但每 100 元營收只留下約 0.28 元營業利益，尚不具備可承受原料或需求逆風的安全邊際。</p>
-<h2>2. 公司如何賺錢</h2>
-<p>力鵬先將己內醯胺（CPL）聚合成 Nylon 6 粒，再製成尼龍絲，部分再向下游織布、染整與後加工。產品用於服飾、運動／戶外、傢飾、箱包、薄膜、工程塑料與汽車／電子零件。公司具六條聚合線，官方資料稱日產能約 1,600 噸、年產約 58 萬噸。</p>
-<p>2026 H1 營收 160.68 億元、年增 10.86%；毛利 4.13 億、毛利率 2.57%；營業利益 0.45 億、營益率 0.28%；歸母淨利 1.01 億、EPS 0.12 元，較 2025 H1 EPS -0.49 元轉正。Q2 單季營收 79.96 億、毛利率 2.48%、EPS 0.02 元，獲利較 Q1 放緩；H1 稅前淨利大於營業利益，顯示業外貢獻不可忽略。</p>
-<p>簡單說，這家公司賺錢的方式是大量買入 CPL 等原料，靠聚合、紡絲、織布與染整加工，把標準化原料升級為尼龍粒與機能布；只有售價與產品 mix 高於原料、能源、折舊與人工時，龐大產量才會變成利潤。</p>
-<h2>3. 從公司反推產業</h2>
-<p>尼龍 6 同時連結石化與紡織：上游受 CPL／苯系原料價格影響，下游受服飾、汽車、電子、包裝與工業材料需求影響。標準粒與絲屬成熟／循環產業，高機能、回收與工程塑料仍有結構成長。</p>
-<p>長期驅動包括輕量化、耐磨材料、戶外運動、回收尼龍與高機能布；短期波動來自品牌庫存、原油／CPL、人民幣與中國新增產能。三個問題：價差能否維持；高值化產品占比能否拉升毛利；營運現金流能否降低對借款與業外的依賴。</p>
-<h2>4. 產業鏈上下游分析</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>位置</th>
-<th>角色／產品</th>
-<th>代表美股／台股</th>
-<th>議價力／利潤</th>
-<th>風險</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>上游</td>
-<td>苯、環己酮、CPL、能源</td>
-<td>DOW、LYB／台塑化 6505</td>
-<td>商品週期中強</td>
-<td>原油、供給、匯率</td>
-</tr>
-<tr>
-<td><strong>中游（1447）</strong></td>
-<td>PA6 粒、尼龍絲、梭織布／染整</td>
-<td>CE／力鵬、集盛、宏益</td>
-<td>標準品弱、高機能品中</td>
-<td>價差、利用率、庫存</td>
-</tr>
-<tr>
-<td>品牌／成衣</td>
-<td>機能成衣、戶外、家飾</td>
-<td>NKE、COLM／儒鴻、聚陽</td>
-<td>品牌議價力強</td>
-<td>庫存、流行</td>
-</tr>
-<tr>
-<td>工業應用</td>
-<td>車用、電子、薄膜、工程塑料</td>
-<td>APTV／東陽、電子供應鏈</td>
-<td>認證可提高黏著</td>
-<td>車市／電子循環</td>
-</tr>
-<tr>
-<td>終端</td>
-<td>消費者、汽車、工業</td>
-<td>全球需求</td>
-<td>替代材料多</td>
-<td>景氣、價格敏感</td>
-</tr>
-</tbody>
-</table></div>
-<p>力鵬兼具「挖金礦」的商品產能與「賣鏟」的材料供應角色；真正具定價力的是經認證的高機能／工塑產品，而非標準尼龍粒。</p>
-<h2>5. 商業模式與護城河</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>構面</th>
-<th>強度</th>
-<th>證據／改變條件</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>聚合技術</td>
-<td>中強</td>
-<td>可自行設計／建造聚合廠；同業擴產降低稀缺。</td>
-</tr>
-<tr>
-<td>規模經濟</td>
-<td>強</td>
-<td>亞洲大型 Nylon 6 粒產能；低利用率時固定成本反噬。</td>
-</tr>
-<tr>
-<td>一貫化</td>
-<td>中強</td>
-<td>聚合到染整可控品質／交期；同時提高資產負擔。</td>
-</tr>
-<tr>
-<td>客戶黏著</td>
-<td>中</td>
-<td>機能布／工塑認證較黏；標準粒易轉單。</td>
-</tr>
-<tr>
-<td>品牌／通路</td>
-<td>中弱</td>
-<td>B2B LIBOLON 品牌；終端品牌力有限。</td>
-</tr>
-<tr>
-<td>成本優勢</td>
-<td>弱中</td>
-<td>規模存在，但 2.57% 毛利顯示優勢薄。</td>
-</tr>
-<tr>
-<td>資本門檻</td>
-<td>中強</td>
-<td>聚合、紡絲、染整設備與環保投資。</td>
-</tr>
-<tr>
-<td>替代風險</td>
-<td>中高</td>
-<td>聚酯、PP、其他工程塑料與再生材料。</td>
-</tr>
-</tbody>
-</table></div>
-<p>護城河強度必須由長期毛利率與價差證明；產能大本身可能是優勢，也可能是景氣低谷的固定成本風險。</p>
-<h2>6. 重要財務與營運指標</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>指標</th>
-<th>最新值／期間</th>
-<th>判讀</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Revenue growth</td>
-<td>H1 160.68 億、+10.86%</td>
-<td>量價回升，但獲利轉換弱。</td>
-</tr>
-<tr>
-<td>Gross margin</td>
-<td>H1 2.57%；Q2 2.48%</td>
-<td>極薄，原料小變動即可吞噬。</td>
-</tr>
-<tr>
-<td>Operating margin</td>
-<td>H1 0.28%；Q2 單季約 -0.16%</td>
-<td>Q2 本業略虧，轉強未穩。</td>
-</tr>
-<tr>
-<td>EPS growth</td>
-<td>H1 0.12 vs 去年 -0.49</td>
-<td>由虧轉盈，但 Q2 僅 0.02。</td>
-</tr>
-<tr>
-<td>FCF</td>
-<td>H1 CFO 約每股 0.35、investing 約 -0.34；粗估接近損益兩平</td>
-<td>精確 capex／FCF 需查證。</td>
-</tr>
-<tr>
-<td>Capex</td>
-<td>H1 精確值需查證</td>
-<td>維護與環保投資不可少。</td>
-</tr>
-<tr>
-<td>Inventory</td>
-<td>H1 存貨／年化營收約 7.25%</td>
-<td>價跌時有跌價損失。</td>
-</tr>
-<tr>
-<td>Receivables</td>
-<td>H1 應收／年化營收約 8.39%</td>
-<td>客戶信用與需求變動。</td>
-</tr>
-<tr>
-<td>Capacity utilization</td>
-<td>需查證</td>
-<td>毛利改善的核心槓桿。</td>
-</tr>
-<tr>
-<td>Order visibility</td>
-<td>需查證；紡織訂單通常短</td>
-<td>品牌庫存與季節性大。</td>
-</tr>
-<tr>
-<td>Customer concentration</td>
-<td>前五大需查證</td>
-<td>高機能客戶認證可能集中。</td>
-</tr>
-<tr>
-<td>BVPS／P/B</td>
-<td>9.62 元／約 0.72x</td>
-<td>低於淨值，但 ROE 幾乎為零。</td>
-</tr>
-</tbody>
-</table></div>
-<h2>7. 美股與台股同業比較</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>代號</th>
-<th>公司</th>
-<th>關係／位置</th>
-<th>優勢</th>
-<th>風險</th>
-<th>成長／穩定</th>
-<th>估值判斷</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1447</td>
-<td>力鵬</td>
-<td>目標／尼龍整合</td>
-<td>規模、一貫化</td>
-<td>薄利、循環</td>
-<td>低／低</td>
-<td>P/B 折價</td>
-</tr>
-<tr>
-<td>1444</td>
-<td>力麗</td>
-<td>關係企業／聚酯紡織</td>
-<td>集團協同</td>
-<td>關係人、循環</td>
-<td>低／低</td>
-<td>需合併看曝險</td>
-</tr>
-<tr>
-<td>1455</td>
-<td>集盛</td>
-<td>台股直接／尼龍</td>
-<td>尼龍絲／粒</td>
-<td>價差</td>
-<td>低／低</td>
-<td>直接基準</td>
-</tr>
-<tr>
-<td>1452</td>
-<td>宏益</td>
-<td>台股紡織</td>
-<td>加工絲</td>
-<td>規模小</td>
-<td>低／中</td>
-<td>上下游類比</td>
-</tr>
-<tr>
-<td>4401</td>
-<td>東隆興</td>
-<td>台股機能布</td>
-<td>高附加價值</td>
-<td>客戶／品牌庫存</td>
-<td>中／中</td>
-<td>高值化基準</td>
-</tr>
-<tr>
-<td>1476</td>
-<td>儒鴻</td>
-<td>台股下游成衣</td>
-<td>客戶、研發、margin</td>
-<td>集中／估值</td>
-<td>中高／高</td>
-<td>非直接、品質溢價</td>
-</tr>
-<tr>
-<td>CE</td>
-<td>Celanese</td>
-<td>美股材料</td>
-<td>工程材料技術</td>
-<td>槓桿／化工週期</td>
-<td>中／中</td>
-<td>工塑基準</td>
-</tr>
-<tr>
-<td>LYB</td>
-<td>LyondellBasell</td>
-<td>美股上游化工</td>
-<td>規模／原料</td>
-<td>商品週期</td>
-<td>低中／中</td>
-<td>上游價差類比</td>
-</tr>
-</tbody>
-</table></div>
-<h2>8. 估值比較與同業本益比區間</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>公司</th>
-<th style="text-align:right">P/E</th>
-<th style="text-align:right">Forward P/E</th>
-<th>歷史區間</th>
-<th style="text-align:right">P/S</th>
-<th style="text-align:right">EV/EBITDA</th>
-<th style="text-align:right">P/B</th>
-<th style="text-align:right">FCF Yield</th>
-<th>margin／成長</th>
-<th>結論</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>力鵬</td>
-<td style="text-align:right">TTM 虧損／不適用</td>
-<td style="text-align:right">需查證</td>
-<td>需查證</td>
-<td style="text-align:right">約 0.19x 粗估</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">約 0.72x</td>
-<td style="text-align:right">需查證</td>
-<td>H1 GM 2.57%、revenue +10.9%</td>
-<td>便宜反映低回報</td>
-</tr>
-<tr>
-<td>集盛</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>循環</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>直接同業</td>
-<td>價差基準</td>
-</tr>
-<tr>
-<td>東隆興</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>高值化</td>
-<td>應有品質溢價</td>
-</tr>
-<tr>
-<td>儒鴻</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>高 margin／穩</td>
-<td>下游品質基準</td>
-</tr>
-</tbody>
-</table></div>
-<p>對化纖循環股應用 normalized EV/EBITDA、P/B、價差與利用率，不能用低股價／低 P/S 判斷便宜。0.72x P/B 若 ROE 長期低於資金成本，折價可能合理。</p>
-<h2>9. 未來 3 年情境分析</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>情境</th>
-<th>假設</th>
-<th>營收／margin</th>
-<th>獲利方向</th>
-<th>合理估值</th>
-<th>結果／觸發</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>樂觀</td>
-<td>CPL spread 擴、高值化／利用率升</td>
-<td>中個位成長、GM 6–8%</td>
-<td>EPS／FCF 顯著正</td>
-<td>P/B 0.9–1.1x</td>
-<td>轉機成立</td>
-</tr>
-<tr>
-<td>基準</td>
-<td>價差正常、需求溫和</td>
-<td>低個位、GM 3–5%</td>
-<td>小幅正利潤</td>
-<td>P/B 0.6–0.8x</td>
-<td>區間震盪</td>
-</tr>
-<tr>
-<td>悲觀</td>
-<td>中國供給、原料急漲、品牌去庫存</td>
-<td>營收降、GM &lt;2%</td>
-<td>再虧／負 FCF</td>
-<td>P/B 0.35–0.55x</td>
-<td>資產折價擴大</td>
-</tr>
-</tbody>
-</table></div>
-<p>目前股價接近基準折價，但 H1 margin 尚在基準低端，需更多季證據。</p>
-<h2>10. 投資建議</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>代號</th>
-<th>公司</th>
-<th>評級</th>
-<th>適合投資人</th>
-<th>理由</th>
-<th>不買理由</th>
-<th>觀察價值</th>
-<th>評級改變條件</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1447</td>
-<td>力鵬</td>
-<td><strong>觀察</strong></td>
-<td>化纖週期研究者</td>
-<td>H1 由虧轉盈、營收成長、低 P/B</td>
-<td>毛利 2.57%、Q2 本業略虧、業外支撐</td>
-<td>高營運槓桿轉機</td>
-<td>GM&gt;5%／FCF 正可上調；再虧／負債升下調</td>
-</tr>
-</tbody>
-</table></div>
-<ul>
-<li>新手買入：不宜因 6 元股價或低於淨值就買；先理解 CPL-PA6 價差。</li>
-<li>不同成本持有者：低成本用毛利／CFO；現價附近等 Q3；大幅獲利分批風控；套牢者不以產能大攤平。</li>
-<li>等候買點條件：至少連兩季 operating margin 正、毛利率升逾 4%、CFO 覆蓋 capex。</li>
-<li>上調訊號：高值化占比升、利用率增、價差擴、庫存／應收穩、net debt 降。</li>
-<li>下調訊號：Q3 再虧、CPL 漲但售價不動、存貨跌價、業外損失、借款升。</li>
-</ul>
-<h2>11. 投資標的分層</h2>
-<ul>
-<li>核心穩健型：儒鴻等品牌客戶／高 margin 下游，但估值通常高。</li>
-<li>成長型：高機能、回收材料且有明確訂單者。</li>
-<li>景氣循環型：力鵬、集盛、宏益。</li>
-<li>高風險高報酬型：薄利且高固定成本的化纖轉機股；力鵬屬此類。</li>
-<li>只適合觀察型：毛利接近零、長期負 FCF 或淨值持續下降者。</li>
-</ul>
-<h2>12. 產業風險與反方觀點</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>風險</th>
-<th>機率</th>
-<th>影響</th>
-<th>警訊</th>
-<th>應對</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>估值陷阱</td>
-<td>高</td>
-<td>高</td>
-<td>P/B 低、ROE 仍近零</td>
-<td>normalized ROE／FCF</td>
-</tr>
-<tr>
-<td>循環反轉</td>
-<td>高</td>
-<td>極高</td>
-<td>spread／利用率降</td>
-<td>月營收＋價差</td>
-</tr>
-<tr>
-<td>技術替代</td>
-<td>中高</td>
-<td>高</td>
-<td>聚酯／其他材料替代</td>
-<td>mix／ASP</td>
-</tr>
-<tr>
-<td>中國競爭</td>
-<td>高</td>
-<td>高</td>
-<td>出口報價下滑</td>
-<td>亞洲產能／庫存</td>
-</tr>
-<tr>
-<td>政策／匯率</td>
-<td>中高</td>
-<td>中高</td>
-<td>能源／環保／台幣波動</td>
-<td>敏感度／避險</td>
-</tr>
-<tr>
-<td>客戶集中</td>
-<td>中</td>
-<td>高</td>
-<td>品牌砍單</td>
-<td>前五大／應收</td>
-</tr>
-<tr>
-<td>財報警訊</td>
-<td>高</td>
-<td>極高</td>
-<td>業外大於本業、跌價／減損</td>
-<td>OP vs pretax、CFO</td>
-</tr>
-</tbody>
-</table></div>
-<h3>反方觀點</h3>
-<p>最強反方論點是：H1 營收 160.68 億卻只有 0.45 億營業利益，本業利潤幾乎沒有緩衝；Q2 單季營業利益已略為負值，EPS 0.02 主要依靠業外。中國 PA6 產能、品牌庫存與 CPL 價格任何一項不利，都可能使公司重新虧損。低 P/B 反映資產賺不到合理報酬，而不是清算價值保證。</p>
-<h2>13. 後續研究清單</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>類別</th>
-<th>追蹤事項</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>財報</td>
-<td>尼龍／織品分部 margin、CFO、capex、net debt、存貨跌價</td>
-</tr>
-<tr>
-<td>法說</td>
-<td>產能利用率、CPL 轉嫁、高值化產品、關係企業交易</td>
-</tr>
-<tr>
-<td>產業</td>
-<td>CPL、PA6 chip、尼龍絲報價、中國開工率、品牌庫存</td>
-</tr>
-<tr>
-<td>同業</td>
-<td>集盛價差、東隆興／儒鴻高值化、CE 工程塑料</td>
-</tr>
-<tr>
-<td>客戶</td>
-<td>運動戶外、汽車／電子認證、前五大集中度</td>
-</tr>
-<tr>
-<td>估值</td>
-<td>normalized EV/EBITDA、P/B-ROE、FCF yield</td>
-</tr>
-</tbody>
-</table></div>
-<p>新手下一步研究：集盛（直接尼龍同業）、東隆興（高機能布）、儒鴻（下游高附加價值模式）。</p>
-<h2>14. 結論</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -673,36 +89,762 @@
 </thead>
 <tbody>
 <tr>
+<td>公司如何定位</td>
+<td>尼龍 6 聚合、紡絲、織造、染整與原料／紡織品貿易的垂直整合業者；H1 貿易部門收入約占合併收入 74.5%</td>
+</tr>
+<tr>
+<td>基本面</td>
+<td>H1 營收年增 10.86%、毛利率 2.57%、營益率 0.28%、EPS 0.12 元，較去年同期 EPS -0.49 元轉盈，但利潤仍非常薄</td>
+</tr>
+<tr>
+<td>現金流</td>
+<td>H1 OCF 2.96 億元、簡化 FCF 1.02 億元；改善部分受存貨跌價回升與營運資金影響，持續性待驗證</td>
+</tr>
+<tr>
+<td>估值</td>
+<td>6.88 元、P/B 0.72 倍；TWSE 未列適用的 TTM P/E與殖利率。低 P/B 對低 ROE 週期股不是充分安全邊際</td>
+</tr>
+<tr>
+<td>產業核心</td>
+<td>苯／CPL 成本、尼龍 6 切片與絲價差、中國供給、品牌服飾／工業用布需求、產品高值化與產能利用率</td>
+</tr>
+<tr>
+<td>本報告評等</td>
+<td><strong>觀察</strong>。轉虧為盈值得保留研究，但交易流動性、微薄營益率與週期能見度尚不足以支持布局</td>
+</tr>
+<tr>
+<td>適合投資人</td>
+<td>能追蹤化纖價差、分部損益與流動性的小部位週期研究者；不適合把低價或低 P/B 當便宜依據的新手</td>
+</tr>
+<tr>
+<td>主要理由／風險</td>
+<td>理由是尼龍由虧轉近損平、OCF 回正；風險是毛利極薄、營業外依賴、通用化纖供給與成交額低</td>
+</tr>
+<tr>
+<td>3–5 個追蹤指標</td>
+<td>尼龍部門營益、織品部門營益、CPL－尼龍價差、排除營運資金後 OCF、日均成交額</td>
+</tr>
+<tr>
+<td>代表性同業</td>
+<td>海外／供應鏈：Toray、Hyosung TNC、DOW、LYB、CE；台股：1444、1451、1452、1455、1476、1477</td>
+</tr>
+</tbody>
+</table></div>
+<p>未來兩季追蹤五項：尼龍部門毛利／營益、織品部門獲利、CPL－尼龍價差、OCF 排除營運資金後品質、每日成交額。直接或近似同業包括力麗、年興、宏益、集盛；儒鴻、聚陽是高附加價值下游對照；Toray、Hyosung 是海外纖維對照，Dow、LyondellBasell、Celanese 則偏上游化學材料，不能混為直接同業。</p>
+<h2>2. 公司如何賺錢</h2>
+<p>力鵬由尼龍 6 聚合切片、尼龍原絲延伸到織布、染色與機能布，再以貿易部門銷售紡織品和大宗原物料。官網列示聚合 6 條產線、日產能約 1,600 噸，年產尼龍粒約 58 萬噸，另有原絲、織造、染整與染紗產能；這些是公司產能陳述，不代表目前利用率或有效產量。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>2026 H1 部門</th>
+<th style="text-align:right">含內部調撥收入</th>
+<th style="text-align:right">約占合併收入</th>
+<th style="text-align:right">毛利</th>
+<th style="text-align:right">營業利益／損失</th>
+<th>研究解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>尼龍</td>
+<td style="text-align:right">25.44 億元</td>
+<td style="text-align:right">15.8%</td>
+<td style="text-align:right">0.80 億元</td>
+<td style="text-align:right">0.05 億元</td>
+<td>從去年同期大幅虧損回到損益兩平附近，是轉機核心</td>
+</tr>
+<tr>
+<td>織品</td>
+<td style="text-align:right">20.51 億元</td>
+<td style="text-align:right">12.8%</td>
+<td style="text-align:right">1.92 億元</td>
+<td style="text-align:right">0.05 億元</td>
+<td>毛利存在，但費用後利潤很薄</td>
+</tr>
+<tr>
+<td>貿易</td>
+<td style="text-align:right">119.76 億元</td>
+<td style="text-align:right">74.5%</td>
+<td style="text-align:right">1.42 億元</td>
+<td style="text-align:right">0.40 億元</td>
+<td>收入最大、毛利率低；放大量不等於高獲利</td>
+</tr>
+<tr>
+<td>染紗及其他</td>
+<td style="text-align:right">1.43 億元</td>
+<td style="text-align:right">0.9%</td>
+<td style="text-align:right">-0.01 億元</td>
+<td style="text-align:right">-0.06 億元</td>
+<td>規模小且仍虧損</td>
+</tr>
+<tr>
+<td>合併（含沖銷）</td>
+<td style="text-align:right">160.68 億元</td>
+<td style="text-align:right">100%</td>
+<td style="text-align:right">4.13 億元</td>
+<td style="text-align:right">0.45 億元</td>
+<td>營益率僅 0.28%</td>
+</tr>
+</tbody>
+</table></div>
+<p>客戶可能涵蓋紡織加工、品牌供應鏈、工業材料與原料買家；H1 未取得可驗證的前五大客戶或訂單集中度，列為需查證。報價通常受 CPL、能源、匯率與終端訂單共同驅動，庫存跌價／回升也會放大週期損益。簡單說，這家公司賺錢的方式是……大量採購與交易化纖原料，同時把一部分尼龍 6 從切片一路加工成絲、布與染整產品，靠原料－產品價差、產能利用率和高值機能布組合賺取薄利。</p>
+<h2>3. 從公司反推產業</h2>
+<p>研究力鵬不能只看紡織類股，而要同時看石化原料與成衣庫存週期：</p>
+<ol>
+<li>苯、CPL、尼龍 6 切片與尼龍絲的價差是否擴張？原料跌價是利多，還是引發客戶延後下單與存貨損失？</li>
+<li>中國新增產能與低價出口是否讓通用級尼龍長期供過於求？</li>
+<li>機能、再生、輕量或工業用途的高值產品能否提高占比，讓毛利脫離 2–3%？</li>
+<li>品牌庫存正常化是否轉為實際訂單，而非只在貿易部門放大低毛利收入？</li>
+<li>彰化聚合、紡絲、織造與染整設備的利用率、能耗與良率是否改善？</li>
+<li>新台幣、美元原料與出口報價的自然避險是否有效？</li>
+</ol>
+<p>產業需求受運動休閒、戶外、服飾與工業材料影響，供給卻由大型亞洲石化與纖維廠主導。當上游供過於求，切片價格下滑可能壓縮製造利差；當 CPL 急升而成品轉嫁不及，毛利同樣受壓。真正的好轉要看到「價差＋利用率＋高值產品占比」同步，而不是只有營收上升。</p>
+<h2>4. 產業鏈上下游分析</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業鏈位置</th>
+<th>主要產品／角色</th>
+<th>定價因子</th>
+<th>力鵬位置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上游石化</td>
+<td>原油→苯→己內醯胺（CPL）</td>
+<td>油價、裂解／CPL 開工率、區域供需、匯率</td>
+<td>原料採購方與貿易商，成本轉嫁速度關鍵</td>
+</tr>
+<tr>
+<td>聚合</td>
+<td>CPL→尼龍 6 切片</td>
+<td>CPL－切片價差、能源與規模</td>
+<td><strong>目標公司核心</strong>，官網稱年產切片約 58 萬噸</td>
+</tr>
+<tr>
+<td>紡絲</td>
+<td>切片→尼龍原絲／加工絲</td>
+<td>切片－絲價差、良率、規格</td>
+<td><strong>目標公司核心</strong>，向高強度／機能規格延伸</td>
+</tr>
+<tr>
+<td>織造／染整</td>
+<td>絲→梭織／針織／染色加工</td>
+<td>訂單規格、染整良率、環保／能源成本</td>
+<td><strong>目標公司垂直整合段</strong></td>
+</tr>
+<tr>
+<td>下游</td>
+<td>成衣、運動戶外、袋材、工業用布</td>
+<td>品牌庫存、消費景氣、產品認證</td>
+<td>多透過客戶供應鏈間接觸及終端</td>
+</tr>
+</tbody>
+</table></div>
+<p>力鵬對下游織布與品牌供應鏈可視為提供材料的<strong>賣鏟人／挖金礦者</strong>，但它不是高毛利的純材料平台：貿易收入占比高、通用級化纖價格透明，且自有重資產也承受折舊與開工率風險。垂直整合的價值，必須透過更高良率、更短交期或高值產品溢價來證明。</p>
+<h2>5. 商業模式與護城河</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>護城河</th>
+<th>強度</th>
+<th>證據與限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>聚合到染整的一貫化產能</td>
+<td>中</td>
+<td>可內部調度並縮短交期；低利用率時固定成本負擔更重</td>
+</tr>
+<tr>
+<td>LIBOLON 品牌與加工經驗</td>
+<td>中</td>
+<td>官網呈現完整產品與製程能力；客戶黏著、溢價與市占需查證</td>
+</tr>
+<tr>
+<td>規模採購／貿易網路</td>
+<td>中弱</td>
+<td>可放大交易量，但 H1 貿易毛利率約 1.2%，不是寬護城河</td>
+</tr>
+<tr>
+<td>機能與差異化產品</td>
+<td>中弱至中</td>
+<td>高值化是合理方向；營收占比、專利與長約未充分揭露</td>
+</tr>
+<tr>
+<td>客戶認證／交付能力</td>
+<td>需查證</td>
+<td>若進入國際品牌供應鏈可形成轉換成本，現有有效認證與客戶名單需逐項核對</td>
+</tr>
+<tr>
+<td>財務韌性</td>
+<td>中弱</td>
+<td>負債／資產 47.59%，尚可運作；但低毛利使小幅價差逆轉即可侵蝕獲利</td>
+</tr>
+<tr>
+<td>規模經濟</td>
+<td>中</td>
+<td>聚合名目產能大、可攤提成本；利用率低時規模反成固定成本負擔</td>
+</tr>
+<tr>
+<td>客戶黏著／轉換成本</td>
+<td>弱至中、需查證</td>
+<td>通用級產品容易比價，高規格認證產品才可能有黏著度</td>
+</tr>
+<tr>
+<td>品牌／通路</td>
+<td>中弱</td>
+<td>LIBOLON 與貿易網路提供識別；實際溢價與市場占有率未取得</td>
+</tr>
+<tr>
+<td>成本優勢</td>
+<td>需查證</td>
+<td>垂直整合可能節省運輸與加工成本，但缺少單位成本同業比較</td>
+</tr>
+<tr>
+<td>資本門檻／替代風險</td>
+<td>門檻中、替代中高</td>
+<td>聚合與染整需資本及環評；再生材料、聚酯與其他纖維可替代部分應用</td>
+</tr>
+</tbody>
+</table></div>
+<p>最可見的能力是製程完整，不等於定價權。H1 營業利益只有 0.45 億元，而營業外收入 1.04 億元高於本業利益，說明目前本業護城河尚不足以產生穩健超額回報。</p>
+<h2>6. 重要財務與營運指標</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th style="text-align:right">最新值／期間</th>
+<th>研究解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>營收成長</td>
+<td style="text-align:right">H1 160.68 億元，年增 10.86%</td>
+<td>成長主要來自貿易；不能直接推導獲利增幅</td>
+</tr>
+<tr>
+<td>毛利率</td>
+<td style="text-align:right">H1 2.57%</td>
+<td>較去年同期約 0.79%改善，但仍屬極薄</td>
+</tr>
+<tr>
+<td>營益率</td>
+<td style="text-align:right">H1 0.28%</td>
+<td>本業接近損益兩平</td>
+</tr>
+<tr>
+<td>EPS 成長</td>
+<td style="text-align:right">0.12 元，去年同期 -0.49 元</td>
+<td>由虧轉盈，不適合以百分比表達</td>
+</tr>
+<tr>
+<td>營業外依賴</td>
+<td style="text-align:right">營業外收入及支出淨額 1.04 億元；營業利益 0.45 億元</td>
+<td>稅前利益多數不是本業營業利益</td>
+</tr>
+<tr>
+<td>營業現金流</td>
+<td style="text-align:right">H1 2.96 億元；去年同期 -1.30 億元</td>
+<td>改善，但含營運資金變動與 0.61 億元存貨跌價回升</td>
+</tr>
+<tr>
+<td>自由現金流</td>
+<td style="text-align:right">簡化值 1.02 億元</td>
+<td>OCF 2.96 億－PP&amp;E capex 1.95 億；單期、市值比約 1.63%，不可直接年化</td>
+</tr>
+<tr>
+<td>資本支出</td>
+<td style="text-align:right">PP&amp;E 1.95 億元</td>
+<td>需與維修／擴充目的、折舊比較</td>
+</tr>
+<tr>
+<td>資產負債</td>
+<td style="text-align:right">資產 173.07 億、負債 82.37 億，負債／資產 47.59%</td>
+<td>股東權益 90.71 億，歸母淨值每股約 9.62 元</td>
+</tr>
+<tr>
+<td>庫存週轉</td>
+<td style="text-align:right">需查證</td>
+<td>須以平均庫存、同口徑成本重算，並拆解跌價回升</td>
+</tr>
+<tr>
+<td>訂單能見度</td>
+<td style="text-align:right">需查證</td>
+<td>紡織／原料多為短單；品牌旺季與急單並不等於長約</td>
+</tr>
+<tr>
+<td>客戶集中度</td>
+<td style="text-align:right">需查證</td>
+<td>未取得 H1 前五大外部客戶資料</td>
+</tr>
+<tr>
+<td>市占／利用率</td>
+<td style="text-align:right">需查證</td>
+<td>公司揭露名目產能，但未取得當期有效利用率或市占</td>
+</tr>
+</tbody>
+</table></div>
+<p>7 月營收 12.00 億元，月減 61.56%、年增 21.30%；1–7 月 172.68 億元，年增 11.53%。6 月單月約 31.22 億元的高基期使月減率誇張，應等待 8–9 月而非用一個月下結論。</p>
+<h2>7. 美股與台股同業比較</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司／代號</th>
+<th>市場／產業鏈位置</th>
+<th>核心優勢／主要風險／成長與獲利穩定性</th>
+<th>2026-08-28 可得估值／判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>力鵬 1447</td>
+<td>台灣；尼龍、織品、貿易，目標公司</td>
+<td>一貫化；毛利與流動性弱，營收成長但獲利穩定性低</td>
+<td>P/E 不適用、P/B 0.72、殖利率未列</td>
+</tr>
+<tr>
+<td>力麗 1444</td>
+<td>台灣；聚酯／紡織、集團關係與近似同業</td>
+<td>集團協同；週期與關係企業複雜，獲利穩定性低</td>
+<td>P/E 不適用、P/B 0.70</td>
+</tr>
+<tr>
+<td>年興 1451</td>
+<td>台灣；紡織／成衣下游</td>
+<td>製造整合；品牌訂單與成本風險，穩定性中</td>
+<td>P/E 11.52、P/B 0.47、殖利率 5.75%</td>
+</tr>
+<tr>
+<td>宏益 1452</td>
+<td>台灣；化纖加工直接／近似同業</td>
+<td>加工經驗；通用產品價差風險，獲利週期性高</td>
+<td>P/E 不適用、P/B 0.56、殖利率 1.75%</td>
+</tr>
+<tr>
+<td>集盛 1455</td>
+<td>台灣；尼龍／聚酯加工直接同業</td>
+<td>產品重疊高；供給與原料風險，獲利週期性高</td>
+<td>P/E 18.81、P/B 0.85、殖利率 1.60%</td>
+</tr>
+<tr>
+<td>儒鴻 1476</td>
+<td>台灣；高值布料／成衣下游</td>
+<td>客戶／研發與高毛利；品牌集中風險，成長與獲利較穩</td>
+<td>P/E 12.90、P/B 2.95、殖利率 4.82%</td>
+</tr>
+<tr>
+<td>聚陽 1477</td>
+<td>台灣；成衣下游</td>
+<td>全球產能與客戶服務；工資／客戶風險，獲利較穩</td>
+<td>P/E 13.34、P/B 3.50、殖利率 7.67%</td>
+</tr>
+<tr>
+<td>Toray Industries</td>
+<td>日本；纖維與高值材料直接／相關</td>
+<td>研發與多角化；事業複雜，獲利較分散</td>
+<td>同日倍數需查證</td>
+</tr>
+<tr>
+<td>Hyosung TNC</td>
+<td>韓國；化纖材料直接同業</td>
+<td>全球化纖規模；價差與中國供給風險，週期性高</td>
+<td>同日倍數需查證</td>
+</tr>
+<tr>
+<td>Dow／LyondellBasell／Celanese</td>
+<td>美國；上游化學材料</td>
+<td>原料與規模優勢；石化週期高，僅供應鏈對照</td>
+<td>同日倍數需查證，不直接套用力鵬</td>
+</tr>
+</tbody>
+</table></div>
+<p>力鵬 P/B 0.72 倍接近力麗 0.70、介於宏益 0.56 與集盛 0.85 之間，並非同業最低。儒鴻、聚陽的高 P/B 反映較高毛利、客戶與供應鏈能力，不能用其 P/E 直接替力鵬估值。海外倍數未取得同口徑官方資料，列為需查證。</p>
+<h2>8. 估值比較與同業本益比區間</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>方法</th>
+<th style="text-align:right">力鵬目前</th>
+<th>同業／歷史位置</th>
+<th>判讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TTM P/E</td>
+<td style="text-align:right">TWSE 未列適用值</td>
+<td>有盈餘的台灣可比約 11.5–18.8 倍</td>
+<td>低；週期低谷／轉盈初期 P/E 易失真</td>
+</tr>
+<tr>
+<td>Forward P/E</td>
+<td style="text-align:right">需查證</td>
+<td>共識 EPS 需查證</td>
+<td>不自造預估值</td>
+</tr>
+<tr>
+<td>P/B</td>
+<td style="text-align:right">0.72 倍</td>
+<td>近似台灣同業約 0.47–0.85 倍</td>
+<td>主要參考，但低 ROE 可合理長期折價</td>
+</tr>
+<tr>
+<td>P/S</td>
+<td style="text-align:right">約 0.19 倍</td>
+<td>市值／H1 營收年化</td>
+<td>很低但貿易占比高、毛利率極薄，不能與品牌／高值布廠直接比較</td>
+</tr>
+<tr>
+<td>EV/EBITDA</td>
+<td style="text-align:right">需查證</td>
+<td>正常化折舊與淨負債需重算</td>
+<td>適合重資產週期股，待補</td>
+</tr>
+<tr>
+<td>FCF yield</td>
+<td style="text-align:right">H1 簡化單期約 1.63%</td>
+<td>非正常化年化值</td>
+<td>尚不足以支持高確信估值</td>
+</tr>
+<tr>
+<td>毛利率／營收成長</td>
+<td style="text-align:right">2.57%／+10.86%</td>
+<td>成長品質偏低</td>
+<td>營收成長未轉成可觀營益</td>
+</tr>
+<tr>
+<td>歷史區間</td>
+<td style="text-align:right">需查證</td>
+<td>十年 P/B、EV/EBITDA 與虧損期需同口徑</td>
+<td>不以股價低於 10 元代替估值</td>
+</tr>
+</tbody>
+</table></div>
+<p>估值結論：低 P/S 主要反映貿易型收入與薄利，0.72 倍 P/B 也接近週期同業中段。對力鵬最有用的是正常化 P/B、EV/EBITDA、尼龍價差與利用率，不是低價股直覺或單季轉盈後的 P/E。</p>
+<h2>9. 未來 3 年情境分析</h2>
+<p>以下為本報告推論、非公司指引或法人共識。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th>產業／公司假設</th>
+<th>2026–2029 財務輪廓</th>
+<th>合理評價框架</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>樂觀</td>
+<td>CPL－尼龍價差擴大、利用率提升、高值機能布占比上升、貿易量穩</td>
+<td>營收 CAGR 4–9%、毛利率 5–8%、本業 OCF 穩定為正</td>
+<td>P/B 0.85–1.15 倍；要有 ROE 與 FCF 支持</td>
+</tr>
+<tr>
+<td>基準</td>
+<td>供需仍競爭，尼龍剛過損平，織品與貿易維持薄利</td>
+<td>CAGR 0–5%、毛利率 2.5–5%、獲利低度正值</td>
+<td>P/B 0.6–0.85 倍，現價已在區間內</td>
+</tr>
+<tr>
+<td>悲觀</td>
+<td>中國供給壓價、終端去庫存反覆、原料急漲／存貨損失、利用率下降</td>
+<td>CAGR -8% 至 0%、毛利率 -1% 至 3%、OCF 轉負</td>
+<td>P/B 0.35–0.60 倍，且可能出現資產減損</td>
+</tr>
+</tbody>
+</table></div>
+<p>現價較像基準情境的低 ROE 折價，而非樂觀高值化已被低估。向樂觀情境切換的必要條件，是本業營益率實質站上 2–3%並維持，不只是營業外收益或存貨回升。</p>
+<h2>10. 投資建議</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>建議</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>代號／名稱</td>
+<td>1447／力鵬</td>
+</tr>
+<tr>
+<td>評等</td>
+<td><strong>觀察</strong></td>
+</tr>
+<tr>
+<td>定義</td>
+<td>產業有潛力但公司財報未轉強、估值與成長不匹配或循環不明朗，安全邊際不足</td>
+</tr>
+<tr>
+<td>適合投資人</td>
+<td>能追蹤化纖價差、分部損益與交易流動性的週期研究者</td>
+</tr>
+<tr>
+<td>核心理由</td>
+<td>尼龍部門由大虧回到近損平，但本業營益、現金流品質與流動性仍弱</td>
+</tr>
+<tr>
+<td>暫不買理由／觀察價值</td>
+<td>不買理由是 0.28%營益率與低成交額；觀察價值是由虧轉盈與價差反轉潛力</td>
+</tr>
+<tr>
+<td>新投資人</td>
+<td>暫不因低價或單季轉盈追價；等待本業營益率、每日成交額與尼龍價差同步改善</td>
+</tr>
+<tr>
+<td>已持有／低成本</td>
+<td>僅以小部位追蹤，確認流動性足以執行風險管理；本業再轉虧即檢討</td>
+</tr>
+<tr>
+<td>接近現價成本</td>
+<td>不攤平流動性風險；先定義毛利率、成交額與基本面失效條件</td>
+</tr>
+<tr>
+<td>高成本</td>
+<td>反彈時優先降低集中度；不要以淨值 9.62 元當作必然回歸目標</td>
+</tr>
+<tr>
+<td>追蹤／評級變動</td>
+<td>尼龍／織品營益、CPL價差、OCF與日均成交額；本業延續可升級、再轉虧則降級</td>
+</tr>
+</tbody>
+</table></div>
+<p>「觀察」優於相鄰的「分批布局」，因營益率僅 0.28%、稅前利益高度依賴營業外、TTM P/E 不適用且 2026-08-28 成交金額只有約 795 萬元；也優於「減碼 / 賣出」，因 H1 已由虧轉盈、尼龍部門接近損平、OCF 與簡化 FCF 轉正。</p>
+<p>持有者與等候條件：<strong>新手買入</strong>先避免把 6.88 元視為「便宜」；<strong>低成本持有者</strong>以本業營益與流動性檢核；<strong>現價附近持有者</strong>不在低量時攤平；<strong>大幅獲利者</strong>可依本業再轉弱分段控風險；<strong>套牢者</strong>不以淨值 9.62 元當必然目標。<strong>等候買點</strong>至少要求本業營益率提升與日均成交額改善同時出現。</p>
+<p>升級條件：尼龍與織品連續兩季營業獲利、合併毛利率升至基準區間上緣、營業外依賴下降、OCF 排除營運資金仍正、日均成交額跨過可執行門檻。降級條件：毛利率再跌近零、尼龍部門轉虧、存貨跌價擴大、OCF 轉負、借款或關係企業曝險顯著上升。</p>
+<h2>11. 投資標的分層</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>分層</th>
+<th>代表標的／角色</th>
+<th>一般化研究定位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心穩健型</td>
+<td>儒鴻 1476、聚陽 1477</td>
+<td>下游高附加價值與客戶能力較強，但估值通常較高</td>
+</tr>
+<tr>
+<td>成長型</td>
+<td>Toray 的高值材料業務</td>
+<td>以高規材料與研發驅動；需分拆多角化影響</td>
+</tr>
+<tr>
+<td>景氣循環型</td>
+<td>集盛 1455、力麗 1444</td>
+<td>原料價差、利用率與庫存週期主導</td>
+</tr>
+<tr>
+<td>高風險高報酬型</td>
+<td>力鵬 1447</td>
+<td>轉虧為盈可帶來營運槓桿，微薄毛利與流動性也放大下檔</td>
+</tr>
+<tr>
+<td>只適合觀察型</td>
+<td>通用化纖低流動性轉機股</td>
+<td>在部門獲利與交易量確認前，只適合研究追蹤</td>
+</tr>
+</tbody>
+</table></div>
+<h2>12. 產業風險與反方觀點</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>風險</th>
+<th>傳導方式</th>
+<th>觀察指標</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPL／苯與能源波動</td>
+<td>成本轉嫁不及、存貨跌價</td>
+<td>原料－成品價差、存貨備抵、毛利率</td>
+</tr>
+<tr>
+<td>中國供給過剩</td>
+<td>通用切片／絲價格競爭</td>
+<td>區域開工率、報價、進出口</td>
+</tr>
+<tr>
+<td>品牌與消費需求弱</td>
+<td>客戶去庫存、急單消失</td>
+<td>訂單、出貨、應收與庫存天數</td>
+</tr>
+<tr>
+<td>利潤率極薄</td>
+<td>1–2 個百分點成本變動即可抹除營益</td>
+<td>本業營益率、分部損益</td>
+</tr>
+<tr>
+<td>匯率</td>
+<td>美元原料與出口錯配</td>
+<td>新台幣／美元、避險損益</td>
+</tr>
+<tr>
+<td>營運資金</td>
+<td>貿易放量占用現金、存貨價格反轉</td>
+<td>OCF、應收、存貨與短借</td>
+</tr>
+<tr>
+<td>流動性</td>
+<td>進出場滑價與無法及時停損</td>
+<td>日均成交額、買賣價差</td>
+</tr>
+<tr>
+<td>關係企業／非核心收益</td>
+<td>本業弱時投資損益放大波動</td>
+<td>營業外占稅前利益比重、關係人交易</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>必查風險類別</th>
+<th>機率</th>
+<th>衝擊</th>
+<th>預警／一般化應對</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>估值過度</td>
+<td>中</td>
+<td>中</td>
+<td>轉盈後股價先漲、ROE 未改善；不用低價或單季 P/E 追價</td>
+</tr>
+<tr>
+<td>循環反轉</td>
+<td>高</td>
+<td>高</td>
+<td>CPL－尼龍價差轉負、庫存跌價；以分部損益設定失效</td>
+</tr>
+<tr>
+<td>技術替代</td>
+<td>中高</td>
+<td>中高</td>
+<td>再生／聚酯等材料取代通用尼龍；追蹤高值產品占比</td>
+</tr>
+<tr>
+<td>競爭</td>
+<td>高</td>
+<td>高</td>
+<td>中國擴產與削價；只在毛利與利用率共振時升級</td>
+</tr>
+<tr>
+<td>政策／地緣</td>
+<td>中</td>
+<td>中</td>
+<td>能源、環保與貿易規則提高成本；要求費用可轉嫁證據</td>
+</tr>
+<tr>
+<td>客戶集中</td>
+<td>需查證</td>
+<td>中高</td>
+<td>大客戶砍單或應收上升；取得前五大客戶前維持折價</td>
+</tr>
+<tr>
+<td>財報警訊</td>
+<td>高</td>
+<td>高</td>
+<td>本業轉虧、營業外撐盈餘、OCF 轉負；降級並降低曝險</td>
+</tr>
+</tbody>
+</table></div>
+<h3>反方觀點</h3>
+<p>最強反方論點是：力鵬的垂直整合不是護城河，而是一組在亞洲通用化纖過剩下難以滿載的重資產；貿易部門把營收放大，卻只留下低毛利，而本業營業利益不足以覆蓋正常週期波動。H1 160.68 億元收入只產生 0.45 億元營業利益，營業外淨收入反而有 1.04 億元，支持此風險。</p>
+<p>若未來四季營收仍成長，但本業營益率維持低於 1%、OCF 主要來自存貨／應付變動，則「轉虧為盈」只是週期短暫反彈，本報告基準情境失效。反方要失效，必須看到尼龍與織品兩部門都能在不依靠存貨回升下持續營業獲利，並以 FCF 支持設備更新。</p>
+<h2>13. 後續研究清單</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>追蹤類別</th>
+<th>要查什麼</th>
+<th>頻率／判定用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>財務報表</td>
+<td>尼龍、織品、貿易、染紗收入／毛利／營益；存貨、應收、OCF</td>
+<td>每季；判斷本業反轉品質</td>
+</tr>
+<tr>
+<td>法說／公司公告</td>
+<td>有效產能、利用率、能耗、良率、維修／擴充 capex</td>
+<td>每次公告；檢驗一貫化效率</td>
+</tr>
+<tr>
+<td>產業資料</td>
+<td>苯、CPL、切片、尼龍絲報價與價差</td>
+<td>每週；辨識原料與產品利差</td>
+</tr>
+<tr>
+<td>競爭對手</td>
+<td>集盛、力麗、Toray 的分部毛利與庫存</td>
+<td>每季；比較週期位置與高值化</td>
+</tr>
+<tr>
+<td>客戶需求</td>
+<td>前五大客戶、品牌訂單、出口比重與美元曝險</td>
+<td>每季；未揭露維持需查證</td>
+</tr>
+<tr>
+<td>估值變化</td>
+<td>十年 P/B／EV-EBITDA、ROE、虧損與減損週期</td>
+<td>每季；建立正常化中樞</td>
+</tr>
+</tbody>
+</table></div>
+<p>下一輪研究 <strong>集盛 1455</strong>（尼龍近似同業）、<strong>Toray Industries</strong>（海外高值材料對照）、<strong>儒鴻 1476</strong>（高附加價值下游）；分別驗證通用化纖、高值材料與終端議價力。</p>
+<h2>14. 結論</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>結論欄位</th>
+<th>最終判斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td>是否為產業好入口</td>
-<td>是，可理解化纖價差與一貫化。</td>
+<td>有限；可學習化纖價差與一貫化，但貿易比重使分析較複雜</td>
 </tr>
 <tr>
 <td>產業是否值得長期追蹤</td>
-<td>值得但偏循環，高值化／回收才有結構成長。</td>
+<td>值得選擇性追蹤高值材料，通用化纖仍以週期研究為主</td>
 </tr>
 <tr>
 <td>最重要投資邏輯</td>
-<td>規模能否透過價差／mix 轉成可持續 margin。</td>
+<td>尼龍部門由大虧回到近損平，若利差與利用率延續可產生營運槓桿</td>
 </tr>
 <tr>
 <td>最大風險</td>
-<td>毛利極薄、Q2 本業再轉負與業外依賴。</td>
+<td>毛利／營益極薄、營業外依賴、供給過剩與股票流動性</td>
 </tr>
 <tr>
 <td>估值是否已反映成長</td>
-<td>已反映低回報；尚無折價收斂催化。</td>
+<td>P/B 0.72、P/S 0.19 看似低，但接近同業中段且與低 ROE 相符</td>
 </tr>
 <tr>
 <td>最終投資評級</td>
 <td><strong>觀察</strong></td>
 </tr>
 <tr>
-<td>優先研究環節</td>
-<td>CPL-PA6 spread、利用率、分部毛利、CFO／net debt。</td>
+<td>優先研究之產業鏈環節</td>
+<td>CPL－尼龍價差、尼龍／織品利用率、高值產品占比與營運資金</td>
 </tr>
 </tbody>
 </table></div>
-<p>給新手的白話結論：力鵬今年上半年終於小賺，但本業只比損益兩平好一點。要等毛利率、營業利益與現金流一起改善，才算真正轉機；在此之前，低股價與低淨值比都不足以成為買點。</p>
+<p>白話總結：力鵬已從 2025 H1 虧損走回小幅獲利，這是值得追蹤的第一步，不是已完成的反轉。它真正需要證明的不是「營收會不會增加」，而是尼龍與織品能否在供給過剩下持續賺取足以覆蓋固定成本的利差。當本業營益率只有 0.28%、股票流動性又偏低時，先等待兩季分部獲利與現金流確認，風險報酬優於只因股價低於淨值而進場。</p>
 </article></main></div>
 </body>
 </html>
