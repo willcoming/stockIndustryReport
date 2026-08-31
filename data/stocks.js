@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-08-30T00:30:30.812380+00:00",
+  "generated_at": "2026-08-31T00:07:41.926630+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -12876,18 +12876,19 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TPEx",
       "symbol": "6274",
       "name": "台燿",
-      "industry_group": "CCL",
-      "latest_report_date": "2026-08-23",
-      "valid_until": "2026-08-30",
+      "industry_group": "CCL／高速 PCB 材料",
+      "latest_report_date": "2026-08-31",
+      "valid_until": "2026-09-07",
       "rating": "觀察",
       "latest_url": "stocks/tw-6274/",
       "url": "stocks/tw-6274/",
       "aliases": [
         "6274",
-        "6274.TW",
         "6274.TWO",
         "TPEX:6274",
-        "台燿"
+        "台燿",
+        "台燿科技",
+        "TUC"
       ]
     },
     "tw:6277": {
@@ -15631,18 +15632,19 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TPEx",
       "symbol": "8358",
       "name": "金居",
-      "industry_group": "銅箔",
-      "latest_report_date": "2026-08-22",
-      "valid_until": "2026-08-29",
+      "industry_group": "電解銅箔／高速 PCB 材料",
+      "latest_report_date": "2026-08-31",
+      "valid_until": "2026-09-07",
       "rating": "觀察",
       "latest_url": "stocks/tw-8358/",
       "url": "stocks/tw-8358/",
       "aliases": [
         "8358",
         "8358.TWO",
-        "TPEx:8358",
+        "TPEX:8358",
         "金居",
-        "CO-TECH"
+        "金居開發",
+        "Co-Tech"
       ]
     },
     "tw:8367": {
@@ -15961,18 +15963,19 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "8996",
       "name": "高力",
-      "industry_group": "熱交換器／散熱",
-      "latest_report_date": "2026-08-23",
-      "valid_until": "2026-08-30",
-      "rating": "分批布局",
+      "industry_group": "液冷散熱／熱交換",
+      "latest_report_date": "2026-08-31",
+      "valid_until": "2026-09-07",
+      "rating": "觀察",
       "latest_url": "stocks/tw-8996/",
       "url": "stocks/tw-8996/",
       "aliases": [
         "8996",
         "8996.TW",
-        "8996.TWO",
         "TWSE:8996",
-        "高力"
+        "高力",
+        "高力熱處理",
+        "KAORI"
       ]
     },
     "tw:9103": {
