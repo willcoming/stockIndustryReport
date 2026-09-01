@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:14:14.299761+00:00",
+  "generated_at": "2026-09-01T00:21:47.225112+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -434,8 +434,8 @@
       "symbol": "1303",
       "name": "南亞",
       "industry_group": "塑化／電子材料",
-      "latest_report_date": "2026-08-23",
-      "valid_until": "2026-08-30",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
       "latest_url": "stocks/tw-1303/",
       "url": "stocks/tw-1303/",
@@ -443,8 +443,7 @@
         "1303",
         "1303.TW",
         "1303.TWO",
-        "TWSE:1303",
-        "南亞"
+        "TWSE:1303"
       ]
     },
     "tw:1304": {
@@ -8137,19 +8136,17 @@
       "exchange": "TWSE",
       "symbol": "3044",
       "name": "健鼎",
-      "industry_group": "電子零組件業",
-      "latest_report_date": "2026-08-10",
-      "valid_until": "2026-08-17",
+      "industry_group": "PCB",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
       "latest_url": "stocks/tw-3044/",
       "url": "stocks/tw-3044/",
       "aliases": [
         "3044",
         "3044.TW",
-        "TWSE:3044",
-        "健鼎",
-        "健鼎科技",
-        "Tripod Technology"
+        "3044.TWO",
+        "TWSE:3044"
       ]
     },
     "tw:3045": {
@@ -8864,23 +8861,20 @@
     },
     "tw:3324": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEX",
       "symbol": "3324",
       "name": "雙鴻",
-      "industry_group": "AI 散熱",
-      "latest_report_date": "2026-08-20",
-      "valid_until": "2026-08-27",
+      "industry_group": "散熱",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
-      "latest_url": "stocks/tw-3324/2026-08-20.html",
+      "latest_url": "stocks/tw-3324/",
       "url": "stocks/tw-3324/",
       "aliases": [
         "3324",
+        "3324.TW",
         "3324.TWO",
-        "TPEX:3324",
-        "雙鴻",
-        "雙鴻科技",
-        "Auras",
-        "Auras Technology"
+        "TPEX:3324"
       ]
     },
     "tw:3338": {
@@ -9125,9 +9119,9 @@
       "exchange": "TWSE",
       "symbol": "3450",
       "name": "聯鈞",
-      "industry_group": "光通訊",
-      "latest_report_date": "2026-08-05",
-      "valid_until": "2026-08-26",
+      "industry_group": "光通訊／封測",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
       "latest_url": "stocks/tw-3450/",
       "url": "stocks/tw-3450/",
@@ -9879,17 +9873,17 @@
       "exchange": "TWSE",
       "symbol": "3702",
       "name": "大聯大",
-      "industry_group": "電子通路業",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
+      "industry_group": "半導體通路",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "分批布局",
       "latest_url": "stocks/tw-3702/",
       "url": "stocks/tw-3702/",
       "aliases": [
         "3702",
         "3702.TW",
-        "TWSE:3702",
-        "大聯大"
+        "3702.TWO",
+        "TWSE:3702"
       ]
     },
     "tw:3703": {
@@ -10808,6 +10802,24 @@
         "Gemtek Technology"
       ]
     },
+    "tw:4908": {
+      "market": "tw",
+      "exchange": "TPEX",
+      "symbol": "4908",
+      "name": "前鼎",
+      "industry_group": "光通訊",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-4908/",
+      "url": "stocks/tw-4908/",
+      "aliases": [
+        "4908",
+        "4908.TW",
+        "4908.TWO",
+        "TPEX:4908"
+      ]
+    },
     "tw:4912": {
       "market": "tw",
       "exchange": "TWSE",
@@ -11028,18 +11040,17 @@
       "exchange": "TWSE",
       "symbol": "4958",
       "name": "臻鼎-KY",
-      "industry_group": "PCB／載板",
-      "latest_report_date": "2026-08-22",
-      "valid_until": "2026-08-29",
+      "industry_group": "PCB",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
       "latest_url": "stocks/tw-4958/",
       "url": "stocks/tw-4958/",
       "aliases": [
         "4958",
         "4958.TW",
-        "TWSE:4958",
-        "臻鼎-KY",
-        "ZDT"
+        "4958.TWO",
+        "TWSE:4958"
       ]
     },
     "tw:4960": {
@@ -13970,9 +13981,9 @@
       "exchange": "TWSE",
       "symbol": "6669",
       "name": "緯穎",
-      "industry_group": "雲端伺服器",
-      "latest_report_date": "2026-08-08",
-      "valid_until": "2026-08-27",
+      "industry_group": "AI 伺服器",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
       "latest_url": "stocks/tw-6669/",
       "url": "stocks/tw-6669/",
@@ -13980,8 +13991,7 @@
         "6669",
         "6669.TW",
         "6669.TWO",
-        "TWSE:6669",
-        "緯穎"
+        "TWSE:6669"
       ]
     },
     "tw:6670": {
@@ -15104,18 +15114,17 @@
       "exchange": "TWSE",
       "symbol": "8021",
       "name": "尖點",
-      "industry_group": "其他電子業",
-      "latest_report_date": "2026-08-21",
-      "valid_until": "2026-08-28",
+      "industry_group": "PCB 鑽孔耗材",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
       "latest_url": "stocks/tw-8021/",
       "url": "stocks/tw-8021/",
       "aliases": [
         "8021",
         "8021.TW",
-        "TWSE:8021",
-        "尖點",
-        "Topoint"
+        "8021.TWO",
+        "TWSE:8021"
       ]
     },
     "tw:8028": {
@@ -21282,20 +21291,18 @@
     },
     "us:cost": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "COST",
-      "name": "Costco Wholesale Corporation",
-      "industry_group": "會員制倉儲與綜合零售",
-      "latest_report_date": "2026-08-21",
-      "valid_until": "2026-08-28",
+      "name": "Costco",
+      "industry_group": "必需消費零售",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
-      "latest_url": "stocks/us-cost/2026-08-21.html",
+      "latest_url": "stocks/us-cost/",
       "url": "stocks/us-cost/",
       "aliases": [
         "COST",
-        "NASDAQ:COST",
-        "Costco",
-        "Costco Wholesale"
+        "US:COST"
       ]
     },
     "us:cour": {
@@ -22932,18 +22939,18 @@
     },
     "us:eix": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "EIX",
       "name": "Edison International",
-      "industry_group": "公用事業／受監管電力與電網",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "industry_group": "公用事業",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
       "latest_url": "stocks/us-eix/",
       "url": "stocks/us-eix/",
       "aliases": [
         "EIX",
-        "NYSE:EIX"
+        "US:EIX"
       ]
     },
     "us:el": {
@@ -25749,6 +25756,22 @@
         "HDB",
         "NYSE:HDB",
         "HDFC Bank Limited"
+      ]
+    },
+    "us:he": {
+      "market": "us",
+      "exchange": "US",
+      "symbol": "HE",
+      "name": "Hawaiian Electric",
+      "industry_group": "公用事業",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
+      "rating": "觀察",
+      "latest_url": "stocks/us-he/",
+      "url": "stocks/us-he/",
+      "aliases": [
+        "HE",
+        "US:HE"
       ]
     },
     "us:hims": {
@@ -31236,18 +31259,18 @@
     },
     "us:pcg": {
       "market": "us",
-      "exchange": "NYSE",
+      "exchange": "US",
       "symbol": "PCG",
-      "name": "Pacific Gas & Electric Co. Common Stock",
-      "industry_group": "公用事業 / Power Generation",
-      "latest_report_date": "2026-08-20",
-      "valid_until": "2026-08-27",
+      "name": "PG&E",
+      "industry_group": "公用事業",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "分批布局",
-      "latest_url": "stocks/us-pcg/2026-08-20.html",
+      "latest_url": "stocks/us-pcg/",
       "url": "stocks/us-pcg/",
       "aliases": [
         "PCG",
-        "NYSE:PCG"
+        "US:PCG"
       ]
     },
     "us:pcor": {
@@ -37076,20 +37099,18 @@
     },
     "us:wmt": {
       "market": "us",
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "symbol": "WMT",
-      "name": "Walmart Inc.",
-      "industry_group": "全球全通路零售、電商與零售媒體平台",
-      "latest_report_date": "2026-08-21",
-      "valid_until": "2026-08-28",
+      "name": "Walmart",
+      "industry_group": "必需消費零售",
+      "latest_report_date": "2026-09-01",
+      "valid_until": "2026-09-08",
       "rating": "觀察",
       "latest_url": "stocks/us-wmt/",
       "url": "stocks/us-wmt/",
       "aliases": [
         "WMT",
-        "NASDAQ:WMT",
-        "Walmart",
-        "Walmart Inc."
+        "US:WMT"
       ]
     },
     "us:wnw": {
