@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T00:52:08.669037+00:00",
+  "generated_at": "2026-09-03T08:35:54.530166+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -2869,8 +2869,8 @@
       "symbol": "2010",
       "name": "春源",
       "industry_group": "鋼鐵工業",
-      "latest_report_date": "2026-08-06",
-      "valid_until": "2026-08-13",
+      "latest_report_date": "2026-09-03",
+      "valid_until": "2026-09-10",
       "rating": "觀察",
       "latest_url": "stocks/tw-2010/",
       "url": "stocks/tw-2010/",
@@ -2879,7 +2879,8 @@
         "2010.TW",
         "TWSE:2010",
         "春源",
-        "春源鋼鐵"
+        "春源鋼鐵",
+        "Chun Yuan Steel"
       ]
     },
     "tw:2013": {
@@ -6681,14 +6682,15 @@
       "symbol": "2618",
       "name": "長榮航",
       "industry_group": "航運業",
-      "latest_report_date": "2026-08-26",
-      "valid_until": "2026-09-02",
+      "latest_report_date": "2026-09-03",
+      "valid_until": "2026-09-10",
       "rating": "分批布局",
       "latest_url": "stocks/tw-2618/",
       "url": "stocks/tw-2618/",
       "aliases": [
         "2618",
         "2618.TW",
+        "TWSE:2618",
         "長榮航",
         "長榮航空",
         "EVA Air"
@@ -7824,6 +7826,26 @@
         "亞洲光學股份有限公司"
       ]
     },
+    "tw:3021": {
+      "market": "tw",
+      "exchange": "TWSE",
+      "symbol": "3021",
+      "name": "鴻名",
+      "industry_group": "電子零組件業",
+      "latest_report_date": "2026-09-03",
+      "valid_until": "2026-09-10",
+      "rating": "觀察",
+      "latest_url": "stocks/tw-3021/",
+      "url": "stocks/tw-3021/",
+      "aliases": [
+        "3021",
+        "3021.TW",
+        "TWSE:3021",
+        "鴻名",
+        "鴻名企業",
+        "Welltend Technology"
+      ]
+    },
     "tw:3022": {
       "market": "tw",
       "exchange": "TWSE",
@@ -7945,20 +7967,18 @@
       "symbol": "3030",
       "name": "德律",
       "industry_group": "其他電子業",
-      "latest_report_date": "2026-08-26",
-      "valid_until": "2026-09-02",
+      "latest_report_date": "2026-09-03",
+      "valid_until": "2026-09-10",
       "rating": "分批布局",
       "latest_url": "stocks/tw-3030/",
       "url": "stocks/tw-3030/",
       "aliases": [
         "3030",
         "3030.TW",
-        "3030.TWO",
         "TWSE:3030",
         "德律",
         "德律科技",
-        "TRI",
-        "Test Research"
+        "Test Research Inc."
       ]
     },
     "tw:3031": {
@@ -9999,10 +10019,10 @@
       "market": "tw",
       "exchange": "TWSE",
       "symbol": "3703",
-      "name": "欣陸投資控股股份有限公司",
-      "industry_group": "建材營造業／環境工程",
-      "latest_report_date": "2026-07-30",
-      "valid_until": "2026-08-06",
+      "name": "欣陸",
+      "industry_group": "建材營造業",
+      "latest_report_date": "2026-09-03",
+      "valid_until": "2026-09-10",
       "rating": "觀察",
       "latest_url": "stocks/tw-3703/",
       "url": "stocks/tw-3703/",
@@ -11942,8 +11962,8 @@
       "symbol": "5531",
       "name": "鄉林",
       "industry_group": "建材營造業",
-      "latest_report_date": "2026-08-20",
-      "valid_until": "2026-08-27",
+      "latest_report_date": "2026-09-03",
+      "valid_until": "2026-09-10",
       "rating": "減碼/賣出",
       "latest_url": "stocks/tw-5531/",
       "url": "stocks/tw-5531/",
@@ -11953,7 +11973,7 @@
         "TWSE:5531",
         "鄉林",
         "鄉林建設",
-        "Shining Group"
+        "Shining Building Business"
       ]
     },
     "tw:5534": {
@@ -12480,15 +12500,18 @@
       "symbol": "6166",
       "name": "凌華",
       "industry_group": "電腦及週邊設備業",
-      "latest_report_date": "2026-08-21",
-      "valid_until": "2026-08-28",
+      "latest_report_date": "2026-09-03",
+      "valid_until": "2026-09-10",
       "rating": "觀察",
       "latest_url": "stocks/tw-6166/",
       "url": "stocks/tw-6166/",
       "aliases": [
+        "6166",
+        "6166.TW",
+        "TWSE:6166",
+        "凌華",
         "凌華科技",
-        "ADLINK Technology",
-        "TWSE:6166"
+        "ADLINK Technology"
       ]
     },
     "tw:6168": {
@@ -12680,8 +12703,8 @@
       "symbol": "6196",
       "name": "帆宣",
       "industry_group": "其他電子業",
-      "latest_report_date": "2026-08-26",
-      "valid_until": "2026-09-02",
+      "latest_report_date": "2026-09-03",
+      "valid_until": "2026-09-10",
       "rating": "觀察",
       "latest_url": "stocks/tw-6196/",
       "url": "stocks/tw-6196/",
