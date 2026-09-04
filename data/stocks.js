@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-09-04T09:19:01.816019+00:00",
+  "generated_at": "2026-09-04T09:35:44.943430+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -23708,8 +23708,8 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "ETN",
       "name": "Eaton",
       "industry_group": "電力管理／電氣設備",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "latest_report_date": "2026-09-04",
+      "valid_until": "2026-09-11",
       "rating": "觀察",
       "latest_url": "stocks/us-etn/",
       "url": "stocks/us-etn/",
@@ -23717,7 +23717,8 @@ window.STOCK_INDUSTRY_REPORTS = {
         "ETN",
         "NYSE:ETN",
         "Eaton",
-        "Eaton Corporation plc"
+        "Eaton Corporation plc",
+        "伊頓"
       ]
     },
     "us:eton": {
