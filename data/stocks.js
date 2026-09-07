@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-09-06T00:28:51.495305+00:00",
+  "generated_at": "2026-09-07T00:33:21.009791+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -3766,18 +3766,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "2313",
       "name": "華通",
-      "industry_group": "PCB／衛星",
-      "latest_report_date": "2026-08-28",
-      "valid_until": "2026-09-04",
+      "industry_group": "PCB",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
-      "latest_url": "stocks/tw-2313/2026-08-28.html",
+      "latest_url": "stocks/tw-2313/",
       "url": "stocks/tw-2313/",
       "aliases": [
         "2313",
         "2313.TW",
         "TWSE:2313",
         "華通",
-        "華通電腦",
         "Compeq"
       ]
     },
@@ -8775,20 +8774,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3231",
       "name": "緯創",
-      "industry_group": "AI 伺服器",
-      "latest_report_date": "2026-08-29",
-      "valid_until": "2026-09-05",
+      "industry_group": "AI 伺服器 ODM",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
-      "latest_url": "stocks/tw-3231/2026-08-29.html",
+      "latest_url": "stocks/tw-3231/",
       "url": "stocks/tw-3231/",
       "aliases": [
         "3231",
         "3231.TW",
-        "3231.TWO",
         "TWSE:3231",
-        "緯創",
-        "緯創資通",
-        "Wistron"
+        "緯創"
       ]
     },
     "tw:3234": {
@@ -9040,16 +9036,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "3362",
       "name": "先進光",
       "industry_group": "光學鏡頭",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/tw-3362/",
       "url": "stocks/tw-3362/",
       "aliases": [
         "3362",
-        "3362.TW",
+        "3362.TWO",
         "TPEx:3362",
-        "先進光"
+        "先進光",
+        "ABILITY"
       ]
     },
     "tw:3363": {
@@ -9057,19 +9054,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TPEx",
       "symbol": "3363",
       "name": "上詮",
-      "industry_group": "光通訊",
-      "latest_report_date": "2026-08-28",
-      "valid_until": "2026-09-04",
+      "industry_group": "光通訊／CPO",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
-      "latest_url": "stocks/tw-3363/2026-08-28.html",
+      "latest_url": "stocks/tw-3363/",
       "url": "stocks/tw-3363/",
       "aliases": [
         "3363",
         "3363.TWO",
         "TPEx:3363",
         "上詮",
-        "上詮光纖通信",
-        "FOCI"
+        "上詮光纖"
       ]
     },
     "tw:3374": {
@@ -9674,21 +9670,19 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3605",
       "name": "宏致",
-      "industry_group": "高速連接器",
-      "latest_report_date": "2026-08-30",
-      "valid_until": "2026-09-06",
+      "industry_group": "高速連接器／電子零組件",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/tw-3605/",
       "url": "stocks/tw-3605/",
       "aliases": [
         "3605",
         "3605.TW",
-        "3605.TWO",
         "TWSE:3605",
         "宏致",
         "宏致電子",
-        "ACES",
-        "ACES Electronics"
+        "ACES"
       ]
     },
     "tw:3607": {
@@ -9811,9 +9805,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "3661",
       "name": "世芯-KY",
-      "industry_group": "ASIC",
-      "latest_report_date": "2026-08-22",
-      "valid_until": "2026-08-29",
+      "industry_group": "ASIC／IC 設計服務",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/tw-3661/",
       "url": "stocks/tw-3661/",
@@ -11299,19 +11293,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "tw:4979": {
       "market": "tw",
-      "exchange": "TWSE",
+      "exchange": "TPEx",
       "symbol": "4979",
       "name": "華星光",
       "industry_group": "光通訊",
-      "latest_report_date": "2026-08-26",
-      "valid_until": "2026-09-02",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/tw-4979/",
       "url": "stocks/tw-4979/",
       "aliases": [
         "4979",
-        "4979.TW",
-        "TWSE:4979",
+        "4979.TWO",
+        "TPEx:4979",
         "華星光",
         "LuxNet"
       ]
@@ -13372,10 +13366,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "6442",
       "name": "光聖",
-      "industry_group": "通信網路業",
-      "latest_report_date": "2026-08-25",
-      "valid_until": "2026-09-01",
-      "rating": "分批布局",
+      "industry_group": "光通訊",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
+      "rating": "續抱",
       "latest_url": "stocks/tw-6442/",
       "url": "stocks/tw-6442/",
       "aliases": [
@@ -15338,15 +15332,15 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "TWSE",
       "symbol": "8039",
       "name": "台虹",
-      "industry_group": "FCCL／材料",
-      "latest_report_date": "2026-08-29",
-      "valid_until": "2026-09-05",
+      "industry_group": "軟板材料",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/tw-8039/",
       "url": "stocks/tw-8039/",
       "aliases": [
         "8039",
-        "TW:8039",
+        "8039.TW",
         "TWSE:8039",
         "台虹",
         "台虹科技"
@@ -18432,20 +18426,20 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:asml": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NASDAQ",
       "symbol": "ASML",
-      "name": "ASML Holding",
+      "name": "ASML",
       "industry_group": "半導體設備",
-      "latest_report_date": "2026-08-17",
-      "valid_until": "2026-08-24",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
-      "latest_url": "us-asml/2026-08-17/report.html",
+      "latest_url": "stocks/us-asml/",
       "url": "stocks/us-asml/",
       "aliases": [
         "ASML",
-        "US:ASML",
         "NASDAQ:ASML",
-        "ASML Holding"
+        "ASML Holding",
+        "ASML Holding N.V."
       ]
     },
     "us:aso": {
@@ -21815,20 +21809,20 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:crm": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NYSE",
       "symbol": "CRM",
       "name": "Salesforce",
-      "industry_group": "企業應用軟體／CRM SaaS",
-      "latest_report_date": "2026-08-26",
-      "valid_until": "2026-09-02",
+      "industry_group": "客戶關係管理／AI Agent 平台",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/us-crm/",
       "url": "stocks/us-crm/",
       "aliases": [
         "CRM",
+        "NYSE:CRM",
         "Salesforce",
-        "Salesforce Inc.",
-        "賽富時"
+        "Salesforce Inc."
       ]
     },
     "us:crml": {
@@ -21906,10 +21900,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "CRWV",
-      "name": "CoreWeave",
-      "industry_group": "AI 雲端",
-      "latest_report_date": "2026-08-30",
-      "valid_until": "2026-09-06",
+      "name": "CoreWeave, Inc.",
+      "industry_group": "AI 雲端／GPU 基礎設施",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/us-crwv/",
       "url": "stocks/us-crwv/",
@@ -26534,12 +26528,12 @@ window.STOCK_INDUSTRY_REPORTS = {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "HUBS",
-      "name": "HubSpot, Inc. Common Stock",
-      "industry_group": "客戶關係管理、行銷科技與代理式客戶平台",
-      "latest_report_date": "2026-08-07",
-      "valid_until": "2026-08-14",
-      "rating": "觀察",
-      "latest_url": "stocks/us-hubs/2026-08-07.html",
+      "name": "HubSpot",
+      "industry_group": "CRM／行銷軟體",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
+      "rating": "分批布局",
+      "latest_url": "stocks/us-hubs/",
       "url": "stocks/us-hubs/",
       "aliases": [
         "HUBS",
@@ -30378,21 +30372,19 @@ window.STOCK_INDUSTRY_REPORTS = {
     },
     "us:now": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NYSE",
       "symbol": "NOW",
       "name": "ServiceNow",
-      "industry_group": "企業軟體",
-      "latest_report_date": "2026-08-28",
-      "valid_until": "2026-09-04",
+      "industry_group": "企業工作流",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
-      "latest_url": "stocks/us-now/2026-08-28.html",
+      "latest_url": "stocks/us-now/",
       "url": "stocks/us-now/",
       "aliases": [
         "NOW",
-        "US:NOW",
         "NYSE:NOW",
-        "ServiceNow",
-        "ServiceNow Inc."
+        "ServiceNow"
       ]
     },
     "us:nrg": {
@@ -35626,16 +35618,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NASDAQ",
       "symbol": "TEAM",
       "name": "Atlassian",
-      "industry_group": "企業協作軟體",
-      "latest_report_date": "2026-08-08",
-      "valid_until": "2026-08-15",
+      "industry_group": "協作軟體",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/us-team/",
       "url": "stocks/us-team/",
       "aliases": [
         "TEAM",
         "NASDAQ:TEAM",
-        "Atlassian"
+        "Atlassian",
+        "Atlassian Corporation"
       ]
     },
     "us:teck": {
@@ -37532,9 +37525,9 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NASDAQ",
       "symbol": "WDAY",
       "name": "Workday",
-      "industry_group": "科技／企業人資與財務軟體",
-      "latest_report_date": "2026-07-24",
-      "valid_until": "2026-07-31",
+      "industry_group": "企業軟體",
+      "latest_report_date": "2026-09-07",
+      "valid_until": "2026-09-14",
       "rating": "觀察",
       "latest_url": "stocks/us-wday/",
       "url": "stocks/us-wday/",
