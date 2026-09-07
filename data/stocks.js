@@ -1,5 +1,5 @@
 window.STOCK_INDUSTRY_REPORTS = {
-  "generated_at": "2026-09-07T08:43:28.053564+00:00",
+  "generated_at": "2026-09-07T23:47:39.891281+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -4322,10 +4322,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "2360",
       "name": "致茂",
       "industry_group": "其他電子業",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
       "rating": "續抱",
-      "latest_url": "stocks/tw-2360/2026-08-31.html",
+      "latest_url": "stocks/tw-2360/2026-09-08.html",
       "url": "stocks/tw-2360/",
       "aliases": [
         "2360",
@@ -4572,16 +4572,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "2379",
       "name": "瑞昱",
       "industry_group": "半導體業",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
       "rating": "觀察",
-      "latest_url": "stocks/tw-2379/",
+      "latest_url": "stocks/tw-2379/2026-09-08.html",
       "url": "stocks/tw-2379/",
       "aliases": [
         "2379",
         "2379.TW",
-        "2379.TWO",
-        "TWSE:2379"
+        "TWSE:2379",
+        "瑞昱",
+        "Realtek"
       ]
     },
     "tw:2382": {
@@ -6249,16 +6250,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "2539",
       "name": "櫻花建",
       "industry_group": "建材營造業",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
       "rating": "觀察",
       "latest_url": "stocks/tw-2539/",
       "url": "stocks/tw-2539/",
       "aliases": [
         "2539",
         "2539.TW",
-        "2539.TWO",
-        "TWSE:2539"
+        "TWSE:2539",
+        "櫻花建",
+        "櫻花建設",
+        "SAKURA DEVELOPMENT"
       ]
     },
     "tw:2540": {
@@ -6305,16 +6308,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "2543",
       "name": "皇昌",
       "industry_group": "建材營造業",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
       "rating": "觀察",
       "latest_url": "stocks/tw-2543/",
       "url": "stocks/tw-2543/",
       "aliases": [
         "2543",
         "2543.TW",
-        "2543.TWO",
-        "TWSE:2543"
+        "TWSE:2543",
+        "皇昌",
+        "皇昌營造",
+        "HWANG CHANG"
       ]
     },
     "tw:2546": {
@@ -12126,10 +12131,10 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "5871",
       "name": "中租-KY",
       "industry_group": "其他業",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
       "rating": "觀察",
-      "latest_url": "stocks/tw-5871/2026-08-31.html",
+      "latest_url": "stocks/tw-5871/2026-09-08.html",
       "url": "stocks/tw-5871/",
       "aliases": [
         "5871",
@@ -16318,19 +16323,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "8926",
       "name": "台汽電",
       "industry_group": "油電燃氣業",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
-      "rating": "觀察",
-      "latest_url": "stocks/tw-8926/2026-08-31.html",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
+      "rating": "續抱",
+      "latest_url": "stocks/tw-8926/",
       "url": "stocks/tw-8926/",
       "aliases": [
         "8926",
         "8926.TW",
-        "8926.TWO",
         "TWSE:8926",
         "台汽電",
         "台灣汽電共生",
-        "Taiwan Cogeneration"
+        "Taiwan Cogeneration Corporation"
       ]
     },
     "tw:8996": {
@@ -16359,17 +16363,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "9103",
       "name": "美德醫療-DR",
       "industry_group": "產業代碼 91",
-      "latest_report_date": "2026-08-21",
-      "valid_until": "2026-08-28",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
       "rating": "減碼/賣出",
-      "latest_url": "stocks/tw-9103/",
+      "latest_url": "stocks/tw-9103/2026-09-08.html",
       "url": "stocks/tw-9103/",
       "aliases": [
         "9103",
-        "9103.TW",
         "TWSE:9103",
         "美德醫療-DR",
-        "Medtecs International"
+        "Medtecs",
+        "SGX:546"
       ]
     },
     "tw:9105": {
@@ -17214,15 +17218,16 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "ADI",
       "name": "Analog Devices, Inc. - Common Stock",
       "industry_group": "科技 / 半導體",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
-      "rating": "觀察",
-      "latest_url": "stocks/us-adi/2026-08-31.html",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
+      "rating": "續抱",
+      "latest_url": "stocks/us-adi/2026-09-08.html",
       "url": "stocks/us-adi/",
       "aliases": [
         "ADI",
         "NASDAQ:ADI",
-        "Analog Devices, Inc. - Common Stock"
+        "Analog Devices",
+        "Analog Devices, Inc."
       ]
     },
     "us:adm": {
@@ -27733,15 +27738,17 @@ window.STOCK_INDUSTRY_REPORTS = {
       "symbol": "KEEL",
       "name": "Keel Infrastructure Corp. - Common Stock",
       "industry_group": "金融 / 消費金融服務",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
+      "latest_report_date": "2026-09-08",
+      "valid_until": "2026-09-15",
       "rating": "觀察",
-      "latest_url": "stocks/us-keel/2026-08-31.html",
+      "latest_url": "stocks/us-keel/2026-09-08.html",
       "url": "stocks/us-keel/",
       "aliases": [
         "KEEL",
         "NASDAQ:KEEL",
-        "Keel Infrastructure Corp. - Common Stock"
+        "TSX:KEEL",
+        "Keel Infrastructure",
+        "Bitfarms"
       ]
     },
     "us:key": {
@@ -31640,15 +31647,18 @@ window.STOCK_INDUSTRY_REPORTS = {
       "exchange": "NYSE",
       "symbol": "P",
       "name": "Everpure, Inc. Class A common stock",
-      "industry_group": "科技 / Electronic Components",
-      "latest_report_date": "2026-07-09",
-      "valid_until": "2026-07-16",
+      "industry_group": "科技／企業級資料儲存與管理",
+      "latest_report_date": "2026-09-04",
+      "valid_until": "2026-09-11",
       "rating": "觀察",
-      "latest_url": "stocks/us-p/",
+      "latest_url": "stocks/us-p/2026-09-04.html",
       "url": "stocks/us-p/",
       "aliases": [
         "P",
-        "NYSE:P"
+        "NYSE:P",
+        "PSTG",
+        "Everpure",
+        "Pure Storage"
       ]
     },
     "us:paas": {
