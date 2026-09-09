@@ -1,6 +1,6 @@
 {
   "rating_schema_version": 1,
-  "generated_at": "2026-09-09T10:25:16.487559+00:00",
+  "generated_at": "2026-09-09T23:25:11.130033+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -207,7 +207,7 @@
         "TPEX:3265",
         "台星科"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:6257": {
       "market": "tw",
@@ -232,7 +232,7 @@
         "TPEX:6257",
         "矽格"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:3227": {
       "market": "tw",
@@ -338,7 +338,7 @@
         "TPEX:4971",
         "IET-KY"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:6277": {
       "market": "tw",
@@ -1032,7 +1032,7 @@
         "TPEX:3234",
         "光環"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:4908": {
       "market": "tw",
@@ -5257,7 +5257,7 @@
         "京元電子",
         "KYEC"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:2451": {
       "market": "tw",
@@ -13478,7 +13478,7 @@
         "聯友金屬-創",
         "LIANYOU METALS"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:8422": {
       "market": "tw",
@@ -14097,7 +14097,7 @@
         "台灣高速鐵路",
         "THSRC"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:2634": {
       "market": "tw",
@@ -14825,7 +14825,7 @@
         "TWSE:3006",
         "晶豪科"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:4967": {
       "market": "tw",
@@ -14850,7 +14850,7 @@
         "TPEX:4967",
         "十銓"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "tw:8088": {
       "market": "tw",
@@ -24155,7 +24155,7 @@
         "TPEX:5439",
         "高技"
       ],
-      "freshness_status": "valid"
+      "freshness_status": "expired"
     },
     "us:dell": {
       "market": "us",
@@ -24716,15 +24716,15 @@
       "symbol": "MXL",
       "name": "MaxLinear, Inc - Common Stock",
       "industry_group": "IC 設計與半導體平台",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "6f27222059a25efdde36a16325a6fce0efd16ea873dcb16a7406c2aab387d8cd",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
+      "content_hash": "d51ca46c2b5cc6cd6e626c5ddae59e7d7d12059abfe84f0a6fce663256cd2022",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-mxl/",
       "url": "stocks/us-mxl/",
       "aliases": [
@@ -25052,6 +25052,98 @@
       ],
       "freshness_status": "valid"
     },
+    "us:csr": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CSR",
+      "name": "D/B/A Centerspace Common Stock",
+      "industry_group": "不動產／不動產投資信託",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "e2aa44aa6acb68bdd04434d2f257b15e5df211385b9cdfd978e3a1676b478a54",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-csr/",
+      "url": "stocks/us-csr/",
+      "aliases": [
+        "CSR",
+        "NYSE:CSR"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:ohi": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "OHI",
+      "name": "Omega Healthcare Investors, Inc. Common Stock",
+      "industry_group": "不動產／不動產投資信託",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "續抱",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "4d7e065a38deac1324b038813853cd4c4dbfeb16c95b12cb5bd0f877fe685c62",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ohi/",
+      "url": "stocks/us-ohi/",
+      "aliases": [
+        "OHI",
+        "NYSE:OHI"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:ryn": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "RYN",
+      "name": "Rayonier Inc. REIT Common Stock",
+      "industry_group": "不動產／不動產投資信託",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "d192740c402f71ddab9a6516de43ed6276ddb351edfbda1f430af228098f70f4",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ryn/",
+      "url": "stocks/us-ryn/",
+      "aliases": [
+        "RYN",
+        "NYSE:RYN"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:udr": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "UDR",
+      "name": "UDR, Inc. Common Stock",
+      "industry_group": "不動產／不動產投資信託",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "d6976d455e8ec5de7183c682ffbf349f14bde62cd3c2eed8f12f501c66f20cf7",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-udr/",
+      "url": "stocks/us-udr/",
+      "aliases": [
+        "UDR",
+        "NYSE:UDR"
+      ],
+      "freshness_status": "valid"
+    },
     "us:invh": {
       "market": "us",
       "exchange": "NYSE",
@@ -25121,31 +25213,6 @@
         "EPRT",
         "NYSE:EPRT",
         "Essential Properties Realty Trust"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:ryn": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "RYN",
-      "name": "Rayonier Inc. REIT Common Stock",
-      "industry_group": "不動產／林地 REIT",
-      "latest_report_date": "2026-08-19",
-      "valid_until": "2026-08-26",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "cca17fa483c2f81f73d655eb5307f45b3d3712e5e1ff3b3699f9f46a54bc6509",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-ryn/",
-      "url": "stocks/us-ryn/",
-      "aliases": [
-        "RYN",
-        "NYSE:RYN",
-        "Rayonier",
-        "Rayonier Inc."
       ],
       "freshness_status": "expired"
     },
@@ -25767,23 +25834,22 @@
       "symbol": "DT",
       "name": "Dynatrace, Inc. Common Stock",
       "industry_group": "企業可觀測性與雲端維運軟體",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "213e27daf6125be484c5a81afcb1d56ac158429781f3b451c57623617afc651f",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-dt/2026-08-04.html",
+      "content_hash": "f189ac443d5650e046ba69b986f7c1c0926d162c3f006e5c3cb93f6cbca419ce",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-dt/",
       "url": "stocks/us-dt/",
       "aliases": [
         "DT",
-        "NYSE:DT",
-        "Dynatrace"
+        "NYSE:DT"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:now": {
       "market": "us",
@@ -26127,21 +26193,17 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "DBX",
-      "name": "Dropbox",
+      "name": "Dropbox, Inc. - Class A Common Stock",
       "industry_group": "企業軟體／檔案協作與智慧搜尋",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "2307773cb37ed9714aec6fae34f119405de8f47c94518e568cf1fe1b94f0ff83",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "01e5b4760cd09cde5579322504c6fb0f020c46d228ab7811873c014077a7337c",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-dbx/",
       "url": "stocks/us-dbx/",
       "aliases": [
@@ -26391,29 +26453,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:wrb": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "WRB",
-      "name": "W.R. Berkley Corporation Common Stock",
-      "industry_group": "保險承保、投資與多元控股",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "續抱",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "9157089f3d8f472d9b21e336a2b5c6b5b1b67e90b36baf4758eba1299c4421f6",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-wrb/",
-      "url": "stocks/us-wrb/",
-      "aliases": [
-        "WRB",
-        "NYSE:WRB"
-      ],
-      "freshness_status": "valid"
-    },
     "us:fico": {
       "market": "us",
       "exchange": "US",
@@ -26462,30 +26501,6 @@
         "NASDAQ:HNST",
         "The Honest Company",
         "Honest"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:hpq": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "HPQ",
-      "name": "HP Inc. Common Stock",
-      "industry_group": "個人電腦與列印設備／耗材服務",
-      "latest_report_date": "2026-08-26",
-      "valid_until": "2026-09-02",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "04870aea8a4acc39e33296790d854d664255fe7573d0af23598bd3a3dfb4316a",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-hpq/",
-      "url": "stocks/us-hpq/",
-      "aliases": [
-        "HP Inc.",
-        "HPQ",
-        "NYSE:HPQ"
       ],
       "freshness_status": "expired"
     },
@@ -26775,15 +26790,15 @@
       "symbol": "VIAV",
       "name": "Viavi Solutions Inc. - Common Stock",
       "industry_group": "光通訊、光學元件與射頻材料",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "c97cf4a9b5609295a3c1fcfe880ab39b64660a9016408a56a482adcc5ff33bdf",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
+      "content_hash": "5b238fda43a45ec17dd8fab41abe4e8d44cbadcacc4e530312718ec22c70c8e7",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-viav/",
       "url": "stocks/us-viav/",
       "aliases": [
@@ -27098,30 +27113,6 @@
         "COP",
         "NYSE:COP",
         "ConocoPhillips"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:sw": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "SW",
-      "name": "Smurfit WestRock plc Ordinary Shares",
-      "industry_group": "全球紙基包裝、瓦楞紙箱與 containerboard",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "f72d07c95fd6e89a194708e5164099a7c62f2403f0d0d14899568f720ab0fc4c",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "reports/stock-industry-research/us-sw/2026-08-04/report.html",
-      "url": "stocks/us-sw/",
-      "aliases": [
-        "SW",
-        "Smurfit WestRock",
-        "Smurfit WestRock plc"
       ],
       "freshness_status": "expired"
     },
@@ -27467,29 +27458,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:sune": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "SUNE",
-      "name": "SUNation Energy, Inc. - Common Stock",
-      "industry_group": "公用事業 / 電信設備",
-      "latest_report_date": "2026-07-09",
-      "valid_until": "2026-07-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "170ba0408e13caacfe844e2bb5fd464583732df05549279d46ffaafddbbb43db",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-sune/",
-      "url": "stocks/us-sune/",
-      "aliases": [
-        "SUNE",
-        "NASDAQ:SUNE"
-      ],
-      "freshness_status": "expired"
-    },
     "us:nee": {
       "market": "us",
       "exchange": "NYSE",
@@ -27639,24 +27607,24 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "UGI",
-      "name": "UGI Corporation",
+      "name": "UGI Corporation Common Stock",
       "industry_group": "公用事業／天然氣配送、LPG 與中游能源",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "e1b80a5ce29436e4dcd44d58a1e477e1db1a4cb4919324bc0596e0e3e0b61afa",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "3c735a09f1007067289366e9922d70cb62b97fdbb7803b3fca98025d14d0f832",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-ugi/",
       "url": "stocks/us-ugi/",
       "aliases": [
         "UGI",
         "NYSE:UGI"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:vg": {
       "market": "us",
@@ -27664,24 +27632,45 @@
       "symbol": "VG",
       "name": "Venture Global, Inc. Class A common stock",
       "industry_group": "公用事業／液化天然氣輸送與出口",
-      "latest_report_date": "2026-08-29",
-      "valid_until": "2026-09-05",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "2907e14bb363be2682186ace59348525b75effc6f68fbe44938897bf36346232",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "a72274aacaa4dcf5dd300b7c89338522edf55d391e2f0234cc0bbf319168ff00",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-vg/",
       "url": "stocks/us-vg/",
       "aliases": [
         "VG",
-        "NYSE:VG",
-        "Venture Global",
-        "Venture Global LNG"
+        "NYSE:VG"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
+    },
+    "us:so": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SO",
+      "name": "Southern Company (The) Common Stock",
+      "industry_group": "公用事業／綜合電力",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "4a6588dad5a5edaa792c269838271681600c1c5fe70d7708c1d72925adbcac4c",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-so/",
+      "url": "stocks/us-so/",
+      "aliases": [
+        "SO",
+        "NYSE:SO"
+      ],
+      "freshness_status": "valid"
     },
     "us:cms": {
       "market": "us",
@@ -28135,32 +28124,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:hl": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "HL",
-      "name": "Hecla Mining Company Common Stock",
-      "industry_group": "北美白銀與多金屬礦業",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "078612f3bdfe2fe89eb888a4b6dba6bb95b6a3bffd3d51052c8be5230d2d039b",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-hl/",
-      "url": "stocks/us-hl/",
-      "aliases": [
-        "HL",
-        "NYSE:HL",
-        "Hecla",
-        "Hecla Mining",
-        "Hecla Mining Company"
-      ],
-      "freshness_status": "expired"
-    },
     "us:bns": {
       "market": "us",
       "exchange": "NYSE",
@@ -28211,31 +28174,6 @@
         "Patterson-UTI",
         "Patterson-UTI Energy",
         "Patterson-UTI Energy, Inc."
-      ],
-      "freshness_status": "expired"
-    },
-    "us:penn": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "PENN",
-      "name": "PENN Entertainment, Inc. - Common Stock",
-      "industry_group": "區域賭場、飯店與線上博弈娛樂",
-      "latest_report_date": "2026-08-06",
-      "valid_until": "2026-08-13",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "c2268f40df606a351befdc86427211cf842a7155b4040357a6e2899294b75e96",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "reports/stock-industry-research/us-penn/2026-08-06/report.html",
-      "url": "stocks/us-penn/",
-      "aliases": [
-        "PENN",
-        "NASDAQ:PENN",
-        "PENN Entertainment",
-        "PENN Entertainment, Inc."
       ],
       "freshness_status": "expired"
     },
@@ -28295,15 +28233,15 @@
       "symbol": "AMKR",
       "name": "Amkor Technology, Inc. - Common Stock",
       "industry_group": "半導體封裝與測試",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "25ad62c6b575c68ade06cda0cab84b1b2bbcc836879558b37406e79e071e4b11",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
+      "content_hash": "3d9ea7e44d2601d5116bc87b33eade22f150455e34bdf9d1dacc45c3c387dd36",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-amkr/",
       "url": "stocks/us-amkr/",
       "aliases": [
@@ -28336,46 +28274,21 @@
       ],
       "freshness_status": "expired"
     },
-    "us:aehr": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "AEHR",
-      "name": "Aehr Test Systems",
-      "industry_group": "半導體測試與燒機設備",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "dc9d3d63fb6a41b3862a841a6f1ef0b348f433d12a9805a79a9e1f57e8139719",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-aehr/2026-07-31.html",
-      "url": "stocks/us-aehr/",
-      "aliases": [
-        "AEHR",
-        "NASDAQ:AEHR",
-        "Aehr",
-        "Aehr Test Systems"
-      ],
-      "freshness_status": "expired"
-    },
     "us:amat": {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "AMAT",
       "name": "Applied Materials, Inc. - Common Stock",
       "industry_group": "半導體製程、檢測與測試設備",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "5c73f837562790eca412d4b5215c0c793b68729f8cffba7b4035b580342463e6",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
+      "content_hash": "395c07723db2dd407788e30f39f9c14aee87abff62f0e064c5dd92ddc2606800",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-amat/",
       "url": "stocks/us-amat/",
       "aliases": [
@@ -28427,29 +28340,6 @@
       "aliases": [
         "LRCX",
         "NASDAQ:LRCX"
-      ],
-      "freshness_status": "valid"
-    },
-    "us:ter": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "TER",
-      "name": "Teradyne, Inc. - Common Stock",
-      "industry_group": "半導體製程、檢測與測試設備",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "d801870730a545e4d02fedc1bfc8decd3a6df77c431934d709b6d91ca6d953b2",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-ter/",
-      "url": "stocks/us-ter/",
-      "aliases": [
-        "TER",
-        "NASDAQ:TER"
       ],
       "freshness_status": "valid"
     },
@@ -28627,6 +28517,29 @@
         "Linde plc"
       ],
       "freshness_status": "expired"
+    },
+    "us:hl": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "HL",
+      "name": "Hecla Mining Company Common Stock",
+      "industry_group": "原物料／貴金屬採礦",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "47d6eb32d455a5039bffdd8331744d8c5f9f982a185e56a4f2a621af5b7f9001",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-hl/",
+      "url": "stocks/us-hl/",
+      "aliases": [
+        "HL",
+        "NYSE:HL"
+      ],
+      "freshness_status": "valid"
     },
     "us:zstk": {
       "market": "us",
@@ -29327,6 +29240,167 @@
       ],
       "freshness_status": "expired"
     },
+    "us:agi": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "AGI",
+      "name": "Alamos Gold Inc. Class A Common Shares",
+      "industry_group": "基本材料／貴金屬礦業",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "fcc38e78f36e8de63af8c24db3a38499556b0174bca82fdc90003da8dafa079b",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-agi/",
+      "url": "stocks/us-agi/",
+      "aliases": [
+        "AGI",
+        "NYSE:AGI"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:b": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "B",
+      "name": "Barrick Mining Corporation Common Shares",
+      "industry_group": "基本材料／貴金屬礦業",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "9354825a8af50c8533758bd7e58b6e0ecb5cfabb030cb7a609ec40198651106d",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-b/",
+      "url": "stocks/us-b/",
+      "aliases": [
+        "B",
+        "NYSE:B"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:hmy": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "HMY",
+      "name": "Harmony Gold Mining Company Limited",
+      "industry_group": "基本材料／貴金屬礦業",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "c934b6537e1ff5be6b87b0781b40b597cb0b6d7e1e49841045782b357851b802",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-hmy/",
+      "url": "stocks/us-hmy/",
+      "aliases": [
+        "HMY",
+        "NYSE:HMY"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:nem": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "NEM",
+      "name": "Newmont Corporation",
+      "industry_group": "基本材料／貴金屬礦業",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "f485b05da58db276988b02319db623aaaee4c873ce602eae6594e9985433b084",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-nem/",
+      "url": "stocks/us-nem/",
+      "aliases": [
+        "NEM",
+        "NYSE:NEM"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:fcx": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan, Inc. Common Stock",
+      "industry_group": "基本材料／金屬礦業",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "1225f7092f4770d248f0f8f96a3c688ef2c714421f0eec9c3c3058fd8d9322b7",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-fcx/",
+      "url": "stocks/us-fcx/",
+      "aliases": [
+        "FCX",
+        "NYSE:FCX"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:hbm": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "HBM",
+      "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
+      "industry_group": "基本材料／金屬礦業",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "ad3f1a66bcbe8dd29906f867e9a3de8c5ef5f11a07aedeba13bcf7feee427219",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-hbm/",
+      "url": "stocks/us-hbm/",
+      "aliases": [
+        "HBM",
+        "NYSE:HBM"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:lac": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "LAC",
+      "name": "Lithium Americas Corp. Common Shares",
+      "industry_group": "基本材料／金屬礦業",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "3fc26c26b432274f0e45d5a3306aa2ea5dcdb5bb7d1b902cf9ae2a71946675c3",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-lac/",
+      "url": "stocks/us-lac/",
+      "aliases": [
+        "LAC",
+        "NYSE:LAC"
+      ],
+      "freshness_status": "valid"
+    },
     "us:bwmn": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -29402,31 +29476,6 @@
         "Cleveland-Cliffs Inc. Common Stock"
       ],
       "freshness_status": "valid"
-    },
-    "us:fcx": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "FCX",
-      "name": "Freeport-McMoRan, Inc. Common Stock",
-      "industry_group": "基礎材料 / Metal Mining",
-      "latest_report_date": "2026-07-23",
-      "valid_until": "2026-08-05",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "227f320d9b9b15989377b7492dde60a3d6ab4a36a9d1fc067282b3ad5592f41a",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-fcx/",
-      "url": "stocks/us-fcx/",
-      "aliases": [
-        "FCX",
-        "NYSE:FCX",
-        "Freeport-McMoRan",
-        "Freeport"
-      ],
-      "freshness_status": "expired"
     },
     "us:vale": {
       "market": "us",
@@ -29528,33 +29577,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:agi": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "AGI",
-      "name": "Alamos Gold Inc. Class A Common Shares",
-      "industry_group": "基礎材料 / 貴金屬",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "d3e0a4096ab9eff6c9cef4b551ac705f3bdebc579c5a29e9a65943812d808c0b",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-agi/",
-      "url": "stocks/us-agi/",
-      "aliases": [
-        "AGI",
-        "NYSE:AGI",
-        "TSX:AGI",
-        "Alamos Gold",
-        "Alamos Gold Inc.",
-        "Alamos Gold Inc. Class A Common Shares"
-      ],
-      "freshness_status": "valid"
-    },
     "us:au": {
       "market": "us",
       "exchange": "NYSE",
@@ -29578,35 +29600,6 @@
         "AngloGold Ashanti plc"
       ],
       "freshness_status": "expired"
-    },
-    "us:b": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "B",
-      "name": "Barrick Mining Corporation Common Shares",
-      "industry_group": "基礎材料 / 貴金屬",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "c8e81559ddab8f0fa5e4d46ad74cd100c51194c835ddfea96ab8f8d976c43d06",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-b/",
-      "url": "stocks/us-b/",
-      "aliases": [
-        "B",
-        "NYSE:B",
-        "ABX",
-        "TSX:ABX",
-        "Barrick",
-        "Barrick Mining",
-        "Barrick Mining Corporation",
-        "Barrick Mining Corporation Common Shares"
-      ],
-      "freshness_status": "valid"
     },
     "us:ele": {
       "market": "us",
@@ -29657,29 +29650,6 @@
         "FSM:US"
       ],
       "freshness_status": "expired"
-    },
-    "us:hmy": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "HMY",
-      "name": "Harmony Gold Mining Company Limited",
-      "industry_group": "基礎材料 / 貴金屬",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "6e5486d9198715661a91e869a0b832489daa103a9f16d3d05e8e539dbf3928ff",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-hmy/",
-      "url": "stocks/us-hmy/",
-      "aliases": [
-        "HMY",
-        "NYSE:HMY"
-      ],
-      "freshness_status": "valid"
     },
     "us:iag": {
       "market": "us",
@@ -29737,30 +29707,6 @@
         "Kinross Gold Corporation Common Stock"
       ],
       "freshness_status": "valid"
-    },
-    "us:nem": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "NEM",
-      "name": "Newmont Corporation",
-      "industry_group": "基礎材料 / 貴金屬",
-      "latest_report_date": "2026-07-30",
-      "valid_until": "2026-08-06",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "7ed5783caf073a081c5fa0570d21ed01e8fcf34dfcf6f012ec321735f566c351",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-nem/",
-      "url": "stocks/us-nem/",
-      "aliases": [
-        "NEM",
-        "NYSE:NEM",
-        "Newmont Corporation"
-      ],
-      "freshness_status": "expired"
     },
     "us:paas": {
       "market": "us",
@@ -29860,31 +29806,6 @@
         "NASDAQ:FRVO"
       ],
       "freshness_status": "valid"
-    },
-    "us:udr": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "UDR",
-      "name": "UDR, Inc. Common Stock",
-      "industry_group": "多戶住宅不動產投資信託",
-      "latest_report_date": "2026-07-29",
-      "valid_until": "2026-08-31",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "f2f924642c9e5407f0086d12f0f127c545d63a056b06a293baa7b1094b2f43d6",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-udr/",
-      "url": "stocks/us-udr/",
-      "aliases": [
-        "UDR",
-        "NYSE:UDR",
-        "US:UDR",
-        "UDR, Inc."
-      ],
-      "freshness_status": "expired"
     },
     "us:cnx": {
       "market": "us",
@@ -31305,30 +31226,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:ral": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "RAL",
-      "name": "Ralliant Corporation",
-      "industry_group": "工業 / 工業機械與零組件",
-      "latest_report_date": "2026-07-17",
-      "valid_until": "2026-07-24",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "91b6507d3ae6c05e68e21ad3bb8bc9b1564d08266b69bc96f3020cf36a78cc78",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "reports/stock-industry-research/us-ral/2026-07-17/report.html",
-      "url": "stocks/us-ral/",
-      "aliases": [
-        "RAL",
-        "NYSE:RAL",
-        "Ralliant Corporation"
-      ],
-      "freshness_status": "expired"
-    },
     "us:st": {
       "market": "us",
       "exchange": "NYSE",
@@ -31661,31 +31558,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:gtes": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "GTES",
-      "name": "Gates Industrial Corporation plc",
-      "industry_group": "工業動力傳動與流體動力零組件",
-      "latest_report_date": "2026-07-31",
-      "valid_until": "2026-08-07",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "da403a83b844d573ae59800f7d4b19a6bc1f9b9bd3bd9545db9a0bfc8bd541f7",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-gtes/2026-07-31.html",
-      "url": "stocks/us-gtes/",
-      "aliases": [
-        "GTES",
-        "NYSE:GTES",
-        "Gates Industrial",
-        "Gates Industrial Corporation plc"
-      ],
-      "freshness_status": "expired"
-    },
     "us:ip": {
       "market": "us",
       "exchange": "NYSE",
@@ -31925,29 +31797,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:hbm": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "HBM",
-      "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
-      "industry_group": "工業金屬與礦業",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "66f8ec58d6d50b8aa0988b2333f4465c95b298758c77ca22e337e09b918aac5c",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-hbm/",
-      "url": "stocks/us-hbm/",
-      "aliases": [
-        "HBM",
-        "NYSE:HBM"
-      ],
-      "freshness_status": "valid"
-    },
     "us:mp": {
       "market": "us",
       "exchange": "NYSE",
@@ -32091,6 +31940,75 @@
       ],
       "freshness_status": "expired"
     },
+    "us:aehr": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "AEHR",
+      "name": "Aehr Test Systems - Common Stock",
+      "industry_group": "工業／半導體與電子測試設備",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "07e12a29f9d5d7b2370a1428c1cfbf9909430d723b17a9ef8a7c790d4fe7702d",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-aehr/",
+      "url": "stocks/us-aehr/",
+      "aliases": [
+        "AEHR",
+        "NASDAQ:AEHR"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:ter": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "TER",
+      "name": "Teradyne, Inc. - Common Stock",
+      "industry_group": "工業／半導體與電子測試設備",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "baed847d03d82e019e534279e9a489c3257ebb04bf18977717977ed194df7112",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ter/",
+      "url": "stocks/us-ter/",
+      "aliases": [
+        "TER",
+        "NASDAQ:TER"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:qs": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "QS",
+      "name": "QuantumScape Corporation - Common Stock",
+      "industry_group": "工業／固態電池技術",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "b34ce13c110034cc01d7a6c7665a1de718094d7ce5f6ad1c1c4a0623fe35fed7",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-qs/",
+      "url": "stocks/us-qs/",
+      "aliases": [
+        "QS",
+        "NASDAQ:QS"
+      ],
+      "freshness_status": "valid"
+    },
     "us:mwh": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -32138,6 +32056,98 @@
         "Webus International"
       ],
       "freshness_status": "expired"
+    },
+    "us:gtes": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "GTES",
+      "name": "Gates Industrial Corporation Ltd. Common Shares",
+      "industry_group": "工業／工業機械與零組件",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "b402682ee897bd9f70e548b9452bb978e004722dae0e0c617cae302f6bc12547",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-gtes/",
+      "url": "stocks/us-gtes/",
+      "aliases": [
+        "GTES",
+        "NYSE:GTES"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:jci": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "JCI",
+      "name": "Johnson Controls International plc Ordinary Share",
+      "industry_group": "工業／工業機械與零組件",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "續抱",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "75b87d2d2603f2ab3ef9472f5d4cde7b35e560124c34fc4dca1ae49696aa05f0",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-jci/",
+      "url": "stocks/us-jci/",
+      "aliases": [
+        "JCI",
+        "NYSE:JCI"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:ral": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "RAL",
+      "name": "Ralliant Corporation Common Stock",
+      "industry_group": "工業／工業機械與零組件",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "5f078bb62ed7ef22d4e970ff4ea82a3f6aae450fbb52164b691b245ff55ec9e0",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ral/",
+      "url": "stocks/us-ral/",
+      "aliases": [
+        "RAL",
+        "NYSE:RAL"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:chrw": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc. - Common Stock",
+      "industry_group": "工業／整合貨運與物流",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "0b7f51d266676ef32e27a9f4f4e8e1745d05894df4e82258041d59887dc87290",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-chrw/",
+      "url": "stocks/us-chrw/",
+      "aliases": [
+        "CHRW",
+        "NASDAQ:CHRW"
+      ],
+      "freshness_status": "valid"
     },
     "us:jlhl": {
       "market": "us",
@@ -32211,31 +32221,6 @@
         "Cognex",
         "Cognex Corporation",
         "康耐視"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:cf": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "CF",
-      "name": "CF Industries Holdings, Inc.",
-      "industry_group": "工業／氮肥、農用化學品與氫產品",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "f11ce5289eed4f4686000cd5d08358152b9100c43a360f60f7a435a54b059508",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-cf/",
-      "url": "stocks/us-cf/",
-      "aliases": [
-        "CF",
-        "NYSE:CF",
-        "CF Industries",
-        "CF Industries Holdings, Inc."
       ],
       "freshness_status": "expired"
     },
@@ -32335,31 +32320,6 @@
         "Twin Vee"
       ],
       "freshness_status": "expired"
-    },
-    "us:chrw": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "industry_group": "工業／物流經紀與供應鏈服務",
-      "latest_report_date": "",
-      "valid_until": "2026-07-23",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "a846976af25926f37a903e72725e5db09367a17b164c8c067060f26811419972",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-chrw/",
-      "url": "stocks/us-chrw/",
-      "aliases": [
-        "CHRW",
-        "NASDAQ:CHRW",
-        "US:CHRW",
-        "C.H. Robinson Worldwide, Inc."
-      ],
-      "freshness_status": "unknown"
     },
     "us:hun": {
       "market": "us",
@@ -32487,6 +32447,29 @@
         "Smart Logistics Global"
       ],
       "freshness_status": "expired"
+    },
+    "us:cf": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CF",
+      "name": "CF Industries Holdings, Inc. Common Stock",
+      "industry_group": "工業／農業化學與氮肥",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "dd521fdf7e81dff72b86fb4d33f08f7e9f47c34cf8dbcb77cdde84f5670cdd0a",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-cf/",
+      "url": "stocks/us-cf/",
+      "aliases": [
+        "CF",
+        "NYSE:CF"
+      ],
+      "freshness_status": "valid"
     },
     "us:elva": {
       "market": "us",
@@ -32735,29 +32718,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:jci": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "JCI",
-      "name": "Johnson Controls International plc",
-      "industry_group": "建築系統／空調熱管理與能源效率",
-      "latest_report_date": "2026-09-04",
-      "valid_until": "2026-09-11",
-      "rating": "續抱",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "4a796a9991ce2472ee61f4848a38f736d22327c68e3fcc131ce7a402c1ab3991",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-jci/",
-      "url": "stocks/us-jci/",
-      "aliases": [
-        "JCI",
-        "NYSE:JCI"
-      ],
-      "freshness_status": "valid"
-    },
     "us:ofal": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -33004,33 +32964,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:kr": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "KR",
-      "name": "Kroger Company (The) Common Stock",
-      "industry_group": "必需消費 / Food Chains",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "c60041559a13864403356c347cd08530e5fcf8584d1d2904ee39aea661a7d456",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-kr/",
-      "url": "stocks/us-kr/",
-      "aliases": [
-        "KR",
-        "NYSE:KR",
-        "Kroger",
-        "The Kroger Co.",
-        "Kroger Company",
-        "Kroger Company (The) Common Stock"
-      ],
-      "freshness_status": "valid"
-    },
     "us:mss": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -33051,31 +32984,6 @@
       "aliases": [
         "MSS",
         "NASDAQ:MSS"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:cvs": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "CVS",
-      "name": "CVS Health Corporation Common Stock",
-      "industry_group": "必需消費 / Retail-Drug Stores and Proprietary Stores",
-      "latest_report_date": "2026-09-01",
-      "valid_until": "2026-09-08",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "293288a8e9e2476ed50d9a0988dcf7dd9bb91ecbea03e53587389390cdbffc9e",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-cvs/2026-09-01.html",
-      "url": "stocks/us-cvs/",
-      "aliases": [
-        "CVS",
-        "NYSE:CVS",
-        "CVS Health",
-        "CVS Health Corporation"
       ],
       "freshness_status": "expired"
     },
@@ -33208,32 +33116,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:jbs": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "JBS",
-      "name": "JBS N.V. Class A Common Shares",
-      "industry_group": "必需消費 / 肉類與水產食品",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "7a4dbb757f4a2b1c9074a7d2e9e64874ecb93fa21b641d4e47527a1e18fd9072",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-jbs/",
-      "url": "stocks/us-jbs/",
-      "aliases": [
-        "JBS",
-        "NYSE:JBS",
-        "JBS N.V.",
-        "JBS Class A",
-        "JBS N.V. Class A Common Shares"
-      ],
-      "freshness_status": "valid"
-    },
     "us:abev": {
       "market": "us",
       "exchange": "NYSE",
@@ -33257,32 +33139,6 @@
         "Ambev",
         "Ambev S.A.",
         "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)"
-      ],
-      "freshness_status": "valid"
-    },
-    "us:celh": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "CELH",
-      "name": "Celsius Holdings, Inc. - Common Stock",
-      "industry_group": "必需消費 / 飲料製造與分銷",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "f6cff90a3fb242b70ed52f13f83c4d6ece78167eaf30634ec40fb8756f940b8f",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-celh/",
-      "url": "stocks/us-celh/",
-      "aliases": [
-        "CELH",
-        "NASDAQ:CELH",
-        "Celsius",
-        "Celsius Holdings",
-        "Celsius Holdings, Inc. - Common Stock"
       ],
       "freshness_status": "valid"
     },
@@ -33405,31 +33261,6 @@
         "NASDAQ:SNDK"
       ],
       "freshness_status": "valid"
-    },
-    "us:sls": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "SLS",
-      "name": "SELLAS Life Sciences Group, Inc. - Common Stock",
-      "industry_group": "急性骨髓性白血病臨床生技",
-      "latest_report_date": "2026-08-12",
-      "valid_until": "2026-08-19",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "cd606a7aa9af1111fe333ef4b9f080c7bdd94688df48e2d99cbaf842e137fbd4",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-sls/2026-08-12.html",
-      "url": "stocks/us-sls/",
-      "aliases": [
-        "SLS",
-        "NASDAQ:SLS",
-        "SELLAS",
-        "SELLAS Life Sciences"
-      ],
-      "freshness_status": "expired"
     },
     "us:qnst": {
       "market": "us",
@@ -34912,24 +34743,24 @@
     },
     "us:gfs": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NASDAQ",
       "symbol": "GFS",
-      "name": "GlobalFoundries",
+      "name": "GlobalFoundries Inc. - Ordinary Share",
       "industry_group": "晶圓代工",
-      "latest_report_date": "2026-09-08",
-      "valid_until": "2026-09-15",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "4d30b01c918917caf556c335b6a553db1cb082158727d247039ee6353f05f8e6",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "7630e410e15d28449ad6be896550d60e5f0d5c29ba7bc1d22b117cb723f0dac4",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-gfs/",
       "url": "stocks/us-gfs/",
       "aliases": [
         "GFS",
-        "US:GFS"
+        "NASDAQ:GFS"
       ],
       "freshness_status": "valid"
     },
@@ -35392,29 +35223,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:mdlz": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "MDLZ",
-      "name": "Mondelez International, Inc. - Class A Common Stock",
-      "industry_group": "民生消費、食品與包裝",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "c9021c4d5e52d2cfbcb686cc15c120df15f5046458b901b59b930c76ed7d076e",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-mdlz/",
-      "url": "stocks/us-mdlz/",
-      "aliases": [
-        "MDLZ",
-        "NASDAQ:MDLZ"
-      ],
-      "freshness_status": "valid"
-    },
     "us:wyhg": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -35487,6 +35295,29 @@
         "The Kraft Heinz Company"
       ],
       "freshness_status": "expired"
+    },
+    "us:mdlz": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "MDLZ",
+      "name": "Mondelez International, Inc. - Class A Common Stock",
+      "industry_group": "民生消費／包裝食品",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "acbf68dc337ad9fb7bac3a2a878b0da8d0d3e4fcb44461561e1fbf8c3a7f58f0",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-mdlz/",
+      "url": "stocks/us-mdlz/",
+      "aliases": [
+        "MDLZ",
+        "NASDAQ:MDLZ"
+      ],
+      "freshness_status": "valid"
     },
     "us:mkc": {
       "market": "us",
@@ -35564,6 +35395,52 @@
       ],
       "freshness_status": "expired"
     },
+    "us:jbs": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "JBS",
+      "name": "JBS N.V. Class A Common Shares",
+      "industry_group": "民生消費／肉品與蛋白質食品",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "fe7f664242ed6e905f81b26875bad5918af32081e3c02b6b9d380e1eb1c678e9",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-jbs/",
+      "url": "stocks/us-jbs/",
+      "aliases": [
+        "JBS",
+        "NYSE:JBS"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:tsn": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "TSN",
+      "name": "Tyson Foods, Inc. Common Stock",
+      "industry_group": "民生消費／肉品與蛋白質食品",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "fd1bde1d8b98d5c587e9910aff213a2c7cfb00e637412e522f50397d7c98e769",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-tsn/",
+      "url": "stocks/us-tsn/",
+      "aliases": [
+        "TSN",
+        "NYSE:TSN"
+      ],
+      "freshness_status": "valid"
+    },
     "us:bti": {
       "market": "us",
       "exchange": "NYSE",
@@ -35586,6 +35463,29 @@
         "US:BTI"
       ],
       "freshness_status": "expired"
+    },
+    "us:cvs": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CVS",
+      "name": "CVS Health Corporation Common Stock",
+      "industry_group": "民生消費／藥局與健康零售",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "89a93aa66dc893d2c3022ecf5b1d697aecb7b354b903f201774b5d3dcdfe743e",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-cvs/",
+      "url": "stocks/us-cvs/",
+      "aliases": [
+        "CVS",
+        "NYSE:CVS"
+      ],
+      "freshness_status": "valid"
     },
     "us:adm": {
       "market": "us",
@@ -35618,25 +35518,46 @@
       "exchange": "NYSE",
       "symbol": "ACI",
       "name": "Albertsons Companies, Inc. Class A Common Stock",
-      "industry_group": "民生消費／連鎖食品零售",
-      "latest_report_date": "2026-08-29",
-      "valid_until": "2026-09-05",
+      "industry_group": "民生消費／食品零售",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "a3e2afb9f6e5778ffcb5e4ffc827b55907dccc490dbffb639a0975115e4df2f8",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-aci/latest.html",
+      "content_hash": "f18ae34d21f0ce8af4e49e865c3497e0c6424777db30a8fc780685b2c9d9cf3e",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-aci/",
       "url": "stocks/us-aci/",
       "aliases": [
         "ACI",
-        "Albertsons",
-        "Albertsons Companies",
-        "Albertsons Companies, Inc. Class A Common Stock"
+        "NYSE:ACI"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
+    },
+    "us:kr": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "KR",
+      "name": "Kroger Company (The) Common Stock",
+      "industry_group": "民生消費／食品零售",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "79eed1b6181489850f367ee55286389a2782c2dd6868a81090b6e168d46f489c",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-kr/",
+      "url": "stocks/us-kr/",
+      "aliases": [
+        "KR",
+        "NYSE:KR"
+      ],
+      "freshness_status": "valid"
     },
     "us:bud": {
       "market": "us",
@@ -35687,6 +35608,29 @@
         "PepsiCo, Inc. - Common Stock"
       ],
       "freshness_status": "expired"
+    },
+    "us:celh": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CELH",
+      "name": "Celsius Holdings, Inc. - Common Stock",
+      "industry_group": "民生消費／飲料製造與通路",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "25940f40a9171502b65f048426e16e5e8776736e0321236b8c09c992c40b02e1",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-celh/",
+      "url": "stocks/us-celh/",
+      "aliases": [
+        "CELH",
+        "NASDAQ:CELH"
+      ],
+      "freshness_status": "valid"
     },
     "us:fcel": {
       "market": "us",
@@ -36195,29 +36139,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:eqnr": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "EQNR",
-      "name": "Equinor ASA",
-      "industry_group": "油氣開採與一體化能源",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "03ff3a1ce1377fd34733d5218ca02aba2397acef18457e8bffd84d9161fd13b9",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-eqnr/",
-      "url": "stocks/us-eqnr/",
-      "aliases": [
-        "EQNR",
-        "NYSE:EQNR"
-      ],
-      "freshness_status": "valid"
-    },
     "us:fang": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -36284,29 +36205,6 @@
       "aliases": [
         "SHEL",
         "NYSE:SHEL"
-      ],
-      "freshness_status": "valid"
-    },
-    "us:su": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "SU",
-      "name": "Suncor Energy Inc. Common Stock",
-      "industry_group": "油氣開採與一體化能源",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "c0d1d62c905e1cf842d74eac0a64ff220ffcaed9fbedffbd82decd1fde47d215",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-su/",
-      "url": "stocks/us-su/",
-      "aliases": [
-        "SU",
-        "NYSE:SU"
       ],
       "freshness_status": "valid"
     },
@@ -37358,22 +37256,22 @@
       "symbol": "ON",
       "name": "ON Semiconductor Corporation - Common Stock",
       "industry_group": "科技 / 半導體",
-      "latest_report_date": "2026-09-01",
-      "valid_until": "2026-09-08",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "b4399fe25a31a632e41adbde432d2d4255b85108e6fd297727d73c79c512d27d",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-on/2026-09-01.html",
+      "content_hash": "df6d36103f5888d754eba54d14d19c91c926a1b7e26ab7b113aa6fe8ae6ada9b",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-on/",
       "url": "stocks/us-on/",
       "aliases": [
         "ON",
         "NASDAQ:ON"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:q": {
       "market": "us",
@@ -37407,21 +37305,20 @@
       "symbol": "SEDG",
       "name": "SolarEdge Technologies, Inc. - Common Stock",
       "industry_group": "科技 / 半導體",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "e5fa3f44e00ce230215c7b64480aee4384fd511ae9d3d075d47821d333d9f575",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "d9f387ce81e3994c771d598f2f2201123dd2c6c206f661bfb5bf262a7d77c1f2",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-sedg/",
       "url": "stocks/us-sedg/",
       "aliases": [
         "SEDG",
-        "NASDAQ:SEDG",
-        "SolarEdge Technologies, Inc. - Common Stock"
+        "NASDAQ:SEDG"
       ],
       "freshness_status": "valid"
     },
@@ -37580,26 +37477,22 @@
       "symbol": "ASAN",
       "name": "Asana, Inc. Class A Common Stock",
       "industry_group": "科技 / 套裝軟體",
-      "latest_report_date": "2026-06-29",
-      "valid_until": "2026-07-06",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "76588bd82b64720da7ed18a0b64f5d958c538b454b3a1977181d9c8082261194",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "33cf4f55e00aba6dcb9aaff0eb15d4b0845780fe0da92a2d8b97fe025a29b273",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-asan/",
       "url": "stocks/us-asan/",
       "aliases": [
         "ASAN",
-        "Asana",
-        "Asana Inc.",
-        "Asana, Inc.",
-        "NYSE:ASAN",
-        "美股:ASAN"
+        "NYSE:ASAN"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:avpt": {
       "market": "us",
@@ -37808,24 +37701,20 @@
       "symbol": "NET",
       "name": "Cloudflare, Inc. Class A Common Stock",
       "industry_group": "科技 / 套裝軟體",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "09203de2e247fabe484d5c4acaeb7c23b7accd116bd735fcf4917452f8d81df9",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "6354a2f64dd99a8018badbbca2a80b7c868faa46718bd6eef1011b74e3e26363",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-net/",
       "url": "stocks/us-net/",
       "aliases": [
         "NET",
-        "Cloudflare, Inc. Class A Common Stock"
+        "NYSE:NET"
       ],
       "freshness_status": "valid"
     },
@@ -38033,28 +37922,24 @@
     },
     "us:shop": {
       "market": "us",
-      "exchange": "US",
+      "exchange": "NASDAQ",
       "symbol": "SHOP",
       "name": "Shopify Inc. - Class A Subordinate Voting Shares",
       "industry_group": "科技 / 套裝軟體",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "93bf8c2eff8e7d6c642cad217d3fc53bccc3bce7cf737c2b2dbc122ba91bf450",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "44c7493ebf254d3b6a8e997e0f59ddc50ed5364d08e764a46b0e82c0fa7201a9",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-shop/",
       "url": "stocks/us-shop/",
       "aliases": [
         "SHOP",
-        "NASDAQ:SHOP",
-        "TSX:SHOP",
-        "Shopify",
-        "Shopify Inc.",
-        "Shopify Inc. - Class A Subordinate Voting Shares"
+        "NASDAQ:SHOP"
       ],
       "freshness_status": "valid"
     },
@@ -38268,24 +38153,20 @@
       "symbol": "GOOG",
       "name": "Alphabet Inc. - Class C Capital Stock",
       "industry_group": "科技 / 程式設計與資料處理軟體",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "718fbed62fcf2dd83cad99db5aa6d5facab2d1d24f583eb11d44f3134f37b06c",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "c3f5334ea29fc83d66467a92407a405b80e59b3c5936d713d893998a536bc2e7",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-goog/",
       "url": "stocks/us-goog/",
       "aliases": [
         "GOOG",
-        "NASDAQ:GOOG",
-        "Alphabet",
-        "Google",
-        "Alphabet Class C",
-        "Alphabet Inc. - Class C Capital Stock"
+        "NASDAQ:GOOG"
       ],
       "freshness_status": "valid"
     },
@@ -38821,24 +38702,22 @@
       "symbol": "KVYO",
       "name": "Klaviyo, Inc. Series A Common Stock",
       "industry_group": "科技／B2C 客戶關係管理與行銷自動化軟體",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "fcb8084353e36f53c363883d49ab9af8df7151e053f27446af4c3df4fd7f5407",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "636b88db3f36501be4ac212bce08b57f2760d72fd0344d07f868245a5c621150",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-kvyo/",
       "url": "stocks/us-kvyo/",
       "aliases": [
         "KVYO",
-        "NYSE:KVYO",
-        "Klaviyo",
-        "Klaviyo, Inc."
+        "NYSE:KVYO"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:bz": {
       "market": "us",
@@ -38893,23 +38772,22 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "ALAB",
-      "name": "Astera Labs",
+      "name": "Astera Labs, Inc. - Common Stock",
       "industry_group": "科技／人工智慧資料中心高速互連半導體",
-      "latest_report_date": "2026-09-04",
-      "valid_until": "2026-09-11",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "續抱",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "c8868edcdfab07f898ab7ca5102442be904f5b0211854cb722b4ccff3d9cff71",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "https://www.nasdaq.com/market-activity/stocks/alab",
+      "content_hash": "6b32abf6b891e7a7b967bd12fa54f0b74100d9fa76b088467cc314832bd2f923",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-alab/",
       "url": "stocks/us-alab/",
       "aliases": [
         "ALAB",
-        "NASDAQ:ALAB",
-        "Astera Labs"
+        "NASDAQ:ALAB"
       ],
       "freshness_status": "valid"
     },
@@ -39042,28 +38920,24 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "IBM",
-      "name": "國際商業機器公司",
+      "name": "International Business Machines Corporation Common Stock",
       "industry_group": "科技／企業軟體、混合雲與 IT 服務",
-      "latest_report_date": "2026-08-29",
-      "valid_until": "2026-09-05",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "續抱",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "cb1915f83bf8a8f542ce4889aad43e00e0611c00c28d95a992865819596064ac",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "352c1cee1d2296a553bd42718cb3e84728176dd3320582edbfe37694808a8de8",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-ibm/",
       "url": "stocks/us-ibm/",
       "aliases": [
         "IBM",
-        "NYSE:IBM",
-        "International Business Machines",
-        "International Business Machines Corporation",
-        "國際商業機器公司",
-        "國際商業機器"
+        "NYSE:IBM"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:ccc": {
       "market": "us",
@@ -39088,30 +38962,51 @@
       ],
       "freshness_status": "expired"
     },
+    "us:hpq": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "HPQ",
+      "name": "HP Inc. Common Stock",
+      "industry_group": "科技／個人電腦與列印設備",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "c2db50cf743b1e8c8931b0e5756b306598af2ed48805c43385389bd20fb21151",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-hpq/",
+      "url": "stocks/us-hpq/",
+      "aliases": [
+        "HPQ",
+        "NYSE:HPQ"
+      ],
+      "freshness_status": "valid"
+    },
     "us:vsh": {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "VSH",
       "name": "Vishay Intertechnology, Inc. Common Stock",
       "industry_group": "科技／分立半導體與被動電子元件",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "cf21262b0779d6bb0ed9d27ccdd9f5602af00b409a465eb59a3f7d998e0b898c",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-vsh/2026-08-27.html",
+      "content_hash": "5966d029e5f415b6a7beea2694097861abdb215f87e3af83de2f0e9ccc99270a",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-vsh/",
       "url": "stocks/us-vsh/",
       "aliases": [
         "VSH",
-        "NYSE:VSH",
-        "Vishay",
-        "Vishay Intertechnology"
+        "NYSE:VSH"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:algm": {
       "market": "us",
@@ -39143,21 +39038,20 @@
       "symbol": "ARM",
       "name": "Arm Holdings plc - American Depositary Shares",
       "industry_group": "科技／半導體",
-      "latest_report_date": "2026-09-04",
-      "valid_until": "2026-09-11",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "1e607fd5d040fdf25d9216dec35a5b62a0bec9db9a4a559c32b7549631bdaaab",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "https://www.nasdaq.com/market-activity/stocks/arm",
+      "content_hash": "381ef304f88f156d0a558072b1fd5de3472e8ee9b9240ceec85a5eecf5284b66",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-arm/",
       "url": "stocks/us-arm/",
       "aliases": [
         "ARM",
-        "Arm Holdings",
-        "Arm"
+        "NASDAQ:ARM"
       ],
       "freshness_status": "valid"
     },
@@ -39215,25 +39109,24 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "BSY",
-      "name": "Bentley Systems",
+      "name": "Bentley Systems, Incorporated - Class B Common Stock",
       "industry_group": "科技／基礎設施工程軟體",
-      "latest_report_date": "2026-08-19",
-      "valid_until": "2026-08-26",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "79e988150c93e052520aa6e0c66cc3616fc86410202a887a89e00bd014b8ad12",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "d90f7f3c2d4ac0946a11e0d3613afe5fee390f8cd0f40e593366d81eb99d1d5b",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-bsy/",
       "url": "stocks/us-bsy/",
       "aliases": [
         "BSY",
-        "NASDAQ:BSY",
-        "Bentley Systems"
+        "NASDAQ:BSY"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:fig": {
       "market": "us",
@@ -39241,23 +39134,22 @@
       "symbol": "FIG",
       "name": "Figma, Inc. Class A Common Stock",
       "industry_group": "科技／套裝軟體",
-      "latest_report_date": "2026-08-14",
-      "valid_until": "2026-08-21",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "分批布局",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "30a2b4da8379789666d8d69fa9e0dde66df57020b9a0ef25068272ca2d6057f9",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "5c6a6f5929b0671d04062a4a827f24b4174daee3d244ebb31e43b6d6c169a2fa",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-fig/",
       "url": "stocks/us-fig/",
       "aliases": [
         "FIG",
-        "Figma",
-        "Figma Inc."
+        "NYSE:FIG"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:frsh": {
       "market": "us",
@@ -39437,24 +39329,22 @@
       "symbol": "MTCH",
       "name": "Match Group, Inc. - Common Stock",
       "industry_group": "科技／消費網路與資料處理服務",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "c8ab931cd2e75ab17037890091b82156d0d0911299915c7e9334ab0091161c33",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "b55e3787e356e45601014443104402a79319c7194e5709690a80f3e5d457d806",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-mtch/",
       "url": "stocks/us-mtch/",
       "aliases": [
         "MTCH",
-        "Match Group",
-        "Tinder",
-        "Hinge"
+        "NASDAQ:MTCH"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:ntnx": {
       "market": "us",
@@ -39635,24 +39525,22 @@
       "symbol": "DDOG",
       "name": "Datadog, Inc. - Class A Common Stock",
       "industry_group": "科技／雲端可觀測性與資安軟體",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "1bd5d04ab71bd0631d0d87110cdd96127e6a78a54d4e09351079f32b86d5c359",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "4d1e018cd51fd34ab27b3e9b6adb365030eb29a82e6c4fdcb63bbf48add98b4d",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-ddog/",
       "url": "stocks/us-ddog/",
       "aliases": [
         "DDOG",
-        "NASDAQ:DDOG",
-        "Datadog",
-        "Datadog, Inc."
+        "NASDAQ:DDOG"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:fivn": {
       "market": "us",
@@ -39874,24 +39762,24 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "BRZE",
-      "name": "Braze, Inc.",
+      "name": "Braze, Inc. - Class A Common Stock",
       "industry_group": "科技／顧客互動與行銷自動化 SaaS",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "af89c538b1dc113d2cb99fe9506dd7b26147e73c55d6de99b1ecd6bb4c2a633c",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "68f3f05191d0264b800d0f0c4c753f47d1ede9ff1ab2458e1a2405228e803324",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-brze/",
       "url": "stocks/us-brze/",
       "aliases": [
         "BRZE",
         "NASDAQ:BRZE"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:tost": {
       "market": "us",
@@ -40114,31 +40002,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:beam": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "BEAM",
-      "name": "Beam Therapeutics Inc. - Common Stock",
-      "industry_group": "精準基因編輯與罕見疾病治療",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-26",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "e732d87e9dd6b41fc683f915bf2cead3f5c8854a72dd3bac022fb29e88441559",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-beam/",
-      "url": "stocks/us-beam/",
-      "aliases": [
-        "BEAM",
-        "NASDAQ:BEAM",
-        "Beam Therapeutics",
-        "Beam Therapeutics Inc."
-      ],
-      "freshness_status": "expired"
-    },
     "us:oric": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -40243,51 +40106,43 @@
       "symbol": "CSCO",
       "name": "Cisco Systems, Inc. - Common Stock",
       "industry_group": "網路通訊設備、人工智慧資料中心與資安平台",
-      "latest_report_date": "2026-08-22",
-      "valid_until": "2026-08-29",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "b744509359820dbddb038bdf0759156f9f01cc7b118119f09fcee9a5894082dd",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-csco/2026-08-22.html",
+      "content_hash": "6d837ee8a8eb6a5b7849cfb444173868195cb826265dd6fb2cac209baffd949b",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-csco/",
       "url": "stocks/us-csco/",
       "aliases": [
         "CSCO",
-        "NASDAQ:CSCO",
-        "Cisco",
-        "Cisco Systems",
-        "思科"
+        "NASDAQ:CSCO"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:googl": {
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "GOOGL",
-      "name": "Alphabet",
+      "name": "Alphabet Inc. - Class A Common Stock",
       "industry_group": "網路／雲端",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "續抱",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "30d117520b97877aa3e5641e5f81102f89173c07f97f522baca84497995c82df",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "575615c4abb4883e9918f6d233bca8296db78fdff3e629392a23468621af3cc7",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-googl/",
       "url": "stocks/us-googl/",
       "aliases": [
         "GOOGL",
-        "US:GOOGL",
-        "GOOG",
-        "NASDAQ:GOOGL",
-        "Alphabet",
-        "Google",
-        "谷歌"
+        "NASDAQ:GOOGL"
       ],
       "freshness_status": "valid"
     },
@@ -40439,31 +40294,6 @@
         "NASDAQ:TVTX",
         "Travere Therapeutics",
         "Travere"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:crgy": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "CRGY",
-      "name": "Crescent Energy Company",
-      "industry_group": "美國多盆地油氣探勘生產與礦權",
-      "latest_report_date": "2026-06-30",
-      "valid_until": "2026-08-13",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "cc7586696d6852aed914a9d6cdfc46c945376801d099222913751b279573556b",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-crgy/",
-      "url": "stocks/us-crgy/",
-      "aliases": [
-        "CRGY",
-        "NYSE:CRGY",
-        "Crescent Energy",
-        "Crescent Energy Company"
       ],
       "freshness_status": "expired"
     },
@@ -40640,32 +40470,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:enb": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "ENB",
-      "name": "Enbridge Inc Common Stock",
-      "industry_group": "能源 / Natural Gas Distribution",
-      "latest_report_date": "2026-07-29",
-      "valid_until": "2026-08-05",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "809660509088991bc5f64ca200c4c12cd5574dc407d2ba78355d61daa85e89c9",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-enb/",
-      "url": "stocks/us-enb/",
-      "aliases": [
-        "ENB",
-        "NYSE:ENB",
-        "TSX:ENB",
-        "Enbridge",
-        "Enbridge Inc."
-      ],
-      "freshness_status": "expired"
-    },
     "us:bte": {
       "market": "us",
       "exchange": "NYSE",
@@ -40836,30 +40640,6 @@
         "EC",
         "NYSE:EC",
         "Ecopetrol"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:eog": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "EOG",
-      "name": "EOG Resources, Inc. Common Stock",
-      "industry_group": "能源 / 油氣生產",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "1befb4e3da969d85b2235a91329055cbe45ffb0c69df53b421af75506586b39c",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-eog/2026-08-31.html",
-      "url": "stocks/us-eog/",
-      "aliases": [
-        "EOG",
-        "NYSE:EOG",
-        "EOG Resources, Inc. Common Stock"
       ],
       "freshness_status": "expired"
     },
@@ -41152,6 +40932,29 @@
       ],
       "freshness_status": "expired"
     },
+    "us:enb": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "ENB",
+      "name": "Enbridge Inc Common Stock",
+      "industry_group": "能源／天然氣輸配",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "61a9486dde5b1cff9838e5061128b0ef047f15ce46f3d6d897fb3599fd228400",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-enb/",
+      "url": "stocks/us-enb/",
+      "aliases": [
+        "ENB",
+        "NYSE:ENB"
+      ],
+      "freshness_status": "valid"
+    },
     "us:tte": {
       "market": "us",
       "exchange": "NYSE",
@@ -41279,59 +41082,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:cnq": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "CNQ",
-      "name": "Canadian Natural Resources Limited Common Stock",
-      "industry_group": "能源／油氣生產",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "4a6cbe391e4ed950adf3dd382da04504eabf58fd4a378a6160bf0f7c91ad2cc0",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-cnq/2026-08-27.html",
-      "url": "stocks/us-cnq/",
-      "aliases": [
-        "CNQ",
-        "NYSE:CNQ",
-        "TSX:CNQ",
-        "Canadian Natural Resources",
-        "Canadian Natural Resources Limited"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:cve": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "CVE",
-      "name": "Cenovus Energy Inc Common Stock",
-      "industry_group": "能源／油氣生產與整合煉製",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "82625cf0c54282b18d654bbe84308811f29a73a293f11d360ab6106b6bc7e327",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-cve/2026-08-27.html",
-      "url": "stocks/us-cve/",
-      "aliases": [
-        "CVE",
-        "NYSE:CVE",
-        "TSX:CVE",
-        "Cenovus",
-        "Cenovus Energy",
-        "Cenovus Energy Inc."
-      ],
-      "freshness_status": "expired"
-    },
     "us:nov": {
       "market": "us",
       "exchange": "NYSE",
@@ -41455,6 +41205,98 @@
       ],
       "freshness_status": "expired"
     },
+    "us:cnq": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CNQ",
+      "name": "Canadian Natural Resources Limited Common Stock",
+      "industry_group": "能源／石油與天然氣生產",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "ca18ce8dcff9bba447119cacd7ebcddd29ff019b556748e27a131bc86e3c7e2f",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-cnq/",
+      "url": "stocks/us-cnq/",
+      "aliases": [
+        "CNQ",
+        "NYSE:CNQ"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:crgy": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CRGY",
+      "name": "Crescent Energy Company Class A Common Stock",
+      "industry_group": "能源／石油與天然氣生產",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "88ac1aaeb289cb4bebc30fac91d9cbec091b4b53f3a353b75fbc00b35db84110",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-crgy/",
+      "url": "stocks/us-crgy/",
+      "aliases": [
+        "CRGY",
+        "NYSE:CRGY"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:cve": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CVE",
+      "name": "Cenovus Energy Inc Common Stock",
+      "industry_group": "能源／石油與天然氣生產",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "bf518a2b8a211e7ce3c85cd55828cda96592205c2f616952333a19aeb82f5009",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-cve/",
+      "url": "stocks/us-cve/",
+      "aliases": [
+        "CVE",
+        "NYSE:CVE"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:eog": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "EOG",
+      "name": "EOG Resources, Inc. Common Stock",
+      "industry_group": "能源／石油與天然氣生產",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "8a80d781289df151cabccec43bd5e952b6a158deb17768b08bb50af090eacce2",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-eog/",
+      "url": "stocks/us-eog/",
+      "aliases": [
+        "EOG",
+        "NYSE:EOG"
+      ],
+      "freshness_status": "valid"
+    },
     "us:oxy": {
       "market": "us",
       "exchange": "NYSE",
@@ -41507,6 +41349,29 @@
       ],
       "freshness_status": "expired"
     },
+    "us:sm": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SM",
+      "name": "SM Energy Company Common Stock",
+      "industry_group": "能源／石油與天然氣生產",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "68ba0f249209053bd712999c51e4d10a0a83365cc253043142108bdf70f4fcd2",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-sm/",
+      "url": "stocks/us-sm/",
+      "aliases": [
+        "SM",
+        "NYSE:SM"
+      ],
+      "freshness_status": "valid"
+    },
     "us:cvx": {
       "market": "us",
       "exchange": "NYSE",
@@ -41532,30 +41397,74 @@
       ],
       "freshness_status": "expired"
     },
-    "us:sm": {
+    "us:eqnr": {
       "market": "us",
       "exchange": "NYSE",
-      "symbol": "SM",
-      "name": "SM Energy Company",
-      "industry_group": "能源／美國頁岩油氣生產",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
+      "symbol": "EQNR",
+      "name": "Equinor ASA",
+      "industry_group": "能源／綜合油氣",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "6f30cb37bd33a1feb1869b4df88946d16153848a341d4ee622eeb43dab78ef51",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-sm/",
-      "url": "stocks/us-sm/",
+      "content_hash": "1324795633db76b8cc9fa1901ce00cabda5482a71c684c85365d3ae415c01742",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-eqnr/",
+      "url": "stocks/us-eqnr/",
       "aliases": [
-        "NYSE:SM",
-        "SM",
-        "SM Energy Company",
-        "SM Energy"
+        "EQNR",
+        "NYSE:EQNR"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
+    },
+    "us:su": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SU",
+      "name": "Suncor Energy Inc. Common Stock",
+      "industry_group": "能源／綜合油氣",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "432a4adbe2e2625905993f441f4243474d7fdd6d4aa7edd9750bf3f9016275f5",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-su/",
+      "url": "stocks/us-su/",
+      "aliases": [
+        "SU",
+        "NYSE:SU"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:ufg": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "UFG",
+      "name": "Uni-Fuels Holdings Limited - Class A Ordinary Shares",
+      "industry_group": "能源／船用燃料供應與行銷",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "減碼/賣出",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "f3f14d33b421f5e0dd1f02de33fc6b8e26dada83b69ff1591f3610cdfe8fdde1",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ufg/",
+      "url": "stocks/us-ufg/",
+      "aliases": [
+        "UFG",
+        "NASDAQ:UFG"
+      ],
+      "freshness_status": "valid"
     },
     "us:rcus": {
       "market": "us",
@@ -42005,29 +41914,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:teva": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "TEVA",
-      "name": "Teva Pharmaceutical Industries Limited American Depositary Shares",
-      "industry_group": "藥品銷售、學名藥與商業化生技",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "a5caf125fcf11bc3dce2ee942b5037f470ad298bfb8357af695839b619bbec48",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-teva/",
-      "url": "stocks/us-teva/",
-      "aliases": [
-        "TEVA",
-        "NYSE:TEVA"
-      ],
-      "freshness_status": "valid"
-    },
     "us:amd": {
       "market": "us",
       "exchange": "US",
@@ -42338,25 +42224,24 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "INTU",
-      "name": "Intuit Inc.",
+      "name": "Intuit Inc. - Common Stock",
       "industry_group": "財務軟體",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "d7ffa8eb9889752155bfa0a78f04058fecdc20336b85c43d17b8abc749d8314f",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "867e327a25740b772672e858489418008e8fefde3a369f8b7bb09d35efd4d514",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-intu/",
       "url": "stocks/us-intu/",
       "aliases": [
         "INTU",
-        "Intuit Inc.",
         "NASDAQ:INTU"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:zim": {
       "market": "us",
@@ -42461,15 +42346,15 @@
       "symbol": "HPE",
       "name": "Hewlett Packard Enterprise Company Common Stock",
       "industry_group": "資料中心與企業網路",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "9b1f2cc6b1b38950453bad9f559c755345f870c37ea79fdec850a4aec87c6c7f",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
+      "content_hash": "662b151449e45c51a55d6cb2deb99d9db51451cf2b1112c87e3156d62970b8a1",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-hpe/",
       "url": "stocks/us-hpe/",
       "aliases": [
@@ -42484,15 +42369,15 @@
       "symbol": "NOK",
       "name": "Nokia Corporation Sponsored American Depositary Shares",
       "industry_group": "資料中心與企業網路",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "d72f56032e97ce0a203d27093ca2e19998cee0db79c8fad338e8f5131d12f0ba",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
+      "content_hash": "29180a450c14f5eeb69f9a9e4e57b5f6f6bf9d055dfe1cd732eb31379727074d",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-nok/",
       "url": "stocks/us-nok/",
       "aliases": [
@@ -42653,22 +42538,22 @@
       "symbol": "CMCSA",
       "name": "Comcast Corporation - Class A Common Stock",
       "industry_group": "資料未提供",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "續抱",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "991c21111970c8d000c762c6212359a1ce296d19098e078b399812fc451b988a",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "178854830d28d72a28863855c4ac8388960a94c1d2285e1f30c754384b2c4803",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-cmcsa/",
       "url": "stocks/us-cmcsa/",
       "aliases": [
         "CMCSA",
         "NASDAQ:CMCSA"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:cri": {
       "market": "us",
@@ -42892,31 +42777,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:luv": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "LUV",
-      "name": "Southwest Airlines Company Common Stock",
-      "industry_group": "資料未提供",
-      "latest_report_date": "2026-08-04",
-      "valid_until": "2026-08-11",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "ff1a53b4acff4d2d612e2ac8e471da01ce04e411ea2f85acb99edad45d986107",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-luv/",
-      "url": "stocks/us-luv/",
-      "aliases": [
-        "LUV",
-        "Southwest",
-        "Southwest Airlines",
-        "Southwest Airlines Co."
-      ],
-      "freshness_status": "expired"
-    },
     "us:psnl": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -43121,21 +42981,17 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "ZS",
-      "name": "Zscaler",
+      "name": "Zscaler, Inc. - Common Stock",
       "industry_group": "資訊安全／雲端零信任與安全存取",
-      "latest_report_date": "2026-09-04",
-      "valid_until": "2026-09-11",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "e24b9695be414b2c9e0bb2ce2b221ffab9877b44cf0b21c7f501cf1fa1aa18a8",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "b0b763ca2ae62345fb4f47f60357eea06b54d1015251105783da15049e7664f8",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-zs/",
       "url": "stocks/us-zs/",
       "aliases": [
@@ -43266,6 +43122,29 @@
       ],
       "freshness_status": "valid"
     },
+    "us:ingm": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "INGM",
+      "name": "Ingram Micro Holding Corporation Common Stock",
+      "industry_group": "資訊科技／電腦軟體與周邊通路",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "cf9ab9e1e06ce74628af2270521e252ad617d4d37de4de6407094f2364827391",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ingm/",
+      "url": "stocks/us-ingm/",
+      "aliases": [
+        "INGM",
+        "NYSE:INGM"
+      ],
+      "freshness_status": "valid"
+    },
     "us:imxi": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -43297,25 +43176,22 @@
       "symbol": "FROG",
       "name": "JFrog Ltd. - Ordinary shares",
       "industry_group": "軟體供應鏈／DevSecOps／MLOps",
-      "latest_report_date": "2026-08-07",
-      "valid_until": "2026-08-14",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "68ca7b2c0d7487589c34a9898c72a5f79dc7d43f3eb712f931997bc34cda2894",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "0f92efcf124ab75baa482c6cbb49ca2cb1e33ae8e357de0e2374df3e0e5cfe31",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-frog/",
       "url": "stocks/us-frog/",
       "aliases": [
         "FROG",
-        "US:FROG",
-        "NASDAQ:FROG",
-        "JFrog",
-        "JFrog Ltd."
+        "NASDAQ:FROG"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:iot": {
       "market": "us",
@@ -43418,36 +43294,6 @@
         "NASDAQ:SDOT",
         "Sadot Group",
         "Sadot Group Inc."
-      ],
-      "freshness_status": "expired"
-    },
-    "us:cmps": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "CMPS",
-      "name": "COMPASS Pathways Plc - American Depository Shares",
-      "industry_group": "迷幻藥輔助精神醫療與臨床階段生技",
-      "latest_report_date": "2026-08-13",
-      "valid_until": "2026-08-20",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "12bdd234638e752fbf5f01387aa0d9f2b6c47caaf2af9f1ca4bede16f5f6bc79",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "reports/stock-industry-research/us-cmps/2026-08-13/report.html",
-      "url": "stocks/us-cmps/",
-      "aliases": [
-        "CMPS",
-        "US:CMPS",
-        "NASDAQ:CMPS",
-        "COMPASS Pathways",
-        "Compass"
       ],
       "freshness_status": "expired"
     },
@@ -43585,21 +43431,17 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "ERIC",
-      "name": "Ericsson",
+      "name": "Ericsson - American Depositary Shares each representing 1 underlying Class B share",
       "industry_group": "通訊設備／無線與核心網路",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "18a7075d50a129e297b80993d2fb22a185717f6fc8711e231d038a7ff5b133f9",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "8b4e70c173f040b8c0e80d4623efa0c2445dd7259a7228caee7c7c8c48a0361d",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-eric/",
       "url": "stocks/us-eric/",
       "aliases": [
@@ -43834,25 +43676,24 @@
       "market": "us",
       "exchange": "NASDAQ",
       "symbol": "AMBA",
-      "name": "Ambarella",
+      "name": "Ambarella, Inc. - Ordinary Shares",
       "industry_group": "邊緣 AI",
-      "latest_report_date": "2026-08-23",
-      "valid_until": "2026-08-30",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "7a7c31010c8ef1293f65af1d43cdbcbe8f2fa5af24945d9cdf7d8b7743b7f4df",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "d4a65ab7fa1bea40808b55fa73b68a51023708b7e8ed1f827b544f3eaa2717a5",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-amba/",
       "url": "stocks/us-amba/",
       "aliases": [
         "AMBA",
-        "NASDAQ:AMBA",
-        "Ambarella"
+        "NASDAQ:AMBA"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:rcl": {
       "market": "us",
@@ -44302,34 +44143,6 @@
         "SYMBRAVO"
       ],
       "freshness_status": "expired"
-    },
-    "us:azn": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "AZN",
-      "name": "AstraZeneca PLC Ordinary Shares",
-      "industry_group": "醫療保健 / 生物科技：藥物製劑",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "e58b8b0b7c608d85b413c0ef43ce1932144684f1fe2c565e0709b0c8a2cd9b10",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-azn/",
-      "url": "stocks/us-azn/",
-      "aliases": [
-        "AZN",
-        "NYSE:AZN",
-        "AstraZeneca PLC Ordinary Shares"
-      ],
-      "freshness_status": "valid"
     },
     "us:bhc": {
       "market": "us",
@@ -45476,30 +45289,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:podd": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "PODD",
-      "name": "Insulet Corporation - Common Stock",
-      "industry_group": "醫療保健 / 醫療與牙科器材",
-      "latest_report_date": "2026-08-31",
-      "valid_until": "2026-09-07",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "13f45992673b7d96e76ffa6620cff3c4be52104f7cd1694638a722ce128e2cbd",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-podd/2026-08-31.html",
-      "url": "stocks/us-podd/",
-      "aliases": [
-        "PODD",
-        "NASDAQ:PODD",
-        "Insulet Corporation - Common Stock"
-      ],
-      "freshness_status": "expired"
-    },
     "us:tndm": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -45926,6 +45715,29 @@
       ],
       "freshness_status": "expired"
     },
+    "us:beam": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "BEAM",
+      "name": "Beam Therapeutics Inc. - Common Stock",
+      "industry_group": "醫療保健／生物科技與基因編輯療法",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "6391b4615660675c27a0075a1788390c3882f0bfc0c8bcf22c986da6c4a932e1",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-beam/",
+      "url": "stocks/us-beam/",
+      "aliases": [
+        "BEAM",
+        "NASDAQ:BEAM"
+      ],
+      "freshness_status": "valid"
+    },
     "us:gild": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -46024,6 +45836,167 @@
       ],
       "freshness_status": "expired"
     },
+    "us:azn": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "AZN",
+      "name": "AstraZeneca PLC Ordinary Shares",
+      "industry_group": "醫療保健／生物製藥",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "08ff48f28724c70b75dd880e1fd3776212e861992660ce5ee39f5b2a2e28a55a",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-azn/",
+      "url": "stocks/us-azn/",
+      "aliases": [
+        "AZN",
+        "NYSE:AZN"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:bbio": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "BBIO",
+      "name": "BridgeBio Pharma, Inc. - Common Stock",
+      "industry_group": "醫療保健／生物製藥",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "94b1d47779cbdc63d74a36486f83ea1acf053e6554de8220ebd25cbda63b6e4a",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-bbio/",
+      "url": "stocks/us-bbio/",
+      "aliases": [
+        "BBIO",
+        "NASDAQ:BBIO"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:cmps": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CMPS",
+      "name": "COMPASS Pathways Plc - American Depository Shares",
+      "industry_group": "醫療保健／生物製藥",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "0b0cfa913f9f9a087b3d61f9e89148e74bba8261b06ca86940f01ca7a9fdb753",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-cmps/",
+      "url": "stocks/us-cmps/",
+      "aliases": [
+        "CMPS",
+        "NASDAQ:CMPS"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:ions": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "IONS",
+      "name": "Ionis Pharmaceuticals, Inc. - Common Stock",
+      "industry_group": "醫療保健／生物製藥",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "63a3f44b4577f0ecaa2ef0697f213dced5e282d875c0f8095ec14c5d48cf4304",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ions/",
+      "url": "stocks/us-ions/",
+      "aliases": [
+        "IONS",
+        "NASDAQ:IONS"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:sls": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "SLS",
+      "name": "SELLAS Life Sciences Group, Inc. - Common Stock",
+      "industry_group": "醫療保健／生物製藥",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "c45ddc3a0f10580e347c191607685df1d1353853a61fb7a1748d28bfc850f3e5",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-sls/",
+      "url": "stocks/us-sls/",
+      "aliases": [
+        "SLS",
+        "NASDAQ:SLS"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:teva": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "TEVA",
+      "name": "Teva Pharmaceutical Industries Limited American Depositary Shares",
+      "industry_group": "醫療保健／生物製藥",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "e39de8fb6846f172a71cabb7ae53d91332299f04ab9a234fe7d0dc2bf5e86623",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-teva/",
+      "url": "stocks/us-teva/",
+      "aliases": [
+        "TEVA",
+        "NYSE:TEVA"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:tngx": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "TNGX",
+      "name": "Tango Therapeutics, Inc. - Common Stock",
+      "industry_group": "醫療保健／生物製藥",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "693d5d28a5c0587d783fb03608fde58516ea4fa42976459459b797c760dd3c54",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-tngx/",
+      "url": "stocks/us-tngx/",
+      "aliases": [
+        "TNGX",
+        "NASDAQ:TNGX"
+      ],
+      "freshness_status": "valid"
+    },
     "us:ibrx": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -46049,6 +46022,29 @@
         "NASDAQ:IBRX"
       ],
       "freshness_status": "expired"
+    },
+    "us:coo": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "COO",
+      "name": "The Cooper Companies, Inc. - Common Stock",
+      "industry_group": "醫療保健／眼科產品",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "ec7d12021d0605f87325ecbe7cdbcfe0114828db7c54381b88d46dfcf0704815",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-coo/",
+      "url": "stocks/us-coo/",
+      "aliases": [
+        "COO",
+        "NASDAQ:COO"
+      ],
+      "freshness_status": "valid"
     },
     "us:eye": {
       "market": "us",
@@ -46121,31 +46117,6 @@
         "NASDAQ:ETON",
         "Eton Pharmaceuticals",
         "Eton Pharmaceuticals, Inc."
-      ],
-      "freshness_status": "expired"
-    },
-    "us:tngx": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "TNGX",
-      "name": "Tango Therapeutics, Inc. - Common Stock",
-      "industry_group": "醫療保健／精準腫瘤與合成致死生技",
-      "latest_report_date": "2026-08-27",
-      "valid_until": "2026-09-03",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "d3b6b2b4fd65f08bd2ea94c24a2c025a0123f67fd84d3d03ba32c2acd99ddd87",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-tngx/2026-08-27.html",
-      "url": "stocks/us-tngx/",
-      "aliases": [
-        "TNGX",
-        "NASDAQ:TNGX",
-        "Tango Therapeutics",
-        "vopimetostat"
       ],
       "freshness_status": "expired"
     },
@@ -46399,28 +46370,28 @@
       ],
       "freshness_status": "expired"
     },
-    "us:bbio": {
+    "us:bax": {
       "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "BBIO",
-      "name": "BridgeBio Pharma, Inc.",
-      "industry_group": "醫療保健／遺傳疾病與罕病生技",
-      "latest_report_date": "2026-08-18",
-      "valid_until": "2026-08-25",
-      "rating": "觀察",
+      "exchange": "NYSE",
+      "symbol": "BAX",
+      "name": "Baxter International Inc. Common Stock",
+      "industry_group": "醫療保健／醫療器材",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "b4ea61d19d135990cab357b88be4fbcdfbd38cf91b013c862443b40fbbd4013c",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-bbio/",
-      "url": "stocks/us-bbio/",
+      "content_hash": "34e60fa0d8957b45d7d0cb6bc1469f433704730e182732152ebc557cfa1f15ff",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-bax/",
+      "url": "stocks/us-bax/",
       "aliases": [
-        "BBIO",
-        "NASDAQ:BBIO"
+        "BAX",
+        "NYSE:BAX"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:dxcm": {
       "market": "us",
@@ -46444,6 +46415,29 @@
         "US:DXCM"
       ],
       "freshness_status": "expired"
+    },
+    "us:podd": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "PODD",
+      "name": "Insulet Corporation - Common Stock",
+      "industry_group": "醫療保健／醫療器材",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "6738de8f811ec6a515d9411d7d365fcd92ae1e50929e0144732e9114c542f7bb",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-podd/",
+      "url": "stocks/us-podd/",
+      "aliases": [
+        "PODD",
+        "NASDAQ:PODD"
+      ],
+      "freshness_status": "valid"
     },
     "us:snn": {
       "market": "us",
@@ -46522,32 +46516,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:bax": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "BAX",
-      "name": "Baxter International Inc.",
-      "industry_group": "醫療保健／醫療器材與輸液系統",
-      "latest_report_date": "2026-08-29",
-      "valid_until": "2026-09-05",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "a53ae9b8edbb2a7a6d247e072f5f22baa25138b1f02c554cdc57fdb4147596f5",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-bax/",
-      "url": "stocks/us-bax/",
-      "aliases": [
-        "BAX",
-        "NYSE:BAX",
-        "Baxter",
-        "Baxter International",
-        "Baxter International Inc."
-      ],
-      "freshness_status": "expired"
-    },
     "us:celc": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -46577,24 +46545,24 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "HCA",
-      "name": "HCA Healthcare",
-      "industry_group": "醫療保健／醫院與照護管理",
-      "latest_report_date": "2026-07-24",
-      "valid_until": "2026-07-31",
+      "name": "HCA Healthcare, Inc. Common Stock",
+      "industry_group": "醫療保健／醫院營運管理",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "1696af23f700ce884f416810e8d90c1d738d8963625a1a87ea4aba83fd718c88",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "a68e394ea0014f1ff9c1a61479513baf8fb8c62d32205afaae062e609c3cba07",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-hca/",
       "url": "stocks/us-hca/",
       "aliases": [
         "HCA",
-        "US:HCA"
+        "NYSE:HCA"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:lfst": {
       "market": "us",
@@ -47102,21 +47070,17 @@
       "market": "us",
       "exchange": "NYSE",
       "symbol": "INFQ",
-      "name": "Infleqtion",
+      "name": "Infleqtion, Inc. Common Stock",
       "industry_group": "量子科技／中性原子運算與感測",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "c39eeb688e506bb11004b6d1658a5d4135f7adf60358cef31a6bc0c04d8e2564",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "9c4199d4d554106406e287079b00d07b899ff1fcf1041671e24b1799818ac544",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-infq/",
       "url": "stocks/us-infq/",
       "aliases": [
@@ -47394,33 +47358,6 @@
         "Blackstone Inc.",
         "黑石集團",
         "Blackstone Inc. Common Stock"
-      ],
-      "freshness_status": "valid"
-    },
-    "us:cg": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "CG",
-      "name": "The Carlyle Group Inc. - Common Stock",
-      "industry_group": "金融 / Investment Managers",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "ec431192c66e0cdeb823d7f14c98d9b3d990687df41fc9b458ccf57145a4fb15",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-cg/",
-      "url": "stocks/us-cg/",
-      "aliases": [
-        "CG",
-        "The Carlyle Group Inc. - Common Stock"
       ],
       "freshness_status": "valid"
     },
@@ -47941,32 +47878,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:bac": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "BAC",
-      "name": "Bank of America Corporation Common Stock",
-      "industry_group": "金融 / 大型銀行",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "續抱",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "828718eeedf8d6782c22d609c75c59395f13d92d381ce432eb17f491bd14663f",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-bac/",
-      "url": "stocks/us-bac/",
-      "aliases": [
-        "BAC",
-        "NYSE:BAC",
-        "Bank of America",
-        "美國銀行",
-        "Bank of America Corporation Common Stock"
-      ],
-      "freshness_status": "valid"
-    },
     "us:banc": {
       "market": "us",
       "exchange": "NYSE",
@@ -48038,33 +47949,6 @@
         "Bank of New York Mellon",
         "紐約梅隆銀行",
         "The Bank of New York Mellon Corporation Common Stock"
-      ],
-      "freshness_status": "valid"
-    },
-    "us:c": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "C",
-      "name": "Citigroup, Inc. Common Stock",
-      "industry_group": "金融 / 大型銀行",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "fda2addaee75d92193a896616348d5c10ca7fb6b47f9409bd55b0c9aa1fa676d",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-c/",
-      "url": "stocks/us-c/",
-      "aliases": [
-        "C",
-        "NYSE:C",
-        "Citigroup",
-        "Citi",
-        "花旗集團",
-        "Citigroup, Inc. Common Stock"
       ],
       "freshness_status": "valid"
     },
@@ -49409,6 +49293,29 @@
       ],
       "freshness_status": "valid"
     },
+    "us:cg": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CG",
+      "name": "The Carlyle Group Inc. - Common Stock",
+      "industry_group": "金融／另類資產管理",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "a737ec6e73aa3386c82d803cc7c0031b2b78a32cd2d5f6292305c39586aab8a5",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-cg/",
+      "url": "stocks/us-cg/",
+      "aliases": [
+        "CG",
+        "NASDAQ:CG"
+      ],
+      "freshness_status": "valid"
+    },
     "us:bn": {
       "market": "us",
       "exchange": "NYSE",
@@ -49552,34 +49459,97 @@
       ],
       "freshness_status": "expired"
     },
+    "us:bac": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "BAC",
+      "name": "Bank of America Corporation Common Stock",
+      "industry_group": "金融／大型銀行與金融服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "續抱",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "358d89ac471362aceb38152d8c3ae272b8cea99ab95ca3228f1669b09ca22f8c",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-bac/",
+      "url": "stocks/us-bac/",
+      "aliases": [
+        "BAC",
+        "NYSE:BAC"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:c": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "C",
+      "name": "Citigroup, Inc. Common Stock",
+      "industry_group": "金融／大型銀行與金融服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "617273c2f0f48bb939dd1c03deb8058052ef6625396d26d7d78e366c816e8361",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-c/",
+      "url": "stocks/us-c/",
+      "aliases": [
+        "C",
+        "NYSE:C"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:tbbk": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "TBBK",
+      "name": "The Bancorp, Inc. - Common Stock",
+      "industry_group": "金融／大型銀行與金融服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "271f5f43dd564b03f5817974eae815e6e2d1484fdb5d61ea361d4ea3e0601b47",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-tbbk/",
+      "url": "stocks/us-tbbk/",
+      "aliases": [
+        "TBBK",
+        "NASDAQ:TBBK"
+      ],
+      "freshness_status": "valid"
+    },
     "us:wfc": {
       "market": "us",
       "exchange": "NYSE",
       "symbol": "WFC",
-      "name": "Wells Fargo & Company",
-      "industry_group": "金融／大型銀行",
-      "latest_report_date": "2026-08-29",
-      "valid_until": "2026-09-05",
-      "rating": "",
-      "rating_status": "needs_review",
-      "rating_issues": [
-        "missing_body_rating"
-      ],
-      "rating_issue_labels": [
-        "正文未找到可明確核對的主體評級"
-      ],
-      "content_hash": "350ea03c2bcdb024a0a95a23c23cb2d197269a7f88bc1ff9fc5f2e481f7a7cdf",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "name": "Wells Fargo & Company Common Stock",
+      "industry_group": "金融／大型銀行與金融服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "ecfc89d32a58c7f52d2f9d1fe02418bfc3a34fe7744e13b867a768bf2b210ed9",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-wfc/",
       "url": "stocks/us-wfc/",
       "aliases": [
         "WFC",
-        "NYSE:WFC",
-        "Wells Fargo",
-        "Wells Fargo & Company"
+        "NYSE:WFC"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
     },
     "us:csgp": {
       "market": "us",
@@ -49709,30 +49679,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:chym": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "CHYM",
-      "name": "Chime Financial, Inc.",
-      "industry_group": "金融／消費金融服務",
-      "latest_report_date": "2026-07-27",
-      "valid_until": "2026-08-03",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "df08f1862d4d26f00050f3ff6567a934167b50366780fa256b0a3b83d65b3033",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-chym/",
-      "url": "stocks/us-chym/",
-      "aliases": [
-        "CHYM",
-        "NASDAQ:CHYM",
-        "Chime"
-      ],
-      "freshness_status": "expired"
-    },
     "us:slm": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -49756,6 +49702,29 @@
         "Sallie Mae"
       ],
       "freshness_status": "expired"
+    },
+    "us:chym": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "CHYM",
+      "name": "Chime Financial, Inc. - Class A Common Stock",
+      "industry_group": "金融／消費金融科技服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "0020f0cd416200a912de8ead643ebc12eb8c2f31d24a286524ae849d539c4b6e",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-chym/",
+      "url": "stocks/us-chym/",
+      "aliases": [
+        "CHYM",
+        "NASDAQ:CHYM"
+      ],
+      "freshness_status": "valid"
     },
     "us:klar": {
       "market": "us",
@@ -49905,6 +49874,29 @@
         "Schwab"
       ],
       "freshness_status": "expired"
+    },
+    "us:wrb": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "WRB",
+      "name": "W.R. Berkley Corporation Common Stock",
+      "industry_group": "金融／財產意外保險",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "續抱",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "fe9d893435b9c050a6a4f8fd0f47f926c56e1c38ea85dc6fca13891b02245363",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-wrb/",
+      "url": "stocks/us-wrb/",
+      "aliases": [
+        "WRB",
+        "NYSE:WRB"
+      ],
+      "freshness_status": "valid"
     },
     "us:pgr": {
       "market": "us",
@@ -50150,33 +50142,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:coo": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "COO",
-      "name": "The Cooper Companies, Inc.",
-      "industry_group": "隱形眼鏡與生殖醫療器材",
-      "latest_report_date": "2026-08-10",
-      "valid_until": "2026-08-17",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "5591340fb9d13fcf86ac546ff721b3d544f61234f593c9a9064863594212028b",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-coo/2026-08-10.html",
-      "url": "stocks/us-coo/",
-      "aliases": [
-        "COO",
-        "NASDAQ:COO",
-        "CooperCompanies",
-        "The Cooper Companies",
-        "CooperVision",
-        "CooperSurgical"
-      ],
-      "freshness_status": "expired"
-    },
     "us:blze": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -50278,15 +50243,15 @@
       "symbol": "FSLY",
       "name": "Fastly, Inc. - Class A Common Stock",
       "industry_group": "雲端算力與開發者基礎設施",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "2da9f51be4b5d2efe56b9035cbd58f349806a54776851fc0236016cb42d0ed5e",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
+      "content_hash": "e8783175ace97e0a660cdc79e8dcf2e692884b2bcf9de6af1fbe165b4fedd346",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-fsly/",
       "url": "stocks/us-fsly/",
       "aliases": [
@@ -50324,15 +50289,15 @@
       "symbol": "NTSK",
       "name": "Netskope, Inc. - Class A Common Stock",
       "industry_group": "雲端與企業資安",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "528c5f76e66982605f337314ce6bbdaeb733374ba59941497ed535c6155502bb",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
+      "content_hash": "c8f18d6d3af73d1f7d0ea546c79fd4051e43bb99388c6d9b32579a876dd60b8d",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-ntsk/",
       "url": "stocks/us-ntsk/",
       "aliases": [
@@ -50484,29 +50449,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:aso": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "ASO",
-      "name": "Academy Sports and Outdoors, Inc. - Common Stock",
-      "industry_group": "零售通路、服飾與消費品牌",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "012b5a202fef8718fa3d5fb9c1d107574a01f3ce6af1c1d3fd9bac2440c9eb8c",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-aso/",
-      "url": "stocks/us-aso/",
-      "aliases": [
-        "ASO",
-        "NASDAQ:ASO"
-      ],
-      "freshness_status": "valid"
-    },
     "us:levi": {
       "market": "us",
       "exchange": "NYSE",
@@ -50628,21 +50570,20 @@
       "symbol": "CHTR",
       "name": "Charter Communications, Inc. - Class A Common Stock",
       "industry_group": "電信 / 有線與付費電視服務",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "fc25069255cbe9e3ed815d3e34264b0d3f2c7b20fc1eacd8d53551112db2fbf7",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "64b947696d43d73b46dfe634b7fb3edc8e3fa294a0d79560098ae0d0e1046e2f",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-chtr/",
       "url": "stocks/us-chtr/",
       "aliases": [
         "CHTR",
-        "NASDAQ:CHTR",
-        "Charter Communications, Inc. - Class A Common Stock"
+        "NASDAQ:CHTR"
       ],
       "freshness_status": "valid"
     },
@@ -51531,29 +51472,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:qs": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "QS",
-      "name": "QuantumScape Corporation - Common Stock",
-      "industry_group": "電池材料、電芯與儲能技術",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "3e10a2cabefed8e81ed0ca5e8ee26f0f3592d2b1d20c6b265553c054e0e79ae3",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-qs/",
-      "url": "stocks/us-qs/",
-      "aliases": [
-        "QS",
-        "NASDAQ:QS"
-      ],
-      "freshness_status": "valid"
-    },
     "us:pwr": {
       "market": "us",
       "exchange": "NYSE",
@@ -51627,29 +51545,6 @@
         "NASDAQ:ROST",
         "Ross Stores",
         "Ross Dress for Less"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:aal": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "AAL",
-      "name": "American Airlines Group, Inc. - Common Stock",
-      "industry_group": "非必需消費 / Air Freight/Delivery Services",
-      "latest_report_date": "2026-08-26",
-      "valid_until": "2026-09-02",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "0e446ad40d598c9f3682a8b512e6c07a1eb69894da35493e03daecc2ffc03b3d",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-aal/2026-08-26.html",
-      "url": "stocks/us-aal/",
-      "aliases": [
-        "AAL",
-        "NASDAQ:AAL"
       ],
       "freshness_status": "expired"
     },
@@ -51848,31 +51743,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:whr": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "WHR",
-      "name": "Whirlpool Corporation Common Stock",
-      "industry_group": "非必需消費 / Consumer Electronics/Appliances",
-      "latest_report_date": "2026-08-20",
-      "valid_until": "2026-08-27",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "6329f44a56513bd63686ab83831e052985f287afbde7c5da8865d8133c1a7f49",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-whr/2026-08-20.html",
-      "url": "stocks/us-whr/",
-      "aliases": [
-        "WHR",
-        "NYSE:WHR",
-        "Whirlpool",
-        "Whirlpool Corporation"
-      ],
-      "freshness_status": "expired"
-    },
     "us:bby": {
       "market": "us",
       "exchange": "NYSE",
@@ -51896,58 +51766,6 @@
         "Best Buy Co., Inc. Common Stock"
       ],
       "freshness_status": "valid"
-    },
-    "us:kmb": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "KMB",
-      "name": "Kimberly-Clark Corporation - Common Stock",
-      "industry_group": "非必需消費 / Containers/Packaging",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "cd551e511e6b2665e9483a6792bcc7bc3a181be36c5fd4879d0a7f49650193e7",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-kmb/",
-      "url": "stocks/us-kmb/",
-      "aliases": [
-        "KMB",
-        "NASDAQ:KMB",
-        "Kimberly-Clark",
-        "Kimberly-Clark Corporation",
-        "金百利克拉克",
-        "Kimberly-Clark Corporation - Common Stock"
-      ],
-      "freshness_status": "valid"
-    },
-    "us:syy": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "SYY",
-      "name": "Sysco Corporation Common Stock",
-      "industry_group": "非必需消費 / Food Distributors",
-      "latest_report_date": "2026-09-01",
-      "valid_until": "2026-09-08",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "ee391316135027faca92b62ecd353814ea49dad0c811b727539d7f56d28680b3",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-syy/2026-09-01.html",
-      "url": "stocks/us-syy/",
-      "aliases": [
-        "SYY",
-        "NYSE:SYY",
-        "Sysco",
-        "Sysco Corporation"
-      ],
-      "freshness_status": "expired"
     },
     "us:usfd": {
       "market": "us",
@@ -52721,32 +52539,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:akam": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "AKAM",
-      "name": "Akamai Technologies, Inc. - Common Stock",
-      "industry_group": "非必需消費 / 商業服務",
-      "latest_report_date": "2026-09-01",
-      "valid_until": "2026-09-08",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "7bdc0173452e143a9b05a275ea9ecdca2b038a32371d6f56a6c8fecf65dfd2ef",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-akam/2026-09-01.html",
-      "url": "stocks/us-akam/",
-      "aliases": [
-        "AKAM",
-        "NASDAQ:AKAM",
-        "Akamai",
-        "Akamai Technologies",
-        "Akamai Technologies, Inc."
-      ],
-      "freshness_status": "expired"
-    },
     "us:andg": {
       "market": "us",
       "exchange": "NYSE",
@@ -52873,31 +52665,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:lyft": {
-      "market": "us",
-      "exchange": "NASDAQ",
-      "symbol": "LYFT",
-      "name": "Lyft, Inc. - Class A Common Stock",
-      "industry_group": "非必需消費 / 商業服務",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "7a6f0bcf8e0b233b256b6369b7b0ed1366507e1997b94070896fd489f894141c",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-lyft/",
-      "url": "stocks/us-lyft/",
-      "aliases": [
-        "LYFT",
-        "NASDAQ:LYFT",
-        "Lyft",
-        "Lyft, Inc. - Class A Common Stock"
-      ],
-      "freshness_status": "valid"
-    },
     "us:mimi": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -52997,31 +52764,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:uber": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "UBER",
-      "name": "Uber Technologies, Inc. Common Stock",
-      "industry_group": "非必需消費 / 商業服務",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "101f10401ce3b4994b8541098ba4216535d4c836851023e51a01eb56897dabad",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-uber/",
-      "url": "stocks/us-uber/",
-      "aliases": [
-        "UBER",
-        "NYSE:UBER",
-        "Uber",
-        "Uber Technologies, Inc. Common Stock"
-      ],
-      "freshness_status": "valid"
-    },
     "us:v": {
       "market": "us",
       "exchange": "US",
@@ -53045,31 +52787,6 @@
         "US:V",
         "Visa",
         "Visa Inc."
-      ],
-      "freshness_status": "valid"
-    },
-    "us:wu": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "WU",
-      "name": "Western Union Company (The) Common Stock",
-      "industry_group": "非必需消費 / 商業服務",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "e1a813f39f43e1fc8599a480a123e1e0a5aa8eee642999c2bca631c1cb8fe2a5",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-wu/",
-      "url": "stocks/us-wu/",
-      "aliases": [
-        "WU",
-        "NYSE:WU",
-        "Western Union",
-        "Western Union Company (The) Common Stock"
       ],
       "freshness_status": "valid"
     },
@@ -53166,29 +52883,6 @@
       "aliases": [
         "ROL",
         "NYSE:ROL"
-      ],
-      "freshness_status": "expired"
-    },
-    "us:sunb": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "SUNB",
-      "name": "Sunbelt Rentals Holdings, Inc. Common Stock",
-      "industry_group": "非必需消費 / 多元商業服務",
-      "latest_report_date": "2026-07-23",
-      "valid_until": "2026-07-30",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "1f2a2c4e0e00167cdada8165aff775062645735be007caa063bbd56ad14b7271",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-sunb/",
-      "url": "stocks/us-sunb/",
-      "aliases": [
-        "SUNB",
-        "NYSE:SUNB"
       ],
       "freshness_status": "expired"
     },
@@ -53765,33 +53459,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:chwy": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "CHWY",
-      "name": "Chewy, Inc. Class A Common Stock",
-      "industry_group": "非必需消費 / 目錄與專業分銷",
-      "latest_report_date": "2026-09-03",
-      "valid_until": "2026-09-10",
-      "rating": "分批布局",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "085a3e4f084101a025c5c15b224ea15ed7a30debc36a91d19f4198569c08f447",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-chwy/",
-      "url": "stocks/us-chwy/",
-      "aliases": [
-        "CHWY",
-        "NYSE:CHWY",
-        "Chewy",
-        "Chewy, Inc.",
-        "Chewy Class A",
-        "Chewy, Inc. Class A Common Stock"
-      ],
-      "freshness_status": "valid"
-    },
     "us:aehl": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -53987,6 +53654,29 @@
       ],
       "freshness_status": "expired"
     },
+    "us:ymat": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "YMAT",
+      "name": "J-Star Holding Co., Ltd. - Class A Ordinary Shares",
+      "industry_group": "非必需消費／休閒與運動用品",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "355b3f570befa3dc748e6f22ae08a1b4b8812f2f840421d5fd800b9a195847c6",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ymat/",
+      "url": "stocks/us-ymat/",
+      "aliases": [
+        "YMAT",
+        "NASDAQ:YMAT"
+      ],
+      "freshness_status": "valid"
+    },
     "us:phm": {
       "market": "us",
       "exchange": "NYSE",
@@ -54010,6 +53700,52 @@
         "PulteGroup"
       ],
       "freshness_status": "expired"
+    },
+    "us:kmb": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "KMB",
+      "name": "Kimberly-Clark Corporation - Common Stock",
+      "industry_group": "非必需消費／包裝材料",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "1b15e1a537222dfdbd624b88d0df0a3b5c49cba70b9eac32292885b94922f521",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-kmb/",
+      "url": "stocks/us-kmb/",
+      "aliases": [
+        "KMB",
+        "NASDAQ:KMB"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:sw": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SW",
+      "name": "Smurfit WestRock plc Ordinary Shares",
+      "industry_group": "非必需消費／包裝材料",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "dcab0f6aa2179529dc985d6f5c8624652ff8e4fb5902ad3e5482062397f7593a",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-sw/",
+      "url": "stocks/us-sw/",
+      "aliases": [
+        "SW",
+        "NYSE:SW"
+      ],
+      "freshness_status": "valid"
     },
     "us:wnw": {
       "market": "us",
@@ -54037,30 +53773,166 @@
       ],
       "freshness_status": "expired"
     },
-    "us:fisv": {
+    "us:akam": {
       "market": "us",
       "exchange": "NASDAQ",
-      "symbol": "FISV",
-      "name": "Fiserv, Inc.",
+      "symbol": "AKAM",
+      "name": "Akamai Technologies, Inc. - Common Stock",
       "industry_group": "非必需消費／商業服務",
-      "latest_report_date": "2026-08-29",
-      "valid_until": "2026-09-05",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
       "rating": "觀察",
       "rating_status": "verified",
       "rating_issues": [],
       "rating_issue_labels": [],
-      "content_hash": "8e679536e45225c784928e78f905d896abde6acaeb05f96457de9148ebc437f0",
-      "source_report_sha256": "",
-      "research_run_id": "",
+      "content_hash": "786e4de43045f7c7c760fc60d292205c59ecdebb0fc2511d5dd4f977fa684d2c",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-akam/",
+      "url": "stocks/us-akam/",
+      "aliases": [
+        "AKAM",
+        "NASDAQ:AKAM"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:fisv": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "FISV",
+      "name": "Fiserv, Inc. - Common Stock",
+      "industry_group": "非必需消費／商業服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "c084992b3af22a7e27fbb108813ded4f3fe99cf7d243f92bcd3cc264eaae4ea4",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
       "latest_url": "stocks/us-fisv/",
       "url": "stocks/us-fisv/",
       "aliases": [
         "FISV",
-        "NASDAQ:FISV",
-        "Fiserv",
-        "Fiserv, Inc."
+        "NASDAQ:FISV"
       ],
-      "freshness_status": "expired"
+      "freshness_status": "valid"
+    },
+    "us:ftft": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "FTFT",
+      "name": "Future FinTech Group Inc. - Common Stock",
+      "industry_group": "非必需消費／商業服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "減碼/賣出",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "c7e6fed8c3a14856986e86943f6c5c1c2d6ce46984cf3d3c4e3555acdcda7fbf",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-ftft/",
+      "url": "stocks/us-ftft/",
+      "aliases": [
+        "FTFT",
+        "NASDAQ:FTFT"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:lyft": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "LYFT",
+      "name": "Lyft, Inc. - Class A Common Stock",
+      "industry_group": "非必需消費／商業服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "0afaaef6411e310decfdfd6d60618b343932002d482dab3cb0131c74051d5175",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-lyft/",
+      "url": "stocks/us-lyft/",
+      "aliases": [
+        "LYFT",
+        "NASDAQ:LYFT"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:olb": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "OLB",
+      "name": "The OLB Group, Inc. - Common Stock",
+      "industry_group": "非必需消費／商業服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "減碼/賣出",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "ffae4876acc18a0622b5d5fb4e25157393861311571275dafcfd47260280bea9",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-olb/",
+      "url": "stocks/us-olb/",
+      "aliases": [
+        "OLB",
+        "NASDAQ:OLB"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:uber": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "UBER",
+      "name": "Uber Technologies, Inc. Common Stock",
+      "industry_group": "非必需消費／商業服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "5e28b62e5e7f849a409199eb2f94fc8e4385c5994cb21d36937f208970172c63",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-uber/",
+      "url": "stocks/us-uber/",
+      "aliases": [
+        "UBER",
+        "NYSE:UBER"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:wu": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "WU",
+      "name": "Western Union Company (The) Common Stock",
+      "industry_group": "非必需消費／商業服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "817dd4dcd2196f6258e70662c9343a291070eaf0b31fbff53896c46a2c0d64a6",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-wu/",
+      "url": "stocks/us-wu/",
+      "aliases": [
+        "WU",
+        "NYSE:WU"
+      ],
+      "freshness_status": "valid"
     },
     "us:cpng": {
       "market": "us",
@@ -54137,6 +54009,29 @@
       ],
       "freshness_status": "expired"
     },
+    "us:sunb": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SUNB",
+      "name": "Sunbelt Rentals Holdings, Inc. Common Stock",
+      "industry_group": "非必需消費／多元商業服務",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "7a9d184ee8cdb12e2ccea8bd34d86df9c8adacf6ca4096808c0d9870e03a8faa",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-sunb/",
+      "url": "stocks/us-sunb/",
+      "aliases": [
+        "SUNB",
+        "NYSE:SUNB"
+      ],
+      "freshness_status": "valid"
+    },
     "us:stub": {
       "market": "us",
       "exchange": "NYSE",
@@ -54160,6 +54055,98 @@
         "StubHub"
       ],
       "freshness_status": "expired"
+    },
+    "us:whr": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "WHR",
+      "name": "Whirlpool Corporation Common Stock",
+      "industry_group": "非必需消費／家電",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "215c3774c16f272de825e879ddf78a922cf7caf1b4d99edcf69cdfceac3ca500",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-whr/",
+      "url": "stocks/us-whr/",
+      "aliases": [
+        "WHR",
+        "NYSE:WHR"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:aso": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "ASO",
+      "name": "Academy Sports and Outdoors, Inc. - Common Stock",
+      "industry_group": "非必需消費／專業零售",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "b27293932a9bfadef00fc2f8f84cab5d671848bd299552b0a9f54173e93005c2",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-aso/",
+      "url": "stocks/us-aso/",
+      "aliases": [
+        "ASO",
+        "NASDAQ:ASO"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:sig": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SIG",
+      "name": "Signet Jewelers Limited Common Shares",
+      "industry_group": "非必需消費／專業零售",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "edad70b2bd70b3fb6f068098fbb6703e77964da85654fa7c4eaebff984b905a8",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-sig/",
+      "url": "stocks/us-sig/",
+      "aliases": [
+        "SIG",
+        "NYSE:SIG"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:chwy": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "CHWY",
+      "name": "Chewy, Inc. Class A Common Stock",
+      "industry_group": "非必需消費／專業電商零售",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "2be4de46e0d8c6bc8c5b15b1a78c205372023f4f50f8ba0e5ec083bc3c86b069",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-chwy/",
+      "url": "stocks/us-chwy/",
+      "aliases": [
+        "CHWY",
+        "NYSE:CHWY"
+      ],
+      "freshness_status": "valid"
     },
     "us:low": {
       "market": "us",
@@ -54185,6 +54172,29 @@
         "Lowes"
       ],
       "freshness_status": "expired"
+    },
+    "us:sune": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "SUNE",
+      "name": "SUNation Energy, Inc. - Common Stock",
+      "industry_group": "非必需消費／工程建設",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "3ca684dc8bc5b60b9ec6eac42ea35eef7c0f6a4357e1cab24b098800f39f8835",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-sune/",
+      "url": "stocks/us-sune/",
+      "aliases": [
+        "SUNE",
+        "NASDAQ:SUNE"
+      ],
+      "freshness_status": "valid"
     },
     "us:bros": {
       "market": "us",
@@ -54512,6 +54522,29 @@
       ],
       "freshness_status": "expired"
     },
+    "us:odd": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "ODD",
+      "name": "ODDITY Tech Ltd. - Class A Ordinary Shares",
+      "industry_group": "非必需消費／美妝與包裝消費品",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "45764b195b0359e7ba0a17fdd687f4f4748af745d4d4c3d7074c285e2fa99929",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-odd/",
+      "url": "stocks/us-odd/",
+      "aliases": [
+        "ODD",
+        "NASDAQ:ODD"
+      ],
+      "freshness_status": "valid"
+    },
     "us:bbwi": {
       "market": "us",
       "exchange": "NYSE",
@@ -54533,6 +54566,52 @@
         "BBWI",
         "NYSE:BBWI",
         "Bath & Body Works"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:aal": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "AAL",
+      "name": "American Airlines Group, Inc. - Common Stock",
+      "industry_group": "非必需消費／航空運輸",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "c22ae088551d0e8089b2a4c0caccd933c4beb8e4ff243b4a8a7840d29ac2ec6c",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-aal/",
+      "url": "stocks/us-aal/",
+      "aliases": [
+        "AAL",
+        "NASDAQ:AAL"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:luv": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "LUV",
+      "name": "Southwest Airlines Company Common Stock",
+      "industry_group": "非必需消費／航空運輸",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "分批布局",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "a35cbcec3da418ae433804e808a406547be6a8e6e409106df0d95e09c439fa2f",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-luv/",
+      "url": "stocks/us-luv/",
+      "aliases": [
+        "LUV",
+        "NYSE:LUV"
       ],
       "freshness_status": "valid"
     },
@@ -54659,6 +54738,29 @@
       ],
       "freshness_status": "expired"
     },
+    "us:syy": {
+      "market": "us",
+      "exchange": "NYSE",
+      "symbol": "SYY",
+      "name": "Sysco Corporation Common Stock",
+      "industry_group": "非必需消費／食品通路",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "081d06d0a0cb76fd1dc483eac7f372f4162e39f28f75d80c4392238cafebd446",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-syy/",
+      "url": "stocks/us-syy/",
+      "aliases": [
+        "SYY",
+        "NYSE:SYY"
+      ],
+      "freshness_status": "valid"
+    },
     "us:htht": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -54686,6 +54788,52 @@
         "Huazhu"
       ],
       "freshness_status": "expired"
+    },
+    "us:mar": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "MAR",
+      "name": "Marriott International - Class A Common Stock",
+      "industry_group": "非必需消費／飯店與度假村",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "續抱",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "2d02f00feef23b265a19d7ccf756afb207def469cccb4d9636812486e03061dd",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-mar/",
+      "url": "stocks/us-mar/",
+      "aliases": [
+        "MAR",
+        "NASDAQ:MAR"
+      ],
+      "freshness_status": "valid"
+    },
+    "us:penn": {
+      "market": "us",
+      "exchange": "NASDAQ",
+      "symbol": "PENN",
+      "name": "PENN Entertainment, Inc. - Common Stock",
+      "industry_group": "非必需消費／飯店與度假村",
+      "latest_report_date": "2026-09-10",
+      "valid_until": "2026-09-17",
+      "rating": "觀察",
+      "rating_status": "verified",
+      "rating_issues": [],
+      "rating_issue_labels": [],
+      "content_hash": "d57a18ca6e35ad572f58ccfe68bb1ca111439b2a73d0bc3288d0f194a0670fc6",
+      "source_report_sha256": "7a38b239472e2512bc4a3e2b970fde6aae4db20e8cc4c558bcc102b3e2dbde09",
+      "research_run_id": "f9a3ab12fd994650803171ffa107dfd5",
+      "latest_url": "stocks/us-penn/",
+      "url": "stocks/us-penn/",
+      "aliases": [
+        "PENN",
+        "NASDAQ:PENN"
+      ],
+      "freshness_status": "valid"
     },
     "us:wen": {
       "market": "us",
@@ -54967,29 +55115,6 @@
       ],
       "freshness_status": "expired"
     },
-    "us:tsn": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "TSN",
-      "name": "Tyson Foods",
-      "industry_group": "食品加工",
-      "latest_report_date": "2026-09-04",
-      "valid_until": "2026-09-11",
-      "rating": "觀察",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "f30171be5e9a925ac336b81c1fb3beeb74a3a8022c76e2cf662514ec4fe466d0",
-      "source_report_sha256": "",
-      "research_run_id": "",
-      "latest_url": "stocks/us-tsn/",
-      "url": "stocks/us-tsn/",
-      "aliases": [
-        "TSN",
-        "NYSE:TSN"
-      ],
-      "freshness_status": "valid"
-    },
     "us:mb": {
       "market": "us",
       "exchange": "NASDAQ",
@@ -55138,29 +55263,6 @@
       ],
       "freshness_status": "valid"
     },
-    "us:ohi": {
-      "market": "us",
-      "exchange": "NYSE",
-      "symbol": "OHI",
-      "name": "Omega Healthcare Investors, Inc. Common Stock",
-      "industry_group": "高齡住宅與醫療不動產 REIT",
-      "latest_report_date": "2026-09-09",
-      "valid_until": "2026-09-16",
-      "rating": "續抱",
-      "rating_status": "verified",
-      "rating_issues": [],
-      "rating_issue_labels": [],
-      "content_hash": "b4e801f950abc14793911400131cda45160f0de17791125f17fd3b60d81f4e58",
-      "source_report_sha256": "e71f6f9218f5d2726c3fddd399572808267e4ecfe9295d014ad11dc5127376d7",
-      "research_run_id": "9bfeddf3b13640bbab39202b274b1eda",
-      "latest_url": "stocks/us-ohi/",
-      "url": "stocks/us-ohi/",
-      "aliases": [
-        "OHI",
-        "NYSE:OHI"
-      ],
-      "freshness_status": "valid"
-    },
     "us:gfi": {
       "market": "us",
       "exchange": "NYSE",
@@ -55185,5 +55287,5 @@
       "freshness_status": "valid"
     }
   },
-  "source_hash": "34dfefccddebb7923be4c86a806947622f2850db751590d94bad79d02ad48844"
+  "source_hash": "6d08d44a995d5d7b3c5c2a13512978c288146cffe6edebd29fee20490845f033"
 }
