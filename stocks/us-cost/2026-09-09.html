@@ -22,7 +22,7 @@
       </div>
       <div class="flex flex-wrap gap-2">
         <span class="meta-pill">研究日 2026-09-09</span>
-        <span class="meta-pill">有效至 2026-09-16</span>
+        <span class="meta-pill research-freshness" data-research-date="2026-09-09" data-valid-until="2026-09-16" data-freshness="valid">有效至 2026-09-16</span>
         <span class="meta-pill">評級 觀察</span>
       </div>
     </div>
@@ -37,479 +37,692 @@
 <li><a href="2026-07-16.html">2026-07-16</a></li>
 <li><a href="2026-07-08.html">2026-07-08</a></li></ul>
 </aside>
-<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><blockquote>
-<p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
-</blockquote>
+<main class="site-container pb-14" data-content-hash="63bfe5436a92b0488df3c3082d0628be957142b4acef3368ad5a8ec63b0abdeb"><aside class="research-notice" role="note"><p>有效期僅表示報告標示期限，不表示行情已更新；請同時核對正文的資料基準日。</p></aside><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
 <h1>Costco/COST 反推產業 Deep Research 投資報告</h1>
 <h2>0. 資料來源與研究日期</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>項目</th>
-<th>已核口徑與限制</th>
+<th>專案</th>
+<th>本輪核對結果</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>報告研究日期</td>
-<td>2026-09-09；有效至 2026-09-16，非價格保證</td>
+<td>研究日期</td>
+<td>2026-09-09，Asia/Taipei；有效至09-16，重大事件即重評；08:20後完成研究</td>
 </tr>
 <tr>
-<td>發行人／證券</td>
-<td>Costco／COST／美國掛牌普通股或存託憑證；證券轉換比率依正式申報</td>
+<td>身分與證券</td>
+<td>Costco Wholesale Corporation；Nasdaq普通股COST；CIK909832；美元；財年約於8月底結束</td>
 </tr>
 <tr>
-<td>最新股價與價格日期</td>
-<td>2026-09-08 正式日線收盤 <strong>910.18 美元</strong>；StockLoop SQLite daily_bars，來源 yfinance，非公司官方</td>
+<td>最新價格與日期</td>
+<td>09-08 regularMarketPrice 910.18美元，Yahoo來源時間20:00:01UTC；與另一行情快照一致，日K最後close欄尚空，價格僅作估值參照</td>
 </tr>
 <tr>
-<td>最新市值及計算基礎</td>
-<td>需以同日收盤 × 最新基本流通股數重算；缺同日正式股數時不提供假精確值</td>
+<td>市值／基本股數</td>
+<td>約4,036.46億美元＝910.18×443,478,804股；股數為05-27申報，不冒充09-08即時股本</td>
 </tr>
 <tr>
-<td>基本流通／已發行股數</td>
-<td>依最新 10-Q／20-F／6-K 或 ADR 招股文件；研究日若無完整期後橋接則標示需查證</td>
+<td>稀釋股數</td>
+<td>FY26Q3加權444.430M、36週444.455M；實際已發行股與加權EPS分母不同</td>
 </tr>
 <tr>
-<td>稀釋後股數</td>
-<td>需分列加權稀釋股數、SBC、選擇權、warrant、可轉換證券與期後增發，不以基本股數替代</td>
+<td>最新已公佈營運</td>
+<td>09-02公佈8月、Q4及FY26淨銷售；全年淨銷售2,973億美元，尚未公佈完整Q4獲利與現金流</td>
 </tr>
 <tr>
-<td>最新財報期間</td>
-<td>FY2026 Q3；另有截至 2026-08-30 的全年銷售更新</td>
+<td>最新完整財報</td>
+<td>FY2026Q3，截至05-10，季度12週、累計36週；<a href="https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026/default.aspx">05-28結果</a>與<a href="https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/6e4acd5b-6e15-45f2-8ceb-9075213deba3.html">法定10-Q</a></td>
 </tr>
 <tr>
-<td>主要財報來源</td>
-<td><a href="https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-August-Sales-Results/default.aspx">Costco FY2026 Q3 結果與 2026-09-02 八月／全年銷售更新</a></td>
+<td>估值來源</td>
+<td><a href="https://finance.yahoo.com/quote/COST/">Yahoo價格</a>、10-Q股本與財務；forward共識及歷史倍數完整序列需查證</td>
 </tr>
 <tr>
-<td>主要估值來源</td>
-<td>2026-09-08 收盤與正式財報；Forward 倍數及同日同業倍數未完整取得者標示需查證</td>
+<td>產業來源</td>
+<td><a href="https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-August-Sales-Results/default.aspx">Costco8月公告</a>、<a href="https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm">Walmart最新季度</a>、公司業務與財報</td>
 </tr>
 <tr>
-<td>主要產業來源</td>
-<td>公司 IR／正式申報、客戶與競爭者公開資料；管理層指引不視為已實現事實</td>
-</tr>
-<tr>
-<td>主要籌碼／股權來源</td>
-<td>SEC 13F、Forms 3/4/5、13D/G、公司回購與 SBC 揭露、交易所 short interest；均注意申報落後</td>
-</tr>
-<tr>
-<td>上游決策來源</td>
-<td>reports/news/2026-09-09_kol_news_decision_report.md「現在不能買，但值得等買點名單」；只作研究排序</td>
+<td>股權來源</td>
+<td>10-Q股本／RSU／回購；最新13F、Form4、13D/G及空頭結算未完成全量核對</td>
 </tr>
 <tr>
 <td>資料缺口</td>
-<td>同日 fully diluted 股數、完整 13F／Form 4／short interest、同業同日估值與市場共識</td>
+<td>最新會員續約／付費會員數、9/8精確總股數、Q4利潤與FCF、機構持股變化、共識估值</td>
 </tr>
 <tr>
-<td>需再次查證數據</td>
-<td>期後股本變化、預估倍數、客戶集中度及管理層指引的實現進度</td>
+<td>下次已公告事件</td>
+<td>09-24 Q4業績，來自<a href="https://investor.costco.com/events-and-presentations/default.aspx">公司日程</a>，本報告沒有提前寫成實績</td>
 </tr>
 </tbody>
 </table></div>
-<p>研究日更新優先採正式財報與公司公告；價格來自本地重新取得的市場資料。無法由一手來源核對的欄位保留「需查證」，不以過時估值補空。</p>
+<p>本報告分開「已公佈FY26全年銷售」與「尚未公佈FY26完整財報」。其他網站將季度時間標成曆年Q2時，仍以發行人財年及週數為準。</p>
 <h2>1. 一頁式懶人包</h2>
-<ul>
-<li>公司一句話介紹：Costco 以會員制倉儲、有限 SKU、低加價率與高周轉，向全球家庭及企業提供食品、日用品、一般商品、燃油與服務。</li>
-<li>所屬產業／位置：消費必需品／會員制倉儲零售；位於全球供應商與會員之間的採購、物流、店網及會員平台。</li>
-<li>核心投資邏輯：會員費、續費與高周轉形成低價飛輪；全球規模、Kirkland Signature 與倉庫效率構成護城河。</li>
-<li>FY2026 Q3 淨銷售 691.5 億美元、+11.6%；會員費 13.73 億、+10.7%；營業利益 28.15 億、+11.3%；淨利 21.92 億、稀釋 EPS 4.93 美元。</li>
-<li>7 月剔除汽油與匯率後同店 +6.6%，數位 +18.2%；48 週調整後同店 +6.7%，數位 +20.9%，營運動能仍穩。</li>
-<li>目前投資評級：<strong>觀察</strong>。商業品質與動能強，但工作單沒有同日估值安全邊際，且技術訊號等級 0，適合等待而非無條件追價。</li>
-<li>主要風險：估值溢價、食品薄利、薪資／運費、關稅、會員續費放緩、國際執行、庫存與資料／支付事件。</li>
-<li>最重要追蹤：調整後同店、流量／客單、會員費／續費、毛利率、數位、庫存周轉、CFO／capex與新倉 ROI。</li>
-<li>同業：BJ、WMT／Sam's Club、KR、TGT、AMZN；台股對照統一超（2912）、全家（5903）、統一（1216）及大樹（6469）。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>專案</th>
+<th>結論</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公司一句話</td>
+<td>用會員倉儲店與高周轉商品提供低價，收取會員費及商品毛利</td>
+</tr>
+<tr>
+<td>產業／位置</td>
+<td>必需消費與綜合零售通路，直接連線品牌／製造商與家庭、小商戶</td>
+</tr>
+<tr>
+<td>核心投資邏輯</td>
+<td>價值感支援續約與客流，採購規模降低成本，開店與會員費帶動每股現金</td>
+</tr>
+<tr>
+<td>股權狀態</td>
+<td>回購與RSU同時存在，股數大致穩定；機構方向待查</td>
+</tr>
+<tr>
+<td>目前投資評級</td>
+<td><strong>觀察</strong></td>
+</tr>
+<tr>
+<td>適合物件</td>
+<td>願意長期追蹤零售品質，但對買入估值有紀律的研究者</td>
+</tr>
+<tr>
+<td>主要理由</td>
+<td>營收、淨利與FCF已有支援；股價仍要求長期高品質成長</td>
+</tr>
+<tr>
+<td>主要風險</td>
+<td>估值收縮、會員價值感下降、工資／關稅、擴店回報與營運資金</td>
+</tr>
+<tr>
+<td>追蹤指標</td>
+<td>剔除汽油匯率同店、客流、會員費、續約、FCF／稀釋股數</td>
+</tr>
+<tr>
+<td>美股比較</td>
+<td>WMT/Sam's、BJ、TGT、AMZN、KR</td>
+</tr>
+<tr>
+<td>臺股比較</td>
+<td>統一超2912、全家5903、富邦媒8454、大買家相關未上市通路；模式並不相同</td>
+</tr>
+</tbody>
+</table></div>
+<p>本報告推論：公司品質與當下股票安全邊際是兩個需分別查證的問題。維持觀察，等待新財報或估值更有餘裕。</p>
 <h2>2. 公司如何賺錢</h2>
-<ul>
-<li>商品銷售涵蓋食品、生鮮、日用品、一般商品、燃油、藥局、眼鏡與其他服務，毛利率刻意維持較低以強化價格價值。</li>
-<li>會員費是高品質經常性收入。Q3 會員費 13.73 億美元、年增約 10.7%，占總收入比率不高，卻是營業利益的重要支柱。</li>
-<li>主要客戶是全球家庭及小企業會員；個別客戶集中低，供應商集中度與品類曝險需由 10-K 核對。</li>
-<li>成長來自交易量、客單、新倉、會員、費率、數位與國際擴張；7 月調整後同店與數位成長顯示不只靠油價／匯率。</li>
-<li>景氣循環性低至中：食品與必需品防禦，一般商品、燃油與高單價品較周期；trade-down 可提高流量。</li>
-</ul>
+<p>Costco向會員收年費，透過少量精選SKU、大包裝、高銷量與倉儲陳列降低單位成本。商品銷售毛利負擔大部分營運成本，會員費則提供可預測的額外收入；會員費不是可以完全忽略服務、促銷及續約成本的純利。</p>
+<p>FY26Q3淨銷售691.54億美元、會員費13.73億，收入合計705.27億；會員費年增約10.7%，季度營業利益28.15億。這顯示會員費重要，但不能簡化為「會員費等於全部利潤」。36週會員費40.57億、營業利益78.84億。<a href="https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026/default.aspx">季度財報</a></p>
+<p>商品通常快速售出而供應商稍後收款，有利營運資金，但不能永久延長付款而不影響供貨。公司也投資新店、物流及數位通路；這些投資要用成熟店現金回收驗證。</p>
+<p>簡單說，這家公司賺錢的方式是……讓會員相信長期購物能省錢，以續約、客流與高周轉累積商品毛利和會員收入。</p>
 <h2>3. 從公司反推產業</h2>
-<ul>
-<li>會員制倉儲以有限品項、大包裝、快速周轉、低營運費用與會員費降低商品加價率，解決家庭與小企業大量採購的成本問題。</li>
-<li>產業成熟但仍可透過新市場、數位、私牌與服務擴張；規模、土地、物流及會員信任使新進者門檻高。</li>
-<li>長期驅動：會員家庭增長、價值意識、Kirkland 私牌、國際白地、數位履約、廣告／資料與輔助服務。</li>
-<li>短期波動：油價、匯率、食品通膨、薪資、運費、關稅、天候、促銷與比較基期。</li>
-</ul>
+<p>會員倉儲是成熟、規模化但仍可透過滲透與開店成長的零售模式。需求來自家庭與小商戶日常消費；名目銷售會受價格、油價與匯率影響，必須拆開客流、客單與新店。</p>
+<p>8月總同店+8.4%，剔除汽油與匯率為+5.4%，數位相關+17.9%；公司表示勞動節後移使8月銷售受到略低於75bps負面影響。這是當月可比因素，不能每月重複加回。FY26淨銷售+10.2%，也是銷售結果而非全年EPS成長。<a href="https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-August-Sales-Results/default.aspx">8月公告</a></p>
+<p>Walmart同季電商成長23%，顯示便利性與全通路競爭仍強。倉儲店的低價優勢須與配送、會員回饋、距離與購物時間一起評估。<a href="https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm">Walmart</a> 關鍵是新會員是否持續購物，以及每家新店的現金回報能否維持。</p>
 <h2>4. 產業鏈上下游分析</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>產業鏈位置</th>
-<th>角色</th>
-<th>主要產品/服務</th>
-<th>代表美股</th>
-<th>代表台股</th>
-<th>議價能力</th>
-<th>利潤率特性</th>
-<th>關鍵風險</th>
+<th>環節</th>
+<th>角色／公司參照</th>
+<th>議價力</th>
+<th>風險</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>上游</td>
-<td>食品、品牌與能源供應</td>
-<td>生鮮、包裝品、燃油、一般商品</td>
-<td>PG、KO、XOM</td>
-<td>1216、食品製造商</td>
-<td>大品牌／能源商強</td>
-<td>依品類</td>
-<td>通膨、供應、關稅</td>
+<td>食品、日用品、服飾與電子品牌／製造商</td>
+<td>大品牌有認知，Costco有採購規模</td>
+<td>關稅、原料與品質</td>
 </tr>
 <tr>
-<td>中游倉儲</td>
-<td><strong>COST 所在</strong></td>
-<td>會員、採購、物流、倉庫、數位</td>
-<td>COST、BJ、WMT</td>
-<td>無直接大型純同業</td>
-<td>全球規模高</td>
-<td>商品薄利、會員費高質</td>
-<td>價格戰、執行</td>
+<td>中游</td>
+<td>倉儲、配送、冷鏈與資訊</td>
+<td>規模與效率支援低價</td>
+<td>工資、運輸、店址與裝置投資</td>
 </tr>
 <tr>
-<td>相鄰通路</td>
-<td>超市／電商／量販</td>
-<td>食品、日用品與履約</td>
-<td>KR、TGT、AMZN</td>
-<td>2912、5903、6469</td>
-<td>規模中高</td>
-<td>薄利高周轉</td>
-<td>便利性競爭</td>
+<td>本公司</td>
+<td>會員零售、自有品牌、加油等附屬業務</td>
+<td>價值感與高周轉提高供應商合作吸引力</td>
+<td>毛利薄、品質或會員信任受損</td>
 </tr>
 <tr>
 <td>下游</td>
-<td>家庭與小企業會員</td>
-<td>消費與補貨</td>
-<td>不適用</td>
-<td>不適用</td>
-<td>可選擇多但續費黏著</td>
-<td>不適用</td>
-<td>所得、信任</td>
+<td>家庭與小商戶</td>
+<td>可比較跨通路價格</td>
+<td>消費力、人口與需求組合</td>
+</tr>
+<tr>
+<td>替代通路</td>
+<td>WMT、BJ、TGT、AMZN、臺灣便利店與電商</td>
+<td>不同便利性與購物頻率</td>
+<td>不能直接套用相同毛利與PE</td>
 </tr>
 </tbody>
 </table></div>
-<p>Costco 位於中游核心平台，靠規模採購與會員經濟掌握關鍵位置，但仍依賴上游供應穩定及消費者持續認可價值。</p>
+<p>表列是價值鏈角色，並非逐一確認的Costco供應商名單。最有價值的環節在於持續創造會員價值與採購／營運效率的結合。</p>
 <h2>5. 商業模式與護城河</h2>
-<ul>
-<li>全球 933 座倉庫（截至 2026-08-05 公告）形成採購、物流與會員密度規模。</li>
-<li>會員先付費提高黏著與收入可預測性；續費率與高階會員占比的最新精確值需由 Q3 簡報／10-Q核對。</li>
-<li>Kirkland Signature 可提供差異化、價格信任與供應鏈議價；品牌仍需持續維護品質。</li>
-<li>有限 SKU、無華麗店面、大包裝與高周轉降低處理及庫存成本。</li>
-<li>轉換成本屬中等：會員可改用 Sam's、BJ、超市或電商；護城河來自「省下的金額明顯高於會員費」的持續體驗。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>能力</th>
+<th>強弱／判斷</th>
+<th>依據與失效條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>技術門檻</td>
+<td>中</td>
+<td>物流與選品系統重要，但非不可複製專利</td>
+</tr>
+<tr>
+<td>規模經濟</td>
+<td>強</td>
+<td>大量採購與倉儲周轉；若新店分散密度會削弱</td>
+</tr>
+<tr>
+<td>客戶黏著</td>
+<td>強但需續約資料驗證</td>
+<td>會員制與價值感；最新續約率本次未核對</td>
+</tr>
+<tr>
+<td>轉換成本</td>
+<td>中</td>
+<td>年費與購物習慣有幫助，仍可同時加入其他通路</td>
+</tr>
+<tr>
+<td>品牌與通路</td>
+<td>強</td>
+<td>低價與品質信任；重大品質事件會傷害</td>
+</tr>
+<tr>
+<td>成本優勢</td>
+<td>強</td>
+<td>選品與周轉支援效率；工資與配送成本仍需管理</td>
+</tr>
+<tr>
+<td>資本門檻</td>
+<td>中高</td>
+<td>店址、物流與規模投資</td>
+</tr>
+<tr>
+<td>替代風險</td>
+<td>中</td>
+<td>即時配送與其他會員通路競爭</td>
+</tr>
+</tbody>
+</table></div>
+<p>本報告推論：護城河主要是相互支援的營運流程與信任，若短期提高毛利反而破壞價值感，長期競爭力可能下降。</p>
 <h2>6. 重要財務與營運指標</h2>
-<ul>
-<li>Q3 淨銷售 691.54 億美元、+11.6%；會員費 13.73 億、+10.7%；總收入 705.27 億。</li>
-<li>Q3 營業利益 28.15 億、+11.3%；淨利 21.92 億、+15.2%；稀釋 EPS 4.93、去年 4.28。</li>
-<li>前 36 週淨銷售 2,033.74 億、+9.6%；會員費 40.57 億、+12.7%；營業利益 78.84 億、+12.0%；淨利 62.28 億、+13.5%。</li>
-<li>前 36 週 OCF 111.33 億美元、capex 42.28 億，粗略 FCF 約 69.05 億；營運資金貢獻明顯，需避免直接年化。</li>
-<li>2026-05-10 現金 189.46 億、存貨 194.18 億、應付 223.63 億、長債 56.70 億美元；高周轉與供應商融資結構需持續觀察。</li>
-<li>7 月淨銷售 +10.7%；調整後同店總公司 +6.6%、數位 +18.2%。48 週調整後同店 +6.7%、數位 +20.9%。</li>
-<li>截至 2026-08-05，全球 933 座倉庫，其中美國與波多黎各 641、加拿大 115，亦包含台灣 14；新倉投資回報是長期成長關鍵。</li>
-</ul>
+<p>下表為FY26前36週或05-10資產負債值，單位十億美元，EPS美元；Q4完整報表尚未發布。<a href="https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/6e4acd5b-6e15-45f2-8ceb-9075213deba3.html">10-Q</a></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th>數值／計算</th>
+<th>投資含義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>淨銷售／成長</td>
+<td>203.374／+9.6%；Q3+11.6%</td>
+<td>需拆汽油、匯率與新店</td>
+</tr>
+<tr>
+<td>毛利額／率</td>
+<td>商品毛利22.626／11.13%淨銷售</td>
+<td>未把會員費混入商品毛利分母</td>
+</tr>
+<tr>
+<td>營業利益率／利益</td>
+<td>3.80%總收入／7.884，+12.0%</td>
+<td>利益成長快於銷售但零售仍薄利</td>
+</tr>
+<tr>
+<td>費用率</td>
+<td>SG&amp;A18.799／總收入207.431＝9.06%</td>
+<td>工資、開店與物流投資會影響</td>
+</tr>
+<tr>
+<td>EPS／淨利</td>
+<td>累計稀釋14.01、淨利6.228；Q3EPS4.93</td>
+<td>36週非全年，不能×4</td>
+</tr>
+<tr>
+<td>CFO</td>
+<td>11.133，去年9.468；CFO／淨利1.79</td>
+<td>現金轉換良好，但含供應商付款時點</td>
+</tr>
+<tr>
+<td>Capex／FCF</td>
+<td>PPE4.228；FCF6.905，去年5.936</td>
+<td>FCF=CFO−PPE；增長約16.3%</td>
+</tr>
+<tr>
+<td>FCF每股／yield</td>
+<td>15.57／最新可核對基本股；15.54／36週稀釋股；36週yield約1.71%</td>
+<td>未年化、不是股息殖利率</td>
+</tr>
+<tr>
+<td>應收與存貨</td>
+<td>AR3.750，期初3.203；存貨19.418，期初18.116</td>
+<td>平均存貨／商品成本×252天約26.2天</td>
+</tr>
+<tr>
+<td>營運資金</td>
+<td>存貨耗現1.240、應付款供現2.498</td>
+<td>高周轉有利，付款時間仍重要</td>
+</tr>
+<tr>
+<td>現金／負債</td>
+<td>現金18.946、短投1.050；長債5.670，另需計短債與租賃</td>
+<td>有資金餘裕，EV不得漏租賃</td>
+</tr>
+<tr>
+<td>股權報酬與回購</td>
+<td>SBC0.771、回購0.603／0.638M股</td>
+<td>回購並未完全阻止期末股數增加</td>
+</tr>
+<tr>
+<td>店數／最新營運</td>
+<td>09-02公告939倉庫；8月銷售23.70</td>
+<td>與Q3財報店數931分開，不能混日期</td>
+</tr>
+<tr>
+<td>客戶／稼動／會員</td>
+<td>最新續約、客流、付費會員與成熟店回報需查證</td>
+<td>門店數不是每店獲利</td>
+</tr>
+</tbody>
+</table></div>
+<p>強CFO與正FCF是品質證據；但以約4,036億美元基本市值衡量，現金收益率並不高，仍需要長期成長支援。</p>
 <h2>7. 籌碼面與股權結構分析</h2>
-<ul>
-<li>截至研究日的最新 13F 機構持股、內部人交易與空頭部位：<strong>需查證</strong>；13F 本身具有申報時差。</li>
-<li>應以 SEC 10-Q／10-K、Form 4、13D/13G、13F 與公司回購／增發揭露交叉核對。</li>
-<li>判讀原則：股本稀釋、債轉股或高槓桿融資若惡化，應優先於題材熱度反映在風險評級。</li>
-</ul>
-<p>簡單說，目前這檔股票的籌碼狀態是資料仍不完整；機構申報有落後，應以回購、SBC 與淨股數變化交叉判讀，不能把 13F 當即時流向。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>專案</th>
+<th>統計日／本輪結果</th>
+<th>限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>機構持股與13F</td>
+<td>6/30機構名單與增減持需查證</td>
+<td>申報落後，不能稱9/8流入</td>
+</tr>
+<tr>
+<td>內部人與Form4</td>
+<td>最新交易、計畫售股與稅務用途需查證</td>
+<td>不把授予與出售混為方向訊號</td>
+</tr>
+<tr>
+<td>大股東／13D/G</td>
+<td>最新控制與實益持股需查證</td>
+<td>未從指數成分地位推導持股比例</td>
+</tr>
+<tr>
+<td>股本</td>
+<td>期初443.237M至05-10 443.514M，05-27 443.479M</td>
+<td>基本、流通及加權股數區分</td>
+</tr>
+<tr>
+<td>RSU</td>
+<td>05-10未歸屬2.035M股，未認列報酬1.092B</td>
+<td>有歸屬條件，不能全部當已流通</td>
+</tr>
+<tr>
+<td>回購</td>
+<td>36週638,000股、603M美元</td>
+<td>授權額與真正買回不同；SBC可能抵消</td>
+</tr>
+<tr>
+<td>空頭／days-to-cover</td>
+<td>最新結算日和可核對值需查證</td>
+<td>不以低波動推斷低空頭</td>
+</tr>
+<tr>
+<td>ETF／指數／價量</td>
+<td>完整資金流需查證；價格與成交快照非持股存量</td>
+<td>不宣稱機構正在吸籌</td>
+</tr>
+</tbody>
+</table></div>
+<p>來源為<a href="https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/6e4acd5b-6e15-45f2-8ceb-9075213deba3.html">10-Q</a>。簡單說，目前這檔股票的籌碼狀態是……股數大致穩定但仍有RSU成本，回購沒有明顯大幅縮減股數；法人與空頭方向未具足夠證據。</p>
 <h2>8. 美股與台股同業比較</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>股票代號</th>
-<th>公司名稱</th>
-<th>市場</th>
-<th>產業鏈位置</th>
-<th>核心業務</th>
-<th>競爭優勢</th>
-<th>主要風險</th>
-<th>成長性</th>
-<th>獲利穩定度</th>
-<th>估值評價</th>
+<th>公司／市場</th>
+<th>角色與業務</th>
+<th>優勢</th>
+<th>風險／成長與穩定性</th>
+<th>估值比較</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>COST</td>
-<td>Costco</td>
-<td>美國</td>
+<td>COST／美國</td>
 <td>會員倉儲</td>
-<td>全球倉儲、會員、燃油</td>
-<td>規模、續費、私牌</td>
-<td>估值、成熟度</td>
-<td>中</td>
-<td>高</td>
-<td>即時倍數需查證</td>
+<td>規模、價值感、高周轉</td>
+<td>銷售與FCF成長，溢價高</td>
+<td>行情trailing約45.8倍；forward待核</td>
 </tr>
 <tr>
-<td>BJ</td>
-<td>BJ's</td>
-<td>美國</td>
-<td>會員倉儲</td>
-<td>東岸倉儲零售</td>
-<td>區域密度、擴店</td>
-<td>規模較小、capex</td>
-<td>中高</td>
-<td>中高</td>
-<td>需查證</td>
+<td>WMT／美國</td>
+<td>Sam's直接可比、集團全通路</td>
+<td>密集店網、配送、廣告</td>
+<td>Q2營收+5.9%、資本支出上升</td>
+<td>FY27調整EPS指引對應約37–38倍，非與COST同口徑</td>
 </tr>
 <tr>
-<td>WMT</td>
-<td>Walmart／Sam's</td>
-<td>美國</td>
-<td>量販／會員倉儲</td>
-<td>全球零售與電商</td>
-<td>物流、規模、資料</td>
-<td>低毛利</td>
-<td>中</td>
-<td>高</td>
-<td>需查證</td>
+<td>BJ／美國</td>
+<td>會員倉儲直接可比</td>
+<td>區域會員模式</td>
+<td>規模與地理集中</td>
+<td>同期倍數需查證</td>
 </tr>
 <tr>
-<td>KR</td>
-<td>Kroger</td>
-<td>美國</td>
-<td>超市</td>
-<td>食品與會員資料</td>
-<td>店網、忠誠計畫</td>
-<td>價格戰、工資</td>
-<td>低中</td>
-<td>中高</td>
-<td>需查證</td>
+<td>TGT／美國</td>
+<td>綜合零售</td>
+<td>品牌與一般商品</td>
+<td>非必需消費組合較高</td>
+<td>不以毛利率高低直接定優劣</td>
 </tr>
 <tr>
-<td>TGT</td>
-<td>Target</td>
-<td>美國</td>
-<td>量販</td>
-<td>一般商品與食品</td>
-<td>品牌、門市</td>
-<td>可選消費、庫存</td>
-<td>中低</td>
-<td>中</td>
-<td>需查證</td>
+<td>AMZN／美國</td>
+<td>電商、會員與雲端</td>
+<td>配送與平臺</td>
+<td>集團利潤包含AWS</td>
+<td>集團PE不可全歸零售</td>
 </tr>
 <tr>
-<td>AMZN</td>
-<td>Amazon</td>
-<td>美國</td>
-<td>電商替代</td>
-<td>線上零售與物流</td>
-<td>便利、Prime</td>
-<td>多業務、成本</td>
-<td>高</td>
-<td>中高</td>
-<td>非直接可比</td>
+<td>KR／美國</td>
+<td>食品超市</td>
+<td>生鮮與日常購物</td>
+<td>低毛利與區域競爭</td>
+<td>食品權重不同</td>
 </tr>
 <tr>
-<td>2912</td>
-<td>統一超</td>
-<td>台灣</td>
-<td>便利零售</td>
-<td>食品與服務平台</td>
-<td>密度、加盟</td>
-<td>成熟、成本</td>
-<td>中</td>
-<td>高</td>
-<td>非直接可比</td>
+<td>統一超2912／臺灣</td>
+<td>便利店價值鏈可比</td>
+<td>店網與服務</td>
+<td>購物頻率、籃子不同</td>
+<td>不套會員倉儲倍數</td>
 </tr>
 <tr>
-<td>5903</td>
-<td>全家</td>
-<td>台灣</td>
-<td>便利零售</td>
-<td>食品與服務</td>
-<td>店網、鮮食</td>
-<td>成本、競爭</td>
-<td>中</td>
-<td>中高</td>
-<td>非直接可比</td>
+<td>全家5903／臺灣</td>
+<td>便利店</td>
+<td>密度與在地服務</td>
+<td>租金、人力</td>
+<td>同期估值需查證</td>
 </tr>
 <tr>
-<td>1216</td>
-<td>統一</td>
-<td>台灣</td>
-<td>上游／通路集團</td>
-<td>食品與零售</td>
-<td>垂直整合</td>
-<td>集團複雜度</td>
-<td>中</td>
-<td>高</td>
-<td>供應鏈對照</td>
+<td>富邦媒8454／臺灣</td>
+<td>電商</td>
+<td>在地物流與流量</td>
+<td>競爭、獲客與配送</td>
+<td>毛利與營運資金不同</td>
 </tr>
 </tbody>
 </table></div>
+<p>本組含直接與價值鏈可比，非同質統計樣本。COST/WMT使用本輪最新一手季度資料；其餘為業務角色比較，未聲稱已驗證全部同日估值。<a href="https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026/default.aspx">Costco</a>、<a href="https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm">Walmart</a></p>
 <h2>9. 估值比較與同業本益比區間</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>公司</th>
-<th>股票代號</th>
-<th>市場</th>
-<th>P/E</th>
-<th>Forward P/E</th>
-<th>近年 P/E 區間</th>
-<th>同業估值位置</th>
-<th>P/S</th>
-<th>EV/EBITDA</th>
-<th>毛利率</th>
-<th>營收成長</th>
-<th>估值判斷</th>
+<th>指標</th>
+<th>值／狀態</th>
+<th>解讀</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Costco</td>
-<td>COST</td>
-<td>美國</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>品質龍頭</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>薄利模式</td>
-<td>Q3 sales +11.6%</td>
-<td>品質溢價需成長支撐</td>
+<td>P/E</td>
+<td>行情快照約45.8倍，TTM EPS口徑需再與完整年度重建</td>
+<td>不稱forward共識</td>
 </tr>
 <tr>
-<td>BJ's</td>
-<td>BJ</td>
-<td>美國</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>成長型倉儲</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>薄利模式</td>
-<td>Q2 revenue +15.7%</td>
-<td>規模較小應折價比較</td>
+<td>Forward PE</td>
+<td>依本模型FY27基準EPS21.86約41.6倍</td>
+<td>本報告假設，非市場一致預期</td>
 </tr>
 <tr>
-<td>Walmart</td>
-<td>WMT</td>
-<td>美國</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>規模龍頭</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>薄利模式</td>
-<td>需查證</td>
-<td>多業務組合</td>
+<td>歷史／同業PE區間</td>
+<td>完整同期資料需查證</td>
+<td>不將WMT調整PE與COST GAAP混成平均</td>
 </tr>
 <tr>
-<td>Kroger</td>
-<td>KR</td>
-<td>美國</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>成熟超市基準</td>
-<td>需查證</td>
-<td>需查證</td>
-<td>薄利模式</td>
-<td>需查證</td>
-<td>成熟折價基準</td>
+<td>P/S</td>
+<td>市值／FY26已公告淨銷售約1.36倍</td>
+<td>分母未含會員費，與total revenue P/S略有差異</td>
+</tr>
+<tr>
+<td>EV/EBITDA</td>
+<td>需補完整TTM、租賃、期後現金與股數</td>
+<td>不以零售淨現金省略租賃</td>
+</tr>
+<tr>
+<td>P/B</td>
+<td>以05-10權益33.509B計約12.0倍</td>
+<td>反映品牌與效率，非資產折價</td>
+</tr>
+<tr>
+<td>FCF Yield</td>
+<td>36週約1.71%</td>
+<td>非年化、未含Q4旺季</td>
+</tr>
+<tr>
+<td>毛利／成長</td>
+<td>36週商品毛利率11.13%、FY26銷售+10.2%</td>
+<td>毛利率、週數與收入定義分開</td>
+</tr>
+<tr>
+<td>結論</td>
+<td>品質支援溢價，但基準模型仍缺安全邊際</td>
+<td>不因股價下跌就自動變便宜</td>
 </tr>
 </tbody>
 </table></div>
-<p>即時倍數未核實，不能證明品質溢價仍有安全邊際。COST 應以正常化 P/E、FCF yield、會員費增速、續費率與 ROIC 相對 BJ、WMT 比較；若倍數遠快於每股 FCF，風險上升。</p>
 <h2>10. 未來 3 年量化情境分析</h2>
+<p>全為本報告假設、非公司指引或共識。以FY26已公告淨銷售297.3B加假設會員費等5.7B，形成303B模型收入起點；這不是尚未發布的全年實績。假設稀釋股數445M，FY2027–2029按CAGR推進，EPS＝收入×淨利率÷股數。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>情境</th>
-<th>核心假設</th>
-<th>營收成長</th>
-<th>利潤率變化</th>
-<th>EPS/獲利方向</th>
-<th>合理估值倍數</th>
-<th>可能結果</th>
+<th>CAGR／營業率／淨利率假設</th>
+<th>FY27／FY28／FY29稀釋EPS</th>
+<th>FY29 PE</th>
+<th>FY29名目值／10%折現3年</th>
 <th>觸發條件</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>樂觀情境</td>
-<td>同店、會員、數位與國際皆強</td>
-<td>高個位數至低雙位數</td>
-<td>小幅擴張</td>
-<td>高於營收增速</td>
-<td>品質同業高位，需查證</td>
-<td>獲利與溢價延續</td>
-<td>續費、comps、FCF超標</td>
+<td>多方</td>
+<td>10%／4.2–4.6%／3.3%</td>
+<td>24.72／27.19／29.91</td>
+<td>42–48</td>
+<td>1,256–1,436／944–1,079美元</td>
+<td>會員、開店與效率持續、估值溢價保留</td>
 </tr>
 <tr>
-<td>基準情境</td>
-<td>調整後同店中個位數、新倉穩</td>
-<td>中高個位數</td>
-<td>穩定</td>
-<td>穩健成長</td>
-<td>同業中高位，需查證</td>
-<td>報酬跟隨獲利</td>
-<td>Q4與FY2027動能穩</td>
+<td>基準</td>
+<td>7%／3.8–4.2%／3.0%</td>
+<td>21.86／23.39／25.02</td>
+<td>35–42</td>
+<td>876–1,051／658–790美元</td>
+<td>同店溫和成長、成本與開店回報穩定</td>
 </tr>
 <tr>
-<td>悲觀情境</td>
-<td>消費弱、成本升、續費放緩</td>
-<td>低個位數</td>
-<td>收縮</td>
-<td>下修</td>
-<td>倍數回到同業中位</td>
-<td>品質溢價收縮</td>
-<td>traffic、續費、FCF轉弱</td>
+<td>空方</td>
+<td>2%／3.0–3.4%／2.4%</td>
+<td>16.67／17.00／17.34</td>
+<td>25–32</td>
+<td>434–555／326–417美元</td>
+<td>消費放緩、費用提高、會員價值感受損</td>
 </tr>
 </tbody>
 </table></div>
-<p>最重要的是同時看調整後同店、會員費與每股 FCF；只有油價、匯率或新店增加帶動 headline sales，不足以支持高倍數。</p>
+<p>相對910.18參考價，FY29名目多方約+38%至+58%、基準−4%至+15%、空方−52%至−39%，未含股息稅費且未賦予機率。若基準淨利率少0.5個百分點，EPS約少16.7%；股數多5%則每股值少4.8%。現價高於基準折現區間，需更強基本面或更低必要報酬支援。研究區間不是下單價格。</p>
 <h2>11. 投資建議與執行策略</h2>
-<p>| 股票代號 | 公司名稱 | 目前評級 | 適合投資人 | 建議理由 | 不建議買入的原因 | 觀察價值 | 關鍵追蹤指標 | 可能改變評級的條件 |
-|---|---|---|---|---|---|---|---|---|---|
-| COST | Costco | 觀察 | 重視品質且能等待估值安全邊際者 | 會員、同店、數位、獲利與FCF強 | 同日估值缺口、訊號等級0 | 高 | 續費、會員費、comps、FCF、ROIC | 倍數合理且核心指標續強可上調 |</p>
-<ol>
-<li>新手不宜把高品質公司等同任何價格都適合買；先完成估值與 FCF 核對。</li>
-<li>已持有者可依原風險紀律追蹤會員、同店與每股 FCF，本報告不提供個人化部位建議。</li>
-<li>尚未買入者可等同日估值、Q4 財報與技術回測／續強確認。</li>
-<li>若續費與會員費加速、調整後同店／數位強、ROIC穩且倍數合理，可上調。</li>
-<li>若續費放緩、traffic轉弱、庫存／capex快於銷售或估值與 FCF嚴重背離，應下調。</li>
-</ol>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>標的／評級</th>
+<th>適合物件</th>
+<th>等待條件</th>
+<th>評級變化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>COST／觀察</td>
+<td>重視長期零售品質與估值紀律者</td>
+<td>09-24財報、續約和FCF確認，及對更新基準有約20%安全邊際</td>
+<td>現金與每股成長並具合理價格才上調；會員價值感或現金惡化則下調</td>
+</tr>
+</tbody>
+</table></div>
+<p>新手可先研究會員經濟與商品毛利。一般化30%／30%／40%分批例子可對應財報確認、估值條件及後續營運確認；本報告目前沒有觸發買入，也不根據個人資產設定權重。</p>
+<p>低成本持有者仍應看機會成本；接近現價者不因公司好就忽略倍數；大幅獲利者檢查集中；套牢者勿以攤平取代估值。續約下降、剔除匯率油價同店持續放緩、FCF長期落後淨利或新店回報惡化，均需重評。</p>
 <h2>12. 投資標的分層</h2>
-<ul>
-<li>核心穩健型：COST、WMT；規模、必需品與現金流使其較具防禦性。</li>
-<li>成長型：COST 的國際、新倉、數位與會員服務；BJ 的區域擴張。</li>
-<li>景氣循環型：一般商品、燃油與高單價品類。</li>
-<li>高風險高報酬型：高槓桿、續費未驗證、快速擴店的小型會員零售。</li>
-<li>只適合觀察：本次 COST，因同日估值與技術確認尚缺，而非基本面弱。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>型別</th>
+<th>研究定位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心穩健型</td>
+<td>COST/WMT的營運模式可優先研究，需區分公司與買入價格</td>
+</tr>
+<tr>
+<td>成長型</td>
+<td>開店與數位渠道提高每股現金的通路</td>
+</tr>
+<tr>
+<td>景氣迴圈型</td>
+<td>一般商品與耐久財零售，消費週期較強</td>
+</tr>
+<tr>
+<td>高風險高報酬型</td>
+<td>虧損擴張電商或高槓桿通路</td>
+</tr>
+<tr>
+<td>只適合觀察型</td>
+<td>本次COST現價與資料條件下的定位</td>
+</tr>
+</tbody>
+</table></div>
 <h2>13. 產業、籌碼與市場風險與反方觀點</h2>
-<ul>
-<li>估值過高是核心風險：優質公司若買在極高倍數，仍可能多年消化估值。</li>
-<li>景氣／成本：食品通膨、薪資、運費、關稅、匯率與油價可影響 mix 及 margin。</li>
-<li>競爭：Sam's Club、BJ、Amazon與超市提升會員、配送與價格能力。</li>
-<li>國際與執行：土地、法規、文化、供應鏈與新倉成熟度可能降低 ROIC。</li>
-<li>資安／信任：會員與支付資料事件可能傷害續費與品牌。</li>
-<li>財報警訊：續費率下降、會員費落後店數、庫存快於銷售、CFO弱於淨利、capex長期無回報。</li>
-<li>正面反方：7 月調整後同店與數位仍強，Q3現金／獲利穩健，可能支持較高但非無限的品質溢價。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>風險</th>
+<th>定性機率／影響</th>
+<th>預警與研究應對</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>估值</td>
+<td>中高／高</td>
+<td>EPS成長不足以抵消倍數收縮；重估敏感度</td>
+</tr>
+<tr>
+<td>消費與週期</td>
+<td>中／中高</td>
+<td>客流或可選商品下滑；拆同店與價格</td>
+</tr>
+<tr>
+<td>競爭／技術</td>
+<td>中／中</td>
+<td>便利配送削弱會員價值；核對續約</td>
+</tr>
+<tr>
+<td>政策／地緣</td>
+<td>中／高</td>
+<td>關稅、食品安全、跨境政策；檢視真正受影響成本</td>
+</tr>
+<tr>
+<td>客戶與供應集中</td>
+<td>需查證／中</td>
+<td>消費者分散不代表關鍵品類無供應風險</td>
+</tr>
+<tr>
+<td>現金與財報</td>
+<td>中／中高</td>
+<td>應付款支援CFO但存貨續增；追蹤周轉</td>
+</tr>
+<tr>
+<td>稀釋與回購</td>
+<td>低至中／中</td>
+<td>回購價格過高或SBC增加；看實際股數</td>
+</tr>
+<tr>
+<td>籌碼失效</td>
+<td>需查證／中</td>
+<td>高倍數股票遭資金輪動；勿把機構持股當價格底</td>
+</tr>
+</tbody>
+</table></div>
+<h3>反方觀點</h3>
+<p>最強反方是會員模式持續成功也不保證當下價格有吸引力。若EPS每年成長但PE從高40倍回到30多倍，數年報酬仍可能偏低。另一風險是把油價、匯率或促銷帶來的名目銷售成長誤認為會員價值提高。多方應以續約、同店客流與每股FCF回應。</p>
 <h2>14. 後續研究與追蹤清單</h2>
-<ul>
-<li>必讀：FY2026 Q3 10-Q、9 月 Q4／全年結果、會員遞延收入、租賃、庫存與現金流附註。</li>
-<li>法說重點：續費率、高階會員、流量／客單、Kirkland、數位、工資、關稅與新倉 ROIC。</li>
-<li>每季追蹤：調整後 comps、會員費、續費、GM、SG&amp;A、庫存周轉、CFO、capex與每股 FCF。</li>
-<li>產業來源：公司／同業申報、美國零售銷售、食品／汽油價格與各國消費資料。</li>
-<li>競爭對手：BJ、Sam's Club／Walmart、Kroger、Target、Amazon。</li>
-<li>初學者下一步研究：BJ（區域成長）、Walmart（規模與全通路）、Kroger（食品零售基準）。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>專案</th>
+<th>頻率／來源</th>
+<th>重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>完整財報</td>
+<td>09-24及每季公司IR/SEC</td>
+<td>Q4獲利、現金、費用與股數</td>
+</tr>
+<tr>
+<td>月銷售</td>
+<td>每月官方</td>
+<td>剔除油價匯率、客流與數位</td>
+</tr>
+<tr>
+<td>會員與門店</td>
+<td>季報／法說</td>
+<td>續約、會員費與成熟店回報</td>
+</tr>
+<tr>
+<td>產業</td>
+<td>WMT/BJ及大型通路</td>
+<td>價格、配送與會員競爭</td>
+</tr>
+<tr>
+<td>股權</td>
+<td>13F季、Form4事件</td>
+<td>統計日和申報日分開</td>
+</tr>
+<tr>
+<td>估值</td>
+<td>更新財報後</td>
+<td>GAAP／調整、週數、股本與FCF口徑一致</td>
+</tr>
+</tbody>
+</table></div>
+<p>新手優先研究WMT/Sam's、BJ與統一超，分別學習全通路、會員倉儲直接可比和在地高頻便利模式。</p>
 <h2>15. 結論</h2>
 <div class="table-wrap"><table>
 <thead>
@@ -520,40 +733,39 @@
 </thead>
 <tbody>
 <tr>
-<td>是否為產業好入口</td>
-<td>是，會員制倉儲與高周轉的代表公司</td>
+<td>產業入口</td>
+<td>適合，用會員費、商品周轉和現金理解零售</td>
 </tr>
 <tr>
-<td>產業是否值得長期追蹤</td>
-<td>值得，會員費和自有品牌可支持長期複利</td>
+<td>長期追蹤價值</td>
+<td>高，但開店與會員品質需持續驗證</td>
 </tr>
 <tr>
-<td>最重要投資邏輯</td>
-<td>同店、續費與高周轉能否持續轉為 FCF</td>
+<td>核心邏輯</td>
+<td>會員價值感支援高周轉與每股現金</td>
 </tr>
 <tr>
-<td>籌碼面評價</td>
-<td>完整 13F／Form 4／short 需查證，回購與 SBC 應看淨股數</td>
+<td>籌碼評價</td>
+<td>股本穩定、RSU需計；機構方向待查</td>
 </tr>
 <tr>
 <td>最大風險</td>
-<td>估值過度反映品質，成本或續費放緩</td>
+<td>買入倍數高於可持續成長所能支援</td>
 </tr>
 <tr>
-<td>估值是否已反映成長</td>
-<td>同日完整倍數需查證；不能只因營運好就忽略價格</td>
+<td>估值已反映成長</td>
+<td>是，基準折現值未提供足夠餘裕</td>
 </tr>
 <tr>
-<td>最終投資評級</td>
+<td>最終評級</td>
 <td><strong>觀察</strong></td>
 </tr>
 <tr>
-<td>優先研究產業鏈環節</td>
-<td>會員續費、Kirkland、數位履約與新倉 ROIC</td>
+<td>優先環節</td>
+<td>新財報的會員、費用與FCF</td>
 </tr>
 </tbody>
 </table></div>
-<p>白話總結：Costco 的生意品質很高，但 910.18 美元是否有安全邊際仍要用完整估值與 FCF 驗證；目前適合等證據，不宜把好公司直接等同好買點。</p>
 </article></main></div>
-</body>
+<script src="../../assets/research-status.js" defer></script></body>
 </html>

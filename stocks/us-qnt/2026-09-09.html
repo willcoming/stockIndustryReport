@@ -22,7 +22,7 @@
       </div>
       <div class="flex flex-wrap gap-2">
         <span class="meta-pill">研究日 2026-09-09</span>
-        <span class="meta-pill">有效至 2026-09-16</span>
+        <span class="meta-pill research-freshness" data-research-date="2026-09-09" data-valid-until="2026-09-16" data-freshness="valid">有效至 2026-09-16</span>
         <span class="meta-pill">評級 觀察</span>
       </div>
     </div>
@@ -32,737 +32,940 @@
   <h2 class="text-lg font-black tracking-normal">歷史報告</h2>
   <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-sm text-emerald-800"><li><a href="2026-09-09.html">2026-09-09</a></li></ul>
 </aside>
-<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><blockquote>
-<p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
-</blockquote>
+<main class="site-container pb-14" data-content-hash="7d660f7c59406dcdadd0defaec7435bdb570cc5c8cd93279f3ee5c5b5c96af75"><aside class="research-notice" role="note"><p>有效期僅表示報告標示期限，不表示行情已更新；請同時核對正文的資料基準日。</p></aside><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
 <h1>Quantinuum Inc./QNT 反推產業 Deep Research 投資報告</h1>
 <h2>0. 資料來源與研究日期</h2>
+<p>研究日 2026-09-09（台北），有效至 2026-09-16。本次全新閱讀上市後首份 10-Q、IPO 招股書及 9/8 最新協議，屬晨報截稿後完成，<code>late=true</code>。標的是 <strong>Quantinuum Inc. 的 NASDAQ Global Market A 類普通股 QNT</strong>，不是同代碼的加密代幣。財年截止 12/31，幣別美元；IPO 於 2026-06-05 完成交割。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>項目</th>
-<th>已核口徑與限制</th>
+<th>來源與日期</th>
+<th>用途</th>
+<th>可靠性及限制</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>報告研究日期</td>
-<td>2026-09-09；有效至 2026-09-16</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026056743/qnt-20260630.htm">2026 Q2 10-Q，8/13 申報</a></td>
+<td>H1 財務、Up-C 架構、股數、認股權、員工股權與客戶集中</td>
+<td>未審計中期報告；IPO 前後會計歸屬不同</td>
 </tr>
 <tr>
-<td>發行人／證券</td>
-<td>Quantinuum Inc. Class A common stock／NASDAQ：QNT；2026-06 完成 IPO</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026055699/fy26q2_qntmxearningsxrelea.htm">8/11 官方財報公告及調節表</a></td>
+<td>全年營收指引、GAAP／調整毛利率與商業進展</td>
+<td>管理層展望不是訂單或保證</td>
 </tr>
 <tr>
-<td>最新股價與價格日期</td>
-<td>2026-09-08 收盤 50.47 美元；StockLoop SQLite daily_bars，來源 yfinance</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026041003/quantinuum-424b4.htm">IPO 424B4 招股書</a></td>
+<td>上市結構、鎖定、風險與稅收利益協議</td>
+<td>IPO 預計股數不能當成 9 月最新存量</td>
 </tr>
 <tr>
-<td>最新市值及計算基礎</td>
-<td>需查證；IPO 新發行 2,800 萬股不等於總流通股數，須用最新 10-Q 封面股數</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026060934/qnt-20260908.htm">9/8 CHIPS 8-K</a>、<a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026060934/quantinuum-finalizesx100.htm">官方說明</a></td>
+<td>最高 1 億美元資助、已發政府新股及里程碑</td>
+<td>首期與後續撥款不同，款項有指定用途</td>
 </tr>
 <tr>
-<td>基本流通／已發行股數</td>
-<td>最新期末 Class A／B、轉換與 lock-up 後流通橋接需查證</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/2110105/000149315226037881/xslSCHEDULE_13G_X02/primary_doc.xml">Honeywell 8/13 13G</a>、<a href="https://www.sec.gov/Archives/edgar/data/2110105/000142284826000109/xslSCHEDULE_13G_X02/primary_doc.xml">Capital Research 8/12 13G</a></td>
+<td>核對大股東及 A 類申報分母</td>
+<td>法規實益持有百分比不等於全公司經濟持股比例</td>
 </tr>
 <tr>
-<td>稀釋後股數</td>
-<td>需納入 SBC、選擇權、RSU、可轉換股及反稀釋工具；虧損期 GAAP 稀釋股數可能排除反稀釋工具</td>
-</tr>
-<tr>
-<td>最新財報期間</td>
-<td>2026Q2/H1，截至 2026-06-30</td>
-</tr>
-<tr>
-<td>主要財報來源</td>
-<td><a href="https://www.quantinuum.com/press-releases/quantinuum-reports-second-quarter-2026-results">Quantinuum 2026Q2 官方結果</a>、<a href="https://ir.quantinuum.com/news-releases/news-release-details/quantinuum-announces-closing-upsized-initial-public-offering">IPO 完成公告</a></td>
-</tr>
-<tr>
-<td>主要估值來源</td>
-<td>9/8 收盤、最新申報與同業官方結果；因虧損不使用 P/E 當主要方法</td>
-</tr>
-<tr>
-<td>主要產業來源</td>
-<td>公司技術公告、客戶／合作夥伴公告、IBM／Google／IonQ／Rigetti／D-Wave 公開資料</td>
-</tr>
-<tr>
-<td>主要籌碼／股權來源</td>
-<td>10-Q／S-1、13F、13D/G、Forms 3/4/5、NASDAQ short interest；有申報落後</td>
-</tr>
-<tr>
-<td>上游決策來源</td>
-<td>reports/news/2026-09-09_kol_news_decision_report.md「現在不能買，但值得等買點名單」，只作研究排序</td>
-</tr>
-<tr>
-<td>資料缺口</td>
-<td>最新 fully diluted 股數、SBC、short、13F、lock-up、同業同日 EV/Sales</td>
-</tr>
-<tr>
-<td>需再次查證數據</td>
-<td>GAAP 巨額虧損的一次性拆分／上市會計明細、客戶集中度、合約金額與現金消耗</td>
+<td><a href="https://stockanalysis.com/stocks/qnt/">StockAnalysis</a>、<a href="https://stockscan.io/stocks/QNT/price-history">StockScan</a>、<a href="https://www.financialcontent.com/quote/NQ%3AQNT">FinancialContent</a></td>
+<td>9/8 參考價格核對</td>
+<td>前者與 FinancialContent 顯示 50.47，StockScan 顯示 50.06；官方收盤需查證</td>
 </tr>
 </tbody>
 </table></div>
-<p>2026Q2 是公司上市後首批關鍵公開數據。官方資料顯示 IPO 募得 17 億美元毛額、6 月底現金及短期投資 21 億美元；市值仍須等待總股數橋接，不能只拿 IPO 股數計算。</p>
+<p>因價格來源不一致，使用 <strong>50.06–50.47 美元參考區間</strong>，不假裝精確收盤已確認。以下財務金額除另註外為百萬美元。最新全股本橋接、官方價格及機構交易仍有缺口，<code>decision_ready=false</code>。</p>
 <h2>1. 一頁式懶人包</h2>
+<p><strong>研究評級：觀察。</strong> Quantinuum 有完整量子硬體與軟體研究平台、客戶合約及 IPO 後的充足現金，但商業收入仍很小、損益仍虧損。最大分析陷阱是只以 A 類流通股計算市值，漏掉大量可交換的控股公司權益，進而嚴重低估投資者支付的價格。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>問題</th>
-<th>結論</th>
+<th>關鍵問題</th>
+<th>核實結論</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>公司一句話介紹</td>
-<td>以離子阱量子硬體、軟體、量子資安與化學應用組成全棧平台的新上市公司</td>
+<td>公司是否已上市</td>
+<td>是；QNT 為 NASDAQ A 類普通股，6/5 完成 IPO 交割</td>
 </tr>
 <tr>
-<td>主要產業</td>
-<td>量子運算、量子軟體與量子資安</td>
+<td>收入與成長</td>
+<td>Q2 收入 7.998、年增 279%；但 H1 13.235、年減 37.5%，兩者不能混用</td>
 </tr>
 <tr>
-<td>產業鏈位置</td>
-<td>上游硬體／控制，中游雲服務與軟體，下游企業與政府應用</td>
+<td>本年展望</td>
+<td>8/11 管理層全年收入指引 28–32，不是數十億美元</td>
 </tr>
 <tr>
-<td>核心投資邏輯</td>
-<td>高保真離子阱與全棧整合能否把技術領先轉成可重複商業收入</td>
+<td>真實現金消耗</td>
+<td>H1 CFO -129.085、capex 39.177、FCF -168.262</td>
 </tr>
 <tr>
-<td>籌碼／股權狀態</td>
-<td>IPO 後歷史極短，lock-up、13F、內部人與 short 需補齊</td>
+<td>現金來源</td>
+<td>6/30 現金 2,106.686，主要受 IPO 及原有募資支持；不是營業獲利累積</td>
 </tr>
 <tr>
-<td>目前投資評級</td>
-<td><strong>觀察</strong></td>
+<td>經濟股本</td>
+<td>8/13 A 類 36.894 百萬＋對應 B 類的控股公司單位 226.414 百萬</td>
 </tr>
 <tr>
-<td>適合投資人</td>
-<td>可承受早期科技、長現金消耗與高估值波動者</td>
+<td>9/8 增發</td>
+<td>已向政府發行 A 類 2.370 百萬股；假設其他不變，經濟基準約 265.678 百萬股</td>
 </tr>
 <tr>
-<td>主要理由</td>
-<td>Q2 收入 +279%、現金 21 億美元、Helios 高保真與 Oracle 合作</td>
+<td>參考股權價值</td>
+<td>50.06–50.47×265.678，約 132.998–134.088 億美元，未完整稀釋</td>
 </tr>
 <tr>
-<td>主要風險</td>
-<td>收入僅 800 萬美元、GAAP 虧損 5.97 億美元、商業化時程與稀釋不確定</td>
-</tr>
-<tr>
-<td>追蹤指標</td>
-<td>收入／bookings、調整後毛利率、Adjusted EBITDA、現金消耗、邏輯保真度、付費客戶</td>
-</tr>
-<tr>
-<td>代表性美股同業</td>
-<td>IONQ、RGTI、QBTS、QUBT、IBM、GOOGL</td>
-</tr>
-<tr>
-<td>代表性台股同業</td>
-<td>無直接純量子同業；2330、2317、2382 僅供應鏈／系統類比</td>
+<td>核心風險</td>
+<td>極高未來收入預期、技術放量、客戶集中、股份薪酬、IPO 解禁及稅收利益協議</td>
 </tr>
 </tbody>
 </table></div>
-<p>觀察優於分批布局，因為技術里程碑很強，但收入對市值仍極小，上市後股本與一次性虧損尚未完全橋接。</p>
+<p>資金部位減低短期續命壓力，卻不會自動降低估值風險。合理研究要把「能研發多久」與「每股最終值多少」分開回答。</p>
 <h2>2. 公司如何賺錢</h2>
-<p>Quantinuum 銷售量子運算存取、企業／政府研發合約、軟體與資安產品，以及未來本地部署和雲端整合服務。硬體採 trapped-ion／QCCD 架構，軟體涵蓋編譯、化學與量子自然語言等；Oracle OCI、HPE 等合作意在把量子系統嵌入既有 HPC／AI 工作流。</p>
-<p>2026Q2 收入 800 萬美元，年增 279%，但相對研發與公司規模仍很小。調整後毛利率 62% 顯示服務／軟體可有高毛利，GAAP 毛利率 -64.4% 則受一次性或股權／上市相關口徑影響，明細必須核對。簡單說，這家公司賺錢的方式是把高準確度量子硬體和軟體包成企業可用服務；真正的投資關鍵不是 qubit 數，而是付費客戶、續約、合約金額與現金消耗。</p>
+<p>公司提供量子運算硬體存取、系統與相關服務，以及軟體、應用和合作研發。來自客戶的政府合約可依里程碑認列收入；非客戶型研發補助則依性質用其他收益或研發費用抵減等方式處理，不能把所有政府資金統稱產品營收。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>變現環節</th>
+<th>付款基礎</th>
+<th>核心財務驗證</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>量子硬體與平台存取</td>
+<td>客戶合約、服務期間、指定硬體或成果</td>
+<td>可用性、實際使用、收入認列與收款</td>
+</tr>
+<tr>
+<td>軟體及應用</td>
+<td>工具與整合方案，依合約條件收費</td>
+<td>付費客戶、續用與擴張收入</td>
+</tr>
+<tr>
+<td>合作研究與部署</td>
+<td>指定研發里程碑或服務</td>
+<td>交付時間、客戶驗收與成本</td>
+</tr>
+<tr>
+<td>政府客戶合約</td>
+<td>有客戶與可交付成果的合約</td>
+<td>收入認列規則，不能與補助總額相加</td>
+</tr>
+<tr>
+<td>非客戶補助與股份交易</td>
+<td>指定研究／建設支出、政府股權協議</td>
+<td>資金用途與會計分類；不是銷售毛利</td>
+</tr>
+</tbody>
+</table></div>
+<p>H1 2025 有較大型租賃相關交易，H1 2026 收入下滑與 Q2 年增 279% 可以同時成立。去年第二季基期只有 2.108，單一季度高增幅沒有證明全年快速放量。來源為<a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026056743/qnt-20260630.htm">10-Q 收入及租賃附註</a>。</p>
 <h2>3. 從公司反推產業</h2>
-<p>量子運算試圖處理部分經典電腦難以有效求解的化學模擬、材料、最佳化與密碼問題。產業仍在導入期，技術路線包括離子阱、超導、中性原子、光子與量子退火；不同路線的物理 qubit 不能直接比較。</p>
-<p>長期驅動是容錯技術、藥物與材料研發、政府戰略資金和雲端混合運算；短期波動則來自里程碑宣傳、政府合約、研究結果可重複性、資本市場風險偏好與解禁。三個問題是：邏輯錯誤率能否持續下降？付費工作負載是否超越經典方案？收入成長能否快過現金消耗與稀釋？</p>
+<p>Quantinuum 來自 Honeywell Quantum Solutions 與 Cambridge Quantum 的結合，主軸為離子阱量子硬體、錯誤校正及軟體／應用平台。不同量子路線競爭的是可執行工作負載、可靠性、成本及擴展能力，而非單看物理量子位元總數。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業方向</th>
+<th>公司位置</th>
+<th>須驗證的商業轉換</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>量子硬體與錯誤校正</td>
+<td>Helios 等平台與研發路線</td>
+<td>客戶在真實工作負載上願意持續支付</td>
+</tr>
+<tr>
+<td>混合量子／傳統運算</td>
+<td>與雲端及高效能運算平台整合</td>
+<td>雲端部署完成、使用與收入，不只是合作宣佈</td>
+</tr>
+<tr>
+<td>可擴展製造</td>
+<td>光子、控制、晶片等系統工程</td>
+<td>量產能力、良率、交付與維護成本</td>
+</tr>
+<tr>
+<td>應用與開發者</td>
+<td>軟體工具與應用合作</td>
+<td>開發活動轉為付費部署的比例</td>
+</tr>
+<tr>
+<td>國家資助</td>
+<td>支持量子製造與研究</td>
+<td>指定里程碑成果，而非政府保證股東報酬</td>
+</tr>
+</tbody>
+</table></div>
+<p>8/11 官方公告稱 Sol 目標 2027 推出、Apollo 目標 2029；這些是管理層路線圖。公告中的技術保真度與研究成果也屬於公司所報，不能在沒有同工作負載、相同測量條件時直接宣稱已全面超越傳統運算。<a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026055699/fy26q2_qntmxearningsxrelea.htm">官方商業與技術進展</a></p>
 <h2>4. 產業鏈上下游分析</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>環節</th>
-<th>角色／產品</th>
-<th>美股／全球代表</th>
-<th>台股代表</th>
-<th>議價與獲利</th>
-<th>風險</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>上游</td>
-<td>雷射、真空、控制、低溫、晶片與精密製造</td>
-<td>Keysight、Honeywell 生態</td>
-<td>2330、2308、精密供應鏈</td>
-<td>關鍵零件議價較高</td>
-<td>良率、單一來源</td>
-</tr>
-<tr>
-<td><strong>中游硬體</strong></td>
-<td><strong>QNT 離子阱 QCCD 系統</strong></td>
-<td>IONQ、IBM、GOOGL、RGTI</td>
-<td>無直接同業</td>
-<td>技術人才與 IP 高</td>
-<td>路線替代、擴展性</td>
-</tr>
-<tr>
-<td>中游軟體／雲</td>
-<td>編譯、化學、資安、OCI／HPC 整合</td>
-<td>MSFT、AMZN、IBM</td>
-<td>2382、2317 僅系統類比</td>
-<td>平台黏著潛力</td>
-<td>開源與雲商議價</td>
-</tr>
-<tr>
-<td>下游</td>
-<td>政府、藥物、材料、金融與能源</td>
-<td>Oracle、HPE、Aramco 合作場景</td>
-<td>研究機構</td>
-<td>若有量子優勢則價值高</td>
-<td>PoC 不轉生產</td>
-</tr>
-</tbody>
-</table></div>
-<p>QNT 同時扮演「賣鏟人」與礦工：硬體／軟體平台像工具供應商，但也必須自己開發應用。全棧可加速整合，亦使資本與研發範圍更大。</p>
-<h2>5. 商業模式與護城河</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>構面</th>
-<th>強弱</th>
-<th>證據與改變條件</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>技術壁壘</td>
-<td>強</td>
-<td>近五個九的邏輯保真度與 QCCD 經驗；第三方重現或競爭者超越會弱化</td>
-</tr>
-<tr>
-<td>規模經濟</td>
-<td>弱中</td>
-<td>目前系統數與收入小；製造標準化後才增強</td>
-</tr>
-<tr>
-<td>客戶黏著</td>
-<td>中</td>
-<td>軟體、工作流與資料整合可黏著；PoC 階段仍容易取消</td>
-</tr>
-<tr>
-<td>轉換成本</td>
-<td>中</td>
-<td>編譯與應用整合有成本，但多雲與多硬體降低鎖定</td>
-</tr>
-<tr>
-<td>品牌／人才</td>
-<td>強</td>
-<td>Honeywell/Cambridge Quantum 傳承與頂尖研究；人才流失是風險</td>
-</tr>
-<tr>
-<td>成本優勢</td>
-<td>弱</td>
-<td>尚未證明量產單位經濟</td>
-</tr>
-<tr>
-<td>資本門檻</td>
-<td>強</td>
-<td>精密硬體、長研發與人才需要巨額資金</td>
-</tr>
-<tr>
-<td>替代風險</td>
-<td>強</td>
-<td>經典 HPC／AI、其他量子路線皆可替代</td>
-</tr>
-</tbody>
-</table></div>
-<h2>6. 重要財務與營運指標</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>指標</th>
-<th style="text-align:right">2026Q2</th>
-<th>投資含義</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>收入</td>
-<td style="text-align:right">800 萬美元，+279%</td>
-<td>高增但基期極小</td>
-</tr>
-<tr>
-<td>GAAP 毛利率</td>
-<td style="text-align:right">-64.4%</td>
-<td>一次性／口徑明細需核，不能忽略</td>
-</tr>
-<tr>
-<td>調整後毛利率</td>
-<td style="text-align:right">62%</td>
-<td>軟體服務具潛力，但與 GAAP 差異大</td>
-</tr>
-<tr>
-<td>GAAP 淨損</td>
-<td style="text-align:right">5.97 億美元</td>
-<td>需拆上市、股權與重組一次性項</td>
-</tr>
-<tr>
-<td>Adjusted EBITDA</td>
-<td style="text-align:right">-6,800 萬美元</td>
-<td>核心現金消耗仍高</td>
-</tr>
-<tr>
-<td>GAAP／調整後 EPS</td>
-<td style="text-align:right">-1.93／-0.28 美元</td>
-<td>股數與非 GAAP 調整需核</td>
-</tr>
-<tr>
-<td>現金與短投</td>
-<td style="text-align:right">21 億美元</td>
-<td>提供跑道，但須看季度 burn</td>
-</tr>
-<tr>
-<td>IPO</td>
-<td style="text-align:right">2,800 萬股 × 60 美元，毛額 16.8 億</td>
-<td>強化資產負債表並帶來解禁供給</td>
-</tr>
-<tr>
-<td>技術</td>
-<td style="text-align:right">Helios 近五個九邏輯保真；Sol 2027、Apollo 2029 路線圖</td>
-<td>是管理層里程碑，仍需外部驗證</td>
-</tr>
-<tr>
-<td>CFO／FCF／CapEx</td>
-<td style="text-align:right">最新完整值需查證</td>
-<td>決定資金跑道與再融資風險</td>
-</tr>
-</tbody>
-</table></div>
-<h2>7. 籌碼面與股權結構分析</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>項目</th>
-<th>狀態</th>
+<th>原始公告可支持的關係</th>
+<th>經濟意義</th>
 <th>限制</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>IPO／lock-up</td>
-<td>2026-06 完成 2,800 萬股 IPO</td>
-<td>解禁日與可售股數需依 S-1 確認</td>
+<td>上游晶片與製程</td>
+<td>9/8 公告涉及 GlobalFoundries 及 Monarch 計畫</td>
+<td>支持指定製程及可擴展硬體</td>
+<td>不能把合作計畫視為已量產營收</td>
 </tr>
 <tr>
-<td>原股東</td>
-<td>Honeywell 與其他原股東持股／投票權需查證</td>
-<td>總股數與多類股轉換尚未橋接</td>
+<td>控制與整合硬體</td>
+<td>公司開發、製造合作與系統工程</td>
+<td>品質、成本及交付速度</td>
+<td>供應商集中及關鍵部件限制</td>
 </tr>
 <tr>
-<td>13F</td>
-<td>上市後首批完整季度申報尚短</td>
-<td>有 45 日落後，不是即時流向</td>
+<td>系統製造合作</td>
+<td>8/11 公司公告與主要全球電子製造商簽署共同開發協議</td>
+<td>協助製造及擴展</td>
+<td>該公告未具名，不自行推算特定供應商受惠金額</td>
 </tr>
 <tr>
-<td>Form 4</td>
-<td>最新內部人授予、稅扣、買賣需逐筆核</td>
-<td>不能把授予當買入</td>
+<td>雲端渠道</td>
+<td>8/11 公告 Oracle OCI 部署 Helios 合作</td>
+<td>接觸現有企業雲端客戶</td>
+<td>合作本身不等於已認列長約收入</td>
 </tr>
 <tr>
-<td>Short interest</td>
-<td>NASDAQ 結算值、float、days to cover 需查證</td>
-<td>新股 float 小可能放大波動</td>
+<td>高效能運算</td>
+<td>HPE 混合量子／HPC／AI 合作框架</td>
+<td>拓展企業使用情境</td>
+<td>框架不能當成確定採購訂單</td>
 </tr>
 <tr>
-<td>SBC／稀釋</td>
-<td>最新 10-Q 明細需查證</td>
-<td>虧損期 GAAP diluted shares 可能低估經濟稀釋</td>
+<td>下遊客戶</td>
+<td>企業、研究機構及政府</td>
+<td>按服務或交付收費</td>
+<td>小基期造成單一客戶高度集中</td>
 </tr>
 </tbody>
 </table></div>
-<p>簡單說，目前這檔股票的籌碼狀態是上市歷史太短、解禁與 fully diluted 股數尚未完整橋接；任何「機構搶買」或「空頭擠壓」結論都需要正式申報支持。</p>
+<p>6/30 RPO 為 74.2，預計未來 12 個月認列 39.6%（約 29.4），未來兩年累計 64.8%（約 48.1）、三年累計 85.3%（約 63.3）。這些期間彼此包含，不能相加；RPO 也不是現金餘額。H1 客戶 A、B、美國政府分別佔收入 29%、16%、29%，合計 74%，展示現階段集中度，而非分散企業採用已成熟。<a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026056743/qnt-20260630.htm">10-Q</a></p>
+<h2>5. 商業模式與護城河</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>面向</th>
+<th>有利資產</th>
+<th>反方檢驗</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>硬體與技術人才</td>
+<td>完整量子研發團隊、離子阱工程及校正經驗</td>
+<td>性能／成本是否持續領先可替代方案</td>
+</tr>
+<tr>
+<td>軟體與應用</td>
+<td>從硬體到軟體的整合能力</td>
+<td>工具使用是否產生可觀付費收入</td>
+</tr>
+<tr>
+<td>商業渠道</td>
+<td>Oracle、HPE 等合作及既有大企業關係</td>
+<td>企業部署與續單可否證實渠道價值</td>
+</tr>
+<tr>
+<td>製造能力</td>
+<td>指定製程與製造合作投資</td>
+<td>研發樣品能否穩定大規模交付</td>
+</tr>
+<tr>
+<td>財務資源</td>
+<td>IPO 後現金超過 20 億美元</td>
+<td>資本需要與稀釋若過高，技術成功不一定帶來每股報酬</td>
+</tr>
+</tbody>
+</table></div>
+<p>目前可以確認公司有資產、人才及合約，而大規模盈利護城河仍需建立。H1 調整後毛利率 73.6% 反映剔除股份薪酬與折舊攤銷後的產品經濟性；它不是股東最終可分配利潤，也不是 GAAP 毛利率。</p>
+<h2>6. 重要財務與營運指標</h2>
+<p>金額百萬美元，H1 為六個月截至 6/30。IPO 帶入大量一次性股權費用、原有認股權公允價值損失以及會計歸屬變動，因此必須同時看全公司營運、現金與非 GAAP 調節。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>損益／現金流</th>
+<th style="text-align:right">H1 2026</th>
+<th style="text-align:right">H1 2025</th>
+<th>正確解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>營收</td>
+<td style="text-align:right">13.235</td>
+<td style="text-align:right">21.193</td>
+<td>約 -37.5%；Q2 另為 7.998、+279%</td>
+</tr>
+<tr>
+<td>GAAP 毛利（公司調節表）</td>
+<td style="text-align:right">-3.868</td>
+<td style="text-align:right">12.844</td>
+<td>毛利率 -29.2% 對 60.6%；包含分配到成本的收購無形攤銷</td>
+</tr>
+<tr>
+<td>調整後毛利</td>
+<td style="text-align:right">9.744</td>
+<td style="text-align:right">19.423</td>
+<td>調整後毛利率 73.6% 對 91.6%，不可混為 GAAP</td>
+</tr>
+<tr>
+<td>研發費用淨額</td>
+<td style="text-align:right">421.951</td>
+<td style="text-align:right">75.440</td>
+<td>含 IPO 股份薪酬，不能全部理解成現金燒錢</td>
+</tr>
+<tr>
+<td>銷售＋一般管理費</td>
+<td style="text-align:right">203.667</td>
+<td style="text-align:right">18.371</td>
+<td>股份薪酬及上市相關活動影響很大</td>
+</tr>
+<tr>
+<td>營業虧損</td>
+<td style="text-align:right">-632.177</td>
+<td style="text-align:right">-80.966</td>
+<td>尚無正營業獲利</td>
+</tr>
+<tr>
+<td>全公司淨損</td>
+<td style="text-align:right">-733.113</td>
+<td style="text-align:right">-87.406</td>
+<td>包括認股權重估損失 111.815</td>
+</tr>
+<tr>
+<td>歸屬上市公司淨損</td>
+<td style="text-align:right">-65.418</td>
+<td style="text-align:right">不適用</td>
+<td>只反映交易後上市公司應佔部分，不能替代全年全公司虧損</td>
+</tr>
+<tr>
+<td>A 類基本／稀釋 EPS</td>
+<td style="text-align:right">-1.93</td>
+<td style="text-align:right">不適用</td>
+<td>分母及期間從 IPO 重組後計算，不具完整全年可比性</td>
+</tr>
+<tr>
+<td>CFO</td>
+<td style="text-align:right">-129.085</td>
+<td style="text-align:right">-65.780</td>
+<td>營運現金消耗約倍增</td>
+</tr>
+<tr>
+<td>資本支出</td>
+<td style="text-align:right">39.177</td>
+<td style="text-align:right">37.721</td>
+<td>FCF＝CFO－capex</td>
+</tr>
+<tr>
+<td>FCF</td>
+<td style="text-align:right">-168.262</td>
+<td style="text-align:right">-103.501</td>
+<td>不含融資項下股權淨額交割稅款</td>
+</tr>
+<tr>
+<td>現金流調節 SBC</td>
+<td style="text-align:right">447.454</td>
+<td style="text-align:right">0</td>
+<td>調節表與費用附註四捨五入略不同，不代表同額現金支出</td>
+</tr>
+</tbody>
+</table></div>
+<p>官方毛利調節表將 H1 收購無形攤銷 <strong>5.679</strong> 分配至營收成本，並非把損益表全部攤銷 8.370 都計入毛利。故不能簡單用「收入－列示成本」算出 1.811 就稱 GAAP 毛利，也不能扣掉全部攤銷後報 -6.559。Q2 官方 GAAP 毛利 -5.153、毛利率 -64.4%，調整後毛利率 61.7%。<a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026055699/fy26q2_qntmxearningsxrelea.htm">官方毛利調節表</a></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>資產負債項目</th>
+<th style="text-align:right">2026-06-30</th>
+<th style="text-align:right">2025-12-31</th>
+<th>現金品質與義務</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>現金及約當現金</td>
+<td style="text-align:right">2,106.686</td>
+<td style="text-align:right">762.642</td>
+<td>IPO 提供資本，並非正營運現金流</td>
+</tr>
+<tr>
+<td>應收帳款</td>
+<td style="text-align:right">3.348</td>
+<td style="text-align:right">5.068</td>
+<td>另有關係人應收 0.532；小額收入下周轉率易受個別合約影響</td>
+</tr>
+<tr>
+<td>銷售型租賃淨投資</td>
+<td style="text-align:right">12.989</td>
+<td style="text-align:right">15.875</td>
+<td>含流動及非流動；不等同現金</td>
+</tr>
+<tr>
+<td>存貨</td>
+<td style="text-align:right">未單獨列示，需查證</td>
+<td style="text-align:right">未單獨列示</td>
+<td>不填零，也不套用製造股存貨周轉公式</td>
+</tr>
+<tr>
+<td>PPE</td>
+<td style="text-align:right">150.611</td>
+<td style="text-align:right">120.965</td>
+<td>反映研發與製造資產投入</td>
+</tr>
+<tr>
+<td>商譽／無形資產</td>
+<td style="text-align:right">769.631／105.105</td>
+<td style="text-align:right">784.822／114.282</td>
+<td>不能視為可清算等值現金</td>
+</tr>
+<tr>
+<td>應付帳款／應計負債</td>
+<td style="text-align:right">29.393／109.286</td>
+<td style="text-align:right">10.620／44.358</td>
+<td>H1 應付及應計增加分別釋放 CFO 15.463／26.943</td>
+</tr>
+<tr>
+<td>授權費應付款</td>
+<td style="text-align:right">流動 4.607＋非流動 55.345</td>
+<td style="text-align:right">合計相同</td>
+<td>合計 59.952；為有付款義務項目，不能因未列銀行債就忽略</td>
+</tr>
+<tr>
+<td>非流動租賃負債</td>
+<td style="text-align:right">29.860</td>
+<td style="text-align:right">7.143</td>
+<td>另有流動租賃義務，需一起看履約資金</td>
+</tr>
+<tr>
+<td>合併權益／非控制權益</td>
+<td style="text-align:right">3,005.354／2,592.272</td>
+<td style="text-align:right">重組前不可直接比較</td>
+<td>非控制權益與控股公司單位對應，不能市值重複相加</td>
+</tr>
+</tbody>
+</table></div>
+<p>IPO 發行 28.5 百萬股、每股 60 美元，包含已行使的 <strong>0.5 百萬股</strong>承銷商選擇權；扣承銷折扣費用後所得約 1,628.774，另有發行成本。H1 另支付約 92.0 股權淨額交割相關稅款，列在融資活動；因此 FCF -168.262 不包含所有股權相關現金支出。<a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026056743/qnt-20260630.htm">10-Q 融資及股權附註</a></p>
+<p>用 2,106.686／(168.262／6) 估算靜態現金支持期約 75.1 個月；若先扣授權應付款 59.952，約 73.0 個月。這不是公司指引，也不含更快研發、建廠、員工股稅款與新技術投入。若未來每年 FCF 消耗升至 500，未扣其他義務的現金支持期降至約 50.6 個月。充足現金可以給研發時間，不能把它當作已實現盈利。</p>
+<h2>7. 籌碼面與股權結構分析</h2>
+<p>QNT 為 <strong>Up-C 架構</strong>：上市公司 A 類股有經濟權益，B 類股主要給予投票權，本身沒有經濟權利；持有人同時持有 Quantinuum Holdings 的普通單位，後者可依條款換成現金或一對一 A 類股，B 類股隨之取消。A、B 每股原則上各一票，B 類不是每股二十票的超級投票權。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>股權項目</th>
+<th>核實口徑</th>
+<th>估值處理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8/13 A 類流通股</td>
+<td>36,893,857 股</td>
+<td>只計這部分會漏掉控股公司其他經濟權益</td>
+</tr>
+<tr>
+<td>8/13 B 類／對應單位</td>
+<td>226,414,285 股／單位</td>
+<td>經濟價值來自對應的普通單位，不能把 B 類本身當另一份現金權益</td>
+</tr>
+<tr>
+<td>8/13 合計經濟基準</td>
+<td>263,308,142 股等值</td>
+<td>A 類＋其他持有人普通單位，不再加非控制權益市值</td>
+</tr>
+<tr>
+<td>9/8 政府股份</td>
+<td>已發 2,369,528 股 A 類</td>
+<td>與 QBTS 尚待發行的披露狀態不同</td>
+</tr>
+<tr>
+<td>更新後粗略經濟基準</td>
+<td>265,677,670 股等值</td>
+<td>假設 8/13 後其他股權變動為零，非最終完全稀釋股數</td>
+</tr>
+<tr>
+<td>未歸屬 RSU 與限制股</td>
+<td>6/30 2026 計畫 RSU 5,702,509；2023 計畫 RSU 37,890，另有限制股 538,964</td>
+<td>RSU 與已發行限制股不同；限制股是否已含 A 類流通口徑需確認，避免重加</td>
+</tr>
+<tr>
+<td>期權</td>
+<td>IPO CEO 期權 122,791 股、行使價 60 美元</td>
+<td>現價低於行使價不等於沒有未來稀釋風險</td>
+</tr>
+<tr>
+<td>其他權益成本</td>
+<td>2023／2026 計畫未認列費用 38.7／194.8，預計約 1.3／2.3 年認列</td>
+<td>計畫授權上限不等於已授予數量</td>
+</tr>
+<tr>
+<td>IPO 舊認股權與優先股</td>
+<td>6/30 認股權負債與暫時權益已歸零，重組轉為相關權益</td>
+<td>不能把已轉換工具按 IPO 前狀態再算一次</td>
+</tr>
+</tbody>
+</table></div>
+<p>Honeywell 8/13 13G 披露以 6/30 為基準的 124,628,729 股可取得 A 類的單位權益。申報 <strong>79.1%</strong> 採法規 A 類及該申報人可轉換部分的分母，<strong>不是全公司 79.1% 經濟持股</strong>；對 6/30 全經濟股數約 262.906 百萬股，比例約 47.4%。Capital Research 的 1,754,325 股、5.3% 同樣採該文件 A 類分母，不是所有經濟權益的 5.3%。兩者都不是 9/9 即時交易訊號。<a href="https://www.sec.gov/Archives/edgar/data/2110105/000149315226037881/xslSCHEDULE_13G_X02/primary_doc.xml">Honeywell 13G</a>、<a href="https://www.sec.gov/Archives/edgar/data/2110105/000142284826000109/xslSCHEDULE_13G_X02/primary_doc.xml">Capital Research 13G</a></p>
+<p>IPO 相關持有人原則有招股書所載 180 日鎖定及豁免條款，個別提前解除、註冊出售安排與最終可售股數需追蹤，不能把名義解禁直接當作實際賣單。稅收利益協議（TRA）一般要求支付符合條件稅收節省的 <strong>85%</strong> 給 TRA 對象；當前因遞延稅資產評價備抵等因素未認列相應完整負債，不代表未來沒有現金義務。<a href="https://www.sec.gov/Archives/edgar/data/2110105/000162828026041003/quantinuum-424b4.htm">招股書</a></p>
 <h2>8. 美股與台股同業比較</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>代號</th>
 <th>公司</th>
-<th>路線／位置</th>
-<th>優勢</th>
-<th>主要風險</th>
-<th>成長／穩定</th>
-<th>估值判讀</th>
+<th>關係分類</th>
+<th>可比較問題</th>
+<th>不可直接套用</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>QNT</td>
-<td>Quantinuum</td>
-<td>離子阱全棧</td>
-<td>保真度、軟體、資安</td>
-<td>高 burn、收入小</td>
-<td>高／低</td>
-<td>EV/Sales 與里程碑</td>
+<td>D-Wave QBTS</td>
+<td>量子直接產業／不同路線</td>
+<td>付費收入、RPO、研發與現金消耗</td>
+<td>退火及另一閘模型組合，不以物理 qubits 比勝負</td>
 </tr>
 <tr>
-<td>IONQ</td>
-<td>IonQ</td>
-<td>離子阱</td>
-<td>商業曝光、雲通路</td>
-<td>執行與估值</td>
-<td>高／低</td>
-<td>高溢價純量子</td>
+<td>IonQ IONQ</td>
+<td>量子直接產業／離子阱鄰近</td>
+<td>硬體擴展、商業採用與資本效率</td>
+<td>產品、收購及收入定義需逐項統一</td>
 </tr>
 <tr>
-<td>RGTI</td>
-<td>Rigetti</td>
-<td>超導全棧</td>
-<td>晶片與雲端</td>
-<td>虧損、規模</td>
-<td>高／低</td>
-<td>EV/Sales</td>
-</tr>
-<tr>
-<td>QBTS</td>
-<td>D-Wave</td>
-<td>退火＋閘模型</td>
-<td>商業最佳化、bookings</td>
-<td>收入波動</td>
-<td>高／低</td>
-<td>訂單與 burn</td>
-</tr>
-<tr>
-<td>QUBT</td>
-<td>Quantum Computing</td>
-<td>光子／晶圓</td>
-<td>光子敘事</td>
-<td>商業證據少</td>
-<td>極高／極低</td>
-<td>高風險</td>
+<td>Rigetti RGTI</td>
+<td>量子直接產業／超導路線</td>
+<td>製造與工程可擴展性</td>
+<td>與離子阱有不同誤差及系統成本</td>
 </tr>
 <tr>
 <td>IBM</td>
-<td>IBM Quantum</td>
-<td>超導／雲</td>
-<td>客戶、資本、研究</td>
-<td>非純量子</td>
-<td>中／高</td>
-<td>集團估值</td>
+<td>大型平台競爭</td>
+<td>客戶渠道、企業使用與研發資源</td>
+<td>股票價值主要來自成熟非量子業務</td>
 </tr>
 <tr>
-<td>GOOGL</td>
-<td>Google Quantum AI</td>
-<td>超導研究</td>
-<td>研究資源</td>
-<td>非純量子、商業化遠</td>
-<td>中／高</td>
-<td>集團估值</td>
+<td>Alphabet GOOGL</td>
+<td>量子研發競爭</td>
+<td>技術、人才與資源</td>
+<td>不視為量子純股</td>
 </tr>
 <tr>
-<td>2330</td>
-<td>台積電</td>
-<td>供應鏈類比</td>
-<td>製造規模</td>
-<td>非直接量子同業</td>
-<td>中／高</td>
-<td>不作直接倍數比較</td>
+<td>Honeywell HON</td>
+<td>股東／策略相關</td>
+<td>對 QNT 的權益價值與持股變動</td>
+<td>持有 HON 不是等比例純量子曝險</td>
+</tr>
+<tr>
+<td>Oracle ORCL</td>
+<td>下游渠道／合作</td>
+<td>雲端部署與使用付費</td>
+<td>公告合作不代表保證採購額</td>
+</tr>
+<tr>
+<td>廣達 2382</td>
+<td>製造／整合主題參照</td>
+<td>運算設備與製造能力</td>
+<td>本表不以未具名公告認定直接訂單，整體伺服器收入不是 QNT 收入</td>
+</tr>
+<tr>
+<td>台積電 2330</td>
+<td>上游半導體參照</td>
+<td>製造規模與資本效率</td>
+<td>未據此認定特定直接供貨關係</td>
 </tr>
 </tbody>
 </table></div>
+<p>同業比較應看同一期合併營收、可用現金、股權工具與實際付費部署。量子股多未獲利，不能虛構「產業平均本益比」作價格錨。</p>
 <h2>9. 估值比較與同業本益比區間</h2>
+<p>QNT 虧損，<strong>PE 不適用</strong>；上市後 A 類 EPS 也不能直接拿來代表重組前後整家公司的全部經濟損益。按 265.678 百萬經濟等值股，參考價格區間對應股權價值 13,299.8–13,408.8 百萬美元。6/30 沒有單列銀行借款，但有授權付款與租賃義務。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>指標</th>
-<th>QNT</th>
-<th>適用性／判讀</th>
+<th>方法／參照</th>
+<th>數值與基準</th>
+<th>限制</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>P/E／Forward P/E</td>
-<td>不適用</td>
-<td>公司虧損，負 EPS 無估值意義</td>
+<td>扣現金的簡化 EV</td>
+<td>11,193.1–11,302.1</td>
+<td>股權價值－6/30 現金；尚未加授權與租賃等義務</td>
 </tr>
 <tr>
-<td>P/S／EV/Sales</td>
-<td>需查證</td>
-<td>主要方法，但 Q2 年化收入非常小，倍數可能極高</td>
+<td>加入授權應付款後 EV</td>
+<td>11,253.1–11,362.0</td>
+<td>另加 59.952；未估 TRA 或完整租賃敏感度</td>
 </tr>
 <tr>
-<td>EV/EBITDA</td>
-<td>不適用</td>
-<td>Adjusted EBITDA 為負</td>
+<td>簡化 forward EV/Sales</td>
+<td>約 373.1–376.7 倍</td>
+<td>以 8/11 全年指引中點收入 30 計算；不是 TTM</td>
 </tr>
 <tr>
-<td>P/B</td>
-<td>次要，需查證</td>
-<td>現金占資產重要，但研發 IP 不完全入帳</td>
+<td>只看 A 類的錯誤市值</td>
+<td>約二十億美元量級</td>
+<td>會漏掉其他持有人控股公司單位；不能用來說接近現金價值</td>
 </tr>
 <tr>
-<td>FCF Yield</td>
-<td>負值，需查證</td>
-<td>應改看 cash burn／現金跑道</td>
+<td>全經濟權益 PB</td>
+<td>13,299.8–13,408.8／3,005.354＝4.43–4.46</td>
+<td>合併權益含商譽和非控制權益，非現金清算價</td>
 </tr>
 <tr>
-<td>同業定位</td>
-<td>純量子高風險群</td>
-<td>技術里程碑不能直接等同可比收入</td>
+<td>QBTS</td>
+<td>虧損，PE 不適用</td>
+<td>其股本、現金及收入與 QNT 不同，需另一份完整研究</td>
+</tr>
+<tr>
+<td>IONQ／RGTI</td>
+<td>同日可比估值需查證</td>
+<td>不引用無來源平均 EV/Sales</td>
+</tr>
+<tr>
+<td>廣達 2382</td>
+<td>9/8 官方 PE 14.29、PB 5.19</td>
+<td>成熟硬體業務參照，非量子業務倍數</td>
+</tr>
+<tr>
+<td>台積電 2330</td>
+<td>9/8 官方 PE 28.63、PB 9.96</td>
+<td>上游參照，不是直接同業定價</td>
 </tr>
 </tbody>
 </table></div>
-<p>50.47 美元低於 60 美元 IPO 價不代表便宜；只有用總 fully diluted 股數算出企業價值，再除以可重複收入／bookings，才有可比基礎。</p>
+<p>CHIPS 最高 100 百萬美元佔目前參考股權價值不到 1%，又帶約 0.9% 的新股等值增加。其意義在支持指定製造能力，不能用補助標題改寫為公司估值已獲政府背書。</p>
 <h2>10. 未來 3 年量化情境分析</h2>
-<p>以下為本報告推論，不是公司指引；因總稀釋股數尚未核，EPS 範圍高度敏感。</p>
+<p>以下為研究假設，不是公司預測或下單價格。FY2026 收入採指引中點 30；年底可用淨資金模型起點設 <strong>1,800</strong>，是從 6/30 現金預留後續現金支出與部分義務的分析假設，非公告現金。未把完整 CHIPS 100 直接加入一般營運資金。期間為 2027–2029，財務金額百萬美元。</p>
+<p>情境每股損益＝（收入×毛利率－營業費用）／經濟稀釋股數。毛利率納入正常成本及攤銷，費用包含經常性 SBC；IPO 一次性累積費用不重複年化。利息、稅與重大一次性項以零簡化，故淨利率近似營業利益率；虧損下經濟稀釋敏感度不是法定 GAAP 稀釋 EPS。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>情境</th>
-<th style="text-align:right">2027–2029 收入 CAGR</th>
-<th style="text-align:right">調整後毛利率</th>
-<th>2027／2028／2029 稀釋 EPS</th>
-<th>合理估值</th>
-<th>觸發條件</th>
+<th>年度</th>
+<th style="text-align:right">營收</th>
+<th style="text-align:right">毛利率</th>
+<th style="text-align:right">營業費用</th>
+<th style="text-align:right">營業利益／近似淨利率</th>
+<th style="text-align:right">經濟股數（百萬）</th>
+<th style="text-align:right">每股損益</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>多頭</td>
-<td style="text-align:right">70%–100%</td>
-<td style="text-align:right">60%–70%</td>
-<td>-0.7~-0.4／-0.3~0／0~0.5</td>
-<td>15–25x forward sales</td>
-<td>Helios 商用、OCI 放量、Sol 準時</td>
+<td>保守</td>
+<td>2027</td>
+<td style="text-align:right">40</td>
+<td style="text-align:right">45%</td>
+<td style="text-align:right">400</td>
+<td style="text-align:right">-382／-955%</td>
+<td style="text-align:right">280</td>
+<td style="text-align:right">-1.36</td>
 </tr>
 <tr>
-<td>基準</td>
-<td style="text-align:right">40%–70%</td>
-<td style="text-align:right">50%–65%</td>
-<td>-1.0~-0.7／-0.9~-0.4／-0.5~0</td>
-<td>8–15x forward sales</td>
-<td>合作轉付費但 burn 仍高</td>
+<td>保守</td>
+<td>2028</td>
+<td style="text-align:right">60</td>
+<td style="text-align:right">50%</td>
+<td style="text-align:right">450</td>
+<td style="text-align:right">-420／-700%</td>
+<td style="text-align:right">295</td>
+<td style="text-align:right">-1.42</td>
 </tr>
 <tr>
-<td>空頭</td>
-<td style="text-align:right">0%–30%</td>
-<td style="text-align:right">20%–50%</td>
-<td>-1.5~-1.0／-1.6~-1.0／-1.7~-1.0</td>
-<td>2–7x sales／現金折價</td>
-<td>里程碑延後、客戶停在 PoC</td>
+<td>保守</td>
+<td>2029</td>
+<td style="text-align:right">100</td>
+<td style="text-align:right">55%</td>
+<td style="text-align:right">500</td>
+<td style="text-align:right">-445／-445%</td>
+<td style="text-align:right">310</td>
+<td style="text-align:right">-1.44</td>
+</tr>
+<tr>
+<td>中性</td>
+<td>2027</td>
+<td style="text-align:right">90</td>
+<td style="text-align:right">60%</td>
+<td style="text-align:right">450</td>
+<td style="text-align:right">-396／-440%</td>
+<td style="text-align:right">280</td>
+<td style="text-align:right">-1.41</td>
+</tr>
+<tr>
+<td>中性</td>
+<td>2028</td>
+<td style="text-align:right">200</td>
+<td style="text-align:right">65%</td>
+<td style="text-align:right">500</td>
+<td style="text-align:right">-370／-185%</td>
+<td style="text-align:right">290</td>
+<td style="text-align:right">-1.28</td>
+</tr>
+<tr>
+<td>中性</td>
+<td>2029</td>
+<td style="text-align:right">450</td>
+<td style="text-align:right">70%</td>
+<td style="text-align:right">550</td>
+<td style="text-align:right">-235／-52.2%</td>
+<td style="text-align:right">300</td>
+<td style="text-align:right">-0.78</td>
+</tr>
+<tr>
+<td>樂觀</td>
+<td>2027</td>
+<td style="text-align:right">150</td>
+<td style="text-align:right">65%</td>
+<td style="text-align:right">550</td>
+<td style="text-align:right">-452.5／-301.7%</td>
+<td style="text-align:right">280</td>
+<td style="text-align:right">-1.62</td>
+</tr>
+<tr>
+<td>樂觀</td>
+<td>2028</td>
+<td style="text-align:right">450</td>
+<td style="text-align:right">70%</td>
+<td style="text-align:right">650</td>
+<td style="text-align:right">-335／-74.4%</td>
+<td style="text-align:right">285</td>
+<td style="text-align:right">-1.18</td>
+</tr>
+<tr>
+<td>樂觀</td>
+<td>2029</td>
+<td style="text-align:right">1,200</td>
+<td style="text-align:right">75%</td>
+<td style="text-align:right">750</td>
+<td style="text-align:right">150／12.5%</td>
+<td style="text-align:right">290</td>
+<td style="text-align:right">0.52</td>
 </tr>
 </tbody>
 </table></div>
-<p>目標價需由 2029 收入 × 倍數，加回淨現金，再除 fully diluted 股數；缺總股數時不提供假精確價格。</p>
-<h2>11. 投資建議與執行策略</h2>
+<p>由 FY2026 收入 30 至 FY2029 的 CAGR 分別為 <strong>49.4%、146.6%、242.0%</strong>。保守假設設備與校正里程碑延遲、企業試驗轉收入緩慢；中性需要持續部署與雲端使用放量；樂觀需要 Sol、Apollo 路線、量產及多家商業客戶共同成功，收入增至指引中點 40 倍，要求極高。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>代號</th>
-<th>名稱</th>
-<th>評級</th>
-<th>適合投資人</th>
-<th>理由</th>
-<th>不買理由</th>
-<th>追蹤條件</th>
+<th>情境</th>
+<th>2027／28／29 FCF 假設</th>
+<th style="text-align:right">三年外部募資</th>
+<th style="text-align:right">2029 末淨資金</th>
+<th style="text-align:right">2029 EV/Sales 假設</th>
+<th style="text-align:right">2029 末每股價值</th>
+<th style="text-align:right">折現目前每股價值</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>QNT</td>
-<td>Quantinuum</td>
-<td>觀察</td>
-<td>高風險前沿科技研究者</td>
-<td>技術與現金領先</td>
-<td>收入小、虧損大、解禁與股數未核</td>
-<td>bookings、收入、burn、Helios／Sol</td>
+<td>保守</td>
+<td>-350／-400／-450</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">600</td>
+<td style="text-align:right">5–10 倍</td>
+<td style="text-align:right">3.55–5.16</td>
+<td style="text-align:right">2.05–2.99</td>
+</tr>
+<tr>
+<td>中性</td>
+<td>-350／-350／-300</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">800</td>
+<td style="text-align:right">10–20 倍</td>
+<td style="text-align:right">17.67–32.67</td>
+<td style="text-align:right">10.22–18.90</td>
+</tr>
+<tr>
+<td>樂觀</td>
+<td>-400／-350／-200</td>
+<td style="text-align:right">0</td>
+<td style="text-align:right">850</td>
+<td style="text-align:right">20–30 倍</td>
+<td style="text-align:right">85.69–127.07</td>
+<td style="text-align:right">49.59–73.54</td>
 </tr>
 </tbody>
 </table></div>
-<p>一般化 30%／30%／40% 框架只在條件成熟後使用：先完成 fully diluted 股數與解禁；再等兩季收入／bookings 成長及 burn 改善；最後等 OCI 或大型客戶轉為可驗證經常性收入。低成本持有者以技術里程碑與 burn 為失效線；IPO 附近或套牢者不應把回到發行價當基本面目標。</p>
-<p>上調訊號：收入連兩季超過 50% 成長、bookings／RPO 揭露改善、Helios 商業使用、burn 下降。下調訊號：Sol／Apollo 延後、GAAP 與調整口徑差距擴大、重大稀釋、客戶合作無金額或無續約。</p>
+<p>公式：期末淨資金＝1,800＋三年 FCF；每股終值＝（期末收入×EV/Sales＋淨資金）／經濟稀釋股數；目前價值＝終值／1.20³。股數逐年增加反映員工股及既有潛在權益等敏感度，沒有假設所有計畫授權上限立即發行。FCF 與損益差異包含非現金調節、設備投資及營運資金假設，需由未來報表逐期修正。</p>
+<p>20–30 倍終值收入倍數本身是高成長溢價假設，不是已驗證成熟同業公允區間。現價 50.06–50.47 約落在樂觀折現區間低端，意味市場已要求遠高於中性路徑的成果。若樂觀收入只達 600 且終值倍數降至 15，其他條件不變，折現價值約（600×15＋850）／290／1.20³＝19.66 美元，顯示收入與倍數同時回落的風險。模型未對 TRA 作完整現值估算，實際未來股東現金可能更低。</p>
+<h2>11. 投資建議與執行策略</h2>
+<p>評級為<strong>觀察</strong>。不選「買入」或「分批佈局」，因現有估值需要極積極商業化路徑，且官方價格、最新完整股本及資金條件未全確認。不使用「續抱」作一般指令，因沒有個人持倉與成本資料；不直接給「減碼 / 賣出」，因資金、技術與渠道仍有實質發展機會，沒有足夠證據斷定商業化失敗。維持觀察不代表這個價格風險低。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>升評條件</th>
+<th>降評條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>收入與 RPO 連續數季增長且如期轉現金</td>
+<td>重要系統延期、客戶驗收反覆、RPO 流失</td>
+</tr>
+<tr>
+<td>剔除 IPO 一次性項後，經常性費用與現金效率改善</td>
+<td>研發與股權費用擴張，但付費使用停滯</td>
+</tr>
+<tr>
+<td>重大雲端部署開始貢獻可辨認營收與續約</td>
+<td>合作長期停留在框架與技術演示</td>
+</tr>
+<tr>
+<td>更新後完全稀釋估值較中性情境有足夠折讓</td>
+<td>解禁／增發、TRA 或其他付款使每股價值下降</td>
+</tr>
+<tr>
+<td>CHIPS 分期達標並公佈資金用途與股數</td>
+<td>里程碑失敗、追償或重大的成本超支</td>
+</tr>
+</tbody>
+</table></div>
+<p>研究型執行先核對全經濟股數，再追蹤付款與合約交付，最後更新估值。不能因公司現金超過二十億美元，就以只含 A 類的市值斷言「股價接近現金、風險有限」。</p>
 <h2>12. 投資標的分層</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>分層</th>
-<th>標的</th>
-<th>組合角色</th>
+<th>層級</th>
+<th>標的與角色</th>
+<th>本次處理</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>核心穩健型</td>
-<td>IBM、GOOGL</td>
-<td>用成熟現金流承載量子選擇權</td>
+<td>量子技術與商業化觀察</td>
+<td>QNT</td>
+<td>完整平台及資金優勢；估值與每股成果待驗證</td>
 </tr>
 <tr>
-<td>成長型</td>
-<td>尚未符合；需商業收入驗證的 QNT／IONQ</td>
-<td>前沿科技成長</td>
+<td>量子路線比較</td>
+<td>QBTS、IONQ、RGTI</td>
+<td>比較工作負載、收入、現金與股本，不做代碼式題材買入</td>
 </tr>
 <tr>
-<td>景氣循環型</td>
-<td>量子硬體供應鏈</td>
-<td>資本支出與政府預算循環</td>
+<td>成熟股東／渠道相關</td>
+<td>HON、ORCL、IBM</td>
+<td>各有大量非量子業務，不能當純量子替代品</td>
 </tr>
 <tr>
-<td>高風險高報酬型</td>
-<td>QNT、IONQ、RGTI、QBTS</td>
-<td>小部位技術與商業化選擇權</td>
-</tr>
-<tr>
-<td>只適合觀察型</td>
-<td>股數／解禁未核的 QNT</td>
-<td>等待上市後兩至三季證據</td>
+<td>台股製造與上游參照</td>
+<td>2382、2330</td>
+<td>辨認已公告合作與未驗證關係，不過度延伸受惠比例</td>
 </tr>
 </tbody>
 </table></div>
+<p>QNT 保留在「現在不能買，但值得等買點名單」的研究層。若價格變便宜但技術、合約或股本條件同時轉差，仍不自動升級。</p>
 <h2>13. 產業、籌碼與市場風險與反方觀點</h2>
+<p>最強反方是量子技術成功需要大量資本與很長時間，而當前股價已先反映迅速商業化；即使公司能持續研發，早期股東仍可能面臨估值回落和長期稀釋。股權架構還使只看公開 A 類市值、EPS 或 13G 百分比的方法特別容易誤判。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>風險</th>
-<th>機率</th>
-<th>衝擊</th>
-<th>預警訊號</th>
-<th>回應</th>
+<th>傳導路徑</th>
+<th>重點反證</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>估值過度</td>
-<td>高</td>
-<td>高</td>
-<td>EV/Sales 遠高同業且收入未跟上</td>
-<td>以情境與現金折價</td>
-</tr>
-<tr>
-<td>技術替代</td>
-<td>中高</td>
-<td>極高</td>
-<td>其他路線達較佳錯誤校正／成本</td>
-<td>多路線比較</td>
-</tr>
-<tr>
-<td>商業化延遲</td>
-<td>高</td>
-<td>極高</td>
-<td>PoC 多、付費與續約少</td>
-<td>要求合約與收入證據</td>
-</tr>
-<tr>
-<td>政策／地緣</td>
-<td>中</td>
-<td>高</td>
-<td>出口、資安或政府資金變化</td>
-<td>追正式合約</td>
+<td>技術路線與擴展</td>
+<td>物理成果難以放大為可靠商用系統</td>
+<td>Sol／Apollo 延期、成本與校正難度超預期</td>
 </tr>
 <tr>
 <td>客戶集中</td>
-<td>中高</td>
-<td>高</td>
-<td>少數政府／夥伴占比高</td>
-<td>要求集中度揭露</td>
+<td>少數企業及政府合約左右季度收入</td>
+<td>最大客戶減單、付款與驗收延後</td>
 </tr>
 <tr>
-<td>稀釋／解禁</td>
-<td>高</td>
-<td>高</td>
-<td>SBC、lock-up 到期、增發</td>
-<td>fully diluted 橋接</td>
+<td>會計可比性</td>
+<td>IPO 一次性 SBC、NCI 和認股權重估</td>
+<td>市場將歸屬 A 類淨損誤作全公司虧損</td>
 </tr>
 <tr>
-<td>現金流惡化</td>
-<td>高</td>
-<td>高</td>
-<td>burn 不降、CapEx 上升</td>
-<td>重算跑道</td>
+<td>股本與解禁</td>
+<td>可交換單位、RSU、期權與註冊出售</td>
+<td>流通供給增加、每股現金與收入被稀釋</td>
+</tr>
+<tr>
+<td>TRA 與關係人</td>
+<td>未來節稅利益可能主要支付給既有持有人</td>
+<td>實際付款、稅資產可實現性與估值影響</td>
+</tr>
+<tr>
+<td>政策與補助</td>
+<td>CHIPS 有用途、里程碑、終止及追償條款</td>
+<td>未達條件、資金凍結或返還</td>
+</tr>
+<tr>
+<td>市場價格不一致</td>
+<td>小型新上市股報價與股本資料更新落後</td>
+<td>依官方市場與法定存量重算，而非追隨單一行情網站</td>
 </tr>
 </tbody>
 </table></div>
-<h3>反方觀點</h3>
-<p>最強空方論點是：Q2 只有 800 萬美元收入，卻出現 5.97 億美元 GAAP 淨損；即使扣除一次性項目，Adjusted EBITDA 仍虧 6,800 萬美元。技術保真度與合作公告未必能形成可重複、高毛利收入，而 IPO 現金可能鼓勵更長的研發支出。若總股數、SBC 和解禁供給比市場想像更大，低於 IPO 價仍可能是昂貴估值。</p>
+<p>樂觀反方是充足現金、完整技術和雲端渠道能讓公司比同業更快擴大付費需求；若實際客戶收入、毛利與現金效率同步支持此論點，現有中性路徑需要上修。但目前不能以合作數量代替每股財務成果。</p>
 <h2>14. 後續研究與追蹤清單</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>類別</th>
-<th>下一步</th>
-<th>來源／頻率</th>
+<th>優先序</th>
+<th>待查事項</th>
+<th>下一個來源與判斷</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>財報</td>
-<td>收入、bookings、RPO、GAAP／調整差異、CFO、CapEx</td>
-<td>每季 10-Q／IR</td>
+<td>1</td>
+<td>官方 9/8 收盤與新股後全經濟股數</td>
+<td>交易所正式報價、下期 10-Q／8-K；解決 50.06／50.47 差異</td>
 </tr>
 <tr>
-<td>股本</td>
-<td>Class A/B、SBC、RSU、lock-up、fully diluted</td>
-<td>S-1／10-Q／Form 4</td>
+<td>2</td>
+<td>RPO、季度營收與全年 28–32 指引</td>
+<td>公司財報；逐期核對承諾交付與實際認列</td>
 </tr>
 <tr>
-<td>技術</td>
-<td>Helios uptime、邏輯錯誤率、Sol 2027、Apollo 2029</td>
-<td>論文、客戶與公司公告</td>
+<td>3</td>
+<td>CHIPS 撥款與已發 2.370 百萬股後續條款</td>
+<td>8-K 附件及下季現金／權益附註</td>
 </tr>
 <tr>
-<td>商業</td>
-<td>OCI／HPE／Aramco 是否有付費與規模</td>
-<td>合作方交叉驗證</td>
+<td>4</td>
+<td>SBC、股權交割稅款、期權及 RSU</td>
+<td>確認一次性和經常性，避免遺漏融資活動現金成本</td>
 </tr>
 <tr>
-<td>籌碼</td>
-<td>13F、Form 4、short interest</td>
-<td>月／季，注意落後</td>
+<td>5</td>
+<td>TRA 支付、稅務備抵與關係人安排</td>
+<td>附註及年度報告；補完整現值敏感度</td>
 </tr>
 <tr>
-<td>估值</td>
-<td>EV/Sales、cash runway、同業同日比較</td>
-<td>每季與重大事件</td>
+<td>6</td>
+<td>IPO 鎖定豁免、註冊出售與內部人交易</td>
+<td>招股書、S-1／S-3、Form 4、13F；不把可出售視為已出售</td>
+</tr>
+<tr>
+<td>7</td>
+<td>技術與客戶經濟效益</td>
+<td>按相同工作負載查證量子成本、可靠性及付費規模</td>
 </tr>
 </tbody>
 </table></div>
-<p>下一步研究 IONQ（同為離子阱且市場可比）、RGTI（超導全棧）、IBM（成熟企業量子生態），可分辨路線、商業化與估值差異。</p>
+<p>完整最新持股集中度、短倉、內部人淨交易、TRA 現值及完全稀釋股本仍需查證。保留這些缺口比使用錯誤 A 類分母提供精確假象更有用。</p>
 <h2>15. 結論</h2>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>問題</th>
-<th>結論</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>是否為產業好入口</td>
-<td>是，全棧離子阱代表性高</td>
-</tr>
-<tr>
-<td>產業是否值得長期追蹤</td>
-<td>值得，但仍屬前商業化高失敗率階段</td>
-</tr>
-<tr>
-<td>最重要投資邏輯</td>
-<td>技術保真與全棧軟體能否轉成可重複企業收入</td>
-</tr>
-<tr>
-<td>籌碼面評價</td>
-<td>IPO 後資料短，解禁與 fully diluted 股數未清</td>
-</tr>
-<tr>
-<td>最大風險</td>
-<td>商業化慢於 burn 與稀釋</td>
-</tr>
-<tr>
-<td>估值是否已反映成長</td>
-<td>需要總股數與 EV/Sales，尚不能證明安全邊際</td>
-</tr>
-<tr>
-<td>最終投資評級</td>
-<td><strong>觀察</strong></td>
-</tr>
-<tr>
-<td>優先研究產業鏈環節</td>
-<td>錯誤校正、雲端工作流、付費應用與製造擴產</td>
-</tr>
-</tbody>
-</table></div>
-<p>給初學者的重點：量子公司的新聞常是技術里程碑，不是營收。先把「更準的機器」和「客戶願意持續付錢」分開，再看現金能撐多久與每股會不會被稀釋；這也是目前只能觀察、不能因低於 IPO 價就判定便宜的原因。</p>
+<p>Quantinuum 已有可研究的技術資產、合約和資金，但投資價值仍取決於商業化及每股現金成果。最新 Q2 高增長、CHIPS 和雲端合作都不能抹去 H1 收入下滑、持續現金消耗與 Up-C 股本成本。2026-09-09 維持<strong>觀察</strong>；先確認完整經濟股數、實際付費採用與資金用途，再判斷市場價格是否值得承擔長期研發風險。</p>
 </article></main></div>
-</body>
+<script src="../../assets/research-status.js" defer></script></body>
 </html>

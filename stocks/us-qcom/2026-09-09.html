@@ -22,8 +22,8 @@
       </div>
       <div class="flex flex-wrap gap-2">
         <span class="meta-pill">研究日 2026-09-09</span>
-        <span class="meta-pill">有效至 2026-09-16</span>
-        <span class="meta-pill">評級 分批布局</span>
+        <span class="meta-pill research-freshness" data-research-date="2026-09-09" data-valid-until="2026-09-16" data-freshness="valid">有效至 2026-09-16</span>
+        <span class="meta-pill">評級 觀察</span>
       </div>
     </div>
   </div>
@@ -36,436 +36,800 @@
 <li><a href="2026-08-04.html">2026-08-04</a></li>
 <li><a href="2026-06-29.html">2026-06-29</a></li></ul>
 </aside>
-<main class="site-container pb-14"><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><blockquote>
-<p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
-</blockquote>
+<main class="site-container pb-14" data-content-hash="ea065e300d3b60cc4e667468ecc906ffea1d1280368a3fe4c2917a30e3fc25e3"><aside class="research-notice" role="note"><p>有效期僅表示報告標示期限，不表示行情已更新；請同時核對正文的資料基準日。</p></aside><article class="report-body rounded-md border border-stone-200 bg-white p-5 sm:p-7"><p>以下報告將以研究型投資分析角度撰寫，不構成保證獲利或個人化財務建議。資料將以可取得的最新公開資訊為基礎；若部分即時資料無法查證，會明確標示「需查證」。</p>
 <h1>高通/QCOM 反推產業 Deep Research 投資報告</h1>
 <h2>0. 資料來源與研究日期</h2>
+<p>研究日為 2026-09-09（台北），有效至 2026-09-16；本報告於今日重新讀取最新法定文件與事件公告，屬逾晨報截稿時間完成的正式研究。公司為 QUALCOMM Incorporated，NASDAQ 普通股 QCOM，以美元報表。2026 財年第三季截止 2026-06-28，不能誤稱曆年第二季全年結果。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>項目</th>
-<th>已核口徑與限制</th>
+<th>來源與日期</th>
+<th>本次用途</th>
+<th>證據限制</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>報告研究日期</td>
-<td>2026-09-09；有效至 2026-09-16，非價格保證</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm">FY2026 Q3 10-Q，2026-07-29</a></td>
+<td>九個月損益、現金流、資產負債、併購與股數</td>
+<td>未審計中期報告；7/27 股數早於 Modular 交易</td>
 </tr>
 <tr>
-<td>發行人／證券</td>
-<td>高通／QCOM／美國掛牌普通股或存託憑證；證券轉換比率依正式申報</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/804328/000080432826000085/qcom062826erex991.htm">7/29 官方財報新聞稿</a></td>
+<td>QCT 分類、Q4 指引、管理層非手機目標</td>
+<td>指引與目標不是已實現營收</td>
 </tr>
 <tr>
-<td>最新股價與價格日期</td>
-<td>2026-09-08 正式日線收盤 <strong>174.09 美元</strong>；StockLoop SQLite daily_bars，來源 yfinance，非公司官方</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm">9/8 Amazon 合作 8-K</a></td>
+<td>認股權、履約條件與採購里程碑</td>
+<td>最高付款門檻不等於確定訂單</td>
 </tr>
 <tr>
-<td>最新市值及計算基礎</td>
-<td>需以同日收盤 × 最新基本流通股數重算；缺同日正式股數時不提供假精確值</td>
+<td><a href="https://www.sec.gov/Archives/edgar/data/804328/000009375126000529/xslSCHEDULE_13G_X02/primary_doc.xml">State Street 13G，持倉日 6/30</a></td>
+<td>持股與投票權觀察</td>
+<td>單一申報人，不能推成全市場資金流</td>
 </tr>
 <tr>
-<td>基本流通／已發行股數</td>
-<td>依最新 10-Q／20-F／6-K 或 ADR 招股文件；研究日若無完整期後橋接則標示需查證</td>
+<td><a href="https://stockanalysis.com/stocks/qcom/history/">StockAnalysis 歷史報價</a>、<a href="https://stockscan.io/stocks/QCOM/price-history">StockScan 歷史報價</a></td>
+<td>兩個來源均顯示 9/8 美股收盤 174.09 美元</td>
+<td>二手價格交叉核對；交易所正式收盤檔仍需查證</td>
 </tr>
 <tr>
-<td>稀釋後股數</td>
-<td>需分列加權稀釋股數、SBC、選擇權、warrant、可轉換證券與期後增發，不以基本股數替代</td>
-</tr>
-<tr>
-<td>最新財報期間</td>
-<td>FY2026 Q3（截至 2026-06-28）</td>
-</tr>
-<tr>
-<td>主要財報來源</td>
-<td><a href="https://investor.qualcomm.com/financial-information">Qualcomm FY2026 Q3 10-Q 與官方財報</a></td>
-</tr>
-<tr>
-<td>主要估值來源</td>
-<td>2026-09-08 收盤與正式財報；Forward 倍數及同日同業倍數未完整取得者標示需查證</td>
-</tr>
-<tr>
-<td>主要產業來源</td>
-<td>公司 IR／正式申報、客戶與競爭者公開資料；管理層指引不視為已實現事實</td>
-</tr>
-<tr>
-<td>主要籌碼／股權來源</td>
-<td>SEC 13F、Forms 3/4/5、13D/G、公司回購與 SBC 揭露、交易所 short interest；均注意申報落後</td>
-</tr>
-<tr>
-<td>上游決策來源</td>
-<td>reports/news/2026-09-09_kol_news_decision_report.md「現在不能買，但值得等買點名單」；只作研究排序</td>
-</tr>
-<tr>
-<td>資料缺口</td>
-<td>同日 fully diluted 股數、完整 13F／Form 4／short interest、同業同日估值與市場共識</td>
-</tr>
-<tr>
-<td>需再次查證數據</td>
-<td>期後股本變化、預估倍數、客戶集中度及管理層指引的實現進度</td>
+<td><a href="https://openapi.twse.com.tw/v1/exchangeReport/BWIBBU_ALL">TWSE 估值資料</a></td>
+<td>9/8 台股參照同業 PE/PB</td>
+<td>各市場會計、稅制及成長結構不同</td>
 </tr>
 </tbody>
 </table></div>
-<p>研究日更新優先採正式財報與公司公告；價格來自本地重新取得的市場資料。無法由一手來源核對的欄位保留「需查證」，不以過時估值補空。</p>
+<p>本文財務金額除另註外為<strong>百萬美元</strong>。財報與同公司新聞稿算同一原始來源體系；價格雙來源沒有提升為官方驗證。最新股數、完整股權稀釋與即時資金資料仍有缺口，<code>decision_ready=false</code>。</p>
 <h2>1. 一頁式懶人包</h2>
-<ul>
-<li>Qualcomm 以 QCT 晶片平台與 QTL 通訊專利授權雙引擎獲利；手機仍最大，但汽車、IoT、PC、Edge AI 與資料中心是多元化主軸。</li>
-<li>FY2026 Q3 營收 99.47 億美元、年減 4%，GAAP EPS 1.87、non-GAAP EPS 2.21 美元。</li>
-<li>QCT 手機收入年減 20%，但汽車 15.88 億美元、年增 61%，IoT 18.30 億、年增 9%，汽車＋IoT 合計年增 28%。</li>
-<li>九個月 CFO 84.05 億美元、扣資本支出 15.78 億後簡化 FCF 約 68.27 億美元；QTL 高利潤支撐研發與股東回饋。</li>
-<li>最終評級：<strong>分批布局</strong>。以 9/8 收盤和既有 TTM EPS 粗算約 19.9 倍 P/E，非手機成長可信，但手機、成本與客戶自研風險要求小量、分批及基本面失效線。</li>
-</ul>
+<p><strong>研究評級：觀察。</strong> 高通仍有手機晶片與專利授權產生現金，汽車成長也已出現在營收；資料中心的估值空間正在擴張，但伴隨併購成本、股份支付與客戶認股權。174.09 美元參考價格接近本報告中性情境折現價值區間中部，現階段沒有足夠安全邊際支持直接升評。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>判斷項目</th>
+<th>結論與數字</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公司靠什麼賺錢</td>
+<td>QCT 銷售手機、汽車與 IoT 晶片；QTL 收取技術專利授權費</td>
+</tr>
+<tr>
+<td>已證實改善</td>
+<td>Q3 汽車營收 1,588、年增 61%；IoT 1,830、年增 9%</td>
+</tr>
+<tr>
+<td>正在承壓</td>
+<td>Q3 手機 5,086，對比去年 6,328 約減 19.6%；總營收年減 4%</td>
+</tr>
+<tr>
+<td>獲利品質</td>
+<td>九個月淨利 12,377 含約 5,700 稅務利益；營業利益反而年減 22.6%</td>
+</tr>
+<tr>
+<td>現金與資本分配</td>
+<td>九個月 CFO 8,405、FCF 6,827；買回加股利 9,674，超過 FCF</td>
+</tr>
+<tr>
+<td>新事件</td>
+<td>Amazon 認股權最多 2,500 萬股，只有 375 萬股於發行時歸屬；付款門檻最多 600 億美元不是現成積壓訂單</td>
+</tr>
+<tr>
+<td>最重要反方</td>
+<td>手機客戶自研基頻、記憶體與製造成本、資料中心量產和軟體整合延誤</td>
+</tr>
+<tr>
+<td>下一個證據</td>
+<td>Q4 總營收 97–105 億美元指引是否達成，以及 FY2027 非手機收入的實際放量</td>
+</tr>
+</tbody>
+</table></div>
+<p>投資論點應拆成可收現的既有業務與仍需履約的成長投資。不能用受稅務利益放大的單期 EPS，直接替整家公司貼上「低本益比 AI 股」標籤。</p>
 <h2>2. 公司如何賺錢</h2>
-<ul>
-<li>QCT 設計 Snapdragon SoC、數據機、RF front-end 與連接平台，供應手機、汽車座艙／ADAS、PC、XR 與 IoT。</li>
-<li>QTL 授權 3G／4G／5G 標準必要及其他專利；Q3 收入規模較小，但 EBT margin 69%，是高品質現金流核心。</li>
-<li>無晶圓廠模式依賴先進代工、封裝測試與記憶體供應商；毛利受製程成本、產品組合、OEM 議價與定價時差影響。</li>
-<li>汽車 design-win 轉收入需多年，但車款生命週期長；Alphawave 與 Modular 收購則擴大資料中心互連及 AI 軟體能力。</li>
-</ul>
+<p>QCT 以產品與平台銷售賺取晶片毛利，研發先投入，晶圓製造、封裝與測試則依賴供應鏈。QTL 授權組合主要連結裝置銷售與相關授權條款，資本需求低、利益率高，但受訴訟、反壟斷與客戶議價影響。手機、汽車的認證和設計週期不同，不能用相同訂單轉換速度推估。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>業務</th>
+<th style="text-align:right">Q3 FY2026 營收</th>
+<th>獲利與需求機制</th>
+<th>須避免的推論</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QCT 手機</td>
+<td style="text-align:right">5,086</td>
+<td>Snapdragon、通訊與相關平台滲透率、單機晶片價值</td>
+<td>高階產品成功不代表全球手機出貨同步增長</td>
+</tr>
+<tr>
+<td>QCT 汽車</td>
+<td style="text-align:right">1,588</td>
+<td>車用數位座艙與其他平台設計案進入量產</td>
+<td>設計案總價值不是當季認列營收</td>
+</tr>
+<tr>
+<td>QCT IoT</td>
+<td style="text-align:right">1,830</td>
+<td>消費、工業、邊緣裝置等多種需求</td>
+<td>AI PC 或機器人題材不等於所有 IoT 都高成長</td>
+</tr>
+<tr>
+<td>QCT 合計</td>
+<td style="text-align:right">8,504</td>
+<td>規模與產品組合、製造成本共同決定利潤</td>
+<td>不能加上 QTL 後就視為精確合併總數，仍有其他項目</td>
+</tr>
+<tr>
+<td>QTL</td>
+<td style="text-align:right">1,278</td>
+<td>本季稅前利益 881，約 69% EBT 率</td>
+<td>EBT 率不是合併營業利益率</td>
+</tr>
+</tbody>
+</table></div>
+<p>以上來自 7/29 官方財報。管理層提出 FY2029 非手機營收 400 億美元目標及 FY2027 非手機成長超過 60%，屬管理層策略目標；本報告沒有直接把它當成已簽約可交付營收。</p>
 <h2>3. 從公司反推產業</h2>
-<ul>
-<li>產業橫跨無線通訊晶片、標準必要專利、Edge AI 與車用數位平台，上接 EDA／IP／代工，下接手機、汽車、PC 和 IoT。</li>
-<li>手機成熟，成長依賴高階 Android 市占、裝置端 AI、換機及 RF 含量；Apple／Samsung 自研是結構性替代風險。</li>
-<li>汽車與 Edge AI 受軟體定義車、數位座艙、ADAS 和本地推論驅動，成長較快但驗證與量產週期長。</li>
-<li>標準專利具平台經濟，但持續面臨監管、訴訟、續約與地區銷售組合風險。</li>
-</ul>
+<p>高通位於「無線連接與運算平台」交界。產業競爭從手機效能、耗電與數據機，延伸到車用軟體、邊緣 AI、資料中心晶片及高速互連。共同資產包括半導體 IP、系統整合能力與 OEM 關係；不同業務仍有各自的軟體生態和驗證成本。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>產業變化</th>
+<th>需求驅動</th>
+<th>可觀察的轉化證據</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>手機價值提升</td>
+<td>裝置端 AI、旗艦產品功能</td>
+<td>ASP 與晶片內容價值能否抵銷出貨及客戶自製損失</td>
+</tr>
+<tr>
+<td>汽車數位化</td>
+<td>座艙運算與平台整合</td>
+<td>量產平台數、汽車實際營收與盈利</td>
+</tr>
+<tr>
+<td>邊緣 AI</td>
+<td>企業需要本地推論與低功耗運算</td>
+<td>付費部署與後續擴張，而非示範機數</td>
+</tr>
+<tr>
+<td>資料中心客製晶片</td>
+<td>大型雲端客戶追求成本與效能</td>
+<td>正式採購、投片、量產、驗收和收款</td>
+</tr>
+<tr>
+<td>成本上升</td>
+<td>晶圓、先進封裝、記憶體與材料漲價</td>
+<td>議價能否轉嫁，以及庫存去化速度</td>
+</tr>
+</tbody>
+</table></div>
+<p>截至最新財報，手機仍是 QCT 最大單一收入源。把高通完全分類為資料中心純受惠者，會忽略既有收入結構與轉型投資期的利潤壓力。</p>
 <h2>4. 產業鏈上下游分析</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>位置</th>
-<th>角色</th>
-<th>主要內容</th>
-<th>代表美股</th>
-<th>代表台股</th>
-<th>議價力</th>
-<th>主要風險</th>
+<th>環節</th>
+<th>參與者與關係</th>
+<th>高通的位置</th>
+<th>集中風險</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>上游</td>
-<td>EDA／IP</td>
-<td>設計工具、CPU IP</td>
-<td>SNPS、CDNS、ARM</td>
-<td>3443（間接）</td>
-<td>高</td>
-<td>出口管制</td>
+<td>上游設計工具／IP</td>
+<td>EDA、指令集及各類 IP 供應商</td>
+<td>研發工具與授權使用方</td>
+<td>工具成本、授權限制及人才競爭</td>
 </tr>
 <tr>
-<td>製造</td>
-<td>晶圓／封測</td>
-<td>先進製程、封裝測試</td>
-<td>TSM、AMKR</td>
-<td>2330、3711</td>
-<td>高</td>
-<td>成本、地緣</td>
+<td>晶圓製造</td>
+<td>台積電等代工體系；特定節點實際佔比需查證</td>
+<td>無晶圓廠設計與採購方</td>
+<td>先進節點產能、地緣與良率</td>
 </tr>
 <tr>
-<td>核心</td>
-<td>通訊／AI 晶片與授權</td>
-<td>SoC、modem、RF、SEP</td>
-<td>QCOM、AVGO</td>
-<td>2454</td>
-<td>中高</td>
-<td>自研、手機循環</td>
+<td>封裝測試／記憶體</td>
+<td>封測與記憶體供應商</td>
+<td>整合與採購成本承擔者</td>
+<td>投入成本轉嫁落後</td>
 </tr>
 <tr>
-<td>下游</td>
-<td>裝置／汽車</td>
-<td>手機、PC、座艙、ADAS</td>
-<td>AAPL、DELL、GM</td>
-<td>2357、2382</td>
-<td>大型客戶高</td>
-<td>庫存、驗證</td>
+<td>手機／汽車 OEM</td>
+<td>裝置與車用客戶</td>
+<td>平台供應商和技術合作方</td>
+<td>垂直整合、自研或更換平台</td>
+</tr>
+<tr>
+<td>雲端資料中心</td>
+<td>Amazon 等合作客戶</td>
+<td>新伺服器晶片與服務供應方</td>
+<td>單一大型客戶議價與履約集中</td>
+</tr>
+<tr>
+<td>軟體生態</td>
+<td>Modular 等軟體資產</td>
+<td>透過併購補足部署工具</td>
+<td>跨架構相容、開發者採用與整合成本</td>
 </tr>
 </tbody>
 </table></div>
-<p>QCOM 同時賺取產品收入與 IP 權利金，能攤提巨額研發，但也同時承擔先進製程成本與終端客戶議價。</p>
+<p>10-Q 披露九個月最大兩個匿名客戶／被授權方佔營收 24% 與 20%；不得自行把匿名比例對號入座成 Apple 或其他指定公司。Alphawave 已於 2025-12 完成併購，Modular 於 2026-07-28 完成；兩者並非仍待簽約的相同階段交易。<a href="https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm">10-Q</a></p>
 <h2>5. 商業模式與護城河</h2>
-<ul>
-<li>蜂巢式通訊標準必要專利、長期標準參與及跨客戶授權形成 QTL 護城河。</li>
-<li>modem、CPU、GPU、NPU、RF 與軟體整合可降低 OEM 開發難度，特別適用高階 Android、車用及 Edge AI。</li>
-<li>車用 design-win 與多年量產週期增加可見度，跨手機、IoT、PC 與資料中心擴大研發重用。</li>
-<li>護城河受 MediaTek 價格競爭、Apple／Samsung 自研、ARM 生態變化與反壟斷限制，不能把 QTL margin 外推至 QCT。</li>
-</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>面向</th>
+<th>支持護城河的證據</th>
+<th>可能削弱護城河的力量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>技術與專利</td>
+<td>QTL 本季 69% 稅前利益率反映授權經濟性</td>
+<td>法律爭議、標準演進與價格談判</td>
+</tr>
+<tr>
+<td>系統整合</td>
+<td>手機通訊、運算與功耗平台能力</td>
+<td>大客戶自研及競爭平台追趕</td>
+</tr>
+<tr>
+<td>轉換成本</td>
+<td>車用平台設計與認證週期</td>
+<td>下一代設計案仍可能轉單</td>
+</tr>
+<tr>
+<td>規模研發</td>
+<td>九個月 R&amp;D 7,523，佔營收約 22.9%</td>
+<td>新事業投入先發生，營收可能延後</td>
+</tr>
+<tr>
+<td>軟體與生態</td>
+<td>Modular 有助補足跨硬體 AI 軟體層</td>
+<td>交易價值和人才留任支出不自動形成採用率</td>
+</tr>
+</tbody>
+</table></div>
+<p>高通已有成熟的通訊護城河，但資料中心護城河仍要用量產、客戶續單與產品盈利檢驗。Amazon 成為認股權持有人表示商業利益連動，不能證明客戶放棄其他供應商或自研晶片。</p>
 <h2>6. 重要財務與營運指標</h2>
-<ul>
-<li>FYQ3 營收 99.47 億美元、GAAP 淨利 20.02 億、EPS 1.87；non-GAAP EPS 2.21。</li>
-<li>QCT 收入 85.04 億、年減 5%，EBT margin 26%；QTL 12.78 億、年減 3%，EBT margin 69%。</li>
-<li>QCT 手機 50.86 億（-20%）、汽車 15.88 億（+61%）、IoT 18.30 億（+9%）；非手機已能部分抵銷手機下滑。</li>
-<li>前九月營收 327.98 億、CFO 84.05 億、capex 15.78 億；庫存變動使用 17.98 億美元現金，需追蹤記憶體供應約束。</li>
-<li>Q4 指引營收 97–105 億、QCT 84–90 億、QTL 12–14 億、non-GAAP EPS 2.05–2.25；Q3 回饋股東 23 億美元。</li>
-</ul>
+<p>下表為 FY2026 前九個月對比 FY2025 同期，美元百萬；資產負債比較日為 2026-06-28 與 2025-09-28，均來自本期 10-Q。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>損益／現金項目</th>
+<th style="text-align:right">本期</th>
+<th style="text-align:right">前期</th>
+<th>解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>營收</td>
+<td style="text-align:right">32,798</td>
+<td style="text-align:right">33,013</td>
+<td>約 -0.7%</td>
+</tr>
+<tr>
+<td>毛利＝營收－成本</td>
+<td style="text-align:right">17,660</td>
+<td style="text-align:right">18,309</td>
+<td>毛利率 53.8% 對 55.5%</td>
+</tr>
+<tr>
+<td>營業利益</td>
+<td style="text-align:right">7,302</td>
+<td style="text-align:right">9,437</td>
+<td>約 -22.6%，利潤壓力比營收明顯</td>
+</tr>
+<tr>
+<td>歸屬淨利</td>
+<td style="text-align:right">12,377</td>
+<td style="text-align:right">8,658</td>
+<td>包含約 57 億美元遞延所得稅評價備抵回轉利益</td>
+</tr>
+<tr>
+<td>稀釋 EPS</td>
+<td style="text-align:right">11.53</td>
+<td style="text-align:right">7.79</td>
+<td>不能當成無一次性利益的經常性 EPS</td>
+</tr>
+<tr>
+<td>CFO</td>
+<td style="text-align:right">8,405</td>
+<td style="text-align:right">10,016</td>
+<td>約 -16.1%</td>
+</tr>
+<tr>
+<td>資本支出</td>
+<td style="text-align:right">1,578</td>
+<td style="text-align:right">785</td>
+<td>約翻倍，影響自由現金流</td>
+</tr>
+<tr>
+<td>FCF＝CFO－capex</td>
+<td style="text-align:right">6,827</td>
+<td style="text-align:right">9,231</td>
+<td>約 -26.0%，不含併購支出</td>
+</tr>
+<tr>
+<td>股份薪酬 SBC</td>
+<td style="text-align:right">2,579</td>
+<td style="text-align:right">2,120</td>
+<td>佔營收 7.9%；為非現金費用但有股權成本</td>
+</tr>
+<tr>
+<td>買回／股利現金</td>
+<td style="text-align:right">6,806／2,868</td>
+<td style="text-align:right">6,347／2,848</td>
+<td>本期合計為 FCF 141.7%，不可持續假設超額分配</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>資產負債項目</th>
+<th style="text-align:right">6/28</th>
+<th style="text-align:right">前財年末</th>
+<th>風險解讀</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>現金／有價證券</td>
+<td style="text-align:right">4,533／3,771</td>
+<td style="text-align:right">5,520／4,635</td>
+<td>前期另有受限制現金 2,323，本期為零</td>
+</tr>
+<tr>
+<td>應收帳款</td>
+<td style="text-align:right">4,668</td>
+<td style="text-align:right">4,315</td>
+<td>平均應收／九個月營收×273 日，約 37.4 日，為估算</td>
+</tr>
+<tr>
+<td>存貨</td>
+<td style="text-align:right">8,379</td>
+<td style="text-align:right">6,526</td>
+<td>增加 28.4%；原料 682、在製品 5,005、製成品 2,692</td>
+</tr>
+<tr>
+<td>存貨周轉天數估算</td>
+<td style="text-align:right">134.4 日</td>
+<td style="text-align:right">未用不同期間強行比較</td>
+<td>平均存貨／九個月成本×273 日，不能解讀成公司公告 KPI</td>
+</tr>
+<tr>
+<td>應付帳款</td>
+<td style="text-align:right">2,897</td>
+<td style="text-align:right">2,791</td>
+<td>現金流存貨增加使用 1,798，應收增加使用 264</td>
+</tr>
+<tr>
+<td>短債／長債</td>
+<td style="text-align:right">2,489／12,781</td>
+<td style="text-align:right">0／14,811</td>
+<td>合計 15,270，扣現金與有價證券淨負債 6,966</td>
+</tr>
+<tr>
+<td>股東權益</td>
+<td style="text-align:right">27,658</td>
+<td style="text-align:right">21,206</td>
+<td>增加主要受到本期獲利及稅項影響</td>
+</tr>
+</tbody>
+</table></div>
+<p>CFO／GAAP 淨利約 67.9%，但本期淨利有巨額非現金稅項，不能僅憑此比例斷言收款惡化。粗略扣除約 5,700 稅務利益後，CFO 約為調整淨利的 126%；此簡化值也沒有剔除投資損益等其他一次性因素。保守的 FCF 扣 SBC 敏感度為 4,248，並非 GAAP 指標，也不應與已用完全稀釋股數的估值重複扣除同一成本。</p>
+<p>Q3 GAAP EPS 1.87、非 GAAP 2.21；Q4 官方指引分別 1.22–1.42 與 2.05–2.25。兩者差距包含股份薪酬與其他調整，不能混搭做跨期本益比。<a href="https://www.sec.gov/Archives/edgar/data/804328/000080432826000085/qcom062826erex991.htm">官方指引</a></p>
 <h2>7. 籌碼面與股權結構分析</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>項目</th>
-<th>研究結論</th>
+<th>已核實內容</th>
+<th>應如何使用</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>機構持股與主要股東</td>
-<td>最新完整 13F／13D／13G 需查證；申報有落後，不視為即時資金流</td>
+<td>普通股數</td>
+<td>7/27 為 10.50 億股；6/28 財報列 10.57 億股</td>
+<td>這是實際日期存量，與九個月稀釋加權 10.73 億股不同</td>
 </tr>
 <tr>
-<td>內部人交易</td>
-<td>最新 3–6 個月 Form 4 與交易性質需逐筆查證；授予、稅款扣繳與公開市場交易不得混稱</td>
+<td>Alphawave 可交換股</td>
+<td>6/28 約 400 萬股，一換一；財報已與普通股合併列示</td>
+<td>在同一財報口徑不得再加一次</td>
 </tr>
 <tr>
-<td>空頭部位</td>
-<td>最新交易所 short interest、結算日、float 與 days to cover 需查證</td>
+<td>Modular 交易</td>
+<td>7/28 發行約 1,800 萬股，其中約 400 萬股附四年服務條件</td>
+<td>用 10.50＋0.18＝10.68 億作交易後粗略普通股橋接；封面股數是否含仍在外交換股需查證，不能沿用財務報表已合併口徑推定</td>
 </tr>
 <tr>
-<td>回購與 SBC</td>
-<td>依最新財報檢視回購是否抵銷股權報酬與增發；缺完整橋接時不推定淨縮股</td>
+<td>Amazon 認股權</td>
+<td>最多 2,500 萬股，行使價 161.26，2036-09-03 到期，可無現金行使</td>
+<td>上限約為 10.68 億的 2.34%；不是全部已流通或必然增發</td>
 </tr>
 <tr>
-<td>判讀</td>
-<td>籌碼資料不足，不能用單日量價替代持股申報；目前只作風險監測</td>
+<td>已歸屬認股權</td>
+<td>發行時歸屬 375 萬股，其餘依商業里程碑</td>
+<td>未行使前無普通股投票權，不得當作已成交股票</td>
+</tr>
+<tr>
+<td>State Street</td>
+<td>6/30 實益持有 52,822,532 股、申報 5.0%；共享投票 33,338,208 股</td>
+<td>投票權低於實益持有量；非最新每日持股</td>
+</tr>
+<tr>
+<td>內部人、空單、期權流</td>
+<td>最新 Form 4 彙整、完整 13F 比較、官方短倉與期權方向需查證</td>
+<td>不能以價格上漲反推法人買盤或做軋空結論</td>
+</tr>
+<tr>
+<td>其他稀釋</td>
+<td>尚未歸屬員工股權及交易後最新完整股數需查證</td>
+<td>基本市值只是基準，不能標成完全稀釋市值</td>
 </tr>
 </tbody>
 </table></div>
-<p>簡單說，目前這檔股票的籌碼狀態是資料仍不完整，必須等待同一基準日的 13F、Form 4、short interest 與股數橋接，不能把延遲申報說成即時買賣。</p>
+<p>9/8 公告的最高 600 億美元付款，是用來決定認股權逐步歸屬的里程碑範圍，涉及商業安排、具約束力採購單及實際採購。它不等同於已簽下 600 億美元不可取消合約，更不是本季收入。<a href="https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm">8-K 條款</a></p>
 <h2>8. 美股與台股同業比較</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>代號</th>
 <th>公司</th>
-<th>定位</th>
-<th>優勢</th>
-<th>主要風險</th>
-<th>可比性</th>
+<th>市場</th>
+<th>關係分類</th>
+<th>可比較部分</th>
+<th>不可直接比較部分</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>QCOM</td>
-<td>Qualcomm</td>
-<td>通訊／Edge AI 平台＋IP</td>
-<td>專利、整合、現金流</td>
-<td>手機、自研替代</td>
-<td>標的</td>
+<td>聯發科 2454</td>
+<td>台股</td>
+<td>直接競爭</td>
+<td>手機 SoC、連接及邊緣產品</td>
+<td>專利授權收入結構不同</td>
 </tr>
 <tr>
-<td>AVGO</td>
-<td>Broadcom</td>
-<td>連接、ASIC、軟體</td>
-<td>規模、客戶深度</td>
-<td>集中、槓桿</td>
-<td>中</td>
+<td>Broadcom AVGO</td>
+<td>美股</td>
+<td>部分直接／鄰近</td>
+<td>連接與客製運算晶片</td>
+<td>基礎軟體佔比與併購攤銷不同</td>
 </tr>
 <tr>
-<td>ARM</td>
-<td>Arm</td>
-<td>CPU IP</td>
-<td>生態系</td>
-<td>估值、客戶自研</td>
-<td>中</td>
+<td>NVIDIA NVDA</td>
+<td>美股</td>
+<td>運算平台競爭／主題</td>
+<td>AI 軟硬體平台</td>
+<td>目前資料中心規模與生態不相等</td>
 </tr>
 <tr>
-<td>MBLY</td>
-<td>Mobileye</td>
-<td>ADAS 平台</td>
-<td>視覺與資料</td>
-<td>車市、競爭</td>
-<td>中</td>
+<td>AMD</td>
+<td>美股</td>
+<td>運算平台競爭</td>
+<td>CPU／資料中心部署</td>
+<td>手機與專利授權比重不同</td>
 </tr>
 <tr>
-<td>2454</td>
-<td>聯發科</td>
-<td>手機／Edge AI SoC</td>
-<td>成本與整合</td>
-<td>高階市占</td>
-<td>高</td>
+<td>Marvell MRVL</td>
+<td>美股</td>
+<td>鄰近直接</td>
+<td>資料中心連接及客製晶片</td>
+<td>車用和手機平台結構不同</td>
 </tr>
 <tr>
-<td>2330</td>
-<td>台積電</td>
-<td>晶圓代工</td>
-<td>先進製程</td>
-<td>地緣政治</td>
-<td>上游參照</td>
+<td>創意 3443</td>
+<td>台股</td>
+<td>客製晶片鄰近</td>
+<td>ASIC 設計服務</td>
+<td>專案 NRE／量產模式，不是高通全公司同業</td>
+</tr>
+<tr>
+<td>世芯-KY 3661</td>
+<td>台股</td>
+<td>客製晶片鄰近</td>
+<td>ASIC 設計及客戶集中</td>
+<td>產品與毛利結構不同</td>
+</tr>
+<tr>
+<td>台積電 2330</td>
+<td>台股</td>
+<td>上游</td>
+<td>先進製造需求</td>
+<td>資本密集代工，不能拿其 PE 直接定高通價值</td>
 </tr>
 </tbody>
 </table></div>
+<p>比較應控制手機、授權、資料中心各自的增長與獲利比例。台灣 ASIC 股的高倍數也包含各自預期與市場結構，不能複製到尚未完成相同營收轉型的高通。</p>
 <h2>9. 估值比較與同業本益比區間</h2>
+<p>以二手核對的 174.09 美元，搭配交易後<strong>粗略</strong> 10.68 億股基準，股權價值約 1,859.3 億美元，加 6/28 淨負債約 69.7 億，EV 約 1,928.9 億。日期不完全相同且未完整稀釋，僅供尺度感。若 7/27 封面普通股仍需加上約 400 萬股交換股，經濟基準為 10.72 億股，市值約 1,866.2 億美元、EV 約 1,935.9 億、下述 P/S 約 4.35 倍，差異約 0.37%。FY2026 營收以九個月 327.98 億＋Q4 指引中點 101 億＝428.98 億估算，P/S 約 4.33 倍；這是預測全年收入，不能標成 TTM。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>標的</th>
-<th style="text-align:right">P/E</th>
-<th style="text-align:right">P/S</th>
-<th style="text-align:right">EV/EBITDA</th>
-<th>估值判讀</th>
+<th>標的／方法</th>
+<th>數值與日期</th>
+<th>適用解讀</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>QCOM</td>
-<td style="text-align:right">約 19.9 倍 TTM 粗估</td>
-<td style="text-align:right">P/S 需以 9/8 市值重算</td>
-<td style="text-align:right">需查證</td>
-<td>手機折價與多元化選擇權並存</td>
+<td>高通 Q3 非 GAAP EPS 年化 PE</td>
+<td>174.09／(2.21×4)＝19.69 倍</td>
+<td>單季年化、未反映季節性，不是 forward consensus</td>
 </tr>
 <tr>
-<td>2454</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>手機直接可比</td>
+<td>高通 Q4 指引中點非 GAAP 年化 PE</td>
+<td>174.09／(2.15×4)＝20.24 倍</td>
+<td>使用指引而非實現值；不混成 GAAP</td>
 </tr>
 <tr>
-<td>AVGO</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>AI／軟體溢價，不完全可比</td>
+<td>高通季度股利年化殖利率</td>
+<td>0.92×4／174.09＝2.11%</td>
+<td>假設未來維持本季配息，非保證</td>
 </tr>
 <tr>
-<td>MBLY</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td style="text-align:right">需查證</td>
-<td>車用純度較高</td>
+<td>聯發科 2454</td>
+<td>9/8 官方 PE 77.79、PB 17.72</td>
+<td>台灣交易所歷史盈餘倍數</td>
+</tr>
+<tr>
+<td>創意 3443</td>
+<td>9/8 官方 PE 152.78、PB 59.32</td>
+<td>高倍數反映特殊成長預期，不是估值底線</td>
+</tr>
+<tr>
+<td>世芯-KY 3661</td>
+<td>9/8 官方 PE 59.11、PB 5.76</td>
+<td>需連同收入認列與客戶風險看</td>
+</tr>
+<tr>
+<td>台積電 2330</td>
+<td>9/8 官方 PE 28.63、PB 9.96</td>
+<td>上游參照，不當直接估值錨</td>
+</tr>
+<tr>
+<td>AVGO／NVDA／AMD／MRVL</td>
+<td>相同收盤日及相同盈餘口徑數據需查證</td>
+<td>不填入來源不明的倍數區間</td>
 </tr>
 </tbody>
 </table></div>
-<p>約 19.9 倍 P/E 是以 9/8 收盤 174.09 美元除以既有 TTM EPS 8.76 美元的粗估；同日股數、市值與 Forward 共識仍需查證。是否便宜取決於手機下滑幅度、QCT margin 與非手機成長能否接棒。</p>
+<p>本報告不把前九個月含稅務回轉的 EPS 年化當便宜證據。下節用明列經常性淨利率、稀釋股數與倍數的模型呈現價值範圍，避免把會計一次性利益資本化。</p>
 <h2>10. 未來 3 年量化情境分析</h2>
+<p>以下為研究者假設，<strong>不是公司指引、共識或目標價</strong>。基準年 FY2026 收入 428.98 億美元為前節推估；未來三年為 FY2027–FY2029。營收單位十億美元，淨利率扣正常稅負與經常性股份薪酬，排除大型稅務回轉及重大投資一次性損益。稀釋股數單位十億股，已概括買回、員工股與不同程度合作認股權成本。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>情境</th>
-<th>核心假設</th>
-<th>營收方向</th>
-<th>利潤率</th>
-<th>估值框架</th>
-<th>觸發條件</th>
+<th>FY2027 營收／淨利率／股數／EPS</th>
+<th>FY2028 營收／淨利率／股數／EPS</th>
+<th>FY2029 營收／淨利率／股數／EPS</th>
+<th style="text-align:right">FY26–29 收入 CAGR</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>保守</td>
+<td>45／15%／1.10／6.14</td>
+<td>47／16%／1.10／6.84</td>
+<td>49／17%／1.10／7.57</td>
+<td style="text-align:right">4.5%</td>
+</tr>
+<tr>
+<td>中性</td>
+<td>49／19%／1.09／8.54</td>
+<td>56／21%／1.09／10.79</td>
+<td>64／22%／1.08／13.04</td>
+<td style="text-align:right">14.3%</td>
+</tr>
 <tr>
 <td>樂觀</td>
-<td>手機穩、汽車／IoT／資料中心加速</td>
-<td>高個位數以上</td>
-<td>QCT 回升</td>
-<td>成長平台重評</td>
-<td>非手機&gt;40%、margin 升</td>
-</tr>
-<tr>
-<td>基準</td>
-<td>手機弱、非手機抵銷</td>
-<td>低至中個位數</td>
-<td>大致持穩</td>
-<td>18–22 倍＋股息</td>
-<td>Q4 達標、庫存受控</td>
-</tr>
-<tr>
-<td>悲觀</td>
-<td>客戶自研、成本與景氣同壓</td>
-<td>負成長</td>
-<td>QCT／QTL 下滑</td>
-<td>成熟半導體折價</td>
-<td>市占、授權惡化</td>
+<td>55／22%／1.10／11.00</td>
+<td>67／25%／1.12／14.96</td>
+<td>80／27%／1.13／19.12</td>
+<td style="text-align:right">23.1%</td>
 </tr>
 </tbody>
 </table></div>
+<p>保守情境假設手機需求偏弱、客戶自研流失、資料中心放量延後且成本轉嫁有限；中性假設汽車與 IoT 持續擴張、部分資料中心計畫量產、正常化費用率下降；樂觀需要多代資料中心合作按期大規模出貨、軟體採用成功及手機穩定，難度最高，不能因一份合作公告就當成基準。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情境</th>
+<th style="text-align:right">FY2029 經常性 EPS</th>
+<th style="text-align:right">研究者假設 PE</th>
+<th style="text-align:right">FY2029 股權價值／股</th>
+<th style="text-align:right">折現至目前價值／股</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保守</td>
+<td style="text-align:right">7.57</td>
+<td style="text-align:right">12–15</td>
+<td style="text-align:right">90.9–113.6</td>
+<td style="text-align:right">68.3–85.3</td>
+</tr>
+<tr>
+<td>中性</td>
+<td style="text-align:right">13.04</td>
+<td style="text-align:right">16–20</td>
+<td style="text-align:right">208.6–260.7</td>
+<td style="text-align:right">156.7–195.9</td>
+</tr>
+<tr>
+<td>樂觀</td>
+<td style="text-align:right">19.12</td>
+<td style="text-align:right">20–24</td>
+<td style="text-align:right">382.3–458.8</td>
+<td style="text-align:right">287.2–344.7</td>
+</tr>
+</tbody>
+</table></div>
+<p>公式為 EPS＝收入×淨利率／稀釋股數；期末價值＝EPS×PE；目前價值＝期末價值／1.10³。10% 折現率、PE 與經營假設均為分析選擇；未計三年現金股利。若中性 EPS 13.04 不變，PE 每減少 2 倍，期末價值減少約 26.1 美元；若股數比模型多 5%，每股價值約減少 4.8%。這是估值敏感度，不是下單指令。</p>
 <h2>11. 投資建議與執行策略</h2>
+<p>評級為<strong>觀察</strong>。尚不選「買入」或「分批佈局」，因現價只落在中性區間中段，資料中心放量和完全稀釋口徑未完成驗證；不選「續抱」，因本報告不假設讀者已持有，也沒有持倉成本；不直接選「減碼 / 賣出」，因成熟業務仍有大量正 FCF，轉型失敗也尚未成為已確立事實。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>代號</th>
-<th>評級</th>
-<th>適合投資人</th>
-<th>主要理由</th>
-<th>不宜一次買足原因</th>
-<th>改變評級條件</th>
+<th>可升評條件</th>
+<th>可降評條件</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>QCOM</td>
-<td>分批布局</td>
-<td>能理解半導體週期與 IP 模式者</td>
-<td>估值合理、FCF 強、車用 61% 成長</td>
-<td>手機 -20%、成本與自研風險</td>
-<td>手機落底＋QCT margin 升可上調；市占與 QTL 惡化則下調</td>
+<td>連續兩季非手機實際成長支持 FY2027 目標，且毛利不再惡化</td>
+<td>資料中心收入／量產連續延遲，合作里程碑不能轉為收款</td>
+</tr>
+<tr>
+<td>存貨周轉改善、FCF 恢復增長，分配不持續高於 FCF</td>
+<td>存貨繼續快於營收增長、跌價或取消採購風險增加</td>
+</tr>
+<tr>
+<td>披露最新普通股、交換股與認股權橋接，稀釋可控</td>
+<td>併購、SBC 與合作認股權使每股增長明顯落後總利潤</td>
+</tr>
+<tr>
+<td>市場價格較更新後中性價值有明確折讓</td>
+<td>手機份額流失與授權利益率同時低於中性假設</td>
 </tr>
 </tbody>
 </table></div>
-<p>StockLoop 雙策略出現買點且收盤位置 96.2%，適合用小量分批與回測確認，避免在日內高位一次投入。</p>
+<p>研究型執行順序是先核對下一份財報與新股數，再更新模型和折現區間，最後才判斷安全邊際。價格跌幅本身不能替代基本面轉折證據。</p>
 <h2>12. 投資標的分層</h2>
-<ul>
-<li>核心穩健型：QTL 現金流與股東回饋具有成熟品質。</li>
-<li>成長型：汽車、IoT、PC、Edge AI 與資料中心。</li>
-<li>景氣循環型：手機與消費 IoT 晶片。</li>
-<li>高風險高報酬型：不是純題材股，但客戶自研會造成結構風險。</li>
-<li>本次定位：品質型半導體循環股，可分批研究布局。</li>
-</ul>
-<h2>13. 產業、籌碼與市場風險與反方觀點</h2>
-<ul>
-<li>Apple、Samsung 及中國 OEM 自研或轉單，可能同時壓低手機出貨、市占與 ASP。</li>
-<li>晶圓、封裝、測試、記憶體成本上升；定價有時差，QCT margin 可能先承壓。</li>
-<li>QTL 面臨監管、訴訟與授權續約，極高 margin 不是無風險債券。</li>
-<li>汽車 design-win 不等於當期營收，車款延遲或 ADAS 競爭會影響轉換。</li>
-<li>多頭反方認為非手機 FY2027 將加速；需用公司總營收、FCF 與 QCT margin 證明接棒，而非只看單一收入增速。</li>
-</ul>
-<h2>14. 後續研究與追蹤清單</h2>
-<ul>
-<li>拆解 Q4 手機、汽車、IoT、QCT margin 與 QTL 授權假設。</li>
-<li>追蹤 Apple modem 自研、高階 Android 市占、Snapdragon PC 與車用 backlog 轉收入。</li>
-<li>檢查庫存、供應承諾、成本轉嫁、Alphawave／Modular 整合及資料中心里程碑。</li>
-<li>建立 QCOM、2454、AVGO、MBLY 同口徑 forward P/E、FCF yield 與研發率。</li>
-</ul>
-<h2>15. 結論</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>問題</th>
-<th>結論</th>
+<th>層級</th>
+<th>標的與用途</th>
+<th>本次狀態</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>是否為產業好入口</td>
-<td>是，可理解行動 SoC、專利授權與邊緣 AI</td>
+<td>成熟現金流研究層</td>
+<td>QCOM 手機與授權平台</td>
+<td>正 FCF 明確，但轉型成本和手機風險需追蹤</td>
 </tr>
 <tr>
-<td>產業是否值得長期追蹤</td>
-<td>值得，車用、IoT 與資料中心是手機外第二曲線</td>
+<td>非手機成長驗證層</td>
+<td>QCOM 汽車、IoT、資料中心</td>
+<td>汽車已有數字；資料中心須逐期驗收</td>
 </tr>
 <tr>
-<td>最重要投資邏輯</td>
-<td>QTL 現金流及非手機成長能否抵消手機與客戶自研風險</td>
+<td>直接競爭比較層</td>
+<td>2454、AVGO、MRVL 等</td>
+<td>比較產品組合及每股 FCF，非同步買入清單</td>
 </tr>
 <tr>
-<td>籌碼面評價</td>
-<td>最新完整 13F／Form 4／short 仍需查證</td>
-</tr>
-<tr>
-<td>最大風險</td>
-<td>手機收入下滑、成本上升與大客戶垂直整合</td>
-</tr>
-<tr>
-<td>估值是否已反映成長</td>
-<td>約 19.9 倍 TTM 粗估不極端，但 Forward 與同業仍需核</td>
-</tr>
-<tr>
-<td>最終投資評級</td>
-<td><strong>分批布局</strong></td>
-</tr>
-<tr>
-<td>優先研究產業鏈環節</td>
-<td>RF、車用設計勝出、IoT 與資料中心加速器</td>
+<td>上游景氣參照層</td>
+<td>2330</td>
+<td>用來觀察製造成本與產能，不能替代高通公司研究</td>
 </tr>
 </tbody>
 </table></div>
-<p>白話總結：高通的專利現金流仍有價值，買點卻不能只看本益比；要看到非手機收入和 QCT 利潤率確實接棒，才值得依條件分批。</p>
+<p>高通可以保留在「現在不能買，但值得等買點名單」的研究範圍；此分類表示等候證據和估值條件，沒有設定個人化倉位或自動交易價格。</p>
+<h2>13. 產業、籌碼與市場風險與反方觀點</h2>
+<p>最強反方是成熟手機業務的流失速度快於新業務獲利增長，而市場已先支付資料中心成功的倍數。10-Q 明確提示 Apple 自研數據機將對 QCT 收入、經營成果與現金流產生重大負面影響；這不是只停留在市場傳言的風險。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>風險</th>
+<th>傳導途徑</th>
+<th>否定或修正本報告的訊號</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>客戶與中國集中</td>
+<td>自研、出口限制、終端需求變化</td>
+<td>匿名大客戶收入和區域銷售持續下降</td>
+</tr>
+<tr>
+<td>成本與庫存</td>
+<td>製造／記憶體漲價先侵蝕毛利</td>
+<td>庫存跌價、在製品積壓與毛利續降</td>
+</tr>
+<tr>
+<td>商業合作估值過度</td>
+<td>把最高採購門檻當已保證營收</td>
+<td>正式訂單／驗收低於市場敘事</td>
+</tr>
+<tr>
+<td>併購與軟體整合</td>
+<td>商譽 14,274、人才薪酬、產品整合</td>
+<td>技術路線延誤、資產減損或高員工流失</td>
+</tr>
+<tr>
+<td>股份成本</td>
+<td>交易增發、SBC、Amazon 認股權</td>
+<td>總獲利改善而每股 FCF 持平</td>
+</tr>
+<tr>
+<td>資本分配</td>
+<td>買回及股利超過當期 FCF</td>
+<td>淨負債持續上升，壓縮再投資彈性</td>
+</tr>
+</tbody>
+</table></div>
+<p>樂觀反方則認為新資料中心收入足以重估公司；若連續數季實際收入與每股 FCF 支持該判斷，本報告保守處理新事業的做法需要上修，不能固守舊手機公司框架。</p>
+<h2>14. 後續研究與追蹤清單</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>優先序</th>
+<th>追蹤項目</th>
+<th>來源與行動</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Q4 指引實現、FY2027 非手機成長</td>
+<td>下一次官方財報與 10-K；確認財年期間</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Amazon 正式訂單、認股權歸屬與行使</td>
+<td>後續 8-K、季度權益附註；不把門檻當積壓訂單</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Modular 與 Alphawave 股數及費用</td>
+<td>收購分攤、服務條件、SBC 和完全稀釋橋接</td>
+</tr>
+<tr>
+<td>4</td>
+<td>CFO、存貨、capex 與資本回饋</td>
+<td>追蹤現金流改善是否來自營運，而非帳面稅項</td>
+</tr>
+<tr>
+<td>5</td>
+<td>機構、內部人與短倉</td>
+<td>補最新 13F／Form 4、官方價格和短倉日期</td>
+</tr>
+<tr>
+<td>6</td>
+<td>直接同業同日估值</td>
+<td>統一 GAAP／非 GAAP、TTM／預測口徑後重算</td>
+</tr>
+</tbody>
+</table></div>
+<p>可驗證但尚未完成的缺口是交易後最新實際普通股及所有潛在稀釋、官方 9/8 收盤價格、完整機構與短倉資料。這些缺口不可用無來源數字填滿。</p>
+<h2>15. 結論</h2>
+<p>高通的投資重點是成熟通訊現金流能否支撐非手機轉型，並讓收入成長轉成每股價值。最新財報顯示汽車放量，也同時顯示手機、毛利、FCF 與資本分配壓力。Amazon 合作及新軟體資產擴大可能性，但還要扣除履約、時間與稀釋成本。2026-09-09 評級維持<strong>觀察</strong>，下一步聚焦實際非手機出貨、存貨與完全稀釋股數，而非單一新聞的最大金額。</p>
 </article></main></div>
-</body>
+<script src="../../assets/research-status.js" defer></script></body>
 </html>
