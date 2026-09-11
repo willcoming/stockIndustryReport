@@ -1,6 +1,6 @@
 window.STOCK_INDUSTRY_REPORTS = {
   "rating_schema_version": 1,
-  "generated_at": "2026-09-11T19:04:01.922904+00:00",
+  "generated_at": "2026-09-11T19:08:48.964805+00:00",
   "baseUrl": "https://willcoming.github.io/stockIndustryReport/",
   "base_url": "https://willcoming.github.io/stockIndustryReport/",
   "valid_days": 7,
@@ -988,7 +988,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "6a68fcf7375140760089eae6a23a3e7a008612d93cf15a2be718c71ada972a90",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "90306cbe09bd4faf99b69cc56f552bc1",
-      "latest_url": "stocks/tw-3029/latest.html",
+      "latest_url": "stocks/tw-3029/",
       "url": "stocks/tw-3029/",
       "aliases": [
         "3029",
@@ -1571,7 +1571,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "496dd6114d9f5cea7a00794617ccd6fac4b23c9146e25ceb5ba27ef2bfa3dfae",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2466/latest.html",
+      "latest_url": "stocks/tw-2466/",
       "url": "stocks/tw-2466/",
       "aliases": [
         "2466",
@@ -5294,7 +5294,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "4cf961ea934f9115c21417b1842350d3b1db98e6c2ad467834922ad3d173975f",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2369/latest.html",
+      "latest_url": "stocks/tw-2369/",
       "url": "stocks/tw-2369/",
       "aliases": [
         "2369",
@@ -6591,7 +6591,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "4e2b04cd35ddd5b9ff05e9de622029bfe3477a9aae5c8decf288ecacdfe9d11c",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-6239/2026-09-09/report.html",
+      "latest_url": "stocks/tw-6239/",
       "url": "stocks/tw-6239/",
       "aliases": [
         "6239",
@@ -6703,7 +6703,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "2574026b7ab8062b92913a39af3157f29cb6fb39d51f192988ade5b76b847db6",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-6531/2026-09-09/report.html",
+      "latest_url": "stocks/tw-6531/",
       "url": "stocks/tw-6531/",
       "aliases": [
         "6531",
@@ -6872,7 +6872,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "eec292a6c791fccd7745047b571b6be3b1d8e3f57e6523541025390ca3398b62",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-6789/2026-09-09/report.html",
+      "latest_url": "stocks/tw-6789/",
       "url": "stocks/tw-6789/",
       "aliases": [
         "6789",
@@ -7140,7 +7140,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "3bd289ac1bde925bf45efc49021d7514c92c648e8edd50cd9dd17f0598585e2e",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-8131/2026-09-09/report.html",
+      "latest_url": "stocks/tw-8131/",
       "url": "stocks/tw-8131/",
       "aliases": [
         "8131",
@@ -7170,7 +7170,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "20a8ca485aa5725cedd59989808bdd296a337f1bcbfed6c40febf24e23e73e46",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-8150/2026-09-09/report.html",
+      "latest_url": "stocks/tw-8150/",
       "url": "stocks/tw-8150/",
       "aliases": [
         "8150",
@@ -7394,7 +7394,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "29a66c95e7b2f3fdad5bcfcfa9476164545f5bd4ba7db0f446ec200bce554676",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "90306cbe09bd4faf99b69cc56f552bc1",
-      "latest_url": "stocks/tw-6265/latest.html",
+      "latest_url": "stocks/tw-6265/",
       "url": "stocks/tw-6265/",
       "aliases": [
         "6265",
@@ -7424,7 +7424,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "981927215969cd736b8a7f42205884f6d62321c8afdc195ebc83358071b44341",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "90306cbe09bd4faf99b69cc56f552bc1",
-      "latest_url": "stocks/tw-3289/latest.html",
+      "latest_url": "stocks/tw-3289/",
       "url": "stocks/tw-3289/",
       "aliases": [
         "3289",
@@ -8022,7 +8022,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "3db0d8f6a44c5173b5e84ca2cada89e71cbe86d9c24dd32457eea8364355e9cf",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1304/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1304/",
       "url": "stocks/tw-1304/",
       "aliases": [
         "1304",
@@ -8052,7 +8052,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "098d72256fc8f10416270627d2c1c9ca6e6e49432092002e64fd4ff602db1596",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1305/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1305/",
       "url": "stocks/tw-1305/",
       "aliases": [
         "1305",
@@ -8133,7 +8133,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "b535d97e6776cbb21fc1b9b2bbf73c3a95023fc386efbfb3fe4407a77a253c0a",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1310/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1310/",
       "url": "stocks/tw-1310/",
       "aliases": [
         "1310",
@@ -8163,7 +8163,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "1399e5c8b819520596504fae1eceab04ad0376e6697ff20201eb4d410c38cc3f",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1313/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1313/",
       "url": "stocks/tw-1313/",
       "aliases": [
         "1313",
@@ -8351,7 +8351,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "d566c16811c1a8c99c7582985c703b34ecae363d7f4d72f1f9f187219bf3c99c",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2367/latest.html",
+      "latest_url": "stocks/tw-2367/",
       "url": "stocks/tw-2367/",
       "aliases": [
         "2367",
@@ -9392,7 +9392,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "746787285dbdfe5d11eac1b2d7b4876973e8d51adb5513a5b3d643bbcd569585",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1316/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1316/",
       "url": "stocks/tw-1316/",
       "aliases": [
         "1316",
@@ -9449,7 +9449,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "134d6ddbe6bf7c2d97a9bbbffb2728932cabdd1b3c49f9959f0d698f4cb554cc",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1808/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1808/",
       "url": "stocks/tw-1808/",
       "aliases": [
         "1808",
@@ -9533,7 +9533,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "7a1598f497b7480ae15e1261251b06fca91bd99128d8df120235ed01850c03db",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2504/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2504/",
       "url": "stocks/tw-2504/",
       "aliases": [
         "2504",
@@ -9588,7 +9588,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "1593306703d8ef8e320619db05c856179b4e27be494ea3203dfa4c8b76c17e96",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2515/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2515/",
       "url": "stocks/tw-2515/",
       "aliases": [
         "2515",
@@ -9783,7 +9783,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "5db411eac9721d15205f5d611fd44397f98a5d1e676b18740fcbdefe5bd3e6b0",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2539/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2539/",
       "url": "stocks/tw-2539/",
       "aliases": [
         "2539",
@@ -9813,7 +9813,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "4a627482345bb968226176f5fa02916a869d707e34289a74344522614e82093c",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2540/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2540/",
       "url": "stocks/tw-2540/",
       "aliases": [
         "2540",
@@ -9899,7 +9899,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "7990419677d8a4a22103df75b3a244a09d62068dae4824bf914c539cda8faa59",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2547/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2547/",
       "url": "stocks/tw-2547/",
       "aliases": [
         "2547",
@@ -9957,7 +9957,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "e1cff570acd9edade4d64729218d2802268183f3ab049090d91c104d2de75f5e",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-3703/2026-09-09/report.html",
+      "latest_url": "stocks/tw-3703/",
       "url": "stocks/tw-3703/",
       "aliases": [
         "3703",
@@ -9987,7 +9987,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "7bb4b4b0e86897c98b1b2a1cd12e397f0ab1845a43b0a5f9d87e57ceb8744d25",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-5521/2026-09-09/report.html",
+      "latest_url": "stocks/tw-5521/",
       "url": "stocks/tw-5521/",
       "aliases": [
         "5521",
@@ -10919,7 +10919,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "4155405c0bb34aef2bc5813b03da86d873738ff12486ea1e484e8985f1358de4",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2485/latest.html",
+      "latest_url": "stocks/tw-2485/",
       "url": "stocks/tw-2485/",
       "aliases": [
         "2485",
@@ -11497,7 +11497,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "deffca8986544eb44d6e6966af7c6a8bdb2afbe3dee70e58db7e198149d15183",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2104/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2104/",
       "url": "stocks/tw-2104/",
       "aliases": [
         "2104",
@@ -11527,7 +11527,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "fa413cdad5deb2d8ebfe00d0a99bc7b76f012d26735cd62cbfd67ea3bf0d7781",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2105/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2105/",
       "url": "stocks/tw-2105/",
       "aliases": [
         "2105",
@@ -11667,7 +11667,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "bd08e296b16b73cd9949c150313d4577bf7a1da44478983914614a3e8bfad4b2",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1101/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1101/",
       "url": "stocks/tw-1101/",
       "aliases": [
         "1101",
@@ -12162,7 +12162,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "c159e52d373cec8cdd97c53cd4f997601644e81fd5872ca60483e660d7375635",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2254/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2254/",
       "url": "stocks/tw-2254/",
       "aliases": [
         "2254",
@@ -12246,7 +12246,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "5d0c97300b575e4c10b6accb024a65d5e8f41a0ae137096e04bcaf997d1cbff6",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-4551/2026-09-09/report.html",
+      "latest_url": "stocks/tw-4551/",
       "url": "stocks/tw-4551/",
       "aliases": [
         "4551",
@@ -12500,7 +12500,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "02720052672cbbc4ea1a078efc439bc0bb5556984293bbf44eb89b5a43040c1b",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-8926/2026-09-09/report.html",
+      "latest_url": "stocks/tw-8926/",
       "url": "stocks/tw-8926/",
       "aliases": [
         "8926",
@@ -12844,7 +12844,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "96f4e26e07ef6dcd34eecde4900e63bed285d7d505aad89973fd74f723199970",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1809/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1809/",
       "url": "stocks/tw-1809/",
       "aliases": [
         "1809",
@@ -12874,7 +12874,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "30cd1ffb104ca7f19b7d8344482e87b4bb656c502717f39398fc36c791f844ed",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1810/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1810/",
       "url": "stocks/tw-1810/",
       "aliases": [
         "1810",
@@ -14185,7 +14185,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "10591fc88e0defcac9006e620860cc078ed733379f37ea7e6695846174dc4db3",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1409/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1409/",
       "url": "stocks/tw-1409/",
       "aliases": [
         "1409",
@@ -14243,7 +14243,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "b8ce1e576455c24d7fa621a0768704c70018ff3bd9562da5ebce6804158eb412",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1434/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1434/",
       "url": "stocks/tw-1434/",
       "aliases": [
         "1434",
@@ -15049,7 +15049,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "f986c91d57d4d19884904ffc4c11ae488a1c06a83fb112b513a94370f7fc32c5",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2332/latest.html",
+      "latest_url": "stocks/tw-2332/",
       "url": "stocks/tw-2332/",
       "aliases": [
         "2332",
@@ -15228,7 +15228,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "65c1dd231ff9a5dc1277a12f3cf4b0d13a16fcb125006f31ec8dc526ac7a49d1",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "90306cbe09bd4faf99b69cc56f552bc1",
-      "latest_url": "stocks/tw-3455/latest.html",
+      "latest_url": "stocks/tw-3455/",
       "url": "stocks/tw-3455/",
       "aliases": [
         "3455",
@@ -15360,7 +15360,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "f2e28e378fadbe9b42660fecc91cd2e7aa630205d54a2827b99f1362ec7ae8b8",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2618/latest.html",
+      "latest_url": "stocks/tw-2618/",
       "url": "stocks/tw-2618/",
       "aliases": [
         "2618",
@@ -15390,7 +15390,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "af43b872a01ddd20022f22f714cc33b96cb0bfa7391643f97207c8baa4098309",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2634/latest.html",
+      "latest_url": "stocks/tw-2634/",
       "url": "stocks/tw-2634/",
       "aliases": [
         "2634",
@@ -17895,7 +17895,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "d8b89ba0956b5916fbc0cdf0b59c5fc6d7b955e41a0743ef6991cf0cc66d6c4e",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2468/latest.html",
+      "latest_url": "stocks/tw-2468/",
       "url": "stocks/tw-2468/",
       "aliases": [
         "2468",
@@ -17925,7 +17925,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "1bd0f1587e7c920dd25e73cfe64b1e7f5b33a712f56dfa0c05b252068b0c6c29",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "90306cbe09bd4faf99b69cc56f552bc1",
-      "latest_url": "stocks/tw-6148/latest.html",
+      "latest_url": "stocks/tw-6148/",
       "url": "stocks/tw-6148/",
       "aliases": [
         "6148",
@@ -18353,7 +18353,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "ee004819cfc73e5699ac4e4e7827568723cd35628e15c8b86d827f2a14587fad",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-3047/2026-09-09/report.html",
+      "latest_url": "stocks/tw-3047/",
       "url": "stocks/tw-3047/",
       "aliases": [
         "3047",
@@ -18412,7 +18412,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "ab6ead6577ef22c4e75bbf753f31f1854b6386ba101ecbafe676c95f8ca2616a",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-3380/2026-09-09/report.html",
+      "latest_url": "stocks/tw-3380/",
       "url": "stocks/tw-3380/",
       "aliases": [
         "3380",
@@ -18442,7 +18442,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "4e1633fbc0774121f4aab3a216b9f412cdb339bf74b9587648e524e431aebb64",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-3596/2026-09-09/report.html",
+      "latest_url": "stocks/tw-3596/",
       "url": "stocks/tw-3596/",
       "aliases": [
         "3596",
@@ -18526,7 +18526,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "575344118e9cbdf16d310fc32d0e0ca00fd767cca62aea4056daa12fcebe9eef",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-4906/2026-09-09/report.html",
+      "latest_url": "stocks/tw-4906/",
       "url": "stocks/tw-4906/",
       "aliases": [
         "4906",
@@ -18636,7 +18636,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "d5a92b7c14528da4e3dc0940c0ddb7bb1fa37c02d272bfdfde96dfe4f888ff95",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-6152/2026-09-09/report.html",
+      "latest_url": "stocks/tw-6152/",
       "url": "stocks/tw-6152/",
       "aliases": [
         "6152",
@@ -18972,7 +18972,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "66861abc108457fa7721922c36085615bbe07fa627e9a36772f33ea24a912808",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1598/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1598/",
       "url": "stocks/tw-1598/",
       "aliases": [
         "1598",
@@ -19194,7 +19194,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "7fbc4cfbbc9f50c8cc3a3e6706aae14123463f3ef308924e48b1c7b6a4c24fbe",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-9914/2026-09-09/report.html",
+      "latest_url": "stocks/tw-9914/",
       "url": "stocks/tw-9914/",
       "aliases": [
         "9914",
@@ -20108,7 +20108,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "611317d5c4e3747d137700ad5ff11cd1d678c4009092e2040c8a7dc868f3e6fa",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "b29ca18decb64a96992627d62ccd3f76",
-      "latest_url": "stocks/tw-2801/latest.html",
+      "latest_url": "stocks/tw-2801/",
       "url": "stocks/tw-2801/",
       "aliases": [
         "2801",
@@ -20198,7 +20198,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "70a1187df542472ccfa94fb585c7702085493983f183c5203c6171f5b5d39996",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2002/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2002/",
       "url": "stocks/tw-2002/",
       "aliases": [
         "2002",
@@ -20256,7 +20256,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "62c2837a70df8b89ffb3cb2fe57151de8041445162007af3fee95a9c72228b52",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2009/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2009/",
       "url": "stocks/tw-2009/",
       "aliases": [
         "2009",
@@ -20286,7 +20286,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "6416757e233c4f8684f896bd41df7c22a8ff1b037f67f5edf320eade98a89ec0",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2010/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2010/",
       "url": "stocks/tw-2010/",
       "aliases": [
         "2010",
@@ -20568,7 +20568,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "9d1e884b0ad17ac7224374a264e890355561ca3ca70fc3bfd93526ab9a62b7cc",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2033/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2033/",
       "url": "stocks/tw-2033/",
       "aliases": [
         "2033",
@@ -20702,7 +20702,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "74fca2947ee6fee0f66bc2e478a6731b2bbabf4886b81e9848027b1eb3f9b4a4",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-3004/2026-09-09/report.html",
+      "latest_url": "stocks/tw-3004/",
       "url": "stocks/tw-3004/",
       "aliases": [
         "3004",
@@ -21098,7 +21098,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "1185cff4a05fc7bf6aa0c41e0290903a3401d31fbc7105774417baf6929013a7",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1609/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1609/",
       "url": "stocks/tw-1609/",
       "aliases": [
         "1609",
@@ -21128,7 +21128,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "e8419469a3f0cb0c9e06d623b0de0d75c733333b01f58a1d6706539447d91b11",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1611/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1611/",
       "url": "stocks/tw-1611/",
       "aliases": [
         "1611",
@@ -21183,7 +21183,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "bdadc1fa441f09cd2c61922a8e0eeacf66d214c7244fe3fb0d1664485c36222e",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-1616/2026-09-09/report.html",
+      "latest_url": "stocks/tw-1616/",
       "url": "stocks/tw-1616/",
       "aliases": [
         "1616",
@@ -22145,7 +22145,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "a55f8dc8a3bd7f410672eb8eab9b8d3882a4934dc331b428964219d58a6b3c44",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2316/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2316/",
       "url": "stocks/tw-2316/",
       "aliases": [
         "2316",
@@ -22175,7 +22175,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "44f92102f1588d2d89eb3bd2a8251bb7f4c14278f321ab752051bfbf90fcb508",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2328/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2328/",
       "url": "stocks/tw-2328/",
       "aliases": [
         "2328",
@@ -22205,7 +22205,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "ee11114114274b0b5eaac2a71b590b9d47c8cbdc9b7a6fca59a17b33e9af6bb1",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2355/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2355/",
       "url": "stocks/tw-2355/",
       "aliases": [
         "2355",
@@ -22478,7 +22478,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "a057e04d33f3813f7c9ce15a4aa8fbb3d48c792a0d2c1d9b59871bb19b3881e3",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2460/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2460/",
       "url": "stocks/tw-2460/",
       "aliases": [
         "2460",
@@ -22563,7 +22563,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "567de2b9a7fcd7e1f2e945a03670f94ea2034623633fdd2d4149656893a72560",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2483/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2483/",
       "url": "stocks/tw-2483/",
       "aliases": [
         "2483",
@@ -22593,7 +22593,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "8a0ef640f90e031dafb7f0e35cdada8c2689543944cb09dfd9766fc917f4ca75",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-2484/2026-09-09/report.html",
+      "latest_url": "stocks/tw-2484/",
       "url": "stocks/tw-2484/",
       "aliases": [
         "2484",
@@ -22790,7 +22790,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "0fa4985373d9d7db5f9d3934057b6068e7db265b6f3f3bc62a4c8411f91fb6ae",
       "source_report_sha256": "4b49223b81c1f1973ee2fdcf662fe0d9c88fdbf166724fc4c3467107a4ca133b",
       "research_run_id": "96c5b83116e14c37a41ed9c411c74356",
-      "latest_url": "reports/tw-3037/2026-09-09/report.html",
+      "latest_url": "stocks/tw-3037/",
       "url": "stocks/tw-3037/",
       "aliases": [
         "3037",
@@ -25467,7 +25467,7 @@ window.STOCK_INDUSTRY_REPORTS = {
       "content_hash": "83f1d911158088c4014225f299f44b29c20faabd16ab81740fbec1200d8fa02d",
       "source_report_sha256": "7fce3b8d1a71bcbb99248709f795de469cf5cf383d68b56ddd248357d1733903",
       "research_run_id": "90306cbe09bd4faf99b69cc56f552bc1",
-      "latest_url": "stocks/tw-6150/latest.html",
+      "latest_url": "stocks/tw-6150/",
       "url": "stocks/tw-6150/",
       "aliases": [
         "6150",
